@@ -1,7 +1,8 @@
-# 뭐쓸까? — AI 도구 비교 가이드
+# AI 뭐슐랭? — AI 도구 추천비교 가이드
 
 <p align="center">
-  <strong>AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong>
+  <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
+  <sub>마지막 업데이트: 2026-03-24</sub>
 </p>
 
 <p align="center">
@@ -13,8 +14,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tykimos/mwossulkka/issues"><img src="https://img.shields.io/github/issues/tykimos/mwossulkka?style=for-the-badge&label=Issues" alt="Issues"></a>
-  <a href="https://github.com/tykimos/mwossulkka/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/mwossulkka?style=for-the-badge&label=PRs" alt="PRs"></a>
+  <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
+  <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/팩트체크-2026.03.24-brightgreen?style=for-the-badge" alt="Fact Check">
   <img src="https://img.shields.io/badge/도구_수-32+-orange?style=for-the-badge" alt="Tools">
@@ -649,8 +650,8 @@ xychart-beta
 
 AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가 나왔다면:
 
-- **[PR 보내기](https://github.com/tykimos/mwossulkka/pulls)** — 가격 업데이트, 새 도구 추가, 오류 수정
-- **[Issue 열기](https://github.com/tykimos/mwossulkka/issues)** — "이거 틀렸어요", "이 도구 빠졌어요"
+- **[PR 보내기](https://github.com/tykimos/ai-whatchelin/pulls)** — 가격 업데이트, 새 도구 추가, 오류 수정
+- **[Issue 열기](https://github.com/tykimos/ai-whatchelin/issues)** — "이거 틀렸어요", "이 도구 빠졌어요"
 - **Star 눌러주세요** — 더 많은 개발자에게 닿을 수 있게
 
 ---

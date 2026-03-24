@@ -24,7 +24,7 @@
   <em>"도구가 너무 많아서 도구 고르다 하루가 간다" — 2026년 개발자의 흔한 하루</em>
 </p>
 
-[코딩 도구](#-코딩-도구-에이전트--ide) · [채팅 AI](#-채팅-ai) · [AI IDE](#-ai-ide) · [코드 어시스턴트](#-코드-어시스턴트-플러그인) · [앱 빌더](#-앱-빌더) · [자율 에이전트](#-자율-에이전트) · [오픈소스](#-오픈소스) · [가격 레이더](#-가격-레이더) · [팩트 체크 로그](#팩트-체크-로그-2026-03-24)
+[코딩 도구](#-코딩-도구-에이전트--ide) · [채팅 AI](#-채팅-ai) · [AI IDE](#-ai-ide) · [코드 어시스턴트](#-코드-어시스턴트-플러그인) · [앱 빌더](#-앱-빌더) · [자율 에이전트](#-자율-에이전트) · [오픈소스](#-오픈소스) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [팩트 체크 로그](#팩트-체크-로그-2026-03-24)
 
 ---
 
@@ -413,6 +413,149 @@ xychart-beta
 | **[Cursor Ultra](https://cursor.com)** | $200/월 | 20x 사용량 |
 | **[Windsurf Max](https://windsurf.com)** | $200/월 | 대용량 할당 |
 | **[Antigravity Ultra](https://antigravity.google)** | $249.99/월 | Google AI Ultra |
+
+---
+
+## 커뮤니티 반응 (비교 중심)
+
+> 실제 Reddit, Hacker News, 개발자 포럼에서 수집한 **서비스 간 직접 비교** 인용문.
+
+### Claude Code vs Codex CLI
+
+> *"프로덕션 코딩에서 꽤 엄격한 계획을 세운다. Codex는 대부분 계획을 벗어난다. Claude는 따른다."*
+> — Hacker News
+
+> *"Codex-medium은 잘 짜인 계획이 있을 때 더 낫고... Sonnet 4.5는 그 외 모든 것에 낫다."*
+> — HN user "extr" (141 points)
+
+> *"Codex를 쓰면서 15년 만에 처음으로 코딩이 다시 즐거워졌다."*
+> — HN user "nl" (94 points)
+
+| 상황 | 승자 |
+|---|---|
+| 계획 따르기, 복잡한 추론 | **Claude Code** |
+| 사용량 한도 걱정 없이 | **Codex CLI** |
+| 구조화된 작업 | **Codex CLI** |
+| 어려운 디버깅 | **Claude Code** |
+
+### Claude Code vs Cursor
+
+> *"Cursor는 이미 아는 걸 더 빠르게 해준다. 가속기다. Claude Code는 대신 해준다. 위임자다."*
+> — Builder.io
+
+> *"무료 Cursor 구독을 줘도 Claude Code를 포기해야 한다면 거부하겠다."*
+> — r/ClaudeCode
+
+> *"Claude Code는 동일 작업에 Cursor 대비 5.5배 적은 토큰을 쓴다."*
+> — 독립 개발자 벤치마크
+
+| 상황 | 승자 |
+|---|---|
+| 일상 인라인 편집, 비주얼 diff | **Cursor** |
+| 자율 멀티파일 작업, 어려운 문제 | **Claude Code** |
+| 토큰 효율성 | **Claude Code** |
+
+### Cursor vs Windsurf
+
+> *"Cursor: 더 비싸게, 덜 주고, 어떻게 작동하는지 묻지 마."*
+> — r/programming (highly upvoted)
+
+> *"Windsurf는 50만 줄 모노레포에서 컨텍스트를 더 잘 잡고 에러가 적었다."*
+> — r/ChatGPTCoding
+
+> *"코드를 좀 아는 개발자라면 Cursor를 골라라. 기존 코드 위에서 반복 작업할 때 훨씬 낫다."*
+> — r/webdev
+
+| 상황 | 승자 |
+|---|---|
+| 대규모 코드베이스, 예산 팀 | **Windsurf** |
+| 복잡한 리팩토링, human-in-the-loop | **Cursor** |
+
+### Cursor vs Antigravity
+
+> *"실제로 내 코드베이스를 이해하는 사람과 페어 프로그래밍하는 느낌이다."*
+> — Cursor 지지자
+
+> *"Antigravity가 캐시 삭제 작업을 잘못 해석해서 유저의 D 드라이브 전체를 날렸다."*
+> — r/programming, HN (widely shared)
+
+| 상황 | 승자 |
+|---|---|
+| 안전성, 예측 가능성, 프로덕션 | **Cursor** |
+| 멀티에이전트 자율 실행 (위험 감수) | Antigravity |
+
+### Windsurf vs Antigravity
+
+> *"Antigravity에서 Opus로 코딩하다가 Gemini로 강제 전환되는 순간은, 무모한 운전자에게 핸들을 넘기는 것과 같다."*
+> — r/ClaudeAI
+
+> *"수개월간의 조용한 쿼터 축소, 167시간 잠금, Pro 플랜 5시간 갱신 약속 위반 후... 수천 명이 대안을 찾고 있다."*
+> — 2026.03 "Antigravity 엑소더스"
+
+| 상황 | 승자 |
+|---|---|
+| 모델 일관성, 성숙도 | **Windsurf** |
+| 완전 무료 프리뷰 (쿼터 안에서) | Antigravity |
+
+### ChatGPT vs Claude (코딩)
+
+> *"Claude가 Python에서 GPT4를 압도한다."*
+> — r/programming
+
+> *"어제 Claude로 갈아탔는데 폰 앱 전체를 만들어줬다. 내 말을 진짜 듣는 느낌이다."*
+> — r/programming
+
+| 상황 | 승자 |
+|---|---|
+| 코딩 품질 (78% 선호) | **Claude** |
+| 범용성, 생태계 폭 | **ChatGPT** |
+
+### Gemini CLI vs Claude Code
+
+> *"당연히 Claude Code지."*
+> — Composio.dev 저자, 양쪽 테스트 후 한마디 결론
+
+> Claude는 1시간 17분에 완료, Gemini CLI는 2시간 2분. Claude $4.80, Gemini $7.06.
+
+| 상황 | 승자 |
+|---|---|
+| 속도, 품질, 토큰 효율 | **Claude Code** |
+| 무료 사용 (1,000 req/일) | **Gemini CLI** |
+
+### GitHub Copilot vs Cursor
+
+> *"Copilot이 더 세련되고 안정적이다. VSCode 쓰는 사람은 설정도 쉽고, 모델도 다양하고, GitHub 관련 컨텍스트 이해가 훨씬 낫다."*
+> — AlexLamper, GitHub Community (accepted answer)
+
+| 상황 | 승자 |
+|---|---|
+| VSCode 일상 사용, 저비용, GitHub 통합 | **GitHub Copilot** |
+| 멀티파일 리팩토링, 대규모 에이전트 | **Cursor** |
+
+### Trae vs Cursor
+
+> *"프로프라이어터리 코드를 ByteDance 서버로 보내는 건 진짜 법적/컴플라이언스 리스크다."*
+> — 보안 커뮤니티
+
+> *"공짜... 직장을 잃기 전까지는."*
+> — r/programming, r/netsec 요약
+
+| 상황 | 승자 |
+|---|---|
+| 무료 솔로 프로토타이핑 (비기업) | **Trae** |
+| 프로덕션, 기업 코드 | **Cursor** |
+
+### 앱 빌더: Bolt vs Lovable vs v0
+
+> *"v0은 UI에, Bolt는 풀스택 속도에, Lovable은 DB 필요한 초보자에."*
+
+> *"세 플랫폼 모두 생성 코드의 40~45%에 취약점."* — NxCode 2026
+
+| 상황 | 승자 |
+|---|---|
+| UI/컴포넌트 디자인 | **v0** |
+| 풀스택 속도, 프레임워크 유연성 | **Bolt.new** |
+| 비개발자, Supabase 통합 | **Lovable** |
 
 ---
 

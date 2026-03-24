@@ -22,7 +22,7 @@ jobs:
       - name: Run Claude Code to update README
         uses: anthropics/claude-code-action@v1
         with:
-          claude_access_token: ${{ secrets.CLAUDE_ACCESS_TOKEN }}
+          claude_access_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             당신은 "뭐쓸까?" 프로젝트의 자동 업데이트 에이전트입니다.
 

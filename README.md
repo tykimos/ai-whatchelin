@@ -27,18 +27,6 @@
   <a href="https://lovable.dev"><img src="https://img.shields.io/badge/Lovable-ec4899?style=for-the-badge" alt="Lovable" height="28"></a>
   <a href="https://replit.com"><img src="https://img.shields.io/badge/Replit-f26207?style=for-the-badge&logo=replit&logoColor=white" alt="Replit" height="28"></a>
   <a href="https://www.tabnine.com"><img src="https://img.shields.io/badge/Tabnine-4a154b?style=for-the-badge" alt="Tabnine" height="28"></a>
-  <br>
-  <a href="#-코딩-도구-에이전트--ide"><img src="https://img.shields.io/badge/코딩_도구-7개-6366f1?style=for-the-badge" alt="코딩 도구"></a>
-  <a href="#-채팅-ai"><img src="https://img.shields.io/badge/채팅_AI-6개-3b82f6?style=for-the-badge" alt="채팅 AI"></a>
-  <a href="#-ai-ide"><img src="https://img.shields.io/badge/AI_IDE-6개-10b981?style=for-the-badge" alt="AI IDE"></a>
-  <a href="#-앱-빌더"><img src="https://img.shields.io/badge/앱_빌더-4개-f59e0b?style=for-the-badge" alt="앱 빌더"></a>
-  <a href="#-오픈소스"><img src="https://img.shields.io/badge/오픈소스-7개-ec4899?style=for-the-badge" alt="오픈소스"></a>
-  <br>
-  <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
-  <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-  <img src="https://img.shields.io/badge/팩트체크-2026.03.24-brightgreen?style=for-the-badge" alt="Fact Check">
-  <img src="https://img.shields.io/badge/도구_수-32+-orange?style=for-the-badge" alt="Tools">
 </p>
 
 <p align="center">
@@ -63,6 +51,18 @@
 <img src="https://img.shields.io/badge/powered_by-Claude_Code-f59e0b?style=for-the-badge" alt="Claude Code">
 <img src="https://img.shields.io/badge/검색_대상-32+_도구-ec4899?style=for-the-badge" alt="32+ tools">
 <img src="https://img.shields.io/badge/데이터_소스-14+_사이트-10b981?style=for-the-badge" alt="14+ sites">
+<br><br>
+<a href="#-코딩-도구-에이전트--ide"><img src="https://img.shields.io/badge/코딩_도구-7개-6366f1?style=for-the-badge" alt="코딩 도구"></a>
+<a href="#-채팅-ai"><img src="https://img.shields.io/badge/채팅_AI-6개-3b82f6?style=for-the-badge" alt="채팅 AI"></a>
+<a href="#-ai-ide"><img src="https://img.shields.io/badge/AI_IDE-6개-10b981?style=for-the-badge" alt="AI IDE"></a>
+<a href="#-앱-빌더"><img src="https://img.shields.io/badge/앱_빌더-4개-f59e0b?style=for-the-badge" alt="앱 빌더"></a>
+<a href="#-오픈소스"><img src="https://img.shields.io/badge/오픈소스-7개-ec4899?style=for-the-badge" alt="오픈소스"></a>
+<br>
+<a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
+<a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
+<img src="https://img.shields.io/badge/팩트체크-2026.03.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/도구_수-32+-orange?style=for-the-badge" alt="Tools">
 
 </td>
 </tr>

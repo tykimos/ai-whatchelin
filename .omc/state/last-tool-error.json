@@ -1,7 +1,0 @@
-{
-  "tool_name": "WebFetch",
-  "tool_input_preview": "{\"url\":\"https://www.producthunt.com/p/cursor/cursor-or-claude-code\",\"prompt\":\"Extract all direct developer quotes comparing Cursor and Claude Code from this ProductHunt discussion. Include upvote coun...",
-  "error": "Request failed with status code 403",
-  "timestamp": "2026-03-24T11:19:47.081Z",
-  "retry_count": 1
-}

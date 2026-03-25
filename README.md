@@ -27,6 +27,21 @@
   <a href="https://lovable.dev"><img src="https://img.shields.io/badge/Lovable-ec4899?style=for-the-badge" alt="Lovable" height="28"></a>
   <a href="https://replit.com"><img src="https://img.shields.io/badge/Replit-f26207?style=for-the-badge&logo=replit&logoColor=white" alt="Replit" height="28"></a>
   <a href="https://www.tabnine.com"><img src="https://img.shields.io/badge/Tabnine-4a154b?style=for-the-badge" alt="Tabnine" height="28"></a>
+  <a href="https://www.midjourney.com"><img src="https://img.shields.io/badge/Midjourney-000000?style=for-the-badge" alt="Midjourney" height="28"></a>
+  <a href="https://openai.com"><img src="https://img.shields.io/badge/GPT_Image-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="GPT Image" height="28"></a>
+  <a href="https://stability.ai"><img src="https://img.shields.io/badge/Stable_Diffusion-a855f7?style=for-the-badge" alt="SD" height="28"></a>
+  <a href="https://ideogram.ai"><img src="https://img.shields.io/badge/Ideogram-6366f1?style=for-the-badge" alt="Ideogram" height="28"></a>
+  <a href="https://bfl.ai"><img src="https://img.shields.io/badge/Flux-0ea5e9?style=for-the-badge" alt="Flux" height="28"></a>
+  <a href="https://firefly.adobe.com"><img src="https://img.shields.io/badge/Firefly-ff0000?style=for-the-badge&logo=adobe&logoColor=white" alt="Firefly" height="28"></a>
+  <a href="https://ai.google.dev"><img src="https://img.shields.io/badge/Imagen-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Imagen" height="28"></a>
+  <a href="https://openai.com/sora"><img src="https://img.shields.io/badge/Sora-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Sora" height="28"></a>
+  <a href="https://runwayml.com"><img src="https://img.shields.io/badge/Runway-000000?style=for-the-badge" alt="Runway" height="28"></a>
+  <a href="https://klingai.com"><img src="https://img.shields.io/badge/Kling-ef4444?style=for-the-badge" alt="Kling" height="28"></a>
+  <a href="https://deepmind.google/technologies/veo"><img src="https://img.shields.io/badge/Veo-34a853?style=for-the-badge&logo=google&logoColor=white" alt="Veo" height="28"></a>
+  <a href="https://pika.art"><img src="https://img.shields.io/badge/Pika-f59e0b?style=for-the-badge" alt="Pika" height="28"></a>
+  <a href="https://lumalabs.ai"><img src="https://img.shields.io/badge/Luma-8b5cf6?style=for-the-badge" alt="Luma" height="28"></a>
+  <a href="https://hailuoai.video"><img src="https://img.shields.io/badge/HailuoAI-06b6d4?style=for-the-badge" alt="HailuoAI" height="28"></a>
+  <a href="https://www.microsoft.com/en-us/microsoft-365-copilot"><img src="https://img.shields.io/badge/Copilot_MS-0078d4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Copilot MS" height="28"></a>
 </p>
 
 <p align="center">

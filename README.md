@@ -960,6 +960,109 @@ All pricing information has been directly verified from each service's official 
 
 ---
 
+## 2026 Company Release Timeline
+
+> Every major AI announcement in 2026, fact-checked with official sources.
+
+### Anthropic (Claude)
+
+> 2026 has been insane for Anthropic.
+
+| Date | Release | Source |
+|---|---|---|
+| 01/12 | Claude Cowork (Mac research preview) | [anthropic.com](https://www.anthropic.com/news) |
+| 01/13 | Anthropic Labs (research incubator) | [anthropic.com](https://www.anthropic.com/news/introducing-anthropic-labs) |
+| 01/22 | Claude's New Constitution | [anthropic.com](https://www.anthropic.com/news/claude-new-constitution) |
+| 01/30 | Cowork Plugins (11 open-source) | [siliconangle.com](https://siliconangle.com/2026/01/30/anthropic-debuts-claude-cowork-plugins-help-users-automate-tasks/) |
+| 02/05 | **Opus 4.6** + Claude in PowerPoint + Excel update + Compaction API | [anthropic.com](https://www.anthropic.com/news/claude-opus-4-6) |
+| 02/07 | Fast Mode (2.5x faster Opus 4.6) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 02/10 | Cowork for Windows | [venturebeat.com](https://venturebeat.com/technology/anthropics-claude-cowork-finally-lands-on-windows-and-it-wants-to-automate) |
+| 02/12 | **$30B Series G** ($380B valuation) | [anthropic.com](https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation) |
+| 02/17 | **Sonnet 4.6** | [anthropic.com](https://www.anthropic.com/news/claude-sonnet-4-6) |
+| 02/20 | Claude Code Security (500+ vulns found) | [anthropic.com](https://www.anthropic.com/news/claude-code-security) |
+| 02/24 | Cowork Enterprise + Plugin Marketplace | [techcrunch.com](https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/) |
+| 02/25 | Claude Code Remote Control + Cowork Scheduled Tasks + Vercept acquisition | [venturebeat.com](https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote) |
+| 03/02 | Claude Memory (free tier) + ChatGPT import | [engadget.com](https://www.engadget.com/ai/anthropic-brings-memory-to-claudes-free-plan-220729070.html) |
+| 03/06 | Claude Marketplace + Mozilla Firefox Security Partnership | [siliconangle.com](https://siliconangle.com/2026/03/06/anthropic-launches-claude-marketplace-third-party-cloud-services/) |
+| 03/07 | Claude Community Ambassadors | [claude.com](https://claude.com/community/ambassadors) |
+| 03/09 | Claude Code Review (multi-agent PR review) | [techcrunch.com](https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/) |
+| 03/11 | Excel & PowerPoint cross-app update + Anthropic Institute | [anthropic.com](https://www.anthropic.com/news/the-anthropic-institute) |
+| 03/12 | Charts/diagrams in chat + $100M Partner Network | [anthropic.com](https://www.anthropic.com/news/claude-partner-network) |
+| 03/13 | **1M context window GA** (no premium) | [claude.com](https://claude.com/blog/1m-context-ga) |
+| 03/17 | Dispatch (persistent agent thread) | [mlq.ai](https://mlq.ai/news/anthropic-launches-claude-dispatch-for-remote-desktop-ai-control/) |
+| 03/20 | Projects in Cowork + Claude Code Channels (Discord/Telegram) | [venturebeat.com](https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels) |
+| 03/23 | **Claude Computer Use** (mouse/keyboard control) | [engadget.com](https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html) |
+| 03/24 | Claude Code Auto Mode | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
+
+### OpenAI
+
+| Date | Release | Source |
+|---|---|---|
+| 01/14 | GPT-5.2-Codex (agentic coding) | [openai.com](https://openai.com/index/introducing-gpt-5-2-codex/) |
+| 01/16 | **ChatGPT Go** ($8/mo, 170+ countries) | [openai.com](https://openai.com/index/introducing-chatgpt-go/) |
+| 02/05 | **GPT-5.3-Codex** (25% faster, self-bootstrapped) | [openai.com](https://openai.com/index/introducing-gpt-5-3-codex/) |
+| 02/12 | GPT-5.3-Codex-Spark (1,000+ tok/s, Cerebras) | [openai.com](https://openai.com/index/introducing-gpt-5-3-codex-spark/) |
+| 03/03 | GPT-5.3 Instant (less "cringe") | [openai.com](https://openai.com/index/gpt-5-3-instant/) |
+| 03/05 | **GPT-5.4** (Thinking + Pro, computer use, 1M context) | [openai.com](https://openai.com/index/introducing-gpt-5-4/) |
+| 03/17 | Simplified model picker (Instant/Thinking/Pro) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 03/18 | GPT-5.4 mini rollout | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
+| 03/20 | Codex for Students ($100 credits) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 03/20 | **SuperApp announced** (ChatGPT + Codex + Atlas browser) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing) |
+| 03/24 | **Sora shutdown** (app + API discontinued) | [axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app) |
+
+### Google (DeepMind)
+
+| Date | Release | Source |
+|---|---|---|
+| 01/05 | Boston Dynamics + DeepMind robotics partnership | [bostondynamics.com](https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/) |
+| 01/13 | Veo 3.1 update (vertical video, 4K, audio) | [blog.google](https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/) |
+| 01/27 | Google AI Plus ($7.99/mo) expands to 35 countries | [blog.google](https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/) |
+| 02/12 | Gemini 3 Deep Think (science/engineering) | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/) |
+| 02/17 | **Imagen 4** family GA + Imagen 4 Fast | [developers.googleblog.com](https://developers.googleblog.com/announcing-imagen-4-fast-and-imagen-4-family-generally-available-in-the-gemini-api/) |
+| 02/19 | **Gemini 3.1 Pro** | [deepmind.google](https://deepmind.google/models/model-cards/gemini-3-1-pro/) |
+| 03/03 | **Gemini 3.1 Flash-Lite** (1/8 cost of Pro) | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/) |
+| 03/11 | Gemini CLI Plan Mode GA + **Antigravity quota controversy** | [developers.googleblog.com](https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/) |
+| 03/17 | **Gemini 3 Flash** (new default model) | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |
+
+### Microsoft
+
+| Date | Release | Source |
+|---|---|---|
+| 01/~ | M365 Copilot: Agent mode in Excel, voice memory, Outlook mobile | [techcommunity.microsoft.com](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--january-2026/4488916) |
+| 02/~ | M365 Copilot: Smart scheduling, visual recaps, agents in OneDrive | [techcommunity.microsoft.com](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489) |
+| 03/09 | **Copilot Cowork** (with Anthropic) + **Agent 365** + **M365 E7** ($99/user/mo) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/) |
+| 03/11 | GitHub Copilot JetBrains: custom agents, sub-agents, plan agent GA | [github.blog](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/) |
+
+### Cursor
+
+| Date | Release | Source |
+|---|---|---|
+| 03/02 | Surpassed **$2B ARR** | [techcrunch.com](https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/) |
+| 03/12 | **$50B valuation** talks (Bloomberg) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation) |
+| 03/19 | **Composer 2** model (Kimi K2.5 based) + **Cursor Glass** alpha | [cursor.com](https://cursor.com/blog/composer-2) |
+
+### xAI (Grok)
+
+| Date | Release | Source |
+|---|---|---|
+| 01/28 | Grok Imagine API (video + image generation) | [x.ai](https://x.ai/news/grok-imagine-api) |
+| 03/10 | **Grok 4.20** (2M context, multi-agent) | [docs.x.ai](https://docs.x.ai/developers/release-notes) |
+
+### Midjourney
+
+| Date | Release | Source |
+|---|---|---|
+| 01/09 | Niji 7 (anime model) | [updates.midjourney.com](https://updates.midjourney.com/niji-v7/) |
+| 03/17 | **V8 Alpha** (5x faster, 2K native, text rendering) | [updates.midjourney.com](https://updates.midjourney.com/v8-alpha/) |
+
+### Runway
+
+| Date | Release | Source |
+|---|---|---|
+| (12/01/2025) | Gen-4.5 (current top model, Elo #1) | [runwayml.com](https://runwayml.com/research/introducing-runway-gen-4.5) |
+
+---
+
 ## Contributors
 
 <p align="center">

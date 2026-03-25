@@ -960,6 +960,109 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 ---
 
+## 2026 업체별 주요 발표 타임라인
+
+> 2026년 AI 업체들의 굵직한 발표를 날짜순으로 정리. 모두 공식 소스 팩트체크 완료.
+
+### Anthropic (Claude)
+
+> 2026년 Anthropic이 발표한 것들. 그냥 미쳤음.
+
+| 날짜 | 발표 내용 | 출처 |
+|---|---|---|
+| 01/12 | Claude Cowork (맥용 리서치 프리뷰) | [anthropic.com](https://www.anthropic.com/news) |
+| 01/13 | Anthropic Labs (연구 인큐베이터) | [anthropic.com](https://www.anthropic.com/news/introducing-anthropic-labs) |
+| 01/22 | Claude 새 헌법 (모델 스펙 업데이트) | [anthropic.com](https://www.anthropic.com/news/claude-new-constitution) |
+| 01/30 | Cowork 플러그인 (11개 오픈소스) | [siliconangle.com](https://siliconangle.com/2026/01/30/anthropic-debuts-claude-cowork-plugins-help-users-automate-tasks/) |
+| 02/05 | **Opus 4.6** + Claude in PowerPoint + Excel 업데이트 + Compaction API | [anthropic.com](https://www.anthropic.com/news/claude-opus-4-6) |
+| 02/07 | Fast Mode (Opus 4.6 2.5배 빠른 출력) | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 02/10 | Cowork 윈도우 공개 | [venturebeat.com](https://venturebeat.com/technology/anthropics-claude-cowork-finally-lands-on-windows-and-it-wants-to-automate) |
+| 02/12 | **$300억 Series G** ($3,800억 밸류에이션) | [anthropic.com](https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation) |
+| 02/17 | **Sonnet 4.6** | [anthropic.com](https://www.anthropic.com/news/claude-sonnet-4-6) |
+| 02/20 | Claude Code Security (500+ 취약점 발견) | [anthropic.com](https://www.anthropic.com/news/claude-code-security) |
+| 02/24 | Cowork Enterprise + 플러그인 마켓플레이스 | [techcrunch.com](https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/) |
+| 02/25 | Claude Code Remote Control + Cowork 예약 작업 + Vercept 인수 | [venturebeat.com](https://venturebeat.com/orchestration/anthropic-just-released-a-mobile-version-of-claude-code-called-remote) |
+| 03/02 | Claude Memory (무료 사용자 확대) + ChatGPT 히스토리 임포트 | [engadget.com](https://www.engadget.com/ai/anthropic-brings-memory-to-claudes-free-plan-220729070.html) |
+| 03/06 | Claude Marketplace + Mozilla Firefox 보안 파트너십 | [siliconangle.com](https://siliconangle.com/2026/03/06/anthropic-launches-claude-marketplace-third-party-cloud-services/) |
+| 03/07 | Claude Community Ambassadors 프로그램 시작 | [claude.com](https://claude.com/community/ambassadors) |
+| 03/09 | Claude Code Review (멀티에이전트 PR 리뷰) | [techcrunch.com](https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/) |
+| 03/11 | Excel & PowerPoint 크로스앱 업데이트 + Anthropic Institute | [anthropic.com](https://www.anthropic.com/news/the-anthropic-institute) |
+| 03/12 | 채팅 내 차트·다이어그램 시각화 + $1억 파트너 네트워크 | [anthropic.com](https://www.anthropic.com/news/claude-partner-network) |
+| 03/13 | **1M 토큰 컨텍스트 윈도우 GA** (추가 비용 없음) | [claude.com](https://claude.com/blog/1m-context-ga) |
+| 03/17 | Dispatch (Cowork 원격 제어, 영속 에이전트 스레드) | [mlq.ai](https://mlq.ai/news/anthropic-launches-claude-dispatch-for-remote-desktop-ai-control/) |
+| 03/20 | Cowork에 Projects 도입 + Claude Code Channels (Discord/Telegram) | [venturebeat.com](https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels) |
+| 03/23 | **Claude Computer Use** (마우스/키보드 제어) | [engadget.com](https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html) |
+| 03/24 | Claude Code Auto Mode (자동 퍼미션 판단) | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
+
+### OpenAI
+
+| 날짜 | 발표 내용 | 출처 |
+|---|---|---|
+| 01/14 | GPT-5.2-Codex (에이전틱 코딩) | [openai.com](https://openai.com/index/introducing-gpt-5-2-codex/) |
+| 01/16 | **ChatGPT Go** ($8/월, 170+ 국가) | [openai.com](https://openai.com/index/introducing-chatgpt-go/) |
+| 02/05 | **GPT-5.3-Codex** (25% 빠르게, 자기 부트스트랩) | [openai.com](https://openai.com/index/introducing-gpt-5-3-codex/) |
+| 02/12 | GPT-5.3-Codex-Spark (1,000+ tok/s, Cerebras) | [openai.com](https://openai.com/index/introducing-gpt-5-3-codex-spark/) |
+| 03/03 | GPT-5.3 Instant ("크린지" 줄임) | [openai.com](https://openai.com/index/gpt-5-3-instant/) |
+| 03/05 | **GPT-5.4** (Thinking + Pro, 컴퓨터 제어, 1M 컨텍스트) | [openai.com](https://openai.com/index/introducing-gpt-5-4/) |
+| 03/17 | 모델 피커 간소화 (Instant/Thinking/Pro) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 03/18 | GPT-5.4 mini 롤아웃 | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
+| 03/20 | Codex for Students ($100 크레딧) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 03/20 | **SuperApp 발표** (ChatGPT + Codex + Atlas 브라우저 통합) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing) |
+| 03/24 | **Sora 셧다운** (앱 + API 종료, 로보틱스로 전환) | [axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app) |
+
+### Google (DeepMind)
+
+| 날짜 | 발표 내용 | 출처 |
+|---|---|---|
+| 01/05 | Boston Dynamics + DeepMind 로보틱스 파트너십 | [bostondynamics.com](https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/) |
+| 01/13 | Veo 3.1 업데이트 (세로 영상, 4K, 오디오) | [blog.google](https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/) |
+| 01/27 | Google AI Plus ($7.99/월) 35개국 확대 | [blog.google](https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/) |
+| 02/12 | Gemini 3 Deep Think (과학/공학 특화) | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/) |
+| 02/17 | **Imagen 4** 패밀리 GA + Imagen 4 Fast | [developers.googleblog.com](https://developers.googleblog.com/announcing-imagen-4-fast-and-imagen-4-family-generally-available-in-the-gemini-api/) |
+| 02/19 | **Gemini 3.1 Pro** | [deepmind.google](https://deepmind.google/models/model-cards/gemini-3-1-pro/) |
+| 03/03 | **Gemini 3.1 Flash-Lite** (Pro의 1/8 비용) | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/) |
+| 03/11 | Gemini CLI Plan Mode GA + **Antigravity 쿼터 논란** | [developers.googleblog.com](https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/) |
+| 03/17 | **Gemini 3 Flash** (새 기본 모델) | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |
+
+### Microsoft
+
+| 날짜 | 발표 내용 | 출처 |
+|---|---|---|
+| 01/~ | M365 Copilot: Excel 에이전트 모드, 음성 메모리, Outlook 모바일 | [techcommunity.microsoft.com](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--january-2026/4488916) |
+| 02/~ | M365 Copilot: 스마트 스케줄링, 비주얼 리캡, OneDrive 에이전트 | [techcommunity.microsoft.com](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489) |
+| 03/09 | **Copilot Cowork** (Anthropic 협업) + **Agent 365** + **M365 E7** ($99/user/월) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/) |
+| 03/11 | GitHub Copilot JetBrains: 커스텀 에이전트, 서브에이전트, Plan Agent GA | [github.blog](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/) |
+
+### Cursor
+
+| 날짜 | 발표 내용 | 출처 |
+|---|---|---|
+| 03/02 | **$2B ARR** 돌파 | [techcrunch.com](https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/) |
+| 03/12 | **$50B 밸류에이션** 협상 (Bloomberg) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation) |
+| 03/19 | **Composer 2** 모델 (Kimi K2.5 기반) + **Cursor Glass** 알파 | [cursor.com](https://cursor.com/blog/composer-2) |
+
+### xAI (Grok)
+
+| 날짜 | 발표 내용 | 출처 |
+|---|---|---|
+| 01/28 | Grok Imagine API (비디오 + 이미지 생성) | [x.ai](https://x.ai/news/grok-imagine-api) |
+| 03/10 | **Grok 4.20** (2M 컨텍스트, 멀티에이전트) | [docs.x.ai](https://docs.x.ai/developers/release-notes) |
+
+### Midjourney
+
+| 날짜 | 발표 내용 | 출처 |
+|---|---|---|
+| 01/09 | Niji 7 (애니메 모델) | [updates.midjourney.com](https://updates.midjourney.com/niji-v7/) |
+| 03/17 | **V8 Alpha** (5배 빠름, 2K 네이티브, 텍스트 렌더링) | [updates.midjourney.com](https://updates.midjourney.com/v8-alpha/) |
+
+### Runway
+
+| 날짜 | 발표 내용 | 출처 |
+|---|---|---|
+| (2025/12/01) | Gen-4.5 (현재 최상위 모델, Elo 1위) | [runwayml.com](https://runwayml.com/research/introducing-runway-gen-4.5) |
+
+---
+
 ## Contributors
 
 <p align="center">

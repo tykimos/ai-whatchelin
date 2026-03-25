@@ -57,18 +57,20 @@
 <a href="#-ai-ide"><img src="https://img.shields.io/badge/AI_IDE-6개-10b981?style=for-the-badge" alt="AI IDE"></a>
 <a href="#-앱-빌더"><img src="https://img.shields.io/badge/앱_빌더-4개-f59e0b?style=for-the-badge" alt="앱 빌더"></a>
 <a href="#-오픈소스"><img src="https://img.shields.io/badge/오픈소스-7개-ec4899?style=for-the-badge" alt="오픈소스"></a>
+<a href="#-ai-이미지-생성"><img src="https://img.shields.io/badge/이미지_AI-7개-8b5cf6?style=for-the-badge" alt="이미지 AI"></a>
+<a href="#-ai-비디오-생성"><img src="https://img.shields.io/badge/비디오_AI-7개-ef4444?style=for-the-badge" alt="비디오 AI"></a>
 <br>
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
 <img src="https://img.shields.io/badge/팩트체크-2026.03.25-brightgreen?style=for-the-badge" alt="Fact Check">
-<img src="https://img.shields.io/badge/도구_수-32+-orange?style=for-the-badge" alt="Tools">
+<img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
 </tr>
 </table>
 
-[코딩 도구](#-코딩-도구-에이전트--ide) · [채팅 AI](#-채팅-ai) · [AI IDE](#-ai-ide) · [앱 빌더](#-앱-빌더) · [오픈소스](#-오픈소스) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [인기도 트렌드](#-일자별-인기도-트렌드) · [팩트 체크](#팩트-체크-로그-2026-03-24)
+[코딩 도구](#-코딩-도구-에이전트--ide) · [채팅 AI](#-채팅-ai) · [AI IDE](#-ai-ide) · [앱 빌더](#-앱-빌더) · [오픈소스](#-오픈소스) · [이미지 AI](#-ai-이미지-생성) · [비디오 AI](#-ai-비디오-생성) · [가격 레이더](#-가격-레이더) · [커뮤니티 비교](#-커뮤니티-반응-비교-중심) · [인기도 트렌드](#-일자별-인기도-트렌드)
 
 ---
 
@@ -416,6 +418,51 @@ timeline
 > *"버그 하나 고치면 새 버그 셋이 생기고 월 크레딧이 디버깅 한 세션에 증발한다."* — Lovable 사용자 공통 불만
 
 **보안 주의**: 세 플랫폼 모두 생성 코드의 **40~45%에 취약점** 포함 (NxCode 2026 분석). 어떤 빌더를 쓰든 보안 리뷰 필수.
+
+</details>
+
+---
+
+## AI 이미지 생성
+
+> 텍스트로 이미지를 만든다. 디자이너 없이도 프로급 비주얼.
+
+| | Midjourney | GPT Image | Stable Diffusion | Ideogram | Flux | Adobe Firefly | Google Imagen |
+|---|---|---|---|---|---|---|---|
+| **사이트** | [midjourney.com](https://www.midjourney.com) | [openai.com](https://openai.com) | [stability.ai](https://stability.ai) | [ideogram.ai](https://ideogram.ai) | [bfl.ai](https://bfl.ai) | [firefly.adobe.com](https://firefly.adobe.com) | [ai.google.dev](https://ai.google.dev) |
+| **최신 모델** | V7 (V8 알파) | GPT Image 1.5 | SD 3.5 Large | Ideogram 3.0 | FLUX.1.1 Pro | Firefly 2026 | Imagen 4 Ultra |
+| **무료** | X | ChatGPT 포함 | **O (자체 호스팅)** | O (제한) | O (Schnell, Apache 2.0) | X | **O (AI Studio)** |
+| **시작가** | $10/월 | $20/월 (Plus) | $0 (셀프호스팅) | $15/월 | $0.04/장 | $9.99/월 | $0.02/장 |
+| **킬러 피처** | 예술적 품질 최강 | 프롬프트 정확도 1위 | 오픈소스, 커스텀 학습 | **텍스트 렌더링 최강** | 포토리얼리즘 | 저작권 안전, Adobe 통합 | Google 생태계, SynthID |
+| **대상** | 크리에이터, 아티스트 | ChatGPT 사용자 | 기술 사용자, 커스텀 | 디자이너, 타이포그래피 | 바이브코더, API | 기업, 브랜드 | Google 사용자 |
+
+---
+
+## AI 비디오 생성
+
+> 텍스트/이미지로 영상을 만든다. 2026년 가장 빠르게 성장하는 AI 카테고리.
+
+| | Sora | Runway | Kling | Veo | Pika | Luma | HailuoAI |
+|---|---|---|---|---|---|---|---|
+| **사이트** | [openai.com/sora](https://openai.com/sora) | [runwayml.com](https://runwayml.com) | [klingai.com](https://klingai.com) | [deepmind.google](https://deepmind.google/technologies/veo) | [pika.art](https://pika.art) | [lumalabs.ai](https://lumalabs.ai) | [hailuoai.video](https://hailuoai.video) |
+| **최신 모델** | Sora 2 | Gen-4.5 | Kling 3.0 | Veo 3.1 | Pika 2.5 | Ray3.14 | Hailuo 2.3 |
+| **무료** | X | O (125 크레딧) | **O (66 크레딧/일)** | O ($7.99) | O (80/월) | O (제한) | X |
+| **시작가** | $20/월 (Plus) | **$12/월** | **$6.99/월** | $7.99/월 | **$10/월** | $30/월 | $14.99/월 |
+| **해상도** | — | 4K | **4K, 60FPS** | 1080p | — | **4K EXR** | — |
+| **오디오** | O | X | **O (동기화)** | **O (네이티브)** | O (자동) | X | X |
+| **킬러 피처** | 시네마 리얼리즘 | 풀 편집 스위트 | 인간 리얼리즘 최강 | 오디오-비디오 동기화 | 물리 효과 프리셋 | VFX 파이프라인, ACES | 가성비 최강 |
+| **대상** | 영상 제작자 | 프로 크리에이터 | 바이브코더, 예산 | Google 사용자 | 소셜 크리에이터 | VFX 아티스트 | 대량 생산 |
+
+<details>
+<summary><b>커뮤니티 반응: 이미지/비디오 AI</b></summary>
+
+> *"Midjourney는 여전히 예술적 품질의 왕. DALL-E는 정확도의 왕. Stable Diffusion은 자유의 왕."*
+
+> *"Kling 3.0이 $6.99에 이 퀄리티를 주는 게 말이 되나? Sora는 $20인데."* `2026.02`
+
+> *"Runway Gen-4.5는 도구가 아니라 스튜디오다. 생성만 하는 다른 도구와 차원이 다르다."* `2026.03`
+
+> *"Veo 3.1의 네이티브 오디오 동기화는 게임 체인저. 별도 음향 작업이 필요 없다."* `2026.03`
 
 </details>
 

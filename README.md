@@ -823,8 +823,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 <p align="center">
   <a href="https://star-history.com/#tykimos/ai-whatchelin&Date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tykimos/ai-whatchelin&type=Date&theme=dark">
-      <img src="https://api.star-history.com/svg?repos=tykimos/ai-whatchelin&type=Date" alt="Star History Chart" width="600">
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tykimos/ai-whatchelin&type=Date&theme=dark&v=20260325">
+      <img src="https://api.star-history.com/svg?repos=tykimos/ai-whatchelin&type=Date&v=20260325" alt="Star History Chart" width="600">
     </picture>
   </a>
 </p>

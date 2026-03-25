@@ -25,10 +25,9 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: "--model claude-opus-4-6"
+          claude_args: "--model claude-opus-4-6 --allowedTools 'Bash(*)' 'Read(*)' 'Write(*)' 'Edit(*)' 'Glob(*)' 'Grep(*)' 'WebSearch(*)' 'WebFetch(*)'"
           use_bedrock: false
           use_vertex: false
-          allowed_tools: "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
           prompt: |
             당신은 "뭐쓸까?" 프로젝트의 자동 업데이트 에이전트입니다.
 

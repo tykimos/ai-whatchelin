@@ -133,6 +133,8 @@ timeline
          : Copilot data-training backlash (Mar 25)
          : GitHub Agent HQ multi-agent (Copilot+Claude+Codex)
          : Windsurf Wave 13 Arena Mode + parallel agents
+         : Copilot CLI GA — agentic terminal coding
+         : Claude Mythos leak — new tier above Opus (Mar 27)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -285,6 +287,9 @@ quadrantChart
 > *"One complex prompt burns 50–70% of the 5-hour limit."* — r/ChatGPTCoding (388 upvotes)
 
 > *"Claude Code Auto Mode lets it autonomously decide permissions — a two-layer classifier checks each tool call for destructive actions before execution."* — TechCrunch `2026.03.24`
+
+**Claude Mythos Leak** (2026.03.27):
+> *"Anthropic's internal data leak exposed 'Claude Mythos' — a new Capybara tier above Opus described as a 'step change' in capabilities. Cybersecurity stocks dropped 4–6% on fears the model could accelerate vulnerability exploitation."* — Fortune `2026.03.27`
 
 **2026 Power Stack Formula**:
 ```
@@ -992,6 +997,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/03/27 | **Claude Mythos data leak** — new "Capybara" tier above Opus, step-change in capabilities, cybersecurity concerns | [fortune.com](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) |
 | 2026/03/25 | **5th Economic Index** (6-month users 10% higher success) | [anthropic.com](https://www.anthropic.com/research/the-economic-index-5) |
 | 2026/03/24 | Claude Code **Auto Mode** + **Computer Use** for Cowork + **Channels** (Discord/Telegram) | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
 | 2026/03/24 | Claude Code surpasses **$2.5B ARR** | [cnbc.com](https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html) |
@@ -1022,6 +1028,7 @@ All pricing information has been directly verified from each service's official 
 | Date | Release | Source |
 |---|---|---|
 | 2026/03/26 | Legacy deep research mode removed | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/03/18 | **GPT-5.3-Codex LTS** (12-month support for Enterprise) | [github.blog](https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot/) |
 | 2026/03/24 | **Sora shutdown** (app + API discontinued) | [axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app) |
 | 2026/03/20 | Codex for Students ($100 credits) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/20 | **SuperApp announced** (ChatGPT + Codex + Atlas browser) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing) |
@@ -1038,6 +1045,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/03/27 | **Gemini "Switching Tools"** — import chat history & memories from ChatGPT/Claude | [blog.google](https://blog.google/products/gemini/) |
 | 2026/03/17 | **Gemini 3 Flash** (new default model) | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |
 | 2026/03/11 | Gemini CLI Plan Mode GA + **Antigravity quota controversy** | [developers.googleblog.com](https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/) |
 | 2026/03/03 | **Gemini 3.1 Flash-Lite** (1/8 cost of Pro) | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/) |
@@ -1053,6 +1061,7 @@ All pricing information has been directly verified from each service's official 
 | Date | Release | Source |
 |---|---|---|
 | 2026/03/25 | **Copilot data training policy** (opt-out by Apr 24) + Copilot for Jira enhancements | [github.blog](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/) |
+| 2026/03/18 | GPT-5.3-Codex LTS (12-month support for Business/Enterprise) | [github.blog](https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot/) |
 | 2026/03/11 | GitHub Copilot JetBrains: custom agents, sub-agents, plan agent GA | [github.blog](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/) |
 | 2026/03/09 | **Copilot Cowork** (with Anthropic) + **Agent 365** + **M365 E7** ($99/user/mo) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/) |
 | 2026/02/~ | M365 Copilot: Smart scheduling, visual recaps, agents in OneDrive | [techcommunity.microsoft.com](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489) |
@@ -1085,6 +1094,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/03/~ | **GWM-1** General World Model (real-time interactive, robotics SDK, avatars) | [runwayml.com](https://runwayml.com/research/introducing-gwm-1) |
 | 2025/12/01 | Gen-4.5 (current top model, Elo #1) | [runwayml.com](https://runwayml.com/research/introducing-runway-gen-4.5) |
 
 ---

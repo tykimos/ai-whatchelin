@@ -133,6 +133,8 @@ timeline
          : Copilot 데이터 학습 논란 (3/25)
          : GitHub Agent HQ 멀티에이전트 (Copilot+Claude+Codex)
          : Windsurf Wave 13 Arena Mode + 병렬 에이전트
+         : Copilot CLI GA — 에이전틱 터미널 코딩
+         : Claude Mythos 유출 — Opus 위 새 티어 (3/27)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -436,6 +438,9 @@ xychart-beta
 > *"한 번 복잡한 프롬프트 날리면 5시간 한도의 50~70%가 날아간다."* — r/ClaudeAI (388 upvotes) `2026.02`
 
 > *"Claude Code Auto Mode가 권한을 자율 결정 — 이중 분류기가 각 도구 호출의 파괴적 동작을 실행 전에 검사한다."* — TechCrunch `2026.03.24`
+
+**Claude Mythos 유출** (2026.03.27):
+> *"Anthropic 내부 데이터 유출로 'Claude Mythos'가 공개됐다 — Opus 위의 새로운 Capybara 티어로 '역대 최강' 성능. 사이버보안주가 4~6% 급락했다."* — Fortune `2026.03.27`
 
 | 매치업 | 승자 (상황별) |
 |---|---|
@@ -992,6 +997,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/27 | **Claude Mythos 데이터 유출** — Opus 위 새 "Capybara" 티어, 역대 최강 성능, 사이버보안 우려 | [fortune.com](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) |
 | 2026/03/25 | **5차 경제 지표 보고서** (6개월 이상 사용자 성공률 10% 높음) | [anthropic.com](https://www.anthropic.com/research/the-economic-index-5) |
 | 2026/03/24 | Claude Code **Auto Mode** + Cowork **Computer Use** + **Channels** (Discord/Telegram) | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
 | 2026/03/24 | Claude Code **$2.5B ARR** 돌파 | [cnbc.com](https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html) |
@@ -1022,6 +1028,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
 | 2026/03/26 | 레거시 딥 리서치 모드 제거 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/03/18 | **GPT-5.3-Codex LTS** (Enterprise 12개월 장기 지원) | [github.blog](https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot/) |
 | 2026/03/24 | **Sora 셧다운** (앱 + API 종료, 로보틱스로 전환) | [axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app) |
 | 2026/03/20 | Codex for Students ($100 크레딧) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/20 | **SuperApp 발표** (ChatGPT + Codex + Atlas 브라우저 통합) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-20/openai-plans-desktop-app-combining-chat-coding-and-web-browsing) |
@@ -1038,6 +1045,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/27 | **Gemini "전환 도구"** — ChatGPT/Claude에서 대화 기록·메모리 가져오기 | [blog.google](https://blog.google/products/gemini/) |
 | 2026/03/17 | **Gemini 3 Flash** (새 기본 모델) | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |
 | 2026/03/11 | Gemini CLI Plan Mode GA + **Antigravity 쿼터 논란** | [developers.googleblog.com](https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/) |
 | 2026/03/03 | **Gemini 3.1 Flash-Lite** (Pro의 1/8 비용) | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/) |
@@ -1053,6 +1061,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
 | 2026/03/25 | **Copilot 데이터 학습 정책** (4/24까지 옵트아웃) + Copilot for Jira 기능 강화 | [github.blog](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/) |
+| 2026/03/18 | GPT-5.3-Codex LTS (Business/Enterprise 12개월 장기 지원) | [github.blog](https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot/) |
 | 2026/03/11 | GitHub Copilot JetBrains: 커스텀 에이전트, 서브에이전트, Plan Agent GA | [github.blog](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/) |
 | 2026/03/09 | **Copilot Cowork** (Anthropic 협업) + **Agent 365** + **M365 E7** ($99/user/월) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/) |
 | 2026/02/~ | M365 Copilot: 스마트 스케줄링, 비주얼 리캡, OneDrive 에이전트 | [techcommunity.microsoft.com](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489) |
@@ -1085,6 +1094,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/~ | **GWM-1** 범용 월드 모델 (실시간 인터랙티브, 로보틱스 SDK, 아바타) | [runwayml.com](https://runwayml.com/research/introducing-gwm-1) |
 | 2025/12/01 | Gen-4.5 (현재 최상위 모델, Elo 1위) | [runwayml.com](https://runwayml.com/research/introducing-runway-gen-4.5) |
 
 ---

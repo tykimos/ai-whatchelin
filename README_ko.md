@@ -152,6 +152,8 @@ timeline
          : Copilot CLI v1.0.24 — preToolUse 훅, 표시 이름 (4/10)
          : Codex CLI v0.120.0 — Windows 샌드박스 이그레스, 디바이스 코드 인증 (4/11)
          : Cursor Bugbot — 80% 해결률, MCP 지원 (4/8)
+         : Claude Mythos Preview + Project Glasswing (4/7)
+         : Advisor Strategy — Opus가 Sonnet/Haiku 조언 (4/10)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -512,6 +514,9 @@ xychart-beta
 **Codex CLI v0.120.0** (2026.04.11):
 > *"Windows 샌드박스에 OS 수준 이그레스 규칙 적용. ChatGPT 로그인용 디바이스 코드 플로 추가."* — openai.com `2026.04.11`
 
+**Claude Mythos Preview** (2026.04.07):
+> *"Anthropic이 Project Glasswing을 통해 Claude Mythos Preview를 공식 출시 — 27년 된 OpenBSD 버그 포함 수천 개의 제로데이 취약점을 발견했다. 12개 런치 파트너에 한정 공개, 오픈소스 보안에 $1억 크레딧 지원."* — TechCrunch `2026.04.07`
+
 **r/programming LLM 금지** (2026.04.01):
 > *"r/programming (690만 회원)이 4월 한 달간 모든 LLM 콘텐츠를 일시 금지. AI 담론이 '지겹도록' 다른 주제를 묻어버린다며. 4월 1일 시작 — 만우절 장난 아님."* — Tom's Hardware `2026.04.01`
 
@@ -840,6 +845,7 @@ timeline
          : Perplexity Computer 에이전트
          : 국방부 Anthropic 제재 차단 판결 (3/28)
          : Sora 단독 앱 + API 서비스 종료 (3/27)
+         : Claude Mythos Preview + Project Glasswing (4/7)
 ```
 
 ### 나한테 맞는 일반사무 도구는?
@@ -1083,6 +1089,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/10 | **Advisor Strategy** Messages API 도입 — Opus 4.6가 Sonnet/Haiku를 조언, SWE-bench Multilingual +2.7pp, 태스크당 11.9% 절감 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/04/07 | **Claude Mythos Preview** Project Glasswing 출시 — 수천 개 제로데이 발견, 12개 런치 파트너, 오픈소스 보안에 $1억 크레딧 | [techcrunch.com](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/) |
 | 2026/04/04 | Claude Code **v2.1.92** — 대화형 Bedrock 설정 마법사, 모델별 /cost 상세 분석, 대용량 파일 Write 도구 60% 속도 향상 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/03/31 | Claude Code **v2.1.76** — 무깜빡 alt-screen 렌더링, 이름있는 서브에이전트, PowerShell 지원, 장시간 세션 안정성 수정 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/03/29 | Claude Code Cowork Dispatch 메시지 전달 버그 수정 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
@@ -1119,6 +1127,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/~ | **GPT-5.3 Instant Mini** — GPT-5 Instant Mini 대체, ChatGPT 폴백 모델로 더 자연스러운 대화와 맥락 이해 강화 | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
 | 2026/04/~ | ChatGPT **파일 라이브러리** — 업로드/생성 파일 자동 저장, 채팅 간 재사용 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/04/~ | ChatGPT **CarPlay** 통합 — iOS 26.4+ 핸즈프리 접근 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/04/~ | **GPT-5.3-Codex** 업그레이드 — 25% 빠르게, 추론 강화, 실시간 진행 상황 업데이트 | [openai.com](https://openai.com/index/introducing-upgrades-to-codex/) |
@@ -1227,7 +1236,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.04.10-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.04.12-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

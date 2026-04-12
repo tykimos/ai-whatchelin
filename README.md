@@ -152,6 +152,8 @@ timeline
          : Copilot CLI v1.0.24 — preToolUse hooks, display names (Apr 10)
          : Codex CLI v0.120.0 — Windows sandbox egress, device code auth (Apr 11)
          : Cursor Bugbot — 80% resolution rate, MCP support (Apr 8)
+         : Claude Mythos Preview + Project Glasswing (Apr 7)
+         : Advisor Strategy — Opus advises Sonnet/Haiku (Apr 10)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -521,6 +523,9 @@ xychart-beta
 **Codex CLI v0.120.0** (2026.04.11):
 > *"Windows sandbox now enforces OS-level egress rules. Device code flow added for ChatGPT sign-in."* — openai.com `2026.04.11`
 
+**Claude Mythos Preview** (2026.04.07):
+> *"Anthropic officially launched Claude Mythos Preview via Project Glasswing — the model discovered thousands of zero-day vulnerabilities including a 27-year-old OpenBSD bug. Limited to 12 launch partners with $100M in credits for open-source security."* — TechCrunch `2026.04.07`
+
 **r/programming LLM Ban** (2026.04.01):
 > *"r/programming (6.9M members) temporarily banned all LLM content for April, citing 'exhausting' AI discourse. Started April 1 — not an April Fools' joke."* — Tom's Hardware `2026.04.01`
 
@@ -853,6 +858,7 @@ timeline
          : Copilot data training opt-out deadline Apr 24 (Mar 30)
          : Copilot "ad" bug in PRs — Microsoft confirms bug (Mar 31)
          : Gemini Switching Tools — import from ChatGPT/Claude (Mar 27)
+         : Claude Mythos Preview + Project Glasswing (Apr 7)
 ```
 
 ### Which General Office Tool Is Right for Me?
@@ -1103,6 +1109,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/10 | **Advisor Strategy** for Messages API — Opus 4.6 advises Sonnet/Haiku, +2.7pp on SWE-bench Multilingual, 11.9% cheaper per task | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/04/07 | **Claude Mythos Preview** launched via Project Glasswing — thousands of zero-days discovered, 12 launch partners, $100M credits for open-source security | [techcrunch.com](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/) |
 | 2026/04/04 | Claude Code **v2.1.92** — interactive Bedrock setup wizard, per-model /cost breakdown, 60% faster Write tool on large files | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/03/31 | Claude Code **v2.1.76** — flicker-free alt-screen rendering, named subagents in @ mentions, PowerShell support, long-session stability fixes | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/03/29 | Claude Code fixes messages in Cowork Dispatch not getting delivered | [code.claude.com](https://code.claude.com/docs/en/changelog) |
@@ -1139,6 +1147,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/~ | **GPT-5.3 Instant Mini** — replaces GPT-5 Instant Mini as ChatGPT fallback, more natural conversation and stronger contextual awareness | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
 | 2026/04/~ | ChatGPT **File Library** — auto-saves uploaded/created files for reuse across chats | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/04/~ | ChatGPT **CarPlay** integration — hands-free access on iOS 26.4+ | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/04/~ | **GPT-5.3-Codex** upgrade — 25% faster, stronger reasoning, real-time progress updates | [openai.com](https://openai.com/index/introducing-upgrades-to-codex/) |
@@ -1247,7 +1256,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.04.10-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.04.12-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

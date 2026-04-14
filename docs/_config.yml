@@ -6,7 +6,7 @@ lang: en
 
 permalink: /:year/:month/:day/:title/
 
-collections_dir: .
+future: true
 markdown: kramdown
 
 kramdown:

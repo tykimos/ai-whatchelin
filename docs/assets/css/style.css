@@ -207,9 +207,44 @@ body {
 }
 .rss-badge:hover { border-color: var(--color-yellow); }
 
+/* Language toggle */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+  margin-left: 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 0.8rem;
+}
+.lang-btn {
+  padding: 0.2rem 0.5rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.lang-btn:hover { color: var(--color-accent); background: var(--color-surface); }
+.lang-btn--active {
+  background: var(--color-accent);
+  color: #0d1117;
+  font-weight: 700;
+  cursor: default;
+}
+
+/* Korean text rendering */
+:lang(ko) {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .site-header .wrapper { flex-direction: column; gap: 0.5rem; }
   .site-nav a { margin-left: 0; margin-right: 1rem; }
+  .lang-toggle { margin-left: 0; margin-top: 0.25rem; }
   .post-title { font-size: 1.4rem; }
 }

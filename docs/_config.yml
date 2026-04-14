@@ -16,12 +16,33 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+i18n:
+  en:
+    title: "AI WhatChelin Daily"
+    description: "Daily AI coding tool news, popularity trends, and community insights"
+    home: "Home"
+    subscribe: "Subscribe via RSS"
+    recent: "Recent Updates"
+    copyright: "Auto-updated daily by Claude Code."
+  ko:
+    title: "AI 뭐슐랭 데일리"
+    description: "매일 업데이트되는 AI 코딩 도구 뉴스, 인기도 트렌드, 커뮤니티 인사이트"
+    home: "홈"
+    subscribe: "RSS 구독"
+    recent: "최근 업데이트"
+    copyright: "Claude Code가 매일 자동 업데이트합니다."
+
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      lang: "en"
+  - scope:
+      path: "ko"
+    values:
+      lang: "ko"
 
 exclude:
   - README.md

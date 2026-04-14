@@ -3,19 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  {% assign cur_lang = page.lang | default: site.lang | default: 'en' %}
+  {% assign t = site.i18n[cur_lang] %}
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ t.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ t.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {% if cur_lang == 'ko' %}
+  <link rel="alternate" type="application/atom+xml" title="{{ site.i18n.ko.title }}" href="{{ '/ko/feed.xml' | relative_url }}">
+  {% endif %}
   {% seo %}
 </head>
 <body>
   <header class="site-header">
     <div class="wrapper">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a class="site-title" href="{% if cur_lang == 'ko' %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ t.title }}</a>
       <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{% if cur_lang == 'ko' %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ t.home }}</a>
         <a href="https://github.com/tykimos/ai-whatchelin">GitHub</a>
-        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        <a href="{% if cur_lang == 'ko' %}{{ '/ko/feed.xml' | relative_url }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}">RSS</a>
+        <span class="lang-toggle">
+          {% if cur_lang == 'ko' %}
+            <a href="{{ '/' | relative_url }}" class="lang-btn">EN</a>
+            <span class="lang-btn lang-btn--active">KO</span>
+          {% else %}
+            <span class="lang-btn lang-btn--active">EN</span>
+            <a href="{{ '/ko/' | relative_url }}" class="lang-btn">KO</a>
+          {% endif %}
+        </span>
       </nav>
     </div>
   </header>
@@ -28,7 +42,7 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Auto-updated daily by Claude Code.</p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ t.title }}. {{ t.copyright }}</p>
     </div>
   </footer>
 </body>

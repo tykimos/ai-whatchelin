@@ -92,17 +92,17 @@ jobs:
             If there are changes, commit directly with git add and git commit.
             Commit message: "auto: daily update (YYYY-MM-DD)"
 
-            #### 5. Write daily news post (mandatory)
-            After committing README/CSV changes, always create a Jekyll news post in docs/_posts/.
-            Create one every day without exception.
+            #### 5. Write daily news posts — English AND Korean (mandatory)
+            After committing README/CSV changes, create TWO Jekyll news posts every day without exception:
+            - English: docs/_posts/YYYY-MM-DD-daily-update.md
+            - Korean: docs/ko/_posts/YYYY-MM-DD-daily-update.md
 
-            File: docs/_posts/YYYY-MM-DD-daily-update.md
-
-            Post format:
+            English post format:
             ```markdown
             ---
             title: "AI WhatChelin Daily — Month DD, YYYY"
             date: YYYY-MM-DD
+            lang: en
             tags: [daily, popularity, relevant-tags]
             ---
 
@@ -124,8 +124,41 @@ jobs:
             Comma-separated list of sources searched.
             ```
 
-            Important: Create the post even if only the popularity CSV was updated. Never skip the post.
-            After creating the post, stage it and include it in the git commit.
+            Korean post format:
+            ```markdown
+            ---
+            title: "AI 뭐슐랭 데일리 — YYYY년 MM월 DD일"
+            date: YYYY-MM-DD
+            lang: ko
+            tags: [daily, popularity, relevant-tags]
+            ---
+
+            오늘의 하이라이트 한 줄 요약.
+
+            ## 인기도 점수
+
+            | 도구 | 점수 | 추세 |
+            |---|---|---|
+            (오늘 점수와 어제 대비 변동)
+
+            ## 주요 변경사항
+
+            - **변경 제목**: 설명
+            (없으면 "오늘 주요 변경사항 없음.")
+
+            ## 출처
+
+            쉼표로 구분된 검색 소스 목록.
+            ```
+
+            Translation rules for Korean posts:
+            - Tool names remain in English (ChatGPT, Claude Code, Cursor, etc.)
+            - Section headings in Korean
+            - Key changes descriptions translated to natural Korean
+            - "Notable" summary translated to Korean
+
+            Important: Create BOTH posts even if only the popularity CSV was updated. Never skip.
+            After creating both posts, stage them and include in the git commit.
 
             ---
 

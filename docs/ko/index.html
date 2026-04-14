@@ -1,0 +1,44 @@
+---
+layout: default
+title: 홈
+lang: ko
+permalink: /ko/
+---
+
+<h1>AI 뭐슐랭 데일리</h1>
+<p style="color: var(--color-text-muted); margin-bottom: 1.5rem;">
+  매일 업데이트되는 AI 코딩 도구 뉴스, 인기도 트렌드, 커뮤니티 인사이트.
+</p>
+
+<a class="rss-badge" href="{{ '/ko/feed.xml' | relative_url }}">
+  &#x1F4E1; RSS 구독
+</a>
+
+<h2 style="margin-bottom: 1rem;">최근 업데이트</h2>
+
+{% assign ko_posts = site.posts | where: "lang", "ko" %}
+{% if ko_posts.size > 0 %}
+<ul class="post-list">
+  {% for post in ko_posts limit:20 %}
+  <li>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <div class="post-meta">{{ post.date | date: "%Y년 %m월 %d일" }}</div>
+    {% if post.excerpt %}
+    <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<ul class="post-list">
+  {% for post in site.posts limit:20 %}
+  <li>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <div class="post-meta">{{ post.date | date: "%Y년 %m월 %d일" }}</div>
+    {% if post.excerpt %}
+    <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

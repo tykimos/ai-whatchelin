@@ -1,0 +1,30 @@
+title: AI WhatChelin Daily
+description: Daily AI coding tool news, popularity trends, and community insights
+url: "https://tykimos.github.io"
+baseurl: "/ai-whatchelin"
+lang: en
+
+permalink: /:year/:month/:day/:title/
+
+collections_dir: .
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - README.md
+  - README_ko.md
+  - data/
+  - .github/

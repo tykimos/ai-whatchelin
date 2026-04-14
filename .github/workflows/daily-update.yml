@@ -92,23 +92,40 @@ jobs:
             If there are changes, commit directly with git add and git commit.
             Commit message: "auto: daily update (YYYY-MM-DD)"
 
-            #### 5. Write release notes (mandatory)
-            After committing, always create a GitHub Release using the gh CLI. Create one every day without exception.
-            Tag: vYYYY.MM.DD (e.g., v2026.03.25)
-            Title format: "[YYYY-MM-DD] AI WhatChelin Daily Update"
+            #### 5. Write daily news post (mandatory)
+            After committing README/CSV changes, always create a Jekyll news post in docs/_posts/.
+            Create one every day without exception.
 
-            Release body (in English) in this order:
-            1. Today's popularity scores (note tools that rose/fell vs. yesterday) — must be first
-            2. Today's key changes (if none, write "No major changes") — second
-            3. Newly added community reactions (if any)
-            4. List of sources searched
+            File: docs/_posts/YYYY-MM-DD-daily-update.md
 
-            Always create the release with:
+            Post format:
+            ```markdown
+            ---
+            title: "AI WhatChelin Daily — Month DD, YYYY"
+            date: YYYY-MM-DD
+            tags: [daily, popularity, relevant-tags]
+            ---
+
+            One-line summary of today's highlights.
+
+            ## Popularity Scores
+
+            | Tool | Score | Trend |
+            |---|---|---|
+            (today's scores with trend vs yesterday)
+
+            ## Key Changes
+
+            - **Change title**: Description
+            (if none, write "No major changes today.")
+
+            ## Sources
+
+            Comma-separated list of sources searched.
             ```
-            gh release create v$(date +%Y.%m.%d) --title "[$(date +%Y-%m-%d)] AI WhatChelin Daily Update" --notes "release body content"
-            ```
 
-            Important: Create the release even if only the popularity CSV was updated. Never skip the release.
+            Important: Create the post even if only the popularity CSV was updated. Never skip the post.
+            After creating the post, stage it and include it in the git commit.
 
             ---
 

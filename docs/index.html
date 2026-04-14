@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+---
+
+<h1>AI WhatChelin Daily</h1>
+<p style="color: var(--color-text-muted); margin-bottom: 1.5rem;">
+  Daily AI coding tool news, popularity trends, and community insights.
+</p>
+
+<a class="rss-badge" href="{{ '/feed.xml' | relative_url }}">
+  &#x1F4E1; Subscribe via RSS
+</a>
+
+<h2 style="margin-bottom: 1rem;">Recent Updates</h2>
+
+<ul class="post-list">
+  {% for post in site.posts limit:20 %}
+  <li>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+    {% if post.excerpt %}
+    <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

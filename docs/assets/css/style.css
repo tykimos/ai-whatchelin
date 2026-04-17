@@ -1,44 +1,47 @@
 /* ═══════════════════════════════════════════════════════════
    AI WhatChelin Daily — Design System
-   Aesthetic: "Signal Intelligence"
-   Dark-dominant, high-signal editorial. Bloomberg terminal
-   meets quality journalism. Amber accent, condensed headlines.
+   Aesthetic: "Paper & Ink"
+   Light editorial. Quality newsprint meets premium digital.
+   Warm off-white ground, dark charcoal text, gold accent.
    ═══════════════════════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
 
 /* ── Design Tokens ── */
 :root {
-  /* Surfaces */
-  --color-bg:            #0a0c0f;
-  --color-surface:       #13161c;
-  --color-surface-2:     #1c2028;
-  --color-border:        #252930;
-  --color-border-strong: #363d47;
+  /* Surfaces — warm paper tones */
+  --color-bg:            #FAFAF7;
+  --color-surface:       #FFFFFF;
+  --color-surface-2:     #F5F3EF;
+  --color-border:        #E8E5DF;
+  --color-border-strong: #D4CFC6;
 
-  /* Text */
-  --color-text:          #e8eef4;
-  --color-text-muted:    #7a8694;
-  --color-text-faint:    #4a5568;
+  /* Text — charcoal ink, not pure black */
+  --color-text:          #1A1A1A;
+  --color-text-muted:    #6B6B6B;
+  --color-text-faint:    #999999;
 
-  /* Brand Accent — Electric Amber */
-  --color-accent:        #f0a500;
-  --color-accent-dim:    #c4820a;
-  --color-accent-glow:   rgba(240, 165, 0, 0.12);
+  /* Brand Accent — warm gold/caramel, aged paper */
+  --color-accent:        #D4A574;
+  --color-accent-dim:    #B8895A;
+  --color-accent-glow:   rgba(212, 165, 116, 0.15);
 
   /* Semantic */
-  --color-up:            #22c55e;
-  --color-down:          #ef4444;
-  --color-neutral:       #6b7280;
-  --color-new:           #818cf8;
-  --color-hot:           #fb923c;
+  --color-up:            #16A34A;
+  --color-down:          #DC2626;
+  --color-neutral:       #6B7280;
+  --color-new:           #4F46E5;
+  --color-hot:           #EA580C;
 
-  /* Category Tag Colors */
-  --tag-model:           #06b6d4;
-  --tag-tool:            #a78bfa;
-  --tag-market:          #f0a500;
-  --tag-policy:          #4ade80;
-  --tag-research:        #f472b6;
+  /* Inline links */
+  --color-link:          #2563EB;
+
+  /* Category Tag Colors — soft pastels for light mode */
+  --tag-model:           #0891B2;
+  --tag-tool:            #7C3AED;
+  --tag-market:          #B45309;
+  --tag-policy:          #16A34A;
+  --tag-research:        #BE185D;
 
   /* Layout */
   --max-width:           1100px;
@@ -113,9 +116,7 @@ body {
   top: 0;
   z-index: 100;
   height: var(--header-height);
-  background: rgba(10, 12, 15, 0.92);
-  backdrop-filter: blur(12px) saturate(1.5);
-  -webkit-backdrop-filter: blur(12px) saturate(1.5);
+  background: #FFFFFF;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -138,7 +139,7 @@ body {
 }
 
 .site-title .accent {
-  color: var(--color-accent);
+  color: var(--color-accent-dim);
 }
 
 .site-nav {
@@ -163,7 +164,7 @@ body {
 
 .nav-link:hover {
   color: var(--color-text);
-  background: var(--color-surface);
+  background: var(--color-surface-2);
 }
 
 .site-nav-utility {
@@ -206,11 +207,14 @@ body {
   line-height: 1.8;
 }
 
-.lang-btn:hover { color: var(--color-text); }
+.lang-btn:hover {
+  color: var(--color-text);
+  background: var(--color-surface-2);
+}
 
 .lang-btn--active {
-  background: var(--color-accent);
-  color: var(--color-bg);
+  background: var(--color-accent-dim);
+  color: #FFFFFF;
   font-weight: 700;
   cursor: default;
 }
@@ -245,7 +249,7 @@ body {
 }
 
 .index-masthead .accent {
-  color: var(--color-accent);
+  color: var(--color-accent-dim);
 }
 
 .index-description {
@@ -283,8 +287,8 @@ body {
 }
 
 .rss-badge:hover {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
+  border-color: var(--color-accent-dim);
+  color: var(--color-accent-dim);
 }
 
 /* Section heading */
@@ -330,11 +334,11 @@ body {
   text-decoration: none;
   color: inherit;
   position: relative;
-  transition: border-color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+  transition: border-color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
   overflow: hidden;
 }
 
-/* Left amber accent bar — hidden by default */
+/* Left warm-gold accent bar — hidden by default */
 .card::before {
   content: '';
   position: absolute;
@@ -350,9 +354,10 @@ body {
 
 .card:hover {
   border-color: var(--color-accent);
-  background: var(--color-surface-2);
-  box-shadow: 0 0 0 1px var(--color-accent-glow),
-              inset 0 0 40px var(--color-accent-glow);
+  background: var(--color-surface);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07),
+              0 1px 4px rgba(0, 0, 0, 0.04);
+  transform: translateY(-1px);
 }
 
 .card:hover::before {
@@ -373,7 +378,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-accent);
+  color: var(--color-accent-dim);
 }
 
 .card-date {
@@ -396,7 +401,7 @@ body {
 }
 
 .card:hover .card-title {
-  color: var(--color-accent);
+  color: var(--color-accent-dim);
 }
 
 /* Card excerpt */
@@ -428,18 +433,16 @@ body {
 /* ── Featured Card (top story) ── */
 .card--featured {
   padding: var(--space-8);
-  border-color: var(--color-border-strong);
-  background: linear-gradient(
-    135deg,
-    var(--color-surface) 0%,
-    rgba(240, 165, 0, 0.04) 100%
-  );
+  border-color: var(--color-border);
+  background: #FFFFFF;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
   margin-bottom: var(--space-6);
 }
 
 .card--featured::before {
   opacity: 1;
   width: 4px;
+  background: var(--color-accent-dim);
 }
 
 .card--featured .card-title {
@@ -472,7 +475,7 @@ body {
   padding: 0.2em 0.6em;
   border-radius: 3px;
   background: var(--color-surface-2);
-  border: 1px solid var(--color-border-strong);
+  border: 1px solid var(--color-border);
   color: var(--color-text-muted);
   display: inline-block;
 }
@@ -499,7 +502,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-accent);
+  color: var(--color-accent-dim);
   margin-bottom: var(--space-4);
   display: block;
 }
@@ -603,15 +606,16 @@ body {
 }
 
 .post-content a {
-  color: var(--color-accent);
+  color: var(--color-link);
   text-decoration: underline;
-  text-decoration-color: var(--color-accent-dim);
+  text-decoration-color: rgba(37, 99, 235, 0.35);
   text-underline-offset: 3px;
-  transition: color 0.12s;
+  transition: color 0.12s, text-decoration-color 0.12s;
 }
 
 .post-content a:hover {
-  color: var(--color-accent-dim);
+  color: #1D4ED8;
+  text-decoration-color: rgba(29, 78, 216, 0.6);
 }
 
 .post-content blockquote {
@@ -619,7 +623,7 @@ body {
   padding: var(--space-4) var(--space-6);
   margin: var(--space-6) 0;
   color: var(--color-text-muted);
-  background: var(--color-surface);
+  background: #FDFCF9;
   border-radius: 0 6px 6px 0;
   font-style: italic;
 }
@@ -635,7 +639,7 @@ body {
   margin: var(--space-8) 0;
   font-family: 'IBM Plex Mono', monospace;
   font-size: var(--text-sm);
-  border: 1px solid var(--color-border-strong);
+  border: 1px solid var(--color-border);
 }
 
 .post-content th {
@@ -661,8 +665,13 @@ body {
   border-bottom: none;
 }
 
+/* Alternating row tint — very subtle, like quality newsprint */
+.post-content tbody tr:nth-child(even) td {
+  background: #FDFCFA;
+}
+
 .post-content tr:hover td {
-  background: var(--color-surface);
+  background: #FBF8F4;
 }
 
 /* Code blocks */
@@ -673,12 +682,12 @@ body {
   border: 1px solid var(--color-border);
   border-radius: 3px;
   padding: 0.15em 0.4em;
-  color: var(--color-accent);
+  color: var(--color-accent-dim);
 }
 
 .post-content pre {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border-strong);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
   border-radius: 6px;
   padding: var(--space-5) var(--space-6);
   overflow-x: auto;
@@ -727,7 +736,7 @@ body {
   font-size: var(--text-xs);
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  transition: border-color 0.15s, color 0.15s;
+  transition: border-color 0.15s, color 0.15s, box-shadow 0.15s;
 }
 
 .post-nav-next {
@@ -737,7 +746,8 @@ body {
 .post-nav-prev:hover,
 .post-nav-next:hover {
   border-color: var(--color-accent);
-  color: var(--color-accent);
+  color: var(--color-accent-dim);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .post-nav-label {
@@ -766,9 +776,10 @@ body {
   margin-bottom: var(--space-10);
   padding: var(--space-6);
   background: var(--color-surface);
-  border: 1px solid var(--color-border-strong);
+  border: 1px solid var(--color-border);
   border-radius: 6px;
   border-left: 3px solid var(--color-accent);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 }
 
 .popularity-section h2 {
@@ -786,6 +797,7 @@ body {
 .site-footer {
   border-top: 1px solid var(--color-border);
   padding: var(--space-8) 0;
+  background: #FAFAF7;
 }
 
 .site-footer .wrapper {
@@ -805,7 +817,7 @@ body {
 }
 
 .footer-accent {
-  color: var(--color-accent);
+  color: var(--color-accent-dim);
   font-weight: 500;
 }
 

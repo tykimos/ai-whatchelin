@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-04-13</sub>
+  <sub>Last updated: 2026-04-17</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.04.13-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.04.17-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -155,6 +155,9 @@ timeline
          : Cursor Bugbot — 80% resolution rate, MCP support (Apr 8)
          : Claude Mythos Preview + Project Glasswing (Apr 7)
          : Advisor Strategy — Opus advises Sonnet/Haiku (Apr 10)
+         : Claude Code Desktop redesign — sessions, terminal, file editor (Apr 15)
+         : Antigravity 9-hour service disruption (Apr 15)
+         : Claude Opus 4.7 released — improved SWE, vision, xhigh effort (Apr 16)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -326,6 +329,15 @@ quadrantChart
 **Codex CLI v0.120.0** (2026.04.11):
 > *"Windows sandbox now enforces proxy-only networking with OS-level egress rules. Device code flow added for ChatGPT sign-in when browser callback is unreliable."* — openai.com/codex/changelog `2026.04.11`
 
+**Claude Code Desktop Redesign** (2026.04.15):
+> *"Anthropic rebuilt the Claude Code desktop experience — parallel session sidebar, integrated terminal, in-app file editor, and rebuilt diff viewer for large changesets."* — MacRumors `2026.04.15`
+
+**Claude Opus 4.7 Released** (2026.04.16):
+> *"Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. Vision now supports 3.75MP images. Available on Bedrock, Vertex, and Foundry."* — anthropic.com `2026.04.16`
+
+**Antigravity Service Disruption** (2026.04.15):
+> *"Google Antigravity suffered a critical 9+ hour service disruption. New users couldn't complete onboarding. Raises questions about production readiness."* — Google AI Developers Forum `2026.04.15`
+
 **2026 Power Stack Formula**:
 ```
 Daily coding    = Codex CLI (keystroke level)
@@ -402,6 +414,15 @@ Free            = Gemini CLI + Aider
 
 **r/programming LLM Ban** (2026.04.01):
 > *"r/programming (6.9M members) temporarily banned all LLM content for April. Moderators cited 'exhausting' levels of AI discourse drowning out other programming topics."* — Tom's Hardware `2026.04.01`
+
+**Claude Code Desktop Redesign** (2026.04.15):
+> *"Anthropic rebuilt the Claude Code desktop app around parallel sessions — a new sidebar for managing multiple sessions, drag-and-drop workspace layout, integrated terminal, in-app file editor, and rebuilt diff viewer."* — MacRumors `2026.04.15`
+
+**Claude Opus 4.7 GA** (2026.04.16):
+> *"Opus 4.7 shows notable improvements in advanced software engineering tasks. Vision supports 3.75MP images (up from 1.15MP). New xhigh effort level and task budgets feature. Available on API, Bedrock, Vertex, and Foundry."* — anthropic.com `2026.04.16`
+
+**Antigravity 9-Hour Outage** (2026.04.15):
+> *"Google Antigravity suffered a critical service disruption persisting over 9 hours. New users couldn't complete onboarding setup."* — Google AI Developers Forum `2026.04.15`
 
 **Trae Privacy Warning**:
 > *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
@@ -530,6 +551,18 @@ xychart-beta
 **Claude Mythos Preview** (2026.04.07):
 > *"Anthropic officially launched Claude Mythos Preview via Project Glasswing — the model discovered thousands of zero-day vulnerabilities including a 27-year-old OpenBSD bug. Limited to 12 launch partners with $100M in credits for open-source security."* — TechCrunch `2026.04.07`
 
+**Claude Code Desktop Redesign** (2026.04.15):
+> *"Anthropic rebuilt the Claude Code desktop app around parallel sessions — drag-and-drop workspace layout, integrated terminal, in-app file editor, and rebuilt diff viewer."* — MacRumors `2026.04.15`
+
+**Claude Opus 4.7 Released** (2026.04.16):
+> *"Opus 4.7 improves on Opus 4.6 in advanced software engineering. Vision supports 3.75MP images. New xhigh effort level for finer reasoning/latency tradeoffs. API pricing unchanged at $5/$25 per million tokens."* — anthropic.com `2026.04.16`
+
+**Antigravity Service Disruption** (2026.04.15):
+> *"Google Antigravity suffered a critical 9+ hour service disruption. New users couldn't complete setup. Raises questions about production readiness for a tool still at 6% developer adoption."* — Google AI Developers Forum `2026.04.15`
+
+**Copilot Data Training Deadline Approaching** (2026.04.24):
+> *"Starting April 24, GitHub may use interaction data from Copilot Free/Pro/Pro+ users for AI model training unless they opt out. Community discussion received 232 downvotes."* — GitHub Community `2026.04`
+
 **r/programming LLM Ban** (2026.04.01):
 > *"r/programming (6.9M members) temporarily banned all LLM content for April, citing 'exhausting' AI discourse. Started April 1 — not an April Fools' joke."* — Tom's Hardware `2026.04.01`
 
@@ -574,26 +607,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13"]
+    x-axis ["04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17"]
     y-axis "Popularity Score" 50 --> 100
-    line "Claude Code" [90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92]
-    line "GH Copilot" [89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87, 87, 86, 86]
-    line "Cursor" [88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90]
-    line "Windsurf" [75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94]
+    line "GH Copilot" [88, 88, 88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85]
+    line "Cursor" [88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65, 65]
-    line "Antigravity" [55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51, 51, 51, 51]
+    line "Gemini CLI" [64, 64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65]
+    line "Antigravity" [53, 53, 52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-92↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-94↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-90↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-86↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-74↓-E74C3C?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-85↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-74-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-65↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-51↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-50↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 

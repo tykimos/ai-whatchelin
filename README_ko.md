@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-04-13</sub>
+  <sub>마지막 업데이트: 2026-04-17</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.04.13-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.04.17-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -155,6 +155,9 @@ timeline
          : Cursor Bugbot — 80% 해결률, MCP 지원 (4/8)
          : Claude Mythos Preview + Project Glasswing (4/7)
          : Advisor Strategy — Opus가 Sonnet/Haiku 조언 (4/10)
+         : Claude Code 데스크톱 재설계 — 세션, 터미널, 파일 에디터 (4/15)
+         : Antigravity 9시간 서비스 장애 (4/15)
+         : Claude Opus 4.7 출시 — SWE 향상, 비전 개선, xhigh 노력도 (4/16)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -326,6 +329,15 @@ quadrantChart
 **Codex CLI v0.120.0** (2026.04.11):
 > *"Windows 샌드박스가 이제 OS 수준 이그레스 규칙으로 프록시 전용 네트워킹을 강제한다. 브라우저 콜백이 불안정할 때를 위한 디바이스 코드 플로 인증 추가."* — openai.com/codex/changelog `2026.04.11`
 
+**Claude Code 데스크톱 재설계** (2026.04.15):
+> *"Anthropic이 Claude Code 데스크톱 경험을 재구축했다 — 병렬 세션 사이드바, 통합 터미널, 앱 내 파일 편집기, 대규모 변경 세트를 위한 diff 뷰어 개선."* — MacRumors `2026.04.15`
+
+**Claude Opus 4.7 출시** (2026.04.16):
+> *"Opus 4.7은 고급 소프트웨어 엔지니어링에서 Opus 4.6보다 눈에 띄는 개선을 보였으며, 가장 어려운 작업에서 특히 향상됐다. 비전이 이제 3.75MP 이미지를 지원한다. Bedrock, Vertex, Foundry에서 이용 가능."* — anthropic.com `2026.04.16`
+
+**Antigravity 서비스 장애** (2026.04.15):
+> *"Google Antigravity가 9시간 이상의 심각한 서비스 장애를 겪었다. 신규 사용자가 온보딩을 완료할 수 없었다. 프로덕션 준비 상태에 의문이 제기된다."* — Google AI Developers 포럼 `2026.04.15`
+
 **2026 파워 스택 공식**:
 ```
 일상 코딩 = Codex CLI (키스트로크 레벨)
@@ -399,6 +411,15 @@ quadrantChart
 
 **r/programming LLM 금지** (2026.04.01):
 > *"r/programming (690만 회원)이 4월 한 달간 모든 LLM 콘텐츠를 일시 금지했다. 모더레이터들은 AI 담론이 '지겹도록' 다른 프로그래밍 주제를 묻어버린다고 밝혔다."* — Tom's Hardware `2026.04.01`
+
+**Claude Code 데스크톱 재설계** (2026.04.15):
+> *"Anthropic이 Claude Code 데스크톱 앱을 병렬 세션 중심으로 재구축했다 — 멀티 세션 사이드바, 드래그앤드롭 워크스페이스 레이아웃, 통합 터미널, 앱 내 파일 편집기, 대규모 변경 세트용 diff 뷰어 개선."* — MacRumors `2026.04.15`
+
+**Claude Opus 4.7 정식 출시** (2026.04.16):
+> *"Opus 4.7이 고급 소프트웨어 엔지니어링 작업에서 눈에 띄는 개선을 보였다. 비전이 3.75MP 이미지 지원(기존 1.15MP). 새로운 xhigh 노력도 수준과 작업 예산 기능. API, Bedrock, Vertex, Foundry에서 이용 가능."* — anthropic.com `2026.04.16`
+
+**Antigravity 9시간 장애** (2026.04.15):
+> *"Google Antigravity가 9시간 이상의 심각한 서비스 장애를 겪었다. 신규 사용자가 온보딩 설정을 완료할 수 없었다."* — Google AI Developers 포럼 `2026.04.15`
 
 **Trae 프라이버시 경고**:
 > *"30초마다 ByteDance 도메인 5곳에 데이터 전송. 텔레메트리 끄기 설정해도 계속 전송."* — Unit 221B 보안 분석
@@ -521,6 +542,18 @@ xychart-beta
 **Claude Mythos Preview** (2026.04.07):
 > *"Anthropic이 Project Glasswing을 통해 Claude Mythos Preview를 공식 출시 — 27년 된 OpenBSD 버그 포함 수천 개의 제로데이 취약점을 발견했다. 12개 런치 파트너에 한정 공개, 오픈소스 보안에 $1억 크레딧 지원."* — TechCrunch `2026.04.07`
 
+**Claude Code 데스크톱 재설계** (2026.04.15):
+> *"Anthropic이 Claude Code 데스크톱 앱을 병렬 세션 중심으로 재구축했다 — 드래그앤드롭 워크스페이스 레이아웃, 통합 터미널, 앱 내 파일 편집기, diff 뷰어 개선."* — MacRumors `2026.04.15`
+
+**Claude Opus 4.7 출시** (2026.04.16):
+> *"Opus 4.7이 고급 소프트웨어 엔지니어링에서 Opus 4.6보다 개선됐다. 비전이 3.75MP 이미지 지원. 새로운 xhigh 노력도 수준으로 추론/지연 트레이드오프를 세밀하게 조절 가능. API 가격은 $5/$25(백만 토큰당) 동일."* — anthropic.com `2026.04.16`
+
+**Antigravity 서비스 장애** (2026.04.15):
+> *"Google Antigravity가 9시간 이상의 심각한 서비스 장애를 겪었다. 신규 사용자가 초기 설정을 완료할 수 없었다. 개발자 채택률 6%인 도구의 프로덕션 준비 상태에 의문."* — Google AI Developers 포럼 `2026.04.15`
+
+**Copilot 데이터 학습 마감 임박** (2026.04.24):
+> *"4월 24일부터 GitHub이 Copilot Free/Pro/Pro+ 사용자의 상호작용 데이터를 AI 학습에 사용할 수 있다. 옵트아웃 안 하면 자동 동의. 커뮤니티 토론에 👎 232개."* — GitHub Community `2026.04`
+
 **r/programming LLM 금지** (2026.04.01):
 > *"r/programming (690만 회원)이 4월 한 달간 모든 LLM 콘텐츠를 일시 금지. AI 담론이 '지겹도록' 다른 주제를 묻어버린다며. 4월 1일 시작 — 만우절 장난 아님."* — Tom's Hardware `2026.04.01`
 
@@ -565,26 +598,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13"]
+    x-axis ["04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17"]
     y-axis "인기 점수" 50 --> 100
-    line "Claude Code" [90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92]
-    line "GH Copilot" [89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87, 87, 86, 86]
-    line "Cursor" [88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90]
-    line "Windsurf" [75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94]
+    line "GH Copilot" [88, 88, 88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85]
+    line "Cursor" [88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65, 65]
-    line "Antigravity" [55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51, 51, 51, 51]
+    line "Gemini CLI" [64, 64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65]
+    line "Antigravity" [53, 53, 52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-92↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-94↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-90↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-86↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-74↓-E74C3C?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-85↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-74-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-65↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-51↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-50↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 

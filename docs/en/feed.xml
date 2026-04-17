@@ -1,18 +1,20 @@
 ---
 layout: null
+lang: en
+permalink: /en/feed.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>AI 뭐슐랭 데일리</title>
-  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self"/>
-  <link href="{{ site.url }}{{ site.baseurl }}/"/>
+  <title>AI WhatChelin Daily</title>
+  <link href="{{ site.url }}{{ site.baseurl }}/en/feed.xml" rel="self"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/en/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}{{ site.baseurl }}/</id>
+  <id>{{ site.url }}{{ site.baseurl }}/en/</id>
   <author>
-    <name>AI 뭐슐랭</name>
+    <name>AI WhatChelin</name>
   </author>
-  {% assign ko_posts = site.posts | where: "lang", "ko" %}
-  {% for post in ko_posts limit:20 %}
+  {% assign en_posts = site.posts | where: "lang", "en" %}
+  {% for post in en_posts limit:20 %}
   <entry>
     <title>{{ post.title | xml_escape }}</title>
     <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>

@@ -1,18 +1,19 @@
 ---
 layout: default
-title: 홈
-lang: ko
+title: Home
+lang: en
+permalink: /en/
 ---
 
-{% assign ko_posts = site.posts | where: "lang", "ko" %}
-{% if ko_posts.size == 0 %}{% assign ko_posts = site.posts %}{% endif %}
-{% assign featured = ko_posts | first %}
+{% assign en_posts = site.posts | where: "lang", "en" %}
+{% if en_posts.size == 0 %}{% assign en_posts = site.posts %}{% endif %}
+{% assign featured = en_posts | first %}
 
 <div class="index-header">
-  <h1 class="index-masthead"><span class="accent">AI</span> 뭐슐랭 데일리</h1>
-  <p class="index-description">매일 업데이트되는 AI 코딩 도구 뉴스, 인기도 트렌드, 커뮤니티 인사이트.</p>
+  <h1 class="index-masthead"><span class="accent">AI</span> WhatChelin Daily</h1>
+  <p class="index-description">Daily AI coding tool news, popularity trends, and community insights.</p>
   <div class="index-meta">
-    <a class="rss-badge" href="{{ '/feed.xml' | relative_url }}">RSS 구독</a>
+    <a class="rss-badge" href="{{ '/en/feed.xml' | relative_url }}">RSS</a>
   </div>
 </div>
 
@@ -24,17 +25,17 @@ lang: ko
 <a class="card card--featured" href="{{ featured.url | relative_url }}">
   <div class="card-meta">
     {% if featured.tags.size > 0 %}<span class="card-category">{{ featured.tags[0] }}</span>{% endif %}
-    <span class="card-date">{{ featured.date | date: "%Y.%m.%d" }}</span>
+    <span class="card-date">{{ featured.date | date: "%b %d, %Y" }}</span>
   </div>
   <h2 class="card-title">{{ featured.title }}</h2>
   {% if featured.excerpt %}<p class="card-excerpt">{{ featured.excerpt | strip_html | truncatewords: 40 }}</p>{% endif %}
-  <span class="card-readtime">{{ fm }}분</span>
+  <span class="card-readtime">{{ fm }} min</span>
 </a>
 {% endif %}
 
-{% assign remaining = ko_posts | slice: 1, 19 %}
+{% assign remaining = en_posts | slice: 1, 19 %}
 {% if remaining.size > 0 %}
-<p class="section-heading">최근 업데이트</p>
+<p class="section-heading">Recent Updates</p>
 <ul class="post-list">
   {% for post in remaining %}
   {% assign pw = post.content | number_of_words %}
@@ -44,11 +45,11 @@ lang: ko
     <a class="card" href="{{ post.url | relative_url }}">
       <div class="card-meta">
         {% if post.tags.size > 0 %}<span class="card-category">{{ post.tags[0] }}</span>{% endif %}
-        <span class="card-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        <span class="card-date">{{ post.date | date: "%b %d, %Y" }}</span>
       </div>
       <h3 class="card-title">{{ post.title }}</h3>
       {% if post.excerpt %}<p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}
-      <span class="card-readtime">{{ pm }}분</span>
+      <span class="card-readtime">{{ pm }} min</span>
     </a>
   </li>
   {% endfor %}

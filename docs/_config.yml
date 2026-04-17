@@ -2,7 +2,7 @@ title: AI WhatChelin Daily
 description: Daily AI coding tool news, popularity trends, and community insights
 url: "https://tykimos.github.io"
 baseurl: "/ai-whatchelin"
-lang: en
+lang: ko
 
 permalink: /:year/:month/:day/:title/
 
@@ -38,11 +38,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      lang: "en"
-  - scope:
-      path: "ko"
-    values:
-      lang: "ko"
 
 exclude:
   - README.md

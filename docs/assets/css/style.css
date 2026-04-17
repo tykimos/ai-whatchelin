@@ -46,17 +46,17 @@
   --leading-body:   1.7;
   --leading-loose:  1.85;
 
-  /* Spacing — generous, let content breathe */
+  /* Spacing — compact but comfortable */
   --space-1:  0.25rem;
-  --space-2:  0.5rem;
-  --space-3:  0.75rem;
-  --space-4:  1rem;
-  --space-6:  1.5rem;
-  --space-8:  2rem;
-  --space-10: 2.5rem;
-  --space-12: 3rem;
-  --space-16: 4rem;
-  --space-20: 5rem;
+  --space-2:  0.375rem;
+  --space-3:  0.5rem;
+  --space-4:  0.75rem;
+  --space-6:  1rem;
+  --space-8:  1.5rem;
+  --space-10: 2rem;
+  --space-12: 2.5rem;
+  --space-16: 3rem;
+  --space-20: 4rem;
 }
 
 /* ── Reset ── */
@@ -167,7 +167,7 @@ body {
    ═══════════════════════════════════════════════════════════ */
 
 .page-content {
-  padding: var(--space-12) 0 var(--space-20);
+  padding: var(--space-8) 0 var(--space-16);
   min-height: calc(100vh - var(--header-height) - 60px);
 }
 
@@ -176,7 +176,7 @@ body {
    ═══════════════════════════════════════════════════════════ */
 
 .index-header {
-  margin-bottom: var(--space-12);
+  margin-bottom: var(--space-8);
 }
 
 .index-masthead {
@@ -240,7 +240,7 @@ body {
 
 .card {
   display: block;
-  padding: var(--space-6) 0;
+  padding: var(--space-4) 0;
   border-bottom: 1px solid var(--color-border);
   text-decoration: none;
   color: inherit;
@@ -303,7 +303,7 @@ body {
 
 /* ── Featured Card — slightly larger, that's all ── */
 .card--featured {
-  padding: var(--space-8) 0;
+  padding: var(--space-6) 0;
   border-bottom: 1px solid var(--color-border);
   margin-bottom: 0;
 }
@@ -413,7 +413,7 @@ body {
   color: var(--color-text-muted);
 }
 
-.post-content p { margin-bottom: var(--space-6); }
+.post-content p { margin-bottom: var(--space-4); }
 
 .post-content ul,
 .post-content ol {

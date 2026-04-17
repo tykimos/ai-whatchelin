@@ -143,17 +143,23 @@ jobs:
             - Title: catchy headline, NOT "AI WhatChelin Daily — Date"
             - Only create sections for services with actual news (don't list every tool)
             - Write in journalist style: lead with the most impactful story
-            - Include links to sources inline where possible
+            - INLINE SOURCES: Every factual claim must have its source linked at the end of the sentence.
+              Example: "OpenAI는 Codex Business 시트 가격을 $25에서 $20으로 인하했다([OpenAI Blog](url))."
+              Do NOT collect sources at the bottom. Each sentence's source goes right there.
             - Market Pulse table goes at the bottom, not the top
             - The "Signal" column gives a brief qualitative note (e.g., "3-week high", "post-controversy dip")
             - Keep total length 300-600 words
+            - Korean is the PRIMARY language. Write Korean post first, then English.
 
-            Korean post: Same structure, translated naturally.
+            Korean post (PRIMARY):
             - Title in Korean (catchy headline, not date format)
             - Service names stay in English
             - Market Pulse table header: 도구 | 점수 | 변동 | 시그널
             - Section header "Market Pulse" → "마켓 펄스"
-            - Sources → 출처
+            - Sources inline in each sentence, not at the bottom
+
+            English post: Same structure, translated from Korean.
+            - Sources inline in each sentence
 
             Important: Create BOTH posts even if only the popularity CSV was updated.
             On quiet days, write about trends, analysis, or community sentiment instead.

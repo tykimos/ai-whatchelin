@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% assign cur_lang = page.lang | default: site.lang | default: 'en' %}
+  {% assign cur_lang = page.lang | default: site.lang | default: 'ko' %}
   {% assign t = site.i18n[cur_lang] %}
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ t.title }}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,25 +19,25 @@
 
   <header class="site-header" role="banner">
     <div class="wrapper">
-      <a class="site-title" href="{% if cur_lang == 'ko' %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" aria-label="{{ t.title }}">
-        <span class="accent">AI</span> WhatChelin
+      <a class="site-title" href="{% if cur_lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" aria-label="{{ t.title }}">
+        <span class="accent">AI</span> 뭐슐랭
       </a>
 
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-link" href="{% if cur_lang == 'ko' %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ t.home }}</a>
+        <a class="nav-link" href="{% if cur_lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ t.home }}</a>
         <a class="nav-link" href="https://github.com/tykimos/ai-whatchelin" target="_blank" rel="noopener">GitHub</a>
-        <a class="nav-link" href="{% if cur_lang == 'ko' %}{{ '/ko/feed.xml' | relative_url }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}">RSS</a>
+        <a class="nav-link" href="{% if cur_lang == 'en' %}{{ '/en/feed.xml' | relative_url }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}">RSS</a>
       </nav>
 
       <div class="site-nav-utility">
         <span class="header-date" aria-hidden="true">{{ site.time | date: "%Y-%m-%d" }}</span>
         <span class="lang-toggle" role="group" aria-label="Language selection">
           {% if cur_lang == 'ko' %}
-            <a href="{{ '/' | relative_url }}" class="lang-btn" lang="en">EN</a>
             <span class="lang-btn lang-btn--active" lang="ko" aria-current="true">KO</span>
+            <a href="{{ '/en/' | relative_url }}" class="lang-btn" lang="en">EN</a>
           {% else %}
+            <a href="{{ '/' | relative_url }}" class="lang-btn" lang="ko">KO</a>
             <span class="lang-btn lang-btn--active" lang="en" aria-current="true">EN</span>
-            <a href="{{ '/ko/' | relative_url }}" class="lang-btn" lang="ko">KO</a>
           {% endif %}
         </span>
       </div>

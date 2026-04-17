@@ -5,7 +5,7 @@
    Warm cream ground, soft charcoal text, minimal decoration.
    ═══════════════════════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap');
 
 :root {
   /* Surfaces — warm cream, like quality uncoated paper */
@@ -66,7 +66,7 @@
 html { scroll-behavior: smooth; font-size: 18px; }
 
 body {
-  font-family: 'Source Serif 4', Georgia, serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-optical-sizing: auto;
   background: var(--color-bg);
   color: var(--color-text);
@@ -98,7 +98,7 @@ body {
 }
 
 .site-title {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-sm);
   font-weight: 600;
   color: var(--color-text);
@@ -115,7 +115,7 @@ body {
 }
 
 .nav-link {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-text-muted);
   text-decoration: none;
@@ -141,7 +141,7 @@ body {
 }
 
 .lang-btn {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   padding: 0.2rem 0.5rem;
   color: var(--color-text-faint);
@@ -180,7 +180,7 @@ body {
 }
 
 .index-masthead {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-2xl);
   font-weight: 600;
   line-height: var(--leading-tight);
@@ -203,7 +203,7 @@ body {
 }
 
 .rss-badge {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-text-faint);
   text-decoration: none;
@@ -214,7 +214,7 @@ body {
 
 /* Section heading — just a thin line with label */
 .section-heading {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -259,7 +259,7 @@ body {
 }
 
 .card-category {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-accent);
   text-transform: uppercase;
@@ -267,13 +267,13 @@ body {
 }
 
 .card-date {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-text-faint);
 }
 
 .card-title {
-  font-family: 'Source Serif 4', serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-lg);
   font-weight: 600;
   color: var(--color-text);
@@ -296,7 +296,7 @@ body {
 }
 
 .card-readtime {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-text-faint);
 }
@@ -319,7 +319,7 @@ body {
 
 /* Tag pills */
 .tag {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-text-muted);
   display: inline-block;
@@ -340,7 +340,7 @@ body {
 }
 
 .post-category {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-accent);
   text-transform: uppercase;
@@ -350,7 +350,7 @@ body {
 }
 
 .post-title {
-  font-family: 'Source Serif 4', serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-3xl);
   font-weight: 600;
   line-height: 1.15;
@@ -365,7 +365,7 @@ body {
 }
 
 .post-date {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-text-faint);
 }
@@ -379,14 +379,14 @@ body {
 
 /* Post body — the reading experience */
 .post-content {
-  font-family: 'Source Serif 4', serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-base);
   line-height: var(--leading-loose);
   color: var(--color-text);
 }
 
 .post-content h2 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-lg);
   font-weight: 600;
   margin-top: var(--space-12);
@@ -396,7 +396,7 @@ body {
 }
 
 .post-content h3 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-base);
   font-weight: 600;
   margin-top: var(--space-8);
@@ -405,7 +405,7 @@ body {
 }
 
 .post-content h4 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-sm);
   font-weight: 600;
   margin-top: var(--space-6);
@@ -456,7 +456,7 @@ body {
   width: 100%;
   border-collapse: collapse;
   margin: var(--space-8) 0;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
 }
 
@@ -481,7 +481,7 @@ body {
 
 /* Code */
 .post-content code {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: 0.85em;
   color: var(--color-accent);
 }
@@ -516,7 +516,7 @@ body {
 .post-nav-next {
   text-decoration: none;
   color: var(--color-text-muted);
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   transition: color 0.15s;
   max-width: 45%;
@@ -537,7 +537,7 @@ body {
 }
 
 .post-nav-title {
-  font-family: 'Source Serif 4', serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-sm);
   font-weight: 600;
   color: var(--color-text);
@@ -559,7 +559,7 @@ body {
 
 .site-footer p,
 .footer-copy {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
   font-size: var(--text-xs);
   color: var(--color-text-faint);
 }

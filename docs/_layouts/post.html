@@ -44,20 +44,37 @@ layout: default
     {{ content }}
   </div>
 
+  {% comment %} Find previous and next posts in the SAME language {% endcomment %}
+  {% assign same_lang_posts = site.posts | where: "lang", cur_lang %}
+  {% assign prev_post = nil %}
+  {% assign next_post = nil %}
+  {% assign found_current = false %}
+  {% for p in same_lang_posts %}
+    {% if found_current and next_post == nil %}
+      {% assign next_post = p %}
+    {% endif %}
+    {% if p.url == page.url %}
+      {% assign found_current = true %}
+    {% endif %}
+    {% unless found_current %}
+      {% assign prev_post = p %}
+    {% endunless %}
+  {% endfor %}
+
   <nav class="post-nav" aria-label="Article navigation">
-    {% if page.previous.url %}
-    <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}">
+    {% if next_post %}
+    <a class="post-nav-prev" href="{{ next_post.url | relative_url }}">
       <span class="post-nav-label">{% if cur_lang == 'ko' %}이전 글{% else %}Previous{% endif %}</span>
-      <span class="post-nav-title">{{ page.previous.title }}</span>
+      <span class="post-nav-title">{{ next_post.title }}</span>
     </a>
     {% else %}
     <span></span>
     {% endif %}
 
-    {% if page.next.url %}
-    <a class="post-nav-next" href="{{ page.next.url | relative_url }}">
+    {% if prev_post %}
+    <a class="post-nav-next" href="{{ prev_post.url | relative_url }}">
       <span class="post-nav-label">{% if cur_lang == 'ko' %}다음 글{% else %}Next{% endif %}</span>
-      <span class="post-nav-title">{{ page.next.title }}</span>
+      <span class="post-nav-title">{{ prev_post.title }}</span>
     </a>
     {% else %}
     <span></span>

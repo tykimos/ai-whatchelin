@@ -20,7 +20,7 @@
   <header class="site-header" role="banner">
     <div class="wrapper">
       <a class="site-title" href="{% if cur_lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" aria-label="{{ t.title }}">
-        <span class="accent">AI</span> 뭐슐랭
+        {% if cur_lang == 'ko' %}<span class="accent">AI</span> 뭐슐랭{% else %}<span class="accent">AI</span> WhatChelin{% endif %}
       </a>
 
       <nav class="site-nav" aria-label="Primary navigation">

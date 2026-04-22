@@ -51,6 +51,16 @@ jobs:
 
             ### [Morning Update Run — UTC 20:00 or UTC 10:00]
 
+            **MANDATORY OUTPUT EVERY RUN — no exceptions, no conditionals:**
+            1. Append one new row to `data/popularity.csv` for today
+            2. Create `docs/_posts/YYYY-MM-DD-daily-update.md` (English)
+            3. Create `docs/_posts/YYYY-MM-DD-daily-update-ko.md` (Korean)
+            4. Commit all staged files with message `auto: daily update (YYYY-MM-DD)`
+
+            If the workflow finishes without these three files added AND a commit created,
+            the run is a FAILURE regardless of whether news was found. Do not exit early
+            on "quiet days" — write analysis/trend pieces instead (see step 5).
+
             #### 1. Search for latest info and update both READMEs
             Search the internet to check for the latest changes in these tools:
             - Price changes, new plans launched, plans discontinued
@@ -60,7 +70,8 @@ jobs:
             - Community hot topics (outages, controversies, migrations, etc.)
 
             If there are changes, update the relevant sections in both README.md and README_ko.md.
-            If there are no changes, leave them as-is.
+            If there are no changes, leave the READMEs as-is — but you MUST still
+            complete steps 2, 3, 5, and 6 below (CSV + posts + commit are mandatory every run).
 
             **Translation rules when updating both files:**
             - README.md is in English — keep all content in English
@@ -88,14 +99,15 @@ jobs:
             update the Mermaid xychart between POPULARITY_CHART_START and POPULARITY_CHART_END
             in both README.md and README_ko.md.
 
-            #### 4. Commit changes
-            If there are changes, commit directly with git add and git commit.
-            Commit message: "auto: daily update (YYYY-MM-DD)"
+            #### 4. (Reserved — commit happens in step 6 after posts are written)
 
-            #### 5. Write daily news posts — English AND Korean (mandatory)
-            After committing README/CSV changes, create TWO Jekyll news posts every day without exception:
+            #### 5. Write daily news posts — English AND Korean (MANDATORY, every run)
+            Create BOTH Jekyll news posts on every run without exception:
             - English: docs/_posts/YYYY-MM-DD-daily-update.md
             - Korean: docs/_posts/YYYY-MM-DD-daily-update-ko.md
+
+            These posts MUST exist after every morning run. On quiet days with no
+            major news, write a trend/analysis/community-sentiment piece — never skip.
 
             IMPORTANT: Write these as REAL NEWS ARTICLES, not data dumps.
             Each post should read like a tech news briefing — with context, analysis, and narrative.
@@ -163,7 +175,18 @@ jobs:
 
             Important: Create BOTH posts even if only the popularity CSV was updated.
             On quiet days, write about trends, analysis, or community sentiment instead.
-            After creating both posts, stage them and include in the git commit.
+
+            #### 6. Commit — MANDATORY final step (every run)
+            After the CSV row and both posts are written, stage and commit:
+
+            ```
+            git add data/popularity.csv docs/_posts/YYYY-MM-DD-daily-update.md docs/_posts/YYYY-MM-DD-daily-update-ko.md README.md README_ko.md
+            git commit -m "auto: daily update (YYYY-MM-DD)"
+            ```
+
+            The commit MUST contain at minimum: the CSV row and both post files.
+            README changes are optional (only if there was real news), but CSV + posts
+            are required every run. Verify with `git log -1 --stat` before finishing.
 
             ---
 
@@ -204,5 +227,6 @@ jobs:
             - Maintain the existing structure and style of each README
             - Update the fact check log date to today
             - Always include dates in community quotes
-            - Do not make unnecessary edits if there are no changes
+            - Do not make unnecessary edits to the READMEs if there is no news
+              (but CSV row and both daily posts are still mandatory every run)
             - README.md must stay in English, README_ko.md must stay in Korean

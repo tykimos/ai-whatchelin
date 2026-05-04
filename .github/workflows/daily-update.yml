@@ -24,6 +24,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Run Claude Code to update README
         uses: anthropics/claude-code-action@v1
@@ -230,3 +233,23 @@ jobs:
             - Do not make unnecessary edits to the READMEs if there is no news
               (but CSV row and both daily posts are still mandatory every run)
             - README.md must stay in English, README_ko.md must stay in Korean
+
+      - name: Push Claude's commits to master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git fetch origin master
+          LOCAL=$(git rev-parse HEAD)
+          REMOTE=$(git rev-parse origin/master)
+          echo "HEAD=$LOCAL"
+          echo "origin/master=$REMOTE"
+          git log --oneline -5
+          if [ "$LOCAL" = "$REMOTE" ]; then
+            echo "::error::Claude did not create a new commit. Mandatory CSV/posts/commit step was skipped."
+            exit 1
+          fi
+          # Re-attach default GITHUB_TOKEN auth (claude-code-action swaps it for an app token that may be revoked)
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin HEAD:master
+          echo "Pushed $LOCAL to origin/master (was $REMOTE)"

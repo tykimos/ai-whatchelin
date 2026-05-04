@@ -1,51 +1,47 @@
 ---
-title: "SpaceX Swoops In on Cursor for $60B as GitHub Copilot Overhauls Billing"
+title: "Anthropic and OpenAI Launch Rival Enterprise JVs on the Same Day"
 date: 2026-05-04
 lang: en
 categories: [news]
-tags: [cursor, copilot, gpt-5.5, claude-code, windsurf, gemini-cli, security]
-excerpt: "SpaceX's $60B Cursor acquisition deal, GitHub Copilot's shift to token-based billing, and GPT-5.5's launch — the AI coding landscape reshuffled entirely in two weeks."
+tags: [anthropic, openai, cursor, copilot, claude-code, enterprise, cursor-sdk]
+excerpt: "Anthropic's $1.5B and OpenAI's $10B — both announced Wall Street-backed enterprise joint ventures on the same day, escalating the AI coding war into consulting territory."
 ---
 
-The past two weeks brought seismic shifts to the AI coding tool market. SpaceX secured the right to acquire Cursor for $60 billion, GitHub Copilot announced a fundamental billing overhaul, and OpenAI launched its most expensive frontier model yet.
+AI coding tool companies are no longer content selling software alone. On May 4, Anthropic and OpenAI each announced enterprise joint ventures with Wall Street PE firms, launching a direct assault on the consulting market long dominated by McKinsey and Deloitte.
 
-## SpaceX Strikes $60B Deal for Cursor
+## Anthropic: $1.5B Enterprise AI Services JV
 
-SpaceX signed an agreement to acquire Cursor for $60 billion later this year([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion)). Musk preempted Cursor's planned $2B fundraise at a $50B valuation([TechCrunch](https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/)). The strategy: combine Cursor's product with SpaceX's Colossus training supercomputer. The acquisition is delayed until after SpaceX's IPO this summer, but the community is already debating whether Musk's involvement will alter Cursor's product direction. Adding to Cursor's turbulent month, a CVSS 8.1 arbitrary code execution vulnerability (CVE-2026-26268) was publicly disclosed and patched in v2.5([Cybersecurity News](https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/)).
+Anthropic partnered with Blackstone, Goldman Sachs, and Hellman & Friedman to form a $1.5B AI services joint venture([CNBC](https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html)). Anthropic, Blackstone, and H&F committed $300M each, with Goldman Sachs contributing roughly $150M([Fortune](https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs/)). The strategy: embed engineers inside companies to redesign workflows and integrate Claude directly.
 
-## GitHub Copilot: Sign-Ups Paused + Token Billing
+## OpenAI: $10B "The Deployment Company" Finalized
 
-GitHub paused new sign-ups for Copilot Pro, Pro+, and Student plans([GitHub Blog](https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/)). Opus models were removed from Pro — Opus 4.7 is now Pro+ only. The reason: agentic workflows fundamentally changed compute demands beyond what the original plan structure supported. The bigger change: starting June 1, all Copilot plans move to token-based billing with AI Credits replacing Premium Request Units([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). Developer reaction has been harsh: *"You will get less, but pay the same price"*([Visual Studio Magazine](https://visualstudiomagazine.com/articles/2026/04/27/devs-sound-off-on-usage-based-copilot-pricing-change-you-will-get-less-but-pay-the-same-price.aspx)).
+The same day, OpenAI finalized a $10B joint venture called "The Deployment Company" with TPG, Bain Capital, Brookfield, and SoftBank([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai)). The deal guarantees investors 17.5% annual returns over five years and takes a Palantir-style approach — forward-deploying OpenAI engineers inside client organizations([TechCrunch](https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/)).
 
-## GPT-5.5: OpenAI's Smartest Model, Highest Price
+## Cursor SDK Public Beta — Editor to Platform
 
-OpenAI released GPT-5.5([OpenAI](https://openai.com/index/introducing-gpt-5-5/)) — output tokens cost $30/MTok, double the GPT-5 line pricing. Multi-step reasoning and agentic workflows are significantly improved. Simultaneously, Codex Desktop received a major update adding macOS Computer Use (see, click, type across apps), 90+ plugins, and an in-app browser([OpenAI](https://openai.com/index/codex-for-almost-everything/)).
+Cursor released its TypeScript SDK (`@cursor/sdk`) in public beta([cursor.com](https://cursor.com/blog/typescript-sdk)). Developers can now programmatically spawn coding agents from CI/CD pipelines or backend services, running on sandboxed cloud VMs. Faire, Rippling, and Notion are early adopters([DevOps.com](https://devops.com/cursors-new-sdk-turns-ai-coding-agents-into-deployable-infrastructure/)). This marks Cursor's pivot from editor to platform.
 
-## Claude Code: ultrareview + Managed Agents
+## Claude Code v2.1.126 + ultrareview Free Trial Expiring
 
-Anthropic added the ultrareview subcommand to Claude Code — a fleet of cloud reviewer agents hunt bugs in parallel before PR merges, at $5-$20 per review([code.claude.com](https://code.claude.com/docs/en/whats-new)). The new Managed Agents service enables long-horizon agent work in a hosted environment with durable state. Claude Sonnet 4 and Opus 4 are set to retire on June 15.
+Claude Code shipped v2.1.126 with a `/model` picker for API gateways, a `project purge` command, and MCP server auto-retry (3x)([code.claude.com](https://code.claude.com/docs/en/changelog)). Meanwhile, the three free ultrareview runs given to Pro/Max subscribers expire May 5([code.claude.com](https://code.claude.com/docs/en/ultrareview)). After that, each review costs $5-$20.
 
-## Security Alert: Back-to-Back Cursor + Gemini CLI Vulnerabilities
+## Amazon Q Developer → Kiro Migration Begins
 
-Following Cursor's CVE-2026-26268 (CVSS 8.1), Gemini CLI disclosed a CVSS 10.0 vulnerability([The Register](https://www.theregister.com/2026/04/30/googles_fix_for_critical_gemini/)). In headless/CI mode, the CLI automatically trusted workspace folders and loaded agent configs without human approval or sandboxing. Patched in v0.39.1, but the back-to-back disclosures reignited debate about the fundamental risks of AI agents autonomously executing system-level commands.
-
-## Windsurf 2.0: Devin Built-In + $25B Valuation
-
-Cognition launched Windsurf 2.0 with Devin directly integrated([windsurf.com](https://windsurf.com/blog/windsurf-2-0)). Plan locally with Cascade, hand off to Devin for cloud execution in one click. Cognition is in talks to raise hundreds of millions at a $25 billion valuation([Idlen](https://www.idlen.io/news/cognition-devin-25-billion-valuation-windsurf-vibe-coding-april-2026/)).
+AWS is blocking new Amazon Q Developer Free Tier signups starting May 15([AWS DevOps Blog](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/)). Opus 4.6 will be removed from Q Developer Pro on May 29, and the latest models including Opus 4.7 are now exclusive to Kiro. Full Q IDE plugin end-of-support is April 30, 2027, but the migration signal is clear.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 97 | — | GPT-5.5 launch, holding steady at top |
-| Claude Code | 95 | ↑1 | ultrareview + Managed Agents, steady climb |
-| Cursor | 89 | ↓1 | SpaceX acquisition uncertainty + CVE |
-| Claude AI | 89 | ↑1 | Opus 4.7 adoption spreading |
-| GitHub Copilot | 83 | ↓2 | Sign-ups paused + token billing backlash |
-| Windsurf | 76 | ↑2 | 2.0 launch + Devin integration |
-| Codex CLI | 74 | ↑2 | Computer Use + GPT-5.5 support |
-| Aider | 68 | — | Stable |
-| Gemini CLI | 67 | ↑2 | v0.40.0 shipped, CVSS 10.0 patched |
-| Antigravity | 49 | ↓1 | Continued decline |
+| ChatGPT | 97 | — | GPT-5.5 + Deployment Company, holding top |
+| Claude Code | 96 | ↑2 | Enterprise JV + v2.1.126, new all-time high |
+| Cursor | 90 | — | SDK beta offsets acquisition uncertainty |
+| Claude AI | 90 | ↑2 | Opus 4.7 adoption + enterprise JV |
+| GitHub Copilot | 82 | ↓3 | Code Review → Actions minutes adds cost pressure |
+| Windsurf | 76 | ↑2 | 2.0 stabilizing, Devin integration settling in |
+| Codex CLI | 75 | ↑3 | AWS Bedrock launch, ecosystem expansion |
+| Aider | 68 | — | Stable, 39K+ GitHub stars |
+| Gemini CLI | 67 | ↑2 | v0.40.1 patched, CVSS 10.0 follow-up ongoing |
+| Antigravity | 48 | ↓2 | No news, continued decline |
 
-Between Copilot's billing overhaul and Cursor's acquisition uncertainty, Claude Code and Windsurf are capturing the spillover. The back-to-back security disclosures have elevated trust concerns across the entire AI agent tool category.
+Both Anthropic and OpenAI announcing enterprise JVs on the same day signals that the AI coding tool war has escalated beyond software into enterprise consulting. Cursor's SDK beta marks a pivot from editor to platform, and the Amazon Q → Kiro migration reshapes the AWS ecosystem.

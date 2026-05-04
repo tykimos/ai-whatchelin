@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-04-17</sub>
+  <sub>Last updated: 2026-05-04</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.04.17-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.04-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -158,6 +158,18 @@ timeline
          : Claude Code Desktop redesign — sessions, terminal, file editor (Apr 15)
          : Antigravity 9-hour service disruption (Apr 15)
          : Claude Opus 4.7 released — improved SWE, vision, xhigh effort (Apr 16)
+         : Codex "for Almost Everything" — macOS Computer Use, 90+ plugins (Apr 16)
+         : Copilot individual plans paused — Pro/Pro+ new sign-ups halted (Apr 20)
+         : SpaceX $60B deal to acquire Cursor (Apr 21)
+         : Claude Code ultrareview — cloud multi-agent PR review (Apr 22)
+         : GPT-5.5 released — OpenAI's smartest frontier model (Apr 23)
+         : Cognition raises at $25B valuation, Windsurf 2.0 + Devin built-in (Apr 23)
+         : Copilot moving to usage-based billing June 1 (Apr 28)
+         : Cursor CVE-2026-26268 — CVSS 8.1 arbitrary code execution (Apr 28)
+         : Gemini CLI v0.40.0 — offline search, colorblind themes (Apr 28)
+         : Zed 1.0 released — parallel agents, 1M+ lines of Rust (Apr 29)
+         : Gemini CLI CVSS 10.0 vulnerability patched (Apr 30)
+         : Copilot Visual Studio April update — Debugger agent, 20% faster (Apr 30)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -259,7 +271,7 @@ Vibe Coder
 │
 └── Open Source
     ├── OpenClaw ········· 333K Stars, general AI
-    ├── OpenCode ········· 95K Stars, terminal agent
+    ├── OpenCode ········· 147K Stars, terminal agent
     ├── Cline ············ 59K Stars, VS Code agent
     ├── Aider ············ 42K Stars, Git-first
     ├── Tabby ············ 33K Stars, on-premise
@@ -337,6 +349,15 @@ quadrantChart
 
 **Antigravity Service Disruption** (2026.04.15):
 > *"Google Antigravity suffered a critical 9+ hour service disruption. New users couldn't complete onboarding. Raises questions about production readiness."* — Google AI Developers Forum `2026.04.15`
+
+**Claude Code ultrareview** (2026.04.22):
+> *"Launches a fleet of cloud-based reviewer agents to hunt bugs in parallel before merging PRs. Findings independently reproduced before reporting. $5-$20 per review."* — code.claude.com `2026.04.22`
+
+**GPT-5.5 Released** (2026.04.23):
+> *"OpenAI's smartest frontier model. $5/MTok input, $30/MTok output. All pre-GPT-5 model families including o1, o3, o4-mini now retired."* — openai.com `2026.04.23`
+
+**Copilot Plan Shakeup** (2026.04.20):
+> *"New sign-ups paused for Pro/Pro+/Student. Opus models removed from Pro. Token-based billing replacing premium requests June 1. Community: 'You will get less, but pay the same price.'"* — GitHub Blog `2026.04.20`
 
 **2026 Power Stack Formula**:
 ```
@@ -427,7 +448,26 @@ Free            = Gemini CLI + Aider
 **Trae Privacy Warning**:
 > *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
 
+**SpaceX $60B Cursor Deal** (2026.04.21):
+> *"SpaceX announced a deal to acquire Cursor for $60 billion. Preempted Cursor's planned $2B fundraise at $50B valuation. Acquisition delayed until after SpaceX IPO this summer."* — Bloomberg `2026.04.21`
 
+**Cursor CVE-2026-26268** (2026.04.28):
+> *"CVSS 8.1 — attacker embeds a bare repository with a malicious pre-commit hook. When Cursor's AI agent triggers git operations, the hook fires automatically. Fixed in v2.5."* — Cybersecurity News `2026.04.28`
+
+**Windsurf 2.0 Launch** (2026.04.15):
+> *"Agent Command Center: Kanban-style surface for all sessions. Devin built directly into Windsurf — plan with Cascade, hand off to Devin in one click. Cognition raising at $25B valuation."* — windsurf.com `2026.04.15`
+
+**Copilot Usage-Based Billing** (2026.04.28):
+> *"All Copilot plans moving to token-based billing June 1. AI Credits replace premium requests. Community backlash: 'You will get less, but pay the same price.'"* — GitHub Blog `2026.04.28`
+
+**Gemini CLI v0.40.0** (2026.04.28):
+> *"Offline search via bundled ripgrep, colorblind-friendly themes, MCP resource management tools. Legacy MemoryManagerAgent replaced with prompt-driven memory."* — geminicli.com `2026.04.28`
+
+**Gemini CLI CVSS 10.0** (2026.04.30):
+> *"Critical vulnerability: in headless/CI mode, CLI auto-trusted workspace and loaded agent configs without sandboxing. Fixed in v0.39.1. May break workflows relying on --yolo mode."* — The Register `2026.04.30`
+
+**Zed 1.0 Released** (2026.04.29):
+> *"Five years, 1M+ lines of Rust. Parallel agents in the same window. External agent integration via Agent Client Protocol. Edit Prediction (Zeta) for AI completions on every keystroke."* — alternativeto.net `2026.04.29`
 
 ---
 
@@ -483,12 +523,12 @@ xychart-beta
     title "Open Source AI Coding Tools GitHub Stars (K)"
     x-axis ["OpenClaw", "OpenCode", "Cline", "Aider", "Tabby", "Continue", "Goose"]
     y-axis "Stars (K)" 0 --> 350
-    bar [333, 95, 59.3, 42.3, 33, 32, 29.4]
+    bar [333, 147, 59.3, 42.3, 33, 32, 29.4]
 ```
 
 | | OpenClaw | OpenCode | Cline | Aider | Tabby | Continue | Goose |
 |---|---|---|---|---|---|---|---|
-| **Stars** | **333K** | 95K+ | 59.3K | 42.3K | 33K | 32K | 29.4K |
+| **Stars** | **333K** | 147K+ | 59.3K | 42.3K | 33K | 32K | 29.4K |
 | **License** | MIT | OSS | Apache 2.0 | Apache 2.0 | — | Apache 2.0 | Apache 2.0 |
 | **Type** | General AI | Terminal agent | VS Code agent | CLI agent | Code completion | IDE+CI | Autonomous agent |
 | **Model** | Multi | 75+ | Multi+Ollama | **Any LLM** | Local only | Any model | Any LLM |
@@ -560,6 +600,30 @@ xychart-beta
 **Antigravity Service Disruption** (2026.04.15):
 > *"Google Antigravity suffered a critical 9+ hour service disruption. New users couldn't complete setup. Raises questions about production readiness for a tool still at 6% developer adoption."* — Google AI Developers Forum `2026.04.15`
 
+**Codex "for Almost Everything"** (2026.04.16):
+> *"Codex can now see, click, and type across all Mac apps with its own cursor. 90+ new plugins. GPT-5.5 support in the model selector. Multiple agents work in parallel without interfering."* — openai.com `2026.04.16`
+
+**SpaceX $60B Cursor Acquisition** (2026.04.21):
+> *"SpaceX announced a deal giving it the right to acquire Cursor for $60 billion later this year, preempting Cursor's $2B fundraise at $50B valuation. Part of Musk's plan to transform SpaceX into an AI company."* — Bloomberg `2026.04.21`
+
+**GPT-5.5 Released** (2026.04.23):
+> *"OpenAI's smartest frontier model for professional work. $5/MTok input, $30/MTok output — doubled per-token cost from GPT-5 line. Stronger multi-step reasoning and agentic workflows."* — openai.com `2026.04.23`
+
+**Copilot Individual Plans Paused** (2026.04.20):
+> *"GitHub paused new sign-ups for Pro, Pro+, and Student plans. Opus models removed from Pro — Opus 4.7 now Pro+ only. Agentic workflows fundamentally changed compute demands beyond what plan structures supported."* — GitHub Blog `2026.04.20`
+
+**Copilot Usage-Based Billing** (2026.04.28):
+> *"All Copilot plans moving to token-based billing June 1. Premium Request Units replaced by AI Credits. 'You will get less, but pay the same price' — community backlash intensifies."* — GitHub Blog `2026.04.28`
+
+**Cursor CVE-2026-26268** (2026.04.28):
+> *"CVSS 8.1 arbitrary code execution — attacker embeds malicious git pre-commit hooks that fire when Cursor's AI agent triggers git operations. Fixed in Cursor v2.5."* — Cybersecurity News `2026.04.28`
+
+**Windsurf 2.0 + Devin Built-In** (2026.04.15):
+> *"Agent Command Center with Kanban-style overview of all sessions. Plan locally with Cascade, hand off to Devin for cloud execution with one click. Cognition raising at $25B valuation."* — windsurf.com `2026.04.15`
+
+**Gemini CLI CVSS 10.0 Vulnerability** (2026.04.30):
+> *"Over-permissive workspace trust allowed unprivileged attackers to force malicious content as Gemini configuration. In headless/CI mode, CLI auto-trusted workspace and loaded agent configs without human approval."* — The Register `2026.04.30`
+
 **Copilot Data Training Deadline Approaching** (2026.04.24):
 > *"Starting April 24, GitHub may use interaction data from Copilot Free/Pro/Pro+ users for AI model training unless they opt out. Community discussion received 232 downvotes."* — GitHub Community `2026.04`
 
@@ -607,26 +671,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17"]
-    y-axis "Popularity Score" 50 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94]
-    line "GH Copilot" [88, 88, 88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85]
-    line "Cursor" [88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [64, 64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65]
-    line "Antigravity" [53, 53, 52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50]
+    x-axis ["04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04"]
+    y-axis "Popularity Score" 45 --> 100
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 95]
+    line "GH Copilot" [88, 88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 83]
+    line "Cursor" [88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 89]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 74]
+    line "Gemini CLI" [64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67]
+    line "Antigravity" [53, 52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 49]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-94↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-90↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-85↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-74-9B59B6?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-65↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-50↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Claude_Code-95↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Cursor-89↓-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-83↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-76↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-74↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-67↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-49↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -886,8 +950,8 @@ timeline
          : Gemini 3 launches
          : Copilot MS M365 integration
          : Devin 2.0 $500 → $20
-    2026 : GPT-5.4 + SuperApp announced
-         : Claude Opus 4.6 + Cowork launches
+    2026 : GPT-5.5 + SuperApp announced
+         : Claude Opus 4.7 + Cowork launches
          : Grok 4.20 2M context
          : Perplexity Computer agent
          : Pentagon blocked from punishing Anthropic (Mar 28)
@@ -932,8 +996,8 @@ flowchart TD
 ```
 General Office
 ├── Chat AI
-│   ├── ChatGPT ········· OpenAI, GPT-5.4, $0~200/mo
-│   ├── Claude.ai ······· Anthropic, Opus 4.6, $0~200/mo
+│   ├── ChatGPT ········· OpenAI, GPT-5.5, $0~200/mo
+│   ├── Claude.ai ······· Anthropic, Opus 4.7, $0~200/mo
 │   ├── Gemini ·········· Google, 3.1 Pro, $0~250/mo
 │   ├── Copilot (MS) ···· Microsoft, M365 integration, $0~30/mo
 │   ├── Grok ············ xAI, 2M context, $0~30/mo
@@ -954,7 +1018,7 @@ General Office
 |---|---|---|---|---|---|---|
 | **Provider** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
 | **Site** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
-| **Latest Model** | GPT-5.4 | Claude Opus 4.6 | Gemini 3.1 Pro | GPT-5.4 + Claude | Grok 4.20 | Sonar Pro |
+| **Latest Model** | GPT-5.5 | Claude Opus 4.7 | Gemini 3.1 Pro | GPT-5.5 + Claude | Grok 4.20 | Sonar Pro |
 | **Free** | O | O | O | O | O | O |
 | **Starting Price** | $8/mo (Go) | $20/mo (Pro) | $19.99/mo | $18/mo | $30/mo | $20/mo |
 | **Max Price** | $200/mo (Pro) | $200/mo (Max) | $249.99/mo (Ultra) | $30/mo | $30/mo | $325/seat/mo |
@@ -1015,12 +1079,12 @@ General Office
 | **~$20** | [ChatGPT Go](https://chatgpt.com) | $8/mo | GPT-5.3 Instant |
 | | [Copilot MS](https://www.microsoft.com/en-us/microsoft-365-copilot) | $18/mo | M365 integration |
 | | [ChatGPT Plus](https://chatgpt.com) | $20/mo | GPT-5.2 + Codex |
-| | [Claude Pro](https://claude.com) | $20/mo | Opus 4.6 + Cowork |
+| | [Claude Pro](https://claude.com) | $20/mo | Opus 4.7 + Cowork |
 | | [Gemini Pro](https://gemini.google.com) | $19.99/mo | Gemini 3 |
 | | [Perplexity Pro](https://www.perplexity.ai) | $20/mo | unlimited Pro |
 | | [Devin Core](https://devin.ai) | $20/mo | ACU-based |
 | **$30+** | [Grok](https://x.ai) | $30/mo | 2M context |
-| | [ChatGPT Pro](https://chatgpt.com) | $200/mo | GPT-5.4 Pro |
+| | [ChatGPT Pro](https://chatgpt.com) | $200/mo | GPT-5.5 Pro |
 | | [Claude Max](https://claude.com) | $100~200/mo | 5x~20x |
 | | [Gemini Ultra](https://gemini.google.com) | $249.99/mo | all features |
 
@@ -1089,7 +1153,7 @@ All pricing information has been directly verified from each service's official 
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | File Library, CarPlay integration, GPT-5.4 Thinking flagship |
+| ChatGPT | chatgpt.com/pricing | File Library, CarPlay integration, GPT-5.5 flagship |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), third-party tool restriction |
 | Claude Code | code.claude.com/changelog | v2.1.92 (Apr 4) — Bedrock wizard, /cost breakdown, faster Write |
 | Cursor | cursor.com/pricing | **Cursor 3** released (Apr 2), Agents Window, Design Mode |
@@ -1146,6 +1210,11 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/22 | Claude Code **ultrareview** — fleet of cloud reviewer agents hunt bugs in parallel before merging PRs, $5-$20 per review | [code.claude.com](https://code.claude.com/docs/en/whats-new) |
+| 2026/04/16 | **Claude Opus 4.7** GA — step-change in agentic coding over 4.6, high-res vision (3.75MP), task budgets, xhigh effort level | [anthropic.com](https://www.anthropic.com/news/claude-opus-4-7) |
+| 2026/04/~ | **Managed Agents** — hosted Claude Platform service for long-horizon agent work with durable state and safer tool access | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/04/~ | **Rate Limits API** — programmatic queries for current rate limits | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/04/~ | Claude Sonnet 4 and Opus 4 **retiring June 15, 2026** — default replacements are 4.5 versions, Opus 4.7 recommended for complex workloads | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/04/10 | **Advisor Strategy** for Messages API — Opus 4.6 advises Sonnet/Haiku, +2.7pp on SWE-bench Multilingual, 11.9% cheaper per task | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/04/07 | **Claude Mythos Preview** launched via Project Glasswing — thousands of zero-days discovered, 12 launch partners, $100M credits for open-source security | [techcrunch.com](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/) |
 | 2026/04/04 | Claude Code **v2.1.92** — interactive Bedrock setup wizard, per-model /cost breakdown, 60% faster Write tool on large files | [code.claude.com](https://code.claude.com/docs/en/changelog) |
@@ -1184,6 +1253,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/23 | **GPT-5.5** — smartest frontier model, $5/MTok input, $30/MTok output, stronger multi-step reasoning and agentic workflows | [openai.com](https://openai.com/index/introducing-gpt-5-5/) |
+| 2026/04/16 | **Codex "for Almost Everything"** — Computer Use on macOS, 90+ plugins, in-app browser, persisted /goal workflows, GPT-5.5 support | [openai.com](https://openai.com/index/codex-for-almost-everything/) |
 | 2026/04/~ | **GPT-5.3 Instant Mini** — replaces GPT-5 Instant Mini as ChatGPT fallback, more natural conversation and stronger contextual awareness | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
 | 2026/04/~ | ChatGPT **File Library** — auto-saves uploaded/created files for reuse across chats | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/04/~ | ChatGPT **CarPlay** integration — hands-free access on iOS 26.4+ | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
@@ -1207,6 +1278,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/30 | **Gemini CLI CVSS 10.0** vulnerability patched — over-permissive workspace trust allowed remote code execution in CI/headless mode, fixed in v0.39.1/v0.40.0-preview.3 | [theregister.com](https://www.theregister.com/2026/04/30/googles_fix_for_critical_gemini/) |
+| 2026/04/28 | **Gemini CLI v0.40.0** — offline search with bundled ripgrep, colorblind-friendly themes, MCP resource management tools, prompt-driven memory system | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
 | 2026/04/08 | **Gemini CLI v0.37.0** stable — dynamic sandbox expansion, "Chapters" tool-based topic grouping, enhanced browser agent with persistent sessions | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
 | 2026/04/02 | **Gemma 4** released (31B Dense #3 on Arena AI, 26B MoE, Apache 2.0) | [developers.googleblog.com](https://developers.googleblog.com/) |
 | 2026/04/01 | **Gemini CLI v0.36.0** stable — multi-registry architecture, git worktree support, enhanced macOS/Windows sandboxing, non-interactive Plan Mode | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
@@ -1230,6 +1303,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/30 | Copilot **Visual Studio April update** — Debugger agent, cloud agent 20%+ faster start, custom agent user-level support | [github.blog](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update/) |
+| 2026/04/28 | **Token-based billing** for all Copilot plans effective June 1 — Premium Request Units replaced by AI Credits | [github.blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) |
+| 2026/04/20 | **Individual plan changes** — Pro/Pro+/Student new sign-ups paused, Opus removed from Pro, rate limit visibility in VS Code | [github.blog](https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/) |
 | 2026/04/09 | Copilot **Autopilot** preview — fully autonomous agent sessions, no manual approvals required | [github.blog](https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/) |
 | 2026/04/09 | Copilot CLI **v1.0.22** — MCP schema sanitization, improved large image handling, new inline renderer | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases/) |
 | 2026/04/02 | **Copilot SDK** public preview — embed Copilot agentic capabilities in custom apps | [github.blog](https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/) |
@@ -1247,6 +1323,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/28 | **CVE-2026-26268** — CVSS 8.1 arbitrary code execution via malicious git pre-commit hooks, fixed in Cursor v2.5 | [cybersecuritynews.com](https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/) |
+| 2026/04/21 | **SpaceX $60B acquisition** deal — right to acquire Cursor, preempting $2B fundraise at $50B valuation | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion) |
+| 2026/04/~ | **Security Review** beta — Security Reviewer + Vulnerability Scanner agents on Teams/Enterprise plans | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/02 | **Cursor 3** — Agents Window (parallel agents across repos), Design Mode (annotate UI in browser), /worktree, /best-of-n, Bugbot 78% resolution rate | [cursor.com](https://cursor.com/blog/cursor-3) |
 | 2026/03/25 | **Self-hosted cloud agents** (Brex, Money Forward, Notion) | [cursor.com](https://cursor.com/blog/self-hosted-cloud-agents) |
 | 2026/03/19 | **Composer 2** model (Kimi K2.5 based) + **Cursor Glass** alpha | [cursor.com](https://cursor.com/blog/composer-2) |
@@ -1293,7 +1372,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.04.12-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.04-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

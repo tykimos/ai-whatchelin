@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-04-17</sub>
+  <sub>마지막 업데이트: 2026-05-04</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.04.17-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.04-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -158,6 +158,18 @@ timeline
          : Claude Code 데스크톱 재설계 — 세션, 터미널, 파일 에디터 (4/15)
          : Antigravity 9시간 서비스 장애 (4/15)
          : Claude Opus 4.7 출시 — SWE 향상, 비전 개선, xhigh 노력도 (4/16)
+         : Codex "거의 모든 것을 위한" — macOS Computer Use, 90+ 플러그인 (4/16)
+         : Copilot 개인 플랜 중단 — Pro/Pro+ 신규 가입 일시 중지 (4/20)
+         : SpaceX $600억에 Cursor 인수 합의 (4/21)
+         : Claude Code ultrareview — 클라우드 멀티에이전트 PR 리뷰 (4/22)
+         : GPT-5.5 출시 — OpenAI 최강 프론티어 모델 (4/23)
+         : Cognition $250억 밸류에이션 투자유치, Windsurf 2.0 + Devin 통합 (4/23)
+         : Copilot 6월 1일부터 사용량 기반 과금 전환 (4/28)
+         : Cursor CVE-2026-26268 — CVSS 8.1 임의 코드 실행 취약점 (4/28)
+         : Gemini CLI v0.40.0 — 오프라인 검색, 색약 친화 테마 (4/28)
+         : Zed 1.0 출시 — 병렬 에이전트, 100만+ Rust 코드 라인 (4/29)
+         : Gemini CLI CVSS 10.0 취약점 패치 (4/30)
+         : Copilot Visual Studio 4월 업데이트 — 디버거 에이전트, 20% 빠른 시작 (4/30)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -259,7 +271,7 @@ flowchart TD
 │
 └── 오픈소스
     ├── OpenClaw ········· 333K Stars, 범용 AI
-    ├── OpenCode ········· 95K Stars, 터미널 에이전트
+    ├── OpenCode ········· 147K Stars, 터미널 에이전트
     ├── Cline ············ 59K Stars, VS Code 에이전트
     ├── Aider ············ 42K Stars, Git-first
     ├── Tabby ············ 33K Stars, 온프레미스
@@ -337,6 +349,15 @@ quadrantChart
 
 **Antigravity 서비스 장애** (2026.04.15):
 > *"Google Antigravity가 9시간 이상의 심각한 서비스 장애를 겪었다. 신규 사용자가 온보딩을 완료할 수 없었다. 프로덕션 준비 상태에 의문이 제기된다."* — Google AI Developers 포럼 `2026.04.15`
+
+**Claude Code ultrareview** (2026.04.22):
+> *"클라우드 리뷰어 에이전트 팀이 PR 머지 전 버그를 병렬로 탐지한다. 발견 사항은 보고 전 독립적으로 재현 검증. 건당 $5-$20."* — code.claude.com `2026.04.22`
+
+**GPT-5.5 출시** (2026.04.23):
+> *"OpenAI 최강 프론티어 모델. 입력 $5/MTok, 출력 $30/MTok. o1, o3, o4-mini 등 GPT-5 이전 모델 패밀리 전부 지원 종료."* — openai.com `2026.04.23`
+
+**Copilot 플랜 대변동** (2026.04.20):
+> *"Pro/Pro+/Student 신규 가입 중단. Pro에서 Opus 모델 제거. 6월 1일부터 프리미엄 요청 대신 토큰 기반 과금. 커뮤니티: '덜 받고 같은 값 내라는 거잖아.'"* — GitHub Blog `2026.04.20`
 
 **2026 파워 스택 공식**:
 ```
@@ -424,7 +445,26 @@ quadrantChart
 **Trae 프라이버시 경고**:
 > *"30초마다 ByteDance 도메인 5곳에 데이터 전송. 텔레메트리 끄기 설정해도 계속 전송."* — Unit 221B 보안 분석
 
+**SpaceX $600억 Cursor 인수** (2026.04.21):
+> *"SpaceX가 Cursor를 $600억에 인수하는 계약을 발표. Cursor의 $50B 밸류에이션 $2B 투자유치를 앞질렀다. SpaceX IPO 이후로 인수 연기."* — Bloomberg `2026.04.21`
 
+**Cursor CVE-2026-26268** (2026.04.28):
+> *"CVSS 8.1 — 공격자가 악성 pre-commit 훅이 포함된 베어 레포지토리를 삽입. Cursor의 AI 에이전트가 git 작업을 트리거하면 훅이 자동 실행. v2.5에서 패치."* — Cybersecurity News `2026.04.28`
+
+**Windsurf 2.0 출시** (2026.04.15):
+> *"Agent Command Center: 칸반 스타일로 모든 세션 관리. Devin이 Windsurf에 직접 내장 — Cascade로 플래닝, 한 클릭으로 Devin에 핸드오프. Cognition $250억 밸류에이션 투자유치."* — windsurf.com `2026.04.15`
+
+**Copilot 사용량 기반 과금** (2026.04.28):
+> *"6월 1일부터 모든 Copilot 플랜이 토큰 기반 과금으로 전환. AI 크레딧이 프리미엄 요청을 대체. 커뮤니티 반발: '덜 받고 같은 값 내라는 거잖아.'"* — GitHub Blog `2026.04.28`
+
+**Gemini CLI v0.40.0** (2026.04.28):
+> *"번들 ripgrep으로 오프라인 검색, 색약 친화 테마, MCP 리소스 관리 도구. 레거시 MemoryManagerAgent를 프롬프트 기반 메모리로 대체."* — geminicli.com `2026.04.28`
+
+**Gemini CLI CVSS 10.0** (2026.04.30):
+> *"심각한 취약점: 헤드리스/CI 모드에서 CLI가 워크스페이스를 자동 신뢰하고 샌드박싱 없이 에이전트 설정 로드. v0.39.1에서 수정. --yolo 모드에 의존하는 워크플로우 영향 가능."* — The Register `2026.04.30`
+
+**Zed 1.0 출시** (2026.04.29):
+> *"5년 개발, 100만 줄 이상의 Rust. 같은 창에서 병렬 에이전트 실행. Agent Client Protocol로 외부 에이전트 통합. Edit Prediction(Zeta)으로 매 키스트로크 AI 완성."* — alternativeto.net `2026.04.29`
 
 ---
 
@@ -480,12 +520,12 @@ xychart-beta
     title "오픈소스 AI 코딩 도구 GitHub Stars (K)"
     x-axis ["OpenClaw", "OpenCode", "Cline", "Aider", "Tabby", "Continue", "Goose"]
     y-axis "Stars (K)" 0 --> 350
-    bar [333, 95, 59.3, 42.3, 33, 32, 29.4]
+    bar [333, 147, 59.3, 42.3, 33, 32, 29.4]
 ```
 
 | | OpenClaw | OpenCode | Cline | Aider | Tabby | Continue | Goose |
 |---|---|---|---|---|---|---|---|
-| **Stars** | **333K** | 95K+ | 59.3K | 42.3K | 33K | 32K | 29.4K |
+| **Stars** | **333K** | 147K+ | 59.3K | 42.3K | 33K | 32K | 29.4K |
 | **라이선스** | MIT | OSS | Apache 2.0 | Apache 2.0 | — | Apache 2.0 | Apache 2.0 |
 | **유형** | 범용 AI | 터미널 에이전트 | VS Code 에이전트 | CLI 에이전트 | 코드 완성 | IDE+CI | 자율 에이전트 |
 | **모델** | 다중 | 75+ | 다중+Ollama | **모든 LLM** | 로컬 전용 | 모든 모델 | 모든 LLM |
@@ -551,6 +591,30 @@ xychart-beta
 **Antigravity 서비스 장애** (2026.04.15):
 > *"Google Antigravity가 9시간 이상의 심각한 서비스 장애를 겪었다. 신규 사용자가 초기 설정을 완료할 수 없었다. 개발자 채택률 6%인 도구의 프로덕션 준비 상태에 의문."* — Google AI Developers 포럼 `2026.04.15`
 
+**Codex "거의 모든 것을 위한"** (2026.04.16):
+> *"Codex가 이제 맥에서 모든 앱을 보고, 클릭하고, 타이핑할 수 있다. 90개 이상의 신규 플러그인. GPT-5.5 모델 지원. 여러 에이전트가 사용자 작업을 방해하지 않고 병렬 실행."* — openai.com `2026.04.16`
+
+**SpaceX $600억 Cursor 인수** (2026.04.21):
+> *"SpaceX가 올해 안에 Cursor를 $600억에 인수할 수 있는 권리를 확보. Cursor의 $2B 투자유치($50B 밸류) 앞질러. 머스크의 SpaceX를 AI 기업으로 전환하려는 계획의 일환."* — Bloomberg `2026.04.21`
+
+**GPT-5.5 출시** (2026.04.23):
+> *"OpenAI 최강 프론티어 모델. 입력 $5/MTok, 출력 $30/MTok — GPT-5 라인 대비 토큰당 2배 가격 상승. 멀티스텝 추론과 에이전틱 워크플로우 강화."* — openai.com `2026.04.23`
+
+**Copilot 개인 플랜 중단** (2026.04.20):
+> *"GitHub이 Pro, Pro+, Student 플랜 신규 가입을 일시 중단. Opus 모델이 Pro에서 제거 — Opus 4.7은 Pro+에서만 가능. 에이전틱 워크플로우가 기존 플랜 구조의 컴퓨팅 수요를 근본적으로 변경."* — GitHub Blog `2026.04.20`
+
+**Copilot 사용량 기반 과금** (2026.04.28):
+> *"6월 1일부터 모든 Copilot 플랜이 토큰 기반 과금으로 전환. Premium Request Unit이 AI 크레딧으로 대체. '덜 받고 같은 값 내라는 거잖아' — 커뮤니티 반발 심화."* — GitHub Blog `2026.04.28`
+
+**Cursor CVE-2026-26268** (2026.04.28):
+> *"CVSS 8.1 임의 코드 실행 — 공격자가 악성 git pre-commit 훅을 심으면 Cursor AI 에이전트가 git 작업 시 자동 실행. Cursor v2.5에서 패치."* — Cybersecurity News `2026.04.28`
+
+**Windsurf 2.0 + Devin 통합** (2026.04.15):
+> *"칸반 스타일 Agent Command Center로 모든 세션 한눈에. Cascade로 로컬 플래닝 후 Devin에 클라우드 실행 핸드오프. Cognition $250억 밸류에이션 투자유치."* — windsurf.com `2026.04.15`
+
+**Gemini CLI CVSS 10.0 취약점** (2026.04.30):
+> *"과도하게 허용적인 워크스페이스 신뢰 설정으로 비인가 공격자가 악성 콘텐츠를 Gemini 설정으로 강제 로드 가능. 헤드리스/CI 모드에서 CLI가 사람 승인 없이 워크스페이스를 자동 신뢰."* — The Register `2026.04.30`
+
 **Copilot 데이터 학습 마감 임박** (2026.04.24):
 > *"4월 24일부터 GitHub이 Copilot Free/Pro/Pro+ 사용자의 상호작용 데이터를 AI 학습에 사용할 수 있다. 옵트아웃 안 하면 자동 동의. 커뮤니티 토론에 👎 232개."* — GitHub Community `2026.04`
 
@@ -598,26 +662,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17"]
-    y-axis "인기 점수" 50 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94]
-    line "GH Copilot" [88, 88, 88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85]
-    line "Cursor" [88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [64, 64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65]
-    line "Antigravity" [53, 53, 52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50]
+    x-axis ["04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04"]
+    y-axis "인기 점수" 45 --> 100
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 95]
+    line "GH Copilot" [88, 88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 83]
+    line "Cursor" [88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 89]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 74]
+    line "Gemini CLI" [64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67]
+    line "Antigravity" [53, 52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 49]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-94↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-90↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-85↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-74-9B59B6?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-65↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-50↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Claude_Code-95↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Cursor-89↓-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-83↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-76↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-74↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-67↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-49↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -876,8 +940,8 @@ timeline
          : Gemini 3 출시
          : Copilot MS M365 통합
          : Devin 2.0 $500에서 $20
-    2026 : GPT-5.4 + SuperApp 발표
-         : Claude Opus 4.6 + Cowork 출시
+    2026 : GPT-5.5 + SuperApp 발표
+         : Claude Opus 4.7 + Cowork 출시
          : Grok 4.20 2M 컨텍스트
          : Perplexity Computer 에이전트
          : 국방부 Anthropic 제재 차단 판결 (3/28)
@@ -919,8 +983,8 @@ flowchart TD
 ```
 일반사무
 ├── 채팅 AI
-│   ├── ChatGPT ········· OpenAI, GPT-5.4, $0~200/월
-│   ├── Claude.ai ······· Anthropic, Opus 4.6, $0~200/월
+│   ├── ChatGPT ········· OpenAI, GPT-5.5, $0~200/월
+│   ├── Claude.ai ······· Anthropic, Opus 4.7, $0~200/월
 │   ├── Gemini ·········· Google, 3.1 Pro, $0~250/월
 │   ├── Copilot (MS) ···· Microsoft, M365 통합, $0~30/월
 │   ├── Grok ············ xAI, 2M 컨텍스트, $0~30/월
@@ -941,7 +1005,7 @@ flowchart TD
 |---|---|---|---|---|---|---|
 | **제공사** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
 | **사이트** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
-| **최신 모델** | GPT-5.4 | Claude Opus 4.6 | Gemini 3.1 Pro | GPT-5.4 + Claude | Grok 4.20 | Sonar Pro |
+| **최신 모델** | GPT-5.5 | Claude Opus 4.7 | Gemini 3.1 Pro | GPT-5.5 + Claude | Grok 4.20 | Sonar Pro |
 | **무료** | O | O | O | O | O | O |
 | **시작가** | $8/월 (Go) | $20/월 (Pro) | $19.99/월 | $18/월 | $30/월 | $20/월 |
 | **최고가** | $200/월 (Pro) | $200/월 (Max) | $249.99/월 (Ultra) | $30/월 | $30/월 | $325/seat/월 |
@@ -1002,12 +1066,12 @@ flowchart TD
 | **~$20** | [ChatGPT Go](https://chatgpt.com) | $8/월 | GPT-5.3 Instant |
 | | [Copilot MS](https://www.microsoft.com/en-us/microsoft-365-copilot) | $18/월 | M365 통합 |
 | | [ChatGPT Plus](https://chatgpt.com) | $20/월 | GPT-5.2 + Codex |
-| | [Claude Pro](https://claude.com) | $20/월 | Opus 4.6 + Cowork |
+| | [Claude Pro](https://claude.com) | $20/월 | Opus 4.7 + Cowork |
 | | [Gemini Pro](https://gemini.google.com) | $19.99/월 | Gemini 3 |
 | | [Perplexity Pro](https://www.perplexity.ai) | $20/월 | 무제한 Pro |
 | | [Devin Core](https://devin.ai) | $20/월 | ACU 기반 |
 | **$30+** | [Grok](https://x.ai) | $30/월 | 2M 컨텍스트 |
-| | [ChatGPT Pro](https://chatgpt.com) | $200/월 | GPT-5.4 Pro |
+| | [ChatGPT Pro](https://chatgpt.com) | $200/월 | GPT-5.5 Pro |
 | | [Claude Max](https://claude.com) | $100~200/월 | 5x~20x |
 | | [Gemini Ultra](https://gemini.google.com) | $249.99/월 | 모든 기능 |
 
@@ -1070,7 +1134,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | 파일 라이브러리, CarPlay 통합, GPT-5.4 Thinking 플래그십 |
+| ChatGPT | chatgpt.com/pricing | 파일 라이브러리, CarPlay 통합, GPT-5.5 플래그십 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), 서드파티 도구 제한 |
 | Claude Code | code.claude.com/changelog | v2.1.92 (4/4) — Bedrock 마법사, /cost 상세, Write 속도 향상 |
 | Cursor | cursor.com/pricing | **Cursor 3** 출시 (4/2), Agents Window, Design Mode |
@@ -1126,6 +1190,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/22 | Claude Code **ultrareview** — 클라우드 리뷰어 에이전트 팀이 PR 머지 전 버그를 병렬 탐지, 건당 $5-$20 | [code.claude.com](https://code.claude.com/docs/en/whats-new) |
+| 2026/04/16 | **Claude Opus 4.7** GA — 에이전틱 코딩 대폭 향상, 고해상도 비전 (3.75MP), 태스크 예산, xhigh 노력도 | [anthropic.com](https://www.anthropic.com/news/claude-opus-4-7) |
+| 2026/04/~ | **Managed Agents** — 장기 에이전트 작업을 위한 호스팅 Claude Platform 서비스, 영속 상태 및 안전한 도구 접근 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/04/~ | **Rate Limits API** — 현재 속도 제한을 프로그래밍 방식으로 조회 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/04/~ | Claude Sonnet 4, Opus 4 **2026년 6월 15일 지원 종료** — 기본 대체는 4.5 버전, 복잡한 작업에는 Opus 4.7 권장 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/04/10 | **Advisor Strategy** Messages API 도입 — Opus 4.6가 Sonnet/Haiku를 조언, SWE-bench Multilingual +2.7pp, 태스크당 11.9% 절감 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/04/07 | **Claude Mythos Preview** Project Glasswing 출시 — 수천 개 제로데이 발견, 12개 런치 파트너, 오픈소스 보안에 $1억 크레딧 | [techcrunch.com](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/) |
 | 2026/04/04 | Claude Code **v2.1.92** — 대화형 Bedrock 설정 마법사, 모델별 /cost 상세 분석, 대용량 파일 Write 도구 60% 속도 향상 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
@@ -1164,6 +1233,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/23 | **GPT-5.5** — 최강 프론티어 모델, 입력 $5/MTok, 출력 $30/MTok, 멀티스텝 추론 및 에이전틱 워크플로우 강화 | [openai.com](https://openai.com/index/introducing-gpt-5-5/) |
+| 2026/04/16 | **Codex "거의 모든 것을 위한"** — macOS Computer Use, 90+ 플러그인, 인앱 브라우저, 영속 /goal 워크플로우, GPT-5.5 지원 | [openai.com](https://openai.com/index/codex-for-almost-everything/) |
 | 2026/04/~ | **GPT-5.3 Instant Mini** — GPT-5 Instant Mini 대체, ChatGPT 폴백 모델로 더 자연스러운 대화와 맥락 이해 강화 | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
 | 2026/04/~ | ChatGPT **파일 라이브러리** — 업로드/생성 파일 자동 저장, 채팅 간 재사용 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/04/~ | ChatGPT **CarPlay** 통합 — iOS 26.4+ 핸즈프리 접근 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
@@ -1187,6 +1258,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/30 | **Gemini CLI CVSS 10.0** 취약점 패치 — 워크스페이스 신뢰 설정 과다 허용으로 CI/헤드리스 모드에서 원격 코드 실행 가능, v0.39.1/v0.40.0-preview.3에서 수정 | [theregister.com](https://www.theregister.com/2026/04/30/googles_fix_for_critical_gemini/) |
+| 2026/04/28 | **Gemini CLI v0.40.0** — 번들 ripgrep 오프라인 검색, 색약 친화 테마, MCP 리소스 관리 도구, 프롬프트 기반 메모리 시스템 | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
 | 2026/04/08 | **Gemini CLI v0.37.0** 안정판 — 동적 샌드박스 확장, "Chapters" 도구 기반 주제 그룹화, 영속 브라우저 세션 관리 | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
 | 2026/04/02 | **Gemma 4** 출시 (31B Dense Arena AI 3위, 26B MoE, Apache 2.0) | [developers.googleblog.com](https://developers.googleblog.com/) |
 | 2026/04/01 | **Gemini CLI v0.36.0** 안정판 — 멀티레지스트리 아키텍처, git worktree 지원, macOS/Windows 샌드박싱 강화, 비대화형 Plan Mode | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
@@ -1210,6 +1283,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/30 | Copilot **Visual Studio 4월 업데이트** — 디버거 에이전트, 클라우드 에이전트 20%+ 빠른 시작, 커스텀 에이전트 사용자 수준 지원 | [github.blog](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update/) |
+| 2026/04/28 | 모든 Copilot 플랜 **토큰 기반 과금** 6월 1일 전환 — Premium Request Unit이 AI 크레딧으로 대체 | [github.blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) |
+| 2026/04/20 | **개인 플랜 변경** — Pro/Pro+/Student 신규 가입 중단, Pro에서 Opus 제거, VS Code에 속도 제한 표시 | [github.blog](https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/) |
 | 2026/04/09 | Copilot **Autopilot** 프리뷰 — 완전 자율 에이전트 세션, 수동 승인 불필요 | [github.blog](https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/) |
 | 2026/04/09 | Copilot CLI **v1.0.22** — MCP 스키마 정규화, 대형 이미지 처리 개선, 새 인라인 렌더러 | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases/) |
 | 2026/04/02 | **Copilot SDK** 퍼블릭 프리뷰 — 커스텀 앱에 Copilot 에이전틱 기능 임베드 | [github.blog](https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/) |
@@ -1227,6 +1303,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/28 | **CVE-2026-26268** — CVSS 8.1 악성 git pre-commit 훅을 통한 임의 코드 실행, Cursor v2.5에서 수정 | [cybersecuritynews.com](https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/) |
+| 2026/04/21 | **SpaceX $600억 인수** 합의 — Cursor 인수 권리 확보, $50B 밸류에이션 $2B 투자유치 앞질러 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion) |
+| 2026/04/~ | **Security Review** 베타 — Teams/Enterprise 플랜에서 보안 리뷰어 + 취약점 스캐너 에이전트 | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/02 | **Cursor 3** — Agents Window (레포·환경별 병렬 에이전트), Design Mode (브라우저에서 UI 주석), /worktree, /best-of-n, Bugbot 해결률 78% | [cursor.com](https://cursor.com/blog/cursor-3) |
 | 2026/03/25 | **자체 호스팅 클라우드 에이전트** (Brex, Money Forward, Notion) | [cursor.com](https://cursor.com/blog/self-hosted-cloud-agents) |
 | 2026/03/19 | **Composer 2** 모델 (Kimi K2.5 기반) + **Cursor Glass** 알파 | [cursor.com](https://cursor.com/blog/composer-2) |
@@ -1273,7 +1352,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.04.12-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.04-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

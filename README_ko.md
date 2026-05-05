@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-04</sub>
+  <sub>마지막 업데이트: 2026-05-05</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.04-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.05-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -179,6 +179,9 @@ timeline
          : Copilot Code Review 6월 1일부터 Actions 분 소비 (4/27)
          : Anthropic $15억 엔터프라이즈 AI 서비스 JV — Blackstone/Goldman (5/4)
          : OpenAI $100억 "The Deployment Company" JV 확정 (5/4)
+         : GPT-5.5 Instant — ChatGPT 새 기본 모델, 환각 52.5% 감소 (5/5)
+         : Cursor Canvases + 엔터프라이즈 관리자 모델 제어 (5/5)
+         : Codex CLI v0.128.0 — 영속 /goal 워크플로우, TUI 키맵 (5/5)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -624,6 +627,15 @@ xychart-beta
 **Gemini CLI CVSS 10.0 취약점** (2026.04.30):
 > *"과도하게 허용적인 워크스페이스 신뢰 설정으로 비인가 공격자가 악성 콘텐츠를 Gemini 설정으로 강제 로드 가능. 헤드리스/CI 모드에서 CLI가 사람 승인 없이 워크스페이스를 자동 신뢰."* — The Register `2026.04.30`
 
+**GPT-5.5 Instant, ChatGPT 기본 모델로** (2026.05.05):
+> *"GPT-5.5 Instant가 GPT-5.3 Instant를 대체해 ChatGPT 기본 모델이 됐다. 의료·법률·금융 고위험 프롬프트에서 환각 52.5% 감소. '빠른 답변'과 '메모리 소스' 기능 추가."* — TechCrunch `2026.05.05`
+
+**Cursor Canvases + 엔터프라이즈 관리자** (2026.05.05):
+> *"Cursor가 Canvases를 도입 — 에이전트가 데이터, PR 리뷰, 연구를 위한 인터랙티브 React 기반 시각 인터페이스를 생성. 엔터프라이즈 관리자는 모델/프로바이더별 세분화된 차단 목록과 소프트 지출 한도 설정 가능."* — cursor.com `2026.05.05`
+
+**Codex CLI v0.128.0** (2026.05.05):
+> *"Codex가 영속 /goal 워크플로우를 출시 — 에이전트에게 지속적인 목표를 주고 자리를 비운 뒤 일시정지 또는 완료된 상태로 돌아올 수 있다. 세션 간 상태 유지. TUI 키맵 설정과 확장된 퍼미션 프로파일도 추가."* — openai.com `2026.05.05`
+
 **Copilot 데이터 학습 마감 임박** (2026.04.24):
 > *"4월 24일부터 GitHub이 Copilot Free/Pro/Pro+ 사용자의 상호작용 데이터를 AI 학습에 사용할 수 있다. 옵트아웃 안 하면 자동 동의. 커뮤니티 토론에 👎 232개."* — GitHub Community `2026.04`
 
@@ -671,26 +683,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04"]
+    x-axis ["04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96]
-    line "GH Copilot" [88, 88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82]
-    line "Cursor" [88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75]
-    line "Gemini CLI" [64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67]
-    line "Antigravity" [53, 52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96]
+    line "GH Copilot" [88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81]
+    line "Cursor" [88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76]
+    line "Gemini CLI" [64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67]
+    line "Antigravity" [52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-96↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-90↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-82↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-76↑-27AE60?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-75↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-67↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-48↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Claude_Code-96―-3498DB?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Cursor-91↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-81↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-76―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-76↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-67―-3498DB?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-47↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1137,16 +1149,16 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-04)
+### 팩트 체크 로그 (2026-05-05)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | GPT-5.5 플래그십, GPT-5.4 mini 롤아웃, 파일 라이브러리 |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 새 기본 모델, 메모리 소스, 빠른 답변 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), Anthropic $15억 엔터프라이즈 JV |
 | Claude Code | code.claude.com/changelog | v2.1.126 (5/1) — 모델 피커, 프로젝트 퍼지, MCP 재시도 |
-| Cursor | cursor.com/pricing | **Cursor SDK** 베타, Security Review 에이전트, SpaceX $600억 인수 |
+| Cursor | cursor.com/pricing | **Canvases**, 엔터프라이즈 관리자 모델 제어, Bugbot 80%, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, $250억 밸류에이션 협상 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
 | GitHub Copilot | github.com/features/copilot/plans | 신규 가입 중단, 토큰 과금 6월 전환, Code Review → Actions 분 |
@@ -1244,6 +1256,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/05 | **GPT-5.5 Instant** — ChatGPT 새 기본 모델, 환각 52.5% 감소, AIME 2025 81.2 (65.4→), 빠른 답변, 메모리 소스 | [techcrunch.com](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/) |
+| 2026/05/05 | **Codex CLI v0.128.0** — 영속 /goal 워크플로우, TUI 키맵 설정, 확장된 퍼미션 프로파일, 앱서버 Unix 소켓 전송 | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/04 | **"The Deployment Company"** — TPG, Bain Capital, Brookfield, SoftBank와 $100억 합작법인, 기업에 OpenAI 엔지니어 파견 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai) |
 | 2026/04/28 | **Codex Amazon Bedrock 출시** — Codex CLI/데스크톱/VS Code가 AWS에서 제한 프리뷰로 제공 | [openai.com](https://openai.com/index/openai-on-aws/) |
 | 2026/04/23 | **GPT-5.5** — 최강 프론티어 모델, 입력 $5/MTok, 출력 $30/MTok, 멀티스텝 추론 및 에이전틱 워크플로우 강화 | [openai.com](https://openai.com/index/introducing-gpt-5-5/) |
@@ -1319,6 +1333,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/05 | **Canvases** — 에이전트가 데이터, PR 리뷰, 평가 분석을 위한 인터랙티브 React 기반 시각 인터페이스 생성; 엔터프라이즈 관리자 세분화 모델 제어 및 소프트 지출 한도 | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/28 | **Cursor SDK** 퍼블릭 베타 — TypeScript SDK (`@cursor/sdk`)로 샌드박스 클라우드 VM에서 프로그래밍 방식 코딩 에이전트 실행, Faire·Rippling·Notion 도입 | [cursor.com](https://cursor.com/blog/typescript-sdk) |
 | 2026/04/28 | **CVE-2026-26268** — CVSS 8.1 악성 git pre-commit 훅을 통한 임의 코드 실행, Cursor v2.5에서 수정 | [cybersecuritynews.com](https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/) |
 | 2026/04/21 | **SpaceX $600억 인수** 합의 — Cursor 인수 권리 확보, $50B 밸류에이션 $2B 투자유치 앞질러 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion) |

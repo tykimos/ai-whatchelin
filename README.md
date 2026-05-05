@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-04</sub>
+  <sub>Last updated: 2026-05-05</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.04-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.05-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -179,6 +179,9 @@ timeline
          : Copilot Code Review to consume Actions minutes June 1 (Apr 27)
          : Anthropic $1.5B enterprise AI services JV with Blackstone/Goldman (May 4)
          : OpenAI $10B "The Deployment Company" JV finalized (May 4)
+         : GPT-5.5 Instant — new default ChatGPT model, 52.5% fewer hallucinations (May 5)
+         : Cursor Canvases + enterprise admin model controls (May 5)
+         : Codex CLI v0.128.0 — persisted /goal workflows, TUI keymaps (May 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -633,6 +636,15 @@ xychart-beta
 **Gemini CLI CVSS 10.0 Vulnerability** (2026.04.30):
 > *"Over-permissive workspace trust allowed unprivileged attackers to force malicious content as Gemini configuration. In headless/CI mode, CLI auto-trusted workspace and loaded agent configs without human approval."* — The Register `2026.04.30`
 
+**GPT-5.5 Instant as Default ChatGPT** (2026.05.05):
+> *"GPT-5.5 Instant replaces GPT-5.3 Instant as ChatGPT's default model. 52.5% fewer hallucinated claims on high-stakes prompts in medicine, law, and finance. New 'fast answers' and 'memory sources' features."* — TechCrunch `2026.05.05`
+
+**Cursor Canvases + Enterprise Admin** (2026.05.05):
+> *"Cursor introduces Canvases — agents create interactive React-based visual interfaces for data, PR reviews, and research instead of dense text. Enterprise admins get granular model/provider blocklists and soft spend limits."* — cursor.com `2026.05.05`
+
+**Codex CLI v0.128.0** (2026.05.05):
+> *"Codex ships persisted /goal workflows — give the agent a durable objective, walk away, come back later to a paused or completed run. State persists across sessions. Also: configurable TUI keymaps and expanded permission profiles."* — openai.com `2026.05.05`
+
 **Copilot Data Training Deadline Approaching** (2026.04.24):
 > *"Starting April 24, GitHub may use interaction data from Copilot Free/Pro/Pro+ users for AI model training unless they opt out. Community discussion received 232 downvotes."* — GitHub Community `2026.04`
 
@@ -680,26 +692,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04"]
+    x-axis ["04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96]
-    line "GH Copilot" [88, 88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82]
-    line "Cursor" [88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75]
-    line "Gemini CLI" [64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67]
-    line "Antigravity" [53, 52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96]
+    line "GH Copilot" [88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81]
+    line "Cursor" [88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76]
+    line "Gemini CLI" [64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67]
+    line "Antigravity" [52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-96↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-90↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-82↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-76↑-27AE60?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-75↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-67↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-48↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Claude_Code-96―-3498DB?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Cursor-91↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-81↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-76―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-76↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-67―-3498DB?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-47↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1156,16 +1168,16 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-04)
+### Fact Check Log (2026-05-05)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | GPT-5.5 flagship, GPT-5.4 mini rollout, File Library |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** new default model, memory sources, fast answers |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), Anthropic $1.5B enterprise JV |
 | Claude Code | code.claude.com/changelog | v2.1.126 (May 1) — model picker, project purge, MCP retry |
-| Cursor | cursor.com/pricing | **Cursor SDK** beta, Security Review agents, SpaceX $60B deal |
+| Cursor | cursor.com/pricing | **Canvases**, enterprise admin model controls, Bugbot 80%, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin integration, $25B valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
 | GitHub Copilot | github.com/features/copilot/plans | Sign-ups paused, token billing June 1, Code Review → Actions mins |
@@ -1264,6 +1276,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/05 | **GPT-5.5 Instant** — new default ChatGPT model, 52.5% fewer hallucinations, AIME 2025 81.2 (up from 65.4), fast answers, memory sources | [techcrunch.com](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/) |
+| 2026/05/05 | **Codex CLI v0.128.0** — persisted /goal workflows, configurable TUI keymaps, expanded permission profiles, app-server Unix socket transport | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/04 | **"The Deployment Company"** — $10B JV with TPG, Bain Capital, Brookfield, SoftBank to embed OpenAI engineers in enterprises | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai) |
 | 2026/04/28 | **Codex on Amazon Bedrock** — Codex CLI/desktop/VS Code available on AWS in limited preview | [openai.com](https://openai.com/index/openai-on-aws/) |
 | 2026/04/23 | **GPT-5.5** — smartest frontier model, $5/MTok input, $30/MTok output, stronger multi-step reasoning and agentic workflows | [openai.com](https://openai.com/index/introducing-gpt-5-5/) |
@@ -1339,6 +1353,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/05 | **Canvases** — agents create interactive React-based visual interfaces for data, PR reviews, and eval analysis; enterprise admin granular model controls and soft spend limits | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/28 | **Cursor SDK** public beta — TypeScript SDK (`@cursor/sdk`) for programmatic coding agents on sandboxed cloud VMs, adopted by Faire, Rippling, Notion | [cursor.com](https://cursor.com/blog/typescript-sdk) |
 | 2026/04/28 | **CVE-2026-26268** — CVSS 8.1 arbitrary code execution via malicious git pre-commit hooks, fixed in Cursor v2.5 | [cybersecuritynews.com](https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/) |
 | 2026/04/21 | **SpaceX $60B acquisition** deal — right to acquire Cursor, preempting $2B fundraise at $50B valuation | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion) |

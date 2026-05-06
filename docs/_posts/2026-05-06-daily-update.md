@@ -1,39 +1,47 @@
 ---
-title: "Copilot Billing Backlash Grows Louder With 25 Days to Go — Chinese Models Crash the Pricing Party"
+title: "Anthropic Declares the Agentic Future at 'Code with Claude' — SpaceX GPU Deal Doubles Rate Limits"
 date: 2026-05-06
 lang: en
 categories: [news]
-tags: [copilot, deepseek, kimi, gemini-cli, ai-code-quality]
-excerpt: "With GitHub Copilot's usage-based billing switch just 25 days away, developer pushback intensifies. Meanwhile, DeepSeek V4 and Kimi K2.6 deliver frontier-level coding at a third of Western model prices, forcing the industry to justify its premiums."
+tags: [claude-code, anthropic, spacex, windsurf, devin, copilot, deepseek]
+excerpt: "Anthropic's 'Code with Claude' conference in San Francisco unveiled Managed Agents, Dreaming memory, and a Desktop GUI. On the same day, a SpaceX Colossus 1 compute deal doubled Claude Code rate limits immediately."
 ---
 
-GitHub Copilot's June 1 usage-based billing transition is now 25 days away, and developer frustration is boiling over. Visual Studio Magazine ran a piece titled "You Will Get Less, but Pay the Same Price"([Visual Studio Magazine](https://visualstudiomagazine.com/articles/2026/04/27/devs-sound-off-on-usage-based-copilot-pricing-change-you-will-get-less-but-pay-the-same-price.aspx)), while GitHub's community discussion thread has accumulated hundreds of concerned replies([GitHub Community](https://github.com/orgs/community/discussions/192948)). The core complaints: the shift from premium request units (PRUs) to token-based AI Credits makes usage unpredictable, and rollover policies remain unclear. Copilot Code Review will also start consuming GitHub Actions minutes on June 1, adding another cost vector([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)).
+Anthropic held its "Code with Claude" developer conference in San Francisco today, laying out a vision for the future of AI-assisted coding. A simultaneous SpaceX compute deal delivered immediate benefits to every Claude Code user.
 
-## Chinese Model Blitz: The Price Is Right
+## Code with Claude Conference: The Age of Agents
 
-Four Chinese labs released frontier-tier coding models in a 12-day window. DeepSeek V4 ships a 1.6T-parameter Pro variant and a 284B Flash version, delivering Opus 4.6/GPT-5.4-class performance at just $0.14/M input tokens([TechCrunch](https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/)). Moonshot's Kimi K2.6 beat GPT-5.4 on SWE-Bench Pro and supports 300-agent parallel swarm orchestration at $0.60/M output tokens([DeepLearning.AI](https://www.deeplearning.ai/the-batch/kimi-k2-6-matches-open-qwen3-6-max-anddeepseek-v4-falls-just-behind-top-closed-models/)). None of these models cost more than a third of Claude Opus 4.7, raising hard questions about Western frontier pricing premiums.
+Anthropic unveiled **Managed Agents** for multi-agent orchestration, **Outcomes** (public beta) for defining success criteria, and **Dreaming** (research preview) — a self-improving memory system that reviews past sessions and restructures its knowledge to stay high-signal([Simon Willison](https://simonwillison.net/2026/May/6/code-w-claude-2026/)). Claude Code gained a full-screen Desktop GUI app with live preview, Remote Agents for controlling your laptop from mobile, CI auto-fix, Security Reviews, and Code Review. **Routines** enable async automations so developers can "wake up to PRs that are ready to merge." Everything is built on the Claude Agent SDK, which is also available to external developers.
 
-## AI Code Quality Debate Heats Up
+## SpaceX Colossus 1: 220K+ GPUs, Instant Rate Limit Doubling
 
-CodeRabbit's latest report finds AI-generated code creates 1.7x more issues than human-written code([CodeRabbit](https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report)). A VentureBeat survey shows 43% of AI-generated code changes need debugging in production([VentureBeat](https://venturebeat.com/technology/43-of-ai-generated-code-changes-need-debugging-in-production-survey-finds/)), and IEEE Spectrum reports AI coding quality may have plateaued or declined([IEEE Spectrum](https://spectrum.ieee.org/ai-coding-degrades)). Amazon's ongoing 90-day code safety reset across 335 critical systems — triggered by March outages that lost 6.3 million orders due to AI-assisted code changes — adds urgency to the debate([The Register](https://www.theregister.com/2026/03/10/amazon_ai_coding_outages)).
+Anthropic signed an agreement with SpaceX for all compute capacity at Colossus 1 — over 300 MW and 220,000+ NVIDIA GPUs([Anthropic Blog](https://www.anthropic.com/news/higher-limits-spacex)). The immediate impact: Claude Code **five-hour rate limits doubled** for Pro, Max, Team, and Enterprise plans. Peak hours limit reduction was removed, and API rate limits for Opus models were materially raised([Engadget](https://www.engadget.com/2166315/anthropic-is-doubling-claude-code-rate-limits-after-deal-with-spacex/)). Both companies also expressed interest in developing "multiple gigawatts of orbital AI compute capacity."
 
-## Google I/O 2026: Gemini 4 in Two Weeks?
+## Devin for Terminal: Rust CLI Agent Joins Windsurf
 
-Google I/O 2026 is set for May 19-20, with speculation mounting about a Gemini 4 reveal([Google I/O](https://io.google/2026/)). Gemini CLI has been shipping steady improvements — memory inbox, Plan Mode enhancements — and a major agentic coding announcement at I/O feels likely.
+Cognition launched **Devin for Terminal** — a Rust-based CLI agent running locally with full codebase access([Cognition Blog](https://cognition.ai/blog/devin-for-terminal)). It supports Opus 4.7, GPT-5.5, and SWE-1.6, with seamless hand-off to Devin cloud. All Windsurf subscribers get access, and it's **up to 30% more token-efficient** than the existing Cascade agent.
+
+## Claude Code v2.1.131 Patch
+
+Fixed a bug where the VS Code extension failed to activate on Windows due to a hardcoded build path. Mantle endpoint authentication issues were also resolved([Releasebot](https://releasebot.io/updates/anthropic/claude-code)).
+
+## Copilot Billing Switch: 25 Days Out
+
+GitHub Copilot's June 1 usage-based billing transition is now 25 days away. Developer backlash continues as Copilot's popularity score dropped for the fourth consecutive week, touching 80 for the first time([GitHub Community](https://github.com/orgs/community/discussions/192948)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 98 | — | GPT-5.5 Instant momentum holds |
-| Claude Code | 96 | — | v2.1.128 stable, enterprise JV effect |
+| Claude Code | 97 | ↑1 | Conference + SpaceX deal surge |
 | Cursor | 91 | — | Canvases settling in |
-| Claude AI | 90 | — | Opus 4.7 adoption steady |
+| Claude AI | 91 | ↑1 | Financial services push + conference effect |
 | GitHub Copilot | 80 | ↓1 | Billing backlash, 4-week slide |
-| Windsurf | 76 | — | 2.0 stabilizing |
+| Windsurf | 77 | ↑1 | Devin for Terminal launch |
 | Codex CLI | 76 | — | /goal workflows bedding in |
 | Gemini CLI | 68 | ↑1 | I/O anticipation, memory features |
 | Aider | 68 | — | 39K+ stars, stable |
 | Antigravity | 47 | — | No news |
 
-Copilot dropped for the fourth straight week, touching 80 for the first time. Whether June 1 triggers a rebound or accelerates churn depends entirely on how the actual credit economics play out. Gemini CLI ticked up on I/O anticipation — two weeks and counting.
+Claude Code entered 97 on the back of the conference and SpaceX deal, closing the gap with ChatGPT to just 1 point. Windsurf ticked up on the Devin for Terminal launch. Copilot's four-week slide continues — holding at 80, the June 1 billing switch will determine whether it rebounds or accelerates further.

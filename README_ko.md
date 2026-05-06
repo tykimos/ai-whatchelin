@@ -183,6 +183,10 @@ timeline
          : Cursor Canvases + 엔터프라이즈 관리자 모델 제어 (5/5)
          : Codex CLI v0.128.0 — 영속 /goal 워크플로우, TUI 키맵 (5/5)
          : Claude Code v2.1.128 — 플러그인 zip 지원, MCP 도구 카운트 (5/5)
+         : Code with Claude 컨퍼런스 — Managed Agents, Routines, 데스크톱 GUI (5/6)
+         : SpaceX Colossus 1 계약 — Claude Code 속도 제한 2배 확대 (5/6)
+         : Claude Code v2.1.131 — VS Code Windows 수정, Mantle 인증 수정 (5/6)
+         : Devin for Terminal — Rust CLI 에이전트, Windsurf 통합 (5/6)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -365,6 +369,12 @@ quadrantChart
 
 **Claude Code ultrareview** (2026.04.22):
 > *"클라우드 리뷰어 에이전트 팀이 PR 머지 전 버그를 병렬로 탐지한다. 발견 사항은 보고 전 독립적으로 재현 검증. 건당 $5-$20."* — code.claude.com `2026.04.22`
+
+**Code with Claude 컨퍼런스** (2026.05.06):
+> *"Anthropic의 'Code with Claude' 컨퍼런스에서 Managed Agents, 라이브 프리뷰가 가능한 데스크톱 GUI, Remote Agents, CI 자동 수정, 자기 개선 메모리 'Dreaming'을 공개했다. Claude Code Routines로 '아침에 일어나면 머지 준비된 PR이 대기'하는 워크플로우가 가능해졌다."* — simonwillison.net `2026.05.06`
+
+**SpaceX Colossus 1 계약** (2026.05.06):
+> *"Anthropic이 SpaceX의 Colossus 1 전체 용량을 확보 — 22만+ GPU. Claude Code 속도 제한이 Pro/Max/Team/Enterprise에서 즉시 2배로 확대. 피크 시간 한도 감소 해제."* — anthropic.com `2026.05.06`
 
 **GPT-5.5 출시** (2026.04.23):
 > *"OpenAI 최강 프론티어 모델. 입력 $5/MTok, 출력 $30/MTok. o1, o3, o4-mini 등 GPT-5 이전 모델 패밀리 전부 지원 종료."* — openai.com `2026.04.23`
@@ -637,6 +647,18 @@ xychart-beta
 **Codex CLI v0.128.0** (2026.05.05):
 > *"Codex가 영속 /goal 워크플로우를 출시 — 에이전트에게 지속적인 목표를 주고 자리를 비운 뒤 일시정지 또는 완료된 상태로 돌아올 수 있다. 세션 간 상태 유지. TUI 키맵 설정과 확장된 퍼미션 프로파일도 추가."* — openai.com `2026.05.05`
 
+**Code with Claude 컨퍼런스** (2026.05.06):
+> *"Anthropic이 샌프란시스코에서 'Code with Claude' 개발자 컨퍼런스를 개최했다. 멀티에이전트 오케스트레이션이 가능한 Managed Agents, 성공 기준을 정의하는 'Outcomes'(퍼블릭 베타), 과거 세션을 검토해 자기 개선하는 'Dreaming'(리서치 프리뷰) 메모리를 발표. Claude Code에 풀스크린 라이브 프리뷰가 가능한 데스크톱 GUI, 모바일에서 노트북을 제어하는 Remote Agents, CI 자동 수정, 비동기 자동화를 위한 Routines가 추가됐다."* — simonwillison.net `2026.05.06`
+
+**SpaceX Colossus 1 컴퓨트 계약** (2026.05.06):
+> *"Anthropic이 SpaceX의 Colossus 1 전체 컴퓨트 용량을 확보하는 계약을 체결했다 — 300+ MW / 22만+ NVIDIA GPU. Claude Code 5시간 속도 제한이 Pro, Max, Team, Enterprise 플랜에서 즉시 2배로 확대. 피크 시간 한도 감소 해제. Opus 모델 API 속도 제한도 대폭 상향."* — anthropic.com `2026.05.06`
+
+**Claude Code v2.1.131** (2026.05.06):
+> *"Windows에서 VS Code 확장이 하드코딩된 빌드 경로 문제로 활성화되지 않던 버그 수정. Mantle 엔드포인트 인증 문제 해결."* — releasebot.io `2026.05.06`
+
+**Devin for Terminal** (2026.05.06):
+> *"Cognition이 Devin for Terminal을 출시 — Rust 기반 CLI 에이전트로 전체 코드베이스에 접근 가능. Opus 4.7, GPT-5.5, SWE-1.6 지원. Devin 클라우드로 원활한 핸드오프. 모든 Windsurf 구독자에게 제공. Cascade 대비 최대 30% 더 토큰 효율적."* — cognition.ai `2026.05.06`
+
 **Copilot 데이터 학습 마감 임박** (2026.04.24):
 > *"4월 24일부터 GitHub이 Copilot Free/Pro/Pro+ 사용자의 상호작용 데이터를 AI 학습에 사용할 수 있다. 옵트아웃 안 하면 자동 동의. 커뮤니티 토론에 👎 232개."* — GitHub Community `2026.04`
 
@@ -686,10 +708,10 @@ xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
     x-axis ["04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 96]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97]
     line "GH Copilot" [88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80]
     line "Cursor" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 76]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76]
     line "Gemini CLI" [64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68]
     line "Antigravity" [52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47]
@@ -697,10 +719,10 @@ xychart-beta
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-96―-3498DB?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-97↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-91―-3498DB?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-80↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-76―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Windsurf-77↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-76―-3498DB?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-68↑-27AE60?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-47―-3498DB?style=flat-square" alt="Antigravity">
@@ -1150,17 +1172,17 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-05)
+### 팩트 체크 로그 (2026-05-06)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 새 기본 모델, 메모리 소스, 빠른 답변 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), Anthropic $15억 엔터프라이즈 JV |
-| Claude Code | code.claude.com/changelog | v2.1.126 (5/1) — 모델 피커, 프로젝트 퍼지, MCP 재시도 |
+| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), $15억 엔터프라이즈 JV, **Code with Claude 컨퍼런스** |
+| Claude Code | code.claude.com/changelog | **v2.1.131** (5/6) — VS Code Windows 수정; **속도 제한 2배** SpaceX Colossus 1 계약 |
 | Cursor | cursor.com/pricing | **Canvases**, 엔터프라이즈 관리자 모델 제어, Bugbot 80%, SpaceX $600억 인수 |
-| Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, $250억 밸류에이션 협상 |
+| Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, **Devin for Terminal** (Rust CLI 에이전트), $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
 | GitHub Copilot | github.com/features/copilot/plans | 신규 가입 중단, 토큰 과금 6월 전환, Code Review → Actions 분 |
 | Gemini CLI | geminicli.com | v0.40.1 (4/30), CVSS 10.0 패치, 오프라인 ripgrep |
@@ -1212,7 +1234,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/06 | **Code with Claude 컨퍼런스** — Outcomes(퍼블릭 베타)가 포함된 Managed Agents, Dreaming 자기 개선 메모리(프리뷰), 라이브 프리뷰 데스크톱 GUI, Remote Agents, CI 자동 수정, Security Reviews, Code Review, Routines 비동기 자동화 | [simonwillison.net](https://simonwillison.net/2026/May/6/code-w-claude-2026/) |
+| 2026/05/06 | **SpaceX Colossus 1 컴퓨트 계약** — 300+ MW / 22만+ NVIDIA GPU; Claude Code 속도 제한 Pro/Max/Team/Enterprise 2배 확대; 피크 시간 감소 해제; API 속도 제한 상향 | [anthropic.com](https://www.anthropic.com/news/higher-limits-spacex) |
+| 2026/05/06 | Claude Code **v2.1.131** — VS Code 확장 Windows 활성화 수정, Mantle 엔드포인트 인증 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/05 | Claude Code **v2.1.128** — 플러그인 `--plugin-dir` zip 아카이브 지원, `/mcp` 도구 카운트 표시, `EnterWorktree` 로컬 HEAD 브랜치 생성 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/05/05 | **금융 서비스 진출** — JPMorgan 파트너십, 10개 금융 에이전트 템플릿, Microsoft 365 통합 GA, Moody's 네이티브 MCP 앱, $15억 엔터프라이즈 JV | [fortune.com](https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/) |
 | 2026/05/04 | **엔터프라이즈 AI 서비스 JV** — Blackstone, Goldman Sachs, Hellman & Friedman과 $15억 합작법인, 기업에 AI 엔지니어 파견 | [cnbc.com](https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html) |
 | 2026/05/01 | Claude Code **v2.1.126** — API 게이트웨이용 `/model` 피커, `project purge` 명령어, MCP 자동 재시도 (3회), Vertex X.509 mTLS ADC | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/04/22 | Claude Code **ultrareview** — 클라우드 리뷰어 에이전트 팀이 PR 머지 전 버그를 병렬 탐지, 건당 $5-$20 | [code.claude.com](https://code.claude.com/docs/en/whats-new) |

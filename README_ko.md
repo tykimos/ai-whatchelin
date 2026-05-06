@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-05</sub>
+  <sub>마지막 업데이트: 2026-05-06</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.05-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.06-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -182,6 +182,7 @@ timeline
          : GPT-5.5 Instant — ChatGPT 새 기본 모델, 환각 52.5% 감소 (5/5)
          : Cursor Canvases + 엔터프라이즈 관리자 모델 제어 (5/5)
          : Codex CLI v0.128.0 — 영속 /goal 워크플로우, TUI 키맵 (5/5)
+         : Claude Code v2.1.128 — 플러그인 zip 지원, MCP 도구 카운트 (5/5)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -683,26 +684,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05"]
+    x-axis ["04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96]
-    line "GH Copilot" [88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81]
-    line "Cursor" [88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76]
-    line "Gemini CLI" [64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67]
-    line "Antigravity" [52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 96]
+    line "GH Copilot" [88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80]
+    line "Cursor" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 76]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76]
+    line "Gemini CLI" [64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68]
+    line "Antigravity" [52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-96―-3498DB?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-91↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-81↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-91―-3498DB?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-80↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-76―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-76↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-67―-3498DB?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-47↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-76―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-68↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-47―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1211,6 +1212,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/05 | Claude Code **v2.1.128** — 플러그인 `--plugin-dir` zip 아카이브 지원, `/mcp` 도구 카운트 표시, `EnterWorktree` 로컬 HEAD 브랜치 생성 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/05/04 | **엔터프라이즈 AI 서비스 JV** — Blackstone, Goldman Sachs, Hellman & Friedman과 $15억 합작법인, 기업에 AI 엔지니어 파견 | [cnbc.com](https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html) |
 | 2026/05/01 | Claude Code **v2.1.126** — API 게이트웨이용 `/model` 피커, `project purge` 명령어, MCP 자동 재시도 (3회), Vertex X.509 mTLS ADC | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/04/22 | Claude Code **ultrareview** — 클라우드 리뷰어 에이전트 팀이 PR 머지 전 버그를 병렬 탐지, 건당 $5-$20 | [code.claude.com](https://code.claude.com/docs/en/whats-new) |

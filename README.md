@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-05</sub>
+  <sub>Last updated: 2026-05-06</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.05-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.06-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -182,6 +182,7 @@ timeline
          : GPT-5.5 Instant — new default ChatGPT model, 52.5% fewer hallucinations (May 5)
          : Cursor Canvases + enterprise admin model controls (May 5)
          : Codex CLI v0.128.0 — persisted /goal workflows, TUI keymaps (May 5)
+         : Claude Code v2.1.128 — plugin zip archives, MCP tool counts (May 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -692,26 +693,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05"]
+    x-axis ["04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96]
-    line "GH Copilot" [88, 88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81]
-    line "Cursor" [88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76]
-    line "Gemini CLI" [64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67]
-    line "Antigravity" [52, 52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 96]
+    line "GH Copilot" [88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80]
+    line "Cursor" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 76]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76]
+    line "Gemini CLI" [64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68]
+    line "Antigravity" [52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-96―-3498DB?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-91↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-81↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-91―-3498DB?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-80↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-76―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-76↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-67―-3498DB?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-47↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-76―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-68↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-47―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1168,7 +1169,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-05)
+### Fact Check Log (2026-05-06)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -1176,11 +1177,11 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** new default model, memory sources, fast answers |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), Anthropic $1.5B enterprise JV |
-| Claude Code | code.claude.com/changelog | v2.1.126 (May 1) — model picker, project purge, MCP retry |
+| Claude Code | code.claude.com/changelog | v2.1.128 (May 5) — plugin zip archives, MCP tool counts, worktree HEAD branches |
 | Cursor | cursor.com/pricing | **Canvases**, enterprise admin model controls, Bugbot 80%, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin integration, $25B valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | Sign-ups paused, token billing June 1, Code Review → Actions mins |
+| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1, billing backlash intensifies, Code Review → Actions mins |
 | Gemini CLI | geminicli.com | v0.40.1 (Apr 30), CVSS 10.0 patched, offline ripgrep |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
@@ -1231,6 +1232,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/05 | Claude Code **v2.1.128** — plugin `--plugin-dir` accepts `.zip` archives, `/mcp` shows tool counts, `EnterWorktree` creates branches from local HEAD | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/05/04 | **Enterprise AI Services JV** — $1.5B venture with Blackstone, Goldman Sachs, Hellman & Friedman to embed AI engineers in enterprises | [cnbc.com](https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html) |
 | 2026/05/01 | Claude Code **v2.1.126** — `/model` picker for API gateways, `project purge` command, MCP auto-retry (3x), Vertex X.509 mTLS ADC | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/04/22 | Claude Code **ultrareview** — fleet of cloud reviewer agents hunt bugs in parallel before merging PRs, $5-$20 per review | [code.claude.com](https://code.claude.com/docs/en/whats-new) |

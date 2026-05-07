@@ -190,6 +190,8 @@ timeline
          : Gemini CLI 공식 오픈소스 런칭 — Apache 2.0, Gemini 2.5 Pro 무료 (5/5)
          : Cursor 3.3 — Team Marketplace, 컨텍스트 사용량 표시 (5/6)
          : Copilot CLI 엔터프라이즈 관리 플러그인 퍼블릭 프리뷰 (5/6)
+         : Claude Code v2.1.132 — 세션 ID 환경변수, 전체화면 수정, MCP 인증 수정 (5/7)
+         : Gemini CLI v0.42.0 프리뷰 — 음성 모드, Gemma 4, 메모리 개선 (5/7)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

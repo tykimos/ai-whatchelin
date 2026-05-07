@@ -190,6 +190,8 @@ timeline
          : Gemini CLI official open-source launch — Apache 2.0, free Gemini 2.5 Pro (May 5)
          : Cursor 3.3 — Team Marketplace, context usage breakdown (May 6)
          : Enterprise-managed plugins for Copilot CLI in public preview (May 6)
+         : Claude Code v2.1.132 — session ID env var, fullscreen fix, MCP auth fix (May 7)
+         : Gemini CLI v0.42.0 preview — voice mode, Gemma 4, memory enhancements (May 7)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-06</sub>
+  <sub>Last updated: 2026-05-07</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.06-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.07-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -187,6 +187,9 @@ timeline
          : SpaceX Colossus 1 deal — Claude Code rate limits doubled (May 6)
          : Claude Code v2.1.131 — VS Code Windows fix, Mantle auth fix (May 6)
          : Devin for Terminal — Rust CLI agent, Windsurf integration (May 6)
+         : Gemini CLI official open-source launch — Apache 2.0, free Gemini 2.5 Pro (May 5)
+         : Cursor 3.3 — Team Marketplace, context usage breakdown (May 6)
+         : Enterprise-managed plugins for Copilot CLI in public preview (May 6)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -715,25 +718,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06"]
+    x-axis ["04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97]
-    line "GH Copilot" [88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80]
-    line "Cursor" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76]
-    line "Gemini CLI" [64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68]
-    line "Antigravity" [52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97]
+    line "GH Copilot" [88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79]
+    line "Cursor" [89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77]
+    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70]
+    line "Antigravity" [52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-97↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-97―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-91―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-80↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-77↑-27AE60?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-76―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-68↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-79↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-77↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-70↑-27AE60?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-47―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
@@ -1191,7 +1194,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-06)
+### Fact Check Log (2026-05-07)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -1203,8 +1206,8 @@ All pricing information has been directly verified from each service's official 
 | Cursor | cursor.com/pricing | **Canvases**, enterprise admin model controls, Bugbot 80%, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin integration, **Devin for Terminal** (Rust CLI agent), $25B valuation |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1, billing backlash intensifies, Code Review → Actions mins |
-| Gemini CLI | geminicli.com | v0.40.1 (Apr 30), CVSS 10.0 patched, offline ripgrep |
+| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-24), enterprise-managed plugins for CLI, billing backlash 5-week slide |
+| Gemini CLI | geminicli.com | **Official open-source launch** (May 5), Apache 2.0, free 1,000 req/day with Gemini 2.5 Pro |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
@@ -1333,6 +1336,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/05 | **Gemini CLI official open-source launch** — Apache 2.0, free Gemini 2.5 Pro access (60 req/min, 1,000 req/day), 1M token context, ReAct loop with MCP support | [blog.google](https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/) |
 | 2026/04/30 | **Amazon Q Developer** new signups blocked May 15 — Opus 4.6 removed from Q Pro May 29, latest models exclusive to **Kiro**, full Q IDE plugin EOL April 2027 | [aws.amazon.com](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/) |
 | 2026/04/30 | **Gemini CLI v0.40.1** cherry-pick patch — fixes from v0.40.0 (offline ripgrep, streaming/shell safety, memory improvements) | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/04/30 | **Gemini CLI CVSS 10.0** vulnerability patched — over-permissive workspace trust allowed remote code execution in CI/headless mode, fixed in v0.39.1/v0.40.0-preview.3 | [theregister.com](https://www.theregister.com/2026/04/30/googles_fix_for_critical_gemini/) |
@@ -1360,6 +1364,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/06 | **Enterprise-managed plugins** for Copilot CLI in public preview — admins distribute plugins across enterprise, VS Code April releases (Chronicle, BYOK, terminal agents) | [github.blog](https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview/) |
 | 2026/05/01 | **Microsoft Agent 365 GA** — enterprise agent control plane ($15/user/mo), observe/govern/secure agent fleets, bundled in M365 E7 ($99/user/mo) | [microsoft.com](https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/) |
 | 2026/04/30 | Copilot **Visual Studio April update** — Debugger agent, cloud agent 20%+ faster start, custom agent user-level support | [github.blog](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update/) |
 | 2026/04/28 | **Token-based billing** for all Copilot plans effective June 1 — Premium Request Units replaced by AI Credits | [github.blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) |
@@ -1381,6 +1386,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/06 | **Cursor 3.3** — agent context usage breakdown, **Team Marketplace** (admin plugin distribution without repo connection, Default Off/On/Required modes) | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/05 | **Canvases** — agents create interactive React-based visual interfaces for data, PR reviews, and eval analysis; enterprise admin granular model controls and soft spend limits | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/28 | **Cursor SDK** public beta — TypeScript SDK (`@cursor/sdk`) for programmatic coding agents on sandboxed cloud VMs, adopted by Faire, Rippling, Notion | [cursor.com](https://cursor.com/blog/typescript-sdk) |
 | 2026/04/28 | **CVE-2026-26268** — CVSS 8.1 arbitrary code execution via malicious git pre-commit hooks, fixed in Cursor v2.5 | [cybersecuritynews.com](https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/) |
@@ -1432,7 +1438,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.04-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.07-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

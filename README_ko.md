@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-06</sub>
+  <sub>마지막 업데이트: 2026-05-07</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.06-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.07-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -187,6 +187,9 @@ timeline
          : SpaceX Colossus 1 계약 — Claude Code 속도 제한 2배 확대 (5/6)
          : Claude Code v2.1.131 — VS Code Windows 수정, Mantle 인증 수정 (5/6)
          : Devin for Terminal — Rust CLI 에이전트, Windsurf 통합 (5/6)
+         : Gemini CLI 공식 오픈소스 런칭 — Apache 2.0, Gemini 2.5 Pro 무료 (5/5)
+         : Cursor 3.3 — Team Marketplace, 컨텍스트 사용량 표시 (5/6)
+         : Copilot CLI 엔터프라이즈 관리 플러그인 퍼블릭 프리뷰 (5/6)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -706,25 +709,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06"]
+    x-axis ["04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97]
-    line "GH Copilot" [88, 88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80]
-    line "Cursor" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76]
-    line "Gemini CLI" [64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68]
-    line "Antigravity" [52, 52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97]
+    line "GH Copilot" [88, 87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79]
+    line "Cursor" [89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77]
+    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70]
+    line "Antigravity" [52, 52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-97↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-97―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-91―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-80↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-77↑-27AE60?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-76―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-68↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-79↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-77↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-70↑-27AE60?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-47―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
@@ -1172,7 +1175,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-06)
+### 팩트 체크 로그 (2026-05-07)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -1184,8 +1187,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Cursor | cursor.com/pricing | **Canvases**, 엔터프라이즈 관리자 모델 제어, Bugbot 80%, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, **Devin for Terminal** (Rust CLI 에이전트), $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | 신규 가입 중단, 토큰 과금 6월 전환, Code Review → Actions 분 |
-| Gemini CLI | geminicli.com | v0.40.1 (4/30), CVSS 10.0 패치, 오프라인 ripgrep |
+| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-24), CLI 엔터프라이즈 관리 플러그인, 5주 연속 하락 |
+| Gemini CLI | geminicli.com | **공식 오픈소스 런칭** (5/5), Apache 2.0, Gemini 2.5 Pro 무료 1,000건/일 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
@@ -1313,6 +1316,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/05 | **Gemini CLI 공식 오픈소스 런칭** — Apache 2.0, Gemini 2.5 Pro 무료 접근 (60건/분, 1,000건/일), 100만 토큰 컨텍스트, MCP 지원 ReAct 루프 | [blog.google](https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/) |
 | 2026/04/30 | **Amazon Q Developer** 신규 가입 5/15 차단 — Q Pro에서 Opus 4.6 5/29 제거, 최신 모델은 **Kiro** 전용, Q IDE 플러그인 2027/4/30 지원 종료 | [aws.amazon.com](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/) |
 | 2026/04/30 | **Gemini CLI v0.40.1** 체리픽 패치 — v0.40.0 수정사항 (오프라인 ripgrep, 스트리밍/셸 안전성, 메모리 개선) | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/04/30 | **Gemini CLI CVSS 10.0** 취약점 패치 — 워크스페이스 신뢰 설정 과다 허용으로 CI/헤드리스 모드에서 원격 코드 실행 가능, v0.39.1/v0.40.0-preview.3에서 수정 | [theregister.com](https://www.theregister.com/2026/04/30/googles_fix_for_critical_gemini/) |
@@ -1340,6 +1344,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/06 | Copilot CLI **엔터프라이즈 관리 플러그인** 퍼블릭 프리뷰 — 관리자가 기업 전체에 플러그인 배포, VS Code 4월 릴리스 (Chronicle, BYOK, 터미널 에이전트) | [github.blog](https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview/) |
 | 2026/05/01 | **Microsoft Agent 365 GA** — 엔터프라이즈 에이전트 컨트롤 플레인 ($15/user/월), 에이전트 관찰/거버넌스/보안, M365 E7 ($99/user/월)에 번들 | [microsoft.com](https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/) |
 | 2026/04/30 | Copilot **Visual Studio 4월 업데이트** — 디버거 에이전트, 클라우드 에이전트 20%+ 빠른 시작, 커스텀 에이전트 사용자 수준 지원 | [github.blog](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update/) |
 | 2026/04/28 | 모든 Copilot 플랜 **토큰 기반 과금** 6월 1일 전환 — Premium Request Unit이 AI 크레딧으로 대체 | [github.blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) |
@@ -1361,6 +1366,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/06 | **Cursor 3.3** — 에이전트 컨텍스트 사용량 표시, **Team Marketplace** (레포 연결 없이 관리자 플러그인 배포, Default Off/On/Required 모드) | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/05 | **Canvases** — 에이전트가 데이터, PR 리뷰, 평가 분석을 위한 인터랙티브 React 기반 시각 인터페이스 생성; 엔터프라이즈 관리자 세분화 모델 제어 및 소프트 지출 한도 | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/28 | **Cursor SDK** 퍼블릭 베타 — TypeScript SDK (`@cursor/sdk`)로 샌드박스 클라우드 VM에서 프로그래밍 방식 코딩 에이전트 실행, Faire·Rippling·Notion 도입 | [cursor.com](https://cursor.com/blog/typescript-sdk) |
 | 2026/04/28 | **CVE-2026-26268** — CVSS 8.1 악성 git pre-commit 훅을 통한 임의 코드 실행, Cursor v2.5에서 수정 | [cybersecuritynews.com](https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/) |
@@ -1412,7 +1418,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.04-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.07-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

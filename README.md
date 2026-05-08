@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-07</sub>
+  <sub>Last updated: 2026-05-08</sub>
 </p>
 
 <p align="center">
@@ -722,9 +722,9 @@ xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
     x-axis ["04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 97]
+    line "Claude Code" [92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98]
     line "GH Copilot" [87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78]
-    line "Cursor" [89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 92]
+    line "Cursor" [89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93]
     line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77]
     line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70]
@@ -733,8 +733,8 @@ xychart-beta
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-97―-3498DB?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-92↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Claude_Code-98↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Cursor-93↑-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-78↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-77―-3498DB?style=flat-square" alt="Codex CLI">

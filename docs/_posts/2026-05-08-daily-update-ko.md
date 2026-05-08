@@ -1,43 +1,43 @@
 ---
-title: "Claude Code 'TrustFall' 보안 취약점 논란 — Cursor 병렬 빌드, Copilot D-23 카운트다운"
+title: "Anthropic, Akamai와 1.8조원 클라우드 계약 — Claude Cowork 정식 출시, Cursor Bugbot 자가학습 도입"
 date: 2026-05-08
 lang: ko
 categories: [news]
-tags: [claude-code, cursor, copilot, antigravity, security, windsurf]
-excerpt: "Adversa.AI가 Claude Code의 원클릭 RCE 취약점 'TrustFall'을 공개했지만 Anthropic은 패치를 거부했다. 한편 Cursor 3.3은 병렬 빌드를, Antigravity는 1,254개 AI 스킬 생태계를 선보이며 경쟁이 심화되고 있다."
+tags: [claude-code, claude-ai, cursor, copilot, antigravity, security, akamai]
+excerpt: "Anthropic이 Akamai와 7년간 $1.8B 클라우드 계약을 체결하고, Claude Cowork가 전 유료 플랜에 정식 출시됐다. Cursor Bugbot은 PR 피드백으로 자가학습하는 기능을 도입했다."
 ---
 
-보안 연구 기관 Adversa.AI가 Claude Code에서 악성 레포지토리를 통한 원클릭 원격 코드 실행(RCE) 취약점 'TrustFall'을 공개했다([CodeSecAI](https://codesecai.com/ai-coding-agents-trustfall-rce-2026/)). 공격자가 조작된 레포를 열도록 유도하면 사용자 시스템에서 임의 코드를 실행할 수 있는 심각한 취약점이다. Anthropic은 "사용자가 '이 폴더를 신뢰합니다'를 클릭한 것이 동의"라며 패치를 거부해 Hacker News에서 격렬한 논쟁이 벌어지고 있다([Hacker News](https://news.ycombinator.com/item?id=48037986)).
+Anthropic이 Akamai Technologies와 7년간 18억 달러 규모의 클라우드 컴퓨팅 계약을 체결했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai)). 이 소식에 Akamai 주가가 약 27% 급등했다([CNBC](https://www.cnbc.com/2026/05/08/akamai-stock-ai-cloud-infrastructure-deal.html)). SpaceX Colossus 데이터센터 계약에 이어 두 번째 대형 인프라 확보로, Anthropic의 컴퓨팅 역량이 급격히 강화되고 있다.
 
-## Claude Code: 보안 논란 속 기능 고도화 지속
+## Claude Cowork 정식 출시 — 에이전틱 AI가 일반 업무까지
 
-'Code with Claude' 컨퍼런스 이후 이틀째 여파가 이어지고 있다. 데스크톱 앱이 세션 사이드바, 드래그앤드롭 워크스페이스, 통합 터미널/파일 에디터, Mac SSH 지원으로 완전히 재설계됐다([Claude Code Changelog](https://code.claude.com/docs/en/changelog)). 플러그인 URL 로딩(`--plugin-url` 플래그)과 `claude project purge` 명령어도 추가됐다. SpaceX 계약 효과로 속도 제한 2배 확대가 유지되는 가운데([Anthropic](https://www.anthropic.com/news/higher-limits-spacex)), TrustFall 취약점이 변수로 떠올랐다. 커뮤니티에서는 *"신뢰 경계를 사용자 동의에 떠넘기는 건 위험하다"*는 비판과 *"모든 코드 실행 도구의 본질적 한계"*라는 반론이 맞서고 있다.
+Claude Cowork와 Claude Code on Desktop이 macOS·Windows 전 유료 플랜에 정식 출시(GA)됐다([eWeek](https://www.eweek.com/news/claude-cowork-general-availability-enterprise-controls/)). 역할 기반 접근 제어, 그룹 지출 한도, 확장된 OpenTelemetry 분석, Zoom 커넥터 지원 등 엔터프라이즈 기능이 대폭 추가됐다. 코딩을 넘어 일반 지식 노동까지 에이전틱 AI를 확장하겠다는 Anthropic의 전략이 본격화되고 있다. Claude Code 인기 점수가 97에서 98로 상승했다.
 
-## Cursor 3.3: 병렬 빌드와 PR 분할로 생산성 도약
+## Claude Code: TrustFall 보안 논란 2일차
 
-Cursor 3.3이 'Build in Parallel' 기능을 도입했다([Cursor Changelog](https://cursor.com/changelog)). 플랜의 독립적인 부분을 식별해 비동기 서브에이전트로 동시 실행하며, 의존 관계가 있는 단계는 순서를 유지한다. 'Split PRs' 기능으로 다중 작업 변경사항을 논리적 PR로 분할하는 것도 가능해졌다 — 백업 스냅샷 생성, 분할 계획 제안까지 자동화된다. Quick-Action Pills와 서브에이전트 모델 선택(예: `model: opus`)도 추가돼, 인기 점수가 91에서 92로 상승했다.
+Adversa.AI가 공개한 원클릭 RCE 취약점 'TrustFall' 논란이 이틀째 이어지고 있다([CodeSecAI](https://codesecai.com/ai-coding-agents-trustfall-rce-2026/)). Anthropic이 "사용자 동의"를 이유로 패치를 거부한 데 대해 Hacker News에서 AI 코딩 에이전트의 공급망 보안 논쟁이 격화되고 있다([Hacker News](https://news.ycombinator.com/item?id=48037986)). 한편 Snyk가 Claude 모델을 자사 AI 보안 플랫폼에 통합해 취약점 탐지·우선순위·개발자 친화적 수정을 자동화하기로 했다([SD Times](https://sdtimes.com/ai/may-8-2026-ai-updates-from-the-past-week-coder-agents-launch-snyk-claude-partnership-opsera-cursor-partnership-and-more/)).
 
-## GitHub Copilot: D-23, 프리뷰 청구서 공개
+## Cursor: Bugbot 자가학습, Opsera 보안 에이전트 통합
 
-6월 1일 사용량 기반 과금 전환까지 23일 남았다([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). 5월 초부터 '프리뷰 청구서'가 공개돼 사용자들이 예상 비용을 확인할 수 있게 됐다([GitHub Docs](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing)). Copilot Code Review도 6월 1일부터 GitHub Actions 분 단위 과금이 적용된다([GitHub Changelog](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/)). 인기 점수는 6주 연속 하락해 78까지 떨어졌다.
+Cursor Bugbot이 PR 피드백으로부터 자동으로 학습하는 'learned rules' 기능과 MCP 서버 지원을 추가했다([Cursor Blog](https://cursor.com/blog/bugbot-learning)). 해결율이 80%에 근접하고 있다. 별도로 Opsera가 DevSecOps 에이전트(아키텍처 분석기, 보안/SQL 스캐너, 컴플라이언스 감사기)를 Cursor IDE 네이티브 플러그인으로 출시했다([SD Times](https://sdtimes.com/ai/may-8-2026-ai-updates-from-the-past-week-coder-agents-launch-snyk-claude-partnership-opsera-cursor-partnership-and-more/)). 인기 점수가 92에서 93으로 상승, 신고점을 경신했다.
 
-## Antigravity: 'Awesome Skills' 1,254개 AI 에이전트 스킬 생태계
+## GitHub Copilot: D-23, GPT-4.1 지원 종료 예고
 
-Antigravity가 1,254개 이상의 AI 에이전트 스킬을 모은 'Awesome Skills' 생태계를 공개했다([BrightCoding](https://www.blog.brightcoding.dev/2026/05/07/antigravity-awesome-skills-1254-ai-agent-power-ups-every-developer-needs)). IDE v1.22.2에서 Manager/Editor View 분리, AGENTS.md 지원, 200만 토큰 컨텍스트 윈도우가 추가됐으며([Antigravity Lab](https://antigravitylab.net/en/articles/antigravity/antigravity-may-2026-updates)), Ultra 플랜($249.99/월)도 출시됐다. 인기 점수가 47에서 49로 반등했다.
+6월 1일 사용량 기반 과금 전환까지 23일이다([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). GPT-4.1 모델의 지원 종료가 예고돼 GPT-5.5로의 전환이 가속화되고 있다([GitHub Features](https://github.com/features/copilot/whats-new)). VS Code 4~5월 업데이트에서는 시맨틱 워크스페이스 검색, `/chronicle` 채팅 히스토리, BYOK 지원이 추가됐다([GitHub Changelog](https://github.blog/changelog/2026-05-06-github-copilot-in-visual-studio-code-april-releases/)). 인기 점수는 78로 6주 연속 하락세가 지속된다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
 | ChatGPT | 98 | — | GPT-5.5 Instant 기본 모델 안착 |
-| Claude Code | 97 | — | TrustFall 논란에도 SpaceX 효과로 최고점 유지 |
-| Cursor | 92 | ↑1 | 병렬 빌드 + PR 분할, 신고점 |
-| Claude AI | 91 | — | Bloomberg 소비자 확장 보도 |
-| GitHub Copilot | 78 | ↓1 | 6주 연속 하락, D-23 |
-| Windsurf | 77 | — | Devin Review 전 사용자 무료 개방 |
+| Claude Code | 98 | ↑1 | Akamai $1.8B 계약 + Cowork GA |
+| Cursor | 93 | ↑1 | Bugbot 자가학습, Opsera 통합, 신고점 |
+| Claude AI | 92 | ↑1 | Cowork GA로 에이전틱 확장 |
+| GitHub Copilot | 78 | ↓1 | 6주 연속 하락, GPT-4.1 지원 종료 예고 |
+| Windsurf | 77 | — | Devin Review 전 사용자 무료 유지 |
 | Codex CLI | 77 | — | Pro 더블 사용량 프로모 지속 |
 | Gemini CLI | 70 | — | 오픈소스 안착 중 |
 | Aider | 68 | — | 39K+ 스타, 안정 |
 | Antigravity | 49 | ↑2 | Awesome Skills 1,254개, Ultra 플랜 |
 
-TrustFall 보안 취약점이 AI 코딩 에이전트의 공급망 보안 논쟁을 촉발했지만, Claude Code는 SpaceX 인프라 효과로 97점을 방어했다. Cursor가 병렬 빌드로 92점 신고점을 기록하며 Copilot(78)과의 격차를 14점으로 벌렸다. Antigravity가 스킬 생태계로 49점에 반등하며 존재감을 회복 중이다.
+Anthropic이 SpaceX에 이어 Akamai까지 확보하며 인프라 경쟁에서 우위를 굳히고 있다. Claude Code가 98점으로 ChatGPT와 동률에 진입했고, Cursor가 93점 신고점을 기록하며 Copilot(78)과의 격차를 15점으로 벌렸다. AI 코딩 도구 시장이 '인프라 전쟁' 국면에 돌입한 모습이다.

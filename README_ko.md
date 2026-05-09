@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-07</sub>
+  <sub>마지막 업데이트: 2026-05-09</sub>
 </p>
 
 <p align="center">
@@ -196,6 +196,10 @@ timeline
          : Claude Cowork GA — 전 유료 플랜, RBAC, OpenTelemetry (5/8)
          : Claude 장애 — 2K+ 사용자, IP 변경으로 GitHub 중단, 롤백 (5/8)
          : Gemini CLI v0.41.2 — 음성 모드 GA, 오프라인 지원, Gemma 4 (5/9)
+         : ServiceNow Build Agent GA — Cursor, Windsurf, Claude Code, Copilot에서 작동 (5/8)
+         : Opsera + Cursor DevSecOps 에이전트 네이티브 플러그인 파트너십 (5/8)
+         : Claude Code v2.1.136 — 자동 모드 hard deny, 워크트리 분기, 자격증명 수정 (5/9)
+         : Copilot VS Code 4월 릴리스 — 시맨틱 검색, /chronicle, BYOK 지원 (5/6)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -402,6 +406,15 @@ quadrantChart
 
 **Claude, 수도 시설 해킹에 사용** (2026.05.08):
 > *"Dragos 보고서에 따르면 해커들이 1월 멕시코 수도 시설 침투 시도에 Claude AI를 '주요 기술 실행자'로 활용했다 — 17,000줄 규모 Python 프레임워크 작성. OT 인프라 공격에는 실패."* — Cybersecurity Dive `2026.05.08`
+
+**Claude Code v2.1.136** (2026.05.09):
+> *"자동 모드용 hard deny 규칙, OTel 피드백 설문, 워크트리 분기 제어(worktree.baseRef), /clear 후 MCP/플러그인 사라지는 문제 수정, 자격증명 쓰기 경쟁 상태 수정. 하루에 4개 버전(v2.1.133~v2.1.138)이 릴리스됐다."* — code.claude.com/changelog `2026.05.09`
+
+**Opsera-Cursor DevSecOps 파트너십** (2026.05.08):
+> *"Opsera가 자율 DevSecOps 에이전트(아키텍처 분석기, 보안 스캐너, SQL 스캐너, 컴플라이언스 감사기)를 Cursor 네이티브 플러그인으로 통합했다."* — PRNewswire `2026.05.08`
+
+**ServiceNow Build Agent GA** (2026.05.08):
+> *"ServiceNow Build Agent가 Cursor, Windsurf, Claude Code, GitHub Copilot 내부에서 정식 출시됐다. Anthropic 모델 기반으로, Figma·Miro·GitHub를 MCP 클라이언트로 연결한다."* — ServiceNow 뉴스룸 `2026.05.08`
 
 **2026 파워 스택 공식**:
 ```
@@ -1201,8 +1214,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Advanced Account Security |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA |
-| Claude Code | code.claude.com/changelog | **5/8 장애** (IP 변경으로 GitHub 연결 중단, 롤백 복구); SpaceX 통한 속도 제한 2배 |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR 분할, Reviews 탭, Bugbot 80%, SpaceX $600억 인수 |
+| Claude Code | code.claude.com/changelog | **v2.1.136** 자동 모드 hard deny, 하루 4개 릴리스(v2.1.133~v2.1.138); SpaceX 통한 속도 제한 2배 |
+| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR 분할, Reviews 탭, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, GPT-5.4 Mini 1x 크레딧, $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
 | GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-22), 개인 플랜 가입 중단, 7주 연속 하락 |
@@ -1255,6 +1268,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/09 | Claude Code **v2.1.136** — 자동 모드 hard deny 규칙, OTel 피드백 설문, 워크트리 분기 제어, MCP/플러그인 사라짐 수정, 자격증명 쓰기 경쟁 상태 수정; 하루 4개 릴리스(v2.1.133~v2.1.138) | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/05/08 | **ServiceNow Build Agent GA** — Cursor, Windsurf, Claude Code, GitHub Copilot 내부에서 작동; Anthropic 모델 기반; Figma·Miro·GitHub를 MCP 클라이언트로 연결 | [servicenow.com](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Build-Agent-now-works-inside-every-major-AI-coding-tool-governed-by-default/default.aspx) |
 | 2026/05/08 | **Akamai $18억 클라우드 계약** — 7년간 컴퓨트 계약; Akamai 주가 ↑27%; SpaceX에 이은 두 번째 대형 인프라 계약 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai) |
 | 2026/05/08 | **Claude Cowork GA** — Cowork + Code Desktop이 전 유료 플랜에 정식 출시(macOS/Windows), RBAC, 그룹 지출 한도, OpenTelemetry, Zoom 커넥터 | [eweek.com](https://www.eweek.com/news/claude-cowork-general-availability-enterprise-controls/) |
 | 2026/05/08 | **Claude 장애** — 2,000명+ 영향, API 오류 급증, IP 주소 변경으로 GitHub 연결 중단; 롤백 후 복구 | [gvwire.com](https://gvwire.com/2026/05/08/claude-ai-goes-down-for-thousands-of-users-friday-downdetector-reports/) |
@@ -1388,6 +1403,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/08 | **Opsera-Cursor DevSecOps 파트너십** — 자율 DevSecOps 에이전트(아키텍처 분석기, 보안 스캐너, SQL 스캐너, 컴플라이언스 감사기)를 Cursor 네이티브 플러그인으로 통합 | [prnewswire.com](https://www.prnewswire.com/news-releases/opsera-and-cursor-partner-to-embed-autonomous-ai-agents-directly-into-ai-sdlc-workflows-for-next-gen-ai-driven-development-302762277.html) |
 | 2026/05/07 | **Cursor 3.3** — **Build in Parallel** (비동기 서브에이전트), **PR 분할**, 새 Reviews/Commits/Changes 탭, Quick-Action Pills, 서브에이전트 모델 설정; 에이전트 컨텍스트 사용량, Team Marketplace | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/05 | **Canvases** — 에이전트가 데이터, PR 리뷰, 평가 분석을 위한 인터랙티브 React 기반 시각 인터페이스 생성; 엔터프라이즈 관리자 세분화 모델 제어 및 소프트 지출 한도 | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/28 | **Cursor SDK** 퍼블릭 베타 — TypeScript SDK (`@cursor/sdk`)로 샌드박스 클라우드 VM에서 프로그래밍 방식 코딩 에이전트 실행, Faire·Rippling·Notion 도입 | [cursor.com](https://cursor.com/blog/typescript-sdk) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-08</sub>
+  <sub>Last updated: 2026-05-09</sub>
 </p>
 
 <p align="center">
@@ -196,6 +196,10 @@ timeline
          : Claude Cowork GA — all paid plans, RBAC, OpenTelemetry (May 8)
          : Claude outage — 2K+ users, IP change broke GitHub, reverted (May 8)
          : Gemini CLI v0.41.2 — voice mode GA, offline support, Gemma 4 (May 9)
+         : ServiceNow Build Agent GA — works in Cursor, Windsurf, Claude Code, Copilot (May 8)
+         : Opsera + Cursor DevSecOps agents native plugin partnership (May 8)
+         : Claude Code v2.1.136 — hard deny for auto mode, worktree branching, credential fixes (May 9)
+         : Copilot VS Code April releases — semantic search, /chronicle, BYOK support (May 6)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -402,6 +406,15 @@ quadrantChart
 
 **Claude Used in Water Utility Attack** (2026.05.08):
 > *"Dragos reported hackers used Claude AI as the 'primary technical executor' in a January attempt to compromise a Mexican water utility — writing a 17,000-line Python framework. OT infrastructure attack ultimately failed."* — Cybersecurity Dive `2026.05.08`
+
+**Claude Code v2.1.136** (2026.05.09):
+> *"Hard deny rules for auto mode, OTel feedback survey, worktree branching controls (worktree.baseRef), fixes for MCP/plugins disappearing after /clear, credential write race conditions. Four releases shipped in a single day (v2.1.133–v2.1.138)."* — code.claude.com/changelog `2026.05.09`
+
+**Opsera-Cursor DevSecOps Partnership** (2026.05.08):
+> *"Opsera embedded autonomous DevSecOps Agents — Architecture Analyzer, Security Scanner, SQL Scanner, Compliance Auditor — as a native Cursor plugin for next-gen AI-driven SDLC workflows."* — PRNewswire `2026.05.08`
+
+**ServiceNow Build Agent GA** (2026.05.08):
+> *"ServiceNow Build Agent is now generally available inside Cursor, Windsurf, Claude Code, and GitHub Copilot. Powered by Anthropic models, it connects to Figma, Miro, and GitHub as MCP Client."* — ServiceNow Newsroom `2026.05.08`
 
 **2026 Power Stack Formula**:
 ```
@@ -1220,8 +1233,8 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Advanced Account Security |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA |
-| Claude Code | code.claude.com/changelog | **Outage May 8** (IP change broke GitHub connections, reverted); rate limits 2x via SpaceX |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR Splitting, Reviews tab, Bugbot 80%, SpaceX $60B deal |
+| Claude Code | code.claude.com/changelog | **v2.1.136** hard deny for auto mode, 4 releases in one day (v2.1.133–v2.1.138); rate limits 2x via SpaceX |
+| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR Splitting, Reviews tab, **Opsera DevSecOps** partnership, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin integration, GPT-5.4 Mini at 1x credits, $25B valuation |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
 | GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-22), individual sign-ups paused, 7-week decline |
@@ -1275,6 +1288,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/09 | Claude Code **v2.1.136** — hard deny rules for auto mode, OTel feedback survey, worktree branching controls, MCP/plugin disappearing fix, credential write race condition fix; 4 releases in one day (v2.1.133–v2.1.138) | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/05/08 | **ServiceNow Build Agent GA** — works inside Cursor, Windsurf, Claude Code, and GitHub Copilot; powered by Anthropic models; connects to Figma, Miro, GitHub as MCP Client | [servicenow.com](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Build-Agent-now-works-inside-every-major-AI-coding-tool-governed-by-default/default.aspx) |
 | 2026/05/08 | **Akamai $1.8B Cloud Deal** — 7-year compute contract; Akamai stock ↑27%; second major infrastructure deal after SpaceX | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai) |
 | 2026/05/08 | **Claude Cowork GA** — Cowork + Code Desktop GA on all paid plans (macOS/Windows), RBAC, group spend limits, OpenTelemetry, Zoom connector | [eweek.com](https://www.eweek.com/news/claude-cowork-general-availability-enterprise-controls/) |
 | 2026/05/08 | **Claude outage** — 2,000+ users affected, elevated API errors, IP address change broke GitHub connections; reverted and resolved | [gvwire.com](https://gvwire.com/2026/05/08/claude-ai-goes-down-for-thousands-of-users-friday-downdetector-reports/) |
@@ -1408,6 +1423,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/08 | **Opsera-Cursor DevSecOps Partnership** — autonomous DevSecOps Agents (Architecture Analyzer, Security Scanner, SQL Scanner, Compliance Auditor) embedded as native Cursor plugin | [prnewswire.com](https://www.prnewswire.com/news-releases/opsera-and-cursor-partner-to-embed-autonomous-ai-agents-directly-into-ai-sdlc-workflows-for-next-gen-ai-driven-development-302762277.html) |
 | 2026/05/07 | **Cursor 3.3** — **Build in Parallel** (async subagents), **PR Splitting**, new Reviews/Commits/Changes tabs, Quick-Action Pills, subagent model config; agent context usage, Team Marketplace | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/05 | **Canvases** — agents create interactive React-based visual interfaces for data, PR reviews, and eval analysis; enterprise admin granular model controls and soft spend limits | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/28 | **Cursor SDK** public beta — TypeScript SDK (`@cursor/sdk`) for programmatic coding agents on sandboxed cloud VMs, adopted by Faire, Rippling, Notion | [cursor.com](https://cursor.com/blog/typescript-sdk) |

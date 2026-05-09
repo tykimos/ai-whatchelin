@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.08-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.09-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -188,10 +188,14 @@ timeline
          : Claude Code v2.1.131 — VS Code Windows fix, Mantle auth fix (May 6)
          : Devin for Terminal — Rust CLI agent, Windsurf integration (May 6)
          : Gemini CLI official open-source launch — Apache 2.0, free Gemini 2.5 Pro (May 5)
-         : Cursor 3.3 — Team Marketplace, context usage breakdown (May 6)
+         : Cursor 3.3 — Build in Parallel, PR Splitting, Team Marketplace (May 7)
          : Enterprise-managed plugins for Copilot CLI in public preview (May 6)
          : Claude Code v2.1.132 — session ID env var, fullscreen fix, MCP auth fix (May 7)
          : Gemini CLI v0.42.0 preview — voice mode, Gemma 4, memory enhancements (May 7)
+         : Akamai $1.8B cloud deal — 7-year compute contract, Akamai ↑27% (May 8)
+         : Claude Cowork GA — all paid plans, RBAC, OpenTelemetry (May 8)
+         : Claude outage — 2K+ users, IP change broke GitHub, reverted (May 8)
+         : Gemini CLI v0.41.2 — voice mode GA, offline support, Gemma 4 (May 9)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -386,6 +390,18 @@ quadrantChart
 
 **Copilot Plan Shakeup** (2026.04.20):
 > *"New sign-ups paused for Pro/Pro+/Student. Opus models removed from Pro. Token-based billing replacing premium requests June 1. Community: 'You will get less, but pay the same price.'"* — GitHub Blog `2026.04.20`
+
+**Akamai $1.8B Cloud Deal** (2026.05.08):
+> *"Anthropic signed a 7-year, $1.8 billion compute deal with Akamai — Akamai stock soared 27%. Second major infrastructure deal after SpaceX Colossus 1."* — Bloomberg `2026.05.08`
+
+**Claude Outage** (2026.05.08):
+> *"Claude went down for 2,000+ users — elevated API errors, login failures, and an IP address change that broke GitHub connections for Claude Code remote sessions. Reverted and resolved same day."* — GV Wire `2026.05.08`
+
+**Vibe Coding Data Exposure Scandal** (2026.05.07):
+> *"Israeli firm RedAccess found 380,000+ publicly accessible assets built with Lovable, Base44, Replit, and Netlify. ~5,000 contained sensitive data — medical records, financial info, hospital records. Lovable denied the report."* — Axios `2026.05.07`
+
+**Claude Used in Water Utility Attack** (2026.05.08):
+> *"Dragos reported hackers used Claude AI as the 'primary technical executor' in a January attempt to compromise a Mexican water utility — writing a 17,000-line Python framework. OT infrastructure attack ultimately failed."* — Cybersecurity Dive `2026.05.08`
 
 **2026 Power Stack Formula**:
 ```
@@ -720,22 +736,22 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08"]
+    x-axis ["04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98]
-    line "GH Copilot" [87, 87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78]
-    line "Cursor" [89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77]
-    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70]
-    line "Antigravity" [52, 51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49]
+    line "Claude Code" [92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98]
+    line "GH Copilot" [87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77]
+    line "Cursor" [89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78]
+    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71]
+    line "Antigravity" [51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-98↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-93↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-78↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Cursor-94↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-77↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-77―-3498DB?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-70―-3498DB?style=flat-square" alt="Gemini CLI">
@@ -1196,20 +1212,20 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-08)
+### Fact Check Log (2026-05-09)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** new default model, memory sources, fast answers |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), $1.5B enterprise JV, **Code with Claude conference** |
-| Claude Code | code.claude.com/changelog | **v2.1.131** (May 6) — VS Code Windows fix; **rate limits doubled** via SpaceX Colossus 1 deal |
-| Cursor | cursor.com/pricing | **Canvases**, enterprise admin model controls, Bugbot 80%, SpaceX $60B deal |
-| Windsurf | windsurf.com/pricing | 2.0 + Devin integration, **Devin for Terminal** (Rust CLI agent), $25B valuation |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Advanced Account Security |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA |
+| Claude Code | code.claude.com/changelog | **Outage May 8** (IP change broke GitHub connections, reverted); rate limits 2x via SpaceX |
+| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR Splitting, Reviews tab, Bugbot 80%, SpaceX $60B deal |
+| Windsurf | windsurf.com/pricing | 2.0 + Devin integration, GPT-5.4 Mini at 1x credits, $25B valuation |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-24), enterprise-managed plugins for CLI, billing backlash 5-week slide |
-| Gemini CLI | geminicli.com | **Official open-source launch** (May 5), Apache 2.0, free 1,000 req/day with Gemini 2.5 Pro |
+| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-22), individual sign-ups paused, 7-week decline |
+| Gemini CLI | geminicli.com | **v0.41.2** patch, real-time voice mode, offline support, Gemma 4 integration |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
@@ -1217,7 +1233,7 @@ All pricing information has been directly verified from each service's official 
 | Tabnine | tabnine.com/pricing | annual subscription only, free plan discontinued |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro discontinued Jul 2025, moved to Amp |
 | Trae | docs.trae.ai | 5 tiers: Free/$3/$10/$30/$100 |
-| Antigravity | antigravity.google | part of Google AI Pro/Ultra subscription, quota controversy |
+| Antigravity | antigravity.google | part of Google AI Pro/Ultra subscription, AgentKit 2.0 |
 | Midjourney | midjourney.com | V1 video model launched, 5-20sec clips |
 
 
@@ -1259,6 +1275,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/08 | **Akamai $1.8B Cloud Deal** — 7-year compute contract; Akamai stock ↑27%; second major infrastructure deal after SpaceX | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai) |
+| 2026/05/08 | **Claude Cowork GA** — Cowork + Code Desktop GA on all paid plans (macOS/Windows), RBAC, group spend limits, OpenTelemetry, Zoom connector | [eweek.com](https://www.eweek.com/news/claude-cowork-general-availability-enterprise-controls/) |
+| 2026/05/08 | **Claude outage** — 2,000+ users affected, elevated API errors, IP address change broke GitHub connections; reverted and resolved | [gvwire.com](https://gvwire.com/2026/05/08/claude-ai-goes-down-for-thousands-of-users-friday-downdetector-reports/) |
 | 2026/05/06 | **Code with Claude Conference** — Managed Agents with Outcomes (public beta), Dreaming self-improving memory (preview), Desktop GUI with live preview, Remote Agents, CI auto-fix, Security Reviews, Code Review, Routines for async automations | [simonwillison.net](https://simonwillison.net/2026/May/6/code-w-claude-2026/) |
 | 2026/05/06 | **SpaceX Colossus 1 Compute Deal** — 300+ MW / 220K+ NVIDIA GPUs; Claude Code rate limits doubled for Pro/Max/Team/Enterprise; peak hours reduction removed; API rate limits raised | [anthropic.com](https://www.anthropic.com/news/higher-limits-spacex) |
 | 2026/05/06 | Claude Code **v2.1.131** — VS Code extension Windows activation fix, Mantle endpoint auth fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -1338,6 +1357,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/09 | **Gemini CLI v0.41.2** — real-time voice mode, offline support, Gemma 4 integration, secure .env loading with workspace trust | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/05/05 | **Gemini CLI official open-source launch** — Apache 2.0, free Gemini 2.5 Pro access (60 req/min, 1,000 req/day), 1M token context, ReAct loop with MCP support | [blog.google](https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/) |
 | 2026/04/30 | **Amazon Q Developer** new signups blocked May 15 — Opus 4.6 removed from Q Pro May 29, latest models exclusive to **Kiro**, full Q IDE plugin EOL April 2027 | [aws.amazon.com](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/) |
 | 2026/04/30 | **Gemini CLI v0.40.1** cherry-pick patch — fixes from v0.40.0 (offline ripgrep, streaming/shell safety, memory improvements) | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
@@ -1388,7 +1408,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
-| 2026/05/06 | **Cursor 3.3** — agent context usage breakdown, **Team Marketplace** (admin plugin distribution without repo connection, Default Off/On/Required modes) | [cursor.com](https://cursor.com/changelog) |
+| 2026/05/07 | **Cursor 3.3** — **Build in Parallel** (async subagents), **PR Splitting**, new Reviews/Commits/Changes tabs, Quick-Action Pills, subagent model config; agent context usage, Team Marketplace | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/05 | **Canvases** — agents create interactive React-based visual interfaces for data, PR reviews, and eval analysis; enterprise admin granular model controls and soft spend limits | [cursor.com](https://cursor.com/changelog) |
 | 2026/04/28 | **Cursor SDK** public beta — TypeScript SDK (`@cursor/sdk`) for programmatic coding agents on sandboxed cloud VMs, adopted by Faire, Rippling, Notion | [cursor.com](https://cursor.com/blog/typescript-sdk) |
 | 2026/04/28 | **CVE-2026-26268** — CVSS 8.1 arbitrary code execution via malicious git pre-commit hooks, fixed in Cursor v2.5 | [cybersecuritynews.com](https://cybersecuritynews.com/cursor-ai-coding-agent-vulnerability/) |
@@ -1440,7 +1460,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.08-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.09-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

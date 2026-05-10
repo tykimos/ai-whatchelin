@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-09</sub>
+  <sub>마지막 업데이트: 2026-05-10</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.09-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.10-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -200,6 +200,9 @@ timeline
          : Opsera + Cursor DevSecOps 에이전트 네이티브 플러그인 파트너십 (5/8)
          : Claude Code v2.1.136 — 자동 모드 hard deny, 워크트리 분기, 자격증명 수정 (5/9)
          : Copilot VS Code 4월 릴리스 — 시맨틱 검색, /chronicle, BYOK 지원 (5/6)
+         : Codex CLI 플러그인 공유 + remote-control 진입점 (5/9)
+         : Snyk-Claude AI 보안 플랫폼 통합 (5/8)
+         : Copilot 8주 연속 하락 76, 사용량 과금 D-21 (5/10)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -740,26 +743,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09"]
+    x-axis ["04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98]
-    line "GH Copilot" [87, 87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77]
-    line "Cursor" [89, 89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78]
-    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71]
-    line "Antigravity" [51, 51, 51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49]
+    line "Claude Code" [92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98]
+    line "GH Copilot" [87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76]
+    line "Cursor" [89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79]
+    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72]
+    line "Antigravity" [51, 51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-94↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-77↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-94―-3498DB?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-76↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-77―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-70―-3498DB?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-49↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-79↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-72↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-49―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
 

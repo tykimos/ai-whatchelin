@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.11-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -203,6 +203,10 @@ timeline
          : Codex CLI plugin sharing + remote-control entrypoint (May 9)
          : Snyk-Claude AI security platform integration (May 8)
          : Copilot 8-week decline to 76, D-21 to usage-based billing (May 10)
+         : Amazon opens Claude Code + Codex access to all employees — Kiro outage fallout (May 10)
+         : "Comment and Control" prompt injection — Claude Code CVSS 9.4, Gemini CLI, Copilot (May 10)
+         : Codex "Running Codex Safely" — sandboxing, auto-review mode (May 8)
+         : Copilot 9-week decline to 75, D-20 to usage-based billing (May 11)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -418,6 +422,15 @@ quadrantChart
 
 **ServiceNow Build Agent GA** (2026.05.08):
 > *"ServiceNow Build Agent is now generally available inside Cursor, Windsurf, Claude Code, and GitHub Copilot. Powered by Anthropic models, it connects to Figma, Miro, and GitHub as MCP Client."* — ServiceNow Newsroom `2026.05.08`
+
+**Amazon Opens Claude Code + Codex to All Employees** (2026.05.10):
+> *"Amazon granted all corporate employees access to Claude Code immediately and approved OpenAI Codex starting May 12. Over 1,500 employees endorsed the switch in an internal thread after Kiro was blamed for a 13-hour AWS outage."* — Slashdot `2026.05.10`
+
+**"Comment and Control" Prompt Injection** (2026.05.10):
+> *"Claude Code (CVSS 9.4), Gemini CLI, and GitHub Copilot Agent all vulnerable to prompt injection via GitHub PR titles, issue bodies, and comments. Attackers can extract API keys without victim interaction — auto-triggered via GitHub Actions."* — SecurityWeek `2026.05.10`
+
+**Codex "Running Codex Safely"** (2026.05.08):
+> *"OpenAI detailed Codex safety controls: sandboxing, auto-review mode (auto-approves low-risk actions), managed network policies, and agent-native telemetry/logging. Enterprise partnerships with TCS, Infosys, Cognizant, Accenture push Codex past 4M+ developers."* — OpenAI Blog `2026.05.08`
 
 **2026 Power Stack Formula**:
 ```
@@ -752,25 +765,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10"]
+    x-axis ["04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98]
-    line "GH Copilot" [87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76]
-    line "Cursor" [89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79]
-    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72]
-    line "Antigravity" [51, 51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49]
+    line "Claude Code" [92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98]
+    line "GH Copilot" [86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75]
+    line "Cursor" [90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80]
+    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73]
+    line "Antigravity" [51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-94―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-76↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-75↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-79↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-72↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-80↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-73↑-27AE60?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-49―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
@@ -1228,7 +1241,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-09)
+### Fact Check Log (2026-05-11)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -1236,11 +1249,11 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Advanced Account Security |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA |
-| Claude Code | code.claude.com/changelog | **v2.1.136** hard deny for auto mode, 4 releases in one day (v2.1.133–v2.1.138); rate limits 2x via SpaceX |
+| Claude Code | code.claude.com/changelog | **v2.1.138** latest, hard deny for auto mode, stdin crash fix, desktop DnD fix, MCP 10GB memory fix; rate limits 2x via SpaceX |
 | Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR Splitting, Reviews tab, **Opsera DevSecOps** partnership, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin integration, GPT-5.4 Mini at 1x credits, $25B valuation |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-22), individual sign-ups paused, 7-week decline |
+| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-20), individual sign-ups paused, 9-week decline |
 | Gemini CLI | geminicli.com | **v0.41.2** patch, real-time voice mode, offline support, Gemma 4 integration |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
@@ -1346,6 +1359,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/10 | **Amazon opens Claude Code + Codex** to all employees — 1,500 internal endorsements after Kiro-caused 13-hour AWS outage; Codex access from May 12 | [slashdot.org](https://developers.slashdot.org/story/26/05/10/0618225/amazon-relents-lets-its-programmers-use-openais-codex-and-anthropics-claude) |
+| 2026/05/08 | **"Running Codex Safely"** — sandboxing details, auto-review mode, managed network policies, agent-native telemetry/logging | [openai.com](https://openai.com/index/running-codex-safely/) |
+| 2026/05/~ | **Enterprise partnerships scaling** — TCS, Infosys, Cognizant, Accenture, Capgemini, CGI, PwC; 4M+ developers | [openai.com](https://openai.com/index/scaling-codex-to-enterprises-worldwide/) |
 | 2026/05/05 | **GPT-5.5 Instant** — new default ChatGPT model, 52.5% fewer hallucinations, AIME 2025 81.2 (up from 65.4), fast answers, memory sources | [techcrunch.com](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/) |
 | 2026/05/05 | **Codex CLI v0.128.0** — persisted /goal workflows, configurable TUI keymaps, expanded permission profiles, app-server Unix socket transport | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/04 | **"The Deployment Company"** — $10B JV with TPG, Bain Capital, Brookfield, SoftBank to embed OpenAI engineers in enterprises | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai) |

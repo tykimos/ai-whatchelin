@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.11-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -203,6 +203,10 @@ timeline
          : Codex CLI 플러그인 공유 + remote-control 진입점 (5/9)
          : Snyk-Claude AI 보안 플랫폼 통합 (5/8)
          : Copilot 8주 연속 하락 76, 사용량 과금 D-21 (5/10)
+         : Amazon 전 직원에 Claude Code + Codex 접근 허용 — Kiro 장애 후폭풍 (5/10)
+         : "Comment and Control" 프롬프트 인젝션 — Claude Code CVSS 9.4, Gemini CLI, Copilot (5/10)
+         : Codex "안전한 실행" — 샌드박싱, 자동 리뷰 모드 공개 (5/8)
+         : Copilot 9주 연속 하락 75, 사용량 과금 D-20 (5/11)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -418,6 +422,15 @@ quadrantChart
 
 **ServiceNow Build Agent GA** (2026.05.08):
 > *"ServiceNow Build Agent가 Cursor, Windsurf, Claude Code, GitHub Copilot 내부에서 정식 출시됐다. Anthropic 모델 기반으로, Figma·Miro·GitHub를 MCP 클라이언트로 연결한다."* — ServiceNow 뉴스룸 `2026.05.08`
+
+**Amazon 전 직원에 Claude Code + Codex 개방** (2026.05.10):
+> *"Amazon이 전 직원에게 Claude Code 접근을 즉시 허용하고 OpenAI Codex도 5월 12일부터 승인했다. Kiro 발 13시간 AWS 장애 이후 내부 스레드에서 1,500명 이상이 전환을 지지했다."* — Slashdot `2026.05.10`
+
+**"Comment and Control" 프롬프트 인젝션** (2026.05.10):
+> *"Claude Code(CVSS 9.4), Gemini CLI, GitHub Copilot Agent가 GitHub PR 제목·이슈 본문·댓글을 통한 프롬프트 인젝션에 취약한 것으로 드러났다. 피해자 상호작용 없이 GitHub Actions 자동 트리거로 API 키를 탈취할 수 있다."* — SecurityWeek `2026.05.10`
+
+**Codex "안전한 실행"** (2026.05.08):
+> *"OpenAI가 Codex 안전 통제를 상세히 공개: 샌드박싱, 자동 리뷰 모드(저위험 동작 자동 승인), 관리형 네트워크 정책, 에이전트 텔레메트리/로깅. TCS, Infosys, Cognizant, Accenture 파트너십으로 4M+ 개발자 돌파."* — OpenAI Blog `2026.05.08`
 
 **2026 파워 스택 공식**:
 ```
@@ -743,25 +756,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10"]
+    x-axis ["04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [92, 92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98]
-    line "GH Copilot" [87, 86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76]
-    line "Cursor" [89, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79]
-    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72]
-    line "Antigravity" [51, 51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49]
+    line "Claude Code" [92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98]
+    line "GH Copilot" [86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75]
+    line "Cursor" [90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94]
+    line "Windsurf" [74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80]
+    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73]
+    line "Antigravity" [51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-94―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-76↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-75↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-79↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-72↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-80↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-73↑-27AE60?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-49―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
@@ -1209,7 +1222,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-09)
+### 팩트 체크 로그 (2026-05-11)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -1217,11 +1230,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Advanced Account Security |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA |
-| Claude Code | code.claude.com/changelog | **v2.1.136** 자동 모드 hard deny, 하루 4개 릴리스(v2.1.133~v2.1.138); SpaceX 통한 속도 제한 2배 |
+| Claude Code | code.claude.com/changelog | **v2.1.138** 최신, 자동 모드 hard deny, stdin 크래시 수정, 데스크톱 DnD 수정, MCP 10GB 메모리 수정; SpaceX 통한 속도 제한 2배 |
 | Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR 분할, Reviews 탭, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, GPT-5.4 Mini 1x 크레딧, $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-22), 개인 플랜 가입 중단, 7주 연속 하락 |
+| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-20), 개인 플랜 가입 중단, 9주 연속 하락 |
 | Gemini CLI | geminicli.com | **v0.41.2** 패치, 실시간 음성 모드, 오프라인 지원, Gemma 4 통합 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -1326,6 +1339,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/10 | **Amazon 전 직원에 Claude Code + Codex 개방** — Kiro 발 13시간 AWS 장애 후 내부 1,500명 지지; Codex 5/12부터 접근 | [slashdot.org](https://developers.slashdot.org/story/26/05/10/0618225/amazon-relents-lets-its-programmers-use-openais-codex-and-anthropics-claude) |
+| 2026/05/08 | **"Running Codex Safely"** — 샌드박싱 상세, 자동 리뷰 모드, 관리형 네트워크 정책, 에이전트 텔레메트리/로깅 | [openai.com](https://openai.com/index/running-codex-safely/) |
+| 2026/05/~ | **엔터프라이즈 파트너십 확대** — TCS, Infosys, Cognizant, Accenture, Capgemini, CGI, PwC; 4M+ 개발자 | [openai.com](https://openai.com/index/scaling-codex-to-enterprises-worldwide/) |
 | 2026/05/05 | **GPT-5.5 Instant** — ChatGPT 새 기본 모델, 환각 52.5% 감소, AIME 2025 81.2 (65.4→), 빠른 답변, 메모리 소스 | [techcrunch.com](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/) |
 | 2026/05/05 | **Codex CLI v0.128.0** — 영속 /goal 워크플로우, TUI 키맵 설정, 확장된 퍼미션 프로파일, 앱서버 Unix 소켓 전송 | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/04 | **"The Deployment Company"** — TPG, Bain Capital, Brookfield, SoftBank와 $100억 합작법인, 기업에 OpenAI 엔지니어 파견 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai) |

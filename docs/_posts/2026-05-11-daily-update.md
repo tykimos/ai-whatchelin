@@ -3,8 +3,8 @@ title: "Amazon Surrenders to Claude Code — 1,500 Developers Forced the Switch 
 date: 2026-05-11
 lang: en
 categories: [news]
-tags: [claude-code, codex-cli, amazon, kiro, copilot, security, gemini-cli]
-excerpt: "Amazon opens Claude Code and Codex access to all employees after a 13-hour AWS outage caused by its own Kiro tool. Meanwhile, a critical prompt injection vulnerability hits Claude Code, Gemini CLI, and Copilot."
+tags: [claude-code, codex-cli, amazon, kiro, copilot, security, gemini-cli, cursor]
+excerpt: "Amazon opens Claude Code and Codex access to all employees after a 13-hour AWS outage caused by its own Kiro tool. Cursor drops Bugbot's $40 subscription for pay-per-run, and Copilot deprecates Grok Code Fast 1 by May 15."
 ---
 
 Amazon abandoned its own AI coding tool. After 1,500 employees demanded alternatives on an internal thread, Amazon opened Claude Code access to all corporate staff immediately and approved OpenAI Codex starting May 12([Slashdot](https://developers.slashdot.org/story/26/05/10/0618225/amazon-relents-lets-its-programmers-use-openais-codex-and-anthropics-claude)). The trigger: a 13-hour AWS outage blamed on Kiro.
@@ -24,6 +24,14 @@ OpenAI published "Running Codex Safely," detailing its sandboxing, auto-review m
 ## GitHub Copilot: D-20, Nine Consecutive Weeks of Decline
 
 Twenty days until the usage-based billing switch([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). The Opus 4.7 multiplier has already jumped from the promotional 7.5x to 15x after the promo ended April 30, and will spike to 27x on June 1([GitHub Docs](https://docs.github.com/en/copilot/reference/copilot-billing/model-multipliers-for-annual-plans)). Community backlash is fierce: users call it "a stealth 3.6x price hike"([HN](https://news.ycombinator.com/item?id=47838508)). Score drops from 76 to 75 — nine consecutive weeks of decline. The gap with Claude Code (98) widens to 23 points.
+
+## Cursor: Bugbot Drops the $40 Subscription for Pay-Per-Run
+
+Cursor announced Bugbot is switching from $40/seat/month to usage-based billing at $1.00-$1.50 per PR review([Cursor Blog](https://cursor.com/blog/may-2026-bugbot-changes)). A new "high effort" mode finds 35% more bugs while maintaining the 80% resolution rate. The change takes effect at each customer's next billing renewal after June 8.
+
+## Copilot: Grok Code Fast 1 End-of-Life May 15
+
+GitHub is deprecating Grok Code Fast 1 across all Copilot experiences — chat, inline edits, agent mode, and completions — by May 15([Releasebot](https://releasebot.io/updates/github)). GPT-5 mini and Claude Haiku 4.5 are the recommended alternatives. Enterprise admins need to update model policies before the cutoff to avoid disruption.
 
 ## Market Pulse
 

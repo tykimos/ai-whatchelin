@@ -207,6 +207,8 @@ timeline
          : "Comment and Control" prompt injection — Claude Code CVSS 9.4, Gemini CLI, Copilot (May 10)
          : Codex "Running Codex Safely" — sandboxing, auto-review mode (May 8)
          : Copilot 9-week decline to 75, D-20, Opus 4.7 multiplier now 15x→27x June 1 (May 11)
+         : Cursor Bugbot usage-based billing — $1-1.50/run replaces $40/seat/mo, 35% more bugs at high effort (May 11)
+         : Copilot Grok Code Fast 1 deprecated May 15 — GPT-5 mini, Claude Haiku 4.5 alternatives (May 11)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1250,10 +1252,10 @@ All pricing information has been directly verified from each service's official 
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Advanced Account Security |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA |
 | Claude Code | code.claude.com/changelog | **v2.1.138** latest, hard deny for auto mode, stdin crash fix, desktop DnD fix, MCP 10GB memory fix; rate limits 2x via SpaceX |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR Splitting, Reviews tab, **Opsera DevSecOps** partnership, SpaceX $60B deal |
+| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR Splitting, Reviews tab, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run replaces $40/seat/mo |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin integration, GPT-5.4 Mini at 1x credits, $25B valuation |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-20), Opus 4.7 multiplier 7.5x→15x→27x (June 1), 9-week decline |
+| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-20), Opus 4.7 multiplier 7.5x→15x→27x (June 1), 9-week decline, **Grok Code Fast 1 deprecated May 15** |
 | Gemini CLI | geminicli.com | **v0.41.2** patch, real-time voice mode, offline support, Gemma 4 integration |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
@@ -1420,6 +1422,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/11 | **Grok Code Fast 1 deprecated** across all Copilot experiences by May 15 — GPT-5 mini, Claude Haiku 4.5 recommended alternatives | [releasebot.io](https://releasebot.io/updates/github) |
 | 2026/05/06 | **Enterprise-managed plugins** for Copilot CLI in public preview — admins distribute plugins across enterprise, VS Code April releases (Chronicle, BYOK, terminal agents) | [github.blog](https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview/) |
 | 2026/05/01 | **Microsoft Agent 365 GA** — enterprise agent control plane ($15/user/mo), observe/govern/secure agent fleets, bundled in M365 E7 ($99/user/mo) | [microsoft.com](https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/) |
 | 2026/04/30 | Copilot **Visual Studio April update** — Debugger agent, cloud agent 20%+ faster start, custom agent user-level support | [github.blog](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update/) |
@@ -1442,6 +1445,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/11 | **Bugbot usage-based billing** — $1-1.50/run replaces $40/seat/mo subscription, high effort mode finds 35% more bugs, effective after June 8 renewal | [cursor.com](https://cursor.com/blog/may-2026-bugbot-changes) |
 | 2026/05/08 | **Opsera-Cursor DevSecOps Partnership** — autonomous DevSecOps Agents (Architecture Analyzer, Security Scanner, SQL Scanner, Compliance Auditor) embedded as native Cursor plugin | [prnewswire.com](https://www.prnewswire.com/news-releases/opsera-and-cursor-partner-to-embed-autonomous-ai-agents-directly-into-ai-sdlc-workflows-for-next-gen-ai-driven-development-302762277.html) |
 | 2026/05/07 | **Cursor 3.3** — **Build in Parallel** (async subagents), **PR Splitting**, new Reviews/Commits/Changes tabs, Quick-Action Pills, subagent model config; agent context usage, Team Marketplace | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/05 | **Canvases** — agents create interactive React-based visual interfaces for data, PR reviews, and eval analysis; enterprise admin granular model controls and soft spend limits | [cursor.com](https://cursor.com/changelog) |

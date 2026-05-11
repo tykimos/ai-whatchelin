@@ -3,8 +3,8 @@ title: "Amazon 개발자 1,500명의 반란 — Kiro 버리고 Claude Code·Code
 date: 2026-05-11
 lang: ko
 categories: [news]
-tags: [claude-code, codex-cli, amazon, kiro, copilot, security, gemini-cli]
-excerpt: "Amazon이 자체 AI 코딩 도구 Kiro의 13시간 AWS 장애 이후, 사내 개발자 1,500명의 요청에 항복해 Claude Code와 Codex 접근을 전 직원에게 허용했다. AI 코딩 도구 보안에는 적신호가 켜졌다."
+tags: [claude-code, codex-cli, amazon, kiro, copilot, security, gemini-cli, cursor]
+excerpt: "Amazon이 Kiro 장애 후 Claude Code와 Codex를 전 직원에 개방. Cursor Bugbot은 구독제에서 사용량 과금으로 전환, Copilot은 Grok Code Fast 1을 5/15 지원 종료."
 ---
 
 Amazon이 자체 AI 코딩 도구를 포기했다. 사내 개발자 1,500명이 내부 게시판에서 공식 도입을 요구한 지 며칠 만에, Amazon은 Claude Code를 전 직원에게 즉시 개방하고 OpenAI Codex 접근도 5월 12일부터 허용했다([Slashdot](https://developers.slashdot.org/story/26/05/10/0618225/amazon-relents-lets-its-programmers-use-openais-codex-and-anthropics-claude)). 방아쇠는 Kiro가 일으킨 13시간 AWS 장애다.
@@ -24,6 +24,14 @@ OpenAI는 "Running Codex Safely" 블로그에서 샌드박싱, 자동 리뷰 모
 ## GitHub Copilot: D-20, 9주 연속 하락
 
 사용량 기반 과금 전환까지 20일이다([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). Opus 4.7 승수가 프로모션 종료(4/30)로 7.5x에서 15x로 올랐고, 6월 1일에는 27x로 폭등 예정이다([GitHub Docs](https://docs.github.com/en/copilot/reference/copilot-billing/model-multipliers-for-annual-plans)). 커뮤니티 반발이 거세다: "사실상 3.6배 인상"이라는 비판이 쏟아진다([HN](https://news.ycombinator.com/item?id=47838508)). 인기 점수 76에서 75로 하락 — 9주 연속 하락. Claude Code(98)와의 격차가 23포인트로 확대됐다.
+
+## Cursor: Bugbot, 구독제에서 사용량 과금으로 전환
+
+Cursor가 Bugbot의 과금 모델을 $40/시트/월 구독제에서 사용량 기반 과금으로 전환한다고 발표했다([Cursor Blog](https://cursor.com/blog/may-2026-bugbot-changes)). PR 1회 리뷰당 $1.00-$1.50이며, 새로운 '고노력(high effort)' 모드는 기존 대비 35% 더 많은 버그를 찾아내면서 해결률 80%를 유지한다. 기존 고객은 6월 8일 이후 갱신 시점부터 적용된다.
+
+## Copilot: Grok Code Fast 1, 5월 15일 지원 종료
+
+GitHub이 모든 Copilot 환경에서 Grok Code Fast 1 모델을 5월 15일부로 지원 종료한다([Releasebot](https://releasebot.io/updates/github)). 대체 모델로 GPT-5 mini와 Claude Haiku 4.5가 권장된다. 모델 제공사의 지원 종료가 앞당겨진 것이 원인이며, Enterprise 관리자는 마감일 전에 모델 정책을 업데이트해야 한다.
 
 ## 마켓 펄스
 

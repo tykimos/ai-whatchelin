@@ -207,6 +207,8 @@ timeline
          : "Comment and Control" 프롬프트 인젝션 — Claude Code CVSS 9.4, Gemini CLI, Copilot (5/10)
          : Codex "안전한 실행" — 샌드박싱, 자동 리뷰 모드 공개 (5/8)
          : Copilot 9주 연속 하락 75, D-20, Opus 4.7 승수 15x→27x 6/1 (5/11)
+         : Cursor Bugbot 사용량 기반 과금 — $1-1.50/회, $40/시트/월 대체, 고노력 모드 버그 35%↑ (5/11)
+         : Copilot Grok Code Fast 1 5/15 지원 종료 — GPT-5 mini, Claude Haiku 4.5 대체 (5/11)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1231,10 +1233,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Advanced Account Security |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA |
 | Claude Code | code.claude.com/changelog | **v2.1.138** 최신, 자동 모드 hard deny, stdin 크래시 수정, 데스크톱 DnD 수정, MCP 10GB 메모리 수정; SpaceX 통한 속도 제한 2배 |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR 분할, Reviews 탭, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수 |
+| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR 분할, Reviews 탭, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, $40/시트/월 대체 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, GPT-5.4 Mini 1x 크레딧, $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-20), Opus 4.7 승수 7.5x→15x→27x (6/1), 9주 연속 하락 |
+| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-20), Opus 4.7 승수 7.5x→15x→27x (6/1), 9주 연속 하락, **Grok Code Fast 1 5/15 지원 종료** |
 | Gemini CLI | geminicli.com | **v0.41.2** 패치, 실시간 음성 모드, 오프라인 지원, Gemma 4 통합 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -1400,6 +1402,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/11 | **Grok Code Fast 1 지원 종료** — 모든 Copilot 환경에서 5/15까지, GPT-5 mini·Claude Haiku 4.5 대체 권장 | [releasebot.io](https://releasebot.io/updates/github) |
 | 2026/05/06 | Copilot CLI **엔터프라이즈 관리 플러그인** 퍼블릭 프리뷰 — 관리자가 기업 전체에 플러그인 배포, VS Code 4월 릴리스 (Chronicle, BYOK, 터미널 에이전트) | [github.blog](https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview/) |
 | 2026/05/01 | **Microsoft Agent 365 GA** — 엔터프라이즈 에이전트 컨트롤 플레인 ($15/user/월), 에이전트 관찰/거버넌스/보안, M365 E7 ($99/user/월)에 번들 | [microsoft.com](https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/) |
 | 2026/04/30 | Copilot **Visual Studio 4월 업데이트** — 디버거 에이전트, 클라우드 에이전트 20%+ 빠른 시작, 커스텀 에이전트 사용자 수준 지원 | [github.blog](https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update/) |
@@ -1422,6 +1425,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/11 | **Bugbot 사용량 기반 과금** — $1-1.50/회, $40/시트/월 구독제 대체, 고노력 모드 버그 35%↑, 6/8 이후 갱신 시 적용 | [cursor.com](https://cursor.com/blog/may-2026-bugbot-changes) |
 | 2026/05/08 | **Opsera-Cursor DevSecOps 파트너십** — 자율 DevSecOps 에이전트(아키텍처 분석기, 보안 스캐너, SQL 스캐너, 컴플라이언스 감사기)를 Cursor 네이티브 플러그인으로 통합 | [prnewswire.com](https://www.prnewswire.com/news-releases/opsera-and-cursor-partner-to-embed-autonomous-ai-agents-directly-into-ai-sdlc-workflows-for-next-gen-ai-driven-development-302762277.html) |
 | 2026/05/07 | **Cursor 3.3** — **Build in Parallel** (비동기 서브에이전트), **PR 분할**, 새 Reviews/Commits/Changes 탭, Quick-Action Pills, 서브에이전트 모델 설정; 에이전트 컨텍스트 사용량, Team Marketplace | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/05 | **Canvases** — 에이전트가 데이터, PR 리뷰, 평가 분석을 위한 인터랙티브 React 기반 시각 인터페이스 생성; 엔터프라이즈 관리자 세분화 모델 제어 및 소프트 지출 한도 | [cursor.com](https://cursor.com/changelog) |

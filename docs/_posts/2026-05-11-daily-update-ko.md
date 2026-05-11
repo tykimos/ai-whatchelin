@@ -23,7 +23,7 @@ OpenAI는 "Running Codex Safely" 블로그에서 샌드박싱, 자동 리뷰 모
 
 ## GitHub Copilot: D-20, 9주 연속 하락
 
-사용량 기반 과금 전환까지 20일이다([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). HN에서는 Pro+의 Opus 4.7 비용 7.5배 승수에 "사실상 2배 인상"이라는 반발이 거세다([HN](https://news.ycombinator.com/item?id=47838508)). 인기 점수 76에서 75로 하락 — 9주 연속 하락. Claude Code(98)와의 격차가 23포인트로 확대됐다.
+사용량 기반 과금 전환까지 20일이다([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). Opus 4.7 승수가 프로모션 종료(4/30)로 7.5x에서 15x로 올랐고, 6월 1일에는 27x로 폭등 예정이다([GitHub Docs](https://docs.github.com/en/copilot/reference/copilot-billing/model-multipliers-for-annual-plans)). 커뮤니티 반발이 거세다: "사실상 3.6배 인상"이라는 비판이 쏟아진다([HN](https://news.ycombinator.com/item?id=47838508)). 인기 점수 76에서 75로 하락 — 9주 연속 하락. Claude Code(98)와의 격차가 23포인트로 확대됐다.
 
 ## 마켓 펄스
 
@@ -35,7 +35,7 @@ OpenAI는 "Running Codex Safely" 블로그에서 샌드박싱, 자동 리뷰 모
 | Claude AI | 92 | — | Cowork GA 모멘텀 |
 | Codex CLI | 80 | ↑1 | 4M+ 개발자, 4주 연속 상승 |
 | Windsurf | 77 | — | Devin 통합 안정화 |
-| GitHub Copilot | 75 | ↓1 | D-20, 9주 연속 하락 |
+| GitHub Copilot | 75 | ↓1 | D-20, Opus 27x 6/1 예정, 9주 연속 하락 |
 | Gemini CLI | 73 | ↑1 | I/O D-8, 오픈소스 모멘텀 |
 | Aider | 68 | — | 안정 |
 | Antigravity | 49 | — | AgentKit 2.0 안착 |

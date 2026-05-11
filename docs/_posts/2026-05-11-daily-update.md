@@ -23,7 +23,7 @@ OpenAI published "Running Codex Safely," detailing its sandboxing, auto-review m
 
 ## GitHub Copilot: D-20, Nine Consecutive Weeks of Decline
 
-Twenty days until the usage-based billing switch([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). Hacker News backlash intensifies over Opus 4.7's 7.5x cost multiplier in Pro+, which users call "effectively a 2x price hike"([HN](https://news.ycombinator.com/item?id=47838508)). Score drops from 76 to 75 — nine consecutive weeks of decline. The gap with Claude Code (98) widens to 23 points.
+Twenty days until the usage-based billing switch([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). The Opus 4.7 multiplier has already jumped from the promotional 7.5x to 15x after the promo ended April 30, and will spike to 27x on June 1([GitHub Docs](https://docs.github.com/en/copilot/reference/copilot-billing/model-multipliers-for-annual-plans)). Community backlash is fierce: users call it "a stealth 3.6x price hike"([HN](https://news.ycombinator.com/item?id=47838508)). Score drops from 76 to 75 — nine consecutive weeks of decline. The gap with Claude Code (98) widens to 23 points.
 
 ## Market Pulse
 
@@ -35,7 +35,7 @@ Twenty days until the usage-based billing switch([GitHub Blog](https://github.bl
 | Claude AI | 92 | — | Cowork GA momentum |
 | Codex CLI | 80 | ↑1 | 4M+ developers, 4-week streak |
 | Windsurf | 77 | — | Devin integration stabilizing |
-| GitHub Copilot | 75 | ↓1 | D-20, 9-week slide |
+| GitHub Copilot | 75 | ↓1 | D-20, Opus 27x June 1, 9-week slide |
 | Gemini CLI | 73 | ↑1 | I/O D-8, open-source momentum |
 | Aider | 68 | — | Stable |
 | Antigravity | 49 | — | AgentKit 2.0 settling |

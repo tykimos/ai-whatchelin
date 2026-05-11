@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-10</sub>
+  <sub>마지막 업데이트: 2026-05-11</sub>
 </p>
 
 <p align="center">
@@ -206,7 +206,7 @@ timeline
          : Amazon 전 직원에 Claude Code + Codex 접근 허용 — Kiro 장애 후폭풍 (5/10)
          : "Comment and Control" 프롬프트 인젝션 — Claude Code CVSS 9.4, Gemini CLI, Copilot (5/10)
          : Codex "안전한 실행" — 샌드박싱, 자동 리뷰 모드 공개 (5/8)
-         : Copilot 9주 연속 하락 75, 사용량 과금 D-20 (5/11)
+         : Copilot 9주 연속 하락 75, D-20, Opus 4.7 승수 15x→27x 6/1 (5/11)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1234,7 +1234,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR 분할, Reviews 탭, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, GPT-5.4 Mini 1x 크레딧, $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-20), 개인 플랜 가입 중단, 9주 연속 하락 |
+| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-20), Opus 4.7 승수 7.5x→15x→27x (6/1), 9주 연속 하락 |
 | Gemini CLI | geminicli.com | **v0.41.2** 패치, 실시간 음성 모드, 오프라인 지원, Gemma 4 통합 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |

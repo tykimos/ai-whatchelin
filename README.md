@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-11</sub>
+  <sub>Last updated: 2026-05-12</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.11-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.12-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -209,6 +209,11 @@ timeline
          : Copilot 9-week decline to 75, D-20, Opus 4.7 multiplier now 15x→27x June 1 (May 11)
          : Cursor Bugbot usage-based billing — $1-1.50/run replaces $40/seat/mo, 35% more bugs at high effort (May 11)
          : Copilot Grok Code Fast 1 deprecated May 15 — GPT-5 mini, Claude Haiku 4.5 alternatives (May 11)
+         : Claude Code v2.1.139 — Agent view, /goal command, /scroll-speed (May 11)
+         : Copilot CLI 1.0.45 — /autopilot, /fork commands, 1.5s faster startup (May 11)
+         : DALL-E 2 & 3 officially shut down — gpt-image-2 replaces all (May 12)
+         : Cursor Security Review beta — always-on security agents for Teams/Enterprise (May 12)
+         : Codex CLI Amazon company-wide access begins — 5-week streak to 81 (May 12)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -767,25 +772,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11"]
+    x-axis ["04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [92, 92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98]
-    line "GH Copilot" [86, 86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75]
-    line "Cursor" [90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94]
-    line "Windsurf" [74, 74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80]
-    line "Gemini CLI" [65, 65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73]
-    line "Antigravity" [51, 51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49]
+    line "Claude Code" [92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98]
+    line "GH Copilot" [86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74]
+    line "Cursor" [90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94]
+    line "Windsurf" [74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 77]
+    line "Codex CLI" [72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81]
+    line "Gemini CLI" [65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73]
+    line "Antigravity" [51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-94―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-75↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-74↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-80↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-73↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-81↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-73―-3498DB?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-49―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
@@ -841,6 +846,7 @@ timeline
          : Runway Gen-4.5 benchmark #1
          : Sora app + API discontinued (Mar 27)
          : Midjourney video (img-to-vid 5-20sec)
+         : DALL-E 2 & 3 deprecated — gpt-image-2 replaces all (May 12)
 ```
 
 ### Which Creator Tool Is Right for Me?

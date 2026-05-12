@@ -33,6 +33,14 @@ Cursor launched Security Review in beta for Teams and Enterprise plans([Cursor C
 
 Google I/O 2026 is one week away (May 19-20)([Android Authority](https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/)). Gemini 4 (10M+ token context), Firebase as an agent-native platform, and Android 17 are all expected. The announcements could significantly reshape the Gemini CLI ecosystem.
 
+## Windsurf: Opus 4.7 Fast Mode — 2.5x Output Speed
+
+Windsurf enabled Claude Opus 4.7 fast mode in Cascade sessions today([Releasebot](https://releasebot.io/updates/windsurf)). Output speed is approximately 2.5x faster, significantly reducing wait times for complex multi-file edits. Combined with the Devin integration, Windsurf's score rises to 78.
+
+## Reality Check: 43% of AI Code Needs Production Debugging
+
+Lightrun's 2026 survey found that 43% of AI-generated code changes require manual debugging in production even after passing QA([VentureBeat](https://venturebeat.com/technology/43-of-ai-generated-code-changes-need-debugging-in-production-survey-finds/)). Zero percent of engineering leaders say they are "very confident" in AI code correctness. As tools race to add features, code quality verification remains the industry's biggest unsolved challenge.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
@@ -42,10 +50,10 @@ Google I/O 2026 is one week away (May 19-20)([Android Authority](https://www.and
 | Cursor | 94 | — | Security Review beta, $60B SpaceX deal ongoing |
 | Claude AI | 92 | — | Cowork GA stabilizing |
 | Codex CLI | 81 | ↑1 | Amazon company-wide access begins, 5-week streak |
-| Windsurf | 77 | — | Devin integration stabilizing |
+| Windsurf | 78 | ↑1 | Opus 4.7 fast mode enabled, Devin integration maturing |
 | GitHub Copilot | 74 | ↓1 | D-19, Grok sunset D-3, 10-week slide |
 | Gemini CLI | 73 | — | I/O D-7, open-source momentum |
 | Aider | 68 | — | Stable |
 | Antigravity | 49 | — | AgentKit 2.0 settling |
 
-Copilot's 10-week slide is unprecedented in GitHub's history. The gap with Claude Code (98) has widened to 24 points, and the June 1 usage-based billing switch with the Opus 27x multiplier could push it further. Meanwhile, Codex CLI's Amazon catalyst has driven it to 81, positioning it for a run at the top tier.
+Copilot's 10-week slide is unprecedented in GitHub's history. The gap with Claude Code (98) has widened to 24 points, and the June 1 usage-based billing switch with the Opus 27x multiplier could push it further. Windsurf's Opus 4.7 fast mode pushed it to 78, showing signs of a rebound, while Codex CLI's Amazon catalyst has driven it to 81, positioning it for a run at the top tier.

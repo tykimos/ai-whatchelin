@@ -214,6 +214,7 @@ timeline
          : DALL-E 2·3 공식 종료 — gpt-image-2 전면 교체 (5/12)
          : Cursor Security Review 베타 — Teams/Enterprise 상시 보안 에이전트 (5/12)
          : Codex CLI Amazon 전사 접근 개시 — 5주 연속 상승 81 (5/12)
+         : Windsurf Opus 4.7 fast 모드 — Cascade에서 ~2.5배 빠른 출력 (5/12)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -716,6 +717,12 @@ xychart-beta
 **Devin for Terminal** (2026.05.06):
 > *"Cognition이 Devin for Terminal을 출시 — Rust 기반 CLI 에이전트로 전체 코드베이스에 접근 가능. Opus 4.7, GPT-5.5, SWE-1.6 지원. Devin 클라우드로 원활한 핸드오프. 모든 Windsurf 구독자에게 제공. Cascade 대비 최대 30% 더 토큰 효율적."* — cognition.ai `2026.05.06`
 
+**Windsurf Opus 4.7 Fast 모드** (2026.05.12):
+> *"Windsurf에서 Claude Opus 4.7 fast 모드 사용 가능 — Cascade 세션에서 약 2.5배 빠른 출력 속도. 복잡한 멀티파일 편집의 대기 시간이 크게 단축된다."* — windsurf.com `2026.05.12`
+
+**AI 코드 43%가 프로덕션에서 디버깅 필요** (2026.05):
+> *"Lightrun의 2026 조사에 따르면 AI 생성 코드 변경의 43%가 QA 통과 후에도 프로덕션에서 수동 디버깅이 필요하다. AI 코드 정확성에 '매우 자신 있다'고 답한 엔지니어링 리더는 0%."* — VentureBeat `2026.05`
+
 **Copilot 데이터 학습 마감 임박** (2026.04.24):
 > *"4월 24일부터 GitHub이 Copilot Free/Pro/Pro+ 사용자의 상호작용 데이터를 AI 학습에 사용할 수 있다. 옵트아웃 안 하면 자동 동의. 커뮤니티 토론에 👎 232개."* — GitHub Community `2026.04`
 
@@ -768,7 +775,7 @@ xychart-beta
     line "Claude Code" [92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98]
     line "GH Copilot" [86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74]
     line "Cursor" [90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94]
-    line "Windsurf" [74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 77]
+    line "Windsurf" [74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78]
     line "Codex CLI" [72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81]
     line "Gemini CLI" [65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73]
     line "Antigravity" [51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49]
@@ -779,7 +786,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-94―-3498DB?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-74↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Windsurf-78↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-81↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-73―-3498DB?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-49―-3498DB?style=flat-square" alt="Antigravity">
@@ -1230,20 +1237,20 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-11)
+### 팩트 체크 로그 (2026-05-12)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Advanced Account Security |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Memory Sources 롤아웃, Excel/Sheets 사이드바 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA |
-| Claude Code | code.claude.com/changelog | **v2.1.138** 최신, 자동 모드 hard deny, stdin 크래시 수정, 데스크톱 DnD 수정, MCP 10GB 메모리 수정; SpaceX 통한 속도 제한 2배 |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR 분할, Reviews 탭, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, $40/시트/월 대체 |
-| Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, GPT-5.4 Mini 1x 크레딧, $250억 밸류에이션 |
+| Claude Code | code.claude.com/changelog | **v2.1.139** 최신, Agent View, /goal 명령어, /scroll-speed; SpaceX 통한 속도 제한 2배 |
+| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, $40/시트/월 대체 |
+| Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, **Opus 4.7 fast 모드** ~2.5배 출력, $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-20), Opus 4.7 승수 7.5x→15x→27x (6/1), 9주 연속 하락, **Grok Code Fast 1 5/15 지원 종료** |
-| Gemini CLI | geminicli.com | **v0.41.2** 패치, 실시간 음성 모드, 오프라인 지원, Gemma 4 통합 |
+| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-19), Opus 4.7 승수 27x (6/1), 10주 연속 하락, **Grok Code Fast 1 5/15 지원 종료** |
+| Gemini CLI | geminicli.com | **v0.41.2** 안정판, 실시간 음성 모드 GA, 오프라인 지원, Gemma 4 통합 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |

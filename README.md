@@ -214,6 +214,7 @@ timeline
          : DALL-E 2 & 3 officially shut down — gpt-image-2 replaces all (May 12)
          : Cursor Security Review beta — always-on security agents for Teams/Enterprise (May 12)
          : Codex CLI Amazon company-wide access begins — 5-week streak to 81 (May 12)
+         : Windsurf Opus 4.7 fast mode — ~2.5x faster output in Cascade (May 12)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -725,6 +726,12 @@ xychart-beta
 **Devin for Terminal** (2026.05.06):
 > *"Cognition launched Devin for Terminal — a Rust-based CLI agent with full codebase access. Supports Opus 4.7, GPT-5.5, and SWE-1.6. Seamless hand-off to Devin cloud. All Windsurf subscribers get access. Up to 30% more token-efficient than Cascade."* — cognition.ai `2026.05.06`
 
+**Windsurf Opus 4.7 Fast Mode** (2026.05.12):
+> *"Claude Opus 4.7 fast mode now available in Windsurf — approximately 2.5x higher output speed for Cascade sessions. Significantly reduces wait times for complex multi-file edits."* — windsurf.com `2026.05.12`
+
+**43% of AI Code Needs Production Debugging** (2026.05):
+> *"Lightrun's 2026 survey finds 43% of AI-generated code changes require manual debugging in production even after passing QA. 0% of engineering leaders say they are 'very confident' in AI code correctness."* — VentureBeat `2026.05`
+
 **Copilot Data Training Deadline Approaching** (2026.04.24):
 > *"Starting April 24, GitHub may use interaction data from Copilot Free/Pro/Pro+ users for AI model training unless they opt out. Community discussion received 232 downvotes."* — GitHub Community `2026.04`
 
@@ -777,7 +784,7 @@ xychart-beta
     line "Claude Code" [92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98]
     line "GH Copilot" [86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74]
     line "Cursor" [90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94]
-    line "Windsurf" [74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 77]
+    line "Windsurf" [74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78]
     line "Codex CLI" [72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81]
     line "Gemini CLI" [65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73]
     line "Antigravity" [51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49]
@@ -788,7 +795,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-94―-3498DB?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-74↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-77―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Windsurf-78↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-81↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-73―-3498DB?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-49―-3498DB?style=flat-square" alt="Antigravity">
@@ -1249,20 +1256,20 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-11)
+### Fact Check Log (2026-05-12)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Advanced Account Security |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Memory Sources rolling out, Excel/Sheets sidebar |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA |
-| Claude Code | code.claude.com/changelog | **v2.1.138** latest, hard deny for auto mode, stdin crash fix, desktop DnD fix, MCP 10GB memory fix; rate limits 2x via SpaceX |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, PR Splitting, Reviews tab, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run replaces $40/seat/mo |
-| Windsurf | windsurf.com/pricing | 2.0 + Devin integration, GPT-5.4 Mini at 1x credits, $25B valuation |
+| Claude Code | code.claude.com/changelog | **v2.1.139** latest, Agent View, /goal command, /scroll-speed; rate limits 2x via SpaceX |
+| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, Security Review beta, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run replaces $40/seat/mo |
+| Windsurf | windsurf.com/pricing | 2.0 + Devin integration, **Opus 4.7 fast mode** ~2.5x output, $25B valuation |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-20), Opus 4.7 multiplier 7.5x→15x→27x (June 1), 9-week decline, **Grok Code Fast 1 deprecated May 15** |
-| Gemini CLI | geminicli.com | **v0.41.2** patch, real-time voice mode, offline support, Gemma 4 integration |
+| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-19), Opus 4.7 multiplier 27x (June 1), 10-week decline, **Grok Code Fast 1 deprecated May 15** |
+| Gemini CLI | geminicli.com | **v0.41.2** stable, real-time voice mode GA, offline support, Gemma 4 integration |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |

@@ -33,6 +33,14 @@ Cursor가 Teams·Enterprise 플랜에 Security Review 베타를 출시했다([Cu
 
 Google I/O 2026이 일주일 앞으로 다가왔다(5/19-20)([Android Authority](https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/)). Gemini 4(10M+ 토큰 컨텍스트), Firebase 에이전트 네이티브 플랫폼, Android 17이 예고되어 있다. Gemini CLI 생태계에 큰 영향을 줄 수 있는 발표가 예상된다.
 
+## Windsurf: Opus 4.7 Fast 모드 — 출력 속도 2.5배
+
+Windsurf가 오늘 Claude Opus 4.7 fast 모드를 Cascade 세션에 적용했다([Releasebot](https://releasebot.io/updates/windsurf)). 약 2.5배 빠른 출력 속도로 복잡한 멀티파일 편집의 대기 시간이 크게 줄었다. Devin 통합에 이어 모델 성능까지 강화하며 인기도는 78로 상승했다.
+
+## 업계 현실 점검: AI 코드 43%가 프로덕션 디버깅 필요
+
+Lightrun의 2026 조사 결과, AI 생성 코드 변경의 43%가 QA를 통과한 후에도 프로덕션에서 수동 디버깅이 필요한 것으로 나타났다([VentureBeat](https://venturebeat.com/technology/43-of-ai-generated-code-changes-need-debugging-in-production-survey-finds/)). AI 코드 정확성에 '매우 자신 있다'고 답한 엔지니어링 리더는 0%다. 도구의 기능 경쟁만큼 코드 품질 검증이 핵심 과제임을 보여준다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
@@ -42,10 +50,10 @@ Google I/O 2026이 일주일 앞으로 다가왔다(5/19-20)([Android Authority]
 | Cursor | 94 | — | Security Review 베타, $60B SpaceX 딜 진행 중 |
 | Claude AI | 92 | — | Cowork GA 안정화 |
 | Codex CLI | 81 | ↑1 | Amazon 전사 접근 개시, 5주 연속 상승 |
-| Windsurf | 77 | — | Devin 통합 안정화 |
+| Windsurf | 78 | ↑1 | Opus 4.7 fast 모드 적용, Devin 통합 강화 |
 | GitHub Copilot | 74 | ↓1 | D-19, Grok 종료 D-3, 10주 연속 하락 |
 | Gemini CLI | 73 | — | I/O D-7, 오픈소스 모멘텀 |
 | Aider | 68 | — | 안정 |
 | Antigravity | 49 | — | AgentKit 2.0 정착 |
 
-Copilot의 10주 연속 하락은 GitHub 역사상 전례 없는 기록이다. Claude Code(98)와의 격차가 24포인트로 벌어졌으며, 6월 1일 사용량 기반 과금 전환과 Opus 27x 승수가 격차를 더 벌릴 수 있다. 반면 Codex CLI는 Amazon 전사 접근이라는 강력한 카탈리스트로 81을 돌파하며 상위권 진입을 노리고 있다.
+Copilot의 10주 연속 하락은 GitHub 역사상 전례 없는 기록이다. Claude Code(98)와의 격차가 24포인트로 벌어졌으며, 6월 1일 사용량 기반 과금 전환과 Opus 27x 승수가 격차를 더 벌릴 수 있다. Windsurf는 Opus 4.7 fast 모드로 78을 찍으며 반등 신호를 보내고 있고, Codex CLI는 Amazon 전사 접근으로 81을 돌파하며 상위권 진입을 노리고 있다.

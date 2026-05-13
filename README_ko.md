@@ -215,6 +215,12 @@ timeline
          : Cursor Security Review 베타 — Teams/Enterprise 상시 보안 에이전트 (5/12)
          : Codex CLI Amazon 전사 접근 개시 — 5주 연속 상승 81 (5/12)
          : Windsurf Opus 4.7 fast 모드 — Cascade에서 ~2.5배 빠른 출력 (5/12)
+         : CVE-2026-41109 Copilot 보안 우회 CVSS 7.8 — AI 콘텐츠 필터, 패치 완료 (5/12)
+         : Gemini CLI v0.42.0 + v0.43.0-preview — 서브에이전트 프로토콜, I/O D-6 (5/12)
+         : Claude 법률 산업 진출 — 20+ MCP 커넥터, 12개 실무 플러그인 (5/12)
+         : Claude Code v2.1.140 — 대소문자 무관 에이전트 매칭, /goal 수정 (5/13)
+         : Cursor Microsoft Teams 통합 — @Cursor로 클라우드 에이전트 위임 (5/13)
+         : Copilot 11주 연속 하락 73 — CVE + Grok 종료 D-2 신뢰 악화 (5/13)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1244,7 +1250,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Memory Sources 롤아웃, 빠른 답변 기능, Excel/Sheets 사이드바 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA |
+| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA** |
 | Claude Code | code.claude.com/changelog | **v2.1.140** 최신, 대소문자·구분자 무관 에이전트 매칭, 색상 팔레트 업데이트, /goal 수정; SpaceX 통한 속도 제한 2배 |
 | Cursor | cursor.com/pricing | **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, $40/시트/월 대체, **Microsoft Teams** 통합 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, **Opus 4.7 fast 모드** ~2.5배 출력, $250억 밸류에이션 |
@@ -1300,6 +1306,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
 | 2026/05/13 | Claude Code **v2.1.140** — 대소문자·구분자 무관 에이전트 매칭, 색상 팔레트 업데이트, /goal 행 수정, 심볼릭 링크 설정 핫리로드 수정, 백그라운드 서비스 시작 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/05/12 | **Claude 법률 산업 진출** — 20+ 법률 MCP 커넥터(Docusign, Ironclad, Box, Thomson Reuters CoCounsel), 12개 실무 플러그인(상사, 기업, 고용, 개인정보, 소송) | [anthropic.com](https://www.anthropic.com/news) |
+| 2026/05/11 | Claude Code **v2.1.139** — 다중 세션 관리용 Agent view, /goal 완료 조건 명령어, 트랜스크립트 탐색 단축키, 플러그인 도구, MCP 서버 지원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/05/11 | **Claude Platform on AWS GA** — 네이티브 AWS 인증으로 전체 API 기능 제공, 관리형 에이전트, 코드 실행, 웹 도구, 스킬, 프롬프트 캐싱 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/05/09 | Claude Code **v2.1.136** — 자동 모드 hard deny 규칙, OTel 피드백 설문, 워크트리 분기 제어, MCP/플러그인 사라짐 수정, 자격증명 쓰기 경쟁 상태 수정; 하루 4개 릴리스(v2.1.133~v2.1.138) | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/05/08 | **ServiceNow Build Agent GA** — Cursor, Windsurf, Claude Code, GitHub Copilot 내부에서 작동; Anthropic 모델 기반; Figma·Miro·GitHub를 MCP 클라이언트로 연결 | [servicenow.com](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Build-Agent-now-works-inside-every-major-AI-coding-tool-governed-by-default/default.aspx) |
 | 2026/05/08 | **Akamai $18억 클라우드 계약** — 7년간 컴퓨트 계약; Akamai 주가 ↑27%; SpaceX에 이은 두 번째 대형 인프라 계약 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai) |
@@ -1356,6 +1365,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
 | 2026/05/10 | **Amazon 전 직원에 Claude Code + Codex 개방** — Kiro 발 13시간 AWS 장애 후 내부 1,500명 지지; Codex 5/12부터 접근 | [slashdot.org](https://developers.slashdot.org/story/26/05/10/0618225/amazon-relents-lets-its-programmers-use-openais-codex-and-anthropics-claude) |
+| 2026/05/09 | **Codex CLI v0.130.0** — 플러그인 상세에 번들 훅 표시, 플러그인 공유 메타데이터, 간소화된 remote-control 시작, 스레드 페이지네이션, AWS Bedrock 콘솔 로그인 인증, 멀티 환경 이미지 해상도 | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/08 | **"Running Codex Safely"** — 샌드박싱 상세, 자동 리뷰 모드, 관리형 네트워크 정책, 에이전트 텔레메트리/로깅 | [openai.com](https://openai.com/index/running-codex-safely/) |
 | 2026/05/~ | **엔터프라이즈 파트너십 확대** — TCS, Infosys, Cognizant, Accenture, Capgemini, CGI, PwC; 4M+ 개발자 | [openai.com](https://openai.com/index/scaling-codex-to-enterprises-worldwide/) |
 | 2026/05/05 | **GPT-5.5 Instant** — ChatGPT 새 기본 모델, 환각 52.5% 감소, AIME 2025 81.2 (65.4→), 빠른 답변, 메모리 소스 | [techcrunch.com](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/) |

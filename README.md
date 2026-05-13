@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-12</sub>
+  <sub>Last updated: 2026-05-13</sub>
 </p>
 
 <p align="center">
@@ -215,6 +215,12 @@ timeline
          : Cursor Security Review beta — always-on security agents for Teams/Enterprise (May 12)
          : Codex CLI Amazon company-wide access begins — 5-week streak to 81 (May 12)
          : Windsurf Opus 4.7 fast mode — ~2.5x faster output in Cascade (May 12)
+         : CVE-2026-41109 Copilot security bypass CVSS 7.8 — AI content filters, patched (May 12)
+         : Gemini CLI v0.42.0 + v0.43.0-preview — subagent protocols, I/O D-6 (May 12)
+         : Claude for Legal Industry — 20+ MCP connectors, 12 practice-area plugins (May 12)
+         : Claude Code v2.1.140 — case-insensitive agent matching, /goal fix (May 13)
+         : Cursor Microsoft Teams integration — @Cursor delegates to cloud agents (May 13)
+         : Copilot 11-week decline to 73 — CVE + Grok sunset D-2 compound trust concerns (May 13)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1263,7 +1269,7 @@ All pricing information has been directly verified from each service's official 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Memory Sources rolling out, Fast answers, Excel/Sheets sidebar |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA** |
 | Claude Code | code.claude.com/changelog | **v2.1.140** latest, case-insensitive agent matching, color palette update, /goal fix; rate limits 2x via SpaceX |
 | Cursor | cursor.com/pricing | **3.3 Build in Parallel**, Security Review beta, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run replaces $40/seat/mo, **Microsoft Teams** integration |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin integration, **Opus 4.7 fast mode** ~2.5x output, $25B valuation |
@@ -1320,6 +1326,9 @@ All pricing information has been directly verified from each service's official 
 | Date | Release | Source |
 |---|---|---|
 | 2026/05/13 | Claude Code **v2.1.140** — case/separator-insensitive agent matching, updated color palette, /goal hanging fix, settings hot-reload fix for symlinked files, background service startup fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/05/12 | **Claude for Legal Industry** — 20+ legal MCP connectors (Docusign, Ironclad, Box, Thomson Reuters CoCounsel), 12 practice-area plugins (commercial, corporate, employment, privacy, litigation) | [anthropic.com](https://www.anthropic.com/news) |
+| 2026/05/11 | Claude Code **v2.1.139** — Agent view for managing multiple sessions, /goal command for completion conditions, transcript navigation shortcuts, plugin tools, MCP server support | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/05/11 | **Claude Platform on AWS GA** — full API feature set with native AWS authentication, managed agents, code execution, web tools, skills, prompt caching | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/05/09 | Claude Code **v2.1.136** — hard deny rules for auto mode, OTel feedback survey, worktree branching controls, MCP/plugin disappearing fix, credential write race condition fix; 4 releases in one day (v2.1.133–v2.1.138) | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/05/08 | **ServiceNow Build Agent GA** — works inside Cursor, Windsurf, Claude Code, and GitHub Copilot; powered by Anthropic models; connects to Figma, Miro, GitHub as MCP Client | [servicenow.com](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Build-Agent-now-works-inside-every-major-AI-coding-tool-governed-by-default/default.aspx) |
 | 2026/05/08 | **Akamai $1.8B Cloud Deal** — 7-year compute contract; Akamai stock ↑27%; second major infrastructure deal after SpaceX | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai) |
@@ -1376,6 +1385,7 @@ All pricing information has been directly verified from each service's official 
 | Date | Release | Source |
 |---|---|---|
 | 2026/05/10 | **Amazon opens Claude Code + Codex** to all employees — 1,500 internal endorsements after Kiro-caused 13-hour AWS outage; Codex access from May 12 | [slashdot.org](https://developers.slashdot.org/story/26/05/10/0618225/amazon-relents-lets-its-programmers-use-openais-codex-and-anthropics-claude) |
+| 2026/05/09 | **Codex CLI v0.130.0** — plugin details show bundled hooks, plugin sharing with link metadata, simplified remote-control startup, thread pagination, AWS Bedrock console-login auth, multi-environment image resolution | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/08 | **"Running Codex Safely"** — sandboxing details, auto-review mode, managed network policies, agent-native telemetry/logging | [openai.com](https://openai.com/index/running-codex-safely/) |
 | 2026/05/~ | **Enterprise partnerships scaling** — TCS, Infosys, Cognizant, Accenture, Capgemini, CGI, PwC; 4M+ developers | [openai.com](https://openai.com/index/scaling-codex-to-enterprises-worldwide/) |
 | 2026/05/05 | **GPT-5.5 Instant** — new default ChatGPT model, 52.5% fewer hallucinations, AIME 2025 81.2 (up from 65.4), fast answers, memory sources | [techcrunch.com](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/) |

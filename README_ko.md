@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-12</sub>
+  <sub>마지막 업데이트: 2026-05-13</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.12-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.13-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -770,22 +770,22 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-13", "04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12"]
+    x-axis ["04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [92, 92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98]
-    line "GH Copilot" [86, 86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74]
-    line "Cursor" [90, 90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94]
-    line "Windsurf" [74, 74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78]
-    line "Codex CLI" [72, 72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81]
-    line "Gemini CLI" [65, 65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73]
-    line "Antigravity" [51, 51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49]
+    line "Claude Code" [92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73]
+    line "Cursor" [90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94]
+    line "Windsurf" [74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78]
+    line "Codex CLI" [72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81]
+    line "Gemini CLI" [65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74]
+    line "Antigravity" [51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-94―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-74↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-73↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-78↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-81↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-73―-3498DB?style=flat-square" alt="Gemini CLI">
@@ -1237,20 +1237,20 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-12)
+### 팩트 체크 로그 (2026-05-13)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Memory Sources 롤아웃, Excel/Sheets 사이드바 |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Memory Sources 롤아웃, 빠른 답변 기능, Excel/Sheets 사이드바 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA |
-| Claude Code | code.claude.com/changelog | **v2.1.139** 최신, Agent View, /goal 명령어, /scroll-speed; SpaceX 통한 속도 제한 2배 |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, $40/시트/월 대체 |
+| Claude Code | code.claude.com/changelog | **v2.1.140** 최신, 대소문자·구분자 무관 에이전트 매칭, 색상 팔레트 업데이트, /goal 수정; SpaceX 통한 속도 제한 2배 |
+| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, $40/시트/월 대체, **Microsoft Teams** 통합 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, **Opus 4.7 fast 모드** ~2.5배 출력, $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-19), Opus 4.7 승수 27x (6/1), 10주 연속 하락, **Grok Code Fast 1 5/15 지원 종료** |
-| Gemini CLI | geminicli.com | **v0.41.2** 안정판, 실시간 음성 모드 GA, 오프라인 지원, Gemma 4 통합 |
+| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-18), Opus 4.7 승수 27x (6/1), 11주 연속 하락, **Grok Code Fast 1 5/15 지원 종료** (D-2), **CVE-2026-41109** CVSS 7.8, Copilot CLI 1.0.46 |
+| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 통합 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
@@ -1299,6 +1299,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/13 | Claude Code **v2.1.140** — 대소문자·구분자 무관 에이전트 매칭, 색상 팔레트 업데이트, /goal 행 수정, 심볼릭 링크 설정 핫리로드 수정, 백그라운드 서비스 시작 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/09 | Claude Code **v2.1.136** — 자동 모드 hard deny 규칙, OTel 피드백 설문, 워크트리 분기 제어, MCP/플러그인 사라짐 수정, 자격증명 쓰기 경쟁 상태 수정; 하루 4개 릴리스(v2.1.133~v2.1.138) | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/05/08 | **ServiceNow Build Agent GA** — Cursor, Windsurf, Claude Code, GitHub Copilot 내부에서 작동; Anthropic 모델 기반; Figma·Miro·GitHub를 MCP 클라이언트로 연결 | [servicenow.com](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Build-Agent-now-works-inside-every-major-AI-coding-tool-governed-by-default/default.aspx) |
 | 2026/05/08 | **Akamai $18억 클라우드 계약** — 7년간 컴퓨트 계약; Akamai 주가 ↑27%; SpaceX에 이은 두 번째 대형 인프라 계약 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai) |
@@ -1386,6 +1387,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/12 | **Gemini CLI v0.42.0** 안정판 — 음성 모드 개선, 세션 내보내기/가져오기, Gemma 4 기본 지원, WSL/터미널 처리 개선 | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
+| 2026/05/12 | **Gemini CLI v0.43.0-preview.0** — 서브에이전트 프로토콜(Local/Remote AgentProtocol), 정밀 코드 편집 도구 유도, 적응형 토큰 계산, 병렬 도구 호출 ID 충돌 수정 | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/05/09 | **Gemini CLI v0.41.2** — 실시간 음성 모드, 오프라인 지원, Gemma 4 통합, 워크스페이스 신뢰 기반 .env 보안 로딩 | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/05/05 | **Gemini CLI 공식 오픈소스 런칭** — Apache 2.0, Gemini 2.5 Pro 무료 접근 (60건/분, 1,000건/일), 100만 토큰 컨텍스트, MCP 지원 ReAct 루프 | [blog.google](https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/) |
 | 2026/04/30 | **Amazon Q Developer** 신규 가입 5/15 차단 — Q Pro에서 Opus 4.6 5/29 제거, 최신 모델은 **Kiro** 전용, Q IDE 플러그인 2027/4/30 지원 종료 | [aws.amazon.com](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/) |
@@ -1415,6 +1418,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/12 | **CVE-2026-41109** — Copilot + VS Code 보안 우회(CVSS 7.8), 로컬 공격자가 AI 콘텐츠 필터·동의 메커니즘 우회 가능; VS Code 1.97.0, Copilot 확장 v1.43.20260512에서 패치 | [windowsnews.ai](https://windowsnews.ai/article/cve-2026-41109-copilot-and-vs-code-security-feature-bypass-in-the-dev-workflow.417882) |
+| 2026/05/12 | Copilot CLI **1.0.46** — CLI 버전 폐기 시 프리미엄 모델 접근 상실 경고, 읽기 전용 `gh` 명령어 자동 승인, 긴 줄 diff 래핑, ERR_HTTP2_INVALID_SESSION 크래시 수정 | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases) |
 | 2026/05/11 | **Grok Code Fast 1 지원 종료** — 모든 Copilot 환경에서 5/15까지, GPT-5 mini·Claude Haiku 4.5 대체 권장 | [releasebot.io](https://releasebot.io/updates/github) |
 | 2026/05/06 | Copilot CLI **엔터프라이즈 관리 플러그인** 퍼블릭 프리뷰 — 관리자가 기업 전체에 플러그인 배포, VS Code 4월 릴리스 (Chronicle, BYOK, 터미널 에이전트) | [github.blog](https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview/) |
 | 2026/05/01 | **Microsoft Agent 365 GA** — 엔터프라이즈 에이전트 컨트롤 플레인 ($15/user/월), 에이전트 관찰/거버넌스/보안, M365 E7 ($99/user/월)에 번들 | [microsoft.com](https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/) |
@@ -1438,6 +1443,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/~ | **Microsoft Teams 통합** — Teams 채널에서 @Cursor 멘션으로 클라우드 에이전트에 작업 위임, 컨텍스트 연결 | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/11 | **Bugbot 사용량 기반 과금** — $1-1.50/회, $40/시트/월 구독제 대체, 고노력 모드 버그 35%↑, 6/8 이후 갱신 시 적용 | [cursor.com](https://cursor.com/blog/may-2026-bugbot-changes) |
 | 2026/05/08 | **Opsera-Cursor DevSecOps 파트너십** — 자율 DevSecOps 에이전트(아키텍처 분석기, 보안 스캐너, SQL 스캐너, 컴플라이언스 감사기)를 Cursor 네이티브 플러그인으로 통합 | [prnewswire.com](https://www.prnewswire.com/news-releases/opsera-and-cursor-partner-to-embed-autonomous-ai-agents-directly-into-ai-sdlc-workflows-for-next-gen-ai-driven-development-302762277.html) |
 | 2026/05/07 | **Cursor 3.3** — **Build in Parallel** (비동기 서브에이전트), **PR 분할**, 새 Reviews/Commits/Changes 탭, Quick-Action Pills, 서브에이전트 모델 설정; 에이전트 컨텍스트 사용량, Team Marketplace | [cursor.com](https://cursor.com/changelog) |
@@ -1492,7 +1498,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.09-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.13-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

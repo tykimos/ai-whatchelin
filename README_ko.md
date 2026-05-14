@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-13</sub>
+  <sub>마지막 업데이트: 2026-05-14</sub>
 </p>
 
 <p align="center">
@@ -221,6 +221,15 @@ timeline
          : Claude Code v2.1.140 — 대소문자 무관 에이전트 매칭, /goal 수정 (5/13)
          : Cursor Microsoft Teams 통합 — @Cursor로 클라우드 에이전트 위임 (5/13)
          : Copilot 11주 연속 하락 73 — CVE + Grok 종료 D-2 신뢰 악화 (5/13)
+         : Claude Code v2.1.141 — 훅·플러그인·워크스페이스 신원 연합 (5/14)
+         : Claude Code 주간 한도 50% 인상 — Pro/Max/Team/Enterprise, 7/13까지 (5/14)
+         : Anthropic, Stainless $3억+ 인수 협상 — OpenAI·Google용 SDK 제작사 (5/14)
+         : Cursor 클라우드 에이전트 개발 환경 — 멀티레포, Dockerfile 캐싱 (5/13)
+         : Copilot 클라우드 에이전트 REST API 공개 미리보기 — 프로그래밍 방식 에이전트 작업 (5/13)
+         : Copilot 사용량 기반 과금 4월 보고서 다운로드 가능 — 6/1까지 D-17 (5/13)
+         : OpenAI Daybreak 사이버보안 이니셔티브 — GPT-5.5 + Codex Security (5/12)
+         : AWS Kiro Spec Check — SMT 솔버로 요구사항 모순 검증 (5/13)
+         : Google I/O D-5 — Gemini 4 예고, 서브에이전트 아키텍처 미리보기 (5/14)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -776,26 +785,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-14", "04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13"]
+    x-axis ["04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [92, 93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [86, 86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73]
-    line "Cursor" [90, 90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94]
-    line "Windsurf" [74, 74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78]
-    line "Codex CLI" [72, 72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81]
-    line "Gemini CLI" [65, 65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74]
-    line "Antigravity" [51, 50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49]
+    line "Claude Code" [93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73]
+    line "Cursor" [90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95]
+    line "Windsurf" [74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78]
+    line "Codex CLI" [72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81]
+    line "Gemini CLI" [65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75]
+    line "Antigravity" [50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-94―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-73↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-78↑-27AE60?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-81↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-73―-3498DB?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-49―-3498DB?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Cursor-95↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-73―-3498DB?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-78―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-81―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-75↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-48↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 

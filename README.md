@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.13-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.14-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -230,6 +230,10 @@ timeline
          : OpenAI Daybreak cybersecurity initiative — GPT-5.5 + Codex Security (May 12)
          : AWS Kiro Spec Check — SMT solver proves requirements contradiction-free (May 13)
          : Google I/O D-5 — Gemini 4 expected, subagent architecture preview (May 14)
+         : Copilot App technical preview — desktop agentic sessions from issues/PRs (May 14)
+         : Copilot individual plans flex allotments + Max plan, usage-based billing D-17 (May 14)
+         : Copilot CLI 1.0.48 — token prices in model picker (May 14)
+         : Anthropic targeting $900B valuation in $30B+ funding round (May 14)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1279,11 +1283,11 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Memory Sources rolling out, Fast answers, Excel/Sheets sidebar |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA** |
-| Claude Code | code.claude.com/changelog | **v2.1.140** latest, case-insensitive agent matching, color palette update, /goal fix; rate limits 2x via SpaceX |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, Security Review beta, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run replaces $40/seat/mo, **Microsoft Teams** integration |
+| Claude Code | code.claude.com/changelog | **v2.1.141** latest, Agent View, /goal command, hooks/plugins expansion, workspace identity federation; weekly limits +50% through Jul 13 |
+| Cursor | cursor.com/pricing | **Dev Environments** for cloud agents, **3.3 Build in Parallel**, Security Review beta, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run, **Microsoft Teams** integration |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin integration, **Opus 4.7 fast mode** ~2.5x output, $25B valuation |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | Token billing June 1 (D-18), Opus 4.7 multiplier 27x (June 1), 11-week decline, **Grok Code Fast 1 deprecated May 15** (D-2), **CVE-2026-41109** CVSS 7.8, Copilot CLI 1.0.46 |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Max plan** + flex allotments (June 1), token billing D-17, Opus removed from Pro, signups paused, **Grok Code Fast 1 deprecated May 15** (D-1), CVE-2026-41109 CVSS 7.8, CLI 1.0.48 |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 integration |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
@@ -1334,6 +1338,10 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/14 | **Anthropic targeting $900B valuation** in $30B+ funding round, alongside Stainless acquisition talks | [bloomberg.com](https://www.newsbytesapp.com/news/business/anthropic-nearing-stainless-acquisition-and-seeking-at-least-30b-funding/tldr) |
+| 2026/05/14 | **Stainless acquisition talks** — Anthropic in advanced talks to buy SDK maker for OpenAI, Google, Cloudflare, Meta for $300M+ | [theinformation.com](https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-by-openai-google) |
+| 2026/05/14 | Claude Code **v2.1.141** — Agent View (unified session list), /goal command, terminal notification hooks, workspace identity federation, expanded plugin options | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/05/14 | Claude Code **weekly limits raised 50%** for Pro/Max/Team/Enterprise through July 13 — follows May 6 hourly doubling | [anthropic.com](https://www.anthropic.com/news/higher-limits-spacex) |
 | 2026/05/13 | Claude Code **v2.1.140** — case/separator-insensitive agent matching, updated color palette, /goal hanging fix, settings hot-reload fix for symlinked files, background service startup fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/12 | **Claude for Legal Industry** — 20+ legal MCP connectors (Docusign, Ironclad, Box, Thomson Reuters CoCounsel), 12 practice-area plugins (commercial, corporate, employment, privacy, litigation) | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/05/11 | Claude Code **v2.1.139** — Agent view for managing multiple sessions, /goal command for completion conditions, transcript navigation shortcuts, plugin tools, MCP server support | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -1457,6 +1465,10 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/14 | **Copilot App** technical preview — GitHub-native desktop experience for agentic development from issues/PRs, isolated sessions with branch/file/conversation separation, pause/resume | [github.blog](https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/) |
+| 2026/05/14 | **Copilot individual plans**: flex allotments for Pro/Pro+, new **Max** plan for high-volume usage, usage-based billing (AI Credits) June 1 | [github.blog](https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/) |
+| 2026/05/14 | Copilot CLI **1.0.48** — model picker displays actual token prices for token-based billing users | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases) |
+| 2026/05/13 | Copilot **Cloud Agent REST API** public preview — start agent tasks programmatically via PAT/OAuth for Business/Enterprise | [github.blog](https://github.blog/changelog/2026-05-13-start-copilot-cloud-agent-tasks-via-the-rest-api/) |
 | 2026/05/12 | **CVE-2026-41109** — Copilot + VS Code security bypass (CVSS 7.8), local attackers can circumvent AI content filters and consent mechanisms; patched in VS Code 1.97.0, Copilot extension v1.43.20260512 | [windowsnews.ai](https://windowsnews.ai/article/cve-2026-41109-copilot-and-vs-code-security-feature-bypass-in-the-dev-workflow.417882) |
 | 2026/05/12 | Copilot CLI **1.0.46** — deprecation warning when CLI version loses premium model access, auto-approval of read-only `gh` commands, long-line diff wrapping, ERR_HTTP2_INVALID_SESSION crash fix | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases) |
 | 2026/05/11 | **Grok Code Fast 1 deprecated** across all Copilot experiences by May 15 — GPT-5 mini, Claude Haiku 4.5 recommended alternatives | [releasebot.io](https://releasebot.io/updates/github) |
@@ -1482,6 +1494,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/13 | **Development Environments** for cloud agents — multi-repo support, Dockerfile layer caching (70% faster builds), per-environment rollback, audit logging, scoped secrets | [cursor.com](https://cursor.com/changelog/05-13-26) |
 | 2026/05/~ | **Microsoft Teams integration** — @Cursor in any Teams channel delegates tasks to Cursor cloud agents, pulls context into Teams | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/11 | **Bugbot usage-based billing** — $1-1.50/run replaces $40/seat/mo subscription, high effort mode finds 35% more bugs, effective after June 8 renewal | [cursor.com](https://cursor.com/blog/may-2026-bugbot-changes) |
 | 2026/05/08 | **Opsera-Cursor DevSecOps Partnership** — autonomous DevSecOps Agents (Architecture Analyzer, Security Scanner, SQL Scanner, Compliance Auditor) embedded as native Cursor plugin | [prnewswire.com](https://www.prnewswire.com/news-releases/opsera-and-cursor-partner-to-embed-autonomous-ai-agents-directly-into-ai-sdlc-workflows-for-next-gen-ai-driven-development-302762277.html) |

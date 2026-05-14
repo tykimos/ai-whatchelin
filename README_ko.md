@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.13-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.14-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -230,6 +230,10 @@ timeline
          : OpenAI Daybreak 사이버보안 이니셔티브 — GPT-5.5 + Codex Security (5/12)
          : AWS Kiro Spec Check — SMT 솔버로 요구사항 모순 검증 (5/13)
          : Google I/O D-5 — Gemini 4 예고, 서브에이전트 아키텍처 미리보기 (5/14)
+         : Copilot App 테크니컬 프리뷰 — 이슈/PR에서 데스크톱 에이전트 세션 (5/14)
+         : Copilot 개인 플랜 flex 할당 + Max 플랜, 사용량 과금 D-17 (5/14)
+         : Copilot CLI 1.0.48 — 모델 피커에 토큰 가격 표시 (5/14)
+         : Anthropic $9000억 밸류에이션 목표 $300억+ 펀딩 라운드 (5/14)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1260,11 +1264,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Memory Sources 롤아웃, 빠른 답변 기능, Excel/Sheets 사이드바 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA** |
-| Claude Code | code.claude.com/changelog | **v2.1.140** 최신, 대소문자·구분자 무관 에이전트 매칭, 색상 팔레트 업데이트, /goal 수정; SpaceX 통한 속도 제한 2배 |
-| Cursor | cursor.com/pricing | **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, $40/시트/월 대체, **Microsoft Teams** 통합 |
+| Claude Code | code.claude.com/changelog | **v2.1.141** 최신, Agent View, /goal 명령어, 훅·플러그인 확장, 워크스페이스 신원 연합; 주간 한도 50%↑ 7/13까지 |
+| Cursor | cursor.com/pricing | **클라우드 에이전트 개발 환경**, **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, **Microsoft Teams** 통합 |
 | Windsurf | windsurf.com/pricing | 2.0 + Devin 통합, **Opus 4.7 fast 모드** ~2.5배 출력, $250억 밸류에이션 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | 토큰 과금 6/1 전환 (D-18), Opus 4.7 승수 27x (6/1), 11주 연속 하락, **Grok Code Fast 1 5/15 지원 종료** (D-2), **CVE-2026-41109** CVSS 7.8, Copilot CLI 1.0.46 |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Max 플랜** + flex 할당(6/1), 토큰 과금 D-17, Pro에서 Opus 제거, 가입 중단, **Grok Code Fast 1 5/15 종료** (D-1), CVE-2026-41109 CVSS 7.8, CLI 1.0.48 |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 통합 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -1314,6 +1318,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/14 | **Anthropic $9000억 밸류에이션** 목표 $300억+ 펀딩 라운드, Stainless 인수 협상과 동시 추진 | [bloomberg.com](https://www.newsbytesapp.com/news/business/anthropic-nearing-stainless-acquisition-and-seeking-at-least-30b-funding/tldr) |
+| 2026/05/14 | **Stainless 인수 협상** — OpenAI·Google·Cloudflare·Meta용 SDK 제작사를 $3억+에 인수 협상 | [theinformation.com](https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-by-openai-google) |
+| 2026/05/14 | Claude Code **v2.1.141** — Agent View(통합 세션 목록), /goal 명령어, 터미널 알림 훅, 워크스페이스 신원 연합, 플러그인 옵션 확장 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/05/14 | Claude Code **주간 한도 50% 인상** — Pro/Max/Team/Enterprise, 7/13까지; 5/6 시간당 2배 인상에 이어 | [anthropic.com](https://www.anthropic.com/news/higher-limits-spacex) |
 | 2026/05/13 | Claude Code **v2.1.140** — 대소문자·구분자 무관 에이전트 매칭, 색상 팔레트 업데이트, /goal 행 수정, 심볼릭 링크 설정 핫리로드 수정, 백그라운드 서비스 시작 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/12 | **Claude 법률 산업 진출** — 20+ 법률 MCP 커넥터(Docusign, Ironclad, Box, Thomson Reuters CoCounsel), 12개 실무 플러그인(상사, 기업, 고용, 개인정보, 소송) | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/05/11 | Claude Code **v2.1.139** — 다중 세션 관리용 Agent view, /goal 완료 조건 명령어, 트랜스크립트 탐색 단축키, 플러그인 도구, MCP 서버 지원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -1437,6 +1445,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/14 | **Copilot App** 테크니컬 프리뷰 — 이슈/PR에서 시작하는 GitHub 네이티브 데스크톱 에이전트 경험, 세션별 브랜치·파일·대화 격리, 일시정지/재개 | [github.blog](https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/) |
+| 2026/05/14 | **Copilot 개인 플랜**: Pro/Pro+ flex 할당, 고볼륨 사용자용 **Max** 플랜 신설, 사용량 기반 과금(AI 크레딧) 6/1 전환 | [github.blog](https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/) |
+| 2026/05/14 | Copilot CLI **1.0.48** — 토큰 기반 과금 사용자에게 모델 피커에서 실제 토큰 가격 표시 | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases) |
+| 2026/05/13 | Copilot **클라우드 에이전트 REST API** 공개 미리보기 — PAT/OAuth로 Business/Enterprise 에이전트 작업 프로그래밍 방식 시작 | [github.blog](https://github.blog/changelog/2026-05-13-start-copilot-cloud-agent-tasks-via-the-rest-api/) |
 | 2026/05/12 | **CVE-2026-41109** — Copilot + VS Code 보안 우회(CVSS 7.8), 로컬 공격자가 AI 콘텐츠 필터·동의 메커니즘 우회 가능; VS Code 1.97.0, Copilot 확장 v1.43.20260512에서 패치 | [windowsnews.ai](https://windowsnews.ai/article/cve-2026-41109-copilot-and-vs-code-security-feature-bypass-in-the-dev-workflow.417882) |
 | 2026/05/12 | Copilot CLI **1.0.46** — CLI 버전 폐기 시 프리미엄 모델 접근 상실 경고, 읽기 전용 `gh` 명령어 자동 승인, 긴 줄 diff 래핑, ERR_HTTP2_INVALID_SESSION 크래시 수정 | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases) |
 | 2026/05/11 | **Grok Code Fast 1 지원 종료** — 모든 Copilot 환경에서 5/15까지, GPT-5 mini·Claude Haiku 4.5 대체 권장 | [releasebot.io](https://releasebot.io/updates/github) |
@@ -1462,6 +1474,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/13 | **클라우드 에이전트 개발 환경** — 멀티레포 지원, Dockerfile 레이어 캐싱(빌드 70% 가속), 환경별 롤백, 감사 로깅, 스코프드 시크릿 | [cursor.com](https://cursor.com/changelog/05-13-26) |
 | 2026/05/~ | **Microsoft Teams 통합** — Teams 채널에서 @Cursor 멘션으로 클라우드 에이전트에 작업 위임, 컨텍스트 연결 | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/11 | **Bugbot 사용량 기반 과금** — $1-1.50/회, $40/시트/월 구독제 대체, 고노력 모드 버그 35%↑, 6/8 이후 갱신 시 적용 | [cursor.com](https://cursor.com/blog/may-2026-bugbot-changes) |
 | 2026/05/08 | **Opsera-Cursor DevSecOps 파트너십** — 자율 DevSecOps 에이전트(아키텍처 분석기, 보안 스캐너, SQL 스캐너, 컴플라이언스 감사기)를 Cursor 네이티브 플러그인으로 통합 | [prnewswire.com](https://www.prnewswire.com/news-releases/opsera-and-cursor-partner-to-embed-autonomous-ai-agents-directly-into-ai-sdlc-workflows-for-next-gen-ai-driven-development-302762277.html) |

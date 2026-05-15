@@ -243,6 +243,9 @@ timeline
          : Harness report — 81% orgs say devs spend more time in code review post-AI (May 15)
          : Copilot 12-week decline to 72 — flex allotments confirm effective price hikes (May 15)
          : OpenAI CFO signals additional fundraising beyond $122B round (May 15)
+         : Musk v. Altman jury deliberating — closing arguments concluded, advisory verdict pending (May 15)
+         : Codex on mobile — ChatGPT iOS/Android app controls Codex across all plans incl. free (May 15)
+         : ChatGPT File Library expanded to Free/Go users — 500MB free, up to 100GB Pro (May 15)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -815,8 +818,8 @@ xychart-beta
     line "Claude Code" [94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98]
     line "GH Copilot" [85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72]
     line "Cursor" [90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95]
-    line "Windsurf" [74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 79]
-    line "Codex CLI" [72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 81]
+    line "Windsurf" [74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80]
+    line "Codex CLI" [72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82]
     line "Gemini CLI" [65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76]
     line "Antigravity" [50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47]
 ```
@@ -826,8 +829,8 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-95―-3498DB?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-72↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-79↑-27AE60?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-81―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Windsurf-80↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-82↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-76↑-27AE60?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-48↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
@@ -1293,11 +1296,11 @@ All pricing information has been directly verified from each service's official 
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Memory Sources rolling out, Fast answers, Excel/Sheets sidebar |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Memory Sources rolling out, Fast answers, Excel/Sheets sidebar, **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), Musk v. Altman jury deliberating |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15** |
 | Claude Code | code.claude.com/changelog | **v2.1.141** latest, Agent View, /goal command, hooks/plugins expansion, workspace identity federation; weekly limits +50% through Jul 13 |
 | Cursor | cursor.com/pricing | **Dev Environments** for cloud agents, **3.3 Build in Parallel**, Security Review beta, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run, **Microsoft Teams** integration |
-| Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, $25B valuation |
+| Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, **Cognition $25B** valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
 | GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Max plan** + flex allotments (June 1), token billing D-17, Opus removed from Pro, signups paused, **Grok Code Fast 1 deprecated May 15** (D-1), CVE-2026-41109 CVSS 7.8, CLI 1.0.48 |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 integration |
@@ -1416,9 +1419,12 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/15 | **Musk v. Altman jury deliberating** — closing arguments concluded May 14; 9-juror advisory on charitable trust breach, executive enrichment, Microsoft involvement | [cnbc.com](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html) |
 | 2026/05/15 | **OpenAI preparing legal action against Apple** over failed ChatGPT integration promises | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) |
 | 2026/05/15 | **TanStack supply-chain attack** — two employee devices compromised, no user data accessed | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/) |
 | 2026/05/15 | **OpenAI CFO signals additional fundraising** beyond $122B round as compute demand intensifies | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says) |
+| 2026/05/15 | **Codex on mobile** — Codex control in ChatGPT iOS/Android app across all plans incl. free; view context, approve commands, review diffs | [9to5mac.com](https://9to5mac.com/2026/05/14/openai-brings-codex-control-to-chatgpt-for-iphone-and-android/) |
+| 2026/05/15 | **ChatGPT File Library expanded** — 500MB for Free/Go, up to 100GB for Pro; programmatic access tokens for Enterprise/EDU | [releasebot.io](https://releasebot.io/updates/openai/chatgpt) |
 | 2026/05/10 | **Amazon opens Claude Code + Codex** to all employees — 1,500 internal endorsements after Kiro-caused 13-hour AWS outage; Codex access from May 12 | [slashdot.org](https://developers.slashdot.org/story/26/05/10/0618225/amazon-relents-lets-its-programmers-use-openais-codex-and-anthropics-claude) |
 | 2026/05/09 | **Codex CLI v0.130.0** — plugin details show bundled hooks, plugin sharing with link metadata, simplified remote-control startup, thread pagination, AWS Bedrock console-login auth, multi-environment image resolution | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/08 | **"Running Codex Safely"** — sandboxing details, auto-review mode, managed network policies, agent-native telemetry/logging | [openai.com](https://openai.com/index/running-codex-safely/) |

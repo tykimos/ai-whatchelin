@@ -1,47 +1,43 @@
 ---
-title: "OpenAI, Apple에 법적 대응 준비 — AI 파트너십의 민낯이 드러나다"
+title: "Musk v. Altman 배심원 심리 시작, OpenAI는 Apple 소송·모바일 Codex·추가 자금 조달까지 사방이 전쟁터"
 date: 2026-05-15
 lang: ko
 categories: [news]
-tags: [openai, anthropic, apple, windsurf, cognition, google-io, github-copilot, security]
-excerpt: "OpenAI가 Apple과의 ChatGPT 통합 파기에 법적 대응을 준비하는 가운데, Anthropic은 소규모 기업 시장에 진출하고, Windsurf에는 Devin이 본격 탑재됐다."
+tags: [openai, anthropic, apple, windsurf, cognition, google-io, github-copilot, security, musk, codex]
+excerpt: "Musk-Altman 재판 배심원 심리가 시작됐고, OpenAI는 Apple 소송 준비·Codex 모바일 출시·$122B 추가 조달 시사까지 한 주에 쏟아부었다. Cognition은 $250억 밸류에이션을 향해 달린다."
 ---
 
-OpenAI가 Apple을 상대로 법적 대응을 준비하고 있다. ChatGPT 통합 약속이 파기된 데 따른 조치로, AI 업계의 대형 파트너십이 얼마나 불안정할 수 있는지를 보여주는 사건이다([TechCrunch](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/)). 같은 날 OpenAI는 TanStack 공급망 공격으로 직원 2명의 디바이스가 침해됐다고 밝혔다 — 사용자 데이터 유출은 없었다고 한다([TechCrunch](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/)).
+Musk v. Altman 재판이 최종 변론을 마치고 배심원 심리에 돌입했다. 캘리포니아 9인 배심원단이 자선 신탁 위반, 경영진 이익 취득, Microsoft의 방조 여부에 대해 자문 평결을 내리며, Gonzalez Rogers 판사가 최종 판단한다([CNBC](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html)). Musk 측은 OpenAI가 비영리 설립 약속을 기만적으로 저버렸다고 주장하고, Altman 측은 Musk가 개인적 원한으로 소송을 이용하고 있다고 반박했다([Axios](https://www.axios.com/2026/05/14/musk-closing-arguments-openai-altman)). 평결 결과에 따라 OpenAI의 영리 전환 구조가 흔들릴 수 있다.
 
-## Anthropic: 소규모 기업 시장 진출 + 에이전트 과금 변경 예고
+## OpenAI: Apple 소송 + Codex 모바일 + 파일 라이브러리 + 추가 자금
 
-Anthropic이 Claude for Small Business를 런칭했다 — 무료 반일 AI 워크숍과 재무·운영·세일즈·HR·CS 등 15개 에이전트 워크플로우를 번들로 제공한다([Axios](https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb)). PwC와의 파트너십도 발표돼, 엔터프라이즈 기능 구축과 딜 실행에 Claude가 투입된다([Anthropic](https://www.anthropic.com/news)). 한편 6월 15일부터 에이전트 사용량이 챗 구독과 분리된다 — Pro는 월 $20 크레딧, Max 5x는 $100, Max 20x는 $200이다([InfoWorld](https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html)). Code with Claude 컨퍼런스도 5월 19~22일 샌프란시스코에서 열린다.
+OpenAI가 Apple을 상대로 법적 대응을 준비하고 있다 — ChatGPT 통합 약속 파기에 따른 조치다([TechCrunch](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/)). 같은 날 TanStack 공급망 공격으로 직원 2명의 디바이스가 침해됐으나 사용자 데이터 유출은 없었다([TechCrunch](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/)). 제품 측면에서는 ChatGPT iOS/Android 앱에 Codex 제어 기능이 추가됐다 — 무료 플랜 포함 전 플랜에서 프로젝트 컨텍스트 확인, 명령 승인, 디프 리뷰가 가능하다([9to5Mac](https://9to5mac.com/2026/05/14/openai-brings-codex-control-to-chatgpt-for-iphone-and-android/)). 파일 라이브러리도 Free/Go 사용자에게 확대됐다(무료 500MB, Pro 최대 100GB)([Releasebot](https://releasebot.io/updates/openai/chatgpt)). CFO는 $122B 라운드를 넘어 추가 자금 조달 가능성을 시사했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says)).
 
-## Windsurf: Devin Review + Terminal 에이전트 전면 개방
+## Anthropic: 소규모 기업 시장 진출 + 에이전트 과금 변경
 
-Cognition이 Windsurf 사용자 전원에게 Devin Review, Quick Review, Devin for Terminal을 개방했다([Cognition Blog](https://cognition.ai/blog/devin-in-windsurf)). 기존 구독자에게 2주 무료 체험이 제공되며, Devin Local 에이전트는 로컬 CLI 워크플로우에서 클라우드로 핸드오프하는 하이브리드 구조다. OpenAI의 $30억 인수 무산 이후 Cognition이 인수한 Windsurf($82M ARR, 350+ 기업 고객)가 빠르게 Devin 통합을 완료하고 있다([VentureBeat](https://venturebeat.com/programming-development/remaining-windsurf-team-and-tech-acquired-by-cognition-makers-of-devin-were-friends-with-anthropic-again)).
+Anthropic이 Claude for Small Business를 런칭했다 — 무료 반일 AI 워크숍과 15개 에이전트 워크플로우(재무·운영·세일즈·HR·CS) 번들 제공([Axios](https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb)). 6월 15일부터 에이전트 사용량이 챗 구독과 분리된다: Pro $20/월, Max 5x $100, Max 20x $200 크레딧([InfoWorld](https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html)). Code with Claude London이 5월 19일 — Google I/O와 같은 날이다.
 
-## GitHub Copilot: Flex 할당의 실체 — 사실상 가격 인상
+## Windsurf: Devin 전면 개방 + Cognition $250억 밸류에이션
 
-Copilot 개인 플랜의 flex 할당 세부 내역이 공개되면서, Pro는 $10에서 $15 사용량으로, Pro+는 $39에서 $70 사용량으로 올라간다는 점이 확인됐다([WinBuzzer](https://winbuzzer.com/2026/05/14/github-copilot-individual-plans-introducing-flex-a-xcxwbn/)). 자동완성과 Next Edit는 크레딧 무소모이지만, 에이전트 작업 비용은 확실히 높아졌다. 신규 가입 중단 12주차, 73에서 72로 하락세가 계속되고 있다.
+Cognition이 Windsurf 전 사용자에게 Devin Review, Quick Review, Devin for Terminal을 개방했다([Cognition Blog](https://cognition.ai/blog/devin-in-windsurf)). 더 큰 뉴스는 Cognition이 $250억 밸류에이션으로 자금 조달을 협상 중이라는 것이다 — 2025년 9월 $102억에서 2배 이상 뛰었고, Windsurf 인수 후 ARR도 2배 이상 성장했다([Idlen](https://www.idlen.io/news/cognition-devin-25-billion-valuation-windsurf-vibe-coding-april-2026/)). 점수 79→80.
 
-## OpenAI: $122B 넘어 추가 자금 조달 시사
+## GitHub Copilot: Flex 할당 실체 확인, 12주 연속 하락
 
-OpenAI CFO가 컴퓨트 수요 급증으로 $122B 라운드를 넘어 추가 자금 조달 가능성을 시사했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says)). GPT-5.5 Instant의 안정적 성과에도, Apple 소송 준비와 보안 사고가 겹치며 복잡한 한 주가 되고 있다.
-
-## 커뮤니티: AI 도입 후 코드 리뷰 시간 81% 증가
-
-Harness 보고서에 따르면 81%의 조직에서 AI 도구 도입 이후 개발자들이 코드 리뷰에 **더 많은** 시간을 쓰고 있으며, 개발 시간의 약 31%가 AI 코드 리뷰·버그 수정·컨텍스트 전환 등 '보이지 않는 작업'에 소비된다([PRNewswire](https://www.prnewswire.com/news-releases/harness-report-reveals-ai-has-outpaced-how-engineering-organizations-measure-developer-productivity-302770521.html)). Google I/O까지 D-4 — Gemini Intelligence와 Android 리부트가 예고된 가운데 차주가 올해 최대 AI 이벤트 주간이 될 전망이다([Android Authority](https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/)).
+Copilot 개인 플랜 flex 할당 세부가 공개됐다 — Pro $10→$15, Pro+ $39→$70 사용량으로 사실상 가격 인상([WinBuzzer](https://winbuzzer.com/2026/05/14/github-copilot-individual-plans-introducing-flex-a-xcxwbn/)). 신규 가입 중단 12주차, 72로 하락세 지속.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 98 | — | Apple 소송 + 보안 사고에도 GPT-5.5 안정 |
-| Claude Code | 98 | — | 12일째 98, Code with Claude D-4 |
-| Cursor | 95 | — | 클라우드 에이전트 환경 안정화 |
+| ChatGPT | 98 | — | Musk 재판 + Apple 소송에도 GPT-5.5·Codex 모바일로 안정 |
+| Claude Code | 98 | — | 12일째 98, Code with Claude London D-4 |
+| Cursor | 95 | — | /multitask 병렬 에이전트, PR 리뷰, 인터랙티브 캔버스 신기능 |
 | Claude AI | 93 | ↑1 | SMB 런칭 + PwC + 에이전트 과금 분리 |
-| Codex CLI | 81 | — | Chrome 확장 정착 중 |
-| Windsurf | 79 | ↑1 | Devin Review/Terminal 전면 개방 |
+| Codex CLI | 82 | ↑1 | 모바일 출시 — 무료 포함 전 플랜에서 접근 |
+| Windsurf | 80 | ↑1 | Devin 전면 개방 + Cognition $250억 밸류에이션 |
 | Gemini CLI | 76 | ↑1 | I/O D-4, Gemini Intelligence 기대감 |
-| GitHub Copilot | 72 | ↓1 | Flex 할당 실체 — 사실상 가격 인상 확인 |
+| GitHub Copilot | 72 | ↓1 | Flex 할당 실체 — 사실상 가격 인상, 12주 연속 하락 |
 | Aider | 68 | — | 안정 |
 | Antigravity | 47 | ↓1 | 디프리케이션 우려 지속 |
 
-차주 월~목(5/19~22)에 Google I/O와 Code with Claude가 동시에 열린다. AI 코딩 도구 판도를 바꿀 발표가 쏟아질 수 있는 올해 최대 이벤트 주간이다.
+차주 월요일(5/19) Google I/O 키노트와 Code with Claude London이 동시 개최된다. Musk v. Altman 평결까지 겹치면 AI 업계 역사상 가장 격동의 주가 될 수 있다.

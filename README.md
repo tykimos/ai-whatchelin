@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-14</sub>
+  <sub>Last updated: 2026-05-15</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.14-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.15-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -234,6 +234,15 @@ timeline
          : Copilot individual plans flex allotments + Max plan, usage-based billing D-17 (May 14)
          : Copilot CLI 1.0.48 — token prices in model picker (May 14)
          : Anthropic targeting $900B valuation in $30B+ funding round (May 14)
+         : OpenAI preparing legal action against Apple over failed ChatGPT integration (May 15)
+         : OpenAI TanStack supply-chain attack — 2 employee devices compromised, no user data (May 15)
+         : Anthropic Claude for Small Business — free workshops + 15 agentic workflows (May 15)
+         : Anthropic agent metering June 15 — Pro $20, Max 5x $100, Max 20x $200 credits (May 15)
+         : Windsurf Devin Review + Devin for Terminal open to all users (May 15)
+         : Google I/O D-4 — Gemini Intelligence, Android reboot, Code with Claude same week (May 15)
+         : Harness report — 81% orgs say devs spend more time in code review post-AI (May 15)
+         : Copilot 12-week decline to 72 — flex allotments confirm effective price hikes (May 15)
+         : OpenAI CFO signals additional fundraising beyond $122B round (May 15)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -455,6 +464,9 @@ quadrantChart
 
 **"Comment and Control" Prompt Injection** (2026.05.10):
 > *"Claude Code (CVSS 9.4), Gemini CLI, and GitHub Copilot Agent all vulnerable to prompt injection via GitHub PR titles, issue bodies, and comments. Attackers can extract API keys without victim interaction — auto-triggered via GitHub Actions."* — SecurityWeek `2026.05.10`
+
+**Harness: AI Increases Code Review Time** (2026.05.15):
+> *"81% of organizations report developers spend MORE time in code review since adopting AI tools. ~31% of dev time is now 'invisible work' — reviewing AI code, fixing AI-introduced bugs, and context-switching."* — Harness/PRNewswire `2026.05.15`
 
 **Codex "Running Codex Safely"** (2026.05.08):
 > *"OpenAI detailed Codex safety controls: sandboxing, auto-review mode (auto-approves low-risk actions), managed network policies, and agent-native telemetry/logging. Enterprise partnerships with TCS, Infosys, Cognizant, Accenture push Codex past 4M+ developers."* — OpenAI Blog `2026.05.08`
@@ -798,25 +810,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-15", "04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14"]
+    x-axis ["04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [93, 94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [86, 85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73]
-    line "Cursor" [90, 90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95]
-    line "Windsurf" [74, 74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78]
-    line "Codex CLI" [72, 72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81]
-    line "Gemini CLI" [65, 65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75]
-    line "Antigravity" [50, 50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48]
+    line "Claude Code" [94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72]
+    line "Cursor" [90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95]
+    line "Windsurf" [74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 79]
+    line "Codex CLI" [72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 81]
+    line "Gemini CLI" [65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76]
+    line "Antigravity" [50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-95↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-73―-3498DB?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-78―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Cursor-95―-3498DB?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-72↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-79↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-81―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-75↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-76↑-27AE60?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-48↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
@@ -1275,17 +1287,17 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-13)
+### Fact Check Log (2026-05-15)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Memory Sources rolling out, Fast answers, Excel/Sheets sidebar |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA** |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15** |
 | Claude Code | code.claude.com/changelog | **v2.1.141** latest, Agent View, /goal command, hooks/plugins expansion, workspace identity federation; weekly limits +50% through Jul 13 |
 | Cursor | cursor.com/pricing | **Dev Environments** for cloud agents, **3.3 Build in Parallel**, Security Review beta, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run, **Microsoft Teams** integration |
-| Windsurf | windsurf.com/pricing | 2.0 + Devin integration, **Opus 4.7 fast mode** ~2.5x output, $25B valuation |
+| Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, $25B valuation |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
 | GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Max plan** + flex allotments (June 1), token billing D-17, Opus removed from Pro, signups paused, **Grok Code Fast 1 deprecated May 15** (D-1), CVE-2026-41109 CVSS 7.8, CLI 1.0.48 |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 integration |
@@ -1338,6 +1350,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/15 | **Claude for Small Business** — free half-day AI workshops + 15 ready-to-run agentic workflows (finance, ops, sales, HR, CS) | [axios.com](https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb) |
+| 2026/05/15 | **PwC partnership** — deploying Claude for enterprise deal execution and function reinvention | [anthropic.com](https://www.anthropic.com/news) |
+| 2026/05/15 | **Agent metering June 15** — programmatic Claude usage separates from chat limits; Pro $20/mo, Max 5x $100, Max 20x $200 credits | [infoworld.com](https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html) |
 | 2026/05/14 | **Anthropic targeting $900B valuation** in $30B+ funding round, alongside Stainless acquisition talks | [bloomberg.com](https://www.newsbytesapp.com/news/business/anthropic-nearing-stainless-acquisition-and-seeking-at-least-30b-funding/tldr) |
 | 2026/05/14 | **Stainless acquisition talks** — Anthropic in advanced talks to buy SDK maker for OpenAI, Google, Cloudflare, Meta for $300M+ | [theinformation.com](https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-by-openai-google) |
 | 2026/05/14 | Claude Code **v2.1.141** — Agent View (unified session list), /goal command, terminal notification hooks, workspace identity federation, expanded plugin options | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -1401,6 +1416,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/15 | **OpenAI preparing legal action against Apple** over failed ChatGPT integration promises | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) |
+| 2026/05/15 | **TanStack supply-chain attack** — two employee devices compromised, no user data accessed | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/) |
+| 2026/05/15 | **OpenAI CFO signals additional fundraising** beyond $122B round as compute demand intensifies | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says) |
 | 2026/05/10 | **Amazon opens Claude Code + Codex** to all employees — 1,500 internal endorsements after Kiro-caused 13-hour AWS outage; Codex access from May 12 | [slashdot.org](https://developers.slashdot.org/story/26/05/10/0618225/amazon-relents-lets-its-programmers-use-openais-codex-and-anthropics-claude) |
 | 2026/05/09 | **Codex CLI v0.130.0** — plugin details show bundled hooks, plugin sharing with link metadata, simplified remote-control startup, thread pagination, AWS Bedrock console-login auth, multi-environment image resolution | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/08 | **"Running Codex Safely"** — sandboxing details, auto-review mode, managed network policies, agent-native telemetry/logging | [openai.com](https://openai.com/index/running-codex-safely/) |
@@ -1550,7 +1568,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.13-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.15-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

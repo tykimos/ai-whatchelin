@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-15</sub>
+  <sub>마지막 업데이트: 2026-05-16</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.15-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.16-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -468,6 +468,12 @@ quadrantChart
 **"Comment and Control" 프롬프트 인젝션** (2026.05.10):
 > *"Claude Code(CVSS 9.4), Gemini CLI, GitHub Copilot Agent가 GitHub PR 제목·이슈 본문·댓글을 통한 프롬프트 인젝션에 취약한 것으로 드러났다. 피해자 상호작용 없이 GitHub Actions 자동 트리거로 API 키를 탈취할 수 있다."* — SecurityWeek `2026.05.10`
 
+**Microsoft, Claude Code 라이선스 취소** (2026.05.16):
+> *"Microsoft의 Experiences + Devices 팀이 6월 30일까지 Claude Code 라이선스를 종료하고 GitHub Copilot CLI로 전환을 추진한다. Claude Code가 6개월간 내부에서 폭발적 인기를 얻으며 Copilot CLI 채택을 잠식한 것이 배경이다."* — Windows Central `2026.05.16`
+
+**Claude Code Fast Mode, Opus 4.7 기본 전환** (2026.05.16):
+> *"5월 14일부터 /fast가 Opus 4.7을 기본으로 사용한다. 출력 토큰 속도 2.5배, 동일한 품질, 1M 컨텍스트 윈도우 유지. ENV 플래그 옵트인 불필요."* — Anthropic `2026.05.14`
+
 **Harness: AI 도입 후 코드 리뷰 시간 증가** (2026.05.15):
 > *"81%의 조직에서 AI 도구 도입 이후 개발자들이 코드 리뷰에 더 많은 시간을 쓰고 있으며, 개발 시간의 약 31%가 AI 코드 리뷰·버그 수정·컨텍스트 전환 등 '보이지 않는 작업'에 소비된다."* — Harness/PRNewswire `2026.05.15`
 
@@ -804,26 +810,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-16", "04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15"]
+    x-axis ["04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [94, 94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [85, 85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72]
-    line "Cursor" [90, 90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95]
-    line "Windsurf" [74, 74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80]
-    line "Codex CLI" [72, 72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82]
-    line "Gemini CLI" [65, 65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76]
-    line "Antigravity" [50, 50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47]
+    line "Claude Code" [94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71]
+    line "Cursor" [90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95]
+    line "Windsurf" [74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80]
+    line "Codex CLI" [72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82]
+    line "Gemini CLI" [65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76]
+    line "Antigravity" [50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-95―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-72↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-80↑-27AE60?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-82↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-76↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-48↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-71↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-80―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-82―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-76―-3498DB?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-47―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1271,7 +1277,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-15)
+### 팩트 체크 로그 (2026-05-16)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -1279,11 +1285,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Memory Sources 롤아웃, 빠른 답변 기능, Excel/Sheets 사이드바, **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), Musk v. Altman 배심원 심리 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15** |
-| Claude Code | code.claude.com/changelog | **v2.1.141** 최신, Agent View, /goal 명령어, 훅·플러그인 확장, 워크스페이스 신원 연합; 주간 한도 50%↑ 7/13까지 |
+| Claude Code | code.claude.com/changelog | **v2.1.141** 최신, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, 훅·플러그인 확장, Git Bash 없이 Windows 지원; 주간 한도 50%↑ 7/13까지 |
 | Cursor | cursor.com/pricing | **클라우드 에이전트 개발 환경**, **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, **Microsoft Teams** 통합 |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** 전체 사용자, Opus 4.7 fast 모드 ~2.5배, **Cognition $250억** 밸류에이션 협상 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Max 플랜** + flex 할당(6/1), 토큰 과금 D-17, Pro에서 Opus 제거, 가입 중단, **Grok Code Fast 1 5/15 종료** (D-1), CVE-2026-41109 CVSS 7.8, CLI 1.0.48 |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-16, Pro에서 Opus 제거, 가입 중단, CVE-2026-41109 CVSS 7.8, CLI 1.0.48 |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 통합 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -1347,6 +1353,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/05/09 | Claude Code **v2.1.136** — 자동 모드 hard deny 규칙, OTel 피드백 설문, 워크트리 분기 제어, MCP/플러그인 사라짐 수정, 자격증명 쓰기 경쟁 상태 수정; 하루 4개 릴리스(v2.1.133~v2.1.138) | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/05/08 | **ServiceNow Build Agent GA** — Cursor, Windsurf, Claude Code, GitHub Copilot 내부에서 작동; Anthropic 모델 기반; Figma·Miro·GitHub를 MCP 클라이언트로 연결 | [servicenow.com](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Build-Agent-now-works-inside-every-major-AI-coding-tool-governed-by-default/default.aspx) |
 | 2026/05/08 | **Akamai $18억 클라우드 계약** — 7년간 컴퓨트 계약; Akamai 주가 ↑27%; SpaceX에 이은 두 번째 대형 인프라 계약 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai) |
+| 2026/05/16 | Claude Code **Fast Mode Opus 4.7 기본 전환** — 2.5배 빠른 출력, ENV 플래그 불필요; `claude agents`에 --add-dir, --settings, --mcp-config, --model 플래그 추가; Git Bash 없이 Windows 지원 | [code.claude.com](https://code.claude.com/docs/en/whats-new) |
 | 2026/05/08 | **Claude Cowork GA** — Cowork + Code Desktop이 전 유료 플랜에 정식 출시(macOS/Windows), RBAC, 그룹 지출 한도, OpenTelemetry, Zoom 커넥터 | [eweek.com](https://www.eweek.com/news/claude-cowork-general-availability-enterprise-controls/) |
 | 2026/05/08 | **Claude 장애** — 2,000명+ 영향, API 오류 급증, IP 주소 변경으로 GitHub 연결 중단; 롤백 후 복구 | [gvwire.com](https://gvwire.com/2026/05/08/claude-ai-goes-down-for-thousands-of-users-friday-downdetector-reports/) |
 | 2026/05/06 | **Code with Claude 컨퍼런스** — Outcomes(퍼블릭 베타)가 포함된 Managed Agents, Dreaming 자기 개선 메모리(프리뷰), 라이브 프리뷰 데스크톱 GUI, Remote Agents, CI 자동 수정, Security Reviews, Code Review, Routines 비동기 자동화 | [simonwillison.net](https://simonwillison.net/2026/May/6/code-w-claude-2026/) |
@@ -1469,6 +1476,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/16 | **Microsoft, Claude Code 라이선스 취소** — Experiences + Devices 팀(Windows, M365, Outlook, Teams, Surface) 6/30까지 종료; Copilot CLI로 전환; 재정적 동기 | [windowscentral.com](https://www.windowscentral.com/microsoft/microsoft-cancels-claude-code-licenses-shifting-developers-to-github-copilot-cli-a-move-likely-driven-by-financial-motives) |
 | 2026/05/14 | **Copilot App** 테크니컬 프리뷰 — 이슈/PR에서 시작하는 GitHub 네이티브 데스크톱 에이전트 경험, 세션별 브랜치·파일·대화 격리, 일시정지/재개 | [github.blog](https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/) |
 | 2026/05/14 | **Copilot 개인 플랜**: Pro/Pro+ flex 할당, 고볼륨 사용자용 **Max** 플랜 신설, 사용량 기반 과금(AI 크레딧) 6/1 전환 | [github.blog](https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/) |
 | 2026/05/14 | Copilot CLI **1.0.48** — 토큰 기반 과금 사용자에게 모델 피커에서 실제 토큰 가격 표시 | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases) |
@@ -1554,7 +1562,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.15-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.16-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

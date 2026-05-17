@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-16</sub>
+  <sub>마지막 업데이트: 2026-05-17</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.16-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.17-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -246,6 +246,15 @@ timeline
          : Musk v. Altman 배심원 심리 시작 — 최종 변론 종료, 자문 평결 대기 (5/15)
          : Codex 모바일 출시 — ChatGPT iOS/Android 앱에서 Codex 제어, 무료 포함 전 플랜 (5/15)
          : ChatGPT 파일 라이브러리 Free/Go 확대 — 무료 500MB, Pro 최대 100GB (5/15)
+         : Microsoft Claude Code 라이선스 취소 — E+D 팀 6/30까지 Copilot CLI 전환 강제 (5/16)
+         : Claude Code Fast Mode Opus 4.7 기본 전환 — 2.5배 빠르게, ENV 플래그 불필요 (5/16)
+         : Copilot App 테크니컬 프리뷰 — 이슈/PR 기반 데스크톱 에이전트 (5/16)
+         : OpenAI, ChatGPT + Codex 통합 — Brockman 총괄, 에이전틱 "슈퍼앱" (5/16)
+         : Copilot 13주 연속 하락 70, 사용량 과금 D-14 (5/17)
+         : Musk v. Altman 배심원 심리 월요일 5/19 시작 (5/17)
+         : Google I/O D-2 — Gemini 4, 에이전틱 코딩 발표 예상 (5/17)
+         : Code with Claude London D-2 — Anthropic 개발자 컨퍼런스 (5/17)
+         : Codex CLI 83 상승 — ChatGPT/Codex 통합 모멘텀 (5/17)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -810,15 +819,15 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16"]
+    x-axis ["05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71]
-    line "Cursor" [90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95]
-    line "Windsurf" [74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80]
-    line "Codex CLI" [72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82]
-    line "Gemini CLI" [65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76]
-    line "Antigravity" [50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47]
+    line "Claude Code" [96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70]
+    line "Cursor" [90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95]
+    line "Windsurf" [76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80]
+    line "Codex CLI" [75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83]
+    line "Gemini CLI" [67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77]
+    line "Antigravity" [48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
@@ -1277,20 +1286,20 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-16)
+### 팩트 체크 로그 (2026-05-17)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** 기본 모델 안정, Memory Sources 롤아웃, 빠른 답변 기능, Excel/Sheets 사이드바, **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), Musk v. Altman 배심원 심리 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15** |
+| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), Musk v. Altman 배심원 심리 5/19 시작 |
+| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **Code with Claude London D-2** |
 | Claude Code | code.claude.com/changelog | **v2.1.141** 최신, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, 훅·플러그인 확장, Git Bash 없이 Windows 지원; 주간 한도 50%↑ 7/13까지 |
 | Cursor | cursor.com/pricing | **클라우드 에이전트 개발 환경**, **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, **Microsoft Teams** 통합 |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** 전체 사용자, Opus 4.7 fast 모드 ~2.5배, **Cognition $250억** 밸류에이션 협상 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-16, Pro에서 Opus 제거, 가입 중단, CVE-2026-41109 CVSS 7.8, CLI 1.0.48 |
-| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 통합 |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-14, Pro에서 Opus 제거, 가입 중단, 14주 연속 하락 70 |
+| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 통합, **Google I/O D-2** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
@@ -1406,7 +1415,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
-| 2026/05/15 | **Musk v. Altman 배심원 심리 시작** — 최종 변론 종료; 9인 배심원이 자선 신탁 위반, 경영진 이익 취득, Microsoft 관여에 대해 자문 평결 | [cnbc.com](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html) |
+| 2026/05/16 | **ChatGPT + Codex 통합** — Greg Brockman이 총괄, ChatGPT·Codex·개발자 API를 단일 에이전틱 "슈퍼앱"으로 병합; Codex가 코딩 넘어 확장 후 ChatGPT + Atlas 통합 예정 | [techcrunch.com](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/) |
+| 2026/05/15 | **Musk v. Altman 배심원 심리 시작** — 최종 변론 종료; 9인 배심원이 자선 신탁 위반, 경영진 이익 취득, Microsoft 관여에 대해 자문 평결; 심리 5/19 개시 | [cnbc.com](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html) |
 | 2026/05/15 | **OpenAI, Apple 상대 법적 대응 준비** — ChatGPT 통합 약속 파기에 따른 조치 | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) |
 | 2026/05/15 | **TanStack 공급망 공격** — 직원 2명 디바이스 침해, 사용자 데이터 유출 없음 | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/) |
 | 2026/05/15 | **OpenAI CFO, 추가 자금 조달 시사** — $122B 라운드 넘어 컴퓨트 수요 급증 대응 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says) |
@@ -1562,7 +1572,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.16-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.17-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

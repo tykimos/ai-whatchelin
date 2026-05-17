@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-16</sub>
+  <sub>Last updated: 2026-05-17</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.16-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.17-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -246,6 +246,15 @@ timeline
          : Musk v. Altman jury deliberating — closing arguments concluded, advisory verdict pending (May 15)
          : Codex on mobile — ChatGPT iOS/Android app controls Codex across all plans incl. free (May 15)
          : ChatGPT File Library expanded to Free/Go users — 500MB free, up to 100GB Pro (May 15)
+         : Microsoft Claude Code license cancellation — E+D team forced to Copilot CLI by June 30 (May 16)
+         : Claude Code Fast Mode defaults to Opus 4.7 — 2.5x faster, no ENV flag (May 16)
+         : Copilot App technical preview — desktop agentic sessions from issues/PRs (May 16)
+         : OpenAI merges ChatGPT + Codex under Brockman — unified agentic "super app" (May 16)
+         : Copilot 13-week decline to 70, D-14 to usage-based billing June 1 (May 17)
+         : Musk v. Altman jury deliberations begin Monday May 19 (May 17)
+         : Google I/O D-2 — Gemini 4, agentic coding expected (May 17)
+         : Code with Claude London D-2 — Anthropic developer conference (May 17)
+         : Codex CLI rises to 83 — ChatGPT/Codex merger boosts momentum (May 17)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -819,15 +828,15 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["04-17", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16"]
+    x-axis ["05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [94, 96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [85, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71]
-    line "Cursor" [90, 90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95]
-    line "Windsurf" [74, 76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80]
-    line "Codex CLI" [72, 75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82]
-    line "Gemini CLI" [65, 67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76]
-    line "Antigravity" [50, 48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47]
+    line "Claude Code" [96, 96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70]
+    line "Cursor" [90, 91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95]
+    line "Windsurf" [76, 76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80]
+    line "Codex CLI" [75, 76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83]
+    line "Gemini CLI" [67, 67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77]
+    line "Antigravity" [48, 47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47]
 ```
 <!-- POPULARITY_CHART_END -->
 
@@ -1296,20 +1305,20 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-16)
+### Fact Check Log (2026-05-17)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.5 Instant** default model stable, Memory Sources rolling out, Fast answers, Excel/Sheets sidebar, **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), Musk v. Altman jury deliberating |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15** |
+| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), Musk v. Altman jury deliberations begin 5/19 |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **Code with Claude London D-2** |
 | Claude Code | code.claude.com/changelog | **v2.1.141** latest, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, hooks/plugins expansion, Windows without Git Bash; weekly limits +50% through Jul 13 |
 | Cursor | cursor.com/pricing | **Dev Environments** for cloud agents, **3.3 Build in Parallel**, Security Review beta, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run, **Microsoft Teams** integration |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, **Cognition $25B** valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-16, Opus removed from Pro, signups paused, CVE-2026-41109 CVSS 7.8, CLI 1.0.48 |
-| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 integration |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-14, Opus removed from Pro, signups paused, 14-week decline to 70 |
+| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 integration, **Google I/O D-2** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
@@ -1426,7 +1435,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
-| 2026/05/15 | **Musk v. Altman jury deliberating** — closing arguments concluded May 14; 9-juror advisory on charitable trust breach, executive enrichment, Microsoft involvement | [cnbc.com](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html) |
+| 2026/05/16 | **ChatGPT + Codex merger** — Greg Brockman takes charge, merging ChatGPT, Codex, and dev API into single agentic "super app"; Codex expands beyond coding first, then ChatGPT + Atlas fold in | [techcrunch.com](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/) |
+| 2026/05/15 | **Musk v. Altman jury deliberating** — closing arguments concluded May 14; 9-juror advisory on charitable trust breach, executive enrichment, Microsoft involvement; deliberations begin May 19 | [cnbc.com](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html) |
 | 2026/05/15 | **OpenAI preparing legal action against Apple** over failed ChatGPT integration promises | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) |
 | 2026/05/15 | **TanStack supply-chain attack** — two employee devices compromised, no user data accessed | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/) |
 | 2026/05/15 | **OpenAI CFO signals additional fundraising** beyond $122B round as compute demand intensifies | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says) |
@@ -1582,7 +1592,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.16-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.05.17-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

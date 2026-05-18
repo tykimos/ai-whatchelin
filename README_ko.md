@@ -263,6 +263,8 @@ timeline
          : Musk v. Altman 배심원 심리 D-1 (5/18)
          : Copilot 14주 연속 하락 69, 사용량 과금 D-14 (5/18)
          : Codex CLI 84 상승 — 모바일 확대 + 슈퍼앱 모멘텀 (5/18)
+         : Grok Build 베타 출시 — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, SuperGrok Heavy $300/월 (5/18)
+         : OpenAI + Dell 파트너십 — Codex를 하이브리드·온프레미스 엔터프라이즈 환경에 배포 (5/18)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1300,7 +1302,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), Musk v. Altman 배심원 심리 5/19 시작 |
+| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, Musk v. Altman 배심원 심리 5/19 시작 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **Code with Claude London D-1** (3트랙 + 확장 세션 5/20) |
 | Claude Code | code.claude.com/changelog | **v2.1.141** 최신, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, 훅·플러그인 확장, Git Bash 없이 Windows 지원; 주간 한도 50%↑ 7/13까지 |
 | Cursor | cursor.com/pricing | **3.4 /multitask** 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window, **클라우드 에이전트 개발 환경**, **3.3 Build in Parallel**, Security Review 베타, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
@@ -1315,6 +1317,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Tabnine | tabnine.com/pricing | 연간 구독만, 무료 폐지 |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro 2025.07 폐지, Amp 전환 |
 | Trae | docs.trae.ai | 5단계: Free/$3/$10/$30/$100 |
+| Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모) |
 | Antigravity | antigravity.google | Google AI Pro/Ultra 구독의 일부, AgentKit 2.0 |
 
 
@@ -1437,6 +1440,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/05/05 | **GPT-5.5 Instant** — ChatGPT 새 기본 모델, 환각 52.5% 감소, AIME 2025 81.2 (65.4→), 빠른 답변, 메모리 소스 | [techcrunch.com](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/) |
 | 2026/05/05 | **Codex CLI v0.128.0** — 영속 /goal 워크플로우, TUI 키맵 설정, 확장된 퍼미션 프로파일, 앱서버 Unix 소켓 전송 | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/04 | **"The Deployment Company"** — TPG, Bain Capital, Brookfield, SoftBank와 $100억 합작법인, 기업에 OpenAI 엔지니어 파견 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai) |
+| 2026/05/18 | **OpenAI + Dell 파트너십** — Dell AI Data Platform·AI Factory 통해 Codex를 하이브리드·온프레미스 엔터프라이즈에 배포 | [openai.com](https://openai.com/index/dell-codex-enterprise-partnership/) |
 | 2026/04/28 | **Codex Amazon Bedrock 출시** — Codex CLI/데스크톱/VS Code가 AWS에서 제한 프리뷰로 제공 | [openai.com](https://openai.com/index/openai-on-aws/) |
 | 2026/04/23 | **GPT-5.5** — 최강 프론티어 모델, 입력 $5/MTok, 출력 $30/MTok, 멀티스텝 추론 및 에이전틱 워크플로우 강화 | [openai.com](https://openai.com/index/introducing-gpt-5-5/) |
 | 2026/04/16 | **Codex "거의 모든 것을 위한"** — macOS Computer Use, 90+ 플러그인, 인앱 브라우저, 영속 /goal 워크플로우, GPT-5.5 지원 | [openai.com](https://openai.com/index/codex-for-almost-everything/) |
@@ -1545,6 +1549,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/14 | **Grok Build** 베타 — 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta 모델, 2M 컨텍스트, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99/월 프로모) | [engadget.com](https://www.engadget.com/2173482/xai-coding-agent-grok-build/) |
 | 2026/03/10 | **Grok 4.20** (2M 컨텍스트, 멀티에이전트) | [docs.x.ai](https://docs.x.ai/developers/release-notes) |
 | 2026/01/28 | Grok Imagine API (비디오 + 이미지 생성) | [x.ai](https://x.ai/news/grok-imagine-api) |
 

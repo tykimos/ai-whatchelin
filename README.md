@@ -263,6 +263,8 @@ timeline
          : Musk v. Altman jury deliberations D-1 (May 18)
          : Copilot 14-week decline to 69, D-14 to usage-based billing (May 18)
          : Codex CLI rises to 84 — mobile expansion + super app momentum (May 18)
+         : Grok Build beta launched — xAI's first coding agent, 8 parallel agents, $300/mo SuperGrok Heavy (May 18)
+         : OpenAI + Dell partner to bring Codex to hybrid/on-premises enterprise environments (May 18)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1319,7 +1321,7 @@ All pricing information has been directly verified from each service's official 
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), Musk v. Altman jury deliberations begin 5/19 |
+| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, Musk v. Altman jury deliberations begin 5/19 |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **Code with Claude London D-1** (3 tracks + extended session 5/20) |
 | Claude Code | code.claude.com/changelog | **v2.1.141** latest, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, hooks/plugins expansion, Windows without Git Bash; weekly limits +50% through Jul 13 |
 | Cursor | cursor.com/pricing | **3.4 /multitask** parallel subagents, **interactive canvases** in Agents Window, **Dev Environments** for cloud agents, **3.3 Build in Parallel**, Security Review beta, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
@@ -1334,6 +1336,7 @@ All pricing information has been directly verified from each service's official 
 | Tabnine | tabnine.com/pricing | annual subscription only, free plan discontinued |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro discontinued Jul 2025, moved to Amp |
 | Trae | docs.trae.ai | 5 tiers: Free/$3/$10/$30/$100 |
+| Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo) |
 | Antigravity | antigravity.google | part of Google AI Pro/Ultra subscription, AgentKit 2.0 |
 | Midjourney | midjourney.com | V1 video model launched, 5-20sec clips |
 
@@ -1457,6 +1460,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/05/05 | **GPT-5.5 Instant** — new default ChatGPT model, 52.5% fewer hallucinations, AIME 2025 81.2 (up from 65.4), fast answers, memory sources | [techcrunch.com](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/) |
 | 2026/05/05 | **Codex CLI v0.128.0** — persisted /goal workflows, configurable TUI keymaps, expanded permission profiles, app-server Unix socket transport | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/05/04 | **"The Deployment Company"** — $10B JV with TPG, Bain Capital, Brookfield, SoftBank to embed OpenAI engineers in enterprises | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai) |
+| 2026/05/18 | **OpenAI + Dell partnership** — Codex to hybrid/on-premises enterprise via Dell AI Data Platform, AI Factory integration | [openai.com](https://openai.com/index/dell-codex-enterprise-partnership/) |
 | 2026/04/28 | **Codex on Amazon Bedrock** — Codex CLI/desktop/VS Code available on AWS in limited preview | [openai.com](https://openai.com/index/openai-on-aws/) |
 | 2026/04/23 | **GPT-5.5** — smartest frontier model, $5/MTok input, $30/MTok output, stronger multi-step reasoning and agentic workflows | [openai.com](https://openai.com/index/introducing-gpt-5-5/) |
 | 2026/04/16 | **Codex "for Almost Everything"** — Computer Use on macOS, 90+ plugins, in-app browser, persisted /goal workflows, GPT-5.5 support | [openai.com](https://openai.com/index/codex-for-almost-everything/) |
@@ -1565,6 +1569,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/14 | **Grok Build** beta — first coding agent, 8 parallel agents, Grok 4.3 beta model, 2M context, SWE-Bench 70.8%, $300/mo SuperGrok Heavy ($99/mo promo) | [engadget.com](https://www.engadget.com/2173482/xai-coding-agent-grok-build/) |
 | 2026/03/10 | **Grok 4.20** (2M context, multi-agent) | [docs.x.ai](https://docs.x.ai/developers/release-notes) |
 | 2026/01/28 | Grok Imagine API (video + image generation) | [x.ai](https://x.ai/news/grok-imagine-api) |
 

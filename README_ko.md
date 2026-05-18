@@ -256,11 +256,13 @@ timeline
          : Code with Claude London D-2 — Anthropic 개발자 컨퍼런스 (5/17)
          : Codex CLI 83 상승 — ChatGPT/Codex 통합 모멘텀 (5/17)
          : GPT-5.3-Codex-Spark 리서치 프리뷰 — 15배 빠른 코딩, 128K 컨텍스트 (5/18)
-         : Google I/O D-1 — Gemini 4 발표 예상 (5/18)
-         : Code with Claude London D-1 — Anthropic 개발자 컨퍼런스 (5/18)
+         : Gemini Omni 비디오 AI 모델 I/O 전 유출 — 리믹스·인채팅 편집·템플릿 (5/18)
+         : Cursor 3.4 — /multitask 병렬 서브에이전트, Agents Window 인터랙티브 캔버스 (5/18)
+         : Code with Claude London D-1 — 3트랙(Research·Platform·Code), 확장 세션 5/20 (5/18)
+         : Google I/O D-1 — Gemini 4 또는 3.5 예상, Gemini Omni 유출 (5/18)
          : Musk v. Altman 배심원 심리 D-1 (5/18)
-         : Copilot 14주 연속 하락 69, 사용량 과금 D-13 (5/18)
-         : Codex CLI 84 상승 — Codex-Spark + 슈퍼앱 모멘텀 (5/18)
+         : Copilot 14주 연속 하락 69, 사용량 과금 D-14 (5/18)
+         : Codex CLI 84 상승 — 모바일 확대 + 슈퍼앱 모멘텀 (5/18)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1292,20 +1294,20 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-17)
+### 팩트 체크 로그 (2026-05-18)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), Musk v. Altman 배심원 심리 5/19 시작 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **Code with Claude London D-2** |
+| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **Code with Claude London D-1** (3트랙 + 확장 세션 5/20) |
 | Claude Code | code.claude.com/changelog | **v2.1.141** 최신, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, 훅·플러그인 확장, Git Bash 없이 Windows 지원; 주간 한도 50%↑ 7/13까지 |
-| Cursor | cursor.com/pricing | **클라우드 에이전트 개발 환경**, **3.3 Build in Parallel**, Security Review 베타, **Opsera DevSecOps** 파트너십, SpaceX $600억 인수, **Bugbot 사용량 과금** $1-1.50/회, **Microsoft Teams** 통합 |
+| Cursor | cursor.com/pricing | **3.4 /multitask** 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window, **클라우드 에이전트 개발 환경**, **3.3 Build in Parallel**, Security Review 베타, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** 전체 사용자, Opus 4.7 fast 모드 ~2.5배, **Cognition $250억** 밸류에이션 협상 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-14, Pro에서 Opus 제거, 가입 중단, 14주 연속 하락 70 |
-| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 통합, **Google I/O D-2** |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-14, Pro에서 Opus 제거, 가입 중단, 14주 연속 하락 69 |
+| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 통합, **Gemini Omni 유출**, **Google I/O D-1** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
@@ -1522,6 +1524,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/18 | **Cursor 3.4** — **/multitask** 에디터 내 비동기 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window(대시보드·테이블·다이어그램), PR 리뷰 경험 개선, 빠른 액션 필 | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/13 | **클라우드 에이전트 개발 환경** — 멀티레포 지원, Dockerfile 레이어 캐싱(빌드 70% 가속), 환경별 롤백, 감사 로깅, 스코프드 시크릿 | [cursor.com](https://cursor.com/changelog/05-13-26) |
 | 2026/05/~ | **Microsoft Teams 통합** — Teams 채널에서 @Cursor 멘션으로 클라우드 에이전트에 작업 위임, 컨텍스트 연결 | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/11 | **Bugbot 사용량 기반 과금** — $1-1.50/회, $40/시트/월 구독제 대체, 고노력 모드 버그 35%↑, 6/8 이후 갱신 시 적용 | [cursor.com](https://cursor.com/blog/may-2026-bugbot-changes) |

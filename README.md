@@ -256,11 +256,13 @@ timeline
          : Code with Claude London D-2 — Anthropic developer conference (May 17)
          : Codex CLI rises to 83 — ChatGPT/Codex merger boosts momentum (May 17)
          : GPT-5.3-Codex-Spark research preview — 15x faster, 128K context (May 18)
-         : Google I/O D-1 — Gemini 4 expected tomorrow (May 18)
-         : Code with Claude London D-1 — Anthropic developer conference (May 18)
+         : Gemini Omni video AI model leaked ahead of I/O — remix, in-chat edit, templates (May 18)
+         : Cursor 3.4 — /multitask parallel subagents, interactive canvases in Agents Window (May 18)
+         : Code with Claude London D-1 — 3 tracks (Research, Platform, Code), extended session 5/20 (May 18)
+         : Google I/O D-1 — Gemini 4 or 3.5 expected, Gemini Omni leaked (May 18)
          : Musk v. Altman jury deliberations D-1 (May 18)
-         : Copilot 14-week decline to 69, D-13 to usage-based billing (May 18)
-         : Codex CLI rises to 84 — Codex-Spark + super app momentum (May 18)
+         : Copilot 14-week decline to 69, D-14 to usage-based billing (May 18)
+         : Codex CLI rises to 84 — mobile expansion + super app momentum (May 18)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1311,20 +1313,20 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-17)
+### Fact Check Log (2026-05-18)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), Musk v. Altman jury deliberations begin 5/19 |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **Code with Claude London D-2** |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **Code with Claude London D-1** (3 tracks + extended session 5/20) |
 | Claude Code | code.claude.com/changelog | **v2.1.141** latest, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, hooks/plugins expansion, Windows without Git Bash; weekly limits +50% through Jul 13 |
-| Cursor | cursor.com/pricing | **Dev Environments** for cloud agents, **3.3 Build in Parallel**, Security Review beta, **Opsera DevSecOps** partnership, SpaceX $60B deal, **Bugbot usage-based billing** $1-1.50/run, **Microsoft Teams** integration |
+| Cursor | cursor.com/pricing | **3.4 /multitask** parallel subagents, **interactive canvases** in Agents Window, **Dev Environments** for cloud agents, **3.3 Build in Parallel**, Security Review beta, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, **Cognition $25B** valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-14, Opus removed from Pro, signups paused, 14-week decline to 70 |
-| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 integration, **Google I/O D-2** |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-14, Opus removed from Pro, signups paused, 14-week decline to 69 |
+| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 integration, **Gemini Omni leaked**, **Google I/O D-1** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
@@ -1542,6 +1544,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/18 | **Cursor 3.4** — **/multitask** for async parallel subagents in editor, **interactive canvases** in Agents Window (dashboards, tables, diagrams), PR review experience, quick-action pills for common workflows | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/13 | **Development Environments** for cloud agents — multi-repo support, Dockerfile layer caching (70% faster builds), per-environment rollback, audit logging, scoped secrets | [cursor.com](https://cursor.com/changelog/05-13-26) |
 | 2026/05/~ | **Microsoft Teams integration** — @Cursor in any Teams channel delegates tasks to Cursor cloud agents, pulls context into Teams | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/11 | **Bugbot usage-based billing** — $1-1.50/run replaces $40/seat/mo subscription, high effort mode finds 35% more bugs, effective after June 8 renewal | [cursor.com](https://cursor.com/blog/may-2026-bugbot-changes) |

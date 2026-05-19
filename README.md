@@ -1134,6 +1134,8 @@ timeline
          : Copilot "ad" bug in PRs — Microsoft confirms bug (Mar 31)
          : Gemini Switching Tools — import from ChatGPT/Claude (Mar 27)
          : Claude Mythos Preview + Project Glasswing (Apr 7)
+         : ChatGPT Personal Finance — bank account linking via Plaid (May 15)
+         : Musk v. Altman — jury unanimously rejects all claims (May 19)
 ```
 
 ### Which General Office Tool Is Right for Me?
@@ -1287,6 +1289,12 @@ General Office
 **GitHub Copilot Data Training Backlash** (2026.03.30):
 > *"Starting April 24, GitHub will use all Copilot Free/Pro/Pro+ data for AI training. Opt-out required. Business/Enterprise excluded. 59 thumbs-down vs 3 rockets on the announcement."* — AfterDawn `2026.03.30`
 
+**ChatGPT Personal Finance** (2026.05.15):
+> *"OpenAI launched Personal Finance for Pro subscribers — connect bank accounts via Plaid (12,000+ institutions), see spending, bills, subscriptions, net worth, and investment performance. Data removed within 30 days of disconnecting."* — TechCrunch `2026.05.15`
+
+**Musk v. Altman Verdict** (2026.05.19):
+> *"An Oakland jury unanimously rejected all of Musk's claims against OpenAI in under two hours. Both breach of charitable trust and unjust enrichment claims were barred by the statute of limitations. Musk vowed to appeal to the 9th Circuit."* — NPR `2026.05.19`
+
 ### General Office One-Liner Reviews
 
 | Tool | In a word |
@@ -1327,7 +1335,7 @@ All pricing information has been directly verified from each service's official 
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
+| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **Code with Claude London D-1** (3 tracks + extended session 5/20) |
 | Claude Code | code.claude.com/changelog | **v2.1.144** latest, **Code with Claude London** Day 1, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, /resume background sessions, MCP tunnels, self-hosted sandboxes; weekly limits +50% through Jul 13 |
 | Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **3.4 /multitask** parallel subagents, **interactive canvases** in Agents Window, **Dev Environments** for cloud agents, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
@@ -1456,6 +1464,7 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | 2026/05/19 | **Musk v. Altman verdict** — jury unanimously rejects all claims; breach of charitable trust and unjust enrichment barred by statute of limitations; Musk vows 9th Circuit appeal, calls it "calendar technicality" | [npr.org](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) |
 | 2026/05/16 | **ChatGPT + Codex merger** — Greg Brockman takes charge, merging ChatGPT, Codex, and dev API into single agentic "super app"; Codex expands beyond coding first, then ChatGPT + Atlas fold in | [techcrunch.com](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/) |
+| 2026/05/15 | **ChatGPT Personal Finance** — Pro users ($200/mo) in the US can connect bank accounts via Plaid (12,000+ institutions); spending, bills, subscriptions, net worth, investment dashboards; web + iOS | [techcrunch.com](https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/) |
 | 2026/05/15 | **OpenAI preparing legal action against Apple** over failed ChatGPT integration promises | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) |
 | 2026/05/15 | **TanStack supply-chain attack** — two employee devices compromised, no user data accessed | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/) |
 | 2026/05/15 | **OpenAI CFO signals additional fundraising** beyond $122B round as compute demand intensifies | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says) |

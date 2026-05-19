@@ -1121,6 +1121,8 @@ timeline
          : 국방부 Anthropic 제재 차단 판결 (3/28)
          : Sora 단독 앱 + API 서비스 종료 (3/27)
          : Claude Mythos Preview + Project Glasswing (4/7)
+         : ChatGPT 개인 금융 — Plaid 은행 계좌 연결 (5/15)
+         : Musk v. Altman — 배심원 만장일치 전 청구 기각 (5/19)
 ```
 
 ### 나한테 맞는 일반사무 도구는?
@@ -1268,6 +1270,12 @@ flowchart TD
 **Sora 단독 앱 종료** (2026.03.27):
 > *"OpenAI가 지속 불가능한 추론 비용을 이유로 Sora 단독 앱과 API를 종료했다. 비디오 생성은 ChatGPT Plus/Pro 구독자 전용으로만 유지된다."* — The Verge `2026.03.27`
 
+**ChatGPT 개인 금융** (2026.05.15):
+> *"OpenAI가 Pro 구독자 대상 개인 금융 기능을 출시했다 — Plaid를 통해 12,000개 이상의 금융기관 은행 계좌 연결, 지출·청구서·구독·순자산·투자 실적 확인. 연결 해제 시 30일 이내 데이터 삭제."* — TechCrunch `2026.05.15`
+
+**Musk v. Altman 평결** (2026.05.19):
+> *"Oakland 연방법원 배심원단이 Musk의 OpenAI 상대 전 청구를 2시간도 안 되어 만장일치로 기각했다. 자선 신탁 위반과 부당이득 청구 모두 소멸시효 초과 판결. Musk는 제9순회 항소를 선언했다."* — NPR `2026.05.19`
+
 ### 일반사무 한 줄 평
 
 | 도구 | 한마디 |
@@ -1308,7 +1316,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
+| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **개인 금융** (Pro, Plaid 12K+ 은행), **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **Code with Claude London D-1** (3트랙 + 확장 세션 5/20) |
 | Claude Code | code.claude.com/changelog | **v2.1.144** 최신, **Code with Claude London** 1일차, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, /resume 백그라운드 세션, MCP 터널, 셀프호스팅 샌드박스; 주간 한도 50%↑ 7/13까지 |
 | Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **3.4 /multitask** 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window, **클라우드 에이전트 개발 환경**, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
@@ -1436,6 +1444,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | 2026/05/19 | **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각; 자선 신탁 위반·부당이득 모두 소멸시효 초과; Musk "달력 기술적 문제" 주장하며 제9순회 항소 선언 | [npr.org](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) |
 | 2026/05/16 | **ChatGPT + Codex 통합** — Greg Brockman이 총괄, ChatGPT·Codex·개발자 API를 단일 에이전틱 "슈퍼앱"으로 병합; Codex가 코딩 넘어 확장 후 ChatGPT + Atlas 통합 예정 | [techcrunch.com](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/) |
+| 2026/05/15 | **ChatGPT 개인 금융** — Pro 사용자($200/월) 미국 대상, Plaid 통해 은행 계좌 연결(12,000+ 기관); 지출·청구서·구독·순자산·투자 대시보드; 웹 + iOS | [techcrunch.com](https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/) |
 | 2026/05/15 | **OpenAI, Apple 상대 법적 대응 준비** — ChatGPT 통합 약속 파기에 따른 조치 | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) |
 | 2026/05/15 | **TanStack 공급망 공격** — 직원 2명 디바이스 침해, 사용자 데이터 유출 없음 | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/) |
 | 2026/05/15 | **OpenAI CFO, 추가 자금 조달 시사** — $122B 라운드 넘어 컴퓨트 수요 급증 대응 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says) |

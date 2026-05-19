@@ -267,10 +267,11 @@ timeline
          : OpenAI + Dell 파트너십 — Codex를 하이브리드·온프레미스 엔터프라이즈 환경에 배포 (5/18)
          : Musk v. Altman 평결 — 배심원 만장일치 전 청구 기각, 소멸시효 초과; Musk 제9순회 항소 선언 (5/19)
          : Cursor Composer 2.5 — 자체 모델, SWE-Bench Multilingual 79.8%, Opus 4.7급 성능 (5/19)
-         : Google I/O 2026 키노트 당일 — Gemini 3.5 예상, Antigravity 무료 퍼블릭 프리뷰, Android 17, Googlebooks (5/19)
+         : Google I/O 2026 키노트 — Gemini 3.5 Flash GA (4배 빠른 출력, $1.50/$9/M), Antigravity 2.0 글로벌 출시 (CLI+SDK+데스크톱), AI Ultra $100/월, Gemini Spark 개인 에이전트 (5/19)
+         : Cursor + xAI Colossus 2 파트너십 — 대규모 후속 모델 처음부터 훈련 (5/19)
          : Code with Claude London 1일차 — Research/Platform/Code 3트랙, Claude Code v2.1.144 릴리스 (5/19)
          : Copilot 15주 연속 하락 68, 사용량 과금 D-13 (5/19)
-         : Gemini CLI + Antigravity I/O 당일 급등 — 각각 82, 54로 점프 (5/19)
+         : Gemini CLI + Antigravity I/O 당일 급등 — 각각 85, 62로 점프, Antigravity 역대 최대 일일 급등 (5/19)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -307,7 +308,7 @@ flowchart TD
     D --> D1{"뭐가 중요해?"}
     D1 -->|"탭 자동완성 최강"| DC["Cursor\n$20/월"]
     D1 -->|"대규모 코드베이스"| DW["Windsurf\n$20/월"]
-    D1 -->|"멀티에이전트+브라우저"| DA["Antigravity\n$20/월"]
+    D1 -->|"멀티에이전트+CLI+SDK"| DA["Antigravity 2.0\n$0~100/월"]
     D1 -->|"설계서 먼저 코드 나중"| DK["Kiro\n$20/월"]
     D1 -->|"최저가"| DT["Trae\n$3/월~"]
 
@@ -354,7 +355,7 @@ flowchart TD
 ├── AI IDE
 │   ├── Cursor ·········· 탭 자동완성 최강, $0~200/월
 │   ├── Windsurf ········ Cascade 메모리, $0~200/월
-│   ├── Antigravity ····· Google, 멀티에이전트, $0~250/월
+│   ├── Antigravity ····· Google, 2.0 CLI+SDK, $0~100/월
 │   ├── Kiro ············ AWS, Spec 기반, $0~200/월
 │   ├── Trae ············ ByteDance, 최저가, $0~100/월
 │   └── GitHub Copilot ·· 9+ IDE, $0~39/user/월
@@ -524,11 +525,11 @@ quadrantChart
 |---|---|---|---|---|---|---|
 | **제공사** | Cursor Inc. | Cognition AI | Google DeepMind | AWS | ByteDance | GitHub |
 | **사이트** | [cursor.com](https://cursor.com) | [windsurf.com](https://windsurf.com) | [antigravity.google](https://antigravity.google) | [kiro.dev](https://kiro.dev) | [trae.ai](https://www.trae.ai) | [github.com](https://github.com/features/copilot) |
-| **무료** | O | O | O (프리뷰) | O (50 cr) | **O (강력)** | O (2K/월) |
+| **무료** | O | O | **O (2.0 GA)** | O (50 cr) | **O (강력)** | O (2K/월) |
 | **시작가** | $20/월 | $20/월 | $20/월 (AI Pro) | $20/월 | **$3/월** | **$10/월** |
-| **최고가** | $200/월 | $200/월 | $249.99/월 | $200/월 | $100/월 | $39/user/월 |
-| **모델** | Multi | Multi+SWE-1.5 | Gemini+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
-| **킬러 피처** | Autonomy Slider | Arena Mode + 병렬 에이전트 | Manager View | Spec 기반 EARS | 최저가 | 9+ IDE |
+| **최고가** | $200/월 | $200/월 | $100/월 (AI Ultra) | $200/월 | $100/월 | $39/user/월 |
+| **모델** | Multi+Composer 2.5 | Multi+SWE-1.5 | Gemini 3.5+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
+| **킬러 피처** | Autonomy Slider | Arena Mode + 병렬 에이전트 | 2.0 CLI+SDK+Manager | Spec 기반 EARS | 최저가 | 9+ IDE |
 
 
 ### 커뮤니티 반응: IDE 전쟁
@@ -584,6 +585,12 @@ quadrantChart
 
 **Claude Opus 4.7 정식 출시** (2026.04.16):
 > *"Opus 4.7이 고급 소프트웨어 엔지니어링 작업에서 눈에 띄는 개선을 보였다. 비전이 3.75MP 이미지 지원(기존 1.15MP). 새로운 xhigh 노력도 수준과 작업 예산 기능. API, Bedrock, Vertex, Foundry에서 이용 가능."* — anthropic.com `2026.04.16`
+
+**Antigravity 2.0 정식 출시** (2026.05.19):
+> *"Antigravity 2.0이 데스크톱 앱·CLI·SDK와 함께 전 세계에 정식 출시됐다. AI Ultra 플랜($100/월)은 Pro 대비 5배 한도를 제공한다. Gemini 3.5 Flash 기반."* — TechCrunch `2026.05.19`
+
+**Gemini 3.5 Flash 정식 출시** (2026.05.19):
+> *"Gemini 3.5 Flash가 프론티어 모델 대비 4배 빠른 출력 속도를 자랑하며 Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%를 기록했다. 1M 컨텍스트, $1.50/$9/M 토큰."* — Tom's Guide `2026.05.19`
 
 **Antigravity 9시간 장애** (2026.04.15):
 > *"Google Antigravity가 9시간 이상의 심각한 서비스 장애를 겪었다. 신규 사용자가 온보딩 설정을 완료할 수 없었다."* — Google AI Developers 포럼 `2026.04.15`
@@ -687,7 +694,7 @@ xychart-beta
 | | [Aider](https://aider.chat) | $0 | API 비용만 |
 | | [GitHub Copilot](https://github.com/features/copilot) | $0 | 2,000 완성 + 50 프리미엄/월 |
 | | [Trae](https://www.trae.ai) | $0 | $3 상당 + 5,000 자동완성 |
-| | [Antigravity](https://antigravity.google) | $0 | 프리뷰 무료 |
+| | [Antigravity](https://antigravity.google) | $0 | 2.0 GA 무료 |
 | **~$10** | [Trae Lite](https://www.trae.ai) | $3/월 | $5 상당 사용량 |
 | | [GitHub Copilot Pro](https://github.com/features/copilot) | $10/월 | 무제한 자동완성 + 에이전트 |
 | | [Trae Pro](https://www.trae.ai) | $10/월 | 무제한 자동완성 + $20 상당 |
@@ -699,6 +706,7 @@ xychart-beta
 | **$100+** | [Claude Max](https://claude.com) | $100~200/월 | 5x~20x Pro |
 | | [Cursor Ultra](https://cursor.com) | $200/월 | 20x 사용량 |
 | | [Windsurf Max](https://windsurf.com) | $200/월 | 대용량 할당 |
+| | [Antigravity Ultra](https://antigravity.google) | $100/월 | Pro 대비 5배 AI 한도 |
 
 ### 바이브코더 커뮤니티 반응 (비교 중심)
 
@@ -799,8 +807,8 @@ xychart-beta
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
 | **Claude Code vs Cursor** | 인라인 편집 = Cursor, 자율 멀티파일 = Claude Code |
 | **Cursor vs Windsurf** | 대규모 코드베이스 = Windsurf, 리팩토링 = Cursor |
-| **Cursor vs Antigravity** | 안전성/프로덕션 = Cursor, 자율 실행 = Antigravity |
-| **Windsurf vs Antigravity** | 모델 일관성 = Windsurf, 무료 = Antigravity |
+| **Cursor vs Antigravity** | 안전성/프로덕션 = Cursor, 무료 CLI+SDK = Antigravity 2.0 |
+| **Windsurf vs Antigravity** | 모델 일관성 = Windsurf, 무료 + Gemini 생태계 = Antigravity 2.0 |
 | **Gemini CLI vs Claude Code** | 품질/속도 = Claude Code, 무료 = Gemini CLI |
 | **GitHub Copilot vs Cursor** | VSCode 일상 = Copilot, 대규모 에이전트 = Cursor |
 | **Trae vs Cursor** | 무료 프로토타입 = Trae, 프로덕션 = Cursor |
@@ -815,7 +823,7 @@ xychart-beta
 | **Windsurf** | *"최고의 가성비"* |
 | **Codex CLI** | *"가장 안전한 실행기"* |
 | **Gemini CLI** | *"무료의 왕"* |
-| **Antigravity** | *"$24억짜리 베이트 앤 스위치"* |
+| **Antigravity** | *"2.0 GA로 쿼터 논란 명예회복"* |
 | **Trae** | *"공짜 치곤 너무 좋은데... 대가가 뭐지?"* |
 | **Aider** | *"자유의 상징"* |
 
@@ -842,8 +850,8 @@ xychart-beta
     line "Cursor" [91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96]
     line "Windsurf" [77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81]
     line "Codex CLI" [76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84]
-    line "Gemini CLI" [68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 82]
-    line "Antigravity" [47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 54]
+    line "Gemini CLI" [68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85]
+    line "Antigravity" [47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62]
 ```
 <!-- POPULARITY_CHART_END -->
 
@@ -853,8 +861,8 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_GH_Copilot-68↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81↑-2ECC71?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-84―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-82↑-2ECC71?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-54↑-2ECC71?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-85↑-2ECC71?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-62↑-2ECC71?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1323,7 +1331,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** 전체 사용자, Opus 4.7 fast 모드 ~2.5배, **Cognition $250억** 밸류에이션 협상 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
 | GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-13, Pro에서 Opus 제거, 가입 중단, 15주 연속 하락 68 |
-| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 기본 지원, **Google I/O 키노트 당일**, Gemini 3.5 예상 |
+| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 기본 지원, **Google I/O 키노트: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx) |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
@@ -1332,7 +1340,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Sourcegraph | sourcegraph.com | Cody Free/Pro 2025.07 폐지, Amp 전환 |
 | Trae | docs.trae.ai | 5단계: Free/$3/$10/$30/$100 |
 | Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모) |
-| Antigravity | antigravity.google | Google AI Pro/Ultra 구독의 일부, AgentKit 2.0 |
+| Antigravity | antigravity.google | **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반, 음성 명령, 멀티에이전트 오케스트레이션 |
 
 
 
@@ -1484,6 +1492,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/19 | **Gemini 3.5 Flash GA** — 프론티어 모델 대비 4배 빠른 출력, Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, $1.50/$9/M 토큰, 1M 컨텍스트; Gemini 3.5 Pro 내달 출시 예정 | [tomsguide.com](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates) |
+| 2026/05/19 | **Antigravity 2.0 GA** — 데스크톱 앱·CLI·SDK 전 세계 출시; 멀티에이전트 오케스트레이션, 음성 명령, AI Studio 내보내기; AI Ultra $100/월 (Pro 5배) | [techcrunch.com](https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/) |
+| 2026/05/19 | **Gemini Spark** — Gemini 앱 내 개인 AI 에이전트, Google Cloud VM에서 24/7 작동, Gemini 3.5 기반 | [macrumors.com](https://www.macrumors.com/2026/05/19/google-io-2026-roundup/) |
 | 2026/05/12 | **Gemini CLI v0.42.0** 안정판 — 음성 모드 개선, 세션 내보내기/가져오기, Gemma 4 기본 지원, WSL/터미널 처리 개선 | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/05/12 | **Gemini CLI v0.43.0-preview.0** — 서브에이전트 프로토콜(Local/Remote AgentProtocol), 정밀 코드 편집 도구 유도, 적응형 토큰 계산, 병렬 도구 호출 ID 충돌 수정 | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/05/09 | **Gemini CLI v0.41.2** — 실시간 음성 모드, 오프라인 지원, Gemma 4 통합, 워크스페이스 신뢰 기반 .env 보안 로딩 | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
@@ -1545,7 +1556,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
-| 2026/05/19 | **Composer 2.5** — Cursor 자체 모델, SWE-Bench Multilingual 79.8%, CursorBench v3.1 63.2%, Opus 4.7/GPT-5.5급 성능; 입력 $0.50/M, 출력 $2.50/M (스탠다드) | [cursor.com](https://cursor.com/blog/composer-2-5) |
+| 2026/05/19 | **Composer 2.5** — Cursor 자체 모델, SWE-Bench Multilingual 79.8%, CursorBench v3.1 63.2%, Opus 4.7/GPT-5.5급 성능; 입력 $0.50/M, 출력 $2.50/M (스탠다드); **xAI Colossus 2 파트너십**으로 대규모 후속 모델 훈련 | [cursor.com](https://cursor.com/blog/composer-2-5) |
 | 2026/05/18 | **Cursor 3.4** — **/multitask** 에디터 내 비동기 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window(대시보드·테이블·다이어그램), PR 리뷰 경험 개선, 빠른 액션 필 | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/13 | **클라우드 에이전트 개발 환경** — 멀티레포 지원, Dockerfile 레이어 캐싱(빌드 70% 가속), 환경별 롤백, 감사 로깅, 스코프드 시크릿 | [cursor.com](https://cursor.com/changelog/05-13-26) |
 | 2026/05/~ | **Microsoft Teams 통합** — Teams 채널에서 @Cursor 멘션으로 클라우드 에이전트에 작업 위임, 컨텍스트 연결 | [cursor.com](https://cursor.com/changelog) |

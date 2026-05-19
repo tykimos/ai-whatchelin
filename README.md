@@ -267,10 +267,11 @@ timeline
          : OpenAI + Dell partner to bring Codex to hybrid/on-premises enterprise environments (May 18)
          : Musk v. Altman verdict — jury unanimously rejects all claims, statute of limitations; Musk vows 9th Circuit appeal (May 19)
          : Cursor Composer 2.5 — own model, 79.8% SWE-Bench Multilingual, matches Opus 4.7 at fraction of cost (May 19)
-         : Google I/O 2026 keynote day — Gemini 3.5 expected, Antigravity free public preview, Android 17, Googlebooks (May 19)
+         : Google I/O 2026 keynote — Gemini 3.5 Flash GA (4x faster, $1.50/$9 per 1M), Antigravity 2.0 global launch (CLI+SDK+desktop), AI Ultra $100/mo, Gemini Spark personal agent (May 19)
+         : Cursor + xAI Colossus 2 partnership — training significantly larger model from scratch (May 19)
          : Code with Claude London Day 1 — Research/Platform/Code tracks, Claude Code v2.1.144 released (May 19)
          : Copilot 15-week decline to 68, D-13 to usage-based billing (May 19)
-         : Gemini CLI + Antigravity surge on I/O day — scores jump to 82 and 54 respectively (May 19)
+         : Gemini CLI + Antigravity surge on I/O day — scores jump to 85 and 62 respectively, Antigravity largest single-day jump ever (May 19)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -307,7 +308,7 @@ flowchart TD
     D --> D1{"What matters most?"}
     D1 -->|"Best tab autocomplete"| DC["Cursor\n$20/mo"]
     D1 -->|"Large codebase"| DW["Windsurf\n$20/mo"]
-    D1 -->|"Multi-agent+browser"| DA["Antigravity\n$20/mo"]
+    D1 -->|"Multi-agent+CLI+SDK"| DA["Antigravity 2.0\n$0~100/mo"]
     D1 -->|"Spec first, code later"| DK["Kiro\n$20/mo"]
     D1 -->|"Lowest price"| DT["Trae\n$3/mo~"]
 
@@ -354,7 +355,7 @@ Vibe Coder
 ├── AI IDE
 │   ├── Cursor ·········· best tab autocomplete, $0~200/mo
 │   ├── Windsurf ········ Cascade memory, $0~200/mo
-│   ├── Antigravity ····· Google, multi-agent, $0~250/mo
+│   ├── Antigravity ····· Google, 2.0 CLI+SDK, $0~100/mo
 │   ├── Kiro ············ AWS, Spec-based, $0~200/mo
 │   ├── Trae ············ ByteDance, lowest price, $0~100/mo
 │   └── GitHub Copilot ·· 9+ IDEs, $0~39/user/mo
@@ -524,11 +525,11 @@ Free            = Gemini CLI + Aider
 |---|---|---|---|---|---|---|
 | **Provider** | Cursor Inc. | Cognition AI | Google DeepMind | AWS | ByteDance | GitHub |
 | **Site** | [cursor.com](https://cursor.com) | [windsurf.com](https://windsurf.com) | [antigravity.google](https://antigravity.google) | [kiro.dev](https://kiro.dev) | [trae.ai](https://www.trae.ai) | [github.com](https://github.com/features/copilot) |
-| **Free** | O | O | O (preview) | O (50 cr) | **O (generous)** | O (2K/mo) |
+| **Free** | O | O | **O (2.0 GA)** | O (50 cr) | **O (generous)** | O (2K/mo) |
 | **Starting Price** | $20/mo | $20/mo | $20/mo (AI Pro) | $20/mo | **$3/mo** | **$10/mo** |
-| **Max Price** | $200/mo | $200/mo | $249.99/mo | $200/mo | $100/mo | $39/user/mo |
-| **Model** | Multi | Multi+SWE-1.5 | Gemini+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
-| **Killer Feature** | Autonomy Slider | Arena Mode + Parallel Agents | Manager View | Spec-based EARS | Lowest price | 9+ IDEs |
+| **Max Price** | $200/mo | $200/mo | $100/mo (AI Ultra) | $200/mo | $100/mo | $39/user/mo |
+| **Model** | Multi+Composer 2.5 | Multi+SWE-1.5 | Gemini 3.5+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
+| **Killer Feature** | Autonomy Slider | Arena Mode + Parallel Agents | 2.0 CLI+SDK+Manager | Spec-based EARS | Lowest price | 9+ IDEs |
 
 
 ### Community Reactions: IDE War
@@ -587,6 +588,12 @@ Free            = Gemini CLI + Aider
 
 **Claude Opus 4.7 GA** (2026.04.16):
 > *"Opus 4.7 shows notable improvements in advanced software engineering tasks. Vision supports 3.75MP images (up from 1.15MP). New xhigh effort level and task budgets feature. Available on API, Bedrock, Vertex, and Foundry."* — anthropic.com `2026.04.16`
+
+**Antigravity 2.0 GA Launch** (2026.05.19):
+> *"Antigravity 2.0 launched globally with desktop app, CLI, and SDK. AI Ultra plan at $100/mo offers 5x Pro limits. Powered by Gemini 3.5 Flash — Google's fastest agentic model."* — TechCrunch `2026.05.19`
+
+**Gemini 3.5 Flash GA** (2026.05.19):
+> *"Gemini 3.5 Flash is 4x faster than other frontier models, scoring 76.2% on Terminal-Bench 2.1 and 83.6% on MCP Atlas. Priced at $1.50/$9 per 1M tokens with 1M context."* — Tom's Guide `2026.05.19`
 
 **Antigravity 9-Hour Outage** (2026.04.15):
 > *"Google Antigravity suffered a critical service disruption persisting over 9 hours. New users couldn't complete onboarding setup."* — Google AI Developers Forum `2026.04.15`
@@ -690,7 +697,7 @@ xychart-beta
 | | [Aider](https://aider.chat) | $0 | API cost only |
 | | [GitHub Copilot](https://github.com/features/copilot) | $0 | 2,000 completions + 50 premium/mo |
 | | [Trae](https://www.trae.ai) | $0 | $3 worth + 5,000 autocomplete |
-| | [Antigravity](https://antigravity.google) | $0 | preview free |
+| | [Antigravity](https://antigravity.google) | $0 | 2.0 GA free tier |
 | **~$10** | [Trae Lite](https://www.trae.ai) | $3/mo | $5 worth usage |
 | | [GitHub Copilot Pro](https://github.com/features/copilot) | $10/mo | unlimited autocomplete + agent |
 | | [Trae Pro](https://www.trae.ai) | $10/mo | unlimited autocomplete + $20 worth |
@@ -702,6 +709,7 @@ xychart-beta
 | **$100+** | [Claude Max](https://claude.com) | $100~200/mo | 5x~20x Pro |
 | | [Cursor Ultra](https://cursor.com) | $200/mo | 20x usage |
 | | [Windsurf Max](https://windsurf.com) | $200/mo | large allocation |
+| | [Antigravity Ultra](https://antigravity.google) | $100/mo | 5x Pro AI limits |
 
 ### Vibe Coder Community Reactions (Comparison)
 
@@ -808,8 +816,8 @@ xychart-beta
 | **Claude Code vs Codex CLI** | follow plans/debug = Claude Code, no limits = Codex CLI |
 | **Claude Code vs Cursor** | inline editing = Cursor, autonomous multi-file = Claude Code |
 | **Cursor vs Windsurf** | large codebase = Windsurf, refactoring = Cursor |
-| **Cursor vs Antigravity** | safety/production = Cursor, autonomous execution = Antigravity |
-| **Windsurf vs Antigravity** | model consistency = Windsurf, free = Antigravity |
+| **Cursor vs Antigravity** | safety/production = Cursor, free CLI+SDK = Antigravity 2.0 |
+| **Windsurf vs Antigravity** | model consistency = Windsurf, free + Gemini ecosystem = Antigravity 2.0 |
 | **Gemini CLI vs Claude Code** | quality/speed = Claude Code, free = Gemini CLI |
 | **GitHub Copilot vs Cursor** | everyday VSCode = Copilot, large-scale agent = Cursor |
 | **Trae vs Cursor** | free prototyping = Trae, production = Cursor |
@@ -824,7 +832,7 @@ xychart-beta
 | **Windsurf** | *"The best value"* |
 | **Codex CLI** | *"The safest executor"* |
 | **Gemini CLI** | *"King of free"* |
-| **Antigravity** | *"$2.4B bait-and-switch"* |
+| **Antigravity** | *"2.0 GA redeemed the quota controversy"* |
 | **Trae** | *"Too good to be free... what's the catch?"* |
 | **Aider** | *"The symbol of freedom"* |
 
@@ -851,8 +859,8 @@ xychart-beta
     line "Cursor" [91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96]
     line "Windsurf" [77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81]
     line "Codex CLI" [76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84]
-    line "Gemini CLI" [68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 82]
-    line "Antigravity" [47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 54]
+    line "Gemini CLI" [68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85]
+    line "Antigravity" [47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62]
 ```
 <!-- POPULARITY_CHART_END -->
 
@@ -862,8 +870,8 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_GH_Copilot-68↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81↑-2ECC71?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-84―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-82↑-2ECC71?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-54↑-2ECC71?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-85↑-2ECC71?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-62↑-2ECC71?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1342,7 +1350,7 @@ All pricing information has been directly verified from each service's official 
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, **Cognition $25B** valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
 | GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-13, Opus removed from Pro, signups paused, 15-week decline to 68 |
-| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 default, **Google I/O keynote day**, Gemini 3.5 expected |
+| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 default, **Google I/O keynote: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx) |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
@@ -1351,7 +1359,7 @@ All pricing information has been directly verified from each service's official 
 | Sourcegraph | sourcegraph.com | Cody Free/Pro discontinued Jul 2025, moved to Amp |
 | Trae | docs.trae.ai | 5 tiers: Free/$3/$10/$30/$100 |
 | Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo) |
-| Antigravity | antigravity.google | part of Google AI Pro/Ultra subscription, AgentKit 2.0 |
+| Antigravity | antigravity.google | **Antigravity 2.0 GA** — desktop app + CLI + SDK, free tier, AI Ultra $100/mo (5x Pro), Gemini 3.5 Flash powered, voice commands, multi-agent orchestration |
 | Midjourney | midjourney.com | V1 video model launched, 5-20sec clips |
 
 
@@ -1504,6 +1512,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/19 | **Gemini 3.5 Flash GA** — 4x faster than frontier models, Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, $1.50/$9 per 1M tokens, 1M context window; Gemini 3.5 Pro coming next month | [tomsguide.com](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates) |
+| 2026/05/19 | **Antigravity 2.0 GA** — global launch with desktop app, CLI tool, SDK for custom workflows; multi-agent orchestration, voice commands, AI Studio export; AI Ultra plan $100/mo (5x Pro limits) | [techcrunch.com](https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/) |
+| 2026/05/19 | **Gemini Spark** — personal AI agent in Gemini app, runs 24/7 on Google Cloud VMs, powered by Gemini 3.5 | [macrumors.com](https://www.macrumors.com/2026/05/19/google-io-2026-roundup/) |
 | 2026/05/12 | **Gemini CLI v0.42.0** stable — voice mode enhancements, session export/import, Gemma 4 default support, improved terminal/WSL handling | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/05/12 | **Gemini CLI v0.43.0-preview.0** — subagent protocols (Local/Remote behind AgentProtocol), edit tool steering for surgical code edits, adaptive token calculation, parallel tool call ID collision fix | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/05/09 | **Gemini CLI v0.41.2** — real-time voice mode, offline support, Gemma 4 integration, secure .env loading with workspace trust | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
@@ -1565,7 +1576,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
-| 2026/05/19 | **Composer 2.5** — Cursor's own model, 79.8% SWE-Bench Multilingual, 63.2% CursorBench v3.1, matches Opus 4.7/GPT-5.5; $0.50/M input, $2.50/M output (standard) | [cursor.com](https://cursor.com/blog/composer-2-5) |
+| 2026/05/19 | **Composer 2.5** — Cursor's own model, 79.8% SWE-Bench Multilingual, 63.2% CursorBench v3.1, matches Opus 4.7/GPT-5.5; $0.50/M input, $2.50/M output (standard); **xAI Colossus 2 partnership** for training larger model from scratch | [cursor.com](https://cursor.com/blog/composer-2-5) |
 | 2026/05/18 | **Cursor 3.4** — **/multitask** for async parallel subagents in editor, **interactive canvases** in Agents Window (dashboards, tables, diagrams), PR review experience, quick-action pills for common workflows | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/13 | **Development Environments** for cloud agents — multi-repo support, Dockerfile layer caching (70% faster builds), per-environment rollback, audit logging, scoped secrets | [cursor.com](https://cursor.com/changelog/05-13-26) |
 | 2026/05/~ | **Microsoft Teams integration** — @Cursor in any Teams channel delegates tasks to Cursor cloud agents, pulls context into Teams | [cursor.com](https://cursor.com/changelog) |

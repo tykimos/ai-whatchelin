@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-18</sub>
+  <sub>마지막 업데이트: 2026-05-19</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.18-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.19-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -265,6 +265,12 @@ timeline
          : Codex CLI 84 상승 — 모바일 확대 + 슈퍼앱 모멘텀 (5/18)
          : Grok Build 베타 출시 — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, SuperGrok Heavy $300/월 (5/18)
          : OpenAI + Dell 파트너십 — Codex를 하이브리드·온프레미스 엔터프라이즈 환경에 배포 (5/18)
+         : Musk v. Altman 평결 — 배심원 만장일치 전 청구 기각, 소멸시효 초과; Musk 제9순회 항소 선언 (5/19)
+         : Cursor Composer 2.5 — 자체 모델, SWE-Bench Multilingual 79.8%, Opus 4.7급 성능 (5/19)
+         : Google I/O 2026 키노트 당일 — Gemini 3.5 예상, Antigravity 무료 퍼블릭 프리뷰, Android 17, Googlebooks (5/19)
+         : Code with Claude London 1일차 — Research/Platform/Code 3트랙, Claude Code v2.1.144 릴리스 (5/19)
+         : Copilot 15주 연속 하락 68, 사용량 과금 D-13 (5/19)
+         : Gemini CLI + Antigravity I/O 당일 급등 — 각각 82, 54로 점프 (5/19)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -829,26 +835,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18"]
+    x-axis ["05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69]
-    line "Cursor" [91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95]
-    line "Windsurf" [76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80]
-    line "Codex CLI" [76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84]
-    line "Gemini CLI" [67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78]
-    line "Antigravity" [47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48]
+    line "Claude Code" [97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68]
+    line "Cursor" [91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96]
+    line "Windsurf" [77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81]
+    line "Codex CLI" [76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84]
+    line "Gemini CLI" [68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 82]
+    line "Antigravity" [47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 54]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-95―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-69↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-80―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-84↑-2ECC71?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-78↑-2ECC71?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-48↑-2ECC71?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Cursor-96↑-2ECC71?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-68↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-81↑-2ECC71?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-84―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-82↑-2ECC71?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-54↑-2ECC71?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1296,20 +1302,20 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-18)
+### 팩트 체크 로그 (2026-05-19)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, Musk v. Altman 배심원 심리 5/19 시작 |
+| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **Code with Claude London D-1** (3트랙 + 확장 세션 5/20) |
-| Claude Code | code.claude.com/changelog | **v2.1.141** 최신, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, 훅·플러그인 확장, Git Bash 없이 Windows 지원; 주간 한도 50%↑ 7/13까지 |
-| Cursor | cursor.com/pricing | **3.4 /multitask** 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window, **클라우드 에이전트 개발 환경**, **3.3 Build in Parallel**, Security Review 베타, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
+| Claude Code | code.claude.com/changelog | **v2.1.144** 최신, **Code with Claude London** 1일차, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, /resume 백그라운드 세션, MCP 터널, 셀프호스팅 샌드박스; 주간 한도 50%↑ 7/13까지 |
+| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **3.4 /multitask** 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window, **클라우드 에이전트 개발 환경**, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** 전체 사용자, Opus 4.7 fast 모드 ~2.5배, **Cognition $250억** 밸류에이션 협상 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-14, Pro에서 Opus 제거, 가입 중단, 14주 연속 하락 69 |
-| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 통합, **Gemini Omni 유출**, **Google I/O D-1** |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-13, Pro에서 Opus 제거, 가입 중단, 15주 연속 하락 68 |
+| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 기본 지원, **Google I/O 키노트 당일**, Gemini 3.5 예상 |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
@@ -1359,6 +1365,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/19 | **Code with Claude London 1일차** — Research·Claude Platform·Claude Code 3트랙; MCP 핵심 주제; 5/20 인디 개발자 확장 세션 | [claude.com](https://claude.com/code-with-claude/london) |
+| 2026/05/19 | Claude Code **v2.1.144** — /resume 백그라운드 세션 재개, MCP 터널 지원, 셀프호스팅 샌드박스, api.anthropic.com 접근 불가 시 시작 행 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/15 | **Claude for Small Business** — 무료 반일 AI 워크숍 + 15개 즉시 실행 에이전트 워크플로우(재무, 운영, 세일즈, HR, CS) | [axios.com](https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb) |
 | 2026/05/15 | **PwC 파트너십** — 엔터프라이즈 딜 실행·기능 혁신에 Claude 투입 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/05/15 | **에이전트 과금 6/15 시행** — 프로그래밍 방식 Claude 사용량이 챗 구독과 분리; Pro $20/월, Max 5x $100, Max 20x $200 크레딧 | [infoworld.com](https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html) |
@@ -1426,8 +1434,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/19 | **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각; 자선 신탁 위반·부당이득 모두 소멸시효 초과; Musk "달력 기술적 문제" 주장하며 제9순회 항소 선언 | [npr.org](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) |
 | 2026/05/16 | **ChatGPT + Codex 통합** — Greg Brockman이 총괄, ChatGPT·Codex·개발자 API를 단일 에이전틱 "슈퍼앱"으로 병합; Codex가 코딩 넘어 확장 후 ChatGPT + Atlas 통합 예정 | [techcrunch.com](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/) |
-| 2026/05/15 | **Musk v. Altman 배심원 심리 시작** — 최종 변론 종료; 9인 배심원이 자선 신탁 위반, 경영진 이익 취득, Microsoft 관여에 대해 자문 평결; 심리 5/19 개시 | [cnbc.com](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html) |
 | 2026/05/15 | **OpenAI, Apple 상대 법적 대응 준비** — ChatGPT 통합 약속 파기에 따른 조치 | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) |
 | 2026/05/15 | **TanStack 공급망 공격** — 직원 2명 디바이스 침해, 사용자 데이터 유출 없음 | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/) |
 | 2026/05/15 | **OpenAI CFO, 추가 자금 조달 시사** — $122B 라운드 넘어 컴퓨트 수요 급증 대응 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says) |
@@ -1528,6 +1536,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/19 | **Composer 2.5** — Cursor 자체 모델, SWE-Bench Multilingual 79.8%, CursorBench v3.1 63.2%, Opus 4.7/GPT-5.5급 성능; 입력 $0.50/M, 출력 $2.50/M (스탠다드) | [cursor.com](https://cursor.com/blog/composer-2-5) |
 | 2026/05/18 | **Cursor 3.4** — **/multitask** 에디터 내 비동기 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window(대시보드·테이블·다이어그램), PR 리뷰 경험 개선, 빠른 액션 필 | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/13 | **클라우드 에이전트 개발 환경** — 멀티레포 지원, Dockerfile 레이어 캐싱(빌드 70% 가속), 환경별 롤백, 감사 로깅, 스코프드 시크릿 | [cursor.com](https://cursor.com/changelog/05-13-26) |
 | 2026/05/~ | **Microsoft Teams 통합** — Teams 채널에서 @Cursor 멘션으로 클라우드 에이전트에 작업 위임, 컨텍스트 연결 | [cursor.com](https://cursor.com/changelog) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-18</sub>
+  <sub>Last updated: 2026-05-19</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.18-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.19-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -265,6 +265,12 @@ timeline
          : Codex CLI rises to 84 — mobile expansion + super app momentum (May 18)
          : Grok Build beta launched — xAI's first coding agent, 8 parallel agents, $300/mo SuperGrok Heavy (May 18)
          : OpenAI + Dell partner to bring Codex to hybrid/on-premises enterprise environments (May 18)
+         : Musk v. Altman verdict — jury unanimously rejects all claims, statute of limitations; Musk vows 9th Circuit appeal (May 19)
+         : Cursor Composer 2.5 — own model, 79.8% SWE-Bench Multilingual, matches Opus 4.7 at fraction of cost (May 19)
+         : Google I/O 2026 keynote day — Gemini 3.5 expected, Antigravity free public preview, Android 17, Googlebooks (May 19)
+         : Code with Claude London Day 1 — Research/Platform/Code tracks, Claude Code v2.1.144 released (May 19)
+         : Copilot 15-week decline to 68, D-13 to usage-based billing (May 19)
+         : Gemini CLI + Antigravity surge on I/O day — scores jump to 82 and 54 respectively (May 19)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -838,26 +844,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18"]
+    x-axis ["05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [96, 97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [81, 80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69]
-    line "Cursor" [91, 91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95]
-    line "Windsurf" [76, 77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80]
-    line "Codex CLI" [76, 76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84]
-    line "Gemini CLI" [67, 68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78]
-    line "Antigravity" [47, 47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48]
+    line "Claude Code" [97, 97, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [80, 79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68]
+    line "Cursor" [91, 91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96]
+    line "Windsurf" [77, 77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81]
+    line "Codex CLI" [76, 77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84]
+    line "Gemini CLI" [68, 70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 82]
+    line "Antigravity" [47, 47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 54]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-95―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-69↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-80―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-84↑-2ECC71?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-78↑-2ECC71?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-48↑-2ECC71?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Cursor-96↑-2ECC71?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-68↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-81↑-2ECC71?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-84―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-82↑-2ECC71?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-54↑-2ECC71?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1315,20 +1321,20 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-18)
+### Fact Check Log (2026-05-19)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, Musk v. Altman jury deliberations begin 5/19 |
+| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **Code with Claude London D-1** (3 tracks + extended session 5/20) |
-| Claude Code | code.claude.com/changelog | **v2.1.141** latest, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, hooks/plugins expansion, Windows without Git Bash; weekly limits +50% through Jul 13 |
-| Cursor | cursor.com/pricing | **3.4 /multitask** parallel subagents, **interactive canvases** in Agents Window, **Dev Environments** for cloud agents, **3.3 Build in Parallel**, Security Review beta, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
+| Claude Code | code.claude.com/changelog | **v2.1.144** latest, **Code with Claude London** Day 1, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, /resume background sessions, MCP tunnels, self-hosted sandboxes; weekly limits +50% through Jul 13 |
+| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **3.4 /multitask** parallel subagents, **interactive canvases** in Agents Window, **Dev Environments** for cloud agents, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, **Cognition $25B** valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-14, Opus removed from Pro, signups paused, 14-week decline to 69 |
-| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 integration, **Gemini Omni leaked**, **Google I/O D-1** |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-13, Opus removed from Pro, signups paused, 15-week decline to 68 |
+| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 default, **Google I/O keynote day**, Gemini 3.5 expected |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
@@ -1379,6 +1385,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/19 | **Code with Claude London Day 1** — Research, Claude Platform, Claude Code tracks; MCP core theme; indie dev extended session May 20 | [claude.com](https://claude.com/code-with-claude/london) |
+| 2026/05/19 | Claude Code **v2.1.144** — /resume for background sessions, MCP tunnel support, self-hosted sandboxes, startup fix for unreachable api.anthropic.com | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/15 | **Claude for Small Business** — free half-day AI workshops + 15 ready-to-run agentic workflows (finance, ops, sales, HR, CS) | [axios.com](https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb) |
 | 2026/05/15 | **PwC partnership** — deploying Claude for enterprise deal execution and function reinvention | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/05/15 | **Agent metering June 15** — programmatic Claude usage separates from chat limits; Pro $20/mo, Max 5x $100, Max 20x $200 credits | [infoworld.com](https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html) |
@@ -1446,8 +1454,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/19 | **Musk v. Altman verdict** — jury unanimously rejects all claims; breach of charitable trust and unjust enrichment barred by statute of limitations; Musk vows 9th Circuit appeal, calls it "calendar technicality" | [npr.org](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) |
 | 2026/05/16 | **ChatGPT + Codex merger** — Greg Brockman takes charge, merging ChatGPT, Codex, and dev API into single agentic "super app"; Codex expands beyond coding first, then ChatGPT + Atlas fold in | [techcrunch.com](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/) |
-| 2026/05/15 | **Musk v. Altman jury deliberating** — closing arguments concluded May 14; 9-juror advisory on charitable trust breach, executive enrichment, Microsoft involvement; deliberations begin May 19 | [cnbc.com](https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html) |
 | 2026/05/15 | **OpenAI preparing legal action against Apple** over failed ChatGPT integration promises | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/) |
 | 2026/05/15 | **TanStack supply-chain attack** — two employee devices compromised, no user data accessed | [techcrunch.com](https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/) |
 | 2026/05/15 | **OpenAI CFO signals additional fundraising** beyond $122B round as compute demand intensifies | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says) |
@@ -1548,6 +1556,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/19 | **Composer 2.5** — Cursor's own model, 79.8% SWE-Bench Multilingual, 63.2% CursorBench v3.1, matches Opus 4.7/GPT-5.5; $0.50/M input, $2.50/M output (standard) | [cursor.com](https://cursor.com/blog/composer-2-5) |
 | 2026/05/18 | **Cursor 3.4** — **/multitask** for async parallel subagents in editor, **interactive canvases** in Agents Window (dashboards, tables, diagrams), PR review experience, quick-action pills for common workflows | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/13 | **Development Environments** for cloud agents — multi-repo support, Dockerfile layer caching (70% faster builds), per-environment rollback, audit logging, scoped secrets | [cursor.com](https://cursor.com/changelog/05-13-26) |
 | 2026/05/~ | **Microsoft Teams integration** — @Cursor in any Teams channel delegates tasks to Cursor cloud agents, pulls context into Teams | [cursor.com](https://cursor.com/changelog) |

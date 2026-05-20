@@ -223,7 +223,7 @@ timeline
          : Copilot 11-week decline to 73 — CVE + Grok sunset D-2 compound trust concerns (May 13)
          : Claude Code v2.1.141 — hooks, plugins, workspace identity federation (May 14)
          : Claude Code weekly limits raised 50% for Pro/Max/Team/Enterprise through Jul 13 (May 14)
-         : Anthropic in talks to acquire Stainless for $300M+ — SDK maker for OpenAI, Google (May 14)
+         : Anthropic in talks to acquire Stainless for $300M+ — SDK maker for OpenAI, Google (May 14, confirmed May 20)
          : Cursor Dev Environments for Cloud Agents — multi-repo, Dockerfile caching (May 13)
          : Copilot Cloud Agent REST API public preview — programmatic agent tasks (May 13)
          : Copilot usage-based billing April reports now downloadable — D-17 to June 1 (May 13)
@@ -277,6 +277,9 @@ timeline
          : Code with Claude London Extended — indie developer demos, office hours, Applied AI workshops (May 20)
          : Copilot 16-week decline to 67, D-12 to usage-based billing (May 20)
          : Antigravity drops to 58 — auto-update backlash erases half of I/O hype (May 20)
+         : Anthropic acquires Stainless for $300M+ — SDK vertical integration play (May 20)
+         : Cursor available in Jira — cloud agents from issue tracker (May 19)
+         : Gemini CLI → Antigravity CLI migration June 18 announced (May 19)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1351,20 +1354,20 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-19)
+### Fact Check Log (2026-05-20)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **Code with Claude London D-1** (3 tracks + extended session 5/20) |
-| Claude Code | code.claude.com/changelog | **v2.1.144** latest, **Code with Claude London** Day 1, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, /resume background sessions, MCP tunnels, self-hosted sandboxes; weekly limits +50% through Jul 13 |
-| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **3.4 /multitask** parallel subagents, **interactive canvases** in Agents Window, **Dev Environments** for cloud agents, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Stainless acquired** for $300M+ (SDK vertical integration), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **CwC London Extended** (Day 2 indie devs) |
+| Claude Code | code.claude.com/changelog | **v2.1.144** latest, **Code with Claude London** Day 1 + Extended, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, /resume background sessions, MCP tunnels, self-hosted sandboxes; weekly limits +50% through Jul 13 |
+| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Cursor in Jira** — cloud agents from issue tracker, **3.4 /multitask** parallel subagents, **interactive canvases** in Agents Window, **Dev Environments** for cloud agents, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, **Cognition $25B** valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-13, Opus removed from Pro, signups paused, 15-week decline to 68 |
-| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, session export/import, Gemma 4 default, **Google I/O keynote: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx) |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **GPT-5.3-Codex LTS** base model for Business/Enterprise, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-12, Opus removed from Pro, signups paused, 16-week decline to 67 |
+| Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
@@ -1373,7 +1376,7 @@ All pricing information has been directly verified from each service's official 
 | Sourcegraph | sourcegraph.com | Cody Free/Pro discontinued Jul 2025, moved to Amp |
 | Trae | docs.trae.ai | 5 tiers: Free/$3/$10/$30/$100 |
 | Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo) |
-| Antigravity | antigravity.google | **Antigravity 2.0 GA** — desktop app + CLI + SDK, free tier, AI Ultra $100/mo (5x Pro), Gemini 3.5 Flash powered, voice commands, multi-agent orchestration |
+| Antigravity | antigravity.google | **Antigravity 2.0 GA** — desktop app + CLI + SDK, free tier, AI Ultra $100/mo (5x Pro), Gemini 3.5 Flash powered; **auto-update fiasco** (May 20) — editor/terminal/file explorer removed, score drops 62→58 |
 | Midjourney | midjourney.com | V1 video model launched, 5-20sec clips |
 
 
@@ -1415,6 +1418,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/05/20 | **Anthropic acquires Stainless** for $300M+ — SDK maker for OpenAI, Google, Cloudflare, Perplexity, Groq; Stainless winds down hosted SDK generator; Anthropic now controls model + MCP + SDK toolchain | [anthropic.com](https://www.anthropic.com/news/anthropic-acquires-stainless) |
 | 2026/05/19 | **Code with Claude London Day 1** — Research, Claude Platform, Claude Code tracks; MCP core theme; indie dev extended session May 20 | [claude.com](https://claude.com/code-with-claude/london) |
 | 2026/05/19 | Claude Code **v2.1.144** — /resume for background sessions, MCP tunnel support, self-hosted sandboxes, startup fix for unreachable api.anthropic.com | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/15 | **Claude for Small Business** — free half-day AI workshops + 15 ready-to-run agentic workflows (finance, ops, sales, HR, CS) | [axios.com](https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb) |

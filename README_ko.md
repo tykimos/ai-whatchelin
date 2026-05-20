@@ -223,7 +223,7 @@ timeline
          : Copilot 11주 연속 하락 73 — CVE + Grok 종료 D-2 신뢰 악화 (5/13)
          : Claude Code v2.1.141 — 훅·플러그인·워크스페이스 신원 연합 (5/14)
          : Claude Code 주간 한도 50% 인상 — Pro/Max/Team/Enterprise, 7/13까지 (5/14)
-         : Anthropic, Stainless $3억+ 인수 협상 — OpenAI·Google용 SDK 제작사 (5/14)
+         : Anthropic, Stainless $3억+ 인수 협상 — OpenAI·Google용 SDK 제작사 (5/14, 5/20 확정)
          : Cursor 클라우드 에이전트 개발 환경 — 멀티레포, Dockerfile 캐싱 (5/13)
          : Copilot 클라우드 에이전트 REST API 공개 미리보기 — 프로그래밍 방식 에이전트 작업 (5/13)
          : Copilot 사용량 기반 과금 4월 보고서 다운로드 가능 — 6/1까지 D-17 (5/13)
@@ -277,6 +277,9 @@ timeline
          : Code with Claude London Extended — 인디 개발자 데모·오피스 아워·Applied AI 워크숍 (5/20)
          : Copilot 16주 연속 하락 67, 사용량 과금 D-12 (5/20)
          : Antigravity 58로 하락 — 자동 업데이트 반발로 I/O 급등분 절반 소실 (5/20)
+         : Anthropic, Stainless $3억+에 인수 확정 — SDK 수직 통합 (5/20)
+         : Cursor Jira 연동 — 이슈 트래커에서 클라우드 에이전트 실행 (5/19)
+         : Gemini CLI → Antigravity CLI 6/18 전환 발표 (5/19)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1332,20 +1335,20 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-19)
+### 팩트 체크 로그 (2026-05-20)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **개인 금융** (Pro, Plaid 12K+ 은행), **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **Code with Claude London D-1** (3트랙 + 확장 세션 5/20) |
-| Claude Code | code.claude.com/changelog | **v2.1.144** 최신, **Code with Claude London** 1일차, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, /resume 백그라운드 세션, MCP 터널, 셀프호스팅 샌드박스; 주간 한도 50%↑ 7/13까지 |
-| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **3.4 /multitask** 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window, **클라우드 에이전트 개발 환경**, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
+| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Stainless $3억+ 인수 확정** (SDK 수직 통합), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **CwC London Extended** (2일차 인디 개발자) |
+| Claude Code | code.claude.com/changelog | **v2.1.144** 최신, **Code with Claude London** 1일차 + Extended, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, /resume 백그라운드 세션, MCP 터널, 셀프호스팅 샌드박스; 주간 한도 50%↑ 7/13까지 |
+| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **3.4 /multitask** 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window, **클라우드 에이전트 개발 환경**, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** 전체 사용자, Opus 4.7 fast 모드 ~2.5배, **Cognition $250억** 밸류에이션 협상 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-13, Pro에서 Opus 제거, 가입 중단, 15주 연속 하락 68 |
-| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, 세션 내보내기/가져오기, Gemma 4 기본 지원, **Google I/O 키노트: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx) |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **GPT-5.3-Codex LTS** Business/Enterprise 기본 모델, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-12, Pro에서 Opus 제거, 가입 중단, 16주 연속 하락 67 |
+| Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
@@ -1354,7 +1357,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Sourcegraph | sourcegraph.com | Cody Free/Pro 2025.07 폐지, Amp 전환 |
 | Trae | docs.trae.ai | 5단계: Free/$3/$10/$30/$100 |
 | Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모) |
-| Antigravity | antigravity.google | **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반, 음성 명령, 멀티에이전트 오케스트레이션 |
+| Antigravity | antigravity.google | **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반; **자동 업데이트 참사** (5/20) — 에디터·터미널·파일 탐색기 삭제, 점수 62→58 |
 
 
 
@@ -1395,6 +1398,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/05/20 | **Anthropic, Stainless $3억+에 인수 확정** — OpenAI·Google·Cloudflare·Perplexity·Groq용 SDK 제작사; Stainless 호스팅 SDK 생성기 종료; Anthropic이 모델 + MCP + SDK 툴체인 수직 통합 | [anthropic.com](https://www.anthropic.com/news/anthropic-acquires-stainless) |
 | 2026/05/19 | **Code with Claude London 1일차** — Research·Claude Platform·Claude Code 3트랙; MCP 핵심 주제; 5/20 인디 개발자 확장 세션 | [claude.com](https://claude.com/code-with-claude/london) |
 | 2026/05/19 | Claude Code **v2.1.144** — /resume 백그라운드 세션 재개, MCP 터널 지원, 셀프호스팅 샌드박스, api.anthropic.com 접근 불가 시 시작 행 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/15 | **Claude for Small Business** — 무료 반일 AI 워크숍 + 15개 즉시 실행 에이전트 워크플로우(재무, 운영, 세일즈, HR, CS) | [axios.com](https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb) |

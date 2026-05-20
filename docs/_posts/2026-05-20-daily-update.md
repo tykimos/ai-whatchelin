@@ -40,4 +40,12 @@ GitHub Copilot dropped to 67, marking its **16th consecutive weekly decline**. T
 | GitHub Copilot | 67 | ↓1 | 16-week slide, new all-time low |
 | Antigravity | 58 | ↓4 | Auto-update fiasco erases half of I/O surge |
 
-Today's theme is the **paradox of execution**. Antigravity posted its biggest-ever day just 24 hours ago, then lost trust with a single botched auto-update. "A good announcement" and "a good launch" aren't the same thing. Meanwhile, Gemini CLI quietly climbed to 86 on Managed Agents API excitement, overtaking Codex CLI (84).
+## Anthropic Acquires Stainless for $300M+
+
+Anthropic confirmed its acquisition of Stainless, the developer tools company behind every official Claude SDK as well as SDKs for OpenAI, Google DeepMind, Cloudflare, Perplexity, and Groq ([Anthropic](https://www.anthropic.com/news/anthropic-acquires-stainless)). Stainless will wind down its hosted SDK generator; existing customers retain ownership of already-generated SDKs. Anthropic now controls the model (Claude), the connectivity standard (MCP), and the SDK toolchain — a vertical integration play for the agent era ([The Register](https://www.theregister.com/ai-ml/2026/05/20/anthropics-stainless-steal-tightens-grip-on-ai-dev-tooling/5243053)).
+
+## Cursor Now Available in Jira
+
+Cursor is now available inside Jira ([Cursor Changelog](https://cursor.com/changelog/05-19-26)). Assign work items to Cursor or @mention it in a comment to spin up a cloud agent that reads the ticket context, builds the fix, and posts a PR link back to Jira. Requires Jira Commercial Cloud with Rovo.
+
+Today's theme is the **paradox of execution**. Antigravity posted its biggest-ever day just 24 hours ago, then lost trust with a single botched auto-update. "A good announcement" and "a good launch" aren't the same thing. Anthropic's Stainless acquisition sends the opposite message — lock down the infrastructure before the announcement. Meanwhile, Gemini CLI quietly climbed to 86 on Managed Agents API excitement, overtaking Codex CLI (84).

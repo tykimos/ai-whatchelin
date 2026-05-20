@@ -40,4 +40,12 @@ GitHub Copilot이 67로 떨어지며 **16주 연속 하락**을 이어갔다. 6�
 | GitHub Copilot | 67 | ↓1 | 16주 연속 하락, 사상 최저 갱신 |
 | Antigravity | 58 | ↓4 | 자동 업데이트 참사로 I/O 급등분 절반 소실 |
 
-오늘의 핵심은 **실행의 역설**이다. Antigravity가 어제 역대 최대 급등을 기록한 바로 다음 날, 자동 업데이트 하나로 신뢰를 잃었다. "좋은 발표"와 "좋은 출시"는 같은 게 아니라는 교훈을 남겼다. 한편 Gemini CLI는 Managed Agents API 공개로 조용히 86까지 올라 Codex CLI(84)를 추월했다.
+## Anthropic, Stainless $3억+에 인수 확정
+
+Anthropic이 OpenAI·Google DeepMind·Cloudflare·Perplexity·Groq 등의 공식 SDK를 만들어온 Stainless를 $3억 이상에 인수했다([Anthropic](https://www.anthropic.com/news/anthropic-acquires-stainless)). Stainless의 호스팅 SDK 생성기는 단계적으로 종료되며, 기존 고객은 이미 생성된 SDK 소유권을 유지한다. 이로써 Anthropic은 모델(Claude)·연결 표준(MCP)·개발자 도구(SDK)를 모두 자체 보유하게 되었다 — 에이전트 시대를 겨냥한 수직 통합 전략이다([The Register](https://www.theregister.com/ai-ml/2026/05/20/anthropics-stainless-steal-tightens-grip-on-ai-dev-tooling/5243053)).
+
+## Cursor Jira 연동 출시
+
+Cursor가 Jira에서 직접 사용 가능해졌다([Cursor Changelog](https://cursor.com/changelog/05-19-26)). 작업 항목을 Cursor에 할당하거나 댓글에서 @Cursor를 태그하면 클라우드 에이전트가 티켓 컨텍스트를 읽고, 수정을 빌드하고, PR 링크를 Jira에 다시 포스팅한다. Jira Commercial Cloud + Rovo가 필요하다.
+
+오늘의 핵심은 **실행의 역설**이다. Antigravity가 어제 역대 최대 급등을 기록한 바로 다음 날, 자동 업데이트 하나로 신뢰를 잃었다. "좋은 발표"와 "좋은 출시"는 같은 게 아니라는 교훈을 남겼다. Anthropic의 Stainless 인수는 정반대의 메시지를 던진다 — 발표보다 인프라를 먼저 확보하는 전략이다. 한편 Gemini CLI는 Managed Agents API 공개로 조용히 86까지 올라 Codex CLI(84)를 추월했다.

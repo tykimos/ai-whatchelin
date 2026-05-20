@@ -280,6 +280,9 @@ timeline
          : Anthropic, Stainless $3억+에 인수 확정 — SDK 수직 통합 (5/20)
          : Cursor Jira 연동 — 이슈 트래커에서 클라우드 에이전트 실행 (5/19)
          : Gemini CLI → Antigravity CLI 6/18 전환 발표 (5/19)
+         : Copilot 웹 채팅에서 Gemini + GPT-5.2 Codex + GPT-5.4 nano 삭제 (5/20)
+         : Codex CLI v0.129.0 — Vim 모드 TUI, Chrome 확장, codex doctor (5/20)
+         : Stainless 플랫폼 9/1 종료 — OpenAI·Google SDK 자체 유지보수 강제 (5/20)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -609,6 +612,12 @@ quadrantChart
 **Code with Claude London Extended** (2026.05.20):
 > *"Anthropic이 인디 개발자와 초기 창업가를 위한 2일차를 추가했다 — 데모, 오피스 아워, Applied AI 팀의 노트북 오픈 워크숍. '1일차에서는 새 소식을 듣고, Extended에서는 실전에서 직접 본다.'"* — claude.com `2026.05.20`
 
+**Copilot 웹 채팅 모델 대거 삭제** (2026.05.20):
+> *"Copilot 웹 채팅에서 모든 Gemini 모델, GPT-5.2 Codex, GPT-5.4 nano가 삭제됐다. OpenAI와 Claude 모델만 남았다. GitHub: '일관되고 고품질의 응답을 보장하기 위해.' 유료 플랜에는 별도로 Gemini 3.5 Flash가 추가."* — GitHub Changelog `2026.05.20`
+
+**Codex CLI v0.129.0** (2026.05.20):
+> *"TUI에 모달 Vim 편집 모드, 브라우저 작업용 Codex Chrome 확장(사이트별 승인), codex doctor 원커맨드 진단, Python SDK openai-codex/openai_codex로 재구조화 및 동시 턴 라우팅."* — OpenAI Codex Changelog `2026.05.20`
+
 **Antigravity 9시간 장애** (2026.04.15):
 > *"Google Antigravity가 9시간 이상의 심각한 서비스 장애를 겪었다. 신규 사용자가 온보딩 설정을 완료할 수 없었다."* — Google AI Developers 포럼 `2026.04.15`
 
@@ -866,7 +875,7 @@ xychart-beta
     line "GH Copilot" [79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67]
     line "Cursor" [91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96]
     line "Windsurf" [77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81]
-    line "Codex CLI" [77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 84]
+    line "Codex CLI" [77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85]
     line "Gemini CLI" [70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86]
     line "Antigravity" [47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58]
 ```
@@ -877,7 +886,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-67↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-84―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-85↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-86↑-2ECC71?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-58↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>

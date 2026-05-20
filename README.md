@@ -280,6 +280,9 @@ timeline
          : Anthropic acquires Stainless for $300M+ — SDK vertical integration play (May 20)
          : Cursor available in Jira — cloud agents from issue tracker (May 19)
          : Gemini CLI → Antigravity CLI migration June 18 announced (May 19)
+         : Copilot purges Gemini + GPT-5.2 Codex + GPT-5.4 nano from web chat (May 20)
+         : Codex CLI v0.129.0 — Vim mode TUI, Chrome extension, codex doctor (May 20)
+         : Stainless platform shutdown September 1 — OpenAI/Google must self-maintain SDKs (May 20)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -612,6 +615,12 @@ Free            = Gemini CLI + Aider
 **Code with Claude London Extended** (2026.05.20):
 > *"Anthropic added a second day for indie developers and early-stage founders — demos, office hours, and laptops-open workshops from the Applied AI team. 'Day 1 is where you hear what's new. Extended is where you see it in the wild.'"* — claude.com `2026.05.20`
 
+**Copilot Purges Models from Web Chat** (2026.05.20):
+> *"All Gemini models, GPT-5.2 Codex, and GPT-5.4 nano removed from Copilot Chat on the web. Only OpenAI and Claude models remain. GitHub: 'deliver more consistent, high-quality responses.' Gemini 3.5 Flash added separately to paid plans."* — GitHub Changelog `2026.05.20`
+
+**Codex CLI v0.129.0** (2026.05.20):
+> *"Modal Vim editing in TUI, Codex Chrome extension for browser tasks with per-site approvals, codex doctor one-command diagnostics, Python SDK restructured to openai-codex/openai_codex with concurrent turn routing."* — OpenAI Codex Changelog `2026.05.20`
+
 **Antigravity 9-Hour Outage** (2026.04.15):
 > *"Google Antigravity suffered a critical service disruption persisting over 9 hours. New users couldn't complete onboarding setup."* — Google AI Developers Forum `2026.04.15`
 
@@ -875,7 +884,7 @@ xychart-beta
     line "GH Copilot" [79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67]
     line "Cursor" [91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96]
     line "Windsurf" [77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81]
-    line "Codex CLI" [77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 84]
+    line "Codex CLI" [77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85]
     line "Gemini CLI" [70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86]
     line "Antigravity" [47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58]
 ```
@@ -886,7 +895,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-67↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-84―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-85↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-86↑-2ECC71?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-58↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>

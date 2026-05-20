@@ -21,9 +21,15 @@ The real developer sessions kicked off today. **Managed Agents in the Gemini API
 
 Anthropic is running Day 2 in London exclusively for indie developers and early-stage founders ([claude.com](https://claude.com/code-with-claude/london-extended)). Demos, office hours, and laptops-open workshops from the Applied AI team run all day. Yesterday's **Claude Code v2.1.144** — with /resume for background sessions, MCP tunnels, and self-hosted sandboxes — gets hands-on testing in real-world projects.
 
-## Copilot: 16-Week Slide Continues, D-12
+## Copilot: 16-Week Slide Continues, D-12 — Gemini Models Purged from Web Chat
 
 GitHub Copilot dropped to 67, marking its **16th consecutive weekly decline**. Twelve days remain until usage-based billing on June 1 — code completions and Next Edit suggestions stay free, but Chat, CLI, Cloud Agent, Spaces, and Spark all consume AI Credits ([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). The community continues to criticize the Pro+ structure where $39/mo includes only $39 in credits — effectively "pay the same, get less."
+
+Today GitHub **removed all Gemini models, GPT-5.2 Codex, and GPT-5.4 nano** from Copilot Chat on the web ([GitHub Changelog](https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web/)). The stated reason: "deliver more consistent, high-quality responses" by limiting the model list. Only OpenAI and Claude models remain. Separately, paid plans (Pro/Pro+/Business/Enterprise) gained Gemini 3.5 Flash yesterday ([GitHub Changelog](https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot/)).
+
+## Codex CLI v0.129.0 — Vim Mode, Chrome Extension, codex doctor
+
+OpenAI shipped Codex CLI v0.129.0/v0.130.0 with a major workflow update ([OpenAI Codex Changelog](https://developers.openai.com/codex/changelog)). Highlights: **modal Vim editing in the TUI**, a new **Codex Chrome extension** that lets the agent use your signed-in browser state for web tasks, and `codex doctor` for one-command diagnostics across runtime, auth, network, and config. The Python SDK moved to `openai-codex/openai_codex` with pinned types and concurrent turn routing.
 
 ## Market Pulse
 
@@ -34,7 +40,7 @@ GitHub Copilot dropped to 67, marking its **16th consecutive weekly decline**. T
 | Cursor | 96 | — | Composer 2.5 settling in, xAI partnership buzz |
 | Claude AI | 93 | — | CwC London Extended, agent metering D-26 |
 | Gemini CLI | 86 | ↑1 | I/O Day 2 Managed Agents API unveiled |
-| Codex CLI | 84 | — | Dell partnership steady |
+| Codex CLI | 85 | ↑1 | v0.129.0 Vim mode + Chrome extension |
 | Windsurf | 81 | — | Devin Review/Terminal GA |
 | Aider | 68 | — | Stable, 41.6K GitHub stars |
 | GitHub Copilot | 67 | ↓1 | 16-week slide, new all-time low |
@@ -42,10 +48,10 @@ GitHub Copilot dropped to 67, marking its **16th consecutive weekly decline**. T
 
 ## Anthropic Acquires Stainless for $300M+
 
-Anthropic confirmed its acquisition of Stainless, the developer tools company behind every official Claude SDK as well as SDKs for OpenAI, Google DeepMind, Cloudflare, Perplexity, and Groq ([Anthropic](https://www.anthropic.com/news/anthropic-acquires-stainless)). Stainless will wind down its hosted SDK generator; existing customers retain ownership of already-generated SDKs. Anthropic now controls the model (Claude), the connectivity standard (MCP), and the SDK toolchain — a vertical integration play for the agent era ([The Register](https://www.theregister.com/ai-ml/2026/05/20/anthropics-stainless-steal-tightens-grip-on-ai-dev-tooling/5243053)).
+Anthropic confirmed its acquisition of Stainless, the developer tools company behind every official Claude SDK as well as SDKs for OpenAI, Google DeepMind, Cloudflare, Perplexity, and Groq ([Anthropic](https://www.anthropic.com/news/anthropic-acquires-stainless)). The Stainless platform **shuts down September 1, 2026**, forcing OpenAI and others to maintain their own SDKs ([TechCrunch](https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/)). This is Anthropic's fourth acquisition in six months (Bun Dec, Vercept Feb, Coefficient Bio Apr) — each targeting a different layer of the agent stack ([The Register](https://www.theregister.com/ai-ml/2026/05/20/anthropics-stainless-steal-tightens-grip-on-ai-dev-tooling/5243053)).
 
 ## Cursor Now Available in Jira
 
 Cursor is now available inside Jira ([Cursor Changelog](https://cursor.com/changelog/05-19-26)). Assign work items to Cursor or @mention it in a comment to spin up a cloud agent that reads the ticket context, builds the fix, and posts a PR link back to Jira. Requires Jira Commercial Cloud with Rovo.
 
-Today's theme is the **paradox of execution**. Antigravity posted its biggest-ever day just 24 hours ago, then lost trust with a single botched auto-update. "A good announcement" and "a good launch" aren't the same thing. Anthropic's Stainless acquisition sends the opposite message — lock down the infrastructure before the announcement. Meanwhile, Gemini CLI quietly climbed to 86 on Managed Agents API excitement, overtaking Codex CLI (84).
+Today's theme is the **paradox of execution**. Antigravity posted its biggest-ever day just 24 hours ago, then lost trust with a single botched auto-update. "A good announcement" and "a good launch" aren't the same thing. Copilot is thinning its model roster on web — purging Gemini and older GPT variants — while Anthropic's Stainless acquisition sends the opposite message: lock down the infrastructure before the announcement. Meanwhile, Gemini CLI quietly climbed to 86 on Managed Agents API excitement, overtaking Codex CLI (84).

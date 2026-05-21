@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-20</sub>
+  <sub>마지막 업데이트: 2026-05-21</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.20-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.21-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -283,6 +283,12 @@ timeline
          : Copilot 웹 채팅에서 Gemini + GPT-5.2 Codex + GPT-5.4 nano 삭제 (5/20)
          : Codex CLI v0.129.0 — Vim 모드 TUI, Chrome 확장, codex doctor (5/20)
          : Stainless 플랫폼 9/1 종료 — OpenAI·Google SDK 자체 유지보수 강제 (5/20)
+         : Anthropic CNBC 디스럽터 50 1위 — $300억 런레이트, Q1 매출 80배 성장 (5/21)
+         : KPMG-Anthropic 글로벌 제휴 — 27만 6천 명에 Claude 배포 (5/21)
+         : Claude Code v2.1.145 — /code-review 명령어, MCP 페이지네이션 수정 (5/21)
+         : Code with Claude London Extended 최종일 — 인디 개발자 워크숍 (5/21)
+         : Antigravity 2.0 롤백 사태 3일째 — 포럼 폭주, 55로 하락 (5/21)
+         : Copilot 17주 연속 하락 66, GPT-5.3-Codex 기본 모델 강제 전환 (5/21)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -618,6 +624,18 @@ quadrantChart
 **Codex CLI v0.129.0** (2026.05.20):
 > *"TUI에 모달 Vim 편집 모드, 브라우저 작업용 Codex Chrome 확장(사이트별 승인), codex doctor 원커맨드 진단, Python SDK openai-codex/openai_codex로 재구조화 및 동시 턴 라우팅."* — OpenAI Codex Changelog `2026.05.20`
 
+**Anthropic CNBC 디스럽터 50 1위** (2026.05.21):
+> *"Anthropic이 OpenAI를 제치고 2026 CNBC 디스럽터 50 1위에 올랐다. 연간 매출 런레이트 $300억 돌파 — 지난해 말 $90억에서 급등. CEO Dario Amodei는 Q1 매출이 80배 성장했다고 밝혔다."* — CNBC `2026.05.19`
+
+**KPMG-Anthropic 글로벌 제휴** (2026.05.21):
+> *"KPMG가 Anthropic과 글로벌 제휴를 체결하고 Digital Gateway에 Claude를 통합한다. 138개국 27만 6천 명 이상의 직원이 접근 가능. 세금·법률 에이전트 워크플로우를 Cowork과 Managed Agents로 구축. Big Four 최초의 전면 Claude 도입."* — Anthropic `2026.05.19`
+
+**Claude Code v2.1.145** (2026.05.21):
+> *"/simplify가 /code-review로 이름 변경, 노력도 수준 설정 추가(/code-review high). 자동 모드에서 AskUserQuestion 억제 수정. MCP paginated tools/list에서 첫 페이지 이후 도구 누락 수정. Bedrock/Vertex 'Opus (1M context)' 피커 회귀 수정."* — code.claude.com/changelog `2026.05.21`
+
+**Copilot GPT-5.3-Codex 기본 모델 전환** (2026.05.17):
+> *"GPT-5.3-Codex가 모든 Copilot Business 및 Enterprise 조직의 기본 모델로 전환됐다. GPT-4.1을 대체하며, 최초 LTS 모델로 2027년 2월 4일까지 사용 가능. GPT-4.1은 6월 1일 지원 종료까지 0x 승수로 유지."* — GitHub Changelog `2026.05.17`
+
 **Antigravity 9시간 장애** (2026.04.15):
 > *"Google Antigravity가 9시간 이상의 심각한 서비스 장애를 겪었다. 신규 사용자가 온보딩 설정을 완료할 수 없었다."* — Google AI Developers 포럼 `2026.04.15`
 
@@ -869,26 +887,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20"]
+    x-axis ["05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [97, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [79, 78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67]
-    line "Cursor" [91, 93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96]
-    line "Windsurf" [77, 77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81]
-    line "Codex CLI" [77, 77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85]
-    line "Gemini CLI" [70, 70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86]
-    line "Antigravity" [47, 49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "GH Copilot" [78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66]
+    line "Cursor" [93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96]
+    line "Windsurf" [77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81]
+    line "Codex CLI" [77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85]
+    line "Gemini CLI" [70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86]
+    line "Antigravity" [49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-67↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-66↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-85↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-86↑-2ECC71?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-58↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-85―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-86―-3498DB?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-55↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 

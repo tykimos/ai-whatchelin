@@ -291,6 +291,8 @@ timeline
          : Copilot 17-week decline to 66, GPT-5.3-Codex forced as base model (May 21)
          : Anthropic-Microsoft Maia chip talks — 30%+ more tokens/dollar (May 21)
          : Anthropic-Gates Foundation $200M partnership — health, education, agriculture (May 21)
+         : Anthropic Q2 revenue $10.9B, first profitable quarter expected — $559M operating profit (May 21)
+         : Copilot CLI v1.0.51 — /security-review command, session resumption, faster MCP loading (May 21)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -643,6 +645,12 @@ Free            = Gemini CLI + Aider
 
 **Anthropic-Gates Foundation $200M Partnership** (2026.05.21):
 > *"Anthropic and the Gates Foundation announced a $200 million, four-year partnership spanning health, education, and agriculture — the largest AI-philanthropy deal ever, 4x OpenAI's $50M Gates deal. Includes grant funding, API credits, and technical support for polio/HPV research, AI tutoring, and precision agriculture in local languages."* — Anthropic `2026.05.21`
+
+**Anthropic Q2 Revenue $10.9B — First Profitable Quarter** (2026.05.21):
+> *"Anthropic is on track to generate $10.9 billion in revenue during Q2, topping the company's sales for all of last year. If Anthropic hits that target, it will post its first profitable quarter with a $559 million operating profit. Q1 revenue was $4.8 billion — meaning sales more than doubled in a matter of months."* — CNBC `2026.05.20`
+
+**Copilot CLI v1.0.51** (2026.05.21):
+> *"New /security-review slash command reviews code changes for security vulnerabilities (experimental). Also includes session ID resumption, /remote command enhancements, customizable status line, and faster MCP tool loading startup."* — GitHub Copilot CLI Changelog `2026.05.20`
 
 **Copilot GPT-5.3-Codex Base Model** (2026.05.17):
 > *"GPT-5.3-Codex is now the base model for all Copilot Business and Enterprise organizations, replacing GPT-4.1. First LTS model — available through February 4, 2027. GPT-4.1 stays at 0x multiplier until June 1 deprecation."* — GitHub Changelog `2026.05.17`

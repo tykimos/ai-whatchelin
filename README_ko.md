@@ -289,6 +289,8 @@ timeline
          : Code with Claude London Extended 최종일 — 인디 개발자 워크숍 (5/21)
          : Antigravity 2.0 롤백 사태 3일째 — 포럼 폭주, 55로 하락 (5/21)
          : Copilot 17주 연속 하락 66, GPT-5.3-Codex 기본 모델 강제 전환 (5/21)
+         : Anthropic-Microsoft Maia 칩 협상 — 토큰당 비용 30%+ 절감 (5/21)
+         : Anthropic-Gates Foundation $2억 파트너십 — 보건·교육·농업 (5/21)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -632,6 +634,12 @@ quadrantChart
 
 **Claude Code v2.1.145** (2026.05.21):
 > *"/simplify가 /code-review로 이름 변경, 노력도 수준 설정 추가(/code-review high). 자동 모드에서 AskUserQuestion 억제 수정. MCP paginated tools/list에서 첫 페이지 이후 도구 누락 수정. Bedrock/Vertex 'Opus (1M context)' 피커 회귀 수정."* — code.claude.com/changelog `2026.05.21`
+
+**Anthropic-Microsoft Maia 칩 협상** (2026.05.21):
+> *"Anthropic이 Microsoft의 Maia AI 칩으로 구동되는 서버 임대를 위한 초기 협상에 들어갔다. Maia 200 추론 칩은 경쟁 가속기 대비 달러당 토큰 30% 이상 우위. 이 계약은 Amazon·Google·Nvidia·SpaceX에 이어 Anthropic의 컴퓨트 다각화를 확대하고, Microsoft에는 첫 대형 Maia 고객이 될 전망이다."* — Bloomberg `2026.05.21`
+
+**Anthropic-Gates Foundation $2억 파트너십** (2026.05.21):
+> *"Anthropic과 게이츠 재단이 $2억 규모 4년 파트너십을 발표 — 보건·교육·농업 분야. AI-자선단체 간 역대 최대 규모로, OpenAI의 $5천만 게이츠 계약의 4배. 보조금·API 크레딧·기술 지원을 통해 소아마비/HPV 연구, AI 과외, 현지 언어 정밀 농업을 추진한다."* — Anthropic `2026.05.21`
 
 **Copilot GPT-5.3-Codex 기본 모델 전환** (2026.05.17):
 > *"GPT-5.3-Codex가 모든 Copilot Business 및 Enterprise 조직의 기본 모델로 전환됐다. GPT-4.1을 대체하며, 최초 LTS 모델로 2027년 2월 4일까지 사용 가능. GPT-4.1은 6월 1일 지원 종료까지 0x 승수로 유지."* — GitHub Changelog `2026.05.17`

@@ -289,6 +289,8 @@ timeline
          : Code with Claude London Extended final day — indie dev workshops (May 21)
          : Antigravity 2.0 rollback crisis day 3 — forums flooded, drops to 55 (May 21)
          : Copilot 17-week decline to 66, GPT-5.3-Codex forced as base model (May 21)
+         : Anthropic-Microsoft Maia chip talks — 30%+ more tokens/dollar (May 21)
+         : Anthropic-Gates Foundation $200M partnership — health, education, agriculture (May 21)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -635,6 +637,12 @@ Free            = Gemini CLI + Aider
 
 **Claude Code v2.1.145** (2026.05.21):
 > *"/simplify renamed to /code-review with effort levels (/code-review high). Auto mode no longer suppresses AskUserQuestion. MCP paginated tools/list fixed — items past page 1 were silently dropped. Bedrock/Vertex 'Opus (1M context)' picker regression fixed."* — code.claude.com/changelog `2026.05.21`
+
+**Anthropic-Microsoft Maia Chip Talks** (2026.05.21):
+> *"Anthropic is in early talks to rent servers powered by Microsoft's Maia AI chips. Maia 200 inference chips deliver 30%+ more tokens per dollar than competing accelerators. The deal would diversify Anthropic's compute beyond Amazon, Google, Nvidia, and SpaceX — and hand Microsoft its first major Maia customer."* — Bloomberg `2026.05.21`
+
+**Anthropic-Gates Foundation $200M Partnership** (2026.05.21):
+> *"Anthropic and the Gates Foundation announced a $200 million, four-year partnership spanning health, education, and agriculture — the largest AI-philanthropy deal ever, 4x OpenAI's $50M Gates deal. Includes grant funding, API credits, and technical support for polio/HPV research, AI tutoring, and precision agriculture in local languages."* — Anthropic `2026.05.21`
 
 **Copilot GPT-5.3-Codex Base Model** (2026.05.17):
 > *"GPT-5.3-Codex is now the base model for all Copilot Business and Enterprise organizations, replacing GPT-4.1. First LTS model — available through February 4, 2027. GPT-4.1 stays at 0x multiplier until June 1 deprecation."* — GitHub Changelog `2026.05.17`

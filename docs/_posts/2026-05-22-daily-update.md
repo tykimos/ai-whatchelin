@@ -1,10 +1,10 @@
 ---
-title: "OpenAI IPO Countdown Begins — $850B+ Filing This Week, Antigravity Day 4, Copilot Falls to 65"
+title: "OpenAI IPO Countdown Begins — $850B+ Filing This Week, Antigravity Double Crisis, Cursor 3.5 Ships"
 date: 2026-05-22
 lang: en
 categories: [news]
-tags: [openai, ipo, antigravity, copilot, codex-cli, grok, socket, intuit]
-excerpt: "OpenAI is preparing to confidentially file its IPO prospectus this week, targeting a September debut at $850B+. Meanwhile, Antigravity's rollback crisis enters day 4 and Copilot slides to 65 — its 18th straight weekly decline."
+tags: [openai, ipo, antigravity, copilot, codex-cli, grok, cursor, socket, manus]
+excerpt: "OpenAI is preparing to confidentially file its IPO prospectus this week, targeting a September debut at $850B+. Antigravity faces a double crisis of rollbacks and rate limits, Cursor ships 3.5, and China blocks Meta's Manus deal."
 ---
 
 OpenAI has reached the final gate on its path to going public. With an $850B+ valuation and a September target for its IPO, the company is about to file its confidential prospectus — while in the AI coding tool market, Antigravity's rollback crisis deepens and Copilot's freefall continues into its 18th week.
@@ -13,9 +13,11 @@ OpenAI has reached the final gate on its path to going public. With an $850B+ va
 
 OpenAI is preparing to confidentially file its IPO prospectus with the SEC as soon as this week, targeting a public debut by September ([CNBC](https://www.cnbc.com/2026/05/20/openai-ipo-filing.html)). Goldman Sachs and Morgan Stanley are leading the offering. The path cleared after the May 19 Musk v. Altman jury unanimously rejected all claims ([TechCrunch](https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/)). Valued at $850B+ in private markets, this would be the largest AI company IPO in history.
 
-## Antigravity 2.0 Rollback Crisis Day 4 — Drops to 53
+## Antigravity Double Crisis — Rollback Day 4 + Rate Limit Explosion
 
-Google's Antigravity 2.0 auto-update fiasco enters its fourth day ([Google AI Developers Forum](https://discuss.ai.google.dev/t/antigravity-2-0-a-rushed-un-tested-release/145483/6)). A config path mismatch wipes extensions and settings, forcing manual rollbacks to v1.23.2. The score that surged to 62 on I/O day has crashed to 53 — most of the initial hype gain erased. Google split the app into three (Antigravity 2.0, IDE, CLI), but developer forum anger shows no signs of cooling. The Gemini CLI to Antigravity CLI migration deadline (June 18) is 27 days away.
+Google's Antigravity 2.0 auto-update fiasco enters its fourth day ([Google AI Developers Forum](https://discuss.ai.google.dev/t/antigravity-2-0-a-rushed-un-tested-release/145483/6)). A config path mismatch wipes extensions and settings, forcing manual rollbacks to v1.23.2. The score that surged to 62 on I/O day has crashed to 53 — most of the initial hype gain erased.
+
+On top of the rollback crisis, a rate limit emergency has erupted. Google was forced to triple Antigravity rate limits twice in a single day after users hit weekly quotas within hours ([9to5Google](https://9to5google.com/2026/05/21/google-has-tripled-gemini-usage-limits-for-antigravity-twice/)). Gemini 3.5 Flash is significantly more resource-intensive — a single prompt can consume several percent of the 5-hour limit block. Google reset all users' quotas twice this week. The Gemini CLI to Antigravity CLI migration deadline (June 18) is 27 days away.
 
 ## Copilot 18-Week Decline to 65 — Usage Billing D-10
 
@@ -28,6 +30,14 @@ Codex CLI's Goal mode has exited experimental and is now a full production featu
 ## Grok Build Daily Updates + xAI Connectors
 
 Elon Musk announced xAI is publishing daily update reports for Grok Build ([Engadget](https://www.engadget.com/2173482/xai-coding-agent-grok-build/)). Still beta-only at $300/mo SuperGrok Heavy, it supports 8 parallel agents and a 2M token context window. Simultaneously, xAI Connectors launched in Grok Web — deep integrations for SharePoint, Outlook, OneDrive, Google Workspace, Notion, GitHub, and Linear.
+
+## Cursor 3.5 Ships — Automations + /multitask Upgrades
+
+Cursor released version 3.5 ([cursor.com/changelog](https://cursor.com/changelog)). Automations lets teams schedule recurring agent workflows. Also new: Jira integration, full-screen Tabs, Compact Chats, improved /multitask parallel agents, a redesigned PR review experience, and BugBot effort levels. The Cursor SDK is now in public beta, enabling programmatic agent invocations.
+
+## China Blocks Meta's $2B Manus Acquisition
+
+China's antitrust regulator blocked Meta's $2 billion attempted acquisition of AI agent startup Manus, citing national security ([Reuters](https://www.reuters.com/technology/china-blocks-meta-manus-acquisition/)) — the first state-level prohibition of an inbound AI acquisition by China. AI geopolitical tensions ratchet higher.
 
 ## AI Security Market Surge — Socket Hits $1B Unicorn
 

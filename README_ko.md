@@ -301,6 +301,9 @@ timeline
          : Runtime (YC P26) 출시 — 샌드박스 코딩 에이전트 환경 (5/22)
          : Socket $6천만 투자유치 $10억 밸류에이션 — AI 공급망 보안 (5/22)
          : Intuit 3,000명+ 해고 — AI 사업 전환 집중 (5/22)
+         : Antigravity 속도 제한 위기 — Google 하루에 제한 3배씩 두 번 상향, Gemini 3.5 Flash 쿼터 소진 (5/22)
+         : Cursor 3.5 — Automations, 전체화면 Tabs, Compact Chats, PR 리뷰 경험 (5/22)
+         : 중국, Meta $20억 Manus 인수 차단 — 국가 차원 첫 AI 인수 금지 (5/22)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -674,6 +677,15 @@ quadrantChart
 
 **Intuit 3,000명+ 해고, AI 전환 집중** (2026.05.22):
 > *"Intuit이 AI 제품에 집중하기 위해 3,000명 이상을 감원한다. 절감분을 AI R&D에 재투자하고 AI 네이티브 엔지니어를 채용할 계획."* — Hacker News `2026.05.22`
+
+**Antigravity 속도 제한 위기** (2026.05.22):
+> *"Google이 사용자들이 주간 쿼터를 몇 시간 만에 소진하자 하루에 두 번이나 Antigravity 속도 제한을 3배로 상향해야 했다. Gemini 3.5 Flash는 리소스 소모가 훨씬 크며, 단일 프롬프트 하나로 5시간 한도의 수 퍼센트를 소비할 수 있다. Google은 이번 주에 전체 사용자 쿼터를 두 번 초기화했다."* — 9to5Google `2026.05.21`
+
+**Cursor 3.5 출시** (2026.05.22):
+> *"Cursor 3.5에 Automations(반복 에이전트 워크플로 스케줄링), Jira 통합, 전체화면 Tabs, Compact Chats, /multitask 병렬 에이전트, 새 PR 리뷰 경험, BugBot 노력도 레벨이 추가됐다. Cursor SDK 퍼블릭 베타 공개."* — cursor.com/changelog `2026.05.20`
+
+**중국, Meta의 Manus 인수 차단** (2026.05.22):
+> *"중국 반독점 규제 당국이 Meta의 중국 AI 에이전트 스타트업 Manus $20억 인수를 국가 안보를 이유로 차단했다 — 중국이 해외 AI 기업 인수를 국가 차원에서 금지한 최초 사례."* — Reuters `2026.05.22`
 
 **Copilot GPT-5.3-Codex 기본 모델 전환** (2026.05.17):
 > *"GPT-5.3-Codex가 모든 Copilot Business 및 Enterprise 조직의 기본 모델로 전환됐다. GPT-4.1을 대체하며, 최초 LTS 모델로 2027년 2월 4일까지 사용 가능. GPT-4.1은 6월 1일 지원 종료까지 0x 승수로 유지."* — GitHub Changelog `2026.05.17`

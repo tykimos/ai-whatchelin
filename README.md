@@ -301,6 +301,9 @@ timeline
          : Runtime (YC P26) launches — sandboxed coding agent environments (May 22)
          : Socket raises $60M at $1B valuation — AI supply chain security (May 22)
          : Intuit lays off 3,000+ to refocus on AI (May 22)
+         : Antigravity rate limit crisis — Google triples limits twice in one day, Gemini 3.5 Flash burns quotas (May 22)
+         : Cursor 3.5 — Automations, full-screen Tabs, Compact Chats, PR review experience (May 22)
+         : China blocks Meta $2B Manus acquisition — first state-level AI deal prohibition (May 22)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -677,6 +680,15 @@ Free            = Gemini CLI + Aider
 
 **Intuit Lays Off 3,000+ for AI Pivot** (2026.05.22):
 > *"Intuit is cutting more than 3,000 jobs to refocus on AI-powered products. The company plans to redeploy savings into AI R&D and hire AI-native engineers."* — Hacker News `2026.05.22`
+
+**Antigravity Rate Limit Crisis** (2026.05.22):
+> *"Google was forced to triple Antigravity rate limits twice in a single day after users hit weekly quotas within hours. Gemini 3.5 Flash is significantly more resource-intensive — a single prompt can consume several percent of the 5-hour limit block. Google reset all users' quotas twice this week."* — 9to5Google `2026.05.21`
+
+**Cursor 3.5 Released** (2026.05.22):
+> *"Cursor 3.5 ships Automations (schedule recurring agent workflows), Jira integration, full-screen Tabs, Compact Chats, parallel agents via /multitask, a new PR review experience, and BugBot effort levels. Cursor SDK now in public beta."* — cursor.com/changelog `2026.05.20`
+
+**China Blocks Meta's Manus Acquisition** (2026.05.22):
+> *"China's antitrust regulator blocked Meta's $2 billion attempted acquisition of Chinese AI agent startup Manus, citing national security — the first state-level prohibition of an inbound AI acquisition by China."* — Reuters `2026.05.22`
 
 **Copilot GPT-5.3-Codex Base Model** (2026.05.17):
 > *"GPT-5.3-Codex is now the base model for all Copilot Business and Enterprise organizations, replacing GPT-4.1. First LTS model — available through February 4, 2027. GPT-4.1 stays at 0x multiplier until June 1 deprecation."* — GitHub Changelog `2026.05.17`

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-21</sub>
+  <sub>Last updated: 2026-05-22</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.21-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.22-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -293,6 +293,14 @@ timeline
          : Anthropic-Gates Foundation $200M partnership — health, education, agriculture (May 21)
          : Anthropic Q2 revenue $10.9B, first profitable quarter expected — $559M operating profit (May 21)
          : Copilot CLI v1.0.51 — /security-review command, session resumption, faster MCP loading (May 21)
+         : OpenAI confidentially files IPO prospectus — September target, $850B+ valuation (May 22)
+         : Antigravity 2.0 rollback crisis day 4 — drops to 53 (May 22)
+         : Copilot 18-week decline to 65, D-10 to usage-based billing (May 22)
+         : Codex CLI Goal mode graduates from experimental — hours-long unsupervised tasks (May 22)
+         : Grok Build daily update mode — xAI publishing daily changelogs (May 22)
+         : Runtime (YC P26) launches — sandboxed coding agent environments (May 22)
+         : Socket raises $60M at $1B valuation — AI supply chain security (May 22)
+         : Intuit lays off 3,000+ to refocus on AI (May 22)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -652,6 +660,24 @@ Free            = Gemini CLI + Aider
 **Copilot CLI v1.0.51** (2026.05.21):
 > *"New /security-review slash command reviews code changes for security vulnerabilities (experimental). Also includes session ID resumption, /remote command enhancements, customizable status line, and faster MCP tool loading startup."* — GitHub Copilot CLI Changelog `2026.05.20`
 
+**OpenAI Confidentially Files IPO Prospectus** (2026.05.22):
+> *"OpenAI is preparing to confidentially file its IPO prospectus as soon as this week, targeting a public debut by September. Valued at $850B+ by private investors. Working with Goldman Sachs and Morgan Stanley. The path cleared after Musk's unanimous jury defeat on May 19."* — CNBC `2026.05.20`
+
+**Codex CLI Goal Mode Graduates** (2026.05.22):
+> *"Goal mode exits experimental — Codex can now drive toward a specific objective for hours or days unsupervised, available across app, IDE extension, and CLI. TUI gains richer session controls and data-driven service-tier commands."* — OpenAI Codex Changelog `2026.05.22`
+
+**Grok Build Daily Updates Mode** (2026.05.22):
+> *"Elon Musk announced xAI is publishing daily update reports for Grok Build. Recent fixes include interactive file browsing, crash protection, and 20KB tool output limits. Still beta-only at $300/mo SuperGrok Heavy. xAI Connectors launched: SharePoint, Outlook, OneDrive, Google Workspace, Notion, GitHub, Linear."* — Engadget `2026.05.20`
+
+**Runtime (YC P26) Launches** (2026.05.22):
+> *"YC-backed startup providing sandboxed coding agent environments for teams. Each agent runs in its own sandbox with audit logs, spend caps, and RBAC. Supports Claude Code and other models. Already live with YC scaleups."* — Hacker News `2026.05.22`
+
+**Socket $60M at $1B Valuation** (2026.05.22):
+> *"Socket raised $60M at a $1 billion valuation to address software supply chain security risks created by AI-generated code at scale — the first unicorn dedicated to AI code security."* — TechCrunch `2026.05.22`
+
+**Intuit Lays Off 3,000+ for AI Pivot** (2026.05.22):
+> *"Intuit is cutting more than 3,000 jobs to refocus on AI-powered products. The company plans to redeploy savings into AI R&D and hire AI-native engineers."* — Hacker News `2026.05.22`
+
 **Copilot GPT-5.3-Codex Base Model** (2026.05.17):
 > *"GPT-5.3-Codex is now the base model for all Copilot Business and Enterprise organizations, replacing GPT-4.1. First LTS model — available through February 4, 2027. GPT-4.1 stays at 0x multiplier until June 1 deprecation."* — GitHub Changelog `2026.05.17`
 
@@ -912,26 +938,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21"]
+    x-axis ["05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22"]
     y-axis "Popularity Score" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [78, 77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66]
-    line "Cursor" [93, 94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96]
-    line "Windsurf" [77, 77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81]
-    line "Codex CLI" [77, 78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85]
-    line "Gemini CLI" [70, 71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86]
-    line "Antigravity" [49, 49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55]
+    line "GH Copilot" [77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65]
+    line "Cursor" [94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96]
+    line "Windsurf" [77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81]
+    line "Codex CLI" [78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86]
+    line "Gemini CLI" [71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85]
+    line "Antigravity" [49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-66↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-65↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-85―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-86―-3498DB?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-55↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-86↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-85↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-53↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 

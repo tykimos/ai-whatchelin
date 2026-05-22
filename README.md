@@ -304,6 +304,9 @@ timeline
          : Antigravity rate limit crisis — Google triples limits twice in one day, Gemini 3.5 Flash burns quotas (May 22)
          : Cursor 3.5 — Automations, full-screen Tabs, Compact Chats, PR review experience (May 22)
          : China blocks Meta $2B Manus acquisition — first state-level AI deal prohibition (May 22)
+         : CNBC: GitHub 12+ outages since March, Copilot market share 67%→51%, security breach 3,800 repos (May 22)
+         : Copilot for Eclipse open-sourced under MIT license (May 21)
+         : Developer disillusionment — 43% of AI-generated code needs debugging in production (May 22)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -689,6 +692,15 @@ Free            = Gemini CLI + Aider
 
 **China Blocks Meta's Manus Acquisition** (2026.05.22):
 > *"China's antitrust regulator blocked Meta's $2 billion attempted acquisition of Chinese AI agent startup Manus, citing national security — the first state-level prohibition of an inbound AI acquisition by China."* — Reuters `2026.05.22`
+
+**CNBC: GitHub Reliability Crisis** (2026.05.22):
+> *"GitHub has suffered 12+ outages over an hour since March due to Azure migration limiting compute capacity. Copilot market share among professional developers dropped from 67% (2025) to 51% (2026), while Cursor jumped to 29%. An attacker compromised an employee device and accessed ~3,800 internal code libraries. Former CEO Thomas Dohmke departed in August and has not been replaced."* — CNBC `2026.05.22`
+
+**Copilot for Eclipse Open-Sourced** (2026.05.21):
+> *"GitHub open-sourced the Copilot for Eclipse client-side plugin under the MIT license — chat, completion, agent, prompt, and integration layers. The AI backend remains closed. Part of GitHub's pivot toward open-source tooling amid declining market share."* — GitHub Blog `2026.05.21`
+
+**Developer Disillusionment with AI Coding Tools** (2026.05.22):
+> *"A VentureBeat survey found 43% of AI-generated code changes need debugging in production. 404 Media reported growing developer complaints about AI tools causing deskilling and producing low-quality code. The tension between AI speed and code quality is escalating."* — VentureBeat/404 Media `2026.05.22`
 
 **Copilot GPT-5.3-Codex Base Model** (2026.05.17):
 > *"GPT-5.3-Codex is now the base model for all Copilot Business and Enterprise organizations, replacing GPT-4.1. First LTS model — available through February 4, 2027. GPT-4.1 stays at 0x multiplier until June 1 deprecation."* — GitHub Changelog `2026.05.17`

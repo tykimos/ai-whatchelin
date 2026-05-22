@@ -3,8 +3,8 @@ title: "OpenAI IPO 초읽기 — $8500억 밸류로 9월 상장 시동, Antigrav
 date: 2026-05-22
 lang: ko
 categories: [news]
-tags: [openai, ipo, antigravity, copilot, codex-cli, grok, cursor, socket, manus]
-excerpt: "OpenAI가 IPO 비밀 신청서를 이번 주 내로 제출할 준비를 하고 있다. Antigravity는 롤백+속도 제한 이중 위기, Cursor는 3.5를 출시했고, 중국이 Meta의 Manus 인수를 차단했다."
+tags: [openai, ipo, antigravity, copilot, codex-cli, grok, cursor, socket, manus, github]
+excerpt: "OpenAI IPO 비밀 신청서 이번 주 제출 임박. CNBC가 GitHub 12회 이상 장애와 Copilot 시장점유율 67%→51% 급락을 보도. AI 생성 코드 43%가 프로덕션 디버깅 필요."
 ---
 
 OpenAI가 기업공개(IPO)로 향하는 마지막 관문에 도달했다. $8,500억 이상 밸류에이션으로 9월 상장을 목표로 비밀 신청서 제출이 임박한 가운데, AI 코딩 도구 시장에서는 Antigravity의 끝 모를 롤백 사태와 Copilot의 18주 연속 하락이 이어지고 있다.
@@ -42,6 +42,14 @@ Cursor가 3.5 버전을 출시했다([cursor.com/changelog](https://cursor.com/c
 ## AI 보안 시장 급성장 — Socket $10억 유니콘
 
 Socket이 $10억 밸류에이션에 $6천만을 투자받았다([TechCrunch](https://techcrunch.com/2026/05/22/socket-raises-60m-ai-supply-chain-security/)). AI 생성 코드 대량 배포에 따른 소프트웨어 공급망 보안 리스크 해결에 초점을 맞춘 최초의 유니콘이다. 별도로 Intuit이 AI 제품 전환을 위해 3,000명 이상을 감원한다고 발표해 AI 시대의 고용 재편이 가속화되고 있다.
+
+## CNBC: GitHub 안정성 위기 — 장애 12회, 시장점유율 67%→51%
+
+CNBC가 GitHub의 심각한 안정성 위기를 보도했다([CNBC](https://www.cnbc.com/2026/05/22/microsoft-was-positioned-to-win-in-ai-coding-outages-got-in-the-way.html)). Azure 마이그레이션으로 컴퓨팅 용량이 제한되면서 3월 이후 1시간 이상 지속된 장애가 12회를 넘겼다. Copilot 시장점유율은 67%(2025)에서 51%(2026)로 급락했고 Cursor가 29%로 치고 올라왔다. 공격자가 직원 기기를 침해해 약 3,800개 내부 코드 라이브러리에 접근한 보안 사고도 발생했다. 전 CEO Thomas Dohmke가 퇴임한 후 후임이 아직 선임되지 않은 상태다.
+
+## 개발자 AI 환멸 — AI 코드 43% 프로덕션 디버깅 필요
+
+VentureBeat 설문에서 AI 생성 코드 변경의 43%가 프로덕션에서 디버깅이 필요하다는 결과가 나왔다([VentureBeat](https://venturebeat.com/technology/43-of-ai-generated-code-changes-need-debugging-in-production-survey-finds/)). 404 Media도 AI 도구가 개발자 역량 저하와 저품질 코드를 유발한다는 불만이 커지고 있다고 보도했다([404 Media](https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/)). AI 코딩 도구의 속도와 품질 사이 긴장이 고조되고 있다.
 
 ## 마켓 펄스
 

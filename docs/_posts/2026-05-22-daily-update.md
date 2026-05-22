@@ -3,8 +3,8 @@ title: "OpenAI IPO Countdown Begins — $850B+ Filing This Week, Antigravity Dou
 date: 2026-05-22
 lang: en
 categories: [news]
-tags: [openai, ipo, antigravity, copilot, codex-cli, grok, cursor, socket, manus]
-excerpt: "OpenAI is preparing to confidentially file its IPO prospectus this week, targeting a September debut at $850B+. Antigravity faces a double crisis of rollbacks and rate limits, Cursor ships 3.5, and China blocks Meta's Manus deal."
+tags: [openai, ipo, antigravity, copilot, codex-cli, grok, cursor, socket, manus, github]
+excerpt: "OpenAI is preparing to confidentially file its IPO prospectus this week at $850B+. CNBC reveals GitHub's 12+ outages and Copilot market share plunge from 67% to 51%, while 43% of AI code needs production debugging."
 ---
 
 OpenAI has reached the final gate on its path to going public. With an $850B+ valuation and a September target for its IPO, the company is about to file its confidential prospectus — while in the AI coding tool market, Antigravity's rollback crisis deepens and Copilot's freefall continues into its 18th week.
@@ -42,6 +42,14 @@ China's antitrust regulator blocked Meta's $2 billion attempted acquisition of A
 ## AI Security Market Surge — Socket Hits $1B Unicorn
 
 Socket raised $60M at a $1 billion valuation to address software supply chain security risks created by AI-generated code at scale ([TechCrunch](https://techcrunch.com/2026/05/22/socket-raises-60m-ai-supply-chain-security/)) — the first unicorn dedicated to AI code security. Separately, Intuit announced it is cutting 3,000+ jobs to refocus on AI-powered products, underscoring the accelerating employment reshuffling in the AI era.
+
+## CNBC: GitHub Reliability Crisis — 12+ Outages, Market Share 67% to 51%
+
+CNBC published a devastating report on GitHub's ongoing reliability crisis ([CNBC](https://www.cnbc.com/2026/05/22/microsoft-was-positioned-to-win-in-ai-coding-outages-got-in-the-way.html)). The Azure migration has constrained compute capacity, causing 12+ outages exceeding one hour since March. Copilot's market share among professional developers dropped from 67% (2025) to 51% (2026), while Cursor surged to 29%. An attacker compromised an employee device and accessed approximately 3,800 internal code libraries. Former CEO Thomas Dohmke departed in August and has not been replaced.
+
+## Developer Disillusionment — 43% of AI Code Needs Production Debugging
+
+A VentureBeat survey found 43% of AI-generated code changes require debugging in production ([VentureBeat](https://venturebeat.com/technology/43-of-ai-generated-code-changes-need-debugging-in-production-survey-finds/)). Separately, 404 Media reported growing developer complaints about AI tools causing deskilling and producing lower-quality code ([404 Media](https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/)). The tension between AI-driven development speed and code quality is escalating.
 
 ## Market Pulse
 

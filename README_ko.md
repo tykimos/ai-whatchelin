@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-22</sub>
+  <sub>마지막 업데이트: 2026-05-23</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.22-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.23-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -307,6 +307,13 @@ timeline
          : CNBC: GitHub 3월 이후 12회 이상 장애, Copilot 시장점유율 67%→51%, 보안 침해 3,800개 코드 저장소 (5/22)
          : Copilot for Eclipse MIT 라이선스 오픈소스화 (5/21)
          : 개발자 환멸 — AI 생성 코드 43% 프로덕션에서 디버깅 필요 (5/22)
+         : Anthropic $300억+ 라운드 5/26 주에 마감 — $9000억+ 밸류에이션으로 OpenAI 추월 (5/22)
+         : Claude Code v2.1.149 — /usage 카테고리 분석, /diff 키보드 스크롤, GFM 체크박스 (5/22)
+         : Grok Build $99 소개 가격 — 6개월간 67% 할인, Musk X에서 홍보 (5/21)
+         : TeamPCP 공급망 웜 확대 — Mistral·EU 집행위·Claude Code 설정 파일 타깃 (5/23)
+         : Copilot 클라우드 에이전트에 Claude Haiku 4.5·GPT-5.4-mini 추가 (5/18)
+         : Copilot 19주 연속 하락 64, 사용량 과금 D-9 (5/23)
+         : Antigravity 2.0 롤백 사태 5일째 — 52로 하락 (5/23)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -699,6 +706,18 @@ quadrantChart
 **개발자 AI 코딩 도구 환멸** (2026.05.22):
 > *"VentureBeat 설문에서 AI 생성 코드 변경의 43%가 프로덕션에서 디버깅이 필요한 것으로 나타났다. 404 Media는 AI 도구가 개발자 역량 저하와 저품질 코드를 유발한다는 불만이 커지고 있다고 보도했다. AI 속도와 코드 품질 사이의 긴장이 고조되고 있다."* — VentureBeat/404 Media `2026.05.22`
 
+**Anthropic $300억+ 라운드 내주 마감** (2026.05.22):
+> *"Anthropic이 5월 26일 주에 $300억 이상의 투자 라운드를 마감할 전망이며, 프리머니 밸류에이션 $9,000억 이상으로 OpenAI의 $8,520억을 넘어 가장 가치 있는 비공개 AI 스타트업이 된다. Sequoia, Dragoneer, Altimeter, Greenoaks가 각 ~$20억을 공동 리드한다."* — Bloomberg `2026.05.22`
+
+**Claude Code v2.1.149** (2026.05.22):
+> *"/usage에 카테고리별 사용량 분석이 추가됐다 — 스킬, 서브에이전트, 플러그인, MCP 서버별 비용. /diff 상세 뷰에 키보드 스크롤(화살표, j/k, PgUp/PgDn) 지원. 마크다운 출력에 GFM 작업 목록 체크박스 렌더링. Enterprise: 클라우드 MCP 커넥터용 allowAllClaudeAiMcps 관리 설정 추가."* — code.claude.com/changelog `2026.05.22`
+
+**Grok Build $99 소개 가격** (2026.05.21):
+> *"xAI가 Grok Build를 첫 6개월간 $99/월에 제공한다 — SuperGrok Heavy($299/월) 대비 67% 할인. Musk가 직접 X에서 홍보해 총 160만+ 조회수를 기록했다. 3단계 워크플로: plan→search→build, 최대 8개 병렬 에이전트."* — Engadget `2026.05.21`
+
+**TeamPCP 공급망 웜 확대** (2026.05.23):
+> *"TeamPCP 공급망 공격의 범위가 GitHub 너머로 확대됐다 — Mistral AI, 유럽연합 집행위원회, 170+ npm 패키지가 피해자로 확인. 악성 Nx Console VS Code 확장이 GitHub 토큰·AWS 키와 함께 Claude Code 설정 파일(~/.claude/settings.json)을 특정 타깃으로 삼았다."* — BuildFastWithAI `2026.05.23`
+
 **Copilot GPT-5.3-Codex 기본 모델 전환** (2026.05.17):
 > *"GPT-5.3-Codex가 모든 Copilot Business 및 Enterprise 조직의 기본 모델로 전환됐다. GPT-4.1을 대체하며, 최초 LTS 모델로 2027년 2월 4일까지 사용 가능. GPT-4.1은 6월 1일 지원 종료까지 0x 승수로 유지."* — GitHub Changelog `2026.05.17`
 
@@ -953,26 +972,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22"]
+    x-axis ["05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23"]
     y-axis "인기 점수" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [77, 76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65]
-    line "Cursor" [94, 94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96]
-    line "Windsurf" [77, 77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81]
-    line "Codex CLI" [78, 79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86]
-    line "Gemini CLI" [71, 72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85]
-    line "Antigravity" [49, 49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53]
+    line "GH Copilot" [76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64]
+    line "Cursor" [94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96]
+    line "Windsurf" [77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81]
+    line "Codex CLI" [79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87]
+    line "Gemini CLI" [72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84]
+    line "Antigravity" [49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-65↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-64↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-86↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-85↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-53↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-87↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-84↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-52↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 

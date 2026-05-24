@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-23</sub>
+  <sub>마지막 업데이트: 2026-05-24</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.23-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.24-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -314,6 +314,8 @@ timeline
          : Copilot 클라우드 에이전트에 Claude Haiku 4.5·GPT-5.4-mini 추가 (5/18)
          : Copilot 19주 연속 하락 64, 사용량 과금 D-9 (5/23)
          : Antigravity 2.0 롤백 사태 5일째 — 52로 하락 (5/23)
+         : Antigravity 2.0 v2.0.0 패치 — "Open IDE" 버튼, 마이그레이션 도구, 전체 쿼터 초기화 (5/24)
+         : Copilot 20주 연속 하락 63, 사용량 과금 D-8 (5/24)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -718,6 +720,9 @@ quadrantChart
 **TeamPCP 공급망 웜 확대** (2026.05.23):
 > *"TeamPCP 공급망 공격의 범위가 GitHub 너머로 확대됐다 — Mistral AI, 유럽연합 집행위원회, 170+ npm 패키지가 피해자로 확인. 악성 Nx Console VS Code 확장이 GitHub 토큰·AWS 키와 함께 Claude Code 설정 파일(~/.claude/settings.json)을 특정 타깃으로 삼았다."* — BuildFastWithAI `2026.05.23`
 
+**Antigravity 2.0 v2.0.0 패치** (2026.05.24):
+> *"Google이 v2.0.0 정식 패치를 배포했다 — 우상단에 잘 보이는 'Open IDE' 버튼, 기존 설치에서 설정·확장을 복원하는 원클릭 마이그레이션 도구, 전 사용자 Gemini 주간 쿼터 전면 초기화. Google은 '팀이 더 잘했어야 했다'고 인정했다."* — Piunikaweb `2026.05.24`
+
 **Copilot GPT-5.3-Codex 기본 모델 전환** (2026.05.17):
 > *"GPT-5.3-Codex가 모든 Copilot Business 및 Enterprise 조직의 기본 모델로 전환됐다. GPT-4.1을 대체하며, 최초 LTS 모델로 2027년 2월 4일까지 사용 가능. GPT-4.1은 6월 1일 지원 종료까지 0x 승수로 유지."* — GitHub Changelog `2026.05.17`
 
@@ -972,26 +977,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23"]
+    x-axis ["05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24"]
     y-axis "인기 점수" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64]
-    line "Cursor" [94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96]
-    line "Windsurf" [77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81]
-    line "Codex CLI" [79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87]
-    line "Gemini CLI" [72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84]
-    line "Antigravity" [49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52]
+    line "GH Copilot" [75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63]
+    line "Cursor" [94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88]
+    line "Gemini CLI" [73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83]
+    line "Antigravity" [49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-64↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-63↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-87↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-84↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-52↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-88↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-83↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-53↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

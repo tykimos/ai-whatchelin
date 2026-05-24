@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-23</sub>
+  <sub>Last updated: 2026-05-24</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.23-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.24-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -314,6 +314,8 @@ timeline
          : Copilot cloud agent adds Claude Haiku 4.5, GPT-5.4-mini for cheap tasks (May 18)
          : Copilot 19-week decline to 64, D-9 to usage-based billing (May 23)
          : Antigravity 2.0 rollback crisis day 5 — drops to 52 (May 23)
+         : Antigravity 2.0 v2.0.0 patch — "Open IDE" button, migration tool, full quota reset (May 24)
+         : Copilot 20-week decline to 63, D-8 to usage-based billing (May 24)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -721,6 +723,9 @@ Free            = Gemini CLI + Aider
 **TeamPCP Supply Chain Worm Expands** (2026.05.23):
 > *"The TeamPCP supply chain attack scope widened beyond GitHub — Mistral AI, the European Commission, and 170+ npm packages confirmed as victims. The malicious Nx Console VS Code extension specifically targeted Claude Code configurations in ~/.claude/settings.json alongside GitHub tokens and AWS keys."* — BuildFastWithAI `2026.05.23`
 
+**Antigravity 2.0 v2.0.0 Patch** (2026.05.24):
+> *"Google pushed the official v2.0.0 patch — a highly visible 'Open IDE' button in the top-right corner, a one-click migration tool to restore settings and extensions, and a full Gemini weekly quota reset for all users. Google acknowledged 'the team should have done better.'"* — Piunikaweb `2026.05.24`
+
 **Copilot GPT-5.3-Codex Base Model** (2026.05.17):
 > *"GPT-5.3-Codex is now the base model for all Copilot Business and Enterprise organizations, replacing GPT-4.1. First LTS model — available through February 4, 2027. GPT-4.1 stays at 0x multiplier until June 1 deprecation."* — GitHub Changelog `2026.05.17`
 
@@ -981,26 +986,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23"]
+    x-axis ["05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24"]
     y-axis "Popularity Score" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [76, 75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64]
-    line "Cursor" [94, 94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96]
-    line "Windsurf" [77, 77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81]
-    line "Codex CLI" [79, 80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87]
-    line "Gemini CLI" [72, 73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84]
-    line "Antigravity" [49, 49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52]
+    line "GH Copilot" [75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63]
+    line "Cursor" [94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88]
+    line "Gemini CLI" [73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83]
+    line "Antigravity" [49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-64↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-63↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-87↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-84↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-52↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-88↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-83↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-53↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

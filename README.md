@@ -319,7 +319,10 @@ timeline
          : PwC-Anthropic expanded alliance — 30K certified, Claude-native finance group (May 14)
          : Gemini CLI v0.43.0 stable — surgical edits, session portability, adaptive tokens (May 22)
          : Copilot CLI v1.0.53-54 — multiline prompts fix, git context, safety filters (May 24)
+         : Claude Code v2.1.150 — internal infrastructure, PowerShell permission bypass fix (May 23)
          : Copilot 21-week decline to 62, D-7 to usage-based billing (May 25)
+         : SpaceX S-1 IPO filing reveals Anthropic pays $1.25B/month for Colossus — $45B total contract (May 25)
+         : Pope Leo XIV Magnifica Humanitas encyclical — Anthropic co-founder Olah co-presents (May 25)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -559,6 +562,12 @@ quadrantChart
 
 **Gemini CLI v0.43.0 Stable** (2026.05.22):
 > *"Surgical code edits via edit tool preference, session portability (export/import via CLI flag), adaptive token estimation for optimized context windows, and LocalSubagentProtocol/RemoteSubagentProtocol behind unified AgentProtocol."* — geminicli.com `2026.05.22`
+
+**SpaceX S-1 Reveals Anthropic $45B Compute Contract** (2026.05.25):
+> *"SpaceX's IPO prospectus disclosed Anthropic pays $1.25 billion per month through May 2029 for 300+ MW of compute and 220,000+ NVIDIA GPUs across Colossus 1 and Colossus 2. At full run rate, $15 billion/year — roughly $41 million per day. Either party can exit with 90 days notice."* — Benzinga/Teslarati `2026.05.25`
+
+**Pope Leo XIV Magnifica Humanitas Encyclical** (2026.05.25):
+> *"Pope Leo XIV presented his first encyclical, 'Magnifica Humanitas,' on AI and human dignity — the 235-page document was co-presented with Anthropic co-founder Christopher Olah. The pope called for robust AI regulation and for developers to prioritize the common good over profit. The first papal encyclical ever co-presented with a tech company founder."* — CNN/Vatican News `2026.05.25`
 
 **2026 Power Stack Formula**:
 ```

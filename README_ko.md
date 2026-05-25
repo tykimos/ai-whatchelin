@@ -319,7 +319,10 @@ timeline
          : PwC-Anthropic 제휴 확대 — 3만 명 인증, Claude 네이티브 금융 사업부 (5/14)
          : Gemini CLI v0.43.0 안정판 — 외과적 편집, 세션 이식성, 적응형 토큰 (5/22)
          : Copilot CLI v1.0.53-54 — 멀티라인 프롬프트, git 컨텍스트, 안전 필터 (5/24)
+         : Claude Code v2.1.150 — 내부 인프라, PowerShell 권한 우회 수정 (5/23)
          : Copilot 21주 연속 하락 62, 사용량 과금 D-7 (5/25)
+         : SpaceX S-1 IPO 신청서 — Anthropic 월 $12.5억 Colossus 비용 공개, 총 $450억 계약 (5/25)
+         : 교황 레오 14세 Magnifica Humanitas 회칙 — Anthropic 공동창업자 Olah 공동 발표 (5/25)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -559,6 +562,12 @@ quadrantChart
 
 **Gemini CLI v0.43.0 안정판** (2026.05.22):
 > *"edit 도구 선호로 외과적 코드 편집, 세션 이식성(CLI 플래그로 내보내기/가져오기), 적응형 토큰 추정으로 컨텍스트 윈도우 최적화, LocalSubagentProtocol/RemoteSubagentProtocol 통합 AgentProtocol 아키텍처."* — geminicli.com `2026.05.22`
+
+**SpaceX S-1, Anthropic $450억 컴퓨트 계약 공개** (2026.05.25):
+> *"SpaceX의 IPO 투자설명서에서 Anthropic이 2029년 5월까지 월 12.5억 달러를 지불해 300MW+ 컴퓨트와 22만+ NVIDIA GPU(Colossus 1·2)를 사용 중인 것이 공개됐다. 연간 150억 달러, 일 약 4,100만 달러. 양측 90일 통보로 해지 가능."* — Benzinga/Teslarati `2026.05.25`
+
+**교황 레오 14세 Magnifica Humanitas 회칙** (2026.05.25):
+> *"교황 레오 14세가 첫 회칙 'Magnifica Humanitas'를 발표했다. AI와 인간 존엄에 관한 235페이지 문서로, Anthropic 공동창업자 Christopher Olah가 공동 발표자로 참여했다. 교황은 AI의 강력한 규제와 이윤보다 공익 우선을 촉구했다. 교황 회칙이 기술 기업 창업자와 공동 발표된 것은 역사상 처음."* — CNN/Vatican News `2026.05.25`
 
 **2026 파워 스택 공식**:
 ```

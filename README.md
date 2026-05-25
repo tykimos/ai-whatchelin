@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-24</sub>
+  <sub>Last updated: 2026-05-25</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.24-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.25-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -316,6 +316,10 @@ timeline
          : Antigravity 2.0 rollback crisis day 5 — drops to 52 (May 23)
          : Antigravity 2.0 v2.0.0 patch — "Open IDE" button, migration tool, full quota reset (May 24)
          : Copilot 20-week decline to 63, D-8 to usage-based billing (May 24)
+         : PwC-Anthropic expanded alliance — 30K certified, Claude-native finance group (May 14)
+         : Gemini CLI v0.43.0 stable — surgical edits, session portability, adaptive tokens (May 22)
+         : Copilot CLI v1.0.53-54 — multiline prompts fix, git context, safety filters (May 24)
+         : Copilot 21-week decline to 62, D-7 to usage-based billing (May 25)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -549,6 +553,12 @@ quadrantChart
 
 **Codex "Running Codex Safely"** (2026.05.08):
 > *"OpenAI detailed Codex safety controls: sandboxing, auto-review mode (auto-approves low-risk actions), managed network policies, and agent-native telemetry/logging. Enterprise partnerships with TCS, Infosys, Cognizant, Accenture push Codex past 4M+ developers."* — OpenAI Blog `2026.05.08`
+
+**PwC-Anthropic Expanded Alliance** (2026.05.14):
+> *"PwC will roll out Claude Code and Cowork to hundreds of thousands of professionals, certify 30,000 on Claude, and launch a Claude-native finance business group for banking, insurance, and healthcare. Insurance underwriting cycles compressed from ten weeks to ten days."* — PwC/Anthropic `2026.05.14`
+
+**Gemini CLI v0.43.0 Stable** (2026.05.22):
+> *"Surgical code edits via edit tool preference, session portability (export/import via CLI flag), adaptive token estimation for optimized context windows, and LocalSubagentProtocol/RemoteSubagentProtocol behind unified AgentProtocol."* — geminicli.com `2026.05.22`
 
 **2026 Power Stack Formula**:
 ```
@@ -986,26 +996,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24"]
+    x-axis ["05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25"]
     y-axis "Popularity Score" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63]
-    line "Cursor" [94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88]
-    line "Gemini CLI" [73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83]
-    line "Antigravity" [49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53]
+    line "GH Copilot" [74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62]
+    line "Cursor" [94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88]
+    line "Gemini CLI" [73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82]
+    line "Antigravity" [49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-63↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-62↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-88↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-83↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-53↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-82↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-54↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-24</sub>
+  <sub>마지막 업데이트: 2026-05-25</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.24-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.25-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -316,6 +316,10 @@ timeline
          : Antigravity 2.0 롤백 사태 5일째 — 52로 하락 (5/23)
          : Antigravity 2.0 v2.0.0 패치 — "Open IDE" 버튼, 마이그레이션 도구, 전체 쿼터 초기화 (5/24)
          : Copilot 20주 연속 하락 63, 사용량 과금 D-8 (5/24)
+         : PwC-Anthropic 제휴 확대 — 3만 명 인증, Claude 네이티브 금융 사업부 (5/14)
+         : Gemini CLI v0.43.0 안정판 — 외과적 편집, 세션 이식성, 적응형 토큰 (5/22)
+         : Copilot CLI v1.0.53-54 — 멀티라인 프롬프트, git 컨텍스트, 안전 필터 (5/24)
+         : Copilot 21주 연속 하락 62, 사용량 과금 D-7 (5/25)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -549,6 +553,12 @@ quadrantChart
 
 **Codex "안전한 실행"** (2026.05.08):
 > *"OpenAI가 Codex 안전 통제를 상세히 공개: 샌드박싱, 자동 리뷰 모드(저위험 동작 자동 승인), 관리형 네트워크 정책, 에이전트 텔레메트리/로깅. TCS, Infosys, Cognizant, Accenture 파트너십으로 4M+ 개발자 돌파."* — OpenAI Blog `2026.05.08`
+
+**PwC-Anthropic 제휴 확대** (2026.05.14):
+> *"PwC가 수십만 전문가에게 Claude Code와 Cowork을 배포하고 3만 명을 Claude 인증 완료한다. 은행·보험·의료 중심의 Claude 네이티브 금융 사업부를 출범하며, 보험 인수심사 주기가 10주에서 10일로 단축됐다."* — PwC/Anthropic `2026.05.14`
+
+**Gemini CLI v0.43.0 안정판** (2026.05.22):
+> *"edit 도구 선호로 외과적 코드 편집, 세션 이식성(CLI 플래그로 내보내기/가져오기), 적응형 토큰 추정으로 컨텍스트 윈도우 최적화, LocalSubagentProtocol/RemoteSubagentProtocol 통합 AgentProtocol 아키텍처."* — geminicli.com `2026.05.22`
 
 **2026 파워 스택 공식**:
 ```
@@ -977,26 +987,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24"]
+    x-axis ["05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25"]
     y-axis "인기 점수" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [75, 74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63]
-    line "Cursor" [94, 94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [77, 78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [80, 81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88]
-    line "Gemini CLI" [73, 73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83]
-    line "Antigravity" [49, 49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53]
+    line "GH Copilot" [74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62]
+    line "Cursor" [94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88]
+    line "Gemini CLI" [73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82]
+    line "Antigravity" [49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-63↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-62↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-88↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-83↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-53↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-82↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-54↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

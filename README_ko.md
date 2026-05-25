@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-25</sub>
+  <sub>마지막 업데이트: 2026-05-26</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.26-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -323,6 +323,10 @@ timeline
          : Copilot 21주 연속 하락 62, 사용량 과금 D-7 (5/25)
          : SpaceX S-1 IPO 신청서 — Anthropic 월 $12.5억 Colossus 비용 공개, 총 $450억 계약 (5/25)
          : 교황 레오 14세 Magnifica Humanitas 회칙 — Anthropic 공동창업자 Olah 공동 발표 (5/25)
+         : Copilot 22주 연속 하락 61, 사용량 과금 D-6 (5/26)
+         : Cursor Composer 2.5 Fast 서비스 장애 — 2시간 내 복구 (5/24)
+         : Gemini CLI 종료 D-23 — Antigravity CLI 전환 가속화 (5/26)
+         : Anthropic $300억+ 라운드 이번 주 마감 예상 (5/26)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -568,6 +572,15 @@ quadrantChart
 
 **교황 레오 14세 Magnifica Humanitas 회칙** (2026.05.25):
 > *"교황 레오 14세가 첫 회칙 'Magnifica Humanitas'를 발표했다. AI와 인간 존엄에 관한 235페이지 문서로, Anthropic 공동창업자 Christopher Olah가 공동 발표자로 참여했다. 교황은 AI의 강력한 규제와 이윤보다 공익 우선을 촉구했다. 교황 회칙이 기술 기업 창업자와 공동 발표된 것은 역사상 처음."* — CNN/Vatican News `2026.05.25`
+
+**Cursor Composer 2.5 Fast 서비스 장애** (2026.05.24):
+> *"Cursor의 Composer 2.5 Fast가 5월 24일 서비스 장애를 겪었다. UTC 17:26에 시작해 18:49에 복구되었다. Fast 모드 사용자에게 약 90분간 영향을 줬으며, Cursor 상태 페이지에서 당일 해결을 확인했다."* — status.cursor.com `2026.05.24`
+
+**Copilot 사용량 과금 D-6** (2026.05.26):
+> *"Copilot의 22주 연속 하락이 61까지 이어졌다 — 추적 시작 이래 최저점. 6월 1일 사용량 과금 전환까지 6일 남은 가운데, GitHub 문서에서 AI 크레딧 배분 상세가 공개됐다: 코드 완성은 무료 유지, 에이전트·채팅은 크레딧 소모. 연간 구독자는 갱신까지 기존 요청 기반 과금 유지."* — GitHub Docs `2026.05.26`
+
+**Gemini CLI 종료 D-23** (2026.05.26):
+> *"Gemini CLI가 6월 18일부로 비엔터프라이즈 사용자에 대한 서비스를 중단한다. Antigravity CLI 전환이 가속화되고 있다 — Go로 작성되어 더 빠르고 네이티브 멀티 에이전트 오케스트레이션을 지원한다. Agent Skills, Hooks, Extensions 등 주요 기능은 Antigravity 플러그인으로 이전된다."* — Google Developers Blog `2026.05.19`
 
 **2026 파워 스택 공식**:
 ```
@@ -996,26 +1009,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25"]
+    x-axis ["05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26"]
     y-axis "인기 점수" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62]
-    line "Cursor" [94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88]
-    line "Gemini CLI" [73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82]
-    line "Antigravity" [49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54]
+    line "GH Copilot" [73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61]
+    line "Cursor" [94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88]
+    line "Gemini CLI" [74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81]
+    line "Antigravity" [49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-62↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-61↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-82↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-54↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-81↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-55↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-25</sub>
+  <sub>Last updated: 2026-05-26</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.26-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -323,6 +323,10 @@ timeline
          : Copilot 21-week decline to 62, D-7 to usage-based billing (May 25)
          : SpaceX S-1 IPO filing reveals Anthropic pays $1.25B/month for Colossus — $45B total contract (May 25)
          : Pope Leo XIV Magnifica Humanitas encyclical — Anthropic co-founder Olah co-presents (May 25)
+         : Copilot 22-week decline to 61, D-6 to usage-based billing (May 26)
+         : Cursor Composer 2.5 Fast degradation — resolved within 2 hours (May 24)
+         : Gemini CLI sunset D-23 — Antigravity CLI migration accelerating (May 26)
+         : Anthropic $30B+ round expected to close this week (May 26)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -568,6 +572,15 @@ quadrantChart
 
 **Pope Leo XIV Magnifica Humanitas Encyclical** (2026.05.25):
 > *"Pope Leo XIV presented his first encyclical, 'Magnifica Humanitas,' on AI and human dignity — the 235-page document was co-presented with Anthropic co-founder Christopher Olah. The pope called for robust AI regulation and for developers to prioritize the common good over profit. The first papal encyclical ever co-presented with a tech company founder."* — CNN/Vatican News `2026.05.25`
+
+**Cursor Composer 2.5 Fast Degradation** (2026.05.24):
+> *"Cursor's Composer 2.5 Fast experienced a service degradation on May 24, starting at 17:26 UTC and resolving by 18:49 UTC. The model-specific outage affected Fast mode users for approximately 90 minutes. Cursor's status page confirmed resolution same day."* — status.cursor.com `2026.05.24`
+
+**Copilot D-6 to Usage-Based Billing** (2026.05.26):
+> *"Copilot's 22-week decline continues to 61 — the lowest score since tracking began. With 6 days until June 1 usage-based billing, GitHub's docs now detail AI Credit allotments: code completions stay free, but agent and chat consume credits. Annual plan users keep request-based pricing until renewal."* — GitHub Docs `2026.05.26`
+
+**Gemini CLI Sunset D-23** (2026.05.26):
+> *"Gemini CLI will stop serving requests for all non-enterprise users on June 18. The Antigravity CLI migration is accelerating — built in Go with snappier performance and native multi-agent orchestration. Critical features like Agent Skills, Hooks, and Extensions transition as Antigravity plugins."* — Google Developers Blog `2026.05.19`
 
 **2026 Power Stack Formula**:
 ```
@@ -1005,26 +1018,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25"]
+    x-axis ["05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26"]
     y-axis "Popularity Score" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [74, 73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62]
-    line "Cursor" [94, 94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [78, 78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [81, 81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88]
-    line "Gemini CLI" [73, 74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82]
-    line "Antigravity" [49, 49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54]
+    line "GH Copilot" [73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61]
+    line "Cursor" [94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88]
+    line "Gemini CLI" [74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81]
+    line "Antigravity" [49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-62↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-61↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-82↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-54↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-81↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-55↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

@@ -329,6 +329,11 @@ timeline
          : Anthropic $300억+ 라운드 이번 주 마감 예상 (5/26)
          : ING "바이브코딩"으로 트레이딩 시스템 구축 — Bloomberg, 주 단위 작업이 시간 단위로 (5/26)
          : Anthropic 10월 IPO 추진 — $600억+ 조달 가능, Wilson Sonsini 선임 (5/26)
+         : Claude Mythos Project Glasswing — 1,000+ 오픈소스 프로젝트서 23,019개 이슈 발견, 90%+ 진양성 (5/26)
+         : CVE-2026-28952 Apple macOS 커널 취약점 Claude Mythos가 발견 — 루트 권한 상승 (5/26)
+         : GitHub Actions/Pages 글로벌 장애 — 인증 실패 10:57–13:18 UTC, HN 644포인트 (5/26)
+         : Uber COO AI 투자 ROI 의문 — 2026년 AI 예산 4월에 전부 소진 (5/26)
+         : HN 1위 "AI로 더 느리게 더 나은 코드 작성" — 1,114포인트, 품질>속도 전환 (5/26)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -589,6 +594,21 @@ quadrantChart
 
 **Anthropic 10월 IPO 추진** (2026.05.26):
 > *"Anthropic이 2026년 10월 IPO를 목표로 $600억 이상을 조달할 수 있다는 보도가 나왔다. Wilson Sonsini가 상장 준비를 위해 선임됐다. OpenAI(9월 목표)와의 IPO 경쟁으로, $9000억+ 가치의 AI 기업 두 곳이 수개월 내 동시 상장하는 사상 초유의 상황이 펼쳐진다."* — City AM / The Information `2026.05.26`
+
+**Claude Mythos Project Glasswing 결과** (2026.05.26):
+> *"Claude Mythos가 1,000개 이상의 오픈소스 프로젝트를 스캔하여 총 23,019개 이슈를 발견했다 — 6,202개가 고위험/치명적 심각도로 분류됐다. 독립 보안 기업들이 90% 이상을 진양성으로 검증했다. AWS, Apple, Microsoft, Google, NVIDIA가 파트너로 참여했다."* — Help Net Security `2026.05.26`
+
+**CVE-2026-28952: Claude Mythos가 발견한 Apple macOS 커널 취약점** (2026.05.26):
+> *"보안 연구자들이 Claude Mythos Preview로 Apple macOS 커널의 정수 오버플로를 발견했다 — M5 아키텍처에서 루트 권한 상승이 가능하다. AI 에이전트가 발견한 최초의 주요 CVE — Apple이 macOS Tahoe 26.5에서 패치 완료."* — Tom's Hardware `2026.05.26`
+
+**GitHub Actions/Pages 글로벌 장애** (2026.05.26):
+> *"UTC 10:57경 시작된 인증 장애로 GitHub Actions와 Pages가 전 세계적으로 2시간 이상 중단됐다. 13:18 UTC에 복구. Hacker News에서 644포인트로 화제. 3월 이후 13번째 대형 장애."* — Cyber Security News `2026.05.26`
+
+**Uber COO, AI 투자 ROI 의문 제기** (2026.05.26):
+> *"Uber COO가 2026년 AI 예산 전체를 4월에 소진했으며, Claude Code 토큰 소비가 실제로 더 유용한 기능 출시와 연관된다는 증거를 찾지 못했다고 밝혔다. '그 연결고리는 아직 없다.'"* — MLQ `2026.05.26`
+
+**HN 1위: "AI로 더 느리게 더 나은 코드 작성하기"** (2026.05.26):
+> *"Nolan Lawson의 'AI=속도' 서사에 대한 반론이 Hacker News에서 1,114포인트를 기록했다 — AI를 속도가 아닌 코드 품질 향상에 사용하자는 주장이다. 커뮤니티가 '더 빠르게'에서 '더 좋게'로 이동하는 성숙 단계를 반영한다."* — Hacker News `2026.05.26`
 
 **2026 파워 스택 공식**:
 ```

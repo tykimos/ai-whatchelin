@@ -329,6 +329,11 @@ timeline
          : Anthropic $30B+ round expected to close this week (May 26)
          : ING "vibe coding" builds trading systems — Bloomberg reports hours replace weeks (May 26)
          : Anthropic targeting October 2026 IPO — could raise $60B+, Wilson Sonsini hired (May 26)
+         : Claude Mythos Project Glasswing — 23,019 issues found across 1,000+ open-source projects, 90%+ true positive (May 26)
+         : CVE-2026-28952 Apple macOS kernel exploit discovered by Claude Mythos — root privilege escalation (May 26)
+         : GitHub Actions/Pages global outage — authentication failures 10:57–13:18 UTC, 644 HN points (May 26)
+         : Uber COO questions AI spending ROI — burned entire 2026 AI budget by April (May 26)
+         : HN #1 "Using AI to write better code more slowly" — 1,114 points, quality-over-speed shift (May 26)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -589,6 +594,21 @@ quadrantChart
 
 **Anthropic IPO Targeting October 2026** (2026.05.26):
 > *"Anthropic is targeting an October 2026 IPO that could raise more than $60 billion. Wilson Sonsini has been hired to prepare for the public listing. The dual IPO race with OpenAI (targeting September) would mark the first time two $900B+ AI companies go public within months of each other."* — City AM / The Information `2026.05.26`
+
+**Claude Mythos Project Glasswing Results** (2026.05.26):
+> *"Claude Mythos scanned over 1,000 open-source projects, identifying 23,019 total issues — 6,202 classified as high/critical severity. Independent security firms validated more than 90% as true positives. Partners include AWS, Apple, Microsoft, Google, and NVIDIA."* — Help Net Security `2026.05.26`
+
+**CVE-2026-28952: Apple macOS Kernel Exploit via Claude Mythos** (2026.05.26):
+> *"Security researchers used Claude Mythos Preview to discover an integer overflow in the Apple macOS kernel that allows root privilege escalation on M5 architecture. The first major CVE found by an AI agent — Apple patched it in macOS Tahoe 26.5."* — Tom's Hardware `2026.05.26`
+
+**GitHub Actions/Pages Global Outage** (2026.05.26):
+> *"Authentication failures starting at ~10:57 UTC caused widespread GitHub Actions and Pages outages, blocking CI/CD pipelines globally for over 2 hours. Resolved by 13:18 UTC. Trending on Hacker News with 644 points. The 13th major outage since March."* — Cyber Security News `2026.05.26`
+
+**Uber COO Questions AI Spending ROI** (2026.05.26):
+> *"Uber's COO said the company burned through its entire 2026 AI budget by April and cannot demonstrate that Claude Code token consumption correlates with more useful features being shipped. 'That link is not there yet.'"* — MLQ `2026.05.26`
+
+**HN #1: "Using AI to Write Better Code More Slowly"** (2026.05.26):
+> *"Nolan Lawson's counterpoint to the 'AI for speed' narrative earned 1,114 points on Hacker News — arguing for using AI to improve code quality rather than velocity. Reflects the maturing conversation: the community is moving past 'faster' to 'better.'"* — Hacker News `2026.05.26`
 
 **2026 Power Stack Formula**:
 ```

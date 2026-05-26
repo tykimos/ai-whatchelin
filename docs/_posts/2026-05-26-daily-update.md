@@ -1,43 +1,53 @@
 ---
-title: "ING Builds Trading Systems with 'Vibe Coding' — AI Tools Hit the Banking Floor"
+title: "Claude Mythos Finds 23,000 Bugs Across 1,000+ Open-Source Projects — GitHub Goes Down Again"
 date: 2026-05-26
 lang: en
 categories: [news]
-tags: [copilot, gemini-cli, antigravity, anthropic, vibe-coding, openai]
-excerpt: "Dutch banking giant ING is using AI 'vibe coding' to build FX trading tools. Meanwhile, Anthropic eyes an October IPO and Copilot's usage-based billing is 6 days away."
+tags: [claude-mythos, copilot, gemini-cli, antigravity, anthropic, vibe-coding, openai, github]
+excerpt: "Claude Mythos's Project Glasswing rewrites the open-source security playbook, discovers an Apple macOS kernel CVE. GitHub suffers its 13th major outage since March, and Uber's COO admits the company can't prove AI coding tools are worth the spend."
 ---
 
-AI coding tools are no longer just a developer story. Dutch banking giant ING Groep NV is building electronic trading systems using "vibe coding" — compressing weeks of developer work into hours, Bloomberg reported today.
+A new era in AI-powered security is here. Anthropic's Claude Mythos scanned over 1,000 open-source projects and found 23,019 vulnerabilities — then went on to discover a root privilege escalation bug in the Apple macOS kernel. Meanwhile, GitHub logged its 13th major outage this year, and Uber confessed it burned through its entire AI budget by April with no clear ROI.
 
-## ING: Vibe Coding Reaches the Trading Floor
+## Claude Mythos: Project Glasswing Rewrites Security
 
-ING is using AI "vibe coding" to build electronic trading tools for currencies and credit([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-26/ing-s-vibe-coding-ai-is-building-its-new-trading-systems)). The bank completed analytics dashboards showing real-time pricing, incoming trades, and performance metrics in hours rather than weeks. This aligns with Google CEO Sundar Pichai's I/O 2026 revelation that 75% of code at Google is now AI-generated([Google Blog](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)). Enterprise vibe coding adoption is spreading to the financial sector, driving explosive demand for AI coding tools.
+Project Glasswing results published today show Claude Mythos identified 23,019 total issues across 1,000+ open-source projects, with 6,202 classified as high/critical severity([Help Net Security](https://www.helpnetsecurity.com/2026/05/26/anthropic-project-glasswing-update/)). Independent security firms validated over 90% as true positives. AWS, Apple, Microsoft, Google, and NVIDIA participated as partners.
 
-## Anthropic: $30B Round Closing + October IPO Push
+The real headline: researchers used Claude Mythos Preview to discover CVE-2026-28952, an integer overflow in the Apple macOS kernel enabling root privilege escalation on M5 architecture([Tom's Hardware](https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement)). It's the first major CVE found by an AI agent — Apple patched it in macOS Tahoe 26.5([Apple](https://support.apple.com/en-us/127115)). A Mythos toggle (`claude-mythos-1-preview`) briefly appeared in the Claude Code UI on May 25 before being removed, and Anthropic confirmed plans to publicly release Mythos-class models "once far stronger safeguards are in place"([WinBuzzer](https://winbuzzer.com/2026/05/26/anthropics-mythos-moves-closer-to-claude-code-xcxwbn/)).
 
-Anthropic's $30B+ funding round is expected to close this week([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week)). At a pre-money valuation above $900B, this would surpass OpenAI to make Anthropic the world's most valuable private AI startup. More notably, Anthropic is targeting an October 2026 IPO that could raise over $60 billion([City AM](https://www.cityam.com/anthropic-targets-october-for-mega-ipo/)). Wilson Sonsini has been hired to prepare the listing, setting up a head-to-head IPO race with OpenAI, which targets September([TechCrunch](https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/)).
+## GitHub: 13th Major Outage, Copilot D-5
 
-## Copilot: 22-Week Slide Hits 61 — D-6
+Authentication failures starting at ~10:57 UTC knocked out GitHub Actions and Pages globally for over 2 hours([Cyber Security News](https://cybersecuritynews.com/github-down-authentication-issues/)). Resolved by 13:18 UTC, it hit 644 points on Hacker News. This adds to the "12+ outages since March" CNBC reported last week([CNBC](https://www.cnbc.com/2026/05/22/microsoft-was-positioned-to-win-in-ai-coding-outages-got-in-the-way.html)). Copilot sits at 61 — its 22nd consecutive weekly decline — with 5 days until June 1 usage-based billing([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)).
 
-Copilot's popularity dropped to 61 — its lowest since tracking began([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). June 1 usage-based billing is now 6 days away. Code completions stay free, but agent and chat interactions consume AI Credits([GitHub Docs](https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-individuals)). CNBC reported that GitHub has suffered 12+ outages since March, with Copilot market share falling from 67% to 51%([CNBC](https://www.cnbc.com/2026/05/22/microsoft-was-positioned-to-win-in-ai-coding-outages-got-in-the-way.html)).
+## ING: Vibe Coding Hits the Trading Floor
 
-## Gemini CLI: Sunset D-23 — Antigravity Migration Accelerating
+ING is building electronic trading tools using "vibe coding" AI, compressing weeks of developer work into hours([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-26/ing-s-vibe-coding-ai-is-building-its-new-trading-systems)). An AI currency pricing model drove a 50% increase in large-ticket trades([Yahoo Finance](https://finance.yahoo.com/markets/crypto/articles/ing-built-trading-system-hours-153057815.html)). ING predicts industry-wide adoption within one year.
 
-Gemini CLI will stop serving non-enterprise users on June 18([Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)). The GitHub transition thread collected 143 thumbs-down reactions versus 4 cheers within 24 hours([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)). The core concern: Antigravity CLI isn't open source.
+## Uber: Burned the AI Budget, Can't Find the ROI
+
+Uber's COO said the company burned through its entire 2026 AI budget by April and cannot demonstrate that Claude Code token consumption correlates with shipping more useful features([MLQ](https://mlq.ai/news/uber-burned-through-its-entire-2026-ai-budget-by-april-coo-questions-roi/)). *"That link is not there yet"* — a direct challenge to the ROI narrative driving AI coding tool adoption.
+
+## HN #1: "Using AI to Write Better Code More Slowly"
+
+Nolan Lawson's counterpoint to the "AI for speed" narrative hit #1 on Hacker News with 1,114 points. The argument: use AI to improve code quality, not velocity. While Google CEO Pichai says 75% of code at Google is AI-generated, the community is maturing past "faster" toward "better."
+
+## Anthropic: $30B Round Closing + October IPO
+
+Anthropic's $30B+ funding round is expected to close this week at a $900B+ valuation([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week)). An October IPO targeting $60B+ in proceeds is in preparation, with Wilson Sonsini hired for the listing([City AM](https://www.cityam.com/anthropic-targets-october-for-mega-ipo/)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 98 | — | Stable |
-| Claude Code | 98 | — | $30B round + October IPO |
-| Cursor | 96 | — | Composer 2.5 degradation resolved |
+| Claude Code | 98 | — | Mythos approaching public release + $30B round |
+| Cursor | 96 | — | Composer 2.5 stabilized |
 | Claude AI | 94 | — | First profitable quarter expected |
 | Codex CLI | 88 | — | Goal mode GA |
 | Gemini CLI | 81 | ↓1 | Sunset D-23 |
 | Windsurf | 81 | — | Stable baseline |
 | Aider | 68 | — | Stable baseline |
-| Copilot | 61 | ↓1 | 22-week slide, D-6 |
+| Copilot | 61 | ↓1 | 22-week slide + another outage today, D-5 |
 | Antigravity | 55 | ↑1 | v2.0.0 patch recovery |
 
-The Anthropic vs. OpenAI IPO race is shaping up to be the biggest event in AI industry history. June 1 Copilot billing transition, June 18 Gemini CLI shutdown — the next 3 weeks will define the second half of 2026.
+Mythos's real-world security results are the story of the day. But Uber's ROI admission and Hacker News's "write better, not faster" discourse signal a market maturing from adoption to value justification.

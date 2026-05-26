@@ -327,6 +327,8 @@ timeline
          : Cursor Composer 2.5 Fast degradation — resolved within 2 hours (May 24)
          : Gemini CLI sunset D-23 — Antigravity CLI migration accelerating (May 26)
          : Anthropic $30B+ round expected to close this week (May 26)
+         : ING "vibe coding" builds trading systems — Bloomberg reports hours replace weeks (May 26)
+         : Anthropic targeting October 2026 IPO — could raise $60B+, Wilson Sonsini hired (May 26)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -581,6 +583,12 @@ quadrantChart
 
 **Gemini CLI Sunset D-23** (2026.05.26):
 > *"Gemini CLI will stop serving requests for all non-enterprise users on June 18. The Antigravity CLI migration is accelerating — built in Go with snappier performance and native multi-agent orchestration. Critical features like Agent Skills, Hooks, and Extensions transition as Antigravity plugins."* — Google Developers Blog `2026.05.19`
+
+**ING "Vibe Coding" Trading Systems** (2026.05.26):
+> *"ING Groep NV is using 'vibe coding' AI to build electronic trading tools for currencies and credit — compressing work into hours that previously took a team of developers weeks. The Dutch lender created analytics dashboards showing real-time pricing, incoming trades, and performance metrics."* — Bloomberg `2026.05.26`
+
+**Anthropic IPO Targeting October 2026** (2026.05.26):
+> *"Anthropic is targeting an October 2026 IPO that could raise more than $60 billion. Wilson Sonsini has been hired to prepare for the public listing. The dual IPO race with OpenAI (targeting September) would mark the first time two $900B+ AI companies go public within months of each other."* — City AM / The Information `2026.05.26`
 
 **2026 Power Stack Formula**:
 ```

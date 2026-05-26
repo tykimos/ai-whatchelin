@@ -1,36 +1,36 @@
 ---
-title: "Copilot Billing D-6 Countdown — Gemini CLI Sunset in 23 Days"
+title: "ING Builds Trading Systems with 'Vibe Coding' — AI Tools Hit the Banking Floor"
 date: 2026-05-26
 lang: en
 categories: [news]
-tags: [copilot, gemini-cli, antigravity, cursor, anthropic]
-excerpt: "GitHub Copilot's usage-based billing goes live in 6 days, Gemini CLI shuts down in 23. The AI coding tool market faces its biggest shake-up in a single week."
+tags: [copilot, gemini-cli, antigravity, anthropic, vibe-coding, openai]
+excerpt: "Dutch banking giant ING is using AI 'vibe coding' to build FX trading tools. Meanwhile, Anthropic eyes an October IPO and Copilot's usage-based billing is 6 days away."
 ---
 
-The AI coding tool market is staring down a June 1 inflection point. GitHub Copilot's usage-based billing is D-6, Gemini CLI's service shutdown is D-23, and the developer tool-choice landscape is shifting rapidly.
+AI coding tools are no longer just a developer story. Dutch banking giant ING Groep NV is building electronic trading systems using "vibe coding" — compressing weeks of developer work into hours, Bloomberg reported today.
 
-## Copilot: 22-Week Slide Hits 61 — All-Time Low
+## ING: Vibe Coding Reaches the Trading Floor
 
-Copilot's popularity dropped to 61 — down 29 points from 90 in early January ([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). Starting June 1, all monthly subscribers automatically transition to token-based AI Credits ([GitHub Docs](https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-individuals)). Code completions remain free, but agent and chat interactions consume credits. The community sentiment remains hostile: "You will get less, but pay the same price" ([Visual Studio Magazine](https://visualstudiomagazine.com/articles/2026/04/27/devs-sound-off-on-usage-based-copilot-pricing-change-you-will-get-less-but-pay-the-same-price.aspx)).
+ING is using AI "vibe coding" to build electronic trading tools for currencies and credit([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-26/ing-s-vibe-coding-ai-is-building-its-new-trading-systems)). The bank completed analytics dashboards showing real-time pricing, incoming trades, and performance metrics in hours rather than weeks. This aligns with Google CEO Sundar Pichai's I/O 2026 revelation that 75% of code at Google is now AI-generated([Google Blog](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)). Enterprise vibe coding adoption is spreading to the financial sector, driving explosive demand for AI coding tools.
 
-## Gemini CLI: June 18 Shutdown — Forced Migration to Antigravity
+## Anthropic: $30B Round Closing + October IPO Push
 
-Google is shutting down Gemini CLI for all non-enterprise users on June 18 ([Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)). The replacement Antigravity CLI, rewritten in Go, supports native multi-agent orchestration and transitions existing Agent Skills, Hooks, and Extensions as plugins ([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)). Top Hacker News comments worry about losing the free 1,000 req/day tier ([Hacker News](https://news.ycombinator.com/item?id=48196867)).
+Anthropic's $30B+ funding round is expected to close this week([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week)). At a pre-money valuation above $900B, this would surpass OpenAI to make Anthropic the world's most valuable private AI startup. More notably, Anthropic is targeting an October 2026 IPO that could raise over $60 billion([City AM](https://www.cityam.com/anthropic-targets-october-for-mega-ipo/)). Wilson Sonsini has been hired to prepare the listing, setting up a head-to-head IPO race with OpenAI, which targets September([TechCrunch](https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/)).
 
-## Cursor: Composer 2.5 Fast Brief Outage
+## Copilot: 22-Week Slide Hits 61 — D-6
 
-Cursor's Composer 2.5 Fast experienced a service degradation on May 24 from 17:26 to 18:49 UTC — approximately 90 minutes ([status.cursor.com](https://status.cursor.com/)). Resolved same day with no lasting impact. Meanwhile, the JetBrains 2026 survey shows 46% of developers with 10+ years experience chose Claude Code as their daily tool, with 18% choosing Cursor ([Built In](https://builtin.com/articles/claude-code-codex-cursor-github-copilot-comparison)).
+Copilot's popularity dropped to 61 — its lowest since tracking began([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). June 1 usage-based billing is now 6 days away. Code completions stay free, but agent and chat interactions consume AI Credits([GitHub Docs](https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-individuals)). CNBC reported that GitHub has suffered 12+ outages since March, with Copilot market share falling from 67% to 51%([CNBC](https://www.cnbc.com/2026/05/22/microsoft-was-positioned-to-win-in-ai-coding-outages-got-in-the-way.html)).
 
-## Anthropic: $30B+ Round Expected to Close This Week
+## Gemini CLI: Sunset D-23 — Antigravity Migration Accelerating
 
-Anthropic's $30B+ funding round is expected to close the week of May 26 ([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week)). At a pre-money valuation above $900B, this would surpass OpenAI's $852B to make Anthropic the world's most valuable private AI startup. Sequoia, Dragoneer, Altimeter, and Greenoaks are co-leading at ~$2B each ([GuruFocus](https://www.gurufocus.com/news/8878221/anthropic-pbc-set-for-30-billion-funding-round-valuation-surpassing-openai)).
+Gemini CLI will stop serving non-enterprise users on June 18([Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)). The GitHub transition thread collected 143 thumbs-down reactions versus 4 cheers within 24 hours([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)). The core concern: Antigravity CLI isn't open source.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 98 | — | Stable |
-| Claude Code | 98 | — | $30B round imminent |
+| Claude Code | 98 | — | $30B round + October IPO |
 | Cursor | 96 | — | Composer 2.5 degradation resolved |
 | Claude AI | 94 | — | First profitable quarter expected |
 | Codex CLI | 88 | — | Goal mode GA |
@@ -40,4 +40,4 @@ Anthropic's $30B+ funding round is expected to close the week of May 26 ([Bloomb
 | Copilot | 61 | ↓1 | 22-week slide, D-6 |
 | Antigravity | 55 | ↑1 | v2.0.0 patch recovery |
 
-Next week is the moment of truth. Will Copilot's billing transition trigger further drops, or will removing uncertainty spark a rebound? The market watches closely.
+The Anthropic vs. OpenAI IPO race is shaping up to be the biggest event in AI industry history. June 1 Copilot billing transition, June 18 Gemini CLI shutdown — the next 3 weeks will define the second half of 2026.

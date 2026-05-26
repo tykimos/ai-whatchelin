@@ -327,6 +327,8 @@ timeline
          : Cursor Composer 2.5 Fast 서비스 장애 — 2시간 내 복구 (5/24)
          : Gemini CLI 종료 D-23 — Antigravity CLI 전환 가속화 (5/26)
          : Anthropic $300억+ 라운드 이번 주 마감 예상 (5/26)
+         : ING "바이브코딩"으로 트레이딩 시스템 구축 — Bloomberg, 주 단위 작업이 시간 단위로 (5/26)
+         : Anthropic 10월 IPO 추진 — $600억+ 조달 가능, Wilson Sonsini 선임 (5/26)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -581,6 +583,12 @@ quadrantChart
 
 **Gemini CLI 종료 D-23** (2026.05.26):
 > *"Gemini CLI가 6월 18일부로 비엔터프라이즈 사용자에 대한 서비스를 중단한다. Antigravity CLI 전환이 가속화되고 있다 — Go로 작성되어 더 빠르고 네이티브 멀티 에이전트 오케스트레이션을 지원한다. Agent Skills, Hooks, Extensions 등 주요 기능은 Antigravity 플러그인으로 이전된다."* — Google Developers Blog `2026.05.19`
+
+**ING "바이브코딩" 트레이딩 시스템** (2026.05.26):
+> *"ING Groep NV가 '바이브코딩' AI로 외환·신용 전자 거래 도구를 구축하고 있다 — 개발자 팀이 수 주 걸리던 작업을 시간 단위로 압축했다. 네덜란드 대형 은행이 실시간 가격·입금 거래·성과 지표를 보여주는 분석 대시보드를 만들었다."* — Bloomberg `2026.05.26`
+
+**Anthropic 10월 IPO 추진** (2026.05.26):
+> *"Anthropic이 2026년 10월 IPO를 목표로 $600억 이상을 조달할 수 있다는 보도가 나왔다. Wilson Sonsini가 상장 준비를 위해 선임됐다. OpenAI(9월 목표)와의 IPO 경쟁으로, $9000억+ 가치의 AI 기업 두 곳이 수개월 내 동시 상장하는 사상 초유의 상황이 펼쳐진다."* — City AM / The Information `2026.05.26`
 
 **2026 파워 스택 공식**:
 ```

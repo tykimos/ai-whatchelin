@@ -339,6 +339,10 @@ timeline
          : Copilot Studio computer-using agents GA — first enterprise CUA platform, Claude Sonnet 4.5 + OpenAI CUA (May 27)
          : Grok Build expanded to all SuperGrok/X Premium+ — Windows PowerShell installer (May 27)
          : Gemini CLI sunset D-22 — Antigravity CLI migration accelerating (May 27)
+         : Claude Compliance API — 28 security integrations (CrowdStrike, Palo Alto, Purview, etc.) (May 25)
+         : Claude Mythos model ID briefly visible in Claude Code interface before removal (May 25)
+         : Anthropic Opus 4.7 elevated errors 06:30–10:30 UTC (May 25)
+         : Windsurf elevated errors ~1h 38m outage (May 26)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -623,6 +627,12 @@ quadrantChart
 
 **Grok Build Expanded to All SuperGrok/X Premium+** (2026.05.27):
 > *"xAI expanded Grok Build access from SuperGrok Heavy ($299/mo) to all SuperGrok and X Premium+ subscribers. A Windows PowerShell installer shipped the same day. The CLI agent supports 8 parallel sub-agents, plan-first execution, and MCP compatibility on the grok-build-0.1 model with 256K context."* — xAI `2026.05.25`
+
+**Claude Compliance API — 28 Security Integrations** (2026.05.25):
+> *"Anthropic launched the Claude Compliance API with 28 new security and compliance integrations — CrowdStrike, Palo Alto Networks, Microsoft Purview, Okta, Zscaler, Netskope, Cloudflare, Fortinet, Wiz, and Datadog among them. Enterprise IT teams can now govern Claude using existing security toolchains."* — Help Net Security `2026.05.25`
+
+**Claude Mythos Model Leak in Claude Code** (2026.05.25):
+> *"Anthropic's restricted Mythos frontier model briefly appeared in the Claude Code interface on May 25. Users reported a Mythos toggle before it was removed. The model identifier 'claude-mythos-1-preview' is being prepared for release via Claude Code and Claude Security. Approximately 50 organizations have access through Project Glasswing."* — BleepingComputer `2026.05.25`
 
 **2026 Power Stack Formula**:
 ```

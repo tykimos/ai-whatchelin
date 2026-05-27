@@ -339,6 +339,10 @@ timeline
          : Copilot Studio 컴퓨터 사용 에이전트 GA — 최초 엔터프라이즈 CUA 플랫폼, Claude Sonnet 4.5 + OpenAI CUA (5/27)
          : Grok Build 전체 SuperGrok/X Premium+ 확대 — Windows PowerShell 설치기 (5/27)
          : Gemini CLI 종료 D-22 — Antigravity CLI 전환 가속화 (5/27)
+         : Claude Compliance API — 28개 보안 연동 (CrowdStrike, Palo Alto, Purview 등) (5/25)
+         : Claude Mythos 모델 ID가 Claude Code 인터페이스에 잠시 노출 후 제거 (5/25)
+         : Anthropic Opus 4.7 오류 급증 06:30–10:30 UTC (5/25)
+         : Windsurf 오류 급증 — ~1시간 38분 장애 (5/26)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -623,6 +627,12 @@ quadrantChart
 
 **Grok Build 전체 SuperGrok/X Premium+ 확대** (2026.05.27):
 > *"xAI가 Grok Build 접근을 SuperGrok Heavy($299/월)에서 전체 SuperGrok 및 X Premium+ 구독자로 확대했다. 같은 날 Windows PowerShell 설치기도 출시. CLI 에이전트는 8개 병렬 서브에이전트, 계획 우선 실행, MCP 호환을 지원하며 grok-build-0.1 모델(256K 컨텍스트)로 동작한다."* — xAI `2026.05.25`
+
+**Claude Compliance API — 28개 보안 연동** (2026.05.25):
+> *"Anthropic이 Claude Compliance API를 출시, 28개 보안·컴플라이언스 연동을 추가했다 — CrowdStrike, Palo Alto Networks, Microsoft Purview, Okta, Zscaler, Netskope, Cloudflare, Fortinet, Wiz, Datadog 등이 포함된다. 엔터프라이즈 IT 팀이 기존 보안 도구로 Claude를 관리할 수 있게 됐다."* — Help Net Security `2026.05.25`
+
+**Claude Mythos 모델 Claude Code에 잠시 노출** (2026.05.25):
+> *"Anthropic의 제한된 Mythos 프론티어 모델이 5월 25일 Claude Code 인터페이스에 잠시 등장했다. 사용자들이 Mythos 토글을 발견한 후 곧 제거됐다. 모델 식별자 'claude-mythos-1-preview'가 Claude Code와 Claude Security를 통한 출시를 준비 중이며, 약 50개 조직이 Project Glasswing을 통해 접근 중이다."* — BleepingComputer `2026.05.25`
 
 **2026 파워 스택 공식**:
 ```

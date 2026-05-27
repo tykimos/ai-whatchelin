@@ -343,6 +343,13 @@ timeline
          : Claude Mythos model ID briefly visible in Claude Code interface before removal (May 25)
          : Anthropic Opus 4.7 elevated errors 06:30–10:30 UTC (May 25)
          : Windsurf elevated errors ~1h 38m outage (May 26)
+         : Claude Code v2.1.152 — /code-review --fix, disallowed-tools, /reload-skills, SessionStart hooks (May 27)
+         : Claude Managed Agents self-hosted sandboxes (public beta) + MCP tunnels (research preview) (May 27)
+         : Anthropic $30B+ round closed — $900B+ valuation, world's most valuable private AI startup (May 27)
+         : SpaceX IPO roadshow June 4, pricing June 11, trading June 12 at $1.75T — largest IPO ever (May 27)
+         : Gemini API Interactions breaking change — legacy schema removed June 8 (May 27)
+         : Gemini 3.5 Pro confirmed for June launch — Pichai at I/O (May 27)
+         : Microsoft Build 2026 June 2-3 — multi-model Foundry, Copilot multi-agent orchestration (May 27)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -633,6 +640,21 @@ quadrantChart
 
 **Claude Mythos Model Leak in Claude Code** (2026.05.25):
 > *"Anthropic's restricted Mythos frontier model briefly appeared in the Claude Code interface on May 25. Users reported a Mythos toggle before it was removed. The model identifier 'claude-mythos-1-preview' is being prepared for release via Claude Code and Claude Security. Approximately 50 organizations have access through Project Glasswing."* — BleepingComputer `2026.05.25`
+
+**Claude Code v2.1.152** (2026.05.27):
+> *"Code review automation gains `/code-review --fix` that applies findings directly to your working tree. Skills can now declare `disallowed-tools` in frontmatter, `/reload-skills` refreshes skills mid-session, and `SessionStart` hooks fire on session launch. Terminal styling degradation in long sessions fixed."* — code.claude.com/changelog `2026.05.27`
+
+**Claude Managed Agents: Self-Hosted Sandboxes + MCP Tunnels** (2026.05.27):
+> *"Managed Agents can now run in sandboxes you control — your infrastructure or managed providers like Cloudflare, Daytona, Modal, or Vercel. MCP tunnels (research preview) let agents reach MCP servers inside private networks without public endpoints, with end-to-end encryption."* — claude.com `2026.05.27`
+
+**Anthropic $30B+ Round Closed — World's Most Valuable Private AI Startup** (2026.05.27):
+> *"Anthropic closed over $30 billion at a $900B+ pre-money valuation — surpassing OpenAI to become the world's most valuable private AI startup. Sequoia, Dragoneer, Altimeter, and Greenoaks co-led with ~$2B each. Microsoft and NVIDIA also participated. October 2026 IPO expected."* — Bloomberg `2026.05.27`
+
+**SpaceX IPO Roadshow Begins June 4** (2026.05.27):
+> *"SpaceX's S-1 targets a $1.75 trillion valuation and a $75 billion raise — potentially the largest IPO in history. Goldman Sachs leads underwriting. Roadshow June 4, pricing June 11, trading June 12 on Nasdaq (SPCX). The filing also revealed Anthropic pays $1.25B/month for Colossus compute."* — CNBC `2026.05.27`
+
+**Gemini API Breaking Change — Legacy Schema Removed June 8** (2026.05.27):
+> *"The Gemini Interactions API introduced a new `steps` array replacing `outputs`, and a polymorphic `response_format`. New schema is the default since May 26; legacy support via `Api-Revision: 2026-05-07` ends June 8. Developers must migrate immediately."* — Google AI for Developers `2026.05.27`
 
 **2026 Power Stack Formula**:
 ```

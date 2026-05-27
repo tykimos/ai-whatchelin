@@ -343,6 +343,13 @@ timeline
          : Claude Mythos 모델 ID가 Claude Code 인터페이스에 잠시 노출 후 제거 (5/25)
          : Anthropic Opus 4.7 오류 급증 06:30–10:30 UTC (5/25)
          : Windsurf 오류 급증 — ~1시간 38분 장애 (5/26)
+         : Claude Code v2.1.152 — /code-review --fix, disallowed-tools, /reload-skills, SessionStart 훅 (5/27)
+         : Claude Managed Agents 셀프호스팅 샌드박스 (공개 베타) + MCP 터널 (리서치 프리뷰) (5/27)
+         : Anthropic $300억+ 라운드 마감 — $9000억+ 밸류에이션, 세계 최고 가치 비상장 AI 기업 (5/27)
+         : SpaceX IPO 로드쇼 6/4, 가격 결정 6/11, 거래 개시 6/12 — $1.75조 역대 최대 IPO (5/27)
+         : Gemini API Interactions 호환성 파괴 변경 — 레거시 스키마 6/8 제거 (5/27)
+         : Gemini 3.5 Pro 6월 출시 확정 — Pichai I/O에서 발표 (5/27)
+         : Microsoft Build 2026 6/2-3 — 멀티모델 Foundry, Copilot 멀티에이전트 오케스트레이션 (5/27)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -633,6 +640,21 @@ quadrantChart
 
 **Claude Mythos 모델 Claude Code에 잠시 노출** (2026.05.25):
 > *"Anthropic의 제한된 Mythos 프론티어 모델이 5월 25일 Claude Code 인터페이스에 잠시 등장했다. 사용자들이 Mythos 토글을 발견한 후 곧 제거됐다. 모델 식별자 'claude-mythos-1-preview'가 Claude Code와 Claude Security를 통한 출시를 준비 중이며, 약 50개 조직이 Project Glasswing을 통해 접근 중이다."* — BleepingComputer `2026.05.25`
+
+**Claude Code v2.1.152** (2026.05.27):
+> *"코드 리뷰 자동화에 `/code-review --fix`가 추가되어 발견 사항을 작업 트리에 직접 적용한다. 스킬의 프론트매터에서 `disallowed-tools` 선언 가능, `/reload-skills`로 세션 중 스킬 재로드, `SessionStart` 훅으로 세션 시작 시 자동 실행. 장시간 세션 터미널 스타일 깨짐 수정."* — code.claude.com/changelog `2026.05.27`
+
+**Claude Managed Agents: 셀프호스팅 샌드박스 + MCP 터널** (2026.05.27):
+> *"Managed Agents가 직접 관리하는 샌드박스에서 실행 가능해졌다 — 자체 인프라 또는 Cloudflare, Daytona, Modal, Vercel 같은 관리형 제공자 사용. MCP 터널(리서치 프리뷰)은 퍼블릭 엔드포인트 없이 사설 네트워크 내 MCP 서버에 접근하며, 종단간 암호화를 지원한다."* — claude.com `2026.05.27`
+
+**Anthropic $300억+ 라운드 마감 — 세계 최고 가치 비상장 AI 기업** (2026.05.27):
+> *"Anthropic이 $300억+ 펀딩 라운드를 $9,000억+ 프리머니 밸류에이션으로 마감했다 — OpenAI를 넘어 세계 최고 가치 비상장 AI 기업이 됐다. Sequoia, Dragoneer, Altimeter, Greenoaks가 각 ~$20억으로 공동 리드했고, Microsoft·NVIDIA도 참여. 10월 IPO 전망."* — Bloomberg `2026.05.27`
+
+**SpaceX IPO 로드쇼 6월 4일 시작** (2026.05.27):
+> *"SpaceX S-1이 $1.75조 밸류에이션, $750억 조달을 목표 — 역대 최대 IPO가 될 전망. Goldman Sachs가 인수 주선. 로드쇼 6/4, 가격 결정 6/11, Nasdaq 상장 6/12(SPCX). S-1은 Anthropic이 Colossus 컴퓨트에 월 $12.5억을 지불 중임도 공개했다."* — CNBC `2026.05.27`
+
+**Gemini API 호환성 파괴 변경 — 레거시 스키마 6/8 제거** (2026.05.27):
+> *"Gemini Interactions API가 `outputs`를 `steps` 배열로 대체하고, 다형적 `response_format`을 도입했다. 새 스키마가 5월 26일부터 기본값이며, `Api-Revision: 2026-05-07` 헤더를 통한 레거시 지원은 6월 8일 종료. 개발자 즉시 마이그레이션 필요."* — Google AI for Developers `2026.05.27`
 
 **2026 파워 스택 공식**:
 ```

@@ -1,48 +1,49 @@
 ---
-title: "Copilot 23주 연속 하락, 60선 붕괴 — Mythos가 Claude Code에 깜짝 등장"
+title: "Anthropic $9000억 돌파, Claude Code v2.1.152 출시 — Copilot 23주 연속 추락"
 date: 2026-05-27
 lang: ko
 categories: [news]
-tags: [github-copilot, copilot-studio, grok-build, anthropic, gemini-cli, claude-mythos]
-excerpt: "GitHub Copilot이 역대 최저 60을 기록한 가운데, Anthropic의 제한 모델 Mythos가 Claude Code에 잠시 등장하며 공개 출시 임박 신호를 보냈다. Copilot Studio는 최초의 GA 컴퓨터 사용 에이전트를 출시했다."
+tags: [anthropic, claude-code, github-copilot, copilot-studio, spacex, gemini-api, grok-build, claude-mythos]
+excerpt: "Anthropic이 $300억+ 라운드를 마감하며 세계 최고 가치 비상장 AI 기업에 등극했다. Claude Code v2.1.152가 코드 리뷰 자동 수정을 도입하고, Managed Agents에 셀프호스팅 샌드박스가 추가됐다."
 ---
 
-GitHub Copilot의 인기도가 23주 연속 하락하며 60에 도달했다 — 추적 이래 역대 최저치다. 6월 1일 사용량 기반 과금 전환까지 불과 5일 남은 상황에서, 에이전트와 채팅 기능은 GitHub AI 크레딧으로 측정되고 코드 완성만 무제한으로 유지된다([GitHub Docs](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing)).
+Anthropic이 $300억 이상의 펀딩 라운드를 $9,000억+ 밸류에이션으로 마감하며 OpenAI를 넘어 세계 최고 가치 비상장 AI 기업이 됐다([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week)). Sequoia Capital, Dragoneer, Altimeter Capital, Greenoaks Capital Partners가 각 약 $20억으로 공동 리드했으며, Microsoft와 NVIDIA도 참여했다([Yahoo Finance](https://finance.yahoo.com/sectors/technology/articles/anthropic-set-close-30-billion-203545596.html)). 10월 IPO가 전망되고 있으며, Wilson Sonsini가 상장 준비를 맡고 있다.
 
-## Claude Mythos: Claude Code에 잠깐 등장, 즉시 제거
+## Claude Code v2.1.152: 코드 리뷰 자동 수정 도입
 
-Anthropic의 제한된 프론티어 모델 Mythos가 5월 25일 Claude Code 인터페이스에 잠시 노출됐다([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/)). 사용자들이 Mythos 토글을 발견한 직후 삭제됐지만, 모델 식별자 `claude-mythos-1-preview`가 Claude Code와 Claude Security를 통한 출시를 준비 중인 것으로 확인됐다([WinBuzzer](https://winbuzzer.com/2026/05/26/anthropics-mythos-moves-closer-to-claude-code-xcxwbn/)). 현재 약 50개 조직이 Project Glasswing을 통해 접근 중이며, 지난주에만 1,000+ 오픈소스 프로젝트에서 23,019개 보안 이슈를 발견했다.
+Claude Code가 v2.1.152로 업데이트되면서 `/code-review --fix` 명령어가 추가됐다 — 리뷰 발견 사항을 작업 트리에 직접 적용한다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). 스킬 프론트매터에 `disallowed-tools` 선언 기능, `/reload-skills`로 세션 중 스킬 재로드, `SessionStart` 훅으로 세션 시작 시 자동 실행이 가능해졌다. 장시간 세션에서 터미널 스타일이 깨지는 문제도 수정됐다.
 
-## Anthropic: 28개 엔터프라이즈 보안 연동 출시
+## Claude Managed Agents: 셀프호스팅 샌드박스 + MCP 터널
 
-Anthropic이 Claude Compliance API를 통해 28개 신규 보안·컴플라이언스 연동을 출시했다([Help Net Security](https://www.helpnetsecurity.com/2026/05/25/anthropic-security-compliance-integrations-claude/)). CrowdStrike, Palo Alto Networks, Microsoft Purview, Okta, Zscaler, Netskope, Cloudflare, Fortinet, Wiz, Datadog 등 주요 보안 벤더가 포함된다. 엔터프라이즈 IT 팀이 기존 보안 도구 체인으로 Claude를 관리할 수 있게 되면서, 대기업 도입의 마지막 장벽인 보안 거버넌스 문제를 정면으로 공략하는 모양새다.
+Managed Agents에 두 가지 엔터프라이즈 기능이 추가됐다([claude.com](https://claude.com/blog/claude-managed-agents-updates)). 셀프호스팅 샌드박스(공개 베타)로 에이전트 도구 실행을 자체 인프라 또는 Cloudflare, Daytona, Modal, Vercel에서 운영할 수 있게 됐다. MCP 터널(리서치 프리뷰)은 퍼블릭 엔드포인트 없이 사설 네트워크 내 MCP 서버에 접근하며, 종단간 암호화를 지원한다([InfoQ](https://www.infoq.com/news/2026/05/claude-mcp-tunnels/)).
 
-## GitHub Copilot: 엔터프라이즈 통제력 강화로 하락 방어 시도
+## GitHub Copilot: 23주 연속 하락, 60선 붕괴
 
-GitHub이 타겟 모델 규칙을 퍼블릭 프리뷰로 출시했다([GitHub Changelog](https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules/)). 엔터프라이즈 관리자가 조직별로 사용 가능한 Copilot 모델을 세밀하게 제어할 수 있는 기능으로, 사용량 과금 전환을 앞두고 비용 통제 수요에 대응하는 움직임이다.
+Copilot 인기도가 23주 연속 하락하며 60에 도달했다 — 역대 최저치다([GitHub Docs](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing)). 6월 1일 사용량 기반 과금 전환까지 5일 남았으며, 에이전트와 채팅은 AI 크레딧을 소비하고 코드 완성만 무제한 유지된다. 타겟 모델 규칙이 퍼블릭 프리뷰로 출시돼 엔터프라이즈 관리자가 조직별 모델을 제어할 수 있다([GitHub Changelog](https://github.blog/changelog/2026-05-26-target-copilot-models-to-organizations-with-model-rules/)).
 
-## Copilot Studio: 컴퓨터 사용 에이전트 최초 GA
+## Copilot Studio: 컴퓨터 사용 에이전트 GA
 
-Microsoft의 Copilot Studio가 컴퓨터 사용 에이전트(CUA)를 전체 상용 Power Platform 지역에서 정식 출시했다([Microsoft Copilot Blog](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/)). OpenAI CUA와 Claude Sonnet 4.5를 프로덕션 모델로 탑재하고, API가 없는 레거시 시스템 자동화에 특화됐다. 계약 기반 GA로 CUA를 제공하는 최초의 플랫폼이다.
+Microsoft Copilot Studio의 컴퓨터 사용 에이전트(CUA)가 전체 상용 Power Platform 지역에서 GA에 도달했다([Microsoft Copilot Blog](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/)). OpenAI CUA와 Claude Sonnet 4.5를 프로덕션 모델로 탑재하며, API 없는 레거시 시스템 자동화를 위한 최초의 GA CUA 플랫폼이다.
 
-## Grok Build: 전면 개방
+## SpaceX IPO: 역대 최대 규모 임박
 
-xAI가 Grok Build를 전체 SuperGrok 및 X Premium+ 구독자로 확대하고, Windows PowerShell 설치기를 출시했다([xAI](https://x.ai/news/grok-build-cli)). grok-build-0.1 모델(256K 컨텍스트)에 8개 병렬 서브에이전트를 지원하며, 터미널 에이전트 시장에 본격 진입하는 신호다.
+SpaceX가 $1.75조 밸류에이션, $750억 조달을 목표로 IPO를 추진한다([CNBC](https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html)). 로드쇼 6월 4일, 가격 결정 6월 11일, Nasdaq 거래 개시 6월 12일(SPCX). Goldman Sachs가 인수 주선을 맡았으며, S-1에서 Anthropic이 Colossus 컴퓨트에 월 $12.5억을 지불 중인 것이 확인됐다.
 
-## 서비스 안정성: 곳곳에서 장애
+## Gemini API: 호환성 파괴 변경, 6/8 마감
 
-Anthropic의 Opus 4.7이 5월 25일 06:30–10:30 UTC에 오류율이 급증했고([Claude Status](https://status.claude.com/)), Windsurf도 5월 26일 약 1시간 38분간 오류가 발생했다([Windsurf Status](https://status.windsurf.com/)). Gemini CLI 종료까지 22일 — Antigravity CLI 전환이 가속화되고 있다([Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)).
+Gemini Interactions API의 `outputs`가 `steps` 배열로 대체되고, 다형적 `response_format`이 도입됐다([Google AI for Developers](https://ai.google.dev/gemini-api/docs/interactions-breaking-changes-may-2026)). 5월 26일부터 새 스키마가 기본값이며, `Api-Revision: 2026-05-07` 헤더를 통한 레거시 지원은 6월 8일 완전 종료된다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| Claude Code | 98 | — | 14일 연속 98 안정 |
-| Cursor | 96 | — | Composer 2.5 안정세 |
-| Codex CLI | 88 | — | 5주 연속 고점 유지 |
-| Windsurf | 81 | — | Devin 통합 후 안정, 장애 발생 |
-| Gemini CLI | 80 | ↓1 | 종료 D-22, 하락 지속 |
-| GH Copilot | 60 | ↓1 | 23주 연속 하락, 역대 최저 |
-| Antigravity | 56 | ↑1 | 롤백 사태 후 3일 연속 회복 |
+| Claude Code | 98 | — | v2.1.152 + Managed Agents 강화 |
 | ChatGPT | 98 | — | GPT-5.5 Instant 효과 지속 |
-| Claude AI | 94 | — | $30B+ 라운드 마감 주간 |
+| Cursor | 96 | — | Composer 2.5 안정세 |
+| Claude AI | 94 | — | $9000억+ 라운드 마감 |
+| Codex CLI | 88 | — | 5주 연속 고점 유지 |
+| Windsurf | 81 | — | 장애 후 안정화 |
+| Gemini CLI | 80 | ↓1 | 종료 D-22, API 파괴 변경 |
+| Aider | 68 | — | 안정 |
+| GH Copilot | 60 | ↓1 | 23주 연속 하락, 역대 최저 |
+| Antigravity | 56 | ↑1 | 롤백 후 4일 회복세 |

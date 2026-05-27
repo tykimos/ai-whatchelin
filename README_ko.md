@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-26</sub>
+  <sub>마지막 업데이트: 2026-05-27</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.26-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.27-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -334,6 +334,11 @@ timeline
          : GitHub Actions/Pages 글로벌 장애 — 인증 실패 10:57–13:18 UTC, HN 644포인트 (5/26)
          : Uber COO AI 투자 ROI 의문 — 2026년 AI 예산 4월에 전부 소진 (5/26)
          : HN 1위 "AI로 더 느리게 더 나은 코드 작성" — 1,114포인트, 품질>속도 전환 (5/26)
+         : Copilot 23주 연속 하락 60, 사용량 과금 D-5 (5/27)
+         : Copilot 타겟 모델 규칙 — 엔터프라이즈 조직별 모델 제어, 퍼블릭 프리뷰 (5/27)
+         : Copilot Studio 컴퓨터 사용 에이전트 GA — 최초 엔터프라이즈 CUA 플랫폼, Claude Sonnet 4.5 + OpenAI CUA (5/27)
+         : Grok Build 전체 SuperGrok/X Premium+ 확대 — Windows PowerShell 설치기 (5/27)
+         : Gemini CLI 종료 D-22 — Antigravity CLI 전환 가속화 (5/27)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -609,6 +614,15 @@ quadrantChart
 
 **HN 1위: "AI로 더 느리게 더 나은 코드 작성하기"** (2026.05.26):
 > *"Nolan Lawson의 'AI=속도' 서사에 대한 반론이 Hacker News에서 1,114포인트를 기록했다 — AI를 속도가 아닌 코드 품질 향상에 사용하자는 주장이다. 커뮤니티가 '더 빠르게'에서 '더 좋게'로 이동하는 성숙 단계를 반영한다."* — Hacker News `2026.05.26`
+
+**Copilot 사용량 과금 D-5** (2026.05.27):
+> *"Copilot 23주 연속 하락으로 60에 도달 — 추적 이래 역대 최저. 6월 1일 사용량 기반 과금까지 5일 남은 가운데, GitHub이 타겟 모델 규칙을 출시해 엔터프라이즈 관리자가 조직별로 사용 가능한 Copilot 모델을 세밀하게 제어할 수 있게 됐다. 연간 플랜 사용자는 만료까지 기존 과금 유지."* — GitHub Changelog `2026.05.27`
+
+**Copilot Studio 컴퓨터 사용 에이전트 GA** (2026.05.27):
+> *"Microsoft의 Copilot Studio 컴퓨터 사용 에이전트가 전체 상용 Power Platform 지역에서 정식 출시됐다. 에이전트가 데스크톱·웹 앱의 UI를 통해 직접 상호작용하며 — 클릭, 입력, 탐색을 사람처럼 수행한다. OpenAI CUA와 Claude Sonnet 4.5를 프로덕션 모델로 탑재하고, Azure Key Vault 자격증명 저장소와 Purview 감사 로깅을 지원한다. 컴퓨터 사용 에이전트를 계약 기반 GA로 제공하는 최초의 플랫폼."* — Microsoft Copilot Blog `2026.05.27`
+
+**Grok Build 전체 SuperGrok/X Premium+ 확대** (2026.05.27):
+> *"xAI가 Grok Build 접근을 SuperGrok Heavy($299/월)에서 전체 SuperGrok 및 X Premium+ 구독자로 확대했다. 같은 날 Windows PowerShell 설치기도 출시. CLI 에이전트는 8개 병렬 서브에이전트, 계획 우선 실행, MCP 호환을 지원하며 grok-build-0.1 모델(256K 컨텍스트)로 동작한다."* — xAI `2026.05.25`
 
 **2026 파워 스택 공식**:
 ```
@@ -1037,26 +1051,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26"]
+    x-axis ["05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27"]
     y-axis "인기 점수" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61]
-    line "Cursor" [94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88]
-    line "Gemini CLI" [74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81]
-    line "Antigravity" [49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55]
+    line "GH Copilot" [73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60]
+    line "Cursor" [95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88]
+    line "Gemini CLI" [75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80]
+    line "Antigravity" [48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-61↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-60↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-81↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-55↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-80↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-56↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

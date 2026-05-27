@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-26</sub>
+  <sub>Last updated: 2026-05-27</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.26-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.27-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -334,6 +334,11 @@ timeline
          : GitHub Actions/Pages global outage — authentication failures 10:57–13:18 UTC, 644 HN points (May 26)
          : Uber COO questions AI spending ROI — burned entire 2026 AI budget by April (May 26)
          : HN #1 "Using AI to write better code more slowly" — 1,114 points, quality-over-speed shift (May 26)
+         : Copilot 23-week decline to 60, D-5 to usage-based billing June 1 (May 27)
+         : Copilot targeted model rules — enterprise granular per-org model control, public preview (May 27)
+         : Copilot Studio computer-using agents GA — first enterprise CUA platform, Claude Sonnet 4.5 + OpenAI CUA (May 27)
+         : Grok Build expanded to all SuperGrok/X Premium+ — Windows PowerShell installer (May 27)
+         : Gemini CLI sunset D-22 — Antigravity CLI migration accelerating (May 27)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -609,6 +614,15 @@ quadrantChart
 
 **HN #1: "Using AI to Write Better Code More Slowly"** (2026.05.26):
 > *"Nolan Lawson's counterpoint to the 'AI for speed' narrative earned 1,114 points on Hacker News — arguing for using AI to improve code quality rather than velocity. Reflects the maturing conversation: the community is moving past 'faster' to 'better.'"* — Hacker News `2026.05.26`
+
+**Copilot D-5 to Usage-Based Billing** (2026.05.27):
+> *"Copilot's 23-week decline continues to 60 — a new all-time low. With 5 days until June 1 usage-based billing, GitHub launched targeted model rules letting enterprise owners control which Copilot models are available per organization. Annual plan users keep request-based pricing until renewal."* — GitHub Changelog `2026.05.27`
+
+**Copilot Studio Computer-Using Agents GA** (2026.05.27):
+> *"Microsoft's Copilot Studio computer-using agents reached general availability across all commercial Power Platform geographies. Agents interact with desktop and web applications through the UI — clicking, typing, and navigating like a human. Ships with OpenAI CUA and Claude Sonnet 4.5 as production models, Azure Key Vault credential storage, and Purview audit logging. Microsoft is the first platform with contractual GA for computer-use agents."* — Microsoft Copilot Blog `2026.05.27`
+
+**Grok Build Expanded to All SuperGrok/X Premium+** (2026.05.27):
+> *"xAI expanded Grok Build access from SuperGrok Heavy ($299/mo) to all SuperGrok and X Premium+ subscribers. A Windows PowerShell installer shipped the same day. The CLI agent supports 8 parallel sub-agents, plan-first execution, and MCP compatibility on the grok-build-0.1 model with 256K context."* — xAI `2026.05.25`
 
 **2026 Power Stack Formula**:
 ```
@@ -1046,26 +1060,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26"]
+    x-axis ["05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27"]
     y-axis "Popularity Score" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [73, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61]
-    line "Cursor" [94, 95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [78, 78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [81, 81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88]
-    line "Gemini CLI" [74, 75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81]
-    line "Antigravity" [49, 48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55]
+    line "GH Copilot" [73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60]
+    line "Cursor" [95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88]
+    line "Gemini CLI" [75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80]
+    line "Antigravity" [48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-61↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-60↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-81↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-55↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-80↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-56↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

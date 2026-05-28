@@ -190,6 +190,7 @@ timeline
          : Gemini CLI official open-source launch — Apache 2.0, free Gemini 2.5 Pro (May 5)
          : Cursor 3.3 — Build in Parallel, PR Splitting, Team Marketplace (May 7)
          : Enterprise-managed plugins for Copilot CLI in public preview (May 6)
+         : Canada rules ChatGPT violated privacy law — overcollection, lack of consent, children's data (May 6)
          : Claude Code v2.1.132 — session ID env var, fullscreen fix, MCP auth fix (May 7)
          : Gemini CLI v0.42.0 preview — voice mode, Gemma 4, memory enhancements (May 7)
          : Akamai $1.8B cloud deal — 7-year compute contract, Akamai ↑27% (May 8)
@@ -211,6 +212,7 @@ timeline
          : Copilot Grok Code Fast 1 deprecated May 15 — GPT-5 mini, Claude Haiku 4.5 alternatives (May 11)
          : Claude Code v2.1.139 — Agent view, /goal command, /scroll-speed (May 11)
          : Copilot CLI 1.0.45 — /autopilot, /fork commands, 1.5s faster startup (May 11)
+         : OpenAI DeployCo $4B consulting subsidiary — TPG/Goldman/McKinsey/Bain/Capgemini, Tomoro acquired (May 11)
          : DALL-E 2 & 3 officially shut down — gpt-image-2 replaces all (May 12)
          : Cursor Security Review beta — always-on security agents for Teams/Enterprise (May 12)
          : Codex CLI Amazon company-wide access begins — 5-week streak to 81 (May 12)
@@ -662,6 +664,24 @@ quadrantChart
 
 **Gemini API Breaking Change — Legacy Schema Removed June 8** (2026.05.27):
 > *"The Gemini Interactions API introduced a new `steps` array replacing `outputs`, and a polymorphic `response_format`. New schema is the default since May 26; legacy support via `Api-Revision: 2026-05-07` ends June 8. Developers must migrate immediately."* — Google AI for Developers `2026.05.27`
+
+**Claude Security Public Beta** (2026.05.28):
+> *"Enterprise customers can now access Opus 4.7-powered codebase vulnerability scanning. Goes beyond traditional static analysis to identify architecture-level security issues. Available through Project Glasswing to approximately 50 organizations."* — Help Net Security `2026.05.28`
+
+**Big Four Claude Standardization** (2026.05.28):
+> *"Three of four Big Four consulting firms — Deloitte (470K employees), PwC (276K), KPMG (276K across 138 countries) — confirmed enterprise-wide Claude deployment within 60 days. Only EY has not announced a comparable deal. Anthropic's enterprise distribution moat is widening."* — BuildFastWithAI `2026.05.28`
+
+**OpenAI DeployCo $4B Consulting Subsidiary** (2026.05.11):
+> *"OpenAI launched DeployCo, a standalone consulting subsidiary backed by $4+ billion from TPG, Goldman Sachs, McKinsey, Bain Capital, and Capgemini. Acquired Tomoro (150 engineers) and deploys engineers directly into client organizations. The direct consulting model vs Anthropic's Big Four indirect model — two opposite enterprise strategies colliding."* — BuildFastWithAI `2026.05.28`
+
+**Copilot D-4 to Usage-Based Billing** (2026.05.28):
+> *"Copilot's 24-week decline hits 59 — a new all-time low. With 4 days to June 1 usage-based billing, GitHub's preview bill tool is now live. Annual plan users keep request-based pricing until renewal. Microsoft Build 2026 in 5 days may offer a counter-narrative."* — GitHub Docs `2026.05.28`
+
+**Canada Rules ChatGPT Violated Privacy Law** (2026.05.06):
+> *"Canada's Privacy Commissioner and provincial counterparts (Quebec, BC, Alberta) found OpenAI violated privacy laws through overcollection, lack of consent, and inadequate safeguards for sensitive data including children's information. One of the first national-level formal findings of ChatGPT privacy violations."* — BuildFastWithAI `2026.05.28`
+
+**ChatGPT Voice Mode Controversy** (2026.05.28):
+> *"Developers criticized that ChatGPT's voice interface still runs on a GPT-4o-era model with April 2024 knowledge cutoff — a 13-month gap behind the text model. OpenAI has not announced a timeline for upgrading the voice model to GPT-5.5."* — BuildFastWithAI `2026.05.28`
 
 **2026 Power Stack Formula**:
 ```
@@ -1132,8 +1152,8 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_GH_Copilot-59↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-80↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-56↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-79↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-57↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

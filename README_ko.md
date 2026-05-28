@@ -190,6 +190,7 @@ timeline
          : Gemini CLI 공식 오픈소스 런칭 — Apache 2.0, Gemini 2.5 Pro 무료 (5/5)
          : Cursor 3.3 — Build in Parallel, PR 분할, Team Marketplace (5/7)
          : Copilot CLI 엔터프라이즈 관리 플러그인 퍼블릭 프리뷰 (5/6)
+         : 캐나다, ChatGPT 개인정보보호법 위반 판정 — 과다수집·동의 부재·아동 데이터 (5/6)
          : Claude Code v2.1.132 — 세션 ID 환경변수, 전체화면 수정, MCP 인증 수정 (5/7)
          : Gemini CLI v0.42.0 프리뷰 — 음성 모드, Gemma 4, 메모리 개선 (5/7)
          : Akamai $18억 클라우드 계약 — 7년 컴퓨트, Akamai ↑27% (5/8)
@@ -211,6 +212,7 @@ timeline
          : Copilot Grok Code Fast 1 5/15 지원 종료 — GPT-5 mini, Claude Haiku 4.5 대체 (5/11)
          : Claude Code v2.1.139 — Agent view, /goal 명령어, /scroll-speed (5/11)
          : Copilot CLI 1.0.45 — /autopilot, /fork 명령어, 시작 1.5초 단축 (5/11)
+         : OpenAI DeployCo $40억 컨설팅 자회사 출범 — TPG/Goldman/McKinsey/Bain/Capgemini, Tomoro 인수 (5/11)
          : DALL-E 2·3 공식 종료 — gpt-image-2 전면 교체 (5/12)
          : Cursor Security Review 베타 — Teams/Enterprise 상시 보안 에이전트 (5/12)
          : Codex CLI Amazon 전사 접근 개시 — 5주 연속 상승 81 (5/12)
@@ -678,6 +680,12 @@ quadrantChart
 **ChatGPT 음성 모드 논란** (2026.05.28):
 > *"개발자들이 ChatGPT 음성 인터페이스가 여전히 GPT-4o 시대 모델(2024년 4월 지식 컷오프)로 구동된다고 비판했다 — 텍스트 모델 대비 13개월의 성능 격차. OpenAI는 음성 모델의 GPT-5.5 업그레이드 일정을 발표하지 않았다."* — BuildFastWithAI `2026.05.28`
 
+**OpenAI DeployCo $40억 컨설팅 자회사** (2026.05.11):
+> *"OpenAI가 TPG, Goldman Sachs, McKinsey, Bain Capital, Capgemini으로부터 $40억+ 투자를 받아 독립 컨설팅 자회사 DeployCo를 출범했다. Tomoro(150명 엔지니어)를 인수해 고객 조직에 엔지니어를 직접 파견한다. Anthropic의 Big Four 간접 배포 모델 vs OpenAI의 직접 컨설팅 모델 — 정반대의 엔터프라이즈 전략이 정면 충돌한다."* — BuildFastWithAI `2026.05.28`
+
+**캐나다, ChatGPT 개인정보보호법 위반 판정** (2026.05.06):
+> *"캐나다 프라이버시 커미셔너와 3개 주(퀘벡, BC, 앨버타) 기관이 OpenAI가 과다 수집, 동의 없는 데이터 처리, 아동 데이터 보호 미흡 등으로 개인정보보호법을 위반했다고 판정했다. 국가 차원에서 ChatGPT 프라이버시 위반을 공식 인정한 첫 사례 중 하나."* — BuildFastWithAI `2026.05.28`
+
 **2026 파워 스택 공식**:
 ```
 일상 코딩 = Codex CLI (키스트로크 레벨)
@@ -1123,8 +1131,8 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_GH_Copilot-59↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-80↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-56↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-79↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-57↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

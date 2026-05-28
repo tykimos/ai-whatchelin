@@ -359,6 +359,7 @@ timeline
          : ChatGPT Voice Mode controversy — GPT-4o-era model, 13-month knowledge gap (May 28)
          : Microsoft Build 2026 D-5 — San Francisco, multi-agent orchestration expected (May 28)
          : Gemini CLI sunset D-21 — Antigravity CLI migration accelerating (May 28)
+         : Claude Opus 4.8 released — SWE-bench 88.6%, dynamic workflows, 2.5x fast mode (May 28)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -423,7 +424,7 @@ flowchart TD
 
 | Rank | Tool | Category | Evidence |
 |:---:|---|---|---|
-| 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (80.9%), best code quality, 67% blind test win rate |
+| 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (88.6%), Opus 4.8, best code quality |
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B valuation talks, $2B+ ARR, best tab autocomplete |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/Plugin | Most widely adopted AI dev tool, 9+ IDEs, $10/mo lowest price |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 #1, Cascade memory, strong on large codebases |
@@ -904,6 +905,9 @@ Free            = Gemini CLI + Aider
 **ChatGPT Voice Mode Controversy** (2026.05.28):
 > *"Developers criticized that ChatGPT's voice interface still runs on a GPT-4o-era model with an April 2024 knowledge cutoff — a 13-month capability gap versus the text model. OpenAI has not announced a timeline for upgrading the voice model to GPT-5.5."* — BuildFastWithAI `2026.05.28`
 
+**Claude Opus 4.8 Released** (2026.05.28):
+> *"Anthropic released Opus 4.8 with 88.6% on SWE-bench Verified (up from 87.6%), 69.2% on SWE-bench Pro (from 64.3%), and 96.7% on USAMO 2026 math (from 69.3%). Long-context F1 at 1M tokens jumps to 68.1% (from 40.3%). Parallel-subagent dynamic workflows in Claude Code, mid-task system messages on Messages API, and optional 2.5x fast mode. Same $5/$25 pricing."* — TechCrunch `2026.05.28`
+
 ---
 
 ## Code Assistants (Plugins)
@@ -1084,6 +1088,9 @@ xychart-beta
 **Windsurf Opus 4.7 Fast Mode** (2026.05.12):
 > *"Claude Opus 4.7 fast mode now available in Windsurf — approximately 2.5x higher output speed for Cascade sessions. Significantly reduces wait times for complex multi-file edits."* — windsurf.com `2026.05.12`
 
+**Claude Opus 4.8 Released** (2026.05.28):
+> *"Opus 4.8 jumps to 88.6% SWE-bench Verified (from 87.6%), 69.2% SWE-bench Pro (from 64.3%), and 96.7% USAMO 2026 math. Long-context F1 at 1M tokens nearly doubles to 68.1%. Parallel-subagent dynamic workflows, mid-task system messages, and optional 2.5x fast mode. Same $5/$25 pricing."* — TechCrunch `2026.05.28`
+
 **43% of AI Code Needs Production Debugging** (2026.05):
 > *"Lightrun's 2026 survey finds 43% of AI-generated code changes require manual debugging in production even after passing QA. 0% of engineering leaders say they are 'very confident' in AI code correctness."* — VentureBeat `2026.05`
 
@@ -1136,24 +1143,24 @@ xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
     x-axis ["05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99]
     line "GH Copilot" [72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59]
     line "Cursor" [95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
     line "Codex CLI" [82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 79]
+    line "Gemini CLI" [76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78]
     line "Antigravity" [47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-99↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-59↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-79↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-57↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-78↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-57―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
 

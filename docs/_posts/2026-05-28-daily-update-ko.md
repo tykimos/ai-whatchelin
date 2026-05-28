@@ -1,58 +1,50 @@
 ---
-title: "Big Four 컨설팅 3곳 Claude에 올인 — AI 코딩 도구 엔터프라이즈 표준 확정"
+title: "Claude Opus 4.8 출시 — SWE-bench 88.6%, AI 코딩 벤치마크 역대 최고 경신"
 date: 2026-05-28
 lang: ko
 categories: [news]
-tags: [claude, copilot, anthropic, cohere, chatgpt, openai, microsoft-build]
-excerpt: "Deloitte·PwC·KPMG가 60일 내 Claude 전사 배포를 확정하며 Big Four 4곳 중 3곳이 Anthropic에 몰렸다. OpenAI는 $40억 DeployCo 자회사로 맞대응. Copilot은 24주 연속 하락으로 59를 기록, 사용량 과금 D-4."
+tags: [claude, anthropic, opus, copilot, gemini-cli, cohere, chatgpt, microsoft-build]
+excerpt: "Anthropic이 Opus 4.8을 출시하며 SWE-bench Verified 88.6%를 기록했다. USAMO 수학은 96.7%로 27pp 급등. Big Four 3곳 Claude 표준화와 맞물려 엔터프라이즈 독주 체제가 굳어지고 있다."
 ---
 
-Anthropic의 엔터프라이즈 유통 전략이 결정적 고비를 넘었다. Big Four 컨설팅 4곳 중 3곳 — Deloitte(47만 명), PwC(27.6만 명), KPMG(138개국 27.6만 명) — 이 60일 이내 Claude 전사 배포를 확정했다([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026)). EY만 유사한 규모의 계약을 발표하지 않은 상태로, Anthropic의 엔터프라이즈 해자가 빠르게 넓어지고 있다.
+Anthropic이 오늘 Claude Opus 4.8을 출시했다. SWE-bench Verified 88.6%(Opus 4.7의 87.6%에서 상승), SWE-bench Pro 69.2%(64.3%에서 점프), USAMO 2026 수학 96.7%(69.3%에서 27pp 급등)을 기록하며 AI 코딩 벤치마크를 다시 한 번 갈아치웠다([TechCrunch](https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/)). 특히 1M 토큰 롱컨텍스트 F1이 40.3%에서 68.1%로 거의 두 배 뛰며 대규모 코드베이스 작업 능력이 대폭 강화됐다([llm-stats.com](https://llm-stats.com/blog/research/claude-opus-4-8-launch)).
 
-## Claude Security: 코드베이스 취약점 스캐닝 퍼블릭 베타
+## Claude Code: 동적 워크플로우와 99점 달성
 
-Anthropic이 Claude Security 퍼블릭 베타를 출시했다. Opus 4.7 기반으로 기존 정적 분석을 넘어 아키텍처 수준의 보안 이슈를 식별하며, Project Glasswing을 통해 약 50개 조직에 제공 중이다([Help Net Security](https://www.helpnetsecurity.com/2026/05/04/anthropic-claude-security-public-beta/)). 다단계 검증 파이프라인이 각 발견을 분석가에게 전달하기 전 독립적으로 검토하며, API 통합이나 커스텀 에이전트 없이 claude.ai/security에서 바로 사용할 수 있다([claude.com](https://claude.com/blog/claude-security-public-beta)). 지난주 Claude Mythos가 1,000개 이상 오픈소스 프로젝트에서 23,019개 이슈를 발견한 데 이어, 보안 영역 확장이 본격화됐다.
+Opus 4.8의 핵심 변화는 Claude Code에서의 병렬 서브에이전트 동적 워크플로우다([digitalapplied.com](https://www.digitalapplied.com/blog/claude-opus-4-8-release-dynamic-workflows-2026)). 에이전트가 작업 중간에 시스템 메시지를 수신할 수 있는 Messages API 업데이트, 그리고 선택적 2.5x 패스트 모드가 추가됐다. 가격은 $5/$25(입력/출력 1M 토큰)으로 동일하다([anthropic.com](https://anthropic.com)). Claude Code 인기도는 98에서 99로 상승하며 역대 최고를 기록했다.
 
-## OpenAI DeployCo: $40억 컨설팅 자회사 출격
+## Big Four 3곳 Claude 전사 배포 확정
 
-OpenAI가 $40억 이상 투자를 받아 컨설팅 자회사 DeployCo를 설립했다([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026)). TPG, Goldman Sachs, McKinsey, Bain Capital, Capgemini이 공동 투자했으며, 150명 규모의 Tomoro를 인수해 엔지니어를 고객 조직에 직접 파견하는 모델을 구축했다. Anthropic이 Big Four를 통한 간접 배포를 택한 반면, OpenAI는 직접 컨설팅 모델로 엔터프라이즈 시장에 진입한다 — 두 AI 거대 기업의 정반대 유통 전략이 본격 충돌하는 구도다.
+Deloitte(47만 명), PwC(27.6만 명), KPMG(138개국 27.6만 명)이 60일 내 Claude 전사 배포를 확정했다([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026)). EY만 유사 규모 계약을 미발표한 상태다. Opus 4.8 출시와 동시에 엔터프라이즈 표준화가 맞물리며, Anthropic의 시장 지배력이 더욱 공고해지고 있다.
+
+## Claude Security 퍼블릭 베타
+
+Opus 4.7 기반 코드베이스 취약점 스캐닝이 퍼블릭 베타로 전환됐다([Help Net Security](https://www.helpnetsecurity.com/2026/05/04/anthropic-claude-security-public-beta/)). 기존 정적 분석을 넘어 아키텍처 수준 보안 이슈를 탐지하며, Project Glasswing을 통해 약 50개 조직에 제공 중이다.
 
 ## Copilot 24주 연속 하락 — 사용량 과금 D-4
 
-GitHub Copilot이 24주 연속 하락하며 59를 기록했다 — 추적 시작 이래 역대 최저([GitHub Docs](https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-individuals)). 6월 1일 사용량 기반 과금 전환까지 4일 남았다. 코드 완성과 Next Edit 제안은 무료로 유지되지만, 에이전트와 채팅 기능은 AI 크레딧을 소비한다([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)). 5일 후 Microsoft Build 2026이 반전 카드가 될 수 있을지 주목된다.
+GitHub Copilot이 24주 연속 하락하며 59를 기록, 추적 이래 역대 최저다([GitHub Docs](https://docs.github.com/en/copilot/concepts/billing/usage-based-billing-for-individuals)). 6월 1일 사용량 기반 과금까지 4일. 5일 후 Microsoft Build 2026이 반전 카드가 될 수 있을지 주목된다.
 
-## Cohere-Aleph Alpha 합병 — $200억 소버린 AI 탄생
+## Gemini CLI 종료 D-21 — 개발자 신뢰 위기
 
-Cohere와 독일 Aleph Alpha가 합병을 발표하며 $200억 규모의 대서양 횡단 소버린 AI 기업을 설립한다([BusinessWire](https://www.businesswire.com/news/home/20260424174908/en/Sovereign-AI-for-the-World-Cohere-and-Aleph-Alpha-to-Form-Global-AI-Powerhouse-as-Nations-and-Enterprises-Demand-Control-Over-Their-Technology)). Schwarz Group이 $6억을 투자했으며, 방위·금융·헬스케어 등 고규제 산업과 유럽 공공 부문을 타깃으로 한다([TechCrunch](https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/)). 미국 중심 AI 인프라에 대한 유럽 최강 대항마가 됐다.
-
-## ChatGPT 음성 모드: 13개월 지식 격차 논란
-
-개발자들이 ChatGPT 음성 인터페이스가 여전히 GPT-4o 시대 모델(2024년 4월 지식 컷오프)로 구동된다고 비판했다([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026)). 텍스트 모델이 GPT-5.5로 업그레이드된 지 한 달이 넘었지만, 음성 모드는 13개월 전 지식에 머물러 있다. $200/월 Pro 구독자에게도 같은 구형 모델이 적용되는 점이 특히 비판받고 있다.
-
-## 캐나다, ChatGPT 개인정보보호법 위반 판정
-
-캐나다 프라이버시 커미셔너와 3개 주(퀘벡, BC, 앨버타) 기관이 OpenAI가 과다 수집, 동의 없는 데이터 처리, 아동 데이터 보호 미흡 등으로 개인정보보호법을 위반했다고 판정했다([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026)). 국가 차원에서 ChatGPT의 프라이버시 위반을 공식 인정한 첫 번째 사례 중 하나다.
-
-## Microsoft Build 2026 D-5
-
-Microsoft Build 2026이 6월 2-3일 샌프란시스코 Fort Mason Center에서 열린다([ChatForest](https://chatforest.com/reviews/microsoft-build-2026-preview/)). Satya Nadella가 오프닝 키노트를 맡으며, 멀티에이전트 오케스트레이션, Azure AI Foundry 업데이트, GitHub Copilot 차세대 기능이 예고됐다. Copilot Studio CUA가 이미 GA에 도달한 만큼, 반전 서사를 만들 수 있을지 주목된다.
+Gemini CLI가 6월 18일 종료까지 D-21로 접어들며 인기도 78로 하락했다([Google Developers Blog](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/)). 6,000개 이상의 커뮤니티 기여를 받은 오픈소스 프로젝트를 폐쇄형 Antigravity CLI로 강제 전환하는 결정에 개발자들의 반발이 이어지고 있다([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)).
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 98 | — | 음성 모드·프라이버시 논란에도 텍스트 모델 강세 유지 |
-| Claude Code | 98 | — | Big Four 3곳 표준화, Security 베타 |
-| Cursor | 96 | — | Build D-5 앞두고 안정세 |
-| Codex CLI | 88 | — | Goal 모드 정식 전환 후 안정화 |
+| Claude Code | 99 | ↑1 | Opus 4.8 출시일 부스트, 역대 최고 |
+| ChatGPT | 98 | — | 음성 모드 논란에도 텍스트 모델 강세 |
+| Cursor | 96 | — | Build D-5 앞두고 안정 |
+| Claude AI | 95 | ↑1 | Opus 4.8 모델 출시 효과 |
+| Codex CLI | 88 | — | Goal 모드 정식 후 안정화 |
 | Windsurf | 81 | — | 변동 없음 |
-| Gemini CLI | 79 | ↓1 | 종료 D-21, 꾸준한 하락세 |
+| Gemini CLI | 78 | ↓1 | 종료 D-21, 꾸준한 하락 |
 | Aider | 68 | — | 오픈소스 안정, 41.6K Stars |
-| Copilot | 59 | ↓1 | 24주 연속 하락, 역대 최저 |
-| Antigravity | 57 | ↑1 | v2.0.0 패치 후 느린 회복 |
-| Claude AI | 94 | — | $900B+ 밸류에이션 후 안정 |
+| Copilot | 59 | — | 24주 연속 하락, 역대 최저 |
+| Antigravity | 57 | — | v2.0.0 패치 후 횡보 |
 
-Copilot의 24주 연속 하락이 사상 최저 59를 기록하며 6월 1일 사용량 과금 전환을 앞두고 있다. 엔터프라이즈 배포 전쟁은 Anthropic(Big Four 간접 배포) vs OpenAI(DeployCo 직접 배포)로 양분되며 새로운 국면에 진입했다.
+Opus 4.8 출시로 Claude Code가 99를 찍으며 경쟁 도구와의 격차를 더 벌렸다. SWE-bench Pro에서 5pp 점프는 에이전틱 코딩 품질의 실질적 개선을 보여준다. Copilot은 6월 1일 과금 전환을 4일 앞두고 역대 최저에 머물러 있다.
 
 ---
 

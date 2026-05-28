@@ -359,6 +359,7 @@ timeline
          : ChatGPT 음성 모드 논란 — GPT-4o 시대 모델, 13개월 지식 격차 (5/28)
          : Microsoft Build 2026 D-5 — 샌프란시스코, 멀티에이전트 오케스트레이션 예고 (5/28)
          : Gemini CLI 종료 D-21 — Antigravity CLI 전환 가속화 (5/28)
+         : Claude Opus 4.8 출시 — SWE-bench 88.6%, 동적 워크플로우, 2.5x 패스트 모드 (5/28)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -423,7 +424,7 @@ flowchart TD
 
 | 순위 | 도구 | 카테고리 | 근거 |
 |:---:|---|---|---|
-| 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (80.9%), 코드 품질 최강, 67% 블라인드 테스트 승률 |
+| 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (88.6%), Opus 4.8, 코드 품질 최강 |
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B 밸류 협상 중, $2B+ ARR, 탭 자동완성 최강 |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE, $10/월 최저가 |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 1위, Cascade 메모리, 대규모 코드베이스 강점 |
@@ -679,6 +680,9 @@ quadrantChart
 
 **ChatGPT 음성 모드 논란** (2026.05.28):
 > *"개발자들이 ChatGPT 음성 인터페이스가 여전히 GPT-4o 시대 모델(2024년 4월 지식 컷오프)로 구동된다고 비판했다 — 텍스트 모델 대비 13개월의 성능 격차. OpenAI는 음성 모델의 GPT-5.5 업그레이드 일정을 발표하지 않았다."* — BuildFastWithAI `2026.05.28`
+
+**Claude Opus 4.8 출시** (2026.05.28):
+> *"Anthropic이 Opus 4.8을 출시했다. SWE-bench Verified 88.6%(4.7의 87.6% 대비 상승), SWE-bench Pro 69.2%(64.3%에서 상승), USAMO 2026 수학 96.7%(69.3%에서 상승). 1M 토큰 롱컨텍스트 F1 68.1%(40.3%에서 상승). Claude Code에서 병렬 서브에이전트 동적 워크플로우, Messages API 중간 작업 시스템 메시지, 선택적 2.5x 패스트 모드 제공. 가격 $5/$25 동일."* — TechCrunch `2026.05.28`
 
 **OpenAI DeployCo $40억 컨설팅 자회사** (2026.05.11):
 > *"OpenAI가 TPG, Goldman Sachs, McKinsey, Bain Capital, Capgemini으로부터 $40억+ 투자를 받아 독립 컨설팅 자회사 DeployCo를 출범했다. Tomoro(150명 엔지니어)를 인수해 고객 조직에 엔지니어를 직접 파견한다. Anthropic의 Big Four 간접 배포 모델 vs OpenAI의 직접 컨설팅 모델 — 정반대의 엔터프라이즈 전략이 정면 충돌한다."* — BuildFastWithAI `2026.05.28`
@@ -1063,6 +1067,9 @@ xychart-beta
 **Windsurf Opus 4.7 Fast 모드** (2026.05.12):
 > *"Windsurf에서 Claude Opus 4.7 fast 모드 사용 가능 — Cascade 세션에서 약 2.5배 빠른 출력 속도. 복잡한 멀티파일 편집의 대기 시간이 크게 단축된다."* — windsurf.com `2026.05.12`
 
+**Claude Opus 4.8 출시** (2026.05.28):
+> *"Opus 4.8이 SWE-bench Verified 88.6%(87.6%에서 상승), SWE-bench Pro 69.2%(64.3%에서 상승), USAMO 2026 수학 96.7%를 기록했다. 1M 토큰 롱컨텍스트 F1이 68.1%로 거의 두 배 상승. 병렬 서브에이전트 동적 워크플로우, 중간 작업 시스템 메시지, 선택적 2.5x 패스트 모드. 가격 $5/$25 동일."* — TechCrunch `2026.05.28`
+
 **AI 코드 43%가 프로덕션에서 디버깅 필요** (2026.05):
 > *"Lightrun의 2026 조사에 따르면 AI 생성 코드 변경의 43%가 QA 통과 후에도 프로덕션에서 수동 디버깅이 필요하다. AI 코드 정확성에 '매우 자신 있다'고 답한 엔지니어링 리더는 0%."* — VentureBeat `2026.05`
 
@@ -1115,24 +1122,24 @@ xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
     x-axis ["05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99]
     line "GH Copilot" [72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59]
     line "Cursor" [95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
     line "Codex CLI" [82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 79]
+    line "Gemini CLI" [76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78]
     line "Antigravity" [47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-99↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-59↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-79↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-57↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-78↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-57―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
 

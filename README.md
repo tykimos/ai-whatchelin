@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-27</sub>
+  <sub>Last updated: 2026-05-28</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.27-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.28-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -350,6 +350,13 @@ timeline
          : Gemini API Interactions breaking change — legacy schema removed June 8 (May 27)
          : Gemini 3.5 Pro confirmed for June launch — Pichai at I/O (May 27)
          : Microsoft Build 2026 June 2-3 — multi-model Foundry, Copilot multi-agent orchestration (May 27)
+         : Copilot 24-week decline to 59, D-4 to usage-based billing June 1 (May 28)
+         : Claude Security public beta — Opus 4.7 codebase vulnerability scanning (May 28)
+         : Big Four Claude standardization — Deloitte (470K), PwC (276K), KPMG (276K) deploy Claude (May 28)
+         : Cohere-Aleph Alpha merger — $20B transatlantic sovereign AI company (May 28)
+         : ChatGPT Voice Mode controversy — GPT-4o-era model, 13-month knowledge gap (May 28)
+         : Microsoft Build 2026 D-5 — San Francisco, multi-agent orchestration expected (May 28)
+         : Gemini CLI sunset D-21 — Antigravity CLI migration accelerating (May 28)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -862,6 +869,21 @@ Free            = Gemini CLI + Aider
 **Zed 1.0 Released** (2026.04.29):
 > *"Five years, 1M+ lines of Rust. Parallel agents in the same window. External agent integration via Agent Client Protocol. Edit Prediction (Zeta) for AI completions on every keystroke."* — alternativeto.net `2026.04.29`
 
+**Claude Security Public Beta** (2026.05.28):
+> *"Enterprise customers gain access to codebase vulnerability scanning on Claude Opus 4.7, identifying architectural security issues beyond traditional static analysis capabilities. Available through Project Glasswing for ~50 organizations."* — BuildFastWithAI `2026.05.28`
+
+**Big Four Claude Standardization** (2026.05.28):
+> *"Three of four Big Four consulting firms — Deloitte (470,000 employees), PwC (276,000 professionals), and KPMG (276,000 employees across 138 countries) — have committed to enterprise Claude deployment within 60 days. Only EY has not announced a comparable deal. Anthropic's enterprise distribution moat is widening."* — BuildFastWithAI `2026.05.28`
+
+**Copilot D-4 to Usage-Based Billing** (2026.05.28):
+> *"Copilot's 24-week decline continues to 59 — a new all-time low. With 4 days until June 1 usage-based billing, GitHub's preview bill tool is now live showing projected costs. Annual plan users keep request-based pricing until renewal. Microsoft Build 2026 in 5 days may bring a counter-narrative."* — GitHub Docs `2026.05.28`
+
+**Cohere-Aleph Alpha Merger** (2026.05.28):
+> *"Cohere and Germany's Aleph Alpha announced a merger creating a $20 billion transatlantic sovereign AI company. The deal emphasizes European data sovereignty and German public sector relationships — a direct counter to US-dominated AI infrastructure."* — BuildFastWithAI `2026.05.28`
+
+**ChatGPT Voice Mode Controversy** (2026.05.28):
+> *"Developers criticized that ChatGPT's voice interface still runs on a GPT-4o-era model with an April 2024 knowledge cutoff — a 13-month capability gap versus the text model. OpenAI has not announced a timeline for upgrading the voice model to GPT-5.5."* — BuildFastWithAI `2026.05.28`
+
 ---
 
 ## Code Assistants (Plugins)
@@ -1092,22 +1114,22 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27"]
+    x-axis ["05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28"]
     y-axis "Popularity Score" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60]
-    line "Cursor" [95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88]
-    line "Gemini CLI" [75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80]
-    line "Antigravity" [48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56]
+    line "GH Copilot" [72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59]
+    line "Cursor" [95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 79]
+    line "Antigravity" [47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-60↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-59↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-80↓-E74C3C?style=flat-square" alt="Gemini CLI">

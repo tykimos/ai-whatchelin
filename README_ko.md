@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-27</sub>
+  <sub>마지막 업데이트: 2026-05-28</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.27-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.28-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -350,6 +350,13 @@ timeline
          : Gemini API Interactions 호환성 파괴 변경 — 레거시 스키마 6/8 제거 (5/27)
          : Gemini 3.5 Pro 6월 출시 확정 — Pichai I/O에서 발표 (5/27)
          : Microsoft Build 2026 6/2-3 — 멀티모델 Foundry, Copilot 멀티에이전트 오케스트레이션 (5/27)
+         : Copilot 24주 연속 하락 59, 사용량 과금 D-4 (5/28)
+         : Claude Security 퍼블릭 베타 — Opus 4.7 코드베이스 취약점 스캐닝 (5/28)
+         : Big Four Claude 표준화 — Deloitte(47만)·PwC(27.6만)·KPMG(27.6만) Claude 배포 (5/28)
+         : Cohere-Aleph Alpha 합병 — $200억 대서양 횡단 소버린 AI 기업 (5/28)
+         : ChatGPT 음성 모드 논란 — GPT-4o 시대 모델, 13개월 지식 격차 (5/28)
+         : Microsoft Build 2026 D-5 — 샌프란시스코, 멀티에이전트 오케스트레이션 예고 (5/28)
+         : Gemini CLI 종료 D-21 — Antigravity CLI 전환 가속화 (5/28)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -655,6 +662,21 @@ quadrantChart
 
 **Gemini API 호환성 파괴 변경 — 레거시 스키마 6/8 제거** (2026.05.27):
 > *"Gemini Interactions API가 `outputs`를 `steps` 배열로 대체하고, 다형적 `response_format`을 도입했다. 새 스키마가 5월 26일부터 기본값이며, `Api-Revision: 2026-05-07` 헤더를 통한 레거시 지원은 6월 8일 종료. 개발자 즉시 마이그레이션 필요."* — Google AI for Developers `2026.05.27`
+
+**Claude Security 퍼블릭 베타** (2026.05.28):
+> *"엔터프라이즈 고객이 Claude Opus 4.7 기반 코드베이스 취약점 스캐닝에 접근 가능해졌다. 기존 정적 분석을 넘어 아키텍처 수준 보안 이슈를 식별한다. Project Glasswing을 통해 약 50개 조직에 제공 중."* — BuildFastWithAI `2026.05.28`
+
+**Big Four Claude 표준화** (2026.05.28):
+> *"Big Four 컨설팅 4곳 중 3곳 — Deloitte(47만 명), PwC(27.6만 명), KPMG(138개국 27.6만 명) — 이 60일 내 엔터프라이즈 Claude 배포를 확정했다. EY만 유사한 계약을 발표하지 않았다. Anthropic의 엔터프라이즈 유통 해자가 넓어지고 있다."* — BuildFastWithAI `2026.05.28`
+
+**Copilot 사용량 과금 D-4** (2026.05.28):
+> *"Copilot 24주 연속 하락으로 59에 도달 — 역대 최저치 갱신. 6월 1일 사용량 기반 과금까지 4일 남은 가운데, GitHub의 예상 비용 미리보기 도구가 정식 가동됐다. 연간 플랜 사용자는 갱신까지 기존 과금 유지. 5일 후 Microsoft Build 2026이 반전 카드가 될 수 있다."* — GitHub Docs `2026.05.28`
+
+**Cohere-Aleph Alpha 합병** (2026.05.28):
+> *"Cohere와 독일 Aleph Alpha가 합병을 발표, $200억 규모의 대서양 횡단 소버린 AI 기업을 설립한다. 유럽 데이터 주권과 독일 공공 부문 관계를 강조하며 — 미국 중심 AI 인프라에 대한 직접적 대항마로 부상했다."* — BuildFastWithAI `2026.05.28`
+
+**ChatGPT 음성 모드 논란** (2026.05.28):
+> *"개발자들이 ChatGPT 음성 인터페이스가 여전히 GPT-4o 시대 모델(2024년 4월 지식 컷오프)로 구동된다고 비판했다 — 텍스트 모델 대비 13개월의 성능 격차. OpenAI는 음성 모델의 GPT-5.5 업그레이드 일정을 발표하지 않았다."* — BuildFastWithAI `2026.05.28`
 
 **2026 파워 스택 공식**:
 ```
@@ -1083,22 +1105,22 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27"]
+    x-axis ["05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28"]
     y-axis "인기 점수" 45 --> 100
     line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
-    line "GH Copilot" [73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60]
-    line "Cursor" [95, 95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [78, 80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [81, 82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88]
-    line "Gemini CLI" [75, 76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80]
-    line "Antigravity" [48, 47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56]
+    line "GH Copilot" [72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59]
+    line "Cursor" [95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 79]
+    line "Antigravity" [47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-98―-3498DB?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-60↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-59↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-80↓-E74C3C?style=flat-square" alt="Gemini CLI">

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-28</sub>
+  <sub>마지막 업데이트: 2026-05-29</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.28-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.29-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -360,6 +360,13 @@ timeline
          : Microsoft Build 2026 D-5 — 샌프란시스코, 멀티에이전트 오케스트레이션 예고 (5/28)
          : Gemini CLI 종료 D-21 — Antigravity CLI 전환 가속화 (5/28)
          : Claude Opus 4.8 출시 — SWE-bench 88.6%, 동적 워크플로우, 2.5x 패스트 모드 (5/28)
+         : Anthropic $650억 시리즈 H, $9,650억 밸류에이션 — IPO 전 마지막 라운드, OpenAI 추월 (5/28)
+         : Claude Opus 4.8 출시 당일 GitHub Copilot GA (5/28)
+         : Codex CLI v0.135.0 — codex doctor 진단, 환경 리포팅 (5/28)
+         : Copilot 25주 연속 하락 58, 사용량 과금 D-3 (5/29)
+         : OpenAI 대규모 장애 — ChatGPT·API·DALL-E·Codex·Sora·로그인 (5/29)
+         : Microsoft Build 2026 D-4 — Copilot용 자체 코딩 모델 예고 (5/29)
+         : Gemini CLI 종료 D-20 — Antigravity CLI 전환 계속 (5/29)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -683,6 +690,24 @@ quadrantChart
 
 **Claude Opus 4.8 출시** (2026.05.28):
 > *"Anthropic이 Opus 4.8을 출시했다. SWE-bench Verified 88.6%(4.7의 87.6% 대비 상승), SWE-bench Pro 69.2%(64.3%에서 상승), USAMO 2026 수학 96.7%(69.3%에서 상승). 1M 토큰 롱컨텍스트 F1 68.1%(40.3%에서 상승). Claude Code에서 병렬 서브에이전트 동적 워크플로우, Messages API 중간 작업 시스템 메시지, 선택적 2.5x 패스트 모드 제공. 가격 $5/$25 동일."* — TechCrunch `2026.05.28`
+
+**Anthropic $650억 시리즈 H — $1조에 근접** (2026.05.28):
+> *"Anthropic이 $650억 시리즈 H를 $9,650억 포스트머니 밸류에이션으로 마감했다 — OpenAI를 넘어 세계 최고 가치 비상장 AI 기업이 됐다. 연간 매출 런레이트 $470억. 10월 IPO 전 마지막 비공개 라운드가 될 전망."* — Bloomberg `2026.05.28`
+
+**Claude Opus 4.8 출시 당일 Copilot GA** (2026.05.28):
+> *"Claude Opus 4.8이 Anthropic 출시 당일 GitHub Copilot 사용자에게도 정식 제공됐다 — AI 코딩 도구 역사상 가장 빠른 크로스 플랫폼 모델 배포."* — GitHub Changelog `2026.05.28`
+
+**Codex CLI v0.135.0** (2026.05.28):
+> *"codex doctor가 환경·Git·터미널·앱 서버·스레드 인벤토리를 포함한 더 풍부한 진단 정보를 보고한다. 트렌드: Codex CLI가 영속 자율 에이전트 런타임으로 진화 중."* — OpenAI Codex Changelog `2026.05.28`
+
+**Copilot 사용량 과금 D-3** (2026.05.29):
+> *"Copilot 25주 연속 하락으로 58에 도달 — 역대 최저치 갱신. 6월 1일 사용량 기반 과금까지 3일. 카운트다운이 거의 끝났다. 4일 후 Microsoft Build 2026이 유일한 반전 기회가 될 수 있다."* — GitHub Docs `2026.05.29`
+
+**OpenAI 대규모 장애** (2026.05.29):
+> *"OpenAI가 5월 29일 ChatGPT·API·DALL-E·Codex·Sora·로그인 시스템 전반에 걸쳐 대규모 장애를 겪었다. 2026년 가장 광범위한 OpenAI 장애."* — BusinessUpturn `2026.05.29`
+
+**Microsoft Build 2026 D-4 — 자체 코딩 모델 예고** (2026.05.29):
+> *"Microsoft가 Build 2026(6월 2-3일)에서 GitHub Copilot을 위한 자체 코딩 모델을 공개할 준비를 하고 있다 — 코딩 특화 모델, 추론 모델, 자체 에이전트 등 다양한 크기의 모델을 포함. 샌프란시스코 Fort Mason Center에서 개최."* — Digit.in `2026.05.29`
 
 **OpenAI DeployCo $40억 컨설팅 자회사** (2026.05.11):
 > *"OpenAI가 TPG, Goldman Sachs, McKinsey, Bain Capital, Capgemini으로부터 $40억+ 투자를 받아 독립 컨설팅 자회사 DeployCo를 출범했다. Tomoro(150명 엔지니어)를 인수해 고객 조직에 엔지니어를 직접 파견한다. Anthropic의 Big Four 간접 배포 모델 vs OpenAI의 직접 컨설팅 모델 — 정반대의 엔터프라이즈 전략이 정면 충돌한다."* — BuildFastWithAI `2026.05.28`
@@ -1120,26 +1145,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28"]
+    x-axis ["05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99]
-    line "GH Copilot" [72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59]
-    line "Cursor" [95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78]
-    line "Antigravity" [47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99]
+    line "GH Copilot" [71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58]
+    line "Cursor" [95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77]
+    line "Antigravity" [47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-99↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-59↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-58↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-78↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-57―-3498DB?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-77↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-58↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

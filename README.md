@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-28</sub>
+  <sub>Last updated: 2026-05-29</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.28-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.29-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -360,6 +360,13 @@ timeline
          : Microsoft Build 2026 D-5 — San Francisco, multi-agent orchestration expected (May 28)
          : Gemini CLI sunset D-21 — Antigravity CLI migration accelerating (May 28)
          : Claude Opus 4.8 released — SWE-bench 88.6%, dynamic workflows, 2.5x fast mode (May 28)
+         : Anthropic $65B Series H at $965B valuation — final pre-IPO round, surpasses OpenAI (May 28)
+         : Claude Opus 4.8 same-day GA on GitHub Copilot (May 28)
+         : Codex CLI v0.135.0 — codex doctor diagnostics, environment reporting (May 28)
+         : Copilot 25-week decline to 58, D-3 to usage-based billing June 1 (May 29)
+         : OpenAI widespread outage — ChatGPT, API, DALL-E, Codex, Sora, login (May 29)
+         : Microsoft Build 2026 D-4 — homegrown coding model for Copilot expected (May 29)
+         : Gemini CLI sunset D-20 — Antigravity CLI migration continues (May 29)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -908,6 +915,24 @@ Free            = Gemini CLI + Aider
 **Claude Opus 4.8 Released** (2026.05.28):
 > *"Anthropic released Opus 4.8 with 88.6% on SWE-bench Verified (up from 87.6%), 69.2% on SWE-bench Pro (from 64.3%), and 96.7% on USAMO 2026 math (from 69.3%). Long-context F1 at 1M tokens jumps to 68.1% (from 40.3%). Parallel-subagent dynamic workflows in Claude Code, mid-task system messages on Messages API, and optional 2.5x fast mode. Same $5/$25 pricing."* — TechCrunch `2026.05.28`
 
+**Anthropic $65B Series H — Near $1 Trillion** (2026.05.28):
+> *"Anthropic closed a $65 billion Series H at a $965 billion post-money valuation — surpassing OpenAI to become the most valuable private AI startup. Revenue run rate reached $47 billion annualized. Likely the final private round before October IPO."* — Bloomberg `2026.05.28`
+
+**Claude Opus 4.8 Same-Day GA on Copilot** (2026.05.28):
+> *"Claude Opus 4.8 became generally available for GitHub Copilot users on the same day Anthropic launched it — the fastest cross-platform model rollout in AI coding tool history."* — GitHub Changelog `2026.05.28`
+
+**Codex CLI v0.135.0** (2026.05.28):
+> *"Codex doctor now reports richer environment, Git, terminal, app-server, and thread inventory diagnostics. Trend: Codex CLI is evolving into a persistent autonomous agent runtime."* — OpenAI Codex Changelog `2026.05.28`
+
+**Copilot D-3 to Usage-Based Billing** (2026.05.29):
+> *"Copilot's 25-week decline hits 58 — a new all-time low. With 3 days until June 1 usage-based billing, the countdown is nearly over. Microsoft Build 2026 in 4 days may offer the only counter-narrative."* — GitHub Docs `2026.05.29`
+
+**OpenAI Widespread Outage** (2026.05.29):
+> *"OpenAI experienced widespread disruptions across ChatGPT, API, DALL-E, Codex, Sora, and login systems on May 29. The outage affected all major services simultaneously — the broadest OpenAI outage in 2026."* — BusinessUpturn `2026.05.29`
+
+**Microsoft Build 2026 D-4 — Homegrown Coding Model** (2026.05.29):
+> *"Microsoft is preparing to unveil a homegrown coding model at Build 2026 (June 2-3) to power GitHub Copilot — multiple sizes including a coding-specialized model, a reasoning model, and an in-house agent. Fort Mason Center, San Francisco."* — Digit.in `2026.05.29`
+
 ---
 
 ## Code Assistants (Plugins)
@@ -1141,26 +1166,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28"]
+    x-axis ["05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99]
-    line "GH Copilot" [72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59]
-    line "Cursor" [95, 95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [80, 80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [82, 82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [76, 76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78]
-    line "Antigravity" [47, 47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99]
+    line "GH Copilot" [71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58]
+    line "Cursor" [95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77]
+    line "Antigravity" [47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-99↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-59↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-58↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-78↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-57―-3498DB?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-77↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-58↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

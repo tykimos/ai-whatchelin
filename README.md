@@ -369,6 +369,7 @@ timeline
          : Microsoft Build 2026 D-4 — homegrown coding model for Copilot expected, MSFT ↑3% (May 29)
          : Gemini CLI sunset D-20 — Antigravity CLI migration continues (May 29)
          : Opus 4.8 fast mode 3x cheaper — Mythos-class models coming to all customers in weeks (May 29)
+         : Opus 4.8 elevated errors 08:39–08:45 UTC — hours after GA on Copilot + AWS, resolved in 6 min (May 29)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -707,6 +708,9 @@ quadrantChart
 
 **Copilot D-3 to Usage-Based Billing** (2026.05.29):
 > *"Copilot's 25-week decline hits 58 — another all-time low. Code completions stay free under usage-based billing, but agent and chat consume AI Credits. June 1 is 3 days away. Microsoft Build 2026 in 4 days remains the only potential counter-narrative."* — GitHub Docs `2026.05.29`
+
+**Opus 4.8 Elevated Errors — Hours After GA** (2026.05.29):
+> *"Claude Opus 4.8 hit elevated errors at 08:39 UTC on May 29 — just hours after going GA on GitHub Copilot and AWS. Anthropic implemented a fix by 08:45 UTC, resolving the incident in approximately 6 minutes. Developers who onboarded Opus 4.8 through Copilot or AWS on launch day experienced a brief disruption window."* — AI Weekly `2026.05.29`
 
 **2026 Power Stack Formula**:
 ```

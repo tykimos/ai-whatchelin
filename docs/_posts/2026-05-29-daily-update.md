@@ -25,6 +25,10 @@ Microsoft will unveil a suite of homegrown AI models at Build 2026 (June 2-3), i
 
 `/model` now saves as your default for new sessions, and a `skipLfs` option was added for plugin marketplace sources ([code.claude.com/changelog](https://code.claude.com/docs/en/changelog)). A regression since v2.1.129 that prevented Bedrock and Vertex users from selecting "Opus (1M context)" in the model picker was fixed, alongside 25+ other bug fixes covering MCP pagination, subagent policy enforcement, and OAuth credential routing.
 
+## Opus 4.8: Elevated Errors Hours After GA, Resolved in 6 Minutes
+
+Opus 4.8 hit elevated errors at 08:39 UTC — just hours after going GA on GitHub Copilot and AWS ([AI Weekly](https://aiweekly.co/alerts/anthropic-opus-48-hits-errors-hours-after-aws-launch)). Anthropic implemented a fix by 08:45 UTC, resolving the incident in approximately 6 minutes. Developers who onboarded through Copilot or AWS on launch day experienced a brief disruption window.
+
 ## GitHub Copilot: 25-Week Low, D-3 to Billing Change
 
 Copilot's popularity score dropped to 58, setting another all-time low ([GitHub Docs](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing)). Just 3 days remain until June 1 usage-based billing — code completions stay free, but agent and chat consume AI Credits. Microsoft Build 2026 in 4 days remains the only potential counter-narrative.

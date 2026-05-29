@@ -25,6 +25,10 @@ Microsoft가 Build 2026(6월 2-3일)에서 GitHub Copilot용 자체 코딩 모�
 
 /model이 새 세션 기본값으로 저장되며, 플러그인 마켓플레이스에 skipLfs 옵션이 추가됐다([code.claude.com/changelog](https://code.claude.com/docs/en/changelog)). Bedrock·Vertex 사용자의 'Opus (1M context)' 모델 피커 선택 불가 회귀 버그(v2.1.129 이후)를 포함해 25건 이상 버그가 수정됐다.
 
+## Opus 4.8: GA 수시간 만에 오류 급증, 6분 해결
+
+Opus 4.8이 GitHub Copilot과 AWS에서 GA된 지 수시간 만인 08:39 UTC에 오류가 급증했다([AI Weekly](https://aiweekly.co/alerts/anthropic-opus-48-hits-errors-hours-after-aws-launch)). Anthropic이 08:45 UTC까지 수정을 적용해 6분 만에 해결했지만, 출시 당일 도입한 개발자들이 짧은 장애를 경험했다.
+
 ## GitHub Copilot: 25주 연속 하락, D-3
 
 Copilot 인기도가 58까지 떨어지며 역대 최저치를 경신했다([GitHub Docs](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing)). 6월 1일 사용량 기반 과금까지 3일 — 코드 완성은 무료 유지되나 에이전트·채팅은 AI 크레딧을 소모한다.

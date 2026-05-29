@@ -369,6 +369,7 @@ timeline
          : Microsoft Build 2026 D-4 — Copilot용 자체 코딩 모델 예고, MSFT ↑3% (5/29)
          : Gemini CLI 종료 D-20 — Antigravity CLI 전환 계속 (5/29)
          : Opus 4.8 패스트 모드 3배 저렴 — Mythos급 모델 수주 내 전체 고객 공개 예고 (5/29)
+         : Opus 4.8 오류 급증 08:39–08:45 UTC — Copilot + AWS GA 수시간 후 발생, 6분 만에 해결 (5/29)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -722,6 +723,9 @@ quadrantChart
 
 **캐나다, ChatGPT 개인정보보호법 위반 판정** (2026.05.06):
 > *"캐나다 프라이버시 커미셔너와 3개 주(퀘벡, BC, 앨버타) 기관이 OpenAI가 과다 수집, 동의 없는 데이터 처리, 아동 데이터 보호 미흡 등으로 개인정보보호법을 위반했다고 판정했다. 국가 차원에서 ChatGPT 프라이버시 위반을 공식 인정한 첫 사례 중 하나."* — BuildFastWithAI `2026.05.28`
+
+**Opus 4.8 오류 급증 — GA 수시간 후** (2026.05.29):
+> *"Claude Opus 4.8이 5월 29일 08:39 UTC에 오류가 급증했다 — GitHub Copilot과 AWS에서 GA된 지 불과 수시간 만이었다. Anthropic이 08:45 UTC까지 수정을 적용해 약 6분 만에 해결했다. 출시 당일 Copilot이나 AWS를 통해 Opus 4.8을 도입한 개발자들이 짧은 장애 시간을 겪었다."* — AI Weekly `2026.05.29`
 
 **2026 파워 스택 공식**:
 ```

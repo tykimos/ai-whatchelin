@@ -363,10 +363,12 @@ timeline
          : Anthropic $650억 시리즈 H, $9,650억 밸류에이션 — IPO 전 마지막 라운드, OpenAI 추월 (5/28)
          : Claude Opus 4.8 출시 당일 GitHub Copilot GA (5/28)
          : Codex CLI v0.135.0 — codex doctor 진단, 환경 리포팅 (5/28)
+         : Claude Code v2.1.153 — /model 기본값 저장, skipLfs, Bedrock/Vertex 1M 피커 수정, 25+ 버그 수정 (5/28)
          : Copilot 25주 연속 하락 58, 사용량 과금 D-3 (5/29)
          : OpenAI 대규모 장애 — ChatGPT·API·DALL-E·Codex·Sora·로그인 (5/29)
-         : Microsoft Build 2026 D-4 — Copilot용 자체 코딩 모델 예고 (5/29)
+         : Microsoft Build 2026 D-4 — Copilot용 자체 코딩 모델 예고, MSFT ↑3% (5/29)
          : Gemini CLI 종료 D-20 — Antigravity CLI 전환 계속 (5/29)
+         : Opus 4.8 패스트 모드 3배 저렴 — Mythos급 모델 수주 내 전체 고객 공개 예고 (5/29)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -707,7 +709,13 @@ quadrantChart
 > *"OpenAI가 5월 29일 ChatGPT·API·DALL-E·Codex·Sora·로그인 시스템 전반에 걸쳐 대규모 장애를 겪었다. 2026년 가장 광범위한 OpenAI 장애."* — BusinessUpturn `2026.05.29`
 
 **Microsoft Build 2026 D-4 — 자체 코딩 모델 예고** (2026.05.29):
-> *"Microsoft가 Build 2026(6월 2-3일)에서 GitHub Copilot을 위한 자체 코딩 모델을 공개할 준비를 하고 있다 — 코딩 특화 모델, 추론 모델, 자체 에이전트 등 다양한 크기의 모델을 포함. 샌프란시스코 Fort Mason Center에서 개최."* — Digit.in `2026.05.29`
+> *"Microsoft가 Build 2026(6월 2-3일)에서 GitHub Copilot을 위한 자체 코딩 모델을 공개할 준비를 하고 있다 — 코딩 특화 모델, 추론 모델, 자체 에이전트 등 다양한 크기의 모델을 포함. Mustafa Suleyman 팀이 4월 OpenAI 모델 훈련 제한에서 해방됐다. MSFT 주가 ~3% 상승."* — The Information `2026.05.29`
+
+**Claude Code v2.1.153** (2026.05.28):
+> *"/model이 이제 새 세션의 기본값으로 저장된다. 플러그인 마켓플레이스 소스에 skipLfs 옵션 추가. Bedrock·Vertex 사용자가 'Opus (1M context)'를 모델 피커에서 다시 선택 가능 — v2.1.129 이후 회귀 버그 수정. MCP 페이지네이션·서브에이전트 정책·OAuth 자격증명 라우팅 등 25건 이상 버그 수정."* — code.claude.com/changelog `2026.05.28`
+
+**Opus 4.8 패스트 모드 3배 저렴 — Mythos급 전체 공개 예고** (2026.05.29):
+> *"Opus 4.8 패스트 모드(2.5배 속도)가 이전 모델 대비 3배 저렴해졌다. Anthropic은 Mythos급 모델을 수주 내 전체 고객에게 공개할 계획도 밝혔다."* — VentureBeat `2026.05.29`
 
 **OpenAI DeployCo $40억 컨설팅 자회사** (2026.05.11):
 > *"OpenAI가 TPG, Goldman Sachs, McKinsey, Bain Capital, Capgemini으로부터 $40억+ 투자를 받아 독립 컨설팅 자회사 DeployCo를 출범했다. Tomoro(150명 엔지니어)를 인수해 고객 조직에 엔지니어를 직접 파견한다. Anthropic의 Big Four 간접 배포 모델 vs OpenAI의 직접 컨설팅 모델 — 정반대의 엔터프라이즈 전략이 정면 충돌한다."* — BuildFastWithAI `2026.05.28`

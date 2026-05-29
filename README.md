@@ -363,10 +363,12 @@ timeline
          : Anthropic $65B Series H at $965B valuation — final pre-IPO round, surpasses OpenAI (May 28)
          : Claude Opus 4.8 same-day GA on GitHub Copilot (May 28)
          : Codex CLI v0.135.0 — codex doctor diagnostics, environment reporting (May 28)
+         : Claude Code v2.1.153 — /model saves as default, skipLfs, Bedrock/Vertex 1M picker fix, 25+ bug fixes (May 28)
          : Copilot 25-week decline to 58, D-3 to usage-based billing June 1 (May 29)
          : OpenAI widespread outage — ChatGPT, API, DALL-E, Codex, Sora, login (May 29)
-         : Microsoft Build 2026 D-4 — homegrown coding model for Copilot expected (May 29)
+         : Microsoft Build 2026 D-4 — homegrown coding model for Copilot expected, MSFT ↑3% (May 29)
          : Gemini CLI sunset D-20 — Antigravity CLI migration continues (May 29)
+         : Opus 4.8 fast mode 3x cheaper — Mythos-class models coming to all customers in weeks (May 29)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -690,6 +692,21 @@ quadrantChart
 
 **ChatGPT Voice Mode Controversy** (2026.05.28):
 > *"Developers criticized that ChatGPT's voice interface still runs on a GPT-4o-era model with April 2024 knowledge cutoff — a 13-month gap behind the text model. OpenAI has not announced a timeline for upgrading the voice model to GPT-5.5."* — BuildFastWithAI `2026.05.28`
+
+**Claude Code v2.1.153** (2026.05.28):
+> *"/model now saves as your default for new sessions. skipLfs option added for plugin marketplace sources. Bedrock and Vertex users can again select 'Opus (1M context)' from the model picker — a regression since v2.1.129 is fixed. 25+ bug fixes including MCP pagination, subagent policy enforcement, and OAuth credential routing."* — code.claude.com/changelog `2026.05.28`
+
+**Opus 4.8 Fast Mode 3x Cheaper — Mythos Coming to All** (2026.05.29):
+> *"Fast mode for Opus 4.8 — where the model works at 2.5x speed — is now three times cheaper than previous models. Anthropic also outlined plans for broader access to its Mythos-class models, which it expects to make available to all customers in the coming weeks."* — VentureBeat `2026.05.29`
+
+**Microsoft Homegrown Coding Model for Copilot** (2026.05.29):
+> *"Microsoft will unveil a suite of homegrown AI models at Build 2026, including a coding-specialized model for GitHub Copilot, a new in-house agent, and a reasoning-specialized model. Mustafa Suleyman's AI team was freed from OpenAI training restrictions in April. MSFT stock rose ~3% on the report."* — The Information `2026.05.29`
+
+**OpenAI Widespread Outage** (2026.05.29):
+> *"OpenAI's broadest 2026 outage hit ChatGPT, API, DALL-E, Codex, Sora, and login simultaneously. Users reported 'too many concurrent connections' errors. The multi-service failure — on the same day Anthropic closed its $65B round — drew sharp contrast between the two rivals."* — BusinessUpturn `2026.05.29`
+
+**Copilot D-3 to Usage-Based Billing** (2026.05.29):
+> *"Copilot's 25-week decline hits 58 — another all-time low. Code completions stay free under usage-based billing, but agent and chat consume AI Credits. June 1 is 3 days away. Microsoft Build 2026 in 4 days remains the only potential counter-narrative."* — GitHub Docs `2026.05.29`
 
 **2026 Power Stack Formula**:
 ```

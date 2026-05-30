@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-29</sub>
+  <sub>마지막 업데이트: 2026-05-30</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.29-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.30-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -370,6 +370,13 @@ timeline
          : Gemini CLI 종료 D-20 — Antigravity CLI 전환 계속 (5/29)
          : Opus 4.8 패스트 모드 3배 저렴 — Mythos급 모델 수주 내 전체 고객 공개 예고 (5/29)
          : Opus 4.8 오류 급증 08:39–08:45 UTC — Copilot + AWS GA 수시간 후 발생, 6분 만에 해결 (5/29)
+         : Copilot 26주 연속 하락 57, 사용량 과금 D-2 (5/30)
+         : Microsoft Build 2026 D-2 — Project Polaris 자체 코딩 모델 유출 (5/30)
+         : GPT-5.6 Codex 배포 로그서 유출 — iris-alpha 코드명, 1.5M 컨텍스트, 예측시장 80-89% (5/30)
+         : TechCrunch: 개발자들 AI 없이 작업 거부 — METR 연구, 역량 위축 우려 (5/29)
+         : DeepSWE 벤치마크 — GPT-5.5 70% vs Claude Opus 54%, SWE-Bench 검증기 32% 오류율 (5/30)
+         : Mozilla Claude Mythos Preview로 Firefox 취약점 271건 수정 — 이전 모델 대비 10배 개선 (5/30)
+         : Gemini CLI 종료 D-19 — Antigravity CLI 전환 가속화 (5/30)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -726,6 +733,24 @@ quadrantChart
 
 **Opus 4.8 오류 급증 — GA 수시간 후** (2026.05.29):
 > *"Claude Opus 4.8이 5월 29일 08:39 UTC에 오류가 급증했다 — GitHub Copilot과 AWS에서 GA된 지 불과 수시간 만이었다. Anthropic이 08:45 UTC까지 수정을 적용해 약 6분 만에 해결했다. 출시 당일 Copilot이나 AWS를 통해 Opus 4.8을 도입한 개발자들이 짧은 장애 시간을 겪었다."* — AI Weekly `2026.05.29`
+
+**GPT-5.6 Codex 로그 유출** (2026.05.30):
+> *"개발자들이 Codex 배포 로그에서 'gpt-5.6' 문자열을 발견했다 — 코드명 'iris-alpha'. 1.5M 토큰 컨텍스트 윈도(GPT-5.5의 1.05M 대비 43% 확대)가 예상 기능이다. 예측시장에서 6월 30일 공개 확률 80-89%로 거래 중."* — ChatForest `2026.05.30`
+
+**Microsoft Build 2026 D-2 — Project Polaris 유출** (2026.05.30):
+> *"Microsoft의 자체 코딩 모델 'Project Polaris'가 Build 2026 전에 유출됐다 — HumanEval과 MBPP에서 GPT-4 Turbo를 능가하는 MoE 아키텍처. 8월 GA 예정이며, IP 소송을 보상하는 'Code Content Guarantee'가 포함된다."* — Windows News `2026.05.30`
+
+**TechCrunch: 개발자들 AI 없이 작업 거부** (2026.05.29):
+> *"METR 연구에 따르면 대부분의 개발자가 AI 없이는 작업을 거부하고 있어 역량 위축과 의존성 우려가 커지고 있다. AI 어시스턴트 제거가 '팔을 잃는 것 같다'는 반응 — 더 넓은 구조적 변화를 반영한다."* — TechCrunch `2026.05.29`
+
+**DeepSWE 벤치마크, SWE-Bench 신뢰성 의문** (2026.05.30):
+> *"Datacurve의 DeepSWE 벤치마크(오염 없는 113개 작업)에서 GPT-5.5가 70% 해결률로 1위, Claude Opus 54%. 더 심각한 건 SWE-Bench Pro의 검증기 오류율이 ~32%로 밝혀져 — 기존 벤치마크의 신뢰성에 근본적 의문이 제기된다."* — VentureBeat `2026.05.30`
+
+**Mozilla, Claude Mythos로 Firefox 취약점 271건 수정** (2026.05.30):
+> *"Mozilla가 Claude Mythos Preview를 활용해 Firefox 취약점 271건을 수정했다 — 이전 Claude 모델 대비 10배 개선. 수백만 줄 레거시 코드에 대한 대규모 보안 스캐닝에서 에이전틱 AI의 잠재력을 입증했다."* — BuildFastWithAI `2026.05.30`
+
+**Copilot 사용량 과금 D-2** (2026.05.30):
+> *"Copilot의 26주 연속 하락이 57에 도달 — 역대 최저치 경신. 6월 1일까지 2일, GitHub이 확인한 AI 크레딧 할당: Pro $10, Pro+ $39, Business $19/사용자, Enterprise $39/사용자. 코드 완성은 무료 유지. Build 2026(D-3)이 마지막 반전 카드다."* — GitHub Docs `2026.05.30`
 
 **2026 파워 스택 공식**:
 ```
@@ -1157,26 +1182,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29"]
+    x-axis ["05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99]
-    line "GH Copilot" [71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58]
-    line "Cursor" [95, 95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [80, 80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [82, 83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [76, 77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77]
-    line "Antigravity" [47, 47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99]
+    line "GH Copilot" [70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57]
+    line "Cursor" [95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76]
+    line "Antigravity" [47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-58↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-57↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-77↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-58↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-76↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-59↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

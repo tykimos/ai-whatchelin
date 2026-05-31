@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-30</sub>
+  <sub>마지막 업데이트: 2026-05-31</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.30-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.05.31-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -377,6 +377,11 @@ timeline
          : DeepSWE 벤치마크 — GPT-5.5 70% vs Claude Opus 54%, SWE-Bench 검증기 32% 오류율 (5/30)
          : Mozilla Claude Mythos Preview로 Firefox 취약점 271건 수정 — 이전 모델 대비 10배 개선 (5/30)
          : Gemini CLI 종료 D-19 — Antigravity CLI 전환 가속화 (5/30)
+         : Copilot 27주 연속 하락 56, 사용량 과금 D-1 (5/31)
+         : Copilot 사용량 기반 과금 시행 — TechCrunch "무슨 농담이야", 에이전틱 세션 $30-40/일 (5/31)
+         : Microsoft Build 2026 D-1 — Project Polaris, AI 에이전트, Azure AI Foundry 키노트 6/2 (5/31)
+         : Codex CLI Pro 사용량 부스트 만료 — 2배 제한 종료, Pro 5x 25x→20x 하향 (5/31)
+         : Gemini CLI 종료 D-18 — Antigravity CLI 전환 가속화 (5/31)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -751,6 +756,15 @@ quadrantChart
 
 **Copilot 사용량 과금 D-2** (2026.05.30):
 > *"Copilot의 26주 연속 하락이 57에 도달 — 역대 최저치 경신. 6월 1일까지 2일, GitHub이 확인한 AI 크레딧 할당: Pro $10, Pro+ $39, Business $19/사용자, Enterprise $39/사용자. 코드 완성은 무료 유지. Build 2026(D-3)이 마지막 반전 카드다."* — GitHub Docs `2026.05.30`
+
+**Copilot 사용량 기반 과금 시행** (2026.05.31):
+> *"'무슨 농담이야': GitHub Copilot의 토큰 기반 과금이 6월 1일부터 시행된다. 에이전틱 헤비 유저는 월 $29에서 $750까지 비용 급등이 예상된다. 프론티어 모델 에이전트 세션 한 번에 크레딧 30~40개가 소모된다. Business/Enterprise는 8월 31일까지 프로모션 할당 — 각각 3,000/7,000 크레딧."* — TechCrunch/TechTimes `2026.05.31`
+
+**Microsoft Build 2026 D-1** (2026.05.31):
+> *"Build 2026이 내일 샌프란시스코 포트메이슨에서 개막 — Satya Nadella 키노트 오전 9:30 PT. 자체 코딩 모델 Project Polaris, AI 에이전트 프레임워크, Azure AI Foundry, 멀티모달 코딩(태블릿 UI 스케치 → Copilot이 XAML+C# 생성)이 핵심. 참석자 ~2,500명 제한."* — Notebookcheck/ChatForest `2026.05.31`
+
+**Codex CLI Pro 사용량 부스트 만료** (2026.05.31):
+> *"OpenAI의 Codex CLI Pro 한시적 2배 사용량 부스트가 오늘 종료된다. Pro 5x가 25x에서 20x Plus 기준으로 하향되고, Pro $100의 두 배 할당도 소멸된다. 사용자들은 변경 이후 쿼터 소진이 급격히 빨라졌다고 보고하고 있다."* — OpenAI Help Center `2026.05.31`
 
 **2026 파워 스택 공식**:
 ```
@@ -1182,26 +1196,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30"]
+    x-axis ["05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99]
-    line "GH Copilot" [70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57]
-    line "Cursor" [95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76]
-    line "Antigravity" [47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99]
+    line "GH Copilot" [69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56]
+    line "Cursor" [95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87]
+    line "Gemini CLI" [78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75]
+    line "Antigravity" [48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-57↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-56↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-76↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-59↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-87↓-E74C3C?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-75↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-60↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

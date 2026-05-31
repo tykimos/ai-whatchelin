@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-30</sub>
+  <sub>Last updated: 2026-05-31</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.30-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.05.31-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -377,6 +377,11 @@ timeline
          : DeepSWE benchmark — GPT-5.5 70% vs Claude Opus 54%, SWE-Bench 32% verifier error rate (May 30)
          : Mozilla fixes 271 Firefox vulnerabilities using Claude Mythos Preview — 10x improvement (May 30)
          : Gemini CLI sunset D-19 — Antigravity CLI migration accelerating (May 30)
+         : Copilot 27-week decline to 56, D-1 to usage-based billing June 1 (May 31)
+         : Copilot usage-based billing goes live — TechCrunch "What a joke," agentic sessions $30-40/day (May 31)
+         : Microsoft Build 2026 D-1 — Project Polaris, AI agents, Azure AI Foundry keynote June 2 (May 31)
+         : Codex CLI Pro usage boost expires — 2x limit ends, Pro 5x drops 25x→20x (May 31)
+         : Gemini CLI sunset D-18 — Antigravity CLI migration accelerating (May 31)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -718,6 +723,15 @@ quadrantChart
 
 **Opus 4.8 Elevated Errors — Hours After GA** (2026.05.29):
 > *"Claude Opus 4.8 hit elevated errors at 08:39 UTC on May 29 — just hours after going GA on GitHub Copilot and AWS. Anthropic implemented a fix by 08:45 UTC, resolving the incident in approximately 6 minutes. Developers who onboarded Opus 4.8 through Copilot or AWS on launch day experienced a brief disruption window."* — AI Weekly `2026.05.29`
+
+**Copilot Usage-Based Billing Goes Live** (2026.05.31):
+> *"'What a joke': GitHub Copilot's token-based billing goes live June 1, replacing flat pricing for agentic and chat features. Developers project costs jumping from $29 to $750/month for heavy agentic users. A single frontier-model agent session can drain 30–40 credits before the workday ends. Business/Enterprise get promotional allocations — 3,000 and 7,000 credits through August 31."* — TechCrunch/TechTimes `2026.05.31`
+
+**Microsoft Build 2026 D-1** (2026.05.31):
+> *"Build 2026 opens tomorrow at Fort Mason, San Francisco — Satya Nadella keynotes at 9:30 AM PT. Project Polaris homegrown coding model, AI agents framework, Azure AI Foundry, and multimodal coding (sketch UI on tablet → Copilot generates XAML + C#) are headlining. Attendance capped at ~2,500 developers."* — Notebookcheck/ChatForest `2026.05.31`
+
+**Codex CLI Pro Usage Boost Expires** (2026.05.31):
+> *"OpenAI's temporary 2x usage boost for Codex CLI Pro tiers expires today. Pro 5x drops from 25x to 20x Plus base limit, and Pro $100 loses its doubled allocation. Users report rapid quota drains since the change, with single prompts consuming 7% of weekly limits."* — OpenAI Help Center `2026.05.31`
 
 **GPT-5.6 Leak in Codex Logs** (2026.05.30):
 > *"Developers found 'gpt-5.6' strings in Codex rollout logs with codename 'iris-alpha.' Expected features include a 1.5M token context window — 43% larger than GPT-5.5's 1.05M. Prediction markets price 80-89% probability of public release by June 30."* — ChatForest `2026.05.30`
@@ -1212,26 +1226,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30"]
+    x-axis ["05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99]
-    line "GH Copilot" [70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57]
-    line "Cursor" [95, 95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [80, 80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [83, 84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [77, 78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76]
-    line "Antigravity" [47, 48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99]
+    line "GH Copilot" [69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56]
+    line "Cursor" [95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87]
+    line "Gemini CLI" [78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75]
+    line "Antigravity" [48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-57↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-56↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-76↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-59↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-87↓-E74C3C?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-75↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-60↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

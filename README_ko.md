@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-05-31</sub>
+  <sub>마지막 업데이트: 2026-06-01</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.05.31-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.01-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -382,6 +382,12 @@ timeline
          : Microsoft Build 2026 D-1 — Project Polaris, AI 에이전트, Azure AI Foundry 키노트 6/2 (5/31)
          : Codex CLI Pro 사용량 부스트 만료 — 2배 제한 종료, Pro 5x 25x→20x 하향 (5/31)
          : Gemini CLI 종료 D-18 — Antigravity CLI 전환 가속화 (5/31)
+         : Copilot 28주 연속 하락 55, 사용량 과금 시행 — Pro $10 AI 크레딧/월, 에이전틱 세션 $30-40/일 (6/1)
+         : Copilot 반발 폭발 — 904 비추천, 2시간에 크레딧 8% 소진, 일부 사용자 10-100배 비용 증가 (6/1)
+         : Grok Build 0.1 API 퍼블릭 베타 — $1/$2/M 토큰, 256K 컨텍스트, ACP 오케스트레이션 (6/1)
+         : NVIDIA RTX Spark 슈퍼칩 + Surface Laptop Ultra Build 전야 발표 — ARM CPU + Blackwell GPU (6/1)
+         : Microsoft Build 2026 1일차 — Project Polaris Copilot용 자체 코딩 모델, MoE 아키텍처 (6/2)
+         : Gemini CLI 종료 D-17 — Antigravity CLI 전환 가속화 (6/1)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -765,6 +771,21 @@ quadrantChart
 
 **Codex CLI Pro 사용량 부스트 만료** (2026.05.31):
 > *"OpenAI의 Codex CLI Pro 한시적 2배 사용량 부스트가 오늘 종료된다. Pro 5x가 25x에서 20x Plus 기준으로 하향되고, Pro $100의 두 배 할당도 소멸된다. 사용자들은 변경 이후 쿼터 소진이 급격히 빨라졌다고 보고하고 있다."* — OpenAI Help Center `2026.05.31`
+
+**Copilot 사용량 과금 첫날 — 반발 폭발** (2026.06.01):
+> *"GitHub 공식 커뮤니티 스레드에 비추천 904개 vs 추천 22개, 댓글 435개 이상이 달렸다. 한 개발자는 2시간 만에 월 크레딧 8%를 소진했다고 보고했다. Reddit에서는 에이전틱 헤비 유저의 비용이 월 ~$29에서 ~$750까지 오를 수 있다는 예측도 나왔다. GitHub CEO Dohmke는 '사용자들이 Claude Sonnet 4.5, o3-pro 같은 고비용 모델에 접근하면서 정액제 모델이 지속 불가능해졌다'고 밝혔다."* — GitHub Community/Dataconomy `2026.06.01`
+
+**Grok Build 0.1 API 퍼블릭 베타** (2026.06.01):
+> *"xAI가 Grok Build 0.1을 xAI API를 통해 퍼블릭 베타로 출시했다 — 입력 $1/M, 출력 $2/M, 256K 컨텍스트, 100+ 토큰/초. Agent Client Protocol(ACP) 완전 지원. Anthropic($5/$25)과 OpenAI 대비 5-10배 공격적인 가격."* — xAI/DevOps.com `2026.06.01`
+
+**NVIDIA RTX Spark + Surface Laptop Ultra** (2026.06.01):
+> *"NVIDIA가 RTX Spark를 공개했다 — ARM CPU, Blackwell GPU, 최대 128GB 통합 메모리를 결합한 AI 노트북용 슈퍼칩. Microsoft의 Surface Laptop Ultra는 Blackwell RTX GPU와 풀 CUDA를 탑재한 최초의 Surface. 2026년 가을 ASUS·Dell·HP·Lenovo·Microsoft·MSI에서 출시."* — NVIDIA Newsroom/Windows Blog `2026.06.01`
+
+**Gemini CLI 종료 D-17** (2026.06.01):
+> *"비엔터프라이즈 사용자 대상 Gemini CLI 종료까지 17일. 6월 18일까지 Antigravity CLI로 마이그레이션하지 않으면 접근 불가. Code Assist Standard/Enterprise 라이선스 보유 엔터프라이즈 사용자는 계속 이용 가능."* — Google Developers Blog `2026.06.01`
+
+**Microsoft Build 2026 내일 개막** (2026.06.01):
+> *"Build 2026이 6월 2일 샌프란시스코 포트메이슨 센터에서 개막한다. Project Polaris — Microsoft의 자체 MoE 코딩 모델 — 가 8월 GA를 목표로 Copilot 기본 엔진이 된다. Microsoft가 핵심 개발자 도구에서 OpenAI 의존도를 줄이겠다는 가장 명확한 신호."* — ChatForest/WindowsNews `2026.06.01`
 
 **2026 파워 스택 공식**:
 ```
@@ -1196,26 +1217,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31"]
+    x-axis ["05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99]
-    line "GH Copilot" [69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56]
-    line "Cursor" [95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87]
-    line "Gemini CLI" [78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75]
-    line "Antigravity" [48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99]
+    line "GH Copilot" [68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87]
+    line "Gemini CLI" [85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74]
+    line "Antigravity" [62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-56↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-55↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-87↓-E74C3C?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-75↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-60↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-74↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-61↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-05-31</sub>
+  <sub>Last updated: 2026-06-01</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.05.31-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.01-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -382,6 +382,12 @@ timeline
          : Microsoft Build 2026 D-1 — Project Polaris, AI agents, Azure AI Foundry keynote June 2 (May 31)
          : Codex CLI Pro usage boost expires — 2x limit ends, Pro 5x drops 25x→20x (May 31)
          : Gemini CLI sunset D-18 — Antigravity CLI migration accelerating (May 31)
+         : Copilot 28-week decline to 55, usage-based billing live — $10 AI Credits/mo Pro, agentic sessions $30-40/day (Jun 1)
+         : Copilot backlash — 904 downvotes, 8% of credits burned in 2 hours, some users face 10-100x cost increase (Jun 1)
+         : Grok Build 0.1 API public beta — $1/$2 per M tokens, 256K context, ACP orchestration (Jun 1)
+         : NVIDIA RTX Spark superchip + Surface Laptop Ultra announced pre-Build — ARM CPU + Blackwell GPU (Jun 1)
+         : Microsoft Build 2026 Day 1 — Project Polaris homegrown coding model for Copilot, MoE architecture (Jun 2)
+         : Gemini CLI sunset D-17 — Antigravity CLI migration accelerating (Jun 1)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -750,6 +756,21 @@ quadrantChart
 
 **Copilot D-2 to Usage-Based Billing** (2026.05.30):
 > *"Copilot's 26-week decline hits 57 — another all-time low. With 2 days until June 1, GitHub confirmed Pro gets $10 in AI Credits, Pro+ gets $39, Business $19/user, Enterprise $39/user. Code completions stay free. Microsoft Build 2026 in 3 days is the last shot at a counter-narrative."* — GitHub Docs `2026.05.30`
+
+**Copilot Usage-Based Billing Day 1 — Backlash Erupts** (2026.06.01):
+> *"GitHub's official community thread drew 904 downvotes vs 22 upvotes and 435+ comments. One developer reported burning 8% of monthly credits in just two hours. Some Reddit users project costs rising from ~$29 to ~$750/month for heavy agentic users. GitHub CEO Dohmke says 'the flat-rate model is not sustainable' after users gained access to expensive models like Claude Sonnet 4.5 and o3-pro."* — GitHub Community/Dataconomy `2026.06.01`
+
+**Grok Build 0.1 API Public Beta** (2026.06.01):
+> *"xAI launched Grok Build 0.1 via the xAI API in public beta — $1/M input, $2/M output, 256K context, 100+ tokens/second. Full Agent Client Protocol (ACP) support for orchestration platforms. Aggressive pricing undercuts Anthropic ($5/$25) and OpenAI by 5-10x."* — xAI/DevOps.com `2026.06.01`
+
+**NVIDIA RTX Spark + Surface Laptop Ultra** (2026.06.01):
+> *"NVIDIA unveiled RTX Spark — a superchip combining ARM CPU, Blackwell GPU, and up to 128GB unified memory for AI-powered laptops. Microsoft's Surface Laptop Ultra is the first Surface with a Blackwell RTX GPU and full CUDA support. Ships fall 2026 from ASUS, Dell, HP, Lenovo, Microsoft, and MSI."* — NVIDIA Newsroom/Windows Blog `2026.06.01`
+
+**Gemini CLI Sunset D-17** (2026.06.01):
+> *"17 days until Gemini CLI stops serving requests for all non-enterprise users. Developers must migrate to Antigravity CLI or lose access entirely on June 18. Enterprise users via Code Assist Standard/Enterprise retain access with continued support."* — Google Developers Blog `2026.06.01`
+
+**Microsoft Build 2026 Opens Tomorrow** (2026.06.01):
+> *"Build 2026 begins June 2 at Fort Mason Center, San Francisco. Project Polaris — Microsoft's homegrown MoE coding model — targets August GA as the default Copilot engine. The clearest signal yet that Microsoft is reducing its dependency on OpenAI for core developer tooling."* — ChatForest/WindowsNews `2026.06.01`
 
 **2026 Power Stack Formula**:
 ```
@@ -1226,26 +1247,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31"]
+    x-axis ["05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99]
-    line "GH Copilot" [69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56]
-    line "Cursor" [95, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [80, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [84, 84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87]
-    line "Gemini CLI" [78, 85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75]
-    line "Antigravity" [48, 62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99]
+    line "GH Copilot" [68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
+    line "Codex CLI" [84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87]
+    line "Gemini CLI" [85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74]
+    line "Antigravity" [62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-56↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-55↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-87↓-E74C3C?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-75↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-60↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-74↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-61↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

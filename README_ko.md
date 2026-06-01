@@ -388,6 +388,9 @@ timeline
          : NVIDIA RTX Spark 슈퍼칩 + Surface Laptop Ultra Build 전야 발표 — ARM CPU + Blackwell GPU (6/1)
          : Microsoft Build 2026 1일차 — Project Polaris Copilot용 자체 코딩 모델, MoE 아키텍처 (6/2)
          : Gemini CLI 종료 D-17 — Antigravity CLI 전환 가속화 (6/1)
+         : Anthropic S-1 IPO 비밀 신청서 제출 — 최초 메이저 AI 랩 상장 신청, $9650억 밸류에이션, 10월 목표 (6/1)
+         : NVIDIA Computex 2026 — Vera Rubin 50 페타플롭스, Nemotron 3 Ultra 500B 오픈 모델, DSX OS 오픈소스 (6/1)
+         : Cursor Auto-review — 분류 서브에이전트로 승인 프롬프트 감소 (5/29)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -786,6 +789,15 @@ quadrantChart
 
 **Microsoft Build 2026 내일 개막** (2026.06.01):
 > *"Build 2026이 6월 2일 샌프란시스코 포트메이슨 센터에서 개막한다. Project Polaris — Microsoft의 자체 MoE 코딩 모델 — 가 8월 GA를 목표로 Copilot 기본 엔진이 된다. Microsoft가 핵심 개발자 도구에서 OpenAI 의존도를 줄이겠다는 가장 명확한 신호."* — ChatForest/WindowsNews `2026.06.01`
+
+**Anthropic S-1 IPO 비밀 신청서 제출** (2026.06.01):
+> *"Anthropic이 SEC에 S-1 등록 신청서 초안을 비밀리에 제출했다 — 메이저 AI 랩 중 최초의 IPO 신청이다. $9,650억 밸류에이션에 연간 매출 런레이트 $470억으로, 빠르면 2026년 10월 상장을 목표로 한다. OpenAI(9월 목표)와의 이중 IPO 레이스는 두 개의 조 단위 AI 기업이 수개월 간격으로 상장하는 첫 사례가 된다."* — NPR/NBC News `2026.06.01`
+
+**NVIDIA Computex 2026 키노트** (2026.06.01):
+> *"Jensen Huang이 Computex 타이페이에서 6종의 신규 칩을 공개했다: Vera Rubin(3,360억 트랜지스터, NVL72 랙당 50 페타플롭스 FP4, Blackwell 대비 5배 추론, 2026 하반기 출하), Nemotron 3 Ultra(5,000억 파라미터 에이전틱 워크플로우용 오픈 모델), DSX OS(오픈소스 AI 팩토리 프레임워크). Rubin CPX는 추론 워크로드용 128GB GDDR7을 추가한다."* — FourWeekMBA/NVIDIA Newsroom `2026.06.01`
+
+**Cursor Auto-review** (2026.05.29):
+> *"Cursor가 Auto-review를 출시했다 — 분류 서브에이전트가 도구 호출을 허용·샌드박스·에스컬레이션할지 판단하는 새 실행 모드. 신뢰할 수 있는 작업의 승인 프롬프트는 줄이고, 파괴적 작업에 대한 통제는 강화했다."* — cursor.com/changelog `2026.05.29`
 
 **2026 파워 스택 공식**:
 ```
@@ -1692,19 +1704,19 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-05-20)
+### 팩트 체크 로그 (2026-06-01)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **개인 금융** (Pro, Plaid 12K+ 은행), **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **Stainless $3억+ 인수 확정** (SDK 수직 통합), **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP 커넥터, **AWS GA**, **SMB 런칭** + PwC 파트너십, **에이전트 과금 6/15**, **CwC London Extended** (2일차 인디 개발자) |
-| Claude Code | code.claude.com/changelog | **v2.1.144** 최신, **Code with Claude London** 1일차 + Extended, **Fast Mode Opus 4.7 기본 전환**, Agent View, /goal 명령어, /resume 백그라운드 세션, MCP 터널, 셀프호스팅 샌드박스; 주간 한도 50%↑ 7/13까지 |
-| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **3.4 /multitask** 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window, **클라우드 에이전트 개발 환경**, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
+| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 6/15**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
+| Claude Code | code.claude.com/changelog | **v2.1.153** 최신, **Opus 4.8** SWE-bench 88.6%, 동적 워크플로우, 패스트 모드 2.5x; /model 기본값 저장, skipLfs, Bedrock/Vertex 1M 피커 수정; 주간 한도 50%↑ 7/13까지 |
+| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Auto-review** 분류 서브에이전트 (5/29), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **3.5** Automations + Compact Chats, **클라우드 에이전트 개발 환경**, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** 전체 사용자, Opus 4.7 fast 모드 ~2.5배, **Cognition $250억** 밸류에이션 협상 |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** 테크니컬 프리뷰, **GPT-5.3-Codex LTS** Business/Enterprise 기본 모델, **Microsoft Claude Code 라이선스 취소** (6/30), **Max 플랜** + flex 할당(6/1), 토큰 과금 D-12, Pro에서 Opus 제거, 가입 중단, 16주 연속 하락 67 |
+| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 첫날 904 비추천, **Copilot App** 테크니컬 프리뷰, **GPT-5.3-Codex LTS** 기본 모델, **Project Polaris** 자체 MoE 모델, **Microsoft Claude Code 취소** (6/30), 28주 연속 하락 55 |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |

@@ -1,13 +1,17 @@
 ---
-title: "Copilot's Usage-Based Billing Day 1: 904 Downvotes and 8% of Credits Gone in 2 Hours"
+title: "Anthropic Files S-1 IPO — AI History Made Amid Copilot Billing Revolt"
 date: 2026-06-01
 lang: en
 categories: [news]
-tags: [github-copilot, grok-build, microsoft-build, nvidia, gemini-cli]
-excerpt: "GitHub Copilot's token-based billing goes live to a wave of developer fury, while xAI launches Grok Build API at a fraction of competitors' pricing."
+tags: [anthropic, github-copilot, nvidia, grok-build, microsoft-build, gemini-cli]
+excerpt: "Anthropic becomes the first major AI lab to file for an IPO, Copilot's usage-based billing launches to 904 downvotes, and Jensen Huang unveils 6 new chips at Computex."
 ---
 
-The pricing structure of AI coding tools changed fundamentally today. GitHub Copilot officially transitioned from flat-rate plans to token-based AI Credit billing on June 1. The developer community's response was immediate and fierce.
+Three pillars of the AI industry moved simultaneously today. Anthropic filed its S-1 with the SEC to become the first major AI lab pursuing an IPO, GitHub Copilot's usage-based billing went live to a developer revolt, and Jensen Huang unveiled next-generation chips at Computex.
+
+## Anthropic: First Major AI Lab to File for IPO
+
+Anthropic confidentially submitted a draft S-1 registration statement to the SEC on June 1([NPR](https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large)). At a $965 billion valuation with $47 billion annualized revenue, it's targeting a listing as early as October 2026([NBC News](https://www.nbcnews.com/business/corporations/anthropic-files-ipo-openai-rcna347897)). Anthropic beat OpenAI (targeting September) to the filing, setting up an unprecedented dual IPO race between two near-trillion-dollar AI companies([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/anthropic-files-confidential-1-joins-161008569.html)).
 
 ## GitHub Copilot: The End of Flat-Rate, the Beginning of Revolt
 
@@ -24,6 +28,10 @@ On the same day, xAI launched the Grok Build 0.1 API in public beta([xAI](https:
 Build 2026 opens tomorrow (June 2) at Fort Mason Center, San Francisco. The headline is the already-leaked "Project Polaris" — Microsoft's homegrown mixture-of-experts coding model for GitHub Copilot([ChatForest](https://chatforest.com/builders-log/microsoft-build-2026-recap-windows-agent-platform-project-polaris-copilot-workspace/)). It reportedly outperforms GPT-4 Turbo on HumanEval and MBPP, with GA targeted for August. This is the clearest signal yet that Microsoft is reducing its dependency on OpenAI for core developer tooling.
 
 As a pre-Build reveal, NVIDIA unveiled the RTX Spark superchip([NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark)) — combining an ARM CPU, Blackwell GPU, and up to 128GB unified memory. Microsoft's Surface Laptop Ultra is the first Surface with full Blackwell GPU and CUDA support.
+
+## NVIDIA Computex 2026: Six New Chips Unveiled
+
+Jensen Huang delivered the Computex Taipei keynote with six new chip announcements([FourWeekMBA](https://fourweekmba.com/nvidia-computex-2026-five-layer-strategy/)). The headline is Vera Rubin — 336 billion transistors, 50 petaflops FP4 per NVL72 rack, 5x inference over Blackwell at one-tenth cost per token, shipping H2 2026. Nemotron 3 Ultra (500B-parameter open model for agentic workflows) and DSX OS (open-source AI factory framework) also debuted([Yahoo Finance](https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-ceo-calls-ai-a-profit-generator-at-computex-taipei-unveils-new-laptop-processor-100000230.html)).
 
 ## Gemini CLI: 17 Days Until Shutdown
 

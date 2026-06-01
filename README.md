@@ -388,6 +388,9 @@ timeline
          : NVIDIA RTX Spark superchip + Surface Laptop Ultra announced pre-Build — ARM CPU + Blackwell GPU (Jun 1)
          : Microsoft Build 2026 Day 1 — Project Polaris homegrown coding model for Copilot, MoE architecture (Jun 2)
          : Gemini CLI sunset D-17 — Antigravity CLI migration accelerating (Jun 1)
+         : Anthropic S-1 IPO confidential filing — first major AI lab to file, $965B valuation, October 2026 target (Jun 1)
+         : NVIDIA Computex 2026 — Vera Rubin 50 petaflops, Nemotron 3 Ultra 500B open model, DSX OS open-sourced (Jun 1)
+         : Cursor Auto-review — classifier subagent reduces approval prompts in agent mode (May 29)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -771,6 +774,15 @@ quadrantChart
 
 **Microsoft Build 2026 Opens Tomorrow** (2026.06.01):
 > *"Build 2026 begins June 2 at Fort Mason Center, San Francisco. Project Polaris — Microsoft's homegrown MoE coding model — targets August GA as the default Copilot engine. The clearest signal yet that Microsoft is reducing its dependency on OpenAI for core developer tooling."* — ChatForest/WindowsNews `2026.06.01`
+
+**Anthropic S-1 IPO Filing** (2026.06.01):
+> *"Anthropic confidentially submitted a draft S-1 registration statement to the SEC — the first major AI lab to file for an IPO. At a $965 billion valuation with $47 billion annualized revenue, Anthropic is targeting a public listing as early as October 2026. The dual IPO race with OpenAI (targeting September) would mark the first time two near-trillion-dollar AI companies go public within months of each other."* — NPR/NBC News `2026.06.01`
+
+**NVIDIA Computex 2026 Keynote** (2026.06.01):
+> *"Jensen Huang unveiled 6 new chips at Computex Taipei: Vera Rubin (336B transistors, 50 petaflops FP4 per NVL72 rack, 5x inference over Blackwell, shipping H2 2026), Nemotron 3 Ultra (500B-parameter open model for agentic workflows), and DSX OS (open-source AI factory framework). Rubin CPX adds 128GB GDDR7 for inference workloads."* — FourWeekMBA/NVIDIA Newsroom `2026.06.01`
+
+**Cursor Auto-review** (2026.05.29):
+> *"Cursor shipped Auto-review — a new run mode with a classifier subagent that decides whether to allow, sandbox, or escalate tool calls. Fewer approval prompts for trusted operations, tighter control for destructive ones."* — cursor.com/changelog `2026.05.29`
 
 **2026 Power Stack Formula**:
 ```
@@ -1732,19 +1744,19 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-05-20)
+### Fact Check Log (2026-06-01)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **Stainless acquired** for $300M+ (SDK vertical integration), **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP connectors, **AWS GA**, **SMB launch** + PwC partnership, **agent metering June 15**, **CwC London Extended** (Day 2 indie devs) |
-| Claude Code | code.claude.com/changelog | **v2.1.144** latest, **Code with Claude London** Day 1 + Extended, **Fast Mode defaults to Opus 4.7**, Agent View, /goal command, /resume background sessions, MCP tunnels, self-hosted sandboxes; weekly limits +50% through Jul 13 |
-| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Cursor in Jira** — cloud agents from issue tracker, **3.4 /multitask** parallel subagents, **interactive canvases** in Agents Window, **Dev Environments** for cloud agents, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering June 15**, **Big Four standardization** (Deloitte/PwC/KPMG) |
+| Claude Code | code.claude.com/changelog | **v2.1.153** latest, **Opus 4.8** SWE-bench 88.6%, dynamic workflows, fast mode 2.5x; /model saves default, skipLfs, Bedrock/Vertex 1M picker fix; weekly limits +50% through Jul 13 |
+| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Auto-review** classifier subagent (May 29), **Cursor in Jira** — cloud agents from issue tracker, **3.5** Automations + Compact Chats, **Dev Environments** for cloud agents, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, **Cognition $25B** valuation talks |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot App** tech preview, **GPT-5.3-Codex LTS** base model for Business/Enterprise, **Microsoft cancels Claude Code licenses** (June 30), **Max plan** + flex allotments (June 1), token billing D-12, Opus removed from Pro, signups paused, 16-week decline to 67 |
+| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, 904 downvotes day 1, **Copilot App** tech preview, **GPT-5.3-Codex LTS** base model, **Project Polaris** homegrown MoE model, **Microsoft cancels Claude Code** (June 30), 28-week decline to 55 |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |

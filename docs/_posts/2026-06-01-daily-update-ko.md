@@ -1,13 +1,17 @@
 ---
-title: "Copilot 종량제 첫날, 개발자 반란 — 904 비추천과 2시간에 크레딧 8% 증발"
+title: "Anthropic S-1 IPO 신청 — Copilot 종량제 반란 속 AI 역사가 쓰이다"
 date: 2026-06-01
 lang: ko
 categories: [news]
-tags: [github-copilot, grok-build, microsoft-build, nvidia, gemini-cli]
-excerpt: "GitHub Copilot 사용량 기반 과금이 시행됐다. 공식 커뮤니티에는 비추천 904개가 쏟아졌고, xAI는 Grok Build API로 가격 전쟁에 뛰어들었다."
+tags: [anthropic, github-copilot, nvidia, grok-build, microsoft-build, gemini-cli]
+excerpt: "Anthropic이 메이저 AI 랩 최초로 IPO를 신청했고, Copilot 종량제 첫날 904 비추천이 쏟아지고, Jensen Huang은 Computex에서 차세대 칩 6종을 공개했다."
 ---
 
-AI 코딩 도구 시장의 가격 구조가 근본적으로 바뀌는 날이 왔다. GitHub Copilot이 6월 1일부로 정액제를 폐지하고 토큰 기반 AI 크레딧 과금으로 전환했다. 개발자 커뮤니티의 반응은 즉각적이고 격렬했다.
+오늘은 AI 산업의 세 축이 동시에 움직인 날이다. Anthropic이 SEC에 S-1 IPO 신청서를 제출하며 AI 역사를 썼고, GitHub Copilot 종량제 첫날 개발자 반란이 폭발했으며, Jensen Huang이 Computex에서 차세대 칩을 공개했다.
+
+## Anthropic: 메이저 AI 랩 최초 IPO 신청
+
+Anthropic이 6월 1일 SEC에 S-1 등록 신청서를 비밀리에 제출했다([NPR](https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large)). $9,650억 밸류에이션에 연간 매출 런레이트 $470억으로, 빠르면 10월 상장을 목표로 한다([NBC News](https://www.nbcnews.com/business/corporations/anthropic-files-ipo-openai-rcna347897)). OpenAI(9월 IPO 목표)보다 먼저 신청서를 제출한 것으로, 두 조 단위 AI 기업이 수개월 간격으로 상장하는 전례 없는 레이스가 시작됐다([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/anthropic-files-confidential-1-joins-161008569.html)).
 
 ## GitHub Copilot: 정액제의 종말, 그리고 분노
 
@@ -24,6 +28,10 @@ Copilot의 인기도 점수는 28주 연속 하락해 55를 기록했다 — 추
 내일(6월 2일) 샌프란시스코 포트메이슨 센터에서 Build 2026이 개막한다. 핵심은 이미 유출된 'Project Polaris' — GitHub Copilot을 위한 Microsoft 자체 MoE 코딩 모델이다([ChatForest](https://chatforest.com/builders-log/microsoft-build-2026-recap-windows-agent-platform-project-polaris-copilot-workspace/)). HumanEval과 MBPP에서 GPT-4 Turbo를 능가한다고 알려졌으며, 8월 GA가 목표다. Microsoft가 핵심 개발자 도구에서 OpenAI 의존도를 줄이겠다는 가장 선명한 신호다.
 
 Build 전야제로 NVIDIA가 RTX Spark 슈퍼칩을 공개했다([NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark)). ARM CPU + Blackwell GPU + 최대 128GB 통합 메모리를 결합한 AI 노트북 플랫폼으로, Microsoft Surface Laptop Ultra가 첫 탑재 기기다.
+
+## NVIDIA Computex 2026: 차세대 칩 6종 공개
+
+Jensen Huang이 Computex 타이페이 키노트에서 6종의 신규 칩을 발표했다([FourWeekMBA](https://fourweekmba.com/nvidia-computex-2026-five-layer-strategy/)). 핵심은 Vera Rubin — 3,360억 트랜지스터, NVL72 랙당 50 페타플롭스 FP4, Blackwell 대비 추론 5배·토큰당 비용 10분의 1로, 2026년 하반기 출하한다. Nemotron 3 Ultra(5,000억 파라미터 에이전틱 워크플로우용 오픈 모델)와 DSX OS(오픈소스 AI 팩토리 프레임워크)도 공개했다([Yahoo Finance](https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-ceo-calls-ai-a-profit-generator-at-computex-taipei-unveils-new-laptop-processor-100000230.html)).
 
 ## Gemini CLI: 종료까지 17일
 

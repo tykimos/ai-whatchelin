@@ -25,6 +25,10 @@ Copilot's popularity score dropped to 54 — its 29th consecutive weekly decline
 
 Claude Code shipped v2.1.160 with focused security improvements([code.claude.com/changelog](https://code.claude.com/docs/en/changelog)). The update adds security prompts before writing to shell startup files (.zshenv, .zlogin, .bash_login) and git config, and now prompts before writing build-tool config files (.npmrc, .yarnrc, bunfig.toml, etc.) in acceptEdits mode. The June 15 billing change — moving programmatic usage to a separate credit pool — is now two weeks away([Codersera](https://codersera.com/blog/anthropic-june-2026-billing-change-claude-code/)).
 
+## Claude AI: 4-Hour Global Outage Hits All Models
+
+Claude AI went down globally on June 2, with elevated error rates across Opus 4.7, Opus 4.6, and Sonnet 4.6([SQ Magazine](https://sqmagazine.co.uk/claude-ai-down-outage-june-2026/)). The outage affected the API, Console, and Claude Code, starting around 2:19 AM ET and lasting approximately four hours([TechRadar](https://www.techradar.com/news/live/claude-outage-june-2026)). Anthropic identified the root cause and deployed a fix, restoring service([Republic World](http://www.republicworld.com/tech/anthropic-hits-snag-claude-ai-suffers-major-global-outage-leaving-users-stranded-with-error-messages-2026-06-02-126613)). This is Anthropic's second notable outage in a month, following the May 8 incident that affected 2,000+ users.
+
 ## NVIDIA Vera Rubin Enters Full Production
 
 NVIDIA announced at Computex 2026 that its next-gen Vera Rubin platform is now in full production([ServeTheHome](https://www.servethehome.com/nvidia-computex-2026-news-bytes-vera-rubin-now-in-production-dgx-station-gets-windows/)). Built on TSMC's 3nm process, it delivers 10x inference cost reduction and requires 4x fewer GPUs for MoE model training versus Blackwell. Rack assembly time dropped from 2 hours to 5 minutes. AWS, Google Cloud, Microsoft, and OCI will deploy first in H2 2026([NVIDIA Newsroom](https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer)).
@@ -44,7 +48,7 @@ The countdown continues — 16 days until Gemini CLI stops serving requests for 
 | Claude Code | 99 | — | Stable #1, v2.1.160 security hardening |
 | ChatGPT | 96 | — | Watching Build impact |
 | Cursor | 96 | — | Teams pricing overhaul boosts value |
-| Claude AI | 95 | — | Enterprise expansion continues |
+| Claude AI | 95 | — | 4-hour global outage resolved, enterprise expansion continues |
 | Codex CLI | 87 | — | Windows Computer Use added |
 | Windsurf | 81 | — | Holding steady |
 | Gemini CLI | 73 | ↓1 | Sunset D-16 countdown |

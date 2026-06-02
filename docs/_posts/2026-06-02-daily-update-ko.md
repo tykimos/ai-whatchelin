@@ -25,6 +25,10 @@ Build의 좋은 뉴스에도 불구하고, Copilot의 하락세는 멈추지 않
 
 Claude Code가 v2.1.160을 출시하며 보안을 강화했다([code.claude.com/changelog](https://code.claude.com/docs/en/changelog)). 셸 시작 파일(.zshenv, .zlogin, .bash_login)과 git 설정에 쓰기 전 보안 프롬프트가 추가됐고, 빌드 도구 설정 파일(.npmrc, .yarnrc, bunfig.toml 등)도 acceptEdits 모드에서 쓰기 전 확인을 요구한다. 6월 15일부터 시행되는 에이전트 과금 변경(프로그래밍 방식 사용량 별도 크레딧 풀 전환)도 2주 앞으로 다가왔다([Codersera](https://codersera.com/blog/anthropic-june-2026-billing-change-claude-code/)).
 
+## Claude AI: 전 모델에 영향을 준 4시간 글로벌 장애
+
+Claude AI가 6월 2일 전 세계적으로 장애를 겪었다. Opus 4.7, Opus 4.6, Sonnet 4.6 등 모든 모델에서 오류율이 급증했으며([SQ Magazine](https://sqmagazine.co.uk/claude-ai-down-outage-june-2026/)), API·Console·Claude Code 전체가 영향을 받았다([TechRadar](https://www.techradar.com/news/live/claude-outage-june-2026)). 미 동부시간 오전 2:19경 시작된 장애는 약 4시간 만에 Anthropic이 원인을 파악하고 수정을 배포해 복구됐다([Republic World](http://www.republicworld.com/tech/anthropic-hits-snag-claude-ai-suffers-major-global-outage-leaving-users-stranded-with-error-messages-2026-06-02-126613)). 5월 8일 2,000명 이상에게 영향을 준 장애 이후 한 달 만에 두 번째 주요 장애다.
+
 ## NVIDIA Vera Rubin 양산 돌입
 
 NVIDIA가 Computex 2026에서 차세대 Vera Rubin 플랫폼의 본격 양산을 발표했다([ServeTheHome](https://www.servethehome.com/nvidia-computex-2026-news-bytes-vera-rubin-now-in-production-dgx-station-gets-windows/)). TSMC 3nm 공정에서 제조되며, Blackwell 대비 추론 비용 10배 절감, MoE 모델 훈련 GPU 4분의 1 감소, 랙 조립 시간 2시간→5분으로 단축됐다. AWS, Google Cloud, Microsoft, OCI가 2026년 하반기 최초 배포한다([NVIDIA Newsroom](https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer)).
@@ -44,7 +48,7 @@ Gemini CLI 서비스 종료까지 16일 남았다([Google Developers Blog](https
 | Claude Code | 99 | — | 안정적 1위, v2.1.160 보안 강화 |
 | ChatGPT | 96 | — | Build 영향 관망 |
 | Cursor | 96 | — | Teams 가격 개편으로 가성비 강화 |
-| Claude AI | 95 | — | 엔터프라이즈 확대 지속 |
+| Claude AI | 95 | — | 4시간 글로벌 장애 복구, 엔터프라이즈 확대 지속 |
 | Codex CLI | 87 | — | Windows Computer Use 추가 |
 | Windsurf | 81 | — | 안정세 유지 |
 | Gemini CLI | 73 | ↓1 | 종료 D-16 카운트다운 |

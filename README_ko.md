@@ -398,6 +398,7 @@ timeline
          : Cursor Teams — Premium 시트, 사용량 분리 풀, 90% 비용 절감 (6/2)
          : Gemini CLI 종료 D-16 — Antigravity CLI 전환 가속화 (6/2)
          : NVIDIA Vera Rubin 양산 돌입 — Blackwell 대비 추론 10배 저렴, TSMC 3nm (6/2)
+         : Claude AI 글로벌 장애 — Opus 4.7/4.6/Sonnet 4.6 오류 급증, ~4시간, 복구 완료 (6/2)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -820,6 +821,9 @@ quadrantChart
 
 **Cursor Teams 가격 개편** (2026.06.02):
 > *"Cursor가 Teams 사용량 한도를 인상하고 헤비 에이전트 사용자를 위한 Premium 시트를 추가, 분리 사용량 풀을 도입했다. 팀 90%의 비용 절감이 예상되며, 신규 고객은 즉시, 기존 고객은 7월 1일 갱신 시점부터 적용된다."* — cursor.com/changelog `2026.06.02`
+
+**Claude AI 글로벌 장애** (2026.06.02):
+> *"Claude AI가 전 세계적으로 장애를 겪었다 — Opus 4.7, Opus 4.6, Sonnet 4.6 등 모든 모델에서 오류율이 급증했다. API·Console·Claude Code 모두 영향을 받았으며, 미 동부시간 오전 2:19경 시작돼 약 4시간 만에 Anthropic이 원인을 파악하고 수정을 배포해 복구했다. 5월 8일 장애에 이은 한 달 내 두 번째 주요 장애."* — SQ Magazine/TechRadar `2026.06.02`
 
 **2026 파워 스택 공식**:
 ```

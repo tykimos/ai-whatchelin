@@ -398,6 +398,7 @@ timeline
          : Cursor Teams — Premium seats, split usage pools, 90% cost reduction (Jun 2)
          : Gemini CLI sunset D-16 — Antigravity CLI migration accelerating (Jun 2)
          : NVIDIA Vera Rubin in production — 10x cheaper inference vs Blackwell, TSMC 3nm (Jun 2)
+         : Claude AI global outage — elevated errors Opus 4.7/4.6/Sonnet 4.6, ~4 hours, resolved (Jun 2)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -805,6 +806,9 @@ quadrantChart
 
 **Cursor Teams Pricing Overhaul** (2026.06.02):
 > *"Cursor increases Teams usage limits, adds Premium seats for heavy agent users, and introduces split usage pools. Changes expected to lower costs for 90% of teams. New pricing applies immediately for new customers, July 1 for renewals."* — cursor.com/changelog `2026.06.02`
+
+**Claude AI Global Outage** (2026.06.02):
+> *"Claude AI went down globally with elevated error rates affecting all models — Opus 4.7, Opus 4.6, and Sonnet 4.6. The outage hit Claude, API, Console, and Claude Code, starting around 2:19 AM ET and lasting approximately four hours before Anthropic identified the root cause and deployed a fix. Second notable outage in a month after the May 8 incident."* — SQ Magazine/TechRadar `2026.06.02`
 
 **2026 Power Stack Formula**:
 ```

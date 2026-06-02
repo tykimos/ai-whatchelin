@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-01</sub>
+  <sub>Last updated: 2026-06-02</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.01-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.02-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -391,6 +391,13 @@ timeline
          : Anthropic S-1 IPO confidential filing — first major AI lab to file, $965B valuation, October 2026 target (Jun 1)
          : NVIDIA Computex 2026 — Vera Rubin 50 petaflops, Nemotron 3 Ultra 500B open model, DSX OS open-sourced (Jun 1)
          : Cursor Auto-review — classifier subagent reduces approval prompts in agent mode (May 29)
+         : Copilot Workspace GA + multi-agent VS Code — parallel subagents at Build (Jun 2)
+         : Claude Code v2.1.160 — shell config write prompts, build-tool config security (Jun 2)
+         : Copilot 29-week decline to 54, Build Day 1 can't offset billing backlash (Jun 2)
+         : Codex CLI — Windows Computer Use, session archiving, app-server stdio (Jun 2)
+         : Cursor Teams — Premium seats, split usage pools, 90% cost reduction (Jun 2)
+         : Gemini CLI sunset D-16 — Antigravity CLI migration accelerating (Jun 2)
+         : NVIDIA Vera Rubin in production — 10x cheaper inference vs Blackwell, TSMC 3nm (Jun 2)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -783,6 +790,21 @@ quadrantChart
 
 **Cursor Auto-review** (2026.05.29):
 > *"Cursor shipped Auto-review — a new run mode with a classifier subagent that decides whether to allow, sandbox, or escalate tool calls. Fewer approval prompts for trusted operations, tighter control for destructive ones."* — cursor.com/changelog `2026.05.29`
+
+**Microsoft Build 2026 Day 1 — Project Polaris and Multi-Agent Copilot** (2026.06.02):
+> *"GitHub Copilot replaces GPT-4 with Project Polaris, Microsoft's homegrown MoE coding model — ships alongside multi-agent VS Code and Copilot Workspace GA. Polaris reportedly outperforms GPT-4 Turbo on standard coding benchmarks, with automatic migration to all subscribers in August. Multi-agent mode spawns parallel subagents for linting, testing, documentation, and security review simultaneously."* — TechTimes `2026.06.02`
+
+**Copilot Token Billing Day 2 — Cost Shock Continues** (2026.06.02):
+> *"Developers report 10x-50x cost increases on the second day of Copilot's usage-based billing. Some burned through monthly credit allotments in a single morning of agentic coding. Alternatives gaining traction: Claude Code ($20/mo flat), Codex CLI (API pricing), and DeepSeek V4 Pro (open-weight)."* — TechJournal `2026.06.02`
+
+**Claude Code v2.1.160** (2026.06.02):
+> *"Security prompts before writing to shell startup files (.zshenv, .zlogin, .bash_login) and git config. Build-tool config files (.npmrc, .yarnrc, bunfig.toml, .bazelrc, .pre-commit-config.yaml, .devcontainer/) now prompt before write in acceptEdits mode."* — code.claude.com/changelog `2026.06.02`
+
+**NVIDIA Vera Rubin in Production** (2026.06.02):
+> *"Vera Rubin is now in full production at TSMC 3nm — 10x inference cost reduction and 4x fewer GPUs needed for MoE training vs Blackwell. Assembly time dropped from 2 hours to 5 minutes per rack. AWS, Google Cloud, Microsoft, and OCI deploy first in H2 2026."* — ServeTheHome `2026.06.02`
+
+**Cursor Teams Pricing Overhaul** (2026.06.02):
+> *"Cursor increases Teams usage limits, adds Premium seats for heavy agent users, and introduces split usage pools. Changes expected to lower costs for 90% of teams. New pricing applies immediately for new customers, July 1 for renewals."* — cursor.com/changelog `2026.06.02`
 
 **2026 Power Stack Formula**:
 ```
@@ -1259,26 +1281,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01"]
+    x-axis ["05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99]
-    line "GH Copilot" [68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87]
-    line "Gemini CLI" [85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74]
-    line "Antigravity" [62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
+    line "Codex CLI" [85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87]
+    line "Gemini CLI" [86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73]
+    line "Antigravity" [58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-55↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-54↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-74↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-61↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-73↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-62↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

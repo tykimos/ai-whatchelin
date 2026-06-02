@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-01</sub>
+  <sub>마지막 업데이트: 2026-06-02</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.01-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.02-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -391,6 +391,13 @@ timeline
          : Anthropic S-1 IPO 비밀 신청서 제출 — 최초 메이저 AI 랩 상장 신청, $9650억 밸류에이션, 10월 목표 (6/1)
          : NVIDIA Computex 2026 — Vera Rubin 50 페타플롭스, Nemotron 3 Ultra 500B 오픈 모델, DSX OS 오픈소스 (6/1)
          : Cursor Auto-review — 분류 서브에이전트로 승인 프롬프트 감소 (5/29)
+         : Copilot Workspace GA + 멀티에이전트 VS Code — Build에서 병렬 서브에이전트 (6/2)
+         : Claude Code v2.1.160 — 셸 설정 파일 쓰기 프롬프트, 빌드 도구 설정 보안 (6/2)
+         : Copilot 29주 연속 하락 54, Build 1일차도 과금 반발 상쇄 못해 (6/2)
+         : Codex CLI — Windows Computer Use, 세션 아카이빙, app-server stdio (6/2)
+         : Cursor Teams — Premium 시트, 사용량 분리 풀, 90% 비용 절감 (6/2)
+         : Gemini CLI 종료 D-16 — Antigravity CLI 전환 가속화 (6/2)
+         : NVIDIA Vera Rubin 양산 돌입 — Blackwell 대비 추론 10배 저렴, TSMC 3nm (6/2)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -798,6 +805,21 @@ quadrantChart
 
 **Cursor Auto-review** (2026.05.29):
 > *"Cursor가 Auto-review를 출시했다 — 분류 서브에이전트가 도구 호출을 허용·샌드박스·에스컬레이션할지 판단하는 새 실행 모드. 신뢰할 수 있는 작업의 승인 프롬프트는 줄이고, 파괴적 작업에 대한 통제는 강화했다."* — cursor.com/changelog `2026.05.29`
+
+**Microsoft Build 2026 1일차 — Project Polaris와 멀티에이전트 Copilot** (2026.06.02):
+> *"GitHub Copilot이 GPT-4를 Microsoft 자체 MoE 코딩 모델 Project Polaris로 교체하고, 멀티에이전트 VS Code와 Copilot Workspace GA를 동시 출시했다. Polaris는 표준 코딩 벤치마크에서 GPT-4 Turbo를 능가한다고 알려졌으며, 8월부터 전체 구독자에게 자동 전환된다. 멀티에이전트 모드는 린팅·테스팅·문서화·보안 리뷰를 병렬 서브에이전트로 동시 실행한다."* — TechTimes `2026.06.02`
+
+**Copilot 토큰 과금 2일차 — 비용 충격 계속** (2026.06.02):
+> *"Copilot 사용량 기반 과금 이틀째, 개발자들이 10~50배의 비용 증가를 보고했다. 일부는 에이전틱 코딩 한 번 아침 세션에 월 크레딧 전부를 소진했다. 대안 도구로의 이탈 가속화: Claude Code($20/월 정액), Codex CLI(API 과금), DeepSeek V4 Pro(오픈 웨이트)."* — TechJournal `2026.06.02`
+
+**Claude Code v2.1.160** (2026.06.02):
+> *"셸 시작 파일(.zshenv, .zlogin, .bash_login)과 git 설정에 쓰기 전 보안 프롬프트 추가. 빌드 도구 설정 파일(.npmrc, .yarnrc, bunfig.toml, .bazelrc, .pre-commit-config.yaml, .devcontainer/)도 acceptEdits 모드에서 쓰기 전 프롬프트를 표시한다."* — code.claude.com/changelog `2026.06.02`
+
+**NVIDIA Vera Rubin 양산 돌입** (2026.06.02):
+> *"Vera Rubin이 TSMC 3nm에서 본격 양산에 돌입했다 — Blackwell 대비 추론 비용 10배 절감, MoE 모델 훈련에 필요한 GPU 4분의 1로 감소. 랙 조립 시간이 2시간에서 5분으로 단축됐다. AWS, Google Cloud, Microsoft, OCI가 2026년 하반기 최초 배포한다."* — ServeTheHome `2026.06.02`
+
+**Cursor Teams 가격 개편** (2026.06.02):
+> *"Cursor가 Teams 사용량 한도를 인상하고 헤비 에이전트 사용자를 위한 Premium 시트를 추가, 분리 사용량 풀을 도입했다. 팀 90%의 비용 절감이 예상되며, 신규 고객은 즉시, 기존 고객은 7월 1일 갱신 시점부터 적용된다."* — cursor.com/changelog `2026.06.02`
 
 **2026 파워 스택 공식**:
 ```
@@ -1229,26 +1251,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01"]
+    x-axis ["05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99]
-    line "GH Copilot" [68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [84, 85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87]
-    line "Gemini CLI" [85, 86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74]
-    line "Antigravity" [62, 58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
+    line "Codex CLI" [85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87]
+    line "Gemini CLI" [86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73]
+    line "Antigravity" [58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-55↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-54↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-74↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-61↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-73↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-62↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

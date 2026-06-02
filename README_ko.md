@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-02</sub>
+  <sub>마지막 업데이트: 2026-06-03</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.02-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.03-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -398,7 +398,12 @@ timeline
          : Cursor Teams — Premium 시트, 사용량 분리 풀, 90% 비용 절감 (6/2)
          : Gemini CLI 종료 D-16 — Antigravity CLI 전환 가속화 (6/2)
          : NVIDIA Vera Rubin 양산 돌입 — Blackwell 대비 추론 10배 저렴, TSMC 3nm (6/2)
-         : Claude AI 글로벌 장애 — Opus 4.7/4.6/Sonnet 4.6 오류 급증, ~4시간, 복구 완료 (6/2)
+         : Claude AI 글로벌 장애 — 서브에이전트 무한 루프가 원인, 긴급 쿼터 리셋 (6/2)
+         : Microsoft Build 2026 2일차 — Aion 1.0 SLM, MAI-Code-1, Surface RTX Spark Dev Box (6/3)
+         : Copilot 30주 연속 하락 53, 종량제 3일차 — Claude Code/Codex CLI 이탈 가속화 (6/3)
+         : Windsurf Pro $15 가격 인하 — Cursor $20 언더커팅 (6/3)
+         : Gemini CLI 종료 D-15 — Antigravity CLI 전환 가속화 (6/3)
+         : SpaceX IPO 로드쇼 D-1, $1.75T 목표 (6/3)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -434,7 +439,7 @@ flowchart TD
 
     D --> D1{"뭐가 중요해?"}
     D1 -->|"탭 자동완성 최강"| DC["Cursor\n$20/월"]
-    D1 -->|"대규모 코드베이스"| DW["Windsurf\n$20/월"]
+    D1 -->|"대규모 코드베이스"| DW["Windsurf\n$15/월"]
     D1 -->|"멀티에이전트+CLI+SDK"| DA["Antigravity 2.0\n$0~100/월"]
     D1 -->|"설계서 먼저 코드 나중"| DK["Kiro\n$20/월"]
     D1 -->|"최저가"| DT["Trae\n$3/월~"]
@@ -822,8 +827,17 @@ quadrantChart
 **Cursor Teams 가격 개편** (2026.06.02):
 > *"Cursor가 Teams 사용량 한도를 인상하고 헤비 에이전트 사용자를 위한 Premium 시트를 추가, 분리 사용량 풀을 도입했다. 팀 90%의 비용 절감이 예상되며, 신규 고객은 즉시, 기존 고객은 7월 1일 갱신 시점부터 적용된다."* — cursor.com/changelog `2026.06.02`
 
-**Claude AI 글로벌 장애** (2026.06.02):
-> *"Claude AI가 전 세계적으로 장애를 겪었다 — Opus 4.7, Opus 4.6, Sonnet 4.6 등 모든 모델에서 오류율이 급증했다. API·Console·Claude Code 모두 영향을 받았으며, 미 동부시간 오전 2:19경 시작돼 약 4시간 만에 Anthropic이 원인을 파악하고 수정을 배포해 복구했다. 5월 8일 장애에 이은 한 달 내 두 번째 주요 장애."* — SQ Magazine/TechRadar `2026.06.02`
+**Claude AI 글로벌 장애 — 원인 규명** (2026.06.02):
+> *"Claude Code의 서브에이전트 시스템에서 치명적인 버그가 발생해 서브에이전트가 무한 루프로 기하급수적으로 증식하며 대량의 토큰을 소모했다. 다수의 Pro·Max 구독자가 수 분 만에 쿼터를 전부 소진했다. Anthropic이 수정을 배포하고 영향을 받은 사용자에게 긴급 쿼터 리셋을 실시했다. 한 달 만에 두 번째 주요 장애."* — The Register/The National `2026.06.02`
+
+**Microsoft Build 2026 2일차 — Aion & MAI 모델** (2026.06.03):
+> *"Microsoft가 Aion 1.0을 공개했다 — Windows에 기본 탑재되는 온디바이스 SLM 2종: Aion 1.0 Instruct(경량)와 Aion 1.0 Plan(14B 파라미터, 32K 컨텍스트, 완전 로컬 에이전틱 워크플로). MAI 모델 7종도 발표됐으며 MAI-Thinking-1(추론)과 MAI-Code-1(GitHub/VS Code 특화)이 핵심이다. Surface RTX Spark Dev Box도 공개 — 1페타플롭 AI 연산, 128GB 통합 메모리로 120B 파라미터 모델을 로컬에서 구동한다."* — Tom's Guide/NewsBytesApp `2026.06.03`
+
+**Copilot 종량제 3일차 — 이탈 가속화** (2026.06.03):
+> *"종량제 전환 3일째, 개발자 이탈이 가속화되고 있다. Pro+($39/월) 사용자가 2시간 만에 월 크레딧의 ~8%를 소진했고, 단일 변경 요청에 $6 이상이 청구된 사례도 나왔다. Copilot 크레딧을 소진한 뒤 OpenRouter(크레딧 1년까지 이월 가능)로 전환하는 하이브리드 방식이 인기를 끌고 있다."* — The Register/gHacks `2026.06.03`
+
+**Windsurf Pro $15 가격 인하** (2026.06.03):
+> *"Cognition이 Windsurf Pro를 월 $20에서 $15로 인하했다 — Cursor Pro $20보다 저렴해진 것이다. Devin 통합과 SWE-1.5(Claude Sonnet 4.5 대비 13배 빠르다고 주장) 조합으로, Windsurf가 AI IDE 가성비 1위 포지셔닝을 강화하고 있다."* — NxCode `2026.06.03`
 
 **2026 파워 스택 공식**:
 ```
@@ -845,7 +859,7 @@ quadrantChart
 | **제공사** | Cursor Inc. | Cognition AI | Google DeepMind | AWS | ByteDance | GitHub |
 | **사이트** | [cursor.com](https://cursor.com) | [windsurf.com](https://windsurf.com) | [antigravity.google](https://antigravity.google) | [kiro.dev](https://kiro.dev) | [trae.ai](https://www.trae.ai) | [github.com](https://github.com/features/copilot) |
 | **무료** | O | O | **O (2.0 GA)** | O (50 cr) | **O (강력)** | O (2K/월) |
-| **시작가** | $20/월 | $20/월 | $20/월 (AI Pro) | $20/월 | **$3/월** | **$10/월** |
+| **시작가** | $20/월 | **$15/월** | $20/월 (AI Pro) | $20/월 | **$3/월** | **$10/월** |
 | **최고가** | $200/월 | $200/월 | $100/월 (AI Ultra) | $200/월 | $100/월 | $39/user/월 |
 | **모델** | Multi+Composer 2.5 | Multi+SWE-1.5 | Gemini 3.5+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
 | **킬러 피처** | Autonomy Slider | Arena Mode + 병렬 에이전트 | 2.0 CLI+SDK+Manager | Spec 기반 EARS | 최저가 | 9+ IDE |
@@ -1109,7 +1123,7 @@ xychart-beta
 | | [Trae Pro](https://www.trae.ai) | $10/월 | 무제한 자동완성 + $20 상당 |
 | **$20** | [Claude Pro](https://claude.com) | $20/월 | Claude Code + Cowork 포함 |
 | | [Cursor Pro](https://cursor.com) | $20/월 | 자동완성 + Cloud Agent |
-| | [Windsurf Pro](https://windsurf.com) | $20/월 | Cascade + SWE-1.5 |
+| | [Windsurf Pro](https://windsurf.com) | $15/월 | Cascade + SWE-1.5 |
 | | [Kiro Pro](https://kiro.dev) | $20/월 | 1,000 크레딧 |
 | | [Devin Core](https://devin.ai) | $20/월 | ACU 기반 에이전트 |
 | **$100+** | [Claude Max](https://claude.com) | $100~200/월 | 5x~20x Pro |
@@ -1243,7 +1257,7 @@ xychart-beta
 
 ```
 시니어 바이브코더 = Cursor (일상) + Claude Code (아키텍처) = $40/월
-가성비 바이브코더 = Windsurf + Gemini CLI              = $20/월
+가성비 바이브코더 = Windsurf + Gemini CLI              = $15/월
 오픈소스 매니아  = Aider + Ollama                     = $0/월
 스타트업 MVP    = Lovable or Bolt.new                = $25/월
 기업 보안팀     = Tabnine + Amazon Q                  = $58/user/월
@@ -1255,26 +1269,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02"]
+    x-axis ["05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87]
-    line "Gemini CLI" [86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73]
-    line "Antigravity" [58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82]
+    line "Codex CLI" [85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87]
+    line "Gemini CLI" [86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72]
+    line "Antigravity" [55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-54↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-53↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-82↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-73↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-62↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-72↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-63↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

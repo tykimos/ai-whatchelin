@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-02</sub>
+  <sub>Last updated: 2026-06-03</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.02-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.03-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -398,7 +398,12 @@ timeline
          : Cursor Teams — Premium seats, split usage pools, 90% cost reduction (Jun 2)
          : Gemini CLI sunset D-16 — Antigravity CLI migration accelerating (Jun 2)
          : NVIDIA Vera Rubin in production — 10x cheaper inference vs Blackwell, TSMC 3nm (Jun 2)
-         : Claude AI global outage — elevated errors Opus 4.7/4.6/Sonnet 4.6, ~4 hours, resolved (Jun 2)
+         : Claude AI global outage — sub-agent infinite loop root cause, emergency quota reset (Jun 2)
+         : Microsoft Build 2026 Day 2 — Aion 1.0 SLMs, MAI-Code-1, Surface RTX Spark Dev Box (Jun 3)
+         : Copilot 30-week decline to 53, billing Day 3 — migrations to Claude Code/Codex CLI accelerating (Jun 3)
+         : Windsurf Pro price cut to $15 — undercutting Cursor $20 (Jun 3)
+         : Gemini CLI sunset D-15 — Antigravity CLI migration accelerating (Jun 3)
+         : SpaceX IPO roadshow D-1, $1.75T target (Jun 3)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -434,7 +439,7 @@ flowchart TD
 
     D --> D1{"What matters most?"}
     D1 -->|"Best tab autocomplete"| DC["Cursor\n$20/mo"]
-    D1 -->|"Large codebase"| DW["Windsurf\n$20/mo"]
+    D1 -->|"Large codebase"| DW["Windsurf\n$15/mo"]
     D1 -->|"Multi-agent+CLI+SDK"| DA["Antigravity 2.0\n$0~100/mo"]
     D1 -->|"Spec first, code later"| DK["Kiro\n$20/mo"]
     D1 -->|"Lowest price"| DT["Trae\n$3/mo~"]
@@ -807,8 +812,17 @@ quadrantChart
 **Cursor Teams Pricing Overhaul** (2026.06.02):
 > *"Cursor increases Teams usage limits, adds Premium seats for heavy agent users, and introduces split usage pools. Changes expected to lower costs for 90% of teams. New pricing applies immediately for new customers, July 1 for renewals."* — cursor.com/changelog `2026.06.02`
 
-**Claude AI Global Outage** (2026.06.02):
-> *"Claude AI went down globally with elevated error rates affecting all models — Opus 4.7, Opus 4.6, and Sonnet 4.6. The outage hit Claude, API, Console, and Claude Code, starting around 2:19 AM ET and lasting approximately four hours before Anthropic identified the root cause and deployed a fix. Second notable outage in a month after the May 8 incident."* — SQ Magazine/TechRadar `2026.06.02`
+**Claude AI Global Outage — Root Cause** (2026.06.02):
+> *"A critical bug in Claude Code's sub-agent system caused sub-agents to multiply exponentially in an infinite loop, consuming massive tokens and overwhelming capacity. Many Pro and Max plan users had quotas depleted within minutes. Anthropic deployed a fix and rolled out emergency quota resets for impacted users. Second notable outage in a month."* — The Register/The National `2026.06.02`
+
+**Microsoft Build 2026 Day 2 — Aion & MAI Models** (2026.06.03):
+> *"Microsoft unveiled Aion 1.0 — two on-device SLMs shipping in-box with Windows: Aion 1.0 Instruct (fast) and Aion 1.0 Plan (14B parameters, 32K context, fully local agentic workflows). Seven new MAI models including MAI-Thinking-1 (reasoning) and MAI-Code-1 (tuned for GitHub/VS Code). Also introduced Surface RTX Spark Dev Box — up to 1 petaflop of AI compute and 128GB unified memory, running 120B-parameter models locally."* — Tom's Guide/NewsBytesApp `2026.06.03`
+
+**Copilot Billing Day 3 — Migration Accelerating** (2026.06.03):
+> *"On day three of usage-based billing, developer migration threads are accelerating. A Pro+ ($39/mo) user burned ~8% of monthly credits in two hours; another had a single change request cost over $6. Popular hybrid approach emerging: use Copilot allocation until depleted, then switch to OpenRouter with credits that roll over up to a year."* — The Register/gHacks `2026.06.03`
+
+**Windsurf Pro Price Cut to $15** (2026.06.03):
+> *"Cognition cut Windsurf Pro from $20 to $15/month — undercutting Cursor Pro's $20 price point. Combined with Devin integration and SWE-1.5 (claimed 13x faster than Claude Sonnet 4.5), Windsurf is positioning as the value leader in AI IDEs."* — NxCode `2026.06.03`
 
 **2026 Power Stack Formula**:
 ```
@@ -830,7 +844,7 @@ Free            = Gemini CLI + Aider
 | **Provider** | Cursor Inc. | Cognition AI | Google DeepMind | AWS | ByteDance | GitHub |
 | **Site** | [cursor.com](https://cursor.com) | [windsurf.com](https://windsurf.com) | [antigravity.google](https://antigravity.google) | [kiro.dev](https://kiro.dev) | [trae.ai](https://www.trae.ai) | [github.com](https://github.com/features/copilot) |
 | **Free** | O | O | **O (2.0 GA)** | O (50 cr) | **O (generous)** | O (2K/mo) |
-| **Starting Price** | $20/mo | $20/mo | $20/mo (AI Pro) | $20/mo | **$3/mo** | **$10/mo** |
+| **Starting Price** | $20/mo | **$15/mo** | $20/mo (AI Pro) | $20/mo | **$3/mo** | **$10/mo** |
 | **Max Price** | $200/mo | $200/mo | $100/mo (AI Ultra) | $200/mo | $100/mo | $39/user/mo |
 | **Model** | Multi+Composer 2.5 | Multi+SWE-1.5 | Gemini 3.5+Claude+GPT | Claude | Claude+GPT+DeepSeek | Multi |
 | **Killer Feature** | Autonomy Slider | Arena Mode + Parallel Agents | 2.0 CLI+SDK+Manager | Spec-based EARS | Lowest price | 9+ IDEs |
@@ -1133,7 +1147,7 @@ xychart-beta
 | | [Trae Pro](https://www.trae.ai) | $10/mo | unlimited autocomplete + $20 worth |
 | **$20** | [Claude Pro](https://claude.com) | $20/mo | Claude Code + Cowork included |
 | | [Cursor Pro](https://cursor.com) | $20/mo | autocomplete + Cloud Agent |
-| | [Windsurf Pro](https://windsurf.com) | $20/mo | Cascade + SWE-1.5 |
+| | [Windsurf Pro](https://windsurf.com) | $15/mo | Cascade + SWE-1.5 |
 | | [Kiro Pro](https://kiro.dev) | $20/mo | 1,000 credits |
 | | [Devin Core](https://devin.ai) | $20/mo | ACU-based agent |
 | **$100+** | [Claude Max](https://claude.com) | $100~200/mo | 5x~20x Pro |
@@ -1273,7 +1287,7 @@ xychart-beta
 
 ```
 Senior Vibe Coder  = Cursor (daily) + Claude Code (architecture) = $40/mo
-Budget Vibe Coder  = Windsurf + Gemini CLI                       = $20/mo
+Budget Vibe Coder  = Windsurf + Gemini CLI                       = $15/mo
 Open Source Fan    = Aider + Ollama                              = $0/mo
 Startup MVP        = Lovable or Bolt.new                         = $25/mo
 Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
@@ -1285,26 +1299,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02"]
+    x-axis ["05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81]
-    line "Codex CLI" [85, 85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87]
-    line "Gemini CLI" [86, 86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73]
-    line "Antigravity" [58, 55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82]
+    line "Codex CLI" [85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87]
+    line "Gemini CLI" [86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72]
+    line "Antigravity" [55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-54↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-81―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-53↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-82↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-73↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-62↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-72↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-63↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

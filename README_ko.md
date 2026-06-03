@@ -404,6 +404,10 @@ timeline
          : Windsurf Pro $15 가격 인하 — Cursor $20 언더커팅 (6/3)
          : Gemini CLI 종료 D-15 — Antigravity CLI 전환 가속화 (6/3)
          : SpaceX IPO 로드쇼 D-1, $1.75T 목표 (6/3)
+         : MAI-Code-1-Flash — 5B 코딩 모델, Claude Haiku 4.5 능가, 토큰 60% 절감, 전 Copilot 플랜 배포 (6/3)
+         : Project Solara — 에이전트 퍼스트 디바이스 OS, Android 기반, 스마트 배지·디스플레이 컨셉, Best Buy/CVS/Target 파일럿 (6/3)
+         : Codex CLI v0.137.0-alpha.4 — 세션 아카이빙, Windows Computer Use, 리모트 컨트롤 (6/3)
+         : CNBC: Microsoft 자체 모델로 OpenAI 의존도 축소 — MAI-Code가 전략적 전환점 (6/3)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -838,6 +842,15 @@ quadrantChart
 
 **Windsurf Pro $15 가격 인하** (2026.06.03):
 > *"Cognition이 Windsurf Pro를 월 $20에서 $15로 인하했다 — Cursor Pro $20보다 저렴해진 것이다. Devin 통합과 SWE-1.5(Claude Sonnet 4.5 대비 13배 빠르다고 주장) 조합으로, Windsurf가 AI IDE 가성비 1위 포지셔닝을 강화하고 있다."* — NxCode `2026.06.03`
+
+**MAI-Code-1-Flash — Microsoft 최초 자체 코딩 모델** (2026.06.03):
+> *"MAI-Code-1-Flash는 5B 파라미터 모델로 Microsoft가 프로덕션 Copilot 하네스와 라이선스 데이터로 처음부터 끝까지 자체 훈련했다 — OpenAI 개입 없음. 적응형 사고(adaptive thinking)로 토큰 60% 절감하면서 Claude Haiku 4.5를 코딩 벤치마크에서 능가한다. VS Code 모델 피커에서 전 Copilot 플랜에 배포 중."* — Microsoft AI/CNBC `2026.06.03`
+
+**Project Solara — 에이전트 퍼스트 디바이스 OS** (2026.06.03):
+> *"Microsoft가 Project Solara를 공개했다 — Android 기반의 칩-투-클라우드 에이전트 퍼스트 디바이스 플랫폼이다. 5G/카메라/터치스크린을 갖춘 스마트 배지와 스마트 디스플레이 컨셉 하드웨어를 선보였다. 앱을 여는 것에서 에이전트를 호출하는 것으로의 전환을 지향하며, Best Buy·CVS Health·Levi's·Target과 파일럿을 진행한다."* — Engadget/TechRadar `2026.06.03`
+
+**Codex CLI v0.137.0-alpha.4** (2026.06.03):
+> *"TUI에서 /archive로 세션 보관 가능. Windows에서 Computer Use 작동 — Codex가 데스크톱 앱을 보고, 클릭하고, 타이핑한다. ChatGPT iOS/Android에서 Windows 디바이스 원격 제어 지원. codex doctor 진단 정보 강화."* — openai.com/codex/changelog `2026.06.03`
 
 **2026 파워 스택 공식**:
 ```

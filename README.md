@@ -404,6 +404,10 @@ timeline
          : Windsurf Pro price cut to $15 — undercutting Cursor $20 (Jun 3)
          : Gemini CLI sunset D-15 — Antigravity CLI migration accelerating (Jun 3)
          : SpaceX IPO roadshow D-1, $1.75T target (Jun 3)
+         : MAI-Code-1-Flash — 5B coding model, outperforms Claude Haiku 4.5, 60% fewer tokens, all Copilot plans (Jun 3)
+         : Project Solara — agent-first device OS on Android, smart badge/display concepts, pilot with Best Buy/CVS/Target (Jun 3)
+         : Codex CLI v0.137.0-alpha.4 — session archiving, Windows Computer Use, remote control (Jun 3)
+         : CNBC: Microsoft proprietary models to reduce OpenAI dependence — MAI-Code as strategic pivot (Jun 3)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -823,6 +827,15 @@ quadrantChart
 
 **Windsurf Pro Price Cut to $15** (2026.06.03):
 > *"Cognition cut Windsurf Pro from $20 to $15/month — undercutting Cursor Pro's $20 price point. Combined with Devin integration and SWE-1.5 (claimed 13x faster than Claude Sonnet 4.5), Windsurf is positioning as the value leader in AI IDEs."* — NxCode `2026.06.03`
+
+**MAI-Code-1-Flash — Microsoft's First Coding Model** (2026.06.03):
+> *"MAI-Code-1-Flash is a 5B-parameter model trained end-to-end by Microsoft on production Copilot harnesses and licensed data — no OpenAI involvement. Outperforms Claude Haiku 4.5 across coding benchmarks with 60% fewer tokens via adaptive thinking. Rolling out to all Copilot plans in VS Code model picker."* — Microsoft AI/CNBC `2026.06.03`
+
+**Project Solara — Agent-First Device OS** (2026.06.03):
+> *"Microsoft unveiled Project Solara — a chip-to-cloud platform built on Android for agent-first devices. Concept hardware includes a smart badge with 5G/camera/touchscreen and a smart display. Shifts from apps-you-open to agents-you-invoke with just-in-time UI. Pilot with Best Buy, CVS Health, Levi's, Target."* — Engadget/TechRadar `2026.06.03`
+
+**Codex CLI v0.137.0-alpha.4** (2026.06.03):
+> *"Sessions can now be archived from the TUI with /archive. Computer Use works on Windows — Codex can operate desktop apps by seeing, clicking, and typing. Remote control supports Windows devices from ChatGPT on iOS/Android. codex doctor now reports richer diagnostics."* — openai.com/codex/changelog `2026.06.03`
 
 **2026 Power Stack Formula**:
 ```

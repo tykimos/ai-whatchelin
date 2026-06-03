@@ -408,6 +408,9 @@ timeline
          : Project Solara — 에이전트 퍼스트 디바이스 OS, Android 기반, 스마트 배지·디스플레이 컨셉, Best Buy/CVS/Target 파일럿 (6/3)
          : Codex CLI v0.137.0-alpha.4 — 세션 아카이빙, Windows Computer Use, 리모트 컨트롤 (6/3)
          : CNBC: Microsoft 자체 모델로 OpenAI 의존도 축소 — MAI-Code가 전략적 전환점 (6/3)
+         : Project Polaris 확정 — 8월부터 GPT-4 Turbo 대체해 Copilot 기본 모델 교체, Maia 200 칩 구동 (6/3)
+         : Windows Agent Framework 1.0 MIT 라이선스 오픈소스 공개 (6/3)
+         : SpaceX IPO $135/주 확정, $1.75조 밸류에이션 — 6/8 주간 로드쇼, 6/12 나스닥 거래 시작 (6/3)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

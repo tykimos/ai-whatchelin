@@ -408,6 +408,9 @@ timeline
          : Project Solara — agent-first device OS on Android, smart badge/display concepts, pilot with Best Buy/CVS/Target (Jun 3)
          : Codex CLI v0.137.0-alpha.4 — session archiving, Windows Computer Use, remote control (Jun 3)
          : CNBC: Microsoft proprietary models to reduce OpenAI dependence — MAI-Code as strategic pivot (Jun 3)
+         : Project Polaris confirmed — replaces GPT-4 Turbo as default Copilot model August 2026, runs on Maia 200 accelerators (Jun 3)
+         : Windows Agent Framework 1.0 open-sourced under MIT license (Jun 3)
+         : SpaceX IPO fixed at $135/share, $1.75T valuation — roadshow week of June 8, trading June 12 on Nasdaq (Jun 3)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

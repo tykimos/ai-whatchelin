@@ -3,7 +3,7 @@ title: "Build Day 2: Microsoft Ships Its Own Coding Model — Copilot Exodus Day
 date: 2026-06-03
 lang: en
 categories: [news]
-tags: [microsoft-build, github-copilot, claude-code, windsurf, nvidia, gemini-cli, spacex, codex-cli]
+tags: [microsoft-build, github-copilot, claude-code, windsurf, nvidia, gemini-cli, spacex, codex-cli, project-polaris]
 excerpt: "Microsoft Build 2026 Day 2 debuts MAI-Code-1-Flash and Project Solara, signaling reduced OpenAI dependence. Copilot's usage-based billing enters day three with developer migrations accelerating. Windsurf drops to $15."
 ---
 
@@ -27,9 +27,17 @@ On day three of usage-based billing, more developers are sharing real cost data 
 
 Cognition cut Windsurf Pro from $20 to $15/month([Windsurf Blog](https://windsurf.com/blog/pricing-v2)). That's now cheaper than Cursor Pro ($20) and Claude Code ($20). Combined with SWE-1.5 (claimed 13x faster than Claude Sonnet 4.5), built-in Devin integration, and the new Codemaps feature, the strategy to capture Copilot's fleeing developers is clear.
 
+## Project Polaris: Copilot Default Model Replacement Confirmed for August
+
+Build Day 2 revealed the specific timeline for Project Polaris — it replaces GPT-4 Turbo as the default model for all GitHub Copilot subscribers starting August 2026([Microsoft Build 2026](https://news.microsoft.com/build-2026/)). Running on Microsoft's own Maia 200 AI accelerators with a MoE architecture. Also announced: **Windows Agent Framework 1.0** was open-sourced under MIT license, and **Azure Agent Mesh** enables federated multi-agent execution across clouds and devices.
+
 ## Codex CLI v0.137.0 — Windows Computer Use
 
 Codex CLI shipped v0.137.0-alpha.4 with Windows Computer Use support([OpenAI Codex Changelog](https://developers.openai.com/codex/changelog)). Codex can now see, click, and type in Windows desktop apps. Sessions can be archived from the TUI with /archive, and remote control now supports Windows devices from ChatGPT on iOS/Android.
+
+## SpaceX IPO Fixed at $135/Share — Largest IPO Ever Countdown
+
+SpaceX's IPO price has been fixed at $135 per share([CNBC](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)). At a $1.75 trillion valuation, it would be the seventh-largest U.S. company by market cap (above Tesla's ~$1.6T). 555.6 million shares to be sold in a ~$75 billion offering — the largest IPO in history. Roadshow begins the week of June 8, with trading expected June 12 on Nasdaq under ticker SPCX. The S-1's disclosure of Anthropic's $1.25B/month Colossus contract underscores the sheer scale of AI infrastructure spending.
 
 ## Market Pulse
 

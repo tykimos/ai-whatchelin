@@ -3,7 +3,7 @@ title: "Build 2일차: Microsoft가 자체 코딩 모델을 꺼내들었다 — 
 date: 2026-06-03
 lang: ko
 categories: [news]
-tags: [microsoft-build, github-copilot, claude-code, windsurf, nvidia, gemini-cli, spacex, codex-cli]
+tags: [microsoft-build, github-copilot, claude-code, windsurf, nvidia, gemini-cli, spacex, codex-cli, project-polaris]
 excerpt: "Microsoft Build 2026 2일차에서 MAI-Code-1-Flash와 Project Solara를 공개하며 OpenAI 의존도 탈피를 선언했다. Copilot 종량제 3일째 이탈은 가속화되고, Windsurf는 $15 가격 인하로 이탈 수요를 정조준하고 있다."
 ---
 
@@ -27,9 +27,17 @@ Microsoft가 Project Solara를 공개했다 — Android 기반 칩-투-클라우
 
 Cognition이 Windsurf Pro를 월 $20에서 $15로 인하했다([Windsurf Blog](https://windsurf.com/blog/pricing-v2)). Cursor Pro $20, Claude Code $20보다 저렴해진 것이다. SWE-1.5(Claude Sonnet 4.5 대비 13배 빠르다고 주장), 기본 내장된 Devin, 새로운 Codemaps 기능과 합쳐져 Copilot 이탈 수요를 직접 흡수하려는 전략이 명확하다.
 
+## Project Polaris: Copilot 기본 모델 8월 교체 확정
+
+Build 2일차에서 Project Polaris의 구체적 일정이 나왔다 — 2026년 8월부터 GPT-4 Turbo를 대체해 모든 GitHub Copilot 구독자의 기본 모델이 된다([Microsoft Build 2026](https://news.microsoft.com/build-2026/)). Microsoft 자체 Maia 200 AI 가속기에서 구동되며, MoE 아키텍처를 채택했다. 함께 발표된 **Windows Agent Framework 1.0**은 MIT 라이선스로 오픈소스화되었고, **Azure Agent Mesh**는 클라우드·디바이스 간 연합형 멀티에이전트 실행 환경이다.
+
 ## Codex CLI v0.137.0 — Windows Computer Use 지원
 
 Codex CLI가 v0.137.0-alpha.4를 출시하며 Windows Computer Use를 지원한다([OpenAI Codex Changelog](https://developers.openai.com/codex/changelog)). Codex가 이제 Windows 데스크톱 앱을 보고, 클릭하고, 타이핑할 수 있다. TUI에서 /archive로 세션 보관이 가능해졌고, ChatGPT iOS/Android에서 Windows 디바이스를 원격 제어할 수 있다.
+
+## SpaceX IPO $135/주 확정 — 역대 최대 IPO 카운트다운
+
+SpaceX IPO 가격이 주당 $135로 확정되었다([CNBC](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)). $1.75조 밸류에이션으로 미국 시가총액 7위(Tesla ~$1.6조 초과)에 해당하며, 5억 5,560만 주가 매각되어 ~$750억 규모 역대 최대 IPO가 된다. 6월 8일 주간 로드쇼, 6월 12일 나스닥 SPCX 티커로 거래 시작 예정이다. S-1에서 공개된 Anthropic 월 $12.5억 Colossus 계약은 AI 인프라 시장의 규모를 여실히 보여준다.
 
 ## 마켓 펄스
 

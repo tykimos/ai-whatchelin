@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-03</sub>
+  <sub>Last updated: 2026-06-04</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.03-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.04-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -411,6 +411,13 @@ timeline
          : Project Polaris confirmed — replaces GPT-4 Turbo as default Copilot model August 2026, runs on Maia 200 accelerators (Jun 3)
          : Windows Agent Framework 1.0 open-sourced under MIT license (Jun 3)
          : SpaceX IPO fixed at $135/share, $1.75T valuation — roadshow week of June 8, trading June 12 on Nasdaq (Jun 3)
+         : SpaceX IPO roadshow begins — Morningstar $780B fair value vs $1.75T target, ARK $2.5T by 2030 (Jun 4)
+         : Copilot 31-week decline to 52, billing Day 4 — The Register "angry devs vow to flee" (Jun 4)
+         : Gemini CLI sunset D-14 — enterprise-only after June 18 (Jun 4)
+         : Anthropic agent billing D-11 — June 15 Agent SDK/CLI credit split approaching (Jun 4)
+         : Grok Composer 2.5 — 100% cheaper input vs Grok Build 0.1, long-running task model (Jun 4)
+         : Windsurf rises to 83 — $15 price cut absorbing Copilot refugees (Jun 4)
+         : Claude Code v2.1.161 — MCP server reconnect fix, API gateway credential fix, Bedrock/Vertex 1M picker fix (Jun 4)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1315,26 +1322,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03"]
+    x-axis ["05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53]
+    line "Claude Code" [98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82]
-    line "Codex CLI" [85, 86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87]
-    line "Gemini CLI" [86, 85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72]
-    line "Antigravity" [55, 53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83]
+    line "Codex CLI" [86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71]
+    line "Antigravity" [53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-53↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-82↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-52↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-83↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-72↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-63↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-71↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-64↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

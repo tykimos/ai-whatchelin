@@ -420,6 +420,10 @@ timeline
          : Grok Composer 2.5 — Grok Build 0.1 대비 입력 100% 저렴, 장시간 작업 모델 (6/4)
          : Windsurf 83 상승 — $15 가격 인하로 Copilot 이탈 수요 흡수 (6/4)
          : Claude Code v2.1.161 — MCP 서버 재연결 수정, API 게이트웨이 자격증명 수정, Bedrock/Vertex 1M 피커 수정 (6/4)
+         : Cursor Teams 가격 상세 — Standard $32/시트/월, Premium $96/시트/월 (연간), 7/1 갱신 적용 (6/4)
+         : Codex Sites 프리뷰 — Codex에서 호스팅 웹앱 생성·배포·관리 (6/4)
+         : GPT-4.5 6/27 퇴장 — 30일 선셋 기간, GPT-5 패밀리로 대체 (6/4)
+         : Cursor Bugbot 종량제 6/8 갱신 이후 적용 (6/4)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -841,7 +845,7 @@ quadrantChart
 > *"Vera Rubin이 TSMC 3nm에서 본격 양산에 돌입했다 — Blackwell 대비 추론 비용 10배 절감, MoE 모델 훈련에 필요한 GPU 4분의 1로 감소. 랙 조립 시간이 2시간에서 5분으로 단축됐다. AWS, Google Cloud, Microsoft, OCI가 2026년 하반기 최초 배포한다."* — ServeTheHome `2026.06.02`
 
 **Cursor Teams 가격 개편** (2026.06.02):
-> *"Cursor가 Teams 사용량 한도를 인상하고 헤비 에이전트 사용자를 위한 Premium 시트를 추가, 분리 사용량 풀을 도입했다. 팀 90%의 비용 절감이 예상되며, 신규 고객은 즉시, 기존 고객은 7월 1일 갱신 시점부터 적용된다."* — cursor.com/changelog `2026.06.02`
+> *"Cursor가 Teams 가격을 재편했다: Standard 시트 $32/월(연간) 또는 $40/월(월간), 신규 Premium 시트 $96/월(연간) 또는 $120/월(월간)으로 5배 사용량 제공. 분리 사용량 풀과 실시간 비용 예측 기능 도입. 팀 90% 비용 절감 예상. 신규 고객 즉시 적용, 기존 고객 7월 1일 갱신 시 적용."* — cursor.com/blog/teams-pricing-june-2026 `2026.06.02`
 
 **Claude AI 글로벌 장애 — 원인 규명** (2026.06.02):
 > *"Claude Code의 서브에이전트 시스템에서 치명적인 버그가 발생해 서브에이전트가 무한 루프로 기하급수적으로 증식하며 대량의 토큰을 소모했다. 다수의 Pro·Max 구독자가 수 분 만에 쿼터를 전부 소진했다. Anthropic이 수정을 배포하고 영향을 받은 사용자에게 긴급 쿼터 리셋을 실시했다. 한 달 만에 두 번째 주요 장애."* — The Register/The National `2026.06.02`
@@ -863,6 +867,15 @@ quadrantChart
 
 **Codex CLI v0.137.0-alpha.4** (2026.06.03):
 > *"TUI에서 /archive로 세션 보관 가능. Windows에서 Computer Use 작동 — Codex가 데스크톱 앱을 보고, 클릭하고, 타이핑한다. ChatGPT iOS/Android에서 Windows 디바이스 원격 제어 지원. codex doctor 진단 정보 강화."* — openai.com/codex/changelog `2026.06.03`
+
+**Cursor Teams 가격 상세** (2026.06.04):
+> *"Cursor가 Teams 상세 가격을 공개했다: Standard 시트 $32/시트/월(연간) 또는 $40(월간), Premium 시트 $96/시트/월(연간) 또는 $120(월간)으로 5배 사용량 포함. Bugbot은 6/8 갱신 이후 종량제로 전환 — 설정 가능한 노력 수준이 $40/시트/월 정액제를 대체한다."* — cursor.com/blog/teams-pricing-june-2026 `2026.06.04`
+
+**GPT-4.5 퇴장 발표** (2026.06.04):
+> *"OpenAI가 GPT-4.5를 6월 27일 ChatGPT에서 퇴장시킨다고 발표했다. 30일 선셋 기간을 거치며, GPT-5 패밀리로 완전히 대체된다."* — OpenAI Help Center `2026.06.04`
+
+**Codex Sites 프리뷰** (2026.06.04):
+> *"Codex Sites가 프리뷰로 공개됐다 — Codex 앱 사이드바에서 웹사이트, 대시보드, 내부 도구, 웹앱, 게임을 생성·저장·배포·검사할 수 있다. OpenAI가 호스팅하며 Business 및 Enterprise 고객 대상이다."* — openai.com/codex/changelog `2026.06.04`
 
 **2026 파워 스택 공식**:
 ```
@@ -1775,7 +1788,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-06-01)
+### 팩트 체크 로그 (2026-06-04)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -1783,11 +1796,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **개인 금융** (Pro, Plaid 12K+ 은행), **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 6/15**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.153** 최신, **Opus 4.8** SWE-bench 88.6%, 동적 워크플로우, 패스트 모드 2.5x; /model 기본값 저장, skipLfs, Bedrock/Vertex 1M 피커 수정; 주간 한도 50%↑ 7/13까지 |
-| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Auto-review** 분류 서브에이전트 (5/29), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **3.5** Automations + Compact Chats, **클라우드 에이전트 개발 환경**, **Bugbot 사용량 과금** $1-1.50/회, SpaceX $600억 인수 |
-| Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** 전체 사용자, Opus 4.7 fast 모드 ~2.5배, **Cognition $250억** 밸류에이션 협상 |
+| Claude Code | code.claude.com/changelog | **v2.1.161** 최신, **Opus 4.8** SWE-bench 88.6%, 동적 워크플로우, 패스트 모드 2.5x; MCP 서버 재연결 수정, API 게이트웨이 자격증명 수정; 주간 한도 50%↑ 7/13까지 |
+| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수 |
+| Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 첫날 904 비추천, **Copilot App** 테크니컬 프리뷰, **GPT-5.3-Codex LTS** 기본 모델, **Project Polaris** 자체 MoE 모델, **Microsoft Claude Code 취소** (6/30), 28주 연속 하락 55 |
+| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 4일차 이탈 본격화, **Copilot App** 테크니컬 프리뷰, **Project Polaris** GPT-4 Turbo 대체 8월, **MAI-Code-1-Flash** 5B 코딩 모델, **Microsoft Claude Code 취소** (6/30), 31주 연속 하락 52 |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |

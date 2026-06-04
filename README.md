@@ -420,6 +420,10 @@ timeline
          : Grok Composer 2.5 — 100% cheaper input vs Grok Build 0.1, long-running task model (Jun 4)
          : Windsurf rises to 83 — $15 price cut absorbing Copilot refugees (Jun 4)
          : Claude Code v2.1.161 — MCP server reconnect fix, API gateway credential fix, Bedrock/Vertex 1M picker fix (Jun 4)
+         : Cursor Teams pricing details — Standard $32/seat/mo, Premium $96/seat/mo (annual), July 1 renewals (Jun 4)
+         : Codex Sites preview — create, deploy, and manage hosted web apps from Codex (Jun 4)
+         : GPT-4.5 retirement June 27 — 30-day sunset period, replaced by GPT-5 family (Jun 4)
+         : Cursor Bugbot usage-based billing effective after June 8 renewal (Jun 4)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -826,7 +830,7 @@ quadrantChart
 > *"Vera Rubin is now in full production at TSMC 3nm — 10x inference cost reduction and 4x fewer GPUs needed for MoE training vs Blackwell. Assembly time dropped from 2 hours to 5 minutes per rack. AWS, Google Cloud, Microsoft, and OCI deploy first in H2 2026."* — ServeTheHome `2026.06.02`
 
 **Cursor Teams Pricing Overhaul** (2026.06.02):
-> *"Cursor increases Teams usage limits, adds Premium seats for heavy agent users, and introduces split usage pools. Changes expected to lower costs for 90% of teams. New pricing applies immediately for new customers, July 1 for renewals."* — cursor.com/changelog `2026.06.02`
+> *"Cursor restructures Teams pricing: Standard seats $32/mo (annual) or $40/mo (monthly), new Premium seats at $96/mo (annual) or $120/mo (monthly) with 5x usage. Split usage pools and real-time spend forecasting. Expected to lower costs for 90% of teams. Immediate for new customers, July 1 for renewals."* — cursor.com/blog/teams-pricing-june-2026 `2026.06.02`
 
 **Claude AI Global Outage — Root Cause** (2026.06.02):
 > *"A critical bug in Claude Code's sub-agent system caused sub-agents to multiply exponentially in an infinite loop, consuming massive tokens and overwhelming capacity. Many Pro and Max plan users had quotas depleted within minutes. Anthropic deployed a fix and rolled out emergency quota resets for impacted users. Second notable outage in a month."* — The Register/The National `2026.06.02`
@@ -848,6 +852,15 @@ quadrantChart
 
 **Codex CLI v0.137.0-alpha.4** (2026.06.03):
 > *"Sessions can now be archived from the TUI with /archive. Computer Use works on Windows — Codex can operate desktop apps by seeing, clicking, and typing. Remote control supports Windows devices from ChatGPT on iOS/Android. codex doctor now reports richer diagnostics."* — openai.com/codex/changelog `2026.06.03`
+
+**Cursor Teams Pricing Details** (2026.06.04):
+> *"Cursor published specific Teams pricing: Standard seats $32/seat/mo (annual) or $40 (monthly), Premium seats $96/seat/mo (annual) or $120 (monthly) with 5x included usage. Bugbot switches to usage-based billing at renewal after June 8 — configurable effort levels replace $40/seat/mo flat fee."* — cursor.com/blog/teams-pricing-june-2026 `2026.06.04`
+
+**GPT-4.5 Retirement Announced** (2026.06.04):
+> *"OpenAI announced GPT-4.5 will be retired from ChatGPT on June 27, 2026 following a 30-day sunset period. The model is fully replaced by the GPT-5 family."* — OpenAI Help Center `2026.06.04`
+
+**Codex Sites Preview** (2026.06.04):
+> *"Codex Sites is now in preview — create, save, deploy, and inspect websites, dashboards, internal tools, web apps, and games hosted by OpenAI directly from the Codex app sidebar. Available for Business and Enterprise customers."* — openai.com/codex/changelog `2026.06.04`
 
 **2026 Power Stack Formula**:
 ```
@@ -1815,7 +1828,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-06-01)
+### Fact Check Log (2026-06-04)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -1823,11 +1836,11 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering June 15**, **Big Four standardization** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.153** latest, **Opus 4.8** SWE-bench 88.6%, dynamic workflows, fast mode 2.5x; /model saves default, skipLfs, Bedrock/Vertex 1M picker fix; weekly limits +50% through Jul 13 |
-| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Auto-review** classifier subagent (May 29), **Cursor in Jira** — cloud agents from issue tracker, **3.5** Automations + Compact Chats, **Dev Environments** for cloud agents, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal |
-| Windsurf | windsurf.com/pricing | 2.0 + **Devin Review/Terminal GA** all users, Opus 4.7 fast mode ~2.5x, **Cognition $25B** valuation talks |
+| Claude Code | code.claude.com/changelog | **v2.1.161** latest, **Opus 4.8** SWE-bench 88.6%, dynamic workflows, fast mode 2.5x; MCP server reconnect fix, API gateway credential fix; weekly limits +50% through Jul 13 |
+| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal |
+| Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, 904 downvotes day 1, **Copilot App** tech preview, **GPT-5.3-Codex LTS** base model, **Project Polaris** homegrown MoE model, **Microsoft cancels Claude Code** (June 30), 28-week decline to 55 |
+| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 4 exodus, **Copilot App** tech preview, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **MAI-Code-1-Flash** 5B coding model, **Microsoft cancels Claude Code** (June 30), 31-week decline to 52 |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |

@@ -399,9 +399,11 @@ timeline
          : Gemini CLI sunset D-16 — Antigravity CLI migration accelerating (Jun 2)
          : NVIDIA Vera Rubin in production — 10x cheaper inference vs Blackwell, TSMC 3nm (Jun 2)
          : Claude AI global outage — sub-agent infinite loop root cause, emergency quota reset (Jun 2)
+         : Windsurf → Devin Desktop — OTA rebrand ships, Devin Local replaces Cascade (Rust rewrite, 30% fewer tokens), Agent Command Center (Jun 2)
          : Microsoft Build 2026 Day 2 — Aion 1.0 SLMs, MAI-Code-1, Surface RTX Spark Dev Box (Jun 3)
          : Copilot 30-week decline to 53, billing Day 3 — migrations to Claude Code/Codex CLI accelerating (Jun 3)
          : Windsurf Pro price cut to $15 — undercutting Cursor $20 (Jun 3)
+         : Uber caps AI tools at $1,500/month per engineer — burned full 2026 AI budget by April, 95% engineers use AI, 70% code AI-generated (Jun 3)
          : Gemini CLI sunset D-15 — Antigravity CLI migration accelerating (Jun 3)
          : SpaceX IPO roadshow D-1, $1.75T target (Jun 3)
          : MAI-Code-1-Flash — 5B coding model, outperforms Claude Haiku 4.5, 60% fewer tokens, all Copilot plans (Jun 3)
@@ -1088,6 +1090,12 @@ Free            = Gemini CLI + Aider
 
 **Microsoft Build 2026 D-4 — Homegrown Coding Model** (2026.05.29):
 > *"Microsoft is preparing to unveil a homegrown coding model at Build 2026 (June 2-3) to power GitHub Copilot — multiple sizes including a coding-specialized model, a reasoning model, and an in-house agent. Fort Mason Center, San Francisco."* — Digit.in `2026.05.29`
+
+**Windsurf → Devin Desktop Rebrand** (2026.06.02):
+> *"Windsurf became Devin Desktop on June 2 via an over-the-air update. Devin Local — rewritten from scratch in Rust — replaces Cascade as the primary local agent, 30% more token efficient with subagent support. The Agent Command Center (Spaces, Kanban, multi-agent management) is now front and center. Agent Client Protocol (ACP) support lets any compatible agent run inside the editor."* — devin.ai `2026.06.02`
+
+**Uber Caps AI Tools at $1,500/Month** (2026.06.03):
+> *"Uber introduced a $1,500/month per-engineer cap on AI coding tools after burning through its entire 2026 AI budget by April. 95% of Uber engineers use AI tools monthly, 70% of committed code originates from AI. COO Andrew Macdonald: 'That link [between AI spending and useful features] is not there yet.'"* — Bloomberg `2026.06.02`
 
 ---
 

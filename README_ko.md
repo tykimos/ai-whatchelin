@@ -399,9 +399,11 @@ timeline
          : Gemini CLI 종료 D-16 — Antigravity CLI 전환 가속화 (6/2)
          : NVIDIA Vera Rubin 양산 돌입 — Blackwell 대비 추론 10배 저렴, TSMC 3nm (6/2)
          : Claude AI 글로벌 장애 — 서브에이전트 무한 루프가 원인, 긴급 쿼터 리셋 (6/2)
+         : Windsurf → Devin Desktop — OTA 리브랜딩 완료, Devin Local이 Cascade 대체 (Rust 재작성, 토큰 30% 절감), Agent Command Center (6/2)
          : Microsoft Build 2026 2일차 — Aion 1.0 SLM, MAI-Code-1, Surface RTX Spark Dev Box (6/3)
          : Copilot 30주 연속 하락 53, 종량제 3일차 — Claude Code/Codex CLI 이탈 가속화 (6/3)
          : Windsurf Pro $15 가격 인하 — Cursor $20 언더커팅 (6/3)
+         : Uber AI 도구 월 $1,500 상한 도입 — 4개월 만에 2026년 전체 예산 소진, 엔지니어 95% AI 사용, 코드 70%가 AI 생성 (6/3)
          : Gemini CLI 종료 D-15 — Antigravity CLI 전환 가속화 (6/3)
          : SpaceX IPO 로드쇼 D-1, $1.75T 목표 (6/3)
          : MAI-Code-1-Flash — 5B 코딩 모델, Claude Haiku 4.5 능가, 토큰 60% 절감, 전 Copilot 플랜 배포 (6/3)
@@ -1064,6 +1066,12 @@ quadrantChart
 
 **Zed 1.0 출시** (2026.04.29):
 > *"5년 개발, 100만 줄 이상의 Rust. 같은 창에서 병렬 에이전트 실행. Agent Client Protocol로 외부 에이전트 통합. Edit Prediction(Zeta)으로 매 키스트로크 AI 완성."* — alternativeto.net `2026.04.29`
+
+**Windsurf → Devin Desktop 리브랜딩** (2026.06.02):
+> *"6월 2일 OTA 업데이트로 Windsurf가 Devin Desktop이 됐다. Cascade를 대체하는 Devin Local은 Rust로 완전히 재작성돼 토큰 효율 30% 향상, 서브에이전트를 지원한다. Agent Command Center(Spaces, 칸반 뷰, 멀티에이전트 관리)가 전면에 나서고, Agent Client Protocol(ACP) 지원으로 호환 에이전트가 에디터 내에서 실행된다."* — devin.ai `2026.06.02`
+
+**Uber AI 도구 월 $1,500 상한 도입** (2026.06.03):
+> *"Uber가 4개월 만에 2026년 전체 AI 예산을 소진한 뒤 엔지니어당 월 $1,500 상한을 도입했다. 엔지니어 95%가 AI 도구를 사용하고 커밋 코드의 70%가 AI 생성이다. COO Andrew Macdonald: 'AI 지출과 유용한 기능 출시 간의 연결고리가 아직 없다.'"* — Bloomberg `2026.06.02`
 
 ---
 

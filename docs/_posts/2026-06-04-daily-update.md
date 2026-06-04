@@ -1,37 +1,33 @@
 ---
-title: "SpaceX $1.75T IPO Roadshow Begins — Wall Street Split, Copilot Exodus Day 4"
+title: "Windsurf Becomes Devin Desktop — SpaceX $1.75T IPO Roadshow Day 1, Copilot Exodus Day 4"
 date: 2026-06-04
 lang: en
 categories: [news]
-tags: [spacex-ipo, github-copilot, anthropic, claude-code, grok-build, gemini-cli, microsoft-build]
-excerpt: "SpaceX kicks off the largest IPO roadshow in history at $1.75T, but Morningstar warns it's nearly twice fair value. Copilot billing backlash enters day four with developer migrations accelerating. Anthropic's June 15 agent billing split is 11 days away."
+tags: [windsurf, devin-desktop, spacex-ipo, github-copilot, anthropic, claude-code, uber, cursor, grok-build]
+excerpt: "Windsurf rebrands to Devin Desktop, SpaceX kicks off the largest IPO roadshow in history, and Uber caps AI tool spending at $1,500/month after burning its entire 2026 budget in four months."
 ---
 
-SpaceX has launched the largest IPO roadshow in history. But Wall Street is divided — Morningstar warns the target is double fair value while ARK Invest calls it underpriced. In the AI coding tool market, Copilot's billing exodus enters day four, Anthropic's agent billing countdown continues, and the Build aftermath reshapes competitive dynamics.
+Windsurf is now officially Devin Desktop. SpaceX has launched the largest IPO roadshow in history at $1.75T, but Morningstar warns it's nearly twice fair value. Copilot's billing exodus enters day four with migrations accelerating, Uber has capped AI tool spending at $1,500/month per engineer, and Anthropic's June 15 agent billing split is 11 days away.
+
+## Windsurf → Devin Desktop: From Editor to Agent Manager
+
+Windsurf became Devin Desktop on June 2 via an over-the-air update([devin.ai](https://devin.ai/blog/windsurf-is-now-devin-desktop/)). Same IDE, same editor — but the focus has shifted from an editor with AI bolted on to an agent manager wrapped in a full IDE. Devin Local, rewritten from scratch in Rust, replaces Cascade as the primary local agent with 30% better token efficiency and subagent support([ChatForest](https://chatforest.com/builders-log/windsurf-devin-desktop-rebrand-devin-local-acp-builder-guide/)). The Agent Command Center (Spaces, Kanban view, multi-agent management) is now front and center, and Agent Client Protocol (ACP) support lets any compatible agent run inside the editor. Existing Windsurf users keep their plans, pricing, and settings — no migration needed.
 
 ## SpaceX IPO Roadshow: $1.75T vs Morningstar's $780B
 
-SpaceX's IPO roadshow has officially begun. At $135 per share, 555.6 million shares, and a ~$75 billion raise target, this will be the largest IPO in history([CNBC](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)). The $1.75 trillion valuation would make it the seventh-largest U.S. company by market cap, surpassing Tesla at ~$1.6T. However, Morningstar values SpaceX at just $780 billion — less than half the target — and recommends investors wait for post-IPO entry([TechTimes](https://www.techtimes.com/articles/317676/20260603/spacex-ipo-roadshow-begins-morningstar-calls-175t-valuation-nearly-twice-fair-value.htm)). In contrast, ARK Invest's Cathie Wood projects SpaceX could reach $2.5T by 2030, calling the IPO target "grounded in plausible trajectory" for Starlink, Starship, and Orbital AI combined.
-
-The AI industry connection is unmistakable. The S-1 disclosed Anthropic's $1.25B/month Colossus compute contract ($45B total), which constitutes a significant portion of SpaceX revenue and illustrates the sheer scale of AI infrastructure spending.
+SpaceX's IPO roadshow has officially begun. At $135 per share, 555.6 million shares, and a ~$75 billion raise target, this will be the largest IPO in history([CNBC](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)). The $1.75 trillion valuation would make it the seventh-largest U.S. company by market cap, surpassing Tesla at ~$1.6T. However, Morningstar values SpaceX at just $780 billion — less than half the target — and recommends investors wait for post-IPO entry([TechTimes](https://www.techtimes.com/articles/317676/20260603/spacex-ipo-roadshow-begins-morningstar-calls-175t-valuation-nearly-twice-fair-value.htm)). The S-1 disclosed Anthropic's $1.25B/month Colossus compute contract ($45B total), illustrating the sheer scale of AI infrastructure spending.
 
 ## Copilot Billing Day 4: "Angry Devs Vow to Flee"
 
-The Register ran the headline "Angry devs vow to flee GitHub Copilot as metered billing takes hold"([The Register](https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826)). On day four of usage-based billing, real cost data continues to accumulate and the picture is getting worse. A Reddit user projected their monthly costs jumping from $29 to $750; another reported a single code change costing over $6([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). Copilot's popularity score drops to **52** — its 31st consecutive weekly decline.
+The Register ran the headline "Angry devs vow to flee GitHub Copilot as metered billing takes hold"([The Register](https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826)). On day four of usage-based billing, a Reddit user projected their monthly costs jumping from $29 to $750; another reported a single code change costing over $6([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). Copilot's popularity score drops to **52** — its 31st consecutive weekly decline.
 
-Primary migration targets: Claude Code, Codex CLI, and third-party routing services like OpenRouter, RooCode, and LM Studio.
+## Uber Caps AI Tools at $1,500/Month After Budget Blowout
 
-## Anthropic Agent Billing D-11: June 15 Credit Split
+Uber introduced a $1,500/month per-engineer cap on AI coding tools after burning through its entire 2026 AI budget by April([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs)). Usage doubled by February after rolling out Claude Code access in December. 95% of Uber engineers now use AI tools monthly with 70% of committed code originating from AI, but COO Andrew Macdonald said "That link [between AI spending and useful features] is not there yet"([Fortune](https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/)).
 
-Anthropic will separate Claude Agent SDK, claude -p, Claude Code GitHub Actions, and third-party agents from subscription limits onto dedicated monthly credits starting June 15([Codersera](https://codersera.com/blog/anthropic-june-2026-billing-change-claude-code/)). Pro gets $20, Max 5x gets $100, Max 20x gets $200 in credits metered at full API rates with no rollover([DevToolPicks](https://devtoolpicks.com/blog/anthropic-splits-claude-subscriptions-agent-sdk-credit-june-2026)). With 11 days until the change, heavy users should audit their Agent SDK and CLI usage now.
+## Anthropic Agent Billing D-11 & Grok Composer 2.5
 
-## Post-Build Analysis: Microsoft's OpenAI Independence Strategy
-
-CNBC framed it as "Microsoft proprietary models to reduce OpenAI dependence"([CNBC](https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html)). If MAI-Code-1-Flash truly outperforms Claude Haiku 4.5 and Project Polaris replaces GPT-4 Turbo as the Copilot default in August, the Microsoft-OpenAI dynamic fundamentally shifts. Mordor Intelligence projects the AI coding tools market will grow 26% annually from $9.3B in 2026 to ~$30B by 2031.
-
-## xAI Grok Composer 2.5 Released
-
-xAI announced Grok Composer 2.5 — a model purpose-built for long-running tasks and complex instruction following([Releasebot](https://releasebot.io/updates/xai)). Input pricing at $0.50/M tokens and output at $2.50/M makes it roughly 100% cheaper on input tokens compared to Grok Build 0.1. A faster variant is available at $3.00/$15.00/M.
+Anthropic will separate Claude Agent SDK, claude -p, Claude Code GitHub Actions, and third-party agents from subscription limits onto dedicated monthly credits starting June 15([Codersera](https://codersera.com/blog/anthropic-june-2026-billing-change-claude-code/)). Pro gets $20, Max 5x gets $100, Max 20x gets $200 in credits metered at full API rates with no rollover. Meanwhile, xAI announced Grok Composer 2.5 — a model purpose-built for long-running tasks at $0.50/$2.50 per million tokens, roughly 100% cheaper on input tokens compared to Grok Build 0.1([Releasebot](https://releasebot.io/updates/xai)).
 
 ## Market Pulse
 
@@ -39,13 +35,13 @@ xAI announced Grok Composer 2.5 — a model purpose-built for long-running tasks
 |---|---|---|---|
 | Claude Code | 99 | — | Stable #1, v2.1.161 stability fixes |
 | ChatGPT | 96 | — | Post-Build watch |
-| Cursor | 96 | — | SpaceX acquisition expected post-IPO |
+| Cursor | 96 | — | Teams Premium seats launched, SpaceX acquisition post-IPO |
 | Claude AI | 95 | — | June 2 outage fully resolved |
 | Codex CLI | 87 | — | v0.137.0 Windows Computer Use |
-| Windsurf | 83 | ↑1 | $15 cut absorbing Copilot refugees |
+| Windsurf (Devin Desktop) | 83 | ↑1 | Rebranded to Devin Desktop + $15 cut |
 | Gemini CLI | 71 | ↓1 | Sunset D-14, enterprise-only after June 18 |
 | Aider | 68 | — | Open-source steady |
 | Antigravity | 64 | ↑1 | Rollback crisis recovery week 10 |
 | GH Copilot | 52 | ↓1 | 31-week decline, billing exodus accelerating |
 
-The SpaceX IPO is more than a market event. Its S-1 disclosure of Anthropic's $1.25B/month compute contract reveals the infrastructure backbone behind AI coding tools — this scale of investment is what sustains Claude Code's pricing and performance advantages.
+The Windsurf-to-Devin Desktop rebrand signals more than a name change — the paradigm is shifting from "editor with AI attached" to "agent manager with editor built in." Meanwhile, Uber's $1,500/month cap is a reality check for enterprise AI adoption: costs are exploding but ROI remains unproven.

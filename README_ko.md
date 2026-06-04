@@ -424,6 +424,11 @@ timeline
          : Codex Sites 프리뷰 — Codex에서 호스팅 웹앱 생성·배포·관리 (6/4)
          : GPT-4.5 6/27 퇴장 — 30일 선셋 기간, GPT-5 패밀리로 대체 (6/4)
          : Cursor Bugbot 종량제 6/8 갱신 이후 적용 (6/4)
+         : Claude Code v2.1.162 — waitingFor 필드, /effort 지속, 병렬 Bash 독립 실행 (6/4)
+         : Cursor 3.7 — Canvas Design Mode, Context Usage Reporting (6/4)
+         : Project Glasswing 확대 — 15개국 150개 신규 조직 참여 (6/4)
+         : o3 8/26 퇴장 — 90일 선셋, GPT-5 패밀리로 전면 대체 (6/4)
+         : Grok Imagine 1.5 Preview — 이미지-투-비디오, 자연어 모션 제어, 720p (6/3)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -876,6 +881,18 @@ quadrantChart
 
 **Codex Sites 프리뷰** (2026.06.04):
 > *"Codex Sites가 프리뷰로 공개됐다 — Codex 앱 사이드바에서 웹사이트, 대시보드, 내부 도구, 웹앱, 게임을 생성·저장·배포·검사할 수 있다. OpenAI가 호스팅하며 Business 및 Enterprise 고객 대상이다."* — openai.com/codex/changelog `2026.06.04`
+
+**Claude Code v2.1.162** (2026.06.04):
+> *"`claude agents --json`에 차단된 세션 상태를 보여주는 `waitingFor` 필드가 추가됐다. `/effort` 명령이 선택한 레벨을 기본값으로 저장한다. 메뉴에서 'Windsurf'가 'Devin Desktop'으로 변경됐다. 병렬 Bash 호출이 배치 전체 취소 대신 개별 실패로 처리된다."* — releasebot.io `2026.06.04`
+
+**Cursor 3.7** (2026.06.04):
+> *"Canvas Design Mode로 UI 요소를 직접 선택·주석 처리해 편집을 안내할 수 있다. Context Usage Reporting이 인터랙티브 토큰 할당 분석을 보여주며 'Debug with Agent' 버튼으로 즉시 조사가 가능하다."* — cursor.com/changelog `2026.06.04`
+
+**Project Glasswing 확대** (2026.06.04):
+> *"Anthropic이 Claude Mythos Preview 접근을 15개국 이상 약 150개 신규 조직에 확대했다. 코드베이스 스캔 및 패치 제안을 위한 Claude Security가 추가됐다. 버그 바운티 프로그램은 1,000개 이상의 오픈소스 프로젝트에서 23,000건 이상의 이슈를 발견했다."* — Anthropic `2026.06.04`
+
+**o3 8/26 퇴장 확정** (2026.06.04):
+> *"OpenAI가 o3 모델을 2026년 8월 26일에 퇴장시킨다고 확인했다. 90일 선셋 기간을 거치며, GPT-4.5의 6/27 퇴장과 합쳐 모든 GPT-5 이전 모델 패밀리가 폐지 일정에 들어갔다."* — OpenAI Help Center `2026.06.04`
 
 **2026 파워 스택 공식**:
 ```

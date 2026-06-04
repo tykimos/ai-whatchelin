@@ -1,51 +1,51 @@
 ---
-title: "Windsurf Becomes Devin Desktop — Cursor Teams Pricing Revealed, Copilot Exodus Day 4, GPT-4.5 Sunset"
+title: "Claude Code v2.1.162 Ships, Cursor 3.7 Canvas Mode, Glasswing Expands to 150 Orgs — Copilot Exodus Day 4"
 date: 2026-06-04
 lang: en
 categories: [news]
-tags: [windsurf, devin-desktop, cursor, github-copilot, anthropic, claude-code, uber, codex-cli, grok-build, spacex-ipo]
-excerpt: "Windsurf rebrands to Devin Desktop, Cursor reveals Teams pricing at $32/$96 per seat, Copilot billing exodus hits day four, and OpenAI announces GPT-4.5 retirement on June 27."
+tags: [claude-code, cursor, github-copilot, anthropic, project-glasswing, openai, grok-build, spacex-ipo, windsurf, devin-desktop]
+excerpt: "Claude Code v2.1.162 introduces independent parallel Bash execution, Cursor 3.7 launches Canvas Design Mode, and Project Glasswing expands to 150 organizations as Copilot's billing exodus enters day four."
 ---
 
-Windsurf is now officially Devin Desktop. Cursor has revealed specific Teams pricing with Standard seats at $32 and Premium at $96 (annual). Copilot's billing exodus enters day four with migrations accelerating, OpenAI announced GPT-4.5's retirement on June 27 and launched Codex Sites in preview, Uber has capped AI tool spending at $1,500/month per engineer, and SpaceX has launched the largest IPO roadshow in history at $1.75T.
+Claude Code and Cursor both shipped releases today. Claude Code v2.1.162 brings independent parallel Bash failure handling and Devin Desktop menu integration, while Cursor 3.7 delivers Canvas Design Mode and token usage reporting. Anthropic's Project Glasswing expanded to 150 organizations across 15+ countries, and OpenAI confirmed o3's August 26 retirement.
 
-## Windsurf → Devin Desktop: From Editor to Agent Manager
+## Claude Code v2.1.162: Parallel Bash Goes Independent
 
-Windsurf became Devin Desktop on June 2 via an over-the-air update([devin.ai](https://devin.ai/blog/windsurf-is-now-devin-desktop/)). Same IDE, same editor — but the focus has shifted from an editor with AI bolted on to an agent manager wrapped in a full IDE. Devin Local, rewritten from scratch in Rust, replaces Cascade as the primary local agent with 30% better token efficiency and subagent support([ChatForest](https://chatforest.com/builders-log/windsurf-devin-desktop-rebrand-devin-local-acp-builder-guide/)). Agent Client Protocol (ACP) support lets any compatible agent run inside the editor. Existing Windsurf users keep their plans, pricing, and settings — no migration needed.
+Claude Code shipped v2.1.162 today([releasebot.io](https://releasebot.io/updates/anthropic/claude-code)). The `claude agents --json` output now includes a `waitingFor` field for tracking blocked session status, and the `/effort` command persists the chosen effort level as the session default. The most notable change: parallel Bash calls now fail independently rather than canceling entire batches — if one command fails, the rest continue executing. Menu references to "Windsurf" have been updated to "Devin Desktop."
 
-## Cursor Teams Pricing Details — Standard $32, Premium $96
+## Cursor 3.7: Canvas Design Mode
 
-Cursor published specific Teams pricing([cursor.com](https://cursor.com/blog/teams-pricing-june-2026)). Standard seats cost $32/seat/month (annual) or $40 (monthly). The new Premium seat offers 5x the usage at $96/seat/month (annual) or $120 (monthly). Split usage pools and real-time spend forecasting are included, with changes expected to lower costs for 90% of teams. New customers get the pricing immediately; renewals apply July 1. Bugbot also transitions from $40/seat/month flat fee to usage-based billing at $1-1.50/run, effective at renewal after June 8([cursor.com](https://cursor.com/changelog)).
+Cursor released version 3.7([cursor.com](https://cursor.com/changelog)). Canvas Design Mode lets developers select and annotate UI elements directly in the browser to guide AI edits. Context Usage Reporting provides an interactive token allocation breakdown with a "Debug with Agent" button for immediate investigation. Yesterday's Enterprise Organization Management update introduced a three-tier hierarchy — Organizations > Teams > Groups — with per-team security, governance, and budget controls([cursor.com](https://cursor.com/changelog)).
 
-## Copilot Billing Day 4: "Angry Devs Vow to Flee"
+## Project Glasswing: 150 New Organizations
 
-The Register ran the headline "Angry devs vow to flee GitHub Copilot as metered billing takes hold"([The Register](https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826)). On day four of usage-based billing, a Reddit user projected their monthly costs jumping from $29 to $750; another reported a single code change costing over $6([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). Copilot's popularity score drops to **52** — its 31st consecutive weekly decline.
+Anthropic extended Claude Mythos Preview access to approximately 150 new organizations across 15+ countries([Anthropic](https://www.anthropic.com/news/higher-limits-spacex)). Claude Security was added for codebase vulnerability scanning and automated patch suggestions. The bug bounty program has now identified over 23,000 issues across 1,000+ open-source projects with a 90%+ true positive rate.
 
-## GPT-4.5 Retirement & Codex Sites Preview
+## Copilot Billing Day 4: 31-Week Decline Continues
 
-OpenAI announced GPT-4.5 will be retired from ChatGPT on June 27 following a 30-day sunset period([OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)). The model is fully replaced by the GPT-5 family. Meanwhile, Codex Sites launched in preview — create, save, deploy, and manage hosted websites, dashboards, and internal tools directly from the Codex app sidebar([openai.com](https://developers.openai.com/codex/changelog)). Available for Business and Enterprise customers.
+The Register ran the headline "Angry devs vow to flee GitHub Copilot as metered billing takes hold"([The Register](https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826)). A Reddit user projected monthly costs jumping from $29 to $750; a Pro+ subscriber burned 8% of monthly credits in just two hours([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). Copilot's popularity score drops to **52** — its 31st consecutive weekly decline.
 
-## Uber Caps AI Tools at $1,500/Month After Budget Blowout
+## o3 Retirement Confirmed & GPT-4.5 Sunset Countdown
 
-Uber introduced a $1,500/month per-engineer cap on AI coding tools after burning through its entire 2026 AI budget by April([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs)). Usage doubled by February after rolling out Claude Code access in December. 95% of Uber engineers now use AI tools monthly with 70% of committed code originating from AI, but COO Andrew Macdonald said "That link [between AI spending and useful features] is not there yet"([Fortune](https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/)).
+OpenAI confirmed o3 will be retired on August 26 with a 90-day sunset period([OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)). Combined with GPT-4.5's June 27 retirement, every pre-GPT-5 model family is now on a deprecation timeline. GPT-5.5 Instant received updates for more natural response style and 52.5% fewer hallucinations on high-stakes prompts([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/)).
 
-## SpaceX IPO, Anthropic Agent Billing D-11 & Grok Composer 2.5
+## SpaceX IPO Roadshow & Windsurf Rising
 
-SpaceX's IPO roadshow has officially begun at $1.75T valuation, though Morningstar values it at just $780B([CNBC](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)). Anthropic will separate agent tools from subscription limits onto dedicated monthly credits starting June 15([Codersera](https://codersera.com/blog/anthropic-june-2026-billing-change-claude-code/)). xAI announced Grok Composer 2.5 at $0.50/$2.50 per million tokens — roughly 100% cheaper on input tokens compared to Grok Build 0.1([Releasebot](https://releasebot.io/updates/xai)).
+SpaceX's IPO roadshow officially began today at $135/share targeting a $1.75T valuation, though Morningstar values it at just $780B([CNBC](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)). Windsurf (now Devin Desktop) rose to a popularity score of **83**, absorbing Copilot refugees with its $15 price cut. Grok Imagine 1.5 Preview debuted with image-to-video conversion featuring natural-language motion control at 720p resolution([xAI](https://releasebot.io/updates/xai)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | Stable #1, v2.1.161 stability fixes |
-| ChatGPT | 96 | — | GPT-4.5 sunset June 27, Codex Sites preview |
-| Cursor | 96 | — | Teams Standard $32/Premium $96, Jira integration |
+| Claude Code | 99 | — | v2.1.162, Glasswing 150 orgs |
+| ChatGPT | 96 | — | o3 retirement Aug 26, GPT-5.5 update |
+| Cursor | 96 | — | 3.7 Canvas Design Mode, Enterprise mgmt |
 | Claude AI | 95 | — | June 2 outage fully resolved |
-| Codex CLI | 87 | — | v0.137.0 Windows Computer Use, Sites preview |
-| Windsurf (Devin Desktop) | 83 | ↑1 | Rebranded to Devin Desktop + $15 cut |
-| Gemini CLI | 71 | ↓1 | Sunset D-14, enterprise-only after June 18 |
+| Codex CLI | 87 | — | Sites preview, 5M+ weekly active users |
+| Windsurf (Devin Desktop) | 83 | ↑1 | $15 cut absorbing Copilot refugees |
+| Gemini CLI | 71 | ↓1 | Sunset D-14, Antigravity CLI migration |
 | Aider | 68 | — | Open-source steady |
-| Antigravity | 64 | ↑1 | Rollback crisis recovery week 10 |
+| Antigravity | 64 | ↑1 | Post-I/O recovery week 10 |
 | GH Copilot | 52 | ↓1 | 31-week decline, billing exodus accelerating |
 
-The Windsurf-to-Devin Desktop rebrand signals the paradigm shift from "editor with AI attached" to "agent manager with editor built in." Cursor's Teams pricing reveal crystallizes the Standard/Premium dual-seat structure, while GPT-4.5's retirement marks the full arrival of the GPT-5 era. Meanwhile, Uber's $1,500/month cap is a reality check for enterprise AI adoption: costs are exploding but ROI remains unproven.
+Today's story is the dual release from both leading tools. Claude Code v2.1.162's independent parallel Bash execution improves multi-agent workflow stability, while Cursor 3.7's Canvas Design Mode closes the gap between design intent and code generation. Project Glasswing's expansion to 150 organizations signals that AI security scanning is moving from exclusive privilege to industry standard.

@@ -424,6 +424,11 @@ timeline
          : Codex Sites preview — create, deploy, and manage hosted web apps from Codex (Jun 4)
          : GPT-4.5 retirement June 27 — 30-day sunset period, replaced by GPT-5 family (Jun 4)
          : Cursor Bugbot usage-based billing effective after June 8 renewal (Jun 4)
+         : Claude Code v2.1.162 — waitingFor field, /effort persistence, parallel Bash independence (Jun 4)
+         : Cursor 3.7 — Canvas Design Mode, Context Usage Reporting (Jun 4)
+         : Project Glasswing expansion — 150 new organizations across 15+ countries (Jun 4)
+         : o3 retirement August 26 — 90-day sunset, GPT-5 family replaces all (Jun 4)
+         : Grok Imagine 1.5 Preview — image-to-video, natural-language motion, 720p (Jun 3)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -861,6 +866,18 @@ quadrantChart
 
 **Codex Sites Preview** (2026.06.04):
 > *"Codex Sites is now in preview — create, save, deploy, and inspect websites, dashboards, internal tools, web apps, and games hosted by OpenAI directly from the Codex app sidebar. Available for Business and Enterprise customers."* — openai.com/codex/changelog `2026.06.04`
+
+**Claude Code v2.1.162** (2026.06.04):
+> *"`claude agents --json` now includes a `waitingFor` field for blocked session status. `/effort` command confirms persistence of chosen level as default. 'Windsurf' renamed to 'Devin Desktop' across menus. Parallel Bash calls now fail independently rather than canceling entire batches."* — releasebot.io `2026.06.04`
+
+**Cursor 3.7** (2026.06.04):
+> *"Canvas Design Mode lets developers select and annotate UI elements directly to guide edits. Context Usage Reporting shows an interactive token allocation breakdown with a 'Debug with Agent' button for immediate investigation."* — cursor.com/changelog `2026.06.04`
+
+**Project Glasswing Expansion** (2026.06.04):
+> *"Anthropic extended Claude Mythos Preview access to approximately 150 new organizations across 15+ countries. Claude Security added for codebase scanning and patch suggestions. The bug bounty program has now identified over 23,000 issues across 1,000+ open-source projects."* — Anthropic `2026.06.04`
+
+**o3 Retirement August 26** (2026.06.04):
+> *"OpenAI confirmed o3 will be retired on August 26, 2026 following a 90-day sunset period. Combined with GPT-4.5's June 27 retirement, all pre-GPT-5 model families are now on a deprecation timeline. The GPT-5 family replaces everything."* — OpenAI Help Center `2026.06.04`
 
 **2026 Power Stack Formula**:
 ```

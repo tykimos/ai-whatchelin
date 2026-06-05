@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-04</sub>
+  <sub>Last updated: 2026-06-05</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.04-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.05-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -429,6 +429,15 @@ timeline
          : Project Glasswing expansion — 150 new organizations across 15+ countries (Jun 4)
          : o3 retirement August 26 — 90-day sunset, GPT-5 family replaces all (Jun 4)
          : Grok Imagine 1.5 Preview — image-to-video, natural-language motion, 720p (Jun 3)
+         : Copilot SDK GA — Node.js, Python, Go, .NET, Rust, Java; custom tools + MCP (Jun 2)
+         : GPT-4.1 fully deprecated from all Copilot — GPT-5.3-Codex replaces as base model (Jun 2)
+         : Copilot CLI rubber duck mode — constructive critic agent, prompt scheduling, voice GA (Jun 2)
+         : Copilot 32-week decline to 51, billing Day 5 — developer exodus accelerates (Jun 5)
+         : Windsurf (Devin Desktop) rises to 84 — Cascade EOL July 1, ACP protocol (Jun 5)
+         : Gemini CLI sunset D-13 — enterprise-only after June 18 (Jun 5)
+         : Anthropic agent billing D-10 — June 15 Agent SDK/CLI credit split (Jun 5)
+         : Anthropic S-1 IPO filing — $47B revenue run rate, $965B valuation (Jun 5)
+         : Cursor-SpaceX $60B acquisition agreement signed (Jun 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1360,26 +1369,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04"]
+    x-axis ["05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52]
+    line "Claude Code" [98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83]
-    line "Codex CLI" [86, 87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [85, 84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71]
-    line "Antigravity" [53, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84]
+    line "Codex CLI" [87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70]
+    line "Antigravity" [52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-52↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-83↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-51↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-84↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-71↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-64↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-70↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-64―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
 

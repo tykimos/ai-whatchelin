@@ -443,6 +443,10 @@ timeline
          : Gemini CLI "bait-and-switch" backlash — Linux Foundation spotlights open-source trust erosion (Jun 5)
          : Cursor Enterprise Organizations Dashboard — multi-team budget, security, analytics (Jun 5)
          : Aider adds Gemini 2.5 Pro/Flash support + qwen3-235b, OCaml repo-map (Jun 5)
+         : Claude Code Dynamic Workflows research preview — multi-agent JavaScript orchestration scripts (Jun 2)
+         : GPT-5.2 / GPT-5.3-Codex sunset from Codex subscription offerings (Jun 5)
+         : GPT-5.5 Instant style update — improved readability, Canvas phasing out for inline code (Jun 5)
+         : Codex role-specific plugins rolling out — Sales, Data Analytics, Design for Business workspaces (Jun 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -910,6 +914,12 @@ quadrantChart
 
 **Cursor-SpaceX $60B Acquisition Agreement** (2026.06.05):
 > *"Cursor signed a $60B acquisition agreement with SpaceX. SpaceX targets $1.75T valuation on Nasdaq June 12. Cursor's independence concerns mount — will the world's top AI IDE be subsumed into SpaceX's broader AI infrastructure play?"* — BuildFastWithAI `2026.06.05`
+
+**Claude Code Dynamic Workflows** (2026.06.02):
+> *"Claude Code Dynamic Workflows let you create and coordinate networks of specialized sub-agents via JavaScript orchestration scripts — fan out for codebase-wide bug hunts, large migrations, security audits, and performance reviews. Available in research preview on Max, Team, and Enterprise plans. Warning: can consume substantially more tokens than a typical session."* — claude.com/blog `2026.06.02`
+
+**GPT-5.2 / GPT-5.3-Codex Sunset** (2026.06.05):
+> *"OpenAI officially sunset GPT-5.2 and GPT-5.3-Codex from Codex subscription offerings. Combined with GPT-4.5 (June 27) and o3 (August 26) deprecations, OpenAI is consolidating around the GPT-5.5 family."* — ChatGPT AI Hub `2026.06.05`
 
 **2026 Power Stack Formula**:
 ```

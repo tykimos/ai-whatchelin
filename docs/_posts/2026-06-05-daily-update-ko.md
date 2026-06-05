@@ -31,6 +31,14 @@ Windsurf가 Devin Desktop으로 리브랜딩된 후 인기도 **84**를 달성�
 
 SpaceX IPO 로드쇼가 진행 중인 가운데 Cursor와 $600억 인수 합의가 체결됐다. SpaceX는 6/12 나스닥 거래 개시, $1.75조 밸류에이션을 목표로 한다. AI IDE 시장 최강자의 독립성 우려가 커지고 있다.
 
+## Claude Code: Dynamic Workflows로 멀티에이전트 오케스트레이션
+
+Claude Code에 Dynamic Workflows가 리서치 프리뷰로 추가됐다 — JavaScript 오케스트레이션 스크립트로 전문화된 서브에이전트 네트워크를 생성해 코드베이스 전체 버그 탐색, 대규모 마이그레이션, 보안 감사를 팬아웃 처리한다([Claude Blog](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code)). Max, Team, Enterprise 플랜에서 사용 가능하며, 일반 세션보다 토큰 소비가 상당히 클 수 있다는 경고가 동반됐다([InfoQ](https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/)).
+
+## OpenAI: GPT-5.2와 GPT-5.3-Codex 구독 종료
+
+OpenAI가 GPT-5.2와 GPT-5.3-Codex를 Codex 구독 제공에서 공식 종료했다([ChatGPT AI Hub](https://chatgptaihub.com/openai-sunsets-gpt-5-2-gpt-5-3-codex-model-transition-guide/)). GPT-4.5(6/27)와 o3(8/26) 퇴장과 합쳐, OpenAI는 GPT-5.5 패밀리로의 통합을 가속하고 있다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |

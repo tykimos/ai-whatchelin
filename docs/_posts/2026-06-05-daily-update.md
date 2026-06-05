@@ -31,6 +31,14 @@ The Windsurf-to-Devin Desktop rebrand continues to deliver, with popularity clim
 
 With the SpaceX IPO roadshow underway, reports confirm Cursor signed a $60B acquisition agreement with SpaceX. SpaceX targets a $1.75T valuation at $135/share with Nasdaq trading beginning June 12. Concerns about Cursor's independence are growing.
 
+## Claude Code: Dynamic Workflows Enable Multi-Agent Orchestration
+
+Claude Code shipped Dynamic Workflows in research preview — JavaScript scripts create and coordinate networks of specialized sub-agents for codebase-wide bug hunts, large migrations, security audits, and performance reviews([Claude Blog](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code)). Available on Max, Team, and Enterprise plans, the feature came with a warning about significantly higher token consumption([InfoQ](https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/)).
+
+## OpenAI: GPT-5.2 and GPT-5.3-Codex Sunset
+
+OpenAI officially sunset GPT-5.2 and GPT-5.3-Codex from Codex subscription offerings([ChatGPT AI Hub](https://chatgptaihub.com/openai-sunsets-gpt-5-2-gpt-5-3-codex-model-transition-guide/)). Combined with GPT-4.5 (June 27) and o3 (August 26) also departing, OpenAI is consolidating around the GPT-5.5 family.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |

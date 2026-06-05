@@ -443,6 +443,10 @@ timeline
          : Gemini CLI "끼워팔기" 논란 — Linux Foundation, 오픈소스 신뢰 침식 지적 (6/5)
          : Cursor Enterprise Organizations Dashboard — 멀티팀 예산·보안·분석 (6/5)
          : Aider, Gemini 2.5 Pro/Flash + qwen3-235b 지원, OCaml repo-map 추가 (6/5)
+         : Claude Code Dynamic Workflows 리서치 프리뷰 — JavaScript 멀티에이전트 오케스트레이션 (6/2)
+         : GPT-5.2 / GPT-5.3-Codex, Codex 구독 제공 종료 (6/5)
+         : GPT-5.5 Instant 스타일 업데이트 — 가독성 개선, Canvas 인라인 코드로 전환 (6/5)
+         : Codex 역할별 플러그인 배포 — Sales·Data Analytics·Design, Business 워크스페이스 (6/5)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -925,6 +929,12 @@ quadrantChart
 
 **Cursor-SpaceX $600억 인수 합의** (2026.06.05):
 > *"Cursor가 SpaceX와 $600억 인수 합의를 체결했다. SpaceX는 6/12 나스닥 상장을 목표로 $1.75조 밸류에이션을 지향한다. 세계 최고의 AI IDE가 SpaceX의 AI 인프라 전략에 흡수될 것인지 — Cursor의 독립성에 대한 우려가 커지고 있다."* — BuildFastWithAI `2026.06.05`
+
+**Claude Code Dynamic Workflows** (2026.06.02):
+> *"Claude Code의 Dynamic Workflows는 JavaScript 오케스트레이션 스크립트로 전문화된 서브에이전트 네트워크를 생성·조율할 수 있다 — 코드베이스 전체 버그 탐색, 대규모 마이그레이션, 보안 감사, 성능 리뷰에 팬아웃 가능. Max, Team, Enterprise 플랜에서 리서치 프리뷰로 이용 가능. 경고: 일반 세션보다 토큰 소비가 상당히 클 수 있다."* — claude.com/blog `2026.06.02`
+
+**GPT-5.2 / GPT-5.3-Codex 구독 종료** (2026.06.05):
+> *"OpenAI가 GPT-5.2와 GPT-5.3-Codex를 Codex 구독 제공에서 공식 종료했다. GPT-4.5(6/27)와 o3(8/26) 퇴장과 합치면, OpenAI는 GPT-5.5 패밀리로 통합을 가속하고 있다."* — ChatGPT AI Hub `2026.06.05`
 
 **2026 파워 스택 공식**:
 ```

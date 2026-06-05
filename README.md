@@ -438,6 +438,11 @@ timeline
          : Anthropic agent billing D-10 — June 15 Agent SDK/CLI credit split (Jun 5)
          : Anthropic S-1 IPO filing — $47B revenue run rate, $965B valuation (Jun 5)
          : Cursor-SpaceX $60B acquisition agreement signed (Jun 5)
+         : Anthropic: Claude writes 80%+ of production code — engineers ship 8x more, 76% success on complex tasks (Jun 5)
+         : Anthropic calls for global AI "pause button" — recursive self-improvement warning (Jun 5)
+         : Gemini CLI "bait-and-switch" backlash — Linux Foundation spotlights open-source trust erosion (Jun 5)
+         : Cursor Enterprise Organizations Dashboard — multi-team budget, security, analytics (Jun 5)
+         : Aider adds Gemini 2.5 Pro/Flash support + qwen3-235b, OCaml repo-map (Jun 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -887,6 +892,24 @@ quadrantChart
 
 **o3 Retirement August 26** (2026.06.04):
 > *"OpenAI confirmed o3 will be retired on August 26, 2026 following a 90-day sunset period. Combined with GPT-4.5's June 27 retirement, all pre-GPT-5 model families are now on a deprecation timeline. The GPT-5 family replaces everything."* — OpenAI Help Center `2026.06.04`
+
+**Claude Writes 80%+ of Anthropic's Code** (2026.06.05):
+> *"Anthropic revealed that Claude authored more than 80% of code merged into production in May 2026 — over 90% including scripts and experiments. Engineers now ship roughly 8x as much code per day compared to 2024. On complex open-ended engineering tasks, Claude's success rate hit 76% in May, a 50-point improvement in six months."* — Anthropic/VentureBeat `2026.06.05`
+
+**Anthropic Calls for Global AI "Pause Button"** (2026.06.05):
+> *"Anthropic's Marina Favaro and Jack Clark proposed a coordinated global mechanism to pause frontier AI development, warning that 'recursive self-improvement' — AI systems that teach themselves to improve without human oversight — may be approaching. Critics called it 'pre-IPO cosplay.' White House officials pushed back, arguing it could hand China an advantage."* — Bloomberg/SiliconANGLE `2026.06.05`
+
+**Gemini CLI "Bait-and-Switch" Backlash** (2026.06.05):
+> *"With 13 days until Gemini CLI shutdown, the Linux Foundation spotlighted it as Exhibit A of open-source trust erosion at Open Source Summit North America. A developer whose 27-commit PR was merged on shutdown announcement day wrote: 'Essentially working for free on a code base that will only be used in enterprises?' TechTimes called it a 'sickening bait-and-switch.'"* — The Register/AI Builder Club `2026.06.05`
+
+**Copilot Billing Day 5 — Developer Exodus Accelerates** (2026.06.05):
+> *"Copilot drops to 51 — its 32nd consecutive weekly decline and another all-time low. Five days into usage-based billing, developer migration threads dominate Reddit and HN. The Register headlined 'angry devs vow to flee.' One Pro+ user burned 8% of credits in 2 hours. SDK GA across six languages failed to offset the backlash."* — The Register/TechCrunch `2026.06.05`
+
+**Windsurf (Devin Desktop) Rises to 84** (2026.06.05):
+> *"Windsurf's Devin Desktop rebrand reaches 84 in popularity. The $15/month price point — 25% cheaper than Cursor — is proving decisive for Copilot refugees. Cascade EOL July 1 forces migration to Devin Local (Rust rewrite, 30% token savings). Agent Client Protocol (ACP) enables third-party agent integration."* — Devin Blog `2026.06.05`
+
+**Cursor-SpaceX $60B Acquisition Agreement** (2026.06.05):
+> *"Cursor signed a $60B acquisition agreement with SpaceX. SpaceX targets $1.75T valuation on Nasdaq June 12. Cursor's independence concerns mount — will the world's top AI IDE be subsumed into SpaceX's broader AI infrastructure play?"* — BuildFastWithAI `2026.06.05`
 
 **2026 Power Stack Formula**:
 ```

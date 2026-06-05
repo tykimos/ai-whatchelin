@@ -438,6 +438,11 @@ timeline
          : Anthropic 에이전트 과금 D-10 — 6/15 Agent SDK/CLI 크레딧 분리 (6/5)
          : Anthropic S-1 IPO 신청 — 매출 런레이트 $470억, $9650억 밸류에이션 (6/5)
          : Cursor-SpaceX $600억 인수 합의 체결 (6/5)
+         : Anthropic: Claude가 프로덕션 코드 80%+ 작성 — 엔지니어 생산성 8배, 복잡 작업 성공률 76% (6/5)
+         : Anthropic, 글로벌 AI "일시 정지 버튼" 제안 — 재귀적 자기 개선 경고 (6/5)
+         : Gemini CLI "끼워팔기" 논란 — Linux Foundation, 오픈소스 신뢰 침식 지적 (6/5)
+         : Cursor Enterprise Organizations Dashboard — 멀티팀 예산·보안·분석 (6/5)
+         : Aider, Gemini 2.5 Pro/Flash + qwen3-235b 지원, OCaml repo-map 추가 (6/5)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -902,6 +907,24 @@ quadrantChart
 
 **o3 8/26 퇴장 확정** (2026.06.04):
 > *"OpenAI가 o3 모델을 2026년 8월 26일에 퇴장시킨다고 확인했다. 90일 선셋 기간을 거치며, GPT-4.5의 6/27 퇴장과 합쳐 모든 GPT-5 이전 모델 패밀리가 폐지 일정에 들어갔다."* — OpenAI Help Center `2026.06.04`
+
+**Claude가 Anthropic 코드 80% 이상 작성** (2026.06.05):
+> *"Anthropic이 2026년 5월 프로덕션에 병합된 코드의 80% 이상을 Claude가 작성했다고 밝혔다 — 스크립트와 실험 코드까지 포함하면 90% 이상이다. 엔지니어들은 2024년 대비 일일 코드 산출량이 약 8배 증가했다. 복잡한 오픈엔디드 엔지니어링 작업에서 Claude의 성공률은 5월에 76%로, 6개월 만에 50포인트 상승했다."* — Anthropic/VentureBeat `2026.06.05`
+
+**Anthropic, 글로벌 AI "일시 정지 버튼" 제안** (2026.06.05):
+> *"Anthropic의 Marina Favaro와 Jack Clark이 프론티어 AI 개발을 일시 중지할 수 있는 글로벌 공조 메커니즘을 제안했다. 인간 감독 없이 스스로 개선하는 '재귀적 자기 개선'이 현실화될 수 있다고 경고했다. 비판자들은 'IPO 전 코스프레'라 불렀고, 백악관은 중국에 유리해질 수 있다며 반발했다."* — Bloomberg/SiliconANGLE `2026.06.05`
+
+**Gemini CLI "끼워팔기" 반발 격화** (2026.06.05):
+> *"Gemini CLI 종료 13일 전, Linux Foundation이 오픈소스 서밋 북미에서 이를 오픈소스 신뢰 침식의 대표 사례로 지목했다. 종료 발표 당일 27개 커밋 PR이 병합된 개발자는 '기업만 쓸 코드베이스에 무료로 일한 셈'이라 비판했다. TechTimes는 '역겨운 끼워팔기'라 보도했다."* — The Register/AI Builder Club `2026.06.05`
+
+**Copilot 종량제 5일차 — 개발자 이탈 가속** (2026.06.05):
+> *"Copilot이 51로 하락 — 32주 연속 하락이자 역대 최저. 종량제 5일째, Reddit과 HN에서 이탈 논의가 주를 이루고 있다. The Register는 '분노한 개발자들이 이탈을 선언'이라 보도했다. Pro+ 사용자 한 명이 2시간 만에 크레딧 8%를 소진했다. 6개 언어 SDK GA 출시도 반발을 상쇄하지 못했다."* — The Register/TechCrunch `2026.06.05`
+
+**Windsurf (Devin Desktop) 84로 상승** (2026.06.05):
+> *"Windsurf의 Devin Desktop 리브랜딩이 인기도 84를 달성했다. $15/월 가격 — Cursor 대비 25% 저렴 — 이 Copilot 이탈 수요 흡수에 결정적 역할을 하고 있다. Cascade는 7/1 EOL 예정이며, Devin Local(Rust 재작성, 토큰 30% 절감)로 대체된다. ACP 프로토콜로 서드파티 에이전트 통합도 지원한다."* — Devin Blog `2026.06.05`
+
+**Cursor-SpaceX $600억 인수 합의** (2026.06.05):
+> *"Cursor가 SpaceX와 $600억 인수 합의를 체결했다. SpaceX는 6/12 나스닥 상장을 목표로 $1.75조 밸류에이션을 지향한다. 세계 최고의 AI IDE가 SpaceX의 AI 인프라 전략에 흡수될 것인지 — Cursor의 독립성에 대한 우려가 커지고 있다."* — BuildFastWithAI `2026.06.05`
 
 **2026 파워 스택 공식**:
 ```

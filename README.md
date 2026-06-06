@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.05-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.06-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1402,26 +1402,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05"]
+    x-axis ["05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51]
+    line "Claude Code" [98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84]
-    line "Codex CLI" [87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70]
-    line "Antigravity" [52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69]
+    line "Antigravity" [53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-51↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-84↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-50↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-85↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-70↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-64―-3498DB?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-69↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-65↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1887,7 +1887,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-06-04)
+### Fact Check Log (2026-06-06)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -1899,7 +1899,7 @@ All pricing information has been directly verified from each service's official 
 | Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 4 exodus, **Copilot App** tech preview, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **MAI-Code-1-Flash** 5B coding model, **Microsoft cancels Claude Code** (June 30), 31-week decline to 52 |
+| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 6 exodus, **Copilot App** tech preview, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **MAI-Code-1-Flash** 5B coding model, **Microsoft cancels Claude Code** (June 30), 33-week decline to 50 |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |

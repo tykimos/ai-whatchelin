@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.05-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.06-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1372,26 +1372,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05"]
+    x-axis ["05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51]
+    line "Claude Code" [98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84]
-    line "Codex CLI" [87, 88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [84, 83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70]
-    line "Antigravity" [52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69]
+    line "Antigravity" [53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-51↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-84↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-50↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-85↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-70↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-64―-3498DB?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-69↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-65↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1847,7 +1847,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-06-04)
+### 팩트 체크 로그 (2026-06-06)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -1859,7 +1859,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 4일차 이탈 본격화, **Copilot App** 테크니컬 프리뷰, **Project Polaris** GPT-4 Turbo 대체 8월, **MAI-Code-1-Flash** 5B 코딩 모델, **Microsoft Claude Code 취소** (6/30), 31주 연속 하락 52 |
+| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 6일차 이탈 가속, **Copilot App** 테크니컬 프리뷰, **Project Polaris** GPT-4 Turbo 대체 8월, **MAI-Code-1-Flash** 5B 코딩 모델, **Microsoft Claude Code 취소** (6/30), 33주 연속 하락 50 |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |

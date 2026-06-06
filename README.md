@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-05</sub>
+  <sub>Last updated: 2026-06-06</sub>
 </p>
 
 <p align="center">
@@ -447,6 +447,16 @@ timeline
          : GPT-5.2 / GPT-5.3-Codex sunset from Codex subscription offerings (Jun 5)
          : GPT-5.5 Instant style update — improved readability, Canvas phasing out for inline code (Jun 5)
          : Codex role-specific plugins rolling out — Sales, Data Analytics, Design for Business workspaces (Jun 5)
+         : Claude outage — all models affected 15:08–18:27 UTC, infrastructure issue, no data breach (Jun 5)
+         : Copilot 33-week decline to 50, billing Day 6 — first break below psychological floor (Jun 6)
+         : Claude Code v2.1.163 — version guardrails, /plugin list, startup hang fix, WebFetch deny rules (Jun 6)
+         : Opus 4.8 now fast mode default in Claude Code v2.1.154+ — $10/$50 per MTok (Jun 6)
+         : Code with Claude Tokyo D-4 — Research, Platform, Code tracks, livestreamed Jun 10-11 (Jun 6)
+         : ChatGPT Dreaming V3 memory architecture rolling out to Plus/Pro users (Jun 4)
+         : Windsurf (Devin Desktop) rises to 85 — $15 price absorbing Copilot refugees (Jun 6)
+         : Antigravity rises to 65, absorbing Gemini CLI migration D-12 (Jun 6)
+         : Claude security-guidance plugin — reviews code for vulnerabilities, fixes in same session (Jun 6)
+         : SpaceX IPO roadshow started early Jun 4 — $135/share, $1.77T, Goldman leads (Jun 6)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -921,6 +931,27 @@ quadrantChart
 **GPT-5.2 / GPT-5.3-Codex Sunset** (2026.06.05):
 > *"OpenAI officially sunset GPT-5.2 and GPT-5.3-Codex from Codex subscription offerings. Combined with GPT-4.5 (June 27) and o3 (August 26) deprecations, OpenAI is consolidating around the GPT-5.5 family."* — ChatGPT AI Hub `2026.06.05`
 
+**Claude Outage — All Models Down** (2026.06.05):
+> *"Elevated errors hit all Claude models between 15:08 and 18:27 UTC on June 5. Opus 4.6 recovered first (15:25 UTC), Opus 4.5 last (17:29 UTC). Anthropic attributed the outage to infrastructure issues — no security breach or customer data exposure confirmed. Third notable incident in recent months."* — Cybersecurity News `2026.06.05`
+
+**Claude Code v2.1.163** (2026.06.06):
+> *"Version guardrails via requiredMinimumVersion/requiredMaximumVersion managed settings — Claude Code refuses to start outside the allowed range. New /plugin list command with --enabled/--disabled filters. Fixed silent startup hang when config directory is read-only. WebFetch deny rules now override preapproved domains."* — code.claude.com/changelog `2026.06.06`
+
+**Opus 4.8 Now Fast Mode Default** (2026.06.06):
+> *"As of Claude Code v2.1.154, fast mode defaults to Opus 4.8 — $10/$50 per MTok, roughly 2x standard rate for ~2.5x speed. Opus 4.8 also defaults on Max, Team Premium, Enterprise pay-as-you-go, and the Anthropic API with high effort."* — Anthropic `2026.06.06`
+
+**Code with Claude Tokyo D-4** (2026.06.06):
+> *"Code with Claude heads to Tokyo June 10-11 with three parallel tracks: Research (direct access to Anthropic researchers), Claude Platform (shipping production agents), and Claude Code (long-horizon tasks, multi-repo work). Extended day (June 11) features indie developer demos and Applied AI workshops. All sessions livestreamed with simultaneous English/Japanese interpretation."* — claude.com `2026.06.06`
+
+**ChatGPT Dreaming V3 Memory** (2026.06.04):
+> *"OpenAI's most significant memory upgrade since launch — Dreaming V3 architecture began reaching ChatGPT Plus and Pro users. The system processes past conversations during idle time to build richer long-term context, rather than relying solely on explicit memory saves."* — BuildFastWithAI `2026.06.06`
+
+**Copilot 33-Week Decline to 50** (2026.06.06):
+> *"GitHub Copilot breaks below 50 for the first time — the psychological floor collapses on billing Day 6. 33 consecutive weeks of decline. The Copilot App technical preview and MAI-Code-1-Flash (SWE-Bench Pro 51.2%) couldn't stop the exodus. Migration guides to Claude Code, Cursor, and Codex CLI now dominate developer forums."* — The Register/Dev.to `2026.06.06`
+
+**Claude Security-Guidance Plugin** (2026.06.06):
+> *"The security-guidance plugin reviews Claude's code changes for vulnerabilities and fixes them in the same session — a fast pattern check on each edit, a model review at end of turn, and a deeper agentic review on commit or push."* — code.claude.com `2026.06.06`
+
 **2026 Power Stack Formula**:
 ```
 Daily coding    = Codex CLI (keystroke level)
@@ -1168,6 +1199,12 @@ Free            = Gemini CLI + Aider
 
 **Uber Caps AI Tools at $1,500/Month** (2026.06.03):
 > *"Uber introduced a $1,500/month per-engineer cap on AI coding tools after burning through its entire 2026 AI budget by April. 95% of Uber engineers use AI tools monthly, 70% of committed code originates from AI. COO Andrew Macdonald: 'That link [between AI spending and useful features] is not there yet.'"* — Bloomberg `2026.06.02`
+
+**Copilot Billing Day 6 — 50 Breached** (2026.06.06):
+> *"Copilot drops to 50 on day 6 of usage-based billing — its 33rd consecutive weekly decline and first-ever break below the psychological floor. Developer migration guides to Claude Code, Cursor, and Codex CLI now dominate forums. One Pro+ user reported burning 8% of monthly credits in two hours of agentic coding."* — The Register/Dev.to `2026.06.06`
+
+**SpaceX IPO Roadshow Accelerated** (2026.06.06):
+> *"SpaceX's IPO roadshow launched June 4 — ahead of the expected June 8 start — after a quicker-than-expected SEC review. At $135/share, SpaceX targets $1.77 trillion valuation, making it the seventh-largest US company by market cap and bigger than Tesla ($1.6T). Goldman Sachs leads, followed by Morgan Stanley, BofA, Citi, JPMorgan."* — CNBC/Yahoo Finance `2026.06.06`
 
 ---
 

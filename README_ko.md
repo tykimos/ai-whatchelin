@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-05</sub>
+  <sub>마지막 업데이트: 2026-06-06</sub>
 </p>
 
 <p align="center">
@@ -447,6 +447,16 @@ timeline
          : GPT-5.2 / GPT-5.3-Codex, Codex 구독 제공 종료 (6/5)
          : GPT-5.5 Instant 스타일 업데이트 — 가독성 개선, Canvas 인라인 코드로 전환 (6/5)
          : Codex 역할별 플러그인 배포 — Sales·Data Analytics·Design, Business 워크스페이스 (6/5)
+         : Claude 장애 — 전 모델 15:08–18:27 UTC 영향, 인프라 문제, 데이터 유출 없음 (6/5)
+         : Copilot 33주 연속 하락 50 기록, 종량제 6일차 — 심리적 마지노선 첫 붕괴 (6/6)
+         : Claude Code v2.1.163 — 버전 가드레일, /plugin list, 시작 행 수정, WebFetch deny 규칙 (6/6)
+         : Opus 4.8 Claude Code 빠른 모드 기본값 — v2.1.154+, $10/$50 per MTok (6/6)
+         : Code with Claude 도쿄 D-4 — Research·Platform·Code 트랙, 6/10-11 라이브스트림 (6/6)
+         : ChatGPT Dreaming V3 메모리 아키텍처 Plus/Pro 사용자 배포 시작 (6/4)
+         : Windsurf (Devin Desktop) 85 상승 — $15 가격으로 Copilot 이탈 흡수 (6/6)
+         : Antigravity 65 상승, Gemini CLI 이전 수요 흡수 D-12 (6/6)
+         : Claude security-guidance 플러그인 — 코드 취약점 검토 후 동일 세션에서 수정 (6/6)
+         : SpaceX IPO 로드쇼 6/4 조기 시작 — $135/주, $1.77조, Goldman 주관 (6/6)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -936,6 +946,27 @@ quadrantChart
 **GPT-5.2 / GPT-5.3-Codex 구독 종료** (2026.06.05):
 > *"OpenAI가 GPT-5.2와 GPT-5.3-Codex를 Codex 구독 제공에서 공식 종료했다. GPT-4.5(6/27)와 o3(8/26) 퇴장과 합치면, OpenAI는 GPT-5.5 패밀리로 통합을 가속하고 있다."* — ChatGPT AI Hub `2026.06.05`
 
+**Claude 장애 — 전 모델 다운** (2026.06.05):
+> *"6월 5일 15:08~18:27 UTC 사이 모든 Claude 모델에서 오류 급증. Opus 4.6이 가장 먼저 복구(15:25 UTC), Opus 4.5가 가장 늦게 복구(17:29 UTC). Anthropic은 인프라 문제로 원인을 밝혔으며, 보안 침해나 고객 데이터 유출은 없었다고 확인했다. 최근 수개월 내 세 번째 주요 장애."* — Cybersecurity News `2026.06.05`
+
+**Claude Code v2.1.163** (2026.06.06):
+> *"requiredMinimumVersion/requiredMaximumVersion 관리 설정을 통한 버전 가드레일 — 허용 범위 밖이면 Claude Code가 시작 거부. /plugin list 명령어에 --enabled/--disabled 필터 추가. 설정 디렉터리가 읽기 전용일 때 무한 대기하던 버그 수정. WebFetch deny 규칙이 이제 사전 승인된 도메인보다 우선 적용."* — code.claude.com/changelog `2026.06.06`
+
+**Opus 4.8 빠른 모드 기본값 전환** (2026.06.06):
+> *"Claude Code v2.1.154부터 빠른 모드가 Opus 4.8로 기본 설정 — $10/$50 per MTok, 표준 대비 약 2배 비용으로 ~2.5배 속도. Max, Team Premium, Enterprise 종량제, Anthropic API에서도 Opus 4.8이 기본값이며 high effort로 동작."* — Anthropic `2026.06.06`
+
+**Code with Claude 도쿄 D-4** (2026.06.06):
+> *"Code with Claude가 6월 10-11일 도쿄에서 열린다. Research(Anthropic 연구원과 직접 대화), Claude Platform(프로덕션 에이전트 배포), Claude Code(장기 태스크, 멀티 레포 작업) 세 트랙 병행. 확장일(6/11)에는 인디 개발자 데모와 Applied AI 워크숍. 전 세션 라이브스트림, 영어/일본어 동시통역 제공."* — claude.com `2026.06.06`
+
+**ChatGPT Dreaming V3 메모리** (2026.06.04):
+> *"ChatGPT 출시 이래 가장 대규모 메모리 업그레이드 — Dreaming V3 아키텍처가 Plus/Pro 사용자에게 배포 시작. 대화 기록을 유휴 시간에 분석해 더 풍부한 장기 컨텍스트를 구축하는 방식으로, 명시적 메모리 저장에만 의존하지 않는다."* — BuildFastWithAI `2026.06.06`
+
+**Copilot 33주 연속 하락, 50 기록** (2026.06.06):
+> *"GitHub Copilot이 처음으로 50 아래로 떨어졌다 — 종량제 6일차에 심리적 마지노선이 붕괴했다. 33주 연속 하락. Copilot App 기술 프리뷰와 MAI-Code-1-Flash(SWE-Bench Pro 51.2%)로도 이탈을 막지 못했다. Claude Code, Cursor, Codex CLI로의 이전 가이드가 개발자 포럼을 지배하고 있다."* — The Register/Dev.to `2026.06.06`
+
+**Claude security-guidance 플러그인** (2026.06.06):
+> *"security-guidance 플러그인이 Claude의 코드 변경 사항에서 취약점을 검토하고 동일 세션에서 수정한다 — 각 편집 시 빠른 패턴 검사, 턴 종료 시 모델 리뷰, 커밋/푸시 시 더 깊은 에이전틱 리뷰를 수행한다."* — code.claude.com `2026.06.06`
+
 **2026 파워 스택 공식**:
 ```
 일상 코딩 = Codex CLI (키스트로크 레벨)
@@ -1144,6 +1175,12 @@ quadrantChart
 
 **Uber AI 도구 월 $1,500 상한 도입** (2026.06.03):
 > *"Uber가 4개월 만에 2026년 전체 AI 예산을 소진한 뒤 엔지니어당 월 $1,500 상한을 도입했다. 엔지니어 95%가 AI 도구를 사용하고 커밋 코드의 70%가 AI 생성이다. COO Andrew Macdonald: 'AI 지출과 유용한 기능 출시 간의 연결고리가 아직 없다.'"* — Bloomberg `2026.06.02`
+
+**Copilot 종량제 6일차 — 50선 붕괴** (2026.06.06):
+> *"Copilot이 종량제 6일차에 50을 기록하며 33주 연속 하락, 심리적 마지노선이 처음 무너졌다. Claude Code, Cursor, Codex CLI로의 이전 가이드가 개발자 포럼을 지배하고 있다. 한 Pro+ 사용자는 에이전틱 코딩 2시간 만에 월 크레딧의 8%를 소진했다고 보고했다."* — The Register/Dev.to `2026.06.06`
+
+**SpaceX IPO 로드쇼 조기 시작** (2026.06.06):
+> *"SpaceX IPO 로드쇼가 예상보다 빠른 6월 4일 시작 — SEC 심사가 예상보다 빨리 완료됐다. $135/주에 $1.77조 밸류에이션으로 미국 시가총액 7위 기업이 되며 Tesla($1.6조)를 넘어선다. Goldman Sachs 주관, Morgan Stanley·BofA·Citi·JPMorgan 참여."* — CNBC/Yahoo Finance `2026.06.06`
 
 ---
 

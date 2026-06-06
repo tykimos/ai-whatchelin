@@ -1,47 +1,51 @@
 ---
-title: "Copilot, 역사상 처음으로 50선 붕괴 — 종량제 6일차의 심리적 마지노선"
+title: "Copilot 50선 붕괴, Claude 전 모델 장애, 도쿄 컨퍼런스 D-4 — 6월 6일의 세 갈래 충격"
 date: 2026-06-06
 lang: ko
 categories: [news]
-tags: [github-copilot, claude-code, gemini-cli, spacex, cursor, windsurf, anthropic, microsoft]
-excerpt: "GitHub Copilot 인기도가 50 아래로 떨어졌다. 종량제 전환 6일차, 한때 시장을 지배하던 도구의 심리적 마지노선이 무너졌다. 한편 Claude 에이전트 과금 D-9, Gemini CLI 종료 D-12 — 6월의 데드라인이 개발자 대이동을 가속하고 있다."
+tags: [github-copilot, claude-code, anthropic, gemini-cli, spacex, cursor, windsurf, chatgpt]
+excerpt: "Copilot이 역대 처음 50 아래로 떨어지고, Claude는 전 모델 장애를 겪었으며, Code with Claude 도쿄가 4일 앞으로 다가왔다. v2.1.163 릴리스와 Opus 4.8 빠른 모드 기본값 전환까지 — 코딩 도구 시장의 세 갈래 충격파."
 ---
 
-GitHub Copilot이 인기도 **50**을 기록하며 역사상 처음으로 50선 아래로 떨어졌다. 종량제 전환 6일차, 33주 연속 하락이다. 한편 Claude 에이전트 과금(D-9)과 Gemini CLI 종료(D-12) — 6월의 두 데드라인이 코딩 도구 시장의 대이동을 가속하고 있다.
+GitHub Copilot이 **50**을 기록하며 역사상 처음으로 심리적 마지노선을 깨뜨린 날, Anthropic의 Claude는 전 모델 장애를 겪었고, Code with Claude 도쿄가 4일 앞으로 다가왔다. 코딩 도구 시장의 세 갈래 충격이 동시에 밀려온 6월 6일이다.
 
-## GitHub Copilot: 50선 붕괴, Copilot App도 못 막았다
+## GitHub Copilot: 50선 붕괴, 33주 연속 하락
 
-Copilot 인기도가 **50**으로 33주 연속 하락하며 역대 최저를 다시 경신했다. 심리적 마지노선인 50을 처음 깨뜨린 것이다. Build 2026에서 발표된 **Copilot App**(에이전트 네이티브 데스크톱 경험)이 기술 프리뷰로 공개됐지만([GitHub Blog](https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/)), 종량제 반발을 상쇄하기엔 역부족이다. Microsoft의 첫 자체 코딩 모델 **MAI-Code-1-Flash**도 Copilot에 투입됐으나([GitHub Changelog](https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot/)), SWE-Bench Pro 51.2%라는 수치가 이탈을 멈출 만큼의 유인은 되지 못하고 있다.
+Copilot 인기도가 **50**으로 떨어지며 33주 연속 하락, 종량제 전환 6일차에 심리적 바닥을 뚫었다. Copilot App 기술 프리뷰([GitHub Blog](https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/))와 Microsoft 첫 자체 코딩 모델 MAI-Code-1-Flash([GitHub Changelog](https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot/))로도 이탈을 막지 못했다. Claude Code, Cursor, Codex CLI로의 이전 가이드가 개발자 포럼을 지배하고 있다([Dev.to](https://dev.to/akaranjkar08/switch-from-github-copilot-to-claude-code-migration-guide-2026-28nk)).
 
-## Claude Code: 에이전트 과금 D-9, 개발자 준비 시작
+## Claude 전 모델 장애: 6월 5일 15:08–18:27 UTC
 
-6월 15일 Claude 에이전트 과금 전환까지 9일 남았다. `claude -p`(헤드리스 모드)와 Agent SDK 사용량이 챗 구독에서 분리되어 별도 크레딧 풀로 이동한다 — Pro $20, Max 5x $100, Max 20x $200([TechTimes](https://www.techtimes.com/articles/317625/20260602/anthropic-ends-subscription-subsidy-agents-june-15-credit-pool-replaces-flat-rate-access.htm)). 크레딧 소진 시 오버플로 과금을 수동으로 활성화하지 않으면 자동 요청이 즉시 중단된다([codersera](https://codersera.com/blog/anthropic-june-2026-billing-change-claude-code/)). 인터랙티브 사용(터미널, IDE, Claude Cowork)은 영향 없다.
+6월 5일 15:08 UTC에 시작된 장애로 claude.ai, Claude API, Claude Code, Claude Cowork 전체가 영향을 받았다([Cybersecurity News](https://cybersecuritynews.com/anthropics-claude-services-down/)). Opus 4.6이 가장 먼저(15:25 UTC), Opus 4.5가 가장 늦게(17:29 UTC) 복구됐다. Anthropic은 인프라 문제로 원인을 밝혔으며 보안 침해나 데이터 유출은 없었다고 확인했다. 최근 수개월 내 세 번째 주요 장애다.
 
-## Gemini CLI D-12: 종료 카운트다운과 Antigravity 부상
+## Claude Code v2.1.163: 버전 가드레일과 플러그인 관리
 
-Gemini CLI 종료까지 12일. 무료·Pro·Ultra 사용자는 6월 18일 이후 요청이 차단된다([AI Builder Club](https://www.aibuilderclub.com/blog/google-kills-gemini-cli-june-18-2026)). 대체재 Antigravity CLI가 **65**로 상승하며 이전 수요를 흡수 중이다. 엔터프라이즈 라이선스 보유자는 영향 없지만, 6,000+ 커뮤니티 PR을 받아놓고 기업 전용으로 전환한 결정에 대한 비판은 여전히 거세다([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)).
+새로운 `requiredMinimumVersion`/`requiredMaximumVersion` 관리 설정으로 버전 가드레일 도입 — 허용 범위 밖이면 Claude Code가 시작을 거부한다([GitHub Releases](https://github.com/anthropics/claude-code/releases/tag/v2.1.163)). `/plugin list` 명령어 추가, 설정 디렉터리가 읽기 전용일 때 무한 대기하던 버그 수정, WebFetch deny 규칙이 사전 승인 도메인보다 우선 적용되도록 변경됐다.
 
-## SpaceX IPO: 가격 결정 5일 전, Cursor $600억 인수 임박
+## Opus 4.8 빠른 모드 기본값 전환
 
-SpaceX IPO 로드쇼가 계속되고 있다. 6월 11일 가격 결정, 6월 12일 나스닥 거래 개시 예정이며 $1.75조 밸류에이션을 목표로 한다([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-19/spacex-is-said-to-plan-to-buy-startup-cursor-30-days-after-ipo)). IPO 30일 후 Cursor $600억 인수가 진행될 전망으로, 워크아웃 시 $100억 위약금 조항이 포함되어 있다. Cursor는 이번 주 Enterprise 멀티팀 관리 GA와 Premium 시트를 발표하며 독립 행보를 이어가고 있다.
+Claude Code v2.1.154부터 `/fast` 모드가 Opus 4.8로 기본 설정됐다 — $10/$50 per MTok으로 표준 대비 약 2배 비용에 ~2.5배 속도([Anthropic](https://www.anthropic.com/news/claude-opus-4-8)). Max, Team Premium, Enterprise 종량제, API에서도 Opus 4.8이 기본값이다.
 
-## Windsurf (Devin Desktop): 85 달성, Copilot 이탈 흡수 가속
+## Code with Claude 도쿄: D-4
 
-Windsurf가 Devin Desktop 리브랜딩 후 **85**를 달성했다. $15/월 가격과 ACP(Agent Client Protocol) 지원이 Copilot 이탈 수요 흡수에 효과적이다([Devin Blog](https://devin.ai/blog/windsurf-is-now-devin-desktop/)). Codex, Claude Agent, OpenCode 등 ACP 호환 에이전트를 단일 커맨드 센터에서 관리할 수 있는 점이 차별화 포인트다.
+6월 10-11일 도쿄에서 열리는 Code with Claude가 4일 앞으로 다가왔다([claude.com](https://claude.com/code-with-claude/tokyo)). Research(Anthropic 연구원과 직접 대화), Claude Platform(프로덕션 에이전트 배포), Claude Code(장기 태스크, 멀티 레포 작업) 세 트랙이 병행된다. 확장일(6/11)에는 인디 개발자 데모와 Applied AI 워크숍이 열리며, 전 세션이 라이브스트림되고 영어/일본어 동시통역이 제공된다([claude.com Extended](https://claude.com/code-with-claude/tokyo-extended)).
+
+## ChatGPT: Dreaming V3 메모리 혁신
+
+OpenAI의 Dreaming V3 메모리 아키텍처가 Plus/Pro 사용자에게 배포되기 시작했다([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026)). 유휴 시간에 과거 대화를 분석해 장기 컨텍스트를 구축하는 방식으로, 명시적 메모리 저장에만 의존하던 기존 접근에서 크게 진화했다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| Claude Code | 99 | — | 에이전트 과금 D-9, dynamic workflows 안정 |
-| ChatGPT | 96 | — | GPT-5.5 Instant 안정, 5.6 루머 |
-| Cursor | 96 | — | SpaceX IPO D-5, Premium 시트 출시 |
-| Claude AI | 95 | — | Glasswing 150개 기관 확장 |
-| Codex CLI | 87 | — | v0.135 doctor·프로필·아카이브 |
-| Windsurf | 85 | ↑1 | Devin Desktop, ACP 에이전트 허브 |
+| Claude Code | 99 | — | v2.1.163 릴리스, 보안 플러그인, 도쿄 D-4 |
+| ChatGPT | 96 | — | Dreaming V3 메모리 배포 시작 |
+| Cursor | 96 | — | SpaceX 로드쇼 진행 중, Premium 시트 |
+| Claude AI | 95 | — | 6/5 장애 복구, Glasswing 150개 기관 |
+| Codex CLI | 87 | — | TUI F13-F24, 플러그인 JSON, 아카이브 |
+| Windsurf | 85 | ↑1 | Devin Desktop, $15로 Copilot 이탈 흡수 |
 | Gemini CLI | 69 | ↓1 | 종료 D-12, 이전 가속 |
 | Aider | 68 | — | 오픈소스 CLI 안정 |
 | Antigravity | 65 | ↑1 | Gemini CLI 이전 수요 흡수 |
 | GH Copilot | 50 | ↓1 | 역대 첫 50선 붕괴, 33주 연속 하락 |
 
-Copilot이 50을 깨뜨린 날이다. 종량제 전환과 에이전트 네이티브 앱으로 반전을 노리지만, 시장은 이미 움직였다.
+Copilot의 50선 붕괴, Claude의 장애 복구, 그리고 도쿄 컨퍼런스 — 시장의 세 갈래 충격이 동시에 밀려온 하루다. 다음 주 화요일 Code with Claude 도쿄가 어떤 발표를 가져올지가 최대 관전 포인트다.

@@ -15,7 +15,7 @@ ChatGPT surpassed 1 billion monthly active users([ChatGPT Release Notes](https:/
 
 ## Claude Code v2.1.166-167: fallbackModel for Outage Resilience
 
-Claude Code shipped two back-to-back releases introducing the `fallbackModel` setting — configure up to three fallback models tried in order when the primary model is overloaded or unavailable([GitHub CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)). After three notable outages in recent weeks (June 2, June 5, and degraded performance on June 7), this is a practical resilience feature. Also ships glob pattern support in deny rules and a JetBrains IDE flicker fix.
+Claude Code shipped two back-to-back releases introducing the `fallbackModel` setting — configure up to three fallback models tried in order when the primary model is overloaded or unavailable([GitHub CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)). The feature's value proved itself immediately — Opus 4.7 experienced elevated errors from 03:41 UTC today, with a fix deployed by 15:41 UTC after ~12 hours of degraded service([Claude Status](https://status.claude.com/)). After three outages in recent weeks (June 2, June 5, June 7), fallbackModel is a practical resilience feature. Also ships glob pattern support in deny rules and a JetBrains IDE flicker fix.
 
 ## GitHub Copilot: 49, 34-Week Decline
 

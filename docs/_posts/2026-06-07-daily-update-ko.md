@@ -15,7 +15,7 @@ ChatGPT가 월간 활성 사용자 10억 명을 넘어섰다([ChatGPT Release No
 
 ## Claude Code v2.1.166-167: fallbackModel로 장애 복원력 확보
 
-Claude Code가 이틀 연속 릴리스를 통해 `fallbackModel` 설정을 도입했다 — 주 모델 과부하 시 최대 세 개의 대체 모델을 순서대로 시도한다([GitHub Releases](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)). 최근 세 차례 장애(6/2, 6/5, 6/7 성능 저하)를 겪은 사용자들에게 실질적인 복원력을 제공하는 기능이다. glob 패턴 deny 규칙과 JetBrains 깜빡임 수정도 함께 출시됐다.
+Claude Code가 이틀 연속 릴리스를 통해 `fallbackModel` 설정을 도입했다 — 주 모델 과부하 시 최대 세 개의 대체 모델을 순서대로 시도한다([GitHub Releases](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)). 이 기능의 필요성은 오늘 바로 입증됐다 — Opus 4.7이 UTC 03:41부터 약 12시간 동안 오류 급증을 겪었으며, 15:41 UTC에 복구됐다([Claude Status](https://status.claude.com/)). 최근 세 차례 장애(6/2, 6/5, 6/7)를 겪은 사용자들에게 fallbackModel은 실질적인 복원력을 제공한다. glob 패턴 deny 규칙과 JetBrains 깜빡임 수정도 함께 출시됐다.
 
 ## GitHub Copilot: 49, 34주 연속 하락
 

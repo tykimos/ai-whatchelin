@@ -463,6 +463,7 @@ timeline
          : ChatGPT 월간 활성 사용자 10억 돌파 — UK에서 Free/Go 광고 도입 (6/7)
          : Gemini CLI 종료 D-11 — 6/18 이후 기업 고객만 유지 (6/7)
          : Anthropic 에이전트 과금 D-8 — 6/15 Agent SDK/CLI 크레딧 분리 (6/7)
+         : Claude Opus 4.7 오류 급증 03:41–15:41 UTC — 12시간 성능 저하, 복구 완료 (6/7)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1430,10 +1431,10 @@ xychart-beta
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-50↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-49↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-69↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-68↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-65↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 

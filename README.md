@@ -463,6 +463,7 @@ timeline
          : ChatGPT crosses 1B monthly active users — ads launch for Free/Go in UK (Jun 7)
          : Gemini CLI sunset D-11 — enterprise-only after June 18 (Jun 7)
          : Anthropic agent billing D-8 — June 15 Agent SDK/CLI credit split (Jun 7)
+         : Claude Opus 4.7 elevated errors 03:41–15:41 UTC — 12-hour degraded service, resolved (Jun 7)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1460,10 +1461,10 @@ xychart-beta
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-50↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-49↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85↑-27AE60?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-69↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-68↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-65↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 

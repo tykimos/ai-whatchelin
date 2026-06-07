@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-06</sub>
+  <sub>Last updated: 2026-06-07</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.06-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.07-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -457,6 +457,12 @@ timeline
          : Antigravity rises to 65, absorbing Gemini CLI migration D-12 (Jun 6)
          : Claude security-guidance plugin — reviews code for vulnerabilities, fixes in same session (Jun 6)
          : SpaceX IPO roadshow started early Jun 4 — $135/share, $1.77T, Goldman leads (Jun 6)
+         : Claude Code v2.1.166-167 — fallbackModel setting, glob deny rules, JetBrains flicker fix (Jun 7)
+         : Copilot 34-week decline to 49, billing Day 7 — developer exodus week two (Jun 7)
+         : Code with Claude Tokyo D-3 — Research, Platform, Code tracks (Jun 7)
+         : ChatGPT crosses 1B monthly active users — ads launch for Free/Go in UK (Jun 7)
+         : Gemini CLI sunset D-11 — enterprise-only after June 18 (Jun 7)
+         : Anthropic agent billing D-8 — June 15 Agent SDK/CLI credit split (Jun 7)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1439,15 +1445,15 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06"]
+    x-axis ["05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50]
+    line "Claude Code" [98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [83, 82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69]
-    line "Antigravity" [53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85, 85]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68]
+    line "Antigravity" [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65, 65]
 ```
 <!-- POPULARITY_CHART_END -->
 

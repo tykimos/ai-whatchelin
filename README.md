@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-07</sub>
+  <sub>Last updated: 2026-06-08</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.07-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.08-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -464,6 +464,13 @@ timeline
          : Gemini CLI sunset D-11 — enterprise-only after June 18 (Jun 7)
          : Anthropic agent billing D-8 — June 15 Agent SDK/CLI credit split (Jun 7)
          : Claude Opus 4.7 elevated errors 03:41–15:41 UTC — 12-hour degraded service, resolved (Jun 7)
+         : Apple WWDC 2026 keynote — Siri powered by Gemini, Xcode adds Claude Agent + OpenAI Codex (Jun 8)
+         : Claude Code GitHub Action CVSS 7.8 — supply chain via malicious issues, patched v1.0.94+ (Jun 8)
+         : Copilot 35-week decline to 48, billing Day 8 — developer exodus accelerates (Jun 8)
+         : Code with Claude Tokyo D-2 — Research, Platform, Code tracks livestreamed (Jun 8)
+         : Gemini CLI sunset D-10 — enterprise-only after June 18 (Jun 8)
+         : Anthropic agent billing D-7 — June 15 Agent SDK/CLI credit split (Jun 8)
+         : Gemini API legacy schema removal deadline — breaking change effective today (Jun 8)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -959,6 +966,18 @@ quadrantChart
 **Claude Security-Guidance Plugin** (2026.06.06):
 > *"The security-guidance plugin reviews Claude's code changes for vulnerabilities and fixes them in the same session — a fast pattern check on each edit, a model review at end of turn, and a deeper agentic review on commit or push."* — code.claude.com `2026.06.06`
 
+**Claude Code v2.1.166-167 — fallbackModel** (2026.06.07):
+> *"Configure up to three fallback models tried in order when the primary model is overloaded or unavailable. Broader deny-rule glob support, stronger cross-session message security, more reliable thinking controls."* — code.claude.com/changelog `2026.06.07`
+
+**Claude Code GitHub Action CVSS 7.8** (2026.06.08):
+> *"A flaw in Claude Code GitHub Actions allowed attackers to hijack repositories via a single malicious GitHub issue. The checkWritePermissions function unconditionally trusted any actor ending in '[bot]' regardless of actual permissions. Some variants actively exploited before disclosure. Fixed in claude-code-action v1.0.94+."* — The Hacker News/Flatt Security `2026.06.08`
+
+**Apple WWDC 2026 — Claude Agent in Xcode** (2026.06.08):
+> *"Apple announced Claude Agent and OpenAI Codex as agentic coding tools in Xcode at WWDC 2026. Siri is rebuilt on a 1.2T-parameter Gemini model in a reported $1B/year deal with Google. The biggest validation yet for AI coding agents — Apple is betting on Anthropic and OpenAI, not building its own."* — TechCrunch/TechRadar `2026.06.08`
+
+**Copilot 35-Week Decline to 48** (2026.06.08):
+> *"Copilot drops to 48 — its 35th consecutive weekly decline, now firmly below the psychological 50 floor. Billing Day 8 continues to drive developer exodus. No sign of stabilization."* — The Register `2026.06.08`
+
 **2026 Power Stack Formula**:
 ```
 Daily coding    = Codex CLI (keystroke level)
@@ -1446,26 +1465,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07"]
+    x-axis ["05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08"]
     y-axis "Popularity Score" 45 --> 100
-    line "Claude Code" [98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49]
+    line "Claude Code" [98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68]
-    line "Antigravity" [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65, 65]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85, 85, 85]
+    line "Codex CLI" [88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67]
+    line "Antigravity" [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65, 65, 66]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-49↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-85↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-48↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-68↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-65↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-67↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-66↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

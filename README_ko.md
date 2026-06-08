@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-07</sub>
+  <sub>마지막 업데이트: 2026-06-08</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.07-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.08-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -464,6 +464,13 @@ timeline
          : Gemini CLI 종료 D-11 — 6/18 이후 기업 고객만 유지 (6/7)
          : Anthropic 에이전트 과금 D-8 — 6/15 Agent SDK/CLI 크레딧 분리 (6/7)
          : Claude Opus 4.7 오류 급증 03:41–15:41 UTC — 12시간 성능 저하, 복구 완료 (6/7)
+         : Apple WWDC 2026 키노트 — Siri에 Gemini 탑재, Xcode에 Claude Agent + OpenAI Codex 추가 (6/8)
+         : Claude Code GitHub Action CVSS 7.8 — 악성 이슈 통한 공급망 공격, v1.0.94+에서 패치 (6/8)
+         : Copilot 35주 연속 하락 48, 종량제 8일차 — 이탈 가속 (6/8)
+         : Code with Claude 도쿄 D-2 — Research·Platform·Code 트랙 라이브스트림 (6/8)
+         : Gemini CLI 종료 D-10 — 6/18 이후 기업 고객만 유지 (6/8)
+         : Anthropic 에이전트 과금 D-7 — 6/15 Agent SDK/CLI 크레딧 분리 (6/8)
+         : Gemini API 레거시 스키마 제거 마감 — 오늘부 breaking change 적용 (6/8)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -974,6 +981,18 @@ quadrantChart
 **Claude security-guidance 플러그인** (2026.06.06):
 > *"security-guidance 플러그인이 Claude의 코드 변경 사항에서 취약점을 검토하고 동일 세션에서 수정한다 — 각 편집 시 빠른 패턴 검사, 턴 종료 시 모델 리뷰, 커밋/푸시 시 더 깊은 에이전틱 리뷰를 수행한다."* — code.claude.com `2026.06.06`
 
+**Claude Code v2.1.166-167 — fallbackModel** (2026.06.07):
+> *"주 모델 과부하 시 최대 세 개의 대체 모델을 순서대로 시도하는 fallbackModel 설정이 도입됐다. 더 넓은 deny-rule glob 지원, 크로스 세션 메시지 보안 강화, 사고 제어 안정성 개선."* — code.claude.com/changelog `2026.06.07`
+
+**Claude Code GitHub Action CVSS 7.8** (2026.06.08):
+> *"Claude Code GitHub Actions의 취약점으로 악성 GitHub 이슈 하나만으로 저장소를 탈취할 수 있었다. checkWritePermissions 함수가 '[bot]'으로 끝나는 모든 액터를 실제 권한과 무관하게 신뢰했다. 일부 변종은 공개 전 이미 악용됐다. claude-code-action v1.0.94+에서 패치 완료."* — The Hacker News/Flatt Security `2026.06.08`
+
+**Apple WWDC 2026 — Xcode에 Claude Agent 탑재** (2026.06.08):
+> *"Apple이 WWDC 2026에서 Xcode에 Claude Agent와 OpenAI Codex를 에이전틱 코딩 도구로 추가한다고 발표했다. Siri는 Google과 연 $10억 규모 계약으로 1.2T 파라미터 Gemini 모델 기반으로 재구축된다. Apple이 자체 개발 대신 Anthropic과 OpenAI에 베팅한 것은 AI 코딩 에이전트에 대한 역대 최대 검증이다."* — TechCrunch/TechRadar `2026.06.08`
+
+**Copilot 35주 연속 하락 48** (2026.06.08):
+> *"Copilot이 48을 기록하며 35주 연속 하락했다. 심리적 지지선 50 아래로 확실히 추락했다. 종량제 전환 8일차, 이탈이 계속 가속되고 있으며 안정화 조짐은 보이지 않는다."* — The Register `2026.06.08`
+
 **2026 파워 스택 공식**:
 ```
 일상 코딩 = Codex CLI (키스트로크 레벨)
@@ -1416,26 +1435,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-25", "05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07"]
+    x-axis ["05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49]
+    line "Claude Code" [98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [82, 81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68]
-    line "Antigravity" [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65, 65]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85, 85, 85]
+    line "Codex CLI" [88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67]
+    line "Antigravity" [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65, 65, 66]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-49↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-85↑-27AE60?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-48↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-68↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-65↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-67↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-66↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

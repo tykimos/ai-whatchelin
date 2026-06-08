@@ -13,6 +13,8 @@ Apple이 WWDC 2026 키노트에서 AI 코딩의 미래를 선언했다. Xcode에
 
 Apple이 Xcode에 Claude Agent와 OpenAI Codex를 에이전틱 코딩 도구로 추가한다고 발표했다([TechCrunch](https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/)). iOS/macOS 개발자들이 Xcode 내에서 직접 AI 에이전트를 활용할 수 있게 된다. 동시에 Siri는 Google과 연 $10억 규모 계약을 통해 1.2T 파라미터 Gemini 모델로 재구축된다([TechRadar](https://www.techradar.com/news/live/apple-wwdc-2026-live)). iOS 27과 macOS 27도 함께 공개됐다.
 
+특히 이번 WWDC는 Tim Cook의 마지막 키노트였다. Cook은 9월 1일부로 CEO에서 물러나며 하드웨어 엔지니어링 SVP John Ternus가 후임 CEO로 승계한다([CNBC](https://www.cnbc.com/2026/06/05/apple-wwdc-tim-cook-ai-siri-ternus.html)). 또한 iOS 27은 Extensions 시스템을 도입해 사용자가 Claude, Gemini, ChatGPT 중 기본 AI 어시스턴트를 직접 선택할 수 있게 된다([MacRumors](https://www.macrumors.com/guide/wwdc-2026-what-to-expect/)). Apple이 서드파티 AI 모델 선택권을 사용자에게 넘긴 것은 AI 코딩 에이전트 시장에 대한 역대 최대 규모의 외부 검증이다.
+
 ## Claude Code GitHub Action: CVSS 7.8 공급망 취약점
 
 Claude Code GitHub Actions에서 악성 이슈 하나만으로 저장소를 탈취할 수 있는 공급망 취약점이 발견됐다([The Hacker News](https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html)). `checkWritePermissions` 함수가 `[bot]`으로 끝나는 모든 액터를 실제 권한과 무관하게 신뢰하는 것이 근본 원인이었다. 일부 변종은 공개 전 이미 악용됐으며, claude-code-action v1.0.94+에서 패치됐다([Flatt Security](https://flatt.tech/research/posts/poisoning-claude-code-one-github-issue-to-break-the-supply-chain/)). Anthropic의 자체 저장소도 취약했던 것으로 확인돼 아이러니를 더했다.

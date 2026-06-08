@@ -464,7 +464,8 @@ timeline
          : Gemini CLI 종료 D-11 — 6/18 이후 기업 고객만 유지 (6/7)
          : Anthropic 에이전트 과금 D-8 — 6/15 Agent SDK/CLI 크레딧 분리 (6/7)
          : Claude Opus 4.7 오류 급증 03:41–15:41 UTC — 12시간 성능 저하, 복구 완료 (6/7)
-         : Apple WWDC 2026 키노트 — Siri에 Gemini 탑재, Xcode에 Claude Agent + OpenAI Codex 추가 (6/8)
+         : Apple WWDC 2026 키노트 — Siri에 Gemini 탑재, Xcode에 Claude Agent + OpenAI Codex 추가, iOS 27 Extensions로 기본 AI 선택 가능 (6/8)
+         : Tim Cook 마지막 WWDC — 9/1 퇴임, John Ternus CEO 승계 (6/8)
          : Claude Code GitHub Action CVSS 7.8 — 악성 이슈 통한 공급망 공격, v1.0.94+에서 패치 (6/8)
          : Copilot 35주 연속 하락 48, 종량제 8일차 — 이탈 가속 (6/8)
          : Code with Claude 도쿄 D-2 — Research·Platform·Code 트랙 라이브스트림 (6/8)
@@ -987,8 +988,8 @@ quadrantChart
 **Claude Code GitHub Action CVSS 7.8** (2026.06.08):
 > *"Claude Code GitHub Actions의 취약점으로 악성 GitHub 이슈 하나만으로 저장소를 탈취할 수 있었다. checkWritePermissions 함수가 '[bot]'으로 끝나는 모든 액터를 실제 권한과 무관하게 신뢰했다. 일부 변종은 공개 전 이미 악용됐다. claude-code-action v1.0.94+에서 패치 완료."* — The Hacker News/Flatt Security `2026.06.08`
 
-**Apple WWDC 2026 — Xcode에 Claude Agent 탑재** (2026.06.08):
-> *"Apple이 WWDC 2026에서 Xcode에 Claude Agent와 OpenAI Codex를 에이전틱 코딩 도구로 추가한다고 발표했다. Siri는 Google과 연 $10억 규모 계약으로 1.2T 파라미터 Gemini 모델 기반으로 재구축된다. Apple이 자체 개발 대신 Anthropic과 OpenAI에 베팅한 것은 AI 코딩 에이전트에 대한 역대 최대 검증이다."* — TechCrunch/TechRadar `2026.06.08`
+**Apple WWDC 2026 — Xcode에 Claude Agent 탑재, Tim Cook 마지막 키노트** (2026.06.08):
+> *"Apple이 WWDC 2026에서 Xcode에 Claude Agent와 OpenAI Codex를 에이전틱 코딩 도구로 추가한다고 발표했다 — Tim Cook의 마지막 키노트(9/1 퇴임, John Ternus CEO 승계). Siri는 Google과 연 $10억 규모 계약으로 1.2T 파라미터 Gemini 모델 기반으로 재구축된다. iOS 27 Extensions로 사용자가 Claude, Gemini, ChatGPT 중 기본 AI 어시스턴트를 직접 선택할 수 있게 된다. Apple이 자체 개발 대신 Anthropic과 OpenAI에 베팅한 것은 AI 코딩 에이전트에 대한 역대 최대 검증이다."* — TechCrunch/CNBC/MacRumors `2026.06.08`
 
 **Copilot 35주 연속 하락 48** (2026.06.08):
 > *"Copilot이 48을 기록하며 35주 연속 하락했다. 심리적 지지선 50 아래로 확실히 추락했다. 종량제 전환 8일차, 이탈이 계속 가속되고 있으며 안정화 조짐은 보이지 않는다."* — The Register `2026.06.08`

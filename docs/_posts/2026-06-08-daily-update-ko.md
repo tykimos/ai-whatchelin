@@ -11,9 +11,9 @@ Apple이 WWDC 2026 키노트에서 AI 코딩의 미래를 선언했다. Xcode에
 
 ## Apple WWDC 2026: Xcode에 Claude Agent + Codex, Siri는 Gemini로
 
-Apple이 Xcode에 Claude Agent와 OpenAI Codex를 에이전틱 코딩 도구로 추가한다고 발표했다([TechCrunch](https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/)). iOS/macOS 개발자들이 Xcode 내에서 직접 AI 에이전트를 활용할 수 있게 된다. 동시에 Siri는 Google과 연 $10억 규모 계약을 통해 1.2T 파라미터 Gemini 모델로 재구축된다([TechRadar](https://www.techradar.com/news/live/apple-wwdc-2026-live)). iOS 27과 macOS 27도 함께 공개됐다.
+Apple이 Xcode에 Claude Agent와 OpenAI Codex를 에이전틱 코딩 도구로 추가한다고 발표했다([TechCrunch](https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/)). iOS/macOS 개발자들이 Xcode 내에서 직접 AI 에이전트를 활용할 수 있게 된다. 동시에 Siri는 Google과 연 $10억 규모 계약을 통해 1.2T 파라미터 Gemini 모델로 재구축된다([Qz](https://qz.com/apple-siri-ai-google-gemini-wwdc-2026-060826)). iOS 27과 macOS 27 "Golden Gate"도 함께 공개됐다.
 
-특히 이번 WWDC는 Tim Cook의 마지막 키노트였다. Cook은 9월 1일부로 CEO에서 물러나며 하드웨어 엔지니어링 SVP John Ternus가 후임 CEO로 승계한다([CNBC](https://www.cnbc.com/2026/06/05/apple-wwdc-tim-cook-ai-siri-ternus.html)). 또한 iOS 27은 Extensions 시스템을 도입해 사용자가 Claude, Gemini, ChatGPT 중 기본 AI 어시스턴트를 직접 선택할 수 있게 된다([MacRumors](https://www.macrumors.com/guide/wwdc-2026-what-to-expect/)). Apple이 서드파티 AI 모델 선택권을 사용자에게 넘긴 것은 AI 코딩 에이전트 시장에 대한 역대 최대 규모의 외부 검증이다.
+특히 이번 WWDC는 Tim Cook의 마지막 키노트였다. Cook은 9월 1일부로 CEO에서 물러나며 하드웨어 엔지니어링 SVP John Ternus가 후임 CEO로 승계한다([Fox Business](https://www.foxbusiness.com/live-news/apple-tim-cook-wwdc26-keynote-iphone-ai-tech-june-8)). iOS 27은 Extensions 시스템을 도입해 사용자가 Claude, Gemini, ChatGPT 중 기본 AI 어시스턴트를 직접 선택할 수 있으며, App Store에 전용 Extensions 섹션이 신설된다([CNBC](https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html)). 다만 Siri AI는 규제 문제로 EU와 중국에서는 출시되지 않는다([Qz](https://qz.com/apple-siri-ai-google-gemini-wwdc-2026-060826)). 논란이 됐던 Liquid Glass 디자인도 투명도 조절 슬라이더 추가와 가독성 개선으로 수정됐다([TechCrunch](https://techcrunch.com/2026/06/08/apple-is-tweaking-its-controversial-liquid-glass-design/)).
 
 ## Claude Code GitHub Action: CVSS 7.8 공급망 취약점
 

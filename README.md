@@ -464,8 +464,10 @@ timeline
          : Gemini CLI sunset D-11 — enterprise-only after June 18 (Jun 7)
          : Anthropic agent billing D-8 — June 15 Agent SDK/CLI credit split (Jun 7)
          : Claude Opus 4.7 elevated errors 03:41–15:41 UTC — 12-hour degraded service, resolved (Jun 7)
-         : Apple WWDC 2026 keynote — Siri powered by Gemini, Xcode adds Claude Agent + OpenAI Codex, iOS 27 Extensions let users set default AI (Jun 8)
+         : Apple WWDC 2026 keynote — Siri powered by Gemini ($1B/yr deal), Xcode adds Claude Agent + OpenAI Codex, iOS 27 Extensions let users set default AI, macOS 27 "Golden Gate" (Jun 8)
          : Tim Cook's final WWDC — stepping down Sep 1, John Ternus named CEO (Jun 8)
+         : Siri AI not available in EU/China — regulatory challenges block Gemini integration in key markets (Jun 8)
+         : Apple Liquid Glass design adjustments — transparency slider, improved readability, less transparent icons (Jun 8)
          : Claude Code GitHub Action CVSS 7.8 — supply chain via malicious issues, patched v1.0.94+ (Jun 8)
          : Copilot 35-week decline to 48, billing Day 8 — developer exodus accelerates (Jun 8)
          : Code with Claude Tokyo D-2 — Research, Platform, Code tracks livestreamed (Jun 8)
@@ -974,7 +976,7 @@ quadrantChart
 > *"A flaw in Claude Code GitHub Actions allowed attackers to hijack repositories via a single malicious GitHub issue. The checkWritePermissions function unconditionally trusted any actor ending in '[bot]' regardless of actual permissions. Some variants actively exploited before disclosure. Fixed in claude-code-action v1.0.94+."* — The Hacker News/Flatt Security `2026.06.08`
 
 **Apple WWDC 2026 — Claude Agent in Xcode, Tim Cook's Final Keynote** (2026.06.08):
-> *"Apple announced Claude Agent and OpenAI Codex as agentic coding tools in Xcode at WWDC 2026 — Tim Cook's final keynote before stepping down Sep 1 (John Ternus named CEO). Siri is rebuilt on a 1.2T-parameter Gemini model in a reported $1B/year deal with Google. iOS 27 Extensions let users choose Claude, Gemini, or ChatGPT as their default AI assistant. The biggest validation yet for AI coding agents — Apple is betting on Anthropic and OpenAI, not building its own."* — TechCrunch/CNBC/MacRumors `2026.06.08`
+> *"Apple announced Claude Agent and OpenAI Codex as agentic coding tools in Xcode at WWDC 2026 — Tim Cook's final keynote before stepping down Sep 1 (John Ternus named CEO). Siri is rebuilt on a 1.2T-parameter Gemini model in a reported $1B/year deal with Google. iOS 27 Extensions let users choose Claude, Gemini, or ChatGPT as their default AI assistant. macOS 27 'Golden Gate' unveiled. However, Siri AI will not be available in EU or China due to regulatory challenges. Apple also tweaked its controversial Liquid Glass design with a transparency slider and improved readability."* — TechCrunch/CNBC/MacRumors `2026.06.08`
 
 **Copilot 35-Week Decline to 48** (2026.06.08):
 > *"Copilot drops to 48 — its 35th consecutive weekly decline, now firmly below the psychological 50 floor. Billing Day 8 continues to drive developer exodus. No sign of stabilization."* — The Register `2026.06.08`

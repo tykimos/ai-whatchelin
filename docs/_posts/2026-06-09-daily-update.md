@@ -1,51 +1,51 @@
 ---
-title: "Code with Claude Tokyo Opens Tomorrow — Agent Billing and Gemini CLI Sunset Loom"
+title: "Claude Fable 5 Drops — Anthropic's Most Powerful Model Goes Public on Tokyo Eve"
 date: 2026-06-09
 lang: en
 categories: [news]
-tags: [claude-code, anthropic, gemini-cli, antigravity, copilot, cursor, chatgpt, spacex]
-excerpt: "Code with Claude Tokyo opens tomorrow. Anthropic's agent billing split is 6 days out, Gemini CLI shutdown is 9 days away — the AI coding ecosystem braces for mid-June's triple transition."
+tags: [claude, anthropic, fable-5, mythos-5, claude-code, gemini-cli, copilot, cursor, chatgpt, spacex, apple]
+excerpt: "Anthropic launched Claude Fable 5, its most powerful public model ever. Released the day before Code with Claude Tokyo, Fable 5 exceeds all prior Anthropic models on nearly every benchmark. Stripe completed a 50-million-line codebase migration in one day."
 ---
 
-The AI coding tool market is staring down three converging deadlines in mid-June. Code with Claude Tokyo opens tomorrow, Anthropic's agent billing split is 6 days out, and Gemini CLI's full shutdown is 9 days away. Meanwhile, Apple's WWDC bombshell — Claude Agent and Codex in Xcode — is still reverberating across the industry.
+Anthropic dropped Claude Fable 5 the day before its Code with Claude Tokyo conference — the first publicly available Mythos-class model and Anthropic's most capable release to date. It exceeds all previously released Anthropic models on nearly every benchmark. The AI coding tool market just shifted again.
 
-## Code with Claude Tokyo D-1: Opens Tomorrow
+## Claude Fable 5: Anthropic's Most Powerful Public Model
 
-Anthropic's developer conference Code with Claude Tokyo runs June 10-11([claude.com](https://claude.com/code-with-claude/tokyo)). Day 1 features keynotes and technical sessions across Research, Platform, and Code tracks. Day 2 hosts indie developer workshops. After London's reveals of Managed Agents, Routines, and Dynamic Workflows, expectations are high for new announcements in Tokyo.
+Anthropic released Claude Fable 5, the first publicly available Mythos-class model([Anthropic](https://www.anthropic.com/news/claude-fable-5-mythos-5)). Pricing is $10/M input tokens, $50/M output tokens — less than half of Mythos Preview pricing. Free for Pro, Max, Team, and Enterprise subscribers through June 22([TechCrunch](https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/)). Stripe reported the model "compressed months of engineering into days," completing a 50-million-line codebase migration in a single day([CNBC](https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html)). Safety-wise, separate safety classifiers fall back to Opus 4.8 (not refusal) in high-risk domains, and 1,000+ hours of external red-teaming found no universal jailbreaks. Claude Mythos 5 also launched but remains restricted to Project Glasswing partners and select biomedical researchers.
 
-## Anthropic Agent Billing D-6: June 15 Transition
+## Claude Code v2.1.169: Safe Mode and /cd Command
 
-Starting June 15, automated Claude workloads — Agent SDK, `claude -p` headless mode, GitHub Actions, third-party Agent SDK apps — will no longer draw from subscription limits([TechTimes](https://www.techtimes.com/articles/317625/20260602/anthropic-ends-subscription-subsidy-agents-june-15-credit-pool-replaces-flat-rate-access.htm)). They move to a separate monthly credit pool at standard API rates: $20 for Pro, $100 for Max 5x, $200 for Max 20x. When credits run out, automated requests stop — no automatic overflow, manual opt-in required([FindSkill.ai](https://findskill.ai/blog/claude-code-pricing-after-june-15-decision-table/)). Interactive Claude Code usage (terminal, IDE, Cowork) remains unaffected.
+Claude Code v2.1.169 shipped today([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). The new `--safe-mode` flag disables plugins, skills, and other customizations for troubleshooting. The `/cd` command moves sessions to different working directories without disrupting the prompt cache. Also includes `disableBundledSkills` setting, improved `claude agents --json` output, and reduced CPU usage for remote sessions.
 
-## Gemini CLI Sunset D-9: June 18 Shutdown
+## Code with Claude Tokyo: Opens Tomorrow
 
-Gemini CLI will stop serving free and personal users on June 18([Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)). Only paid Gemini Enterprise Agent Platform API keys will continue working. Community backlash over the forced migration from open-source Gemini CLI to closed-source Antigravity CLI continues, with the Linux Foundation formally highlighting open-source trust erosion([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)).
+Anthropic's developer conference runs June 10-11 with Research, Platform, and Code tracks([claude.com](https://claude.com/code-with-claude/tokyo)). Coming right after Fable 5's launch, expectations for new announcements are high. Day 2 features indie developer workshops and Applied AI hands-on sessions([ChatForest](https://chatforest.com/builders-log/code-with-claude-tokyo-june-10-builder-preview-guide/)).
 
-## WWDC Aftermath: Apple's AI Coding Bet Reshapes the Market
+## Google CEO: 75% of New Code Is AI-Generated
 
-Yesterday's announcement that Apple is embedding Claude Agent and OpenAI Codex in Xcode, plus iOS 27 Extensions letting users choose their default AI assistant, continues to ripple through the industry([TechCrunch](https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/)). Apple chose Anthropic and OpenAI over building in-house — massively strengthening both companies' enterprise positioning while intensifying competitive pressure on the Microsoft-GitHub camp.
-
-## Google: 75% of New Code Is AI-Generated
-
-Google CEO Sundar Pichai revealed that 75% of the company's new code is now generated by AI([Fast Company](https://www.fastcompany.com/91531519/google-ceo-says-75-of-the-companys-code-is-ai-generated)). The trajectory has been steep: 25% in early 2024, 50% by late 2025, now 75%. Complex code migrations are completing 6x faster with AI agent collaboration. Snap separately reports 65% AI-generated code([DevOps.com](https://devops.com/google-ceo-says-75-of-new-code-is-ai-generated/)). The shift from engineers writing code to engineers supervising AI agents is accelerating across the industry.
+Google CEO Sundar Pichai revealed that 75% of the company's new code is now AI-generated([Fast Company](https://www.fastcompany.com/91531519/google-ceo-says-75-of-the-companys-code-is-ai-generated)). The trajectory has been steep — from 25% in early 2024 to 75% now. Snap separately reports 65%([DevOps.com](https://devops.com/google-ceo-says-75-of-new-code-is-ai-generated/)). Engineers are rapidly shifting from writing code to supervising AI agents.
 
 ## GitHub Copilot: 47, 36-Week Decline
 
-Copilot dropped to **47** — its 36th consecutive weekly decline. Day 9 of usage-based billing shows no floor in sight below the psychological 50 mark. Migrations to Claude Code and Codex CLI are accelerating, and the SpaceX IPO (D-3, trading June 12) securing Cursor acquisition funding is expanding alternative IDE options([The Register](https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826)).
+Copilot dropped to **47** — its 36th consecutive weekly decline([The Register](https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826)). Day 9 of usage-based billing, and Fable 5's launch intensifies competitive pressure. SpaceX IPO (D-3, trading June 12) securing Cursor acquisition funding continues to expand alternative options.
+
+## Countdown
+
+Code with Claude Tokyo opens tomorrow (D-0). SpaceX IPO (D-3, June 12), Anthropic agent billing split (D-6, June 15), Gemini CLI shutdown (D-9, June 18) — mid-June is the AI coding ecosystem's busiest week yet.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | Tokyo D-1, WWDC Xcode integration aftermath |
+| Claude Code | 99 | — | Fable 5 launch, Tokyo D-1, Xcode integration |
 | ChatGPT | 96 | — | 1B MAU, memory upgrade rolling out |
-| Cursor | 96 | — | SpaceX acquisition, Teams pricing July 1 |
-| Claude AI | 95 | — | Agent billing D-6, stable operations |
-| Codex CLI | 87 | — | WWDC Xcode integration confirmed, session archiving |
-| Windsurf | 85 | — | Devin Desktop stabilizing, $15 price advantage |
-| Aider | 68 | — | Open-source CLI stable, 40K+ stars |
-| Gemini CLI | 66 | ↓1 | Sunset D-9, free user migration accelerating |
-| Antigravity | 66 | — | Absorbing Gemini CLI migrants, approaching parity |
-| GH Copilot | 47 | ↓1 | 36-week decline, billing Day 9 |
+| Cursor | 96 | — | SpaceX acquisition D-3, Teams pricing July 1 |
+| Claude AI | 96 | ↑1 | Fable 5 launch, most powerful public model |
+| Codex CLI | 87 | — | WWDC Xcode integration, session archiving |
+| Windsurf | 85 | — | Devin Desktop stabilizing, $15 price |
+| Aider | 68 | — | Open-source CLI stable |
+| Antigravity | 66 | — | Absorbing Gemini CLI migrants |
+| Gemini CLI | 66 | — | Sunset D-9, free user migration |
+| GH Copilot | 47 | — | 36-week decline, billing Day 9 |
 
-Mid-June is shaping up as a watershed for the AI coding tool market. The Tokyo conference, agent billing transition, and Gemini CLI shutdown converging simultaneously will force decisive tool choices for developers worldwide.
+Claude Fable 5's launch marks a new chapter in the AI model race. All eyes turn to Tokyo tomorrow for what else Anthropic has in store.

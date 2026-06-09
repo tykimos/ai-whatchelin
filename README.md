@@ -483,6 +483,9 @@ timeline
          : ChatGPT Lockdown Mode — optional security limiting web/agent access (Jun 9)
          : Google CEO Pichai: 75% of new code at Google is AI-generated — up from 25% in early 2024, Snap at 65% (Jun 9)
          : Claude Code Foundation Models Swift package — typed Swift outputs for Apple developers post-WWDC (Jun 9)
+         : Claude Fable 5 + Mythos 5 launched — first public Mythos-class model, $10/$50 per MTok, free for subscribers through Jun 22 (Jun 9)
+         : Stripe: Fable 5 "compressed months of engineering into days" — 50M-line codebase migration in one day (Jun 9)
+         : Claude Code v2.1.169 — --safe-mode flag, /cd command, disableBundledSkills setting (Jun 9)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -547,7 +550,7 @@ flowchart TD
 
 | Rank | Tool | Category | Evidence |
 |:---:|---|---|---|
-| 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (88.6%), Opus 4.8, best code quality |
+| 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (88.6%), Fable 5, best code quality |
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B valuation talks, $2B+ ARR, best tab autocomplete |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/Plugin | Most widely adopted AI dev tool, 9+ IDEs, $10/mo lowest price |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 #1, Cascade memory, strong on large codebases |
@@ -989,6 +992,12 @@ quadrantChart
 
 **Copilot 35-Week Decline to 48** (2026.06.08):
 > *"Copilot drops to 48 — its 35th consecutive weekly decline, now firmly below the psychological 50 floor. Billing Day 8 continues to drive developer exodus. No sign of stabilization."* — The Register `2026.06.08`
+
+**Claude Fable 5 + Mythos 5 Launched** (2026.06.09):
+> *"Anthropic released Claude Fable 5 — the first publicly available Mythos-class model, exceeding all previously released Anthropic models on nearly all benchmarks. Pricing at $10/$50 per MTok (less than half of Mythos Preview). Free for Pro, Max, Team, Enterprise through June 22. Stripe reported 'compressed months of engineering into days' — completing a 50M-line codebase migration in one day. Claude Mythos 5 also launched but restricted to Project Glasswing partners."* — Anthropic/TechCrunch/CNBC `2026.06.09`
+
+**Claude Code v2.1.169** (2026.06.09):
+> *"New --safe-mode flag disables customizations (plugins, skills) for troubleshooting. /cd command moves sessions to different working directories without disrupting prompt cache. disableBundledSkills setting, improved claude agents --json output, reduced CPU usage for remote sessions."* — code.claude.com/changelog `2026.06.09`
 
 **2026 Power Stack Formula**:
 ```
@@ -1830,7 +1839,7 @@ General Office
 |---|---|---|---|---|---|---|
 | **Provider** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
 | **Site** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
-| **Latest Model** | GPT-5.5 | Claude Opus 4.7 | Gemini 3.1 Pro | GPT-5.5 + Claude | Grok 4.20 | Sonar Pro |
+| **Latest Model** | GPT-5.5 | Claude Fable 5 | Gemini 3.1 Pro | GPT-5.5 + Claude | Grok 4.20 | Sonar Pro |
 | **Free** | O | O | O | O | O | O |
 | **Starting Price** | $8/mo (Go) | $20/mo (Pro) | $19.99/mo | $18/mo | $30/mo | $20/mo |
 | **Max Price** | $200/mo (Pro) | $200/mo (Max) | $249.99/mo (Ultra) | $30/mo | $30/mo | $325/seat/mo |
@@ -1965,7 +1974,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-06-06)
+### Fact Check Log (2026-06-09)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -1973,7 +1982,7 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering June 15**, **Big Four standardization** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.161** latest, **Opus 4.8** SWE-bench 88.6%, dynamic workflows, fast mode 2.5x; MCP server reconnect fix, API gateway credential fix; weekly limits +50% through Jul 13 |
+| Claude Code | code.claude.com/changelog | **v2.1.169** latest, **Fable 5** launched — first public Mythos-class model, $10/$50 per MTok, free through Jun 22; --safe-mode, /cd command; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13 |
 | Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |

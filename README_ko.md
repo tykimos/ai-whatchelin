@@ -483,6 +483,9 @@ timeline
          : ChatGPT Lockdown Mode — 웹/에이전트 접근 제한 보안 옵션 (6/9)
          : Google CEO Pichai: Google 신규 코드 75%가 AI 생성 — 2024년 초 25%에서 급증, Snap 65% (6/9)
          : Claude Code Foundation Models Swift 패키지 — WWDC 이후 Apple 개발자 지원 (6/9)
+         : Claude Fable 5 + Mythos 5 출시 — 최초 공개 Mythos급 모델, $10/$50 per MTok, 6/22까지 구독자 무료 (6/9)
+         : Stripe: Fable 5 "수개월 엔지니어링을 며칠로 압축" — 5천만 줄 코드베이스 하루 만에 마이그레이션 (6/9)
+         : Claude Code v2.1.169 — --safe-mode 플래그, /cd 명령어, disableBundledSkills 설정 (6/9)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -547,7 +550,7 @@ flowchart TD
 
 | 순위 | 도구 | 카테고리 | 근거 |
 |:---:|---|---|---|
-| 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (88.6%), Opus 4.8, 코드 품질 최강 |
+| 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (88.6%), Fable 5, 코드 품질 최강 |
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B 밸류 협상 중, $2B+ ARR, 탭 자동완성 최강 |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE, $10/월 최저가 |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 1위, Cascade 메모리, 대규모 코드베이스 강점 |
@@ -1004,6 +1007,12 @@ quadrantChart
 
 **Copilot 35주 연속 하락 48** (2026.06.08):
 > *"Copilot이 48을 기록하며 35주 연속 하락했다. 심리적 지지선 50 아래로 확실히 추락했다. 종량제 전환 8일차, 이탈이 계속 가속되고 있으며 안정화 조짐은 보이지 않는다."* — The Register `2026.06.08`
+
+**Claude Fable 5 + Mythos 5 출시** (2026.06.09):
+> *"Anthropic이 Claude Fable 5를 출시했다 — 최초로 공개된 Mythos 클래스 모델로, 기존 모든 Anthropic 모델을 거의 모든 벤치마크에서 능가한다. 가격은 $10/$50 per MTok(Mythos Preview의 절반 이하). Pro, Max, Team, Enterprise 구독자에게 6/22까지 무료 제공. Stripe는 '수개월의 엔지니어링을 며칠로 압축했다'며 5천만 줄 코드베이스 마이그레이션을 하루에 완료. Claude Mythos 5도 출시됐지만 Project Glasswing 파트너로 제한."* — Anthropic/TechCrunch/CNBC `2026.06.09`
+
+**Claude Code v2.1.169** (2026.06.09):
+> *"새로운 --safe-mode 플래그로 플러그인·스킬 등 커스터마이제이션을 비활성화한 채 트러블슈팅 가능. /cd 명령어로 프롬프트 캐시 중단 없이 작업 디렉토리 변경. disableBundledSkills 설정, claude agents --json 개선, 원격 세션 CPU 절감."* — code.claude.com/changelog `2026.06.09`
 
 **2026 파워 스택 공식**:
 ```
@@ -1796,7 +1805,7 @@ flowchart TD
 |---|---|---|---|---|---|---|
 | **제공사** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
 | **사이트** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
-| **최신 모델** | GPT-5.5 | Claude Opus 4.7 | Gemini 3.1 Pro | GPT-5.5 + Claude | Grok 4.20 | Sonar Pro |
+| **최신 모델** | GPT-5.5 | Claude Fable 5 | Gemini 3.1 Pro | GPT-5.5 + Claude | Grok 4.20 | Sonar Pro |
 | **무료** | O | O | O | O | O | O |
 | **시작가** | $8/월 (Go) | $20/월 (Pro) | $19.99/월 | $18/월 | $30/월 | $20/월 |
 | **최고가** | $200/월 (Pro) | $200/월 (Max) | $249.99/월 (Ultra) | $30/월 | $30/월 | $325/seat/월 |
@@ -1925,7 +1934,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-06-06)
+### 팩트 체크 로그 (2026-06-09)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -1933,7 +1942,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **개인 금융** (Pro, Plaid 12K+ 은행), **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 6/15**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.161** 최신, **Opus 4.8** SWE-bench 88.6%, 동적 워크플로우, 패스트 모드 2.5x; MCP 서버 재연결 수정, API 게이트웨이 자격증명 수정; 주간 한도 50%↑ 7/13까지 |
+| Claude Code | code.claude.com/changelog | **v2.1.169** 최신, **Fable 5** 출시 — 최초 공개 Mythos급 모델, $10/$50 per MTok, 6/22까지 무료; --safe-mode, /cd 명령어; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지 |
 | Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |

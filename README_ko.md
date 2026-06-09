@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-08</sub>
+  <sub>마지막 업데이트: 2026-06-09</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.08-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.09-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -474,6 +474,13 @@ timeline
          : Gemini CLI 종료 D-10 — 6/18 이후 기업 고객만 유지 (6/8)
          : Anthropic 에이전트 과금 D-7 — 6/15 Agent SDK/CLI 크레딧 분리 (6/8)
          : Gemini API 레거시 스키마 제거 마감 — 오늘부 breaking change 적용 (6/8)
+         : Code with Claude 도쿄 D-1 — Research·Platform·Code 트랙 6/10-11 (6/9)
+         : Copilot 36주 연속 하락 47, 종량제 9일차 — 50선 아래 바닥 미확인 (6/9)
+         : Gemini CLI 종료 D-9 — 6/18 이후 기업 고객만 유지 (6/9)
+         : Anthropic 에이전트 과금 D-6 — 6/15 자동화 워크로드 크레딧 풀 전환 (6/9)
+         : SpaceX IPO D-3 — 6/12 거래 개시, $1.75조 밸류에이션, Goldman 주관 (6/9)
+         : ChatGPT 메모리 업그레이드 배포 — 자동 업데이트, Plus/Pro 용량 2배 (6/9)
+         : ChatGPT Lockdown Mode — 웹/에이전트 접근 제한 보안 옵션 (6/9)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1438,26 +1445,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-26", "05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08"]
+    x-axis ["05-27", "05-28", "05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09"]
     y-axis "인기 점수" 45 --> 100
-    line "Claude Code" [98, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48]
+    line "Claude Code" [98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [81, 80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67]
-    line "Antigravity" [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65, 65, 66]
+    line "Windsurf" [81, 81, 81, 81, 81, 81, 81, 82, 83, 84, 85, 85, 85, 85]
+    line "Codex CLI" [88, 88, 88, 88, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [80, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66]
+    line "Antigravity" [56, 57, 58, 59, 60, 61, 62, 63, 64, 64, 65, 65, 66, 66]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-48↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-47↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-67↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-66↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-66↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-66―-3498DB?style=flat-square" alt="Antigravity">
 </p>
 
 

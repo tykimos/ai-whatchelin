@@ -481,6 +481,8 @@ timeline
          : SpaceX IPO D-3 — 6/12 거래 개시, $1.75조 밸류에이션, Goldman 주관 (6/9)
          : ChatGPT 메모리 업그레이드 배포 — 자동 업데이트, Plus/Pro 용량 2배 (6/9)
          : ChatGPT Lockdown Mode — 웹/에이전트 접근 제한 보안 옵션 (6/9)
+         : Google CEO Pichai: Google 신규 코드 75%가 AI 생성 — 2024년 초 25%에서 급증, Snap 65% (6/9)
+         : Claude Code Foundation Models Swift 패키지 — WWDC 이후 Apple 개발자 지원 (6/9)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1217,6 +1219,9 @@ quadrantChart
 
 **SpaceX IPO 로드쇼 조기 시작** (2026.06.06):
 > *"SpaceX IPO 로드쇼가 예상보다 빠른 6월 4일 시작 — SEC 심사가 예상보다 빨리 완료됐다. $135/주에 $1.77조 밸류에이션으로 미국 시가총액 7위 기업이 되며 Tesla($1.6조)를 넘어선다. Goldman Sachs 주관, Morgan Stanley·BofA·Citi·JPMorgan 참여."* — CNBC/Yahoo Finance `2026.06.06`
+
+**Google: 신규 코드 75%가 AI 생성** (2026.06.09):
+> *"Google CEO 순다르 피차이가 신규 코드의 75%가 AI로 생성된다고 밝혔다 — 2024년 초 25%에서 2025년 말 50%를 거쳐 급증했다. AI 에이전트와 엔지니어의 협업으로 복잡한 코드 마이그레이션이 1년 전 대비 6배 빨라졌다. Snap도 별도로 65% AI 생성 코드 비율을 보고했다."* — Fast Company `2026.06.09`
 
 ---
 

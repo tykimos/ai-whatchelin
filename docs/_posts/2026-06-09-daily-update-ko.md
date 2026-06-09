@@ -25,6 +25,10 @@ Gemini CLI가 6월 18일부로 무료·개인 사용자에 대한 서비스를 �
 
 어제 Apple이 Xcode에 Claude Agent와 OpenAI Codex를 탑재하고, iOS 27 Extensions로 사용자가 기본 AI를 선택할 수 있게 한 발표가 업계를 흔들고 있다([TechCrunch](https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/)). Anthropic과 OpenAI를 선택하고 자체 모델을 만들지 않은 Apple의 결정은 두 회사의 엔터프라이즈 입지를 대폭 강화하는 동시에, Microsoft-GitHub 진영에 대한 경쟁 압력을 높이고 있다.
 
+## Google: 신규 코드 75%가 AI 생성
+
+Google CEO 순다르 피차이가 신규 코드의 75%가 AI로 생성된다고 밝혔다([Fast Company](https://www.fastcompany.com/91531519/google-ceo-says-75-of-the-companys-code-is-ai-generated)). 2024년 초 25%에서 2025년 말 50%를 거쳐 급증한 수치다. 복잡한 코드 마이그레이션이 AI 에이전트 협업으로 1년 전 대비 6배 빨라졌다. Snap도 65% AI 생성 비율을 보고했다([DevOps.com](https://devops.com/google-ceo-says-75-of-new-code-is-ai-generated/)). 엔지니어 역할이 코드 작성에서 AI 감독으로 빠르게 전환되고 있다.
+
 ## GitHub Copilot: 47, 36주 연속 하락
 
 Copilot이 **47**을 기록하며 36주 연속 하락했다. 종량제 전환 9일차로, 50선 아래 추락 후 바닥이 보이지 않는다. Claude Code와 Codex CLI로의 이전이 가속화되고 있으며, SpaceX IPO(D-3, 6/12 거래 개시)가 Cursor 인수 자금을 확보하면서 대안 IDE 선택지도 넓어지고 있다([The Register](https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826)).

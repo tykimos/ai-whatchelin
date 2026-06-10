@@ -486,6 +486,8 @@ timeline
          : Claude Fable 5 + Mythos 5 출시 — 최초 공개 Mythos급 모델, $10/$50 per MTok, 6/22까지 구독자 무료 (6/9)
          : Stripe: Fable 5 "수개월 엔지니어링을 며칠로 압축" — 5천만 줄 코드베이스 하루 만에 마이그레이션 (6/9)
          : Claude Code v2.1.169 — --safe-mode 플래그, /cd 명령어, disableBundledSkills 설정 (6/9)
+         : Copilot 서드파티 코딩 에이전트 보안 검증 GA — CodeQL 자동 분석, 비GitHub 에이전트 대상 (6/9)
+         : Fable 5 Copilot 사용 시 최대 30일 데이터 보존 요구 — 안전 분류기 의존성 (6/9)
          : Code with Claude 도쿄 1일차 — Research/Platform/Code 3트랙, NEC 3만 명 글로벌 배포 (6/10)
          : Fable 5 첫 반응 — Simon Willison "괴물급 성능", Stripe 5천만 줄 마이그레이션 확인 (6/10)
          : NEC, Anthropic 일본 최초 글로벌 파트너 — NEC 직원 3만 명+ Claude 배포 (6/10)
@@ -493,6 +495,8 @@ timeline
          : SpaceX IPO D-2 — 6/11 가격 결정, 6/12 거래 개시, $1.75조 (6/10)
          : Anthropic 에이전트 과금 D-5 — 6/15 Agent SDK/CLI 크레딧 풀 분리 (6/10)
          : Gemini CLI 종료 D-8 — Antigravity CLI 전환 가속화 (6/10)
+         : Fable 5 SWE-Bench Pro 80.3%, FrontierCode Diamond 29.3% — Karpathy "메이저 버전 업그레이드급 도약" (6/10)
+         : Copilot CLI v1.0.60 — 탭 자동완성 상위 경로 탐색, 최대 추론 노력도 지원 (6/5)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1017,6 +1021,9 @@ quadrantChart
 
 **Claude Fable 5 + Mythos 5 출시** (2026.06.09):
 > *"Anthropic이 Claude Fable 5를 출시했다 — 최초로 공개된 Mythos 클래스 모델로, 기존 모든 Anthropic 모델을 거의 모든 벤치마크에서 능가한다. 가격은 $10/$50 per MTok(Mythos Preview의 절반 이하). Pro, Max, Team, Enterprise 구독자에게 6/22까지 무료 제공. Stripe는 '수개월의 엔지니어링을 며칠로 압축했다'며 5천만 줄 코드베이스 마이그레이션을 하루에 완료. Claude Mythos 5도 출시됐지만 Project Glasswing 파트너로 제한."* — Anthropic/TechCrunch/CNBC `2026.06.09`
+
+**Fable 5 벤치마크 & 반응** (2026.06.10):
+> *"Fable 5가 SWE-Bench Pro 80.3%(Opus 4.8 대비 +11), FrontierCode Diamond 29.3%(Opus 4.8 13.4%)를 기록했다. Karpathy는 '메이저 버전 업그레이드급 도약'이라 평가했고, Simon Willison은 '괴물급'이라 표현했다. 참고: Copilot에서 Fable 5 사용 시 Anthropic 안전 분류기를 위해 최대 30일 데이터 보존이 필요하다."* — TrueFoundry/TechCrunch/GitHub Changelog `2026.06.10`
 
 **Claude Code v2.1.169** (2026.06.09):
 > *"새로운 --safe-mode 플래그로 플러그인·스킬 등 커스터마이제이션을 비활성화한 채 트러블슈팅 가능. /cd 명령어로 프롬프트 캐시 중단 없이 작업 디렉토리 변경. disableBundledSkills 설정, claude agents --json 개선, 원격 세션 CPU 절감."* — code.claude.com/changelog `2026.06.09`

@@ -486,6 +486,8 @@ timeline
          : Claude Fable 5 + Mythos 5 launched — first public Mythos-class model, $10/$50 per MTok, free for subscribers through Jun 22 (Jun 9)
          : Stripe: Fable 5 "compressed months of engineering into days" — 50M-line codebase migration in one day (Jun 9)
          : Claude Code v2.1.169 — --safe-mode flag, /cd command, disableBundledSkills setting (Jun 9)
+         : Copilot third-party coding agent security validation GA — CodeQL auto-analysis for non-GitHub agents (Jun 9)
+         : Fable 5 on Copilot requires data retention up to 30 days — safety classifier dependency (Jun 9)
          : Code with Claude Tokyo Day 1 — Research/Platform/Code 3 tracks, NEC 30K global deployment (Jun 10)
          : Fable 5 first reactions — Simon Willison "something of a beast," Stripe 50M-line migration confirmed (Jun 10)
          : NEC becomes first Japan-based Anthropic global partner — Claude to 30,000+ NEC employees (Jun 10)
@@ -493,6 +495,8 @@ timeline
          : SpaceX IPO D-2 — pricing June 11, trading June 12 at $1.75T (Jun 10)
          : Anthropic agent billing D-5 — June 15 Agent SDK/CLI credit pool split (Jun 10)
          : Gemini CLI sunset D-8 — Antigravity CLI migration accelerating (Jun 10)
+         : Fable 5 SWE-Bench Pro 80.3%, FrontierCode Diamond 29.3% — Karpathy: "a major-version-bump-deserving step change" (Jun 10)
+         : Copilot CLI v1.0.60 — tab complete parent traversal, max reasoning effort support (Jun 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1002,6 +1006,9 @@ quadrantChart
 
 **Claude Fable 5 + Mythos 5 Launched** (2026.06.09):
 > *"Anthropic released Claude Fable 5 — the first publicly available Mythos-class model, exceeding all previously released Anthropic models on nearly all benchmarks. Pricing at $10/$50 per MTok (less than half of Mythos Preview). Free for Pro, Max, Team, Enterprise through June 22. Stripe reported 'compressed months of engineering into days' — completing a 50M-line codebase migration in one day. Claude Mythos 5 also launched but restricted to Project Glasswing partners."* — Anthropic/TechCrunch/CNBC `2026.06.09`
+
+**Fable 5 Benchmarks & Reactions** (2026.06.10):
+> *"Fable 5 posts 80.3% on SWE-Bench Pro (+11 over Opus 4.8) and 29.3% on FrontierCode Diamond (vs 13.4%). Karpathy called it 'a major-version-bump-deserving step change forward.' Simon Willison: 'something of a beast.' Note: Fable 5 on Copilot requires data retention up to 30 days for Anthropic's safety classifiers."* — TrueFoundry/TechCrunch/GitHub Changelog `2026.06.10`
 
 **Claude Code v2.1.169** (2026.06.09):
 > *"New --safe-mode flag disables customizations (plugins, skills) for troubleshooting. /cd command moves sessions to different working directories without disrupting prompt cache. disableBundledSkills setting, improved claude agents --json output, reduced CPU usage for remote sessions."* — code.claude.com/changelog `2026.06.09`

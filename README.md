@@ -507,6 +507,9 @@ timeline
          : Anthropic agent billing D-4 — June 15 Agent SDK/CLI credit pool split (Jun 11)
          : SpaceX IPO 4x oversubscribed — $150B orders for $75B offering, Gulf funds billions (Jun 11)
          : Copilot VS 2026 May update — Plan agent, Skills panel, multi-file change summaries (Jun 4)
+         : Cursor Bugbot 3x faster — 90-second reviews, 10% more bugs, 22% cheaper, /review command (Jun 10)
+         : VS Code 1.124 — Agents window stable preview, Autopilot default, background sessions (Jun 10)
+         : Copilot Desktop App preview opens to all paid subscribers — agent-native sessions (Jun 11)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

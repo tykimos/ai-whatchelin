@@ -21,6 +21,10 @@ Code with Claude Tokyo Extended kicks off today([claude.com](https://claude.com/
 
 Fable 5 has been deployed on Harvey, the legal AI platform([Harvey](https://www.harvey.ai/blog/fable-5-now-available-in-harvey)). This marks the first Mythos-class model deployed for legal enterprise use. It's already GA on GitHub Copilot([GitHub Blog](https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot/)), and Karpathy called it "a major-version-bump-deserving step change"([Vellum](https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained)). At 80.3% on SWE-Bench Pro, it leads the second-best model by 11 points.
 
+## Cursor Bugbot: 3x Faster, 10% More Bugs Found
+
+Cursor shipped a major Bugbot update on June 10 that cuts average review time from about five minutes to roughly 90 seconds — a 3x speed improvement powered by Composer 2.5([Cursor Blog](https://cursor.com/blog/bugbot-updates-june-2026)). Default-effort runs now surface 10% more bugs per run at 22% lower cost. The new `/review` command lets developers run Bugbot locally before opening a PR, and it syncs with GitHub/GitLab to avoid double-charging on identical diffs([Digital Applied](https://www.digitalapplied.com/blog/cursor-bugbot-90-second-reviews-june-2026-release)).
+
 ## Codex CLI v0.139.0: Web Search in Code Mode
 
 Codex CLI shipped its v0.139.0 stable release([OpenAI Changelog](https://developers.openai.com/codex/changelog)). Code mode can now call standalone web search directly, and MCP schema compatibility improved with oneOf/allOf construct preservation. `codex doctor` added editor and pager environment details, and the plugin marketplace now exposes sources in JSON output with faster cached-catalog listing.
@@ -28,6 +32,10 @@ Codex CLI shipped its v0.139.0 stable release([OpenAI Changelog](https://develop
 ## Copilot: 45, 38-Week Decline
 
 Copilot dropped to **45** — its 38th consecutive weekly decline([ghacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). Day 11 of usage-based billing. The community forum saw 904 downvotes, and some users report 10-100x cost increases([GitHub Discussions](https://github.com/orgs/community/discussions/192948)). Market share plunged from 67% to 51%.
+
+## VS Code 1.124: Agents Window Hits Stable, Copilot Desktop Opens
+
+VS Code 1.124 shipped on June 10 with the Agents window moving to Stable preview — a dedicated surface for directing multi-step coding tasks with parallel workstreams([VS Code](https://code.visualstudio.com/updates/v1_124)). Autopilot is now enabled by default, with smarter task-completion detection. Meanwhile, the Copilot Desktop App technical preview opened to all paid subscribers, removing the waitlist for agent-native development sessions([Windows News](https://windowsnews.ai/article/github-copilot-desktop-app-preview-opens-to-paid-users-agent-native-development-shift.425251)).
 
 ## Countdown
 

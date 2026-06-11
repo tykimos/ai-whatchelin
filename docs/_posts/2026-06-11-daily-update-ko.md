@@ -21,6 +21,10 @@ Code with Claude 도쿄 Extended가 오늘 열린다([claude.com](https://claude
 
 Fable 5가 법률 AI 플랫폼 Harvey에 도입됐다([Harvey](https://www.harvey.ai/blog/fable-5-now-available-in-harvey)). Mythos급 모델이 법률 산업에 배포된 첫 사례다. GitHub Copilot에서도 이미 GA로 제공 중이며([GitHub Blog](https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot/)), Karpathy는 "메이저 버전 업그레이드급 도약"이라고 평가했다([Vellum](https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained)). SWE-Bench Pro 80.3%로 2위 대비 11포인트 앞서며 벤치마크 독주 중이다.
 
+## Cursor Bugbot: 3배 빠르게, 버그 발견 10% 증가
+
+Cursor가 6월 10일 Bugbot 대규모 업데이트를 배포했다. Composer 2.5를 탑재해 평균 리뷰 시간이 약 5분에서 90초로 3배 단축됐다([Cursor Blog](https://cursor.com/blog/bugbot-updates-june-2026)). 기본 노력도 실행 시 런당 버그 발견률이 10% 증가하고 비용은 22% 절감됐다. 새로운 `/review` 명령어로 PR 오픈 전에 로컬에서 Bugbot을 실행할 수 있으며, GitHub/GitLab과 동기화해 동일 diff에 대한 중복 과금을 방지한다([Digital Applied](https://www.digitalapplied.com/blog/cursor-bugbot-90-second-reviews-june-2026-release)).
+
 ## Codex CLI v0.139.0: 코드 모드에서 웹 검색
 
 Codex CLI가 v0.139.0 안정 릴리스를 배포했다([OpenAI Changelog](https://developers.openai.com/codex/changelog)). 코드 모드에서 독립형 웹 검색을 직접 호출할 수 있게 되었고, MCP 스키마 호환성이 개선되어 대규모 스키마와의 통합이 더 매끄러워졌다. `codex doctor`에 에디터·페이저 환경 정보가 추가되고, 플러그인 마켓플레이스에서 JSON 출력이 지원된다.
@@ -28,6 +32,10 @@ Codex CLI가 v0.139.0 안정 릴리스를 배포했다([OpenAI Changelog](https:
 ## Copilot: 45, 38주 연속 하락
 
 Copilot이 **45**로 떨어졌다 — 38주 연속 하락이다([ghacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). 종량제 전환 11일째. 커뮤니티 포럼에서 904개 비추천을 받았으며, 일부 사용자는 10-100배 비용 증가를 경험하고 있다([GitHub Discussions](https://github.com/orgs/community/discussions/192948)). 시장점유율은 67%에서 51%로 추락했다.
+
+## VS Code 1.124: Agents 윈도우 안정판 진입, Copilot 데스크톱 개방
+
+VS Code 1.124가 6월 10일 출시되면서 Agents 윈도우가 안정 프리뷰로 전환됐다 — 멀티스텝 코딩 작업과 병렬 워크스트림을 관리하는 전용 화면이다([VS Code](https://code.visualstudio.com/updates/v1_124)). Autopilot이 기본값으로 활성화되어 작업 완료 판단이 더 정교해졌다. 한편, Copilot 데스크톱 앱 테크니컬 프리뷰가 전체 유료 구독자에게 개방되어 대기 목록 없이 에이전트 네이티브 개발 세션을 이용할 수 있게 됐다([Windows News](https://windowsnews.ai/article/github-copilot-desktop-app-preview-opens-to-paid-users-agent-native-development-shift.425251)).
 
 ## 카운트다운
 

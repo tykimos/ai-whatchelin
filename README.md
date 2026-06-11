@@ -505,6 +505,8 @@ timeline
          : Copilot 38-week decline to 45, billing Day 11 — no floor in sight (Jun 11)
          : Gemini CLI sunset D-7 — one week to enterprise-only deadline (Jun 11)
          : Anthropic agent billing D-4 — June 15 Agent SDK/CLI credit pool split (Jun 11)
+         : SpaceX IPO 4x oversubscribed — $150B orders for $75B offering, Gulf funds billions (Jun 11)
+         : Copilot VS 2026 May update — Plan agent, Skills panel, multi-file change summaries (Jun 4)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

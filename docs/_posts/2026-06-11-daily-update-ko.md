@@ -11,7 +11,7 @@ SpaceX가 오늘 밤 시장 마감 후 IPO 가격을 확정한다. $135/주, $1.
 
 ## SpaceX IPO: 역대 최대, 내일 거래 시작
 
-SpaceX가 오늘 $135/주 고정가로 IPO 가격을 최종 확정한다([CNBC](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)). 5억 5,560만 주를 매도해 약 $750억을 조달하며, $1.75조 밸류에이션은 역대 최대 IPO 기록이다([TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/261957856-spacex-ipo-at-135-what-the-s-1-financials-actually-say-tradingkey)). 나스닥 패스트트랙 룰로 15거래일 내 나스닥-100 편입이 가능해, 약 $70억 규모의 인덱스 펀드 매수가 예상된다. 이 IPO로 확보되는 자금은 $600억 Cursor 인수 거래의 핵심 재원이 된다.
+SpaceX가 오늘 $135/주 고정가로 IPO 가격을 최종 확정한다([CNBC](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)). 5억 5,560만 주를 매도해 약 $750억을 조달하며, $1.75조 밸류에이션은 역대 최대 IPO 기록이다([TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/261957856-spacex-ipo-at-135-what-the-s-1-financials-actually-say-tradingkey)). Bloomberg에 따르면 4배 이상 초과 청약되어 약 $1,500억 규모의 주문이 쏟아졌고, 걸프 국부펀드만 수십억 달러를 투입했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-10/spacex-ipo-is-said-to-be-more-than-four-times-oversubscribed)). 나스닥 패스트트랙 룰로 15거래일 내 나스닥-100 편입이 가능해, 약 $70억 규모의 인덱스 펀드 매수가 예상된다. 이 IPO로 확보되는 자금은 $600억 Cursor 인수 거래의 핵심 재원이 된다.
 
 ## Code with Claude 도쿄 Extended: 인디 개발자의 날
 

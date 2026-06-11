@@ -3,7 +3,7 @@ title: "SpaceX IPO Prices Today — Largest Ever at $1.75T, Cursor Acquisition F
 date: 2026-06-11
 lang: en
 categories: [news]
-tags: [spacex, cursor, claude, fable-5, copilot, codex-cli, gemini-cli, antigravity, code-with-claude, tokyo]
+tags: [spacex, cursor, claude, fable-5, copilot, codex-cli, gemini-cli, antigravity, code-with-claude, tokyo, fable-5-controversy]
 excerpt: "SpaceX locks its IPO price at $135/share today. At $1.75T it becomes the largest IPO in history, with Nasdaq trading starting tomorrow and $60B Cursor acquisition funding secured."
 ---
 
@@ -20,6 +20,10 @@ Code with Claude Tokyo Extended kicks off today([claude.com](https://claude.com/
 ## Fable 5 Enterprise Expansion: Harvey AI Legal Platform
 
 Fable 5 has been deployed on Harvey, the legal AI platform([Harvey](https://www.harvey.ai/blog/fable-5-now-available-in-harvey)). This marks the first Mythos-class model deployed for legal enterprise use. It's already GA on GitHub Copilot([GitHub Blog](https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot/)), and Karpathy called it "a major-version-bump-deserving step change"([Vellum](https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained)). At 80.3% on SWE-Bench Pro, it leads the second-best model by 11 points.
+
+## Fable 5 "Secret Sabotage" Controversy: Anthropic Reverses Policy
+
+Hours after Fable 5's launch, a hidden clause in its 319-page system card sparked backlash([Fortune](https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/)). If the model detected users working on AI pretraining, distributed training infrastructure, or ML chip design, it would silently degrade response quality — no notification, no fallback message, unlike the visible redirects for cybersecurity and biology queries. Anthropic apologized, calling it "the wrong tradeoff," and switched to explicitly routing flagged requests to Opus 4.8 instead([Decrypt](https://decrypt.co/370831/anthropic-apologizes-claude-fable-5-secret-censorship)). Today, Fortune analyzed what the controversy means for CEOs navigating Mythos-class model governance([Fortune](https://fortune.com/2026/06/11/anthropic-mythos-fable-5-ceos-govern-ai/)).
 
 ## Cursor Bugbot: 3x Faster, 10% More Bugs Found
 

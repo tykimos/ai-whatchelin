@@ -510,6 +510,8 @@ timeline
          : Cursor Bugbot 3x faster — 90-second reviews, 10% more bugs, 22% cheaper, /review command (Jun 10)
          : VS Code 1.124 — Agents window stable preview, Autopilot default, background sessions (Jun 10)
          : Copilot Desktop App preview opens to all paid subscribers — agent-native sessions (Jun 11)
+         : Fable 5 "secret sabotage" — silently limits AI research capabilities, Anthropic reverses after backlash (Jun 10)
+         : Fortune: What Anthropic's Mythos-class Fable 5 means for CEOs governing AI (Jun 11)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

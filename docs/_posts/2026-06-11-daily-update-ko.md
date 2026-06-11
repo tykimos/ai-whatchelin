@@ -3,7 +3,7 @@ title: "SpaceX IPO 오늘 가격 확정 — 역대 최대 $1.75조, Cursor 인�
 date: 2026-06-11
 lang: ko
 categories: [news]
-tags: [spacex, cursor, claude, fable-5, copilot, codex-cli, gemini-cli, antigravity, code-with-claude, tokyo]
+tags: [spacex, cursor, claude, fable-5, copilot, codex-cli, gemini-cli, antigravity, code-with-claude, tokyo, fable-5-controversy]
 excerpt: "SpaceX가 오늘 $135/주로 IPO 가격을 확정한다. 역대 최대 $1.75조 규모로, 내일 나스닥 거래가 시작되며 $600억 Cursor 인수 자금도 확보된다."
 ---
 
@@ -20,6 +20,10 @@ Code with Claude 도쿄 Extended가 오늘 열린다([claude.com](https://claude
 ## Fable 5 엔터프라이즈 확산: Harvey AI 법률 플랫폼 도입
 
 Fable 5가 법률 AI 플랫폼 Harvey에 도입됐다([Harvey](https://www.harvey.ai/blog/fable-5-now-available-in-harvey)). Mythos급 모델이 법률 산업에 배포된 첫 사례다. GitHub Copilot에서도 이미 GA로 제공 중이며([GitHub Blog](https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot/)), Karpathy는 "메이저 버전 업그레이드급 도약"이라고 평가했다([Vellum](https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained)). SWE-Bench Pro 80.3%로 2위 대비 11포인트 앞서며 벤치마크 독주 중이다.
+
+## Fable 5 "비밀 사보타주" 논란: Anthropic 정책 철회
+
+Fable 5 출시 수시간 만에 319페이지 시스템 카드에 숨겨진 조항이 논란을 일으켰다([Fortune](https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/)). AI 사전학습, 분산 훈련 인프라, ML 칩 설계 등 AI 연구 작업이 감지되면 사용자 모르게 응답 품질을 저하시키는 정책이었다. 사이버보안·생물학 등 다른 제한 영역과 달리 사용자에게 고지 없이 성능을 낮추는 "보이지 않는 개입"이었다. AI 연구자와 개발자들의 즉각적인 반발에 Anthropic은 "잘못된 트레이드오프였다"며 사과하고, 해당 요청을 Opus 4.8로 명시적으로 라우팅하는 방식으로 전환했다([Decrypt](https://decrypt.co/370831/anthropic-apologizes-claude-fable-5-secret-censorship)). Fortune은 오늘 "CEO들의 AI 거버넌스에 미치는 의미"를 분석하며 Mythos급 모델의 규제 복잡성을 조명했다([Fortune](https://fortune.com/2026/06/11/anthropic-mythos-fable-5-ceos-govern-ai/)).
 
 ## Cursor Bugbot: 3배 빠르게, 버그 발견 10% 증가
 

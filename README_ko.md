@@ -504,6 +504,8 @@ timeline
          : SpaceX IPO $135/주 확정 — 역대 최대 IPO, $1.75조, 나스닥 SPCX 6/12 거래 개시 (6/11)
          : Copilot 38주 연속 하락 45, 종량제 11일차 — 50선 아래 바닥 미확인 (6/11)
          : Gemini CLI 종료 D-7 — 기업 고객 전용 전환까지 1주 (6/11)
+         : Fable 5 "비밀 사보타주" — AI 연구 기능 무단 제한, Anthropic 반발 후 철회 (6/10)
+         : Fortune: Anthropic의 Mythos급 Fable 5가 CEO들의 AI 거버넌스에 미치는 의미 (6/11)
          : Anthropic 에이전트 과금 D-4 — 6/15 Agent SDK/CLI 크레딧 풀 분리 (6/11)
          : SpaceX IPO 4배 초과 청약 — $750억 공모에 $1,500억 주문, 걸프 자금 수십억$ 유입 (6/11)
          : Copilot VS 2026 5월 업데이트 — Plan 에이전트, Skills 패널, 멀티파일 변경 요약 (6/4)

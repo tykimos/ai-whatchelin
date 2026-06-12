@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-11</sub>
+  <sub>마지막 업데이트: 2026-06-12</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.11-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.12-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -512,6 +512,12 @@ timeline
          : Cursor Bugbot 3배 빠르게 — 90초 리뷰, 버그 10%↑, 비용 22%↓, /review 명령어 (6/10)
          : VS Code 1.124 — Agents 윈도우 안정 프리뷰, Autopilot 기본값, 백그라운드 세션 (6/10)
          : Copilot 데스크톱 앱 프리뷰 전체 유료 구독자에게 개방 — 에이전트 네이티브 세션 (6/11)
+         : SpaceX IPO 나스닥 거래 개시 $135/주, $1.75조 — 역사상 최대 IPO, 티커 SPCX (6/12)
+         : Copilot 39주 연속 하락 44, 종량제 12일차 — 개발자 이탈 계속 (6/12)
+         : Gemini CLI 종료 D-6 — 6/18 기업 고객 전용 전환까지 6일 (6/12)
+         : Anthropic 에이전트 과금 D-3 — 6/15 Agent SDK/CLI 크레딧 풀 분리 (6/12)
+         : Copilot CLI v1.0.61 — /settings 통합 설정 대화상자, 세션 재개 수정 (6/11)
+         : Fable 5 탈옥 시도 주장 + "비밀 사보타주" 논란 출시 며칠 만에 재점화 (6/12)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1488,26 +1494,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-29", "05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11"]
-    y-axis "인기 점수" 43 --> 100
+    x-axis ["05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12"]
+    y-axis "인기 점수" 42 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45]
+    line "GH Copilot" [57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 81, 82, 83, 84, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64]
-    line "Antigravity" [58, 59, 60, 61, 62, 63, 64, 64, 65, 65, 66, 66, 67, 68]
+    line "Windsurf" [81, 81, 81, 81, 82, 83, 84, 85, 85, 85, 85, 85, 85, 85]
+    line "Codex CLI" [88, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63]
+    line "Antigravity" [59, 60, 61, 62, 63, 64, 64, 65, 65, 66, 66, 67, 68, 69]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-45↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-44↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-64↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-68↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-63↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-69↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

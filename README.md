@@ -518,6 +518,9 @@ timeline
          : Anthropic agent billing D-3 — June 15 Agent SDK/CLI credit pool split (Jun 12)
          : Copilot CLI v1.0.61 — /settings unified config dialog, session resume fix (Jun 11)
          : Fable 5 jailbreak claims and "secret sabotage" backlash days after launch (Jun 12)
+         : SpaceX SPCX opens at $135 — Musk & Shotwell ring opening bell in NYC and Texas simultaneously (Jun 12)
+         : Claude Code v2.1.172 — nested sub-agents (5 levels deep), plugin marketplace search, Bedrock region fix (Jun 10)
+         : Codex CLI v0.140.0-alpha.2 — desktop handoff for /app, TUI startup optimization, goal workflow fixes (Jun 9)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1033,6 +1036,15 @@ quadrantChart
 
 **Claude Code v2.1.169** (2026.06.09):
 > *"New --safe-mode flag disables customizations (plugins, skills) for troubleshooting. /cd command moves sessions to different working directories without disrupting prompt cache. disableBundledSkills setting, improved claude agents --json output, reduced CPU usage for remote sessions."* — code.claude.com/changelog `2026.06.09`
+
+**Claude Code v2.1.172 — Nested Sub-Agents** (2026.06.10):
+> *"Sub-agents can now spawn their own sub-agents up to 5 levels deep — each frame carries its own system prompt and model. Amazon Bedrock now reads the AWS region from ~/.aws config files. Plugin marketplace gets a search bar. Background sub-agents stuck as active after a nested child was stopped — fixed."* — code.claude.com/changelog `2026.06.10`
+
+**SpaceX SPCX Opening Bell** (2026.06.12):
+> *"Elon Musk and Gwynne Shotwell rang the Nasdaq opening bell simultaneously from New York City and Texas as SpaceX began trading under the SPCX ticker at $135/share. The $1.77 trillion valuation makes SpaceX the world's most valuable company by market cap on day one, surpassing Tesla ($1.6T). The offering raised $75 billion — the largest IPO in market history."* — CNBC `2026.06.12`
+
+**Codex CLI v0.140.0-alpha.2** (2026.06.09):
+> *"Desktop handoff for /app — the CLI thread can now hand off into Codex Desktop on macOS and native Windows. TUI startup reuses plugin discovery results and loads only hook metadata on the critical path. Goal workflows are more predictable: multiline paste in /goal edit no longer submits early, idle auto-turns stay out of Plan mode."* — openai.com/codex/changelog `2026.06.09`
 
 **2026 Power Stack Formula**:
 ```

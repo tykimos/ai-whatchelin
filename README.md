@@ -519,6 +519,8 @@ timeline
          : Copilot CLI v1.0.61 — /settings unified config dialog, session resume fix (Jun 11)
          : Fable 5 jailbreak claims and "secret sabotage" backlash days after launch (Jun 12)
          : SpaceX SPCX opens at $135 — Musk & Shotwell ring opening bell in NYC and Texas simultaneously (Jun 12)
+         : SpaceX SPCX surges 19% Day 1 — opened $150, high $176.52, closed ~$161 — Musk becomes first trillionaire at $1.05T (Jun 12)
+         : Claude Sonnet 4 & Opus 4 hard retirement confirmed June 15 9AM PT — no grace period, requests return errors (Jun 12)
          : Claude Code v2.1.172 — nested sub-agents (5 levels deep), plugin marketplace search, Bedrock region fix (Jun 10)
          : Codex CLI v0.140.0-alpha.2 — desktop handoff for /app, TUI startup optimization, goal workflow fixes (Jun 9)
 ```
@@ -1042,6 +1044,9 @@ quadrantChart
 
 **SpaceX SPCX Opening Bell** (2026.06.12):
 > *"Elon Musk and Gwynne Shotwell rang the Nasdaq opening bell simultaneously from New York City and Texas as SpaceX began trading under the SPCX ticker at $135/share. The $1.77 trillion valuation makes SpaceX the world's most valuable company by market cap on day one, surpassing Tesla ($1.6T). The offering raised $75 billion — the largest IPO in market history."* — CNBC `2026.06.12`
+
+**SpaceX SPCX Day 1 Close — Musk First Trillionaire** (2026.06.12):
+> *"SPCX opened at $150, surged to an intraday high of $176.52, and closed near $161 — a 19% first-day gain. SpaceX's market cap rose to approximately $1.96 trillion. Elon Musk officially became the world's first trillionaire at roughly $1.05 trillion net worth, with SpaceX adding ~$180B to his fortune."* — CNBC/CBS News `2026.06.12`
 
 **Codex CLI v0.140.0-alpha.2** (2026.06.09):
 > *"Desktop handoff for /app — the CLI thread can now hand off into Codex Desktop on macOS and native Windows. TUI startup reuses plugin discovery results and loads only hook metadata on the critical path. Goal workflows are more predictable: multiline paste in /goal edit no longer submits early, idle auto-turns stay out of Plan mode."* — openai.com/codex/changelog `2026.06.09`

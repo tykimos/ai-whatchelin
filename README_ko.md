@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.12-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.13-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -531,6 +531,12 @@ timeline
          : SpaceX SPCX 2일차 — $161 부근 안정, 머스크 순자산 $1.05T+ (6/13)
          : Claude Sonnet 4 & Opus 4 강제 퇴역 D-2 — 6/15 오전 9시(PT), 유예 없음 (6/13)
          : Antigravity 70 돌파 — Gemini CLI 마이그레이션 흡수, Gemini CLI 62로 하락 (6/13)
+         : 미국 정부, Fable 5 + Mythos 5 중단 명령 — 상무부 수출 통제 지시, Amazon이 탈옥 보고 (6/12)
+         : Fable 5 3일 천하 — 6/9 출시, 6/12 중단 — 프론티어 모델 최초 정부 강제 중단 (6/13)
+         : Anthropic: 탈옥은 "좁고 비범용적" — GPT-5.5 등 타사 모델에도 동일 취약점 존재 (6/13)
+         : Fortune: Amazon이 탈옥을 상무부에 보고 — Anthropic의 투자자가 중단을 촉발 (6/13)
+         : Claude Code v2.1.173-175 — VS Code 사용량 귀속, enforceAvailableModels 관리자 설정, 백그라운드 세션 수정 (6/12)
+         : Copilot CLI 6월 대규모 업데이트 — /agents 개선, /settings 대화상자, 스마트 스케줄링, 모노레포 검색 가속 (6/13)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

@@ -531,6 +531,12 @@ timeline
          : SpaceX SPCX Day 2 — stabilizes near $161, Musk net worth $1.05T+ (Jun 13)
          : Claude Sonnet 4 & Opus 4 hard retirement D-2 — June 15 9AM PT, no grace period (Jun 13)
          : Antigravity crosses 70 — absorbing Gemini CLI migration, Gemini CLI drops to 62 (Jun 13)
+         : US government orders Fable 5 + Mythos 5 suspended — Commerce Dept export control directive, Amazon reported jailbreak (Jun 12)
+         : Fable 5 lasted 3 days — launched Jun 9, pulled Jun 12 — first government-forced takedown of a frontier model (Jun 13)
+         : Anthropic: jailbreak is "narrow, non-universal" — same vulnerability exists in GPT-5.5 and other models (Jun 13)
+         : Fortune: Amazon brought jailbreak to Commerce Dept — Anthropic's own investor triggered the suspension (Jun 13)
+         : Claude Code v2.1.173-175 — usage attribution in VS Code, enforceAvailableModels admin setting, background session fix (Jun 12)
+         : Copilot CLI broad June update — /agents polish, /settings dialog, smarter scheduling, faster monorepo search (Jun 13)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

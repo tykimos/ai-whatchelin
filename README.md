@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-12</sub>
+  <sub>Last updated: 2026-06-13</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.12-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.13-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -523,6 +523,14 @@ timeline
          : Claude Sonnet 4 & Opus 4 hard retirement confirmed June 15 9AM PT — no grace period, requests return errors (Jun 12)
          : Claude Code v2.1.172 — nested sub-agents (5 levels deep), plugin marketplace search, Bedrock region fix (Jun 10)
          : Codex CLI v0.140.0-alpha.2 — desktop handoff for /app, TUI startup optimization, goal workflow fixes (Jun 9)
+         : GPT-5.2 fully removed from ChatGPT — automatic migration to GPT-5.5 Instant/Thinking/Pro (Jun 12)
+         : Codex integrated into ChatGPT — 6 role plugins (Sales, Data Analytics, Design, etc.), Computer Use on Windows, Appshots on macOS (Jun 2)
+         : Copilot 40-week decline to 43, billing Day 13 — 40 consecutive weeks, no stabilization (Jun 13)
+         : Gemini CLI sunset D-5 — enterprise-only after June 18 (Jun 13)
+         : Anthropic agent billing D-2 — June 15 Agent SDK/CLI credit pool split (Jun 13)
+         : SpaceX SPCX Day 2 — stabilizes near $161, Musk net worth $1.05T+ (Jun 13)
+         : Claude Sonnet 4 & Opus 4 hard retirement D-2 — June 15 9AM PT, no grace period (Jun 13)
+         : Antigravity crosses 70 — absorbing Gemini CLI migration, Gemini CLI drops to 62 (Jun 13)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1051,6 +1059,21 @@ quadrantChart
 **Codex CLI v0.140.0-alpha.2** (2026.06.09):
 > *"Desktop handoff for /app — the CLI thread can now hand off into Codex Desktop on macOS and native Windows. TUI startup reuses plugin discovery results and loads only hook metadata on the critical path. Goal workflows are more predictable: multiline paste in /goal edit no longer submits early, idle auto-turns stay out of Plan mode."* — openai.com/codex/changelog `2026.06.09`
 
+**GPT-5.2 Fully Removed from ChatGPT** (2026.06.12):
+> *"GPT-5.2 Instant, GPT-5.2 Thinking, and GPT-5.2 Pro are no longer available in ChatGPT. Existing conversations automatically continue on the corresponding GPT-5.5 model. Part of OpenAI's consolidation around the GPT-5.5 family — GPT-5.2 was deprecated following GPT-5.3 Instant's release."* — OpenAI Help Center `2026.06.12`
+
+**Codex Integrated into ChatGPT — 6 Business Plugins** (2026.06.02):
+> *"OpenAI announced Codex for every role — six role-specific plugins (Data Analytics, Creative Production, Sales, Product Design, Public Equity Investing, Investment Banking) connecting to 62 business apps with 110 pre-built skills. Computer Use on Windows lets Codex see, click, and type in desktop apps. Appshots on macOS attach app windows to Codex threads via hotkey."* — OpenAI/9to5Mac `2026.06.02`
+
+**Copilot 40-Week Decline to 43** (2026.06.13):
+> *"GitHub Copilot hits 43 — its 40th consecutive weekly decline and another all-time low. Billing Day 13: the developer exodus shows no sign of stabilizing. Usage-based billing continues to push developers toward Claude Code ($20/mo flat) and Codex CLI (API pricing)."* — The Register `2026.06.13`
+
+**Gemini CLI Sunset D-5** (2026.06.13):
+> *"Five days until Gemini CLI stops serving requests for all non-enterprise users. The migration to Antigravity CLI is in its final stretch — Antigravity crosses 70 in popularity while Gemini CLI drops to 62. Enterprise users via Code Assist Standard/Enterprise retain access."* — Google Developers Blog `2026.06.13`
+
+**Claude Sonnet 4 & Opus 4 Retirement D-2** (2026.06.13):
+> *"Two days until Claude Sonnet 4 and Opus 4 are permanently retired at 9AM PT on June 15 — no grace period, API requests will return errors immediately. Anthropic recommends migrating to Sonnet 4.6 and Opus 4.8 respectively. Same-day: Anthropic's agent billing credit pool split takes effect."* — Anthropic `2026.06.13`
+
 **2026 Power Stack Formula**:
 ```
 Daily coding    = Codex CLI (keystroke level)
@@ -1541,26 +1564,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12"]
-    y-axis "Popularity Score" 42 --> 100
+    x-axis ["05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13"]
+    y-axis "Popularity Score" 41 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44]
+    line "GH Copilot" [56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 82, 83, 84, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63]
-    line "Antigravity" [59, 60, 61, 62, 63, 64, 64, 65, 65, 66, 66, 67, 68, 69]
+    line "Windsurf" [81, 81, 81, 82, 83, 84, 85, 85, 85, 85, 85, 85, 85, 85]
+    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62]
+    line "Antigravity" [60, 61, 62, 63, 64, 64, 65, 65, 66, 66, 67, 68, 69, 70]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-44↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-43↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-63↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-69↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-62↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-70↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

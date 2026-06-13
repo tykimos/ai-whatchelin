@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-12</sub>
+  <sub>마지막 업데이트: 2026-06-13</sub>
 </p>
 
 <p align="center">
@@ -523,6 +523,14 @@ timeline
          : Claude Sonnet 4 & Opus 4 6/15 오전 9시(PT) 강제 퇴역 확정 — 유예기간 없음, API 요청 에러 반환 (6/12)
          : Claude Code v2.1.172 — 중첩 서브에이전트 (5단계), 플러그인 마켓플레이스 검색, Bedrock 리전 수정 (6/10)
          : Codex CLI v0.140.0-alpha.2 — 데스크톱 핸드오프, TUI 시작 최적화, Goal 워크플로우 수정 (6/9)
+         : GPT-5.2 ChatGPT에서 완전 삭제 — GPT-5.5 Instant/Thinking/Pro로 자동 마이그레이션 (6/12)
+         : Codex, ChatGPT에 통합 — 6개 역할별 플러그인 (Sales, Data Analytics, Design 등), Windows Computer Use, macOS Appshots (6/2)
+         : Copilot 40주 연속 하락 43점, 과금 13일차 — 40주 연속, 안정화 기미 없음 (6/13)
+         : Gemini CLI 종료 D-5 — 6/18 이후 기업 전용 (6/13)
+         : Anthropic 에이전트 과금 D-2 — 6/15 Agent SDK/CLI 크레딧 풀 분리 (6/13)
+         : SpaceX SPCX 2일차 — $161 부근 안정, 머스크 순자산 $1.05T+ (6/13)
+         : Claude Sonnet 4 & Opus 4 강제 퇴역 D-2 — 6/15 오전 9시(PT), 유예 없음 (6/13)
+         : Antigravity 70 돌파 — Gemini CLI 마이그레이션 흡수, Gemini CLI 62로 하락 (6/13)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1066,6 +1074,21 @@ quadrantChart
 **Codex CLI v0.140.0-alpha.2** (2026.06.09):
 > *"데스크톱 핸드오프 — CLI 스레드가 macOS와 Windows에서 Codex Desktop으로 전환 가능. TUI 시작 시 플러그인 디스커버리 결과를 재사용하고 훅 메타데이터만 크리티컬 패스에 로드. Goal 워크플로우 개선: /goal edit에서 멀티라인 붙여넣기 조기 제출 방지, 유휴 자동 턴이 Plan 모드 진입 방지."* — openai.com/codex/changelog `2026.06.09`
 
+**GPT-5.2 ChatGPT에서 완전 삭제** (2026.06.12):
+> *"GPT-5.2 Instant, GPT-5.2 Thinking, GPT-5.2 Pro가 ChatGPT에서 더 이상 사용할 수 없다. 기존 대화는 해당 GPT-5.5 모델로 자동 전환된다. OpenAI의 GPT-5.5 계열 통합 전략의 일환 — GPT-5.3 Instant 출시 후 GPT-5.2가 폐기됐다."* — OpenAI Help Center `2026.06.12`
+
+**Codex, ChatGPT에 통합 — 6개 비즈니스 플러그인** (2026.06.02):
+> *"OpenAI가 모든 역할을 위한 Codex를 발표 — 6개 역할별 플러그인(Data Analytics, Creative Production, Sales, Product Design, Public Equity Investing, Investment Banking)이 62개 비즈니스 앱과 110개 사전 제작 스킬에 연결된다. Windows Computer Use로 데스크톱 앱에서 보고, 클릭하고, 입력할 수 있다. macOS Appshots은 핫키로 앱 창을 Codex 스레드에 첨부한다."* — OpenAI/9to5Mac `2026.06.02`
+
+**Copilot 40주 연속 하락 43점** (2026.06.13):
+> *"GitHub Copilot이 43점에 도달 — 40주 연속 하락, 또 다시 역대 최저치. 과금 13일차: 개발자 이탈이 안정화 기미 없이 지속된다. 사용량 기반 과금이 Claude Code ($20/월 정액) 및 Codex CLI (API 과금)로의 개발자 이동을 가속화한다."* — The Register `2026.06.13`
+
+**Gemini CLI 종료 D-5** (2026.06.13):
+> *"Gemini CLI가 모든 비기업 사용자 대상으로 서비스를 중단하기까지 5일 남았다. Antigravity CLI로의 마이그레이션이 마지막 단계 — Antigravity가 인기도 70을 돌파하고 Gemini CLI는 62로 하락했다. Code Assist Standard/Enterprise를 통한 기업 사용자는 접근이 유지된다."* — Google Developers Blog `2026.06.13`
+
+**Claude Sonnet 4 & Opus 4 퇴역 D-2** (2026.06.13):
+> *"Claude Sonnet 4와 Opus 4가 6월 15일 오전 9시(PT)에 영구 퇴역하기까지 2일 남았다 — 유예기간 없이 API 요청은 즉시 에러를 반환한다. Anthropic은 각각 Sonnet 4.6과 Opus 4.8로의 마이그레이션을 권고한다. 같은 날 Anthropic 에이전트 과금 크레딧 풀 분리가 시행된다."* — Anthropic `2026.06.13`
+
 **2026 파워 스택 공식**:
 ```
 일상 코딩 = Codex CLI (키스트로크 레벨)
@@ -1511,26 +1534,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["05-30", "05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12"]
-    y-axis "인기 점수" 42 --> 100
+    x-axis ["05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13"]
+    y-axis "인기 점수" 41 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44]
+    line "GH Copilot" [56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 81, 82, 83, 84, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63]
-    line "Antigravity" [59, 60, 61, 62, 63, 64, 64, 65, 65, 66, 66, 67, 68, 69]
+    line "Windsurf" [81, 81, 81, 82, 83, 84, 85, 85, 85, 85, 85, 85, 85, 85]
+    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
+    line "Gemini CLI" [75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62]
+    line "Antigravity" [60, 61, 62, 63, 64, 64, 65, 65, 66, 66, 67, 68, 69, 70]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-44↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-43↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-63↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-69↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-62↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-70↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

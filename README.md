@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-13</sub>
+  <sub>Last updated: 2026-06-14</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.13-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.14-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -537,6 +537,13 @@ timeline
          : Fortune: Amazon brought jailbreak to Commerce Dept — Anthropic's own investor triggered the suspension (Jun 13)
          : Claude Code v2.1.173-175 — usage attribution in VS Code, enforceAvailableModels admin setting, background session fix (Jun 12)
          : Copilot CLI broad June update — /agents polish, /settings dialog, smarter scheduling, faster monorepo search (Jun 13)
+         : Copilot 41-week decline to 42, billing Day 14 — developer exodus continues unabated (Jun 14)
+         : Fable 5 suspension D-2 — Anthropic says "misunderstanding," reinstatement talks ongoing (Jun 14)
+         : Claude Sonnet 4 & Opus 4 hard retirement D-0 — shutdown tomorrow 9AM PT, no grace period (Jun 14)
+         : Anthropic agent billing D-1 — June 15 Agent SDK/CLI credit pool split tomorrow (Jun 14)
+         : Gemini CLI sunset D-4 — enterprise-only after June 18 (Jun 14)
+         : SpaceX SPCX Day 3 — stabilizes around $161-167, Musk net worth $1.05T+ (Jun 14)
+         : Moonshot AI open-sources Kimi K2.7-Code under Modified MIT license (Jun 14)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1570,26 +1577,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["05-31", "06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13"]
-    y-axis "Popularity Score" 41 --> 100
+    x-axis ["06-01", "06-02", "06-03", "06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13", "06-14"]
+    y-axis "Popularity Score" 40 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43]
+    line "GH Copilot" [55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [81, 81, 81, 82, 83, 84, 85, 85, 85, 85, 85, 85, 85, 85]
+    line "Windsurf" [81, 81, 82, 83, 84, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62]
-    line "Antigravity" [60, 61, 62, 63, 64, 64, 65, 65, 66, 66, 67, 68, 69, 70]
+    line "Gemini CLI" [74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61]
+    line "Antigravity" [61, 62, 63, 64, 64, 65, 65, 66, 66, 67, 68, 69, 70, 71]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-43↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-42↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-62↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-70↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-61↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-71↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

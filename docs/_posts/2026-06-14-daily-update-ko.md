@@ -29,6 +29,10 @@ Gemini CLI의 개인 사용자 종료까지 4일 남았다([Digital Applied](htt
 
 Moonshot AI가 Kimi K2.7-Code를 Modified MIT 라이선스로 오픈소스 공개했다([LLM Stats](https://llm-stats.com/ai-news)). 코딩 특화 오픈소스 모델 경쟁이 더욱 치열해지는 가운데, Aider 등 오픈소스 도구 사용자들에게 새로운 선택지가 된다.
 
+## OpenAI: Ona 인수 및 IPO 공식 제출
+
+OpenAI가 AI 에이전트용 보안 클라우드 환경을 제공하는 독일 스타트업 Ona(구 Gitpod)를 인수한다고 발표했다([OpenAI](https://openai.com/index/openai-to-acquire-ona/)). Ona의 기술은 Codex에 통합되어 장기 실행 에이전트 작업을 지원할 예정이다([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-11/openai-to-acquire-cloud-platform-ona-to-support-ai-agents)). 이는 OpenAI가 SEC에 S-1을 공식 제출한 직후 나온 것으로, 약 $1조 밸류에이션의 IPO를 목표하고 있다([Fortune](https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/)).
+
 ## SpaceX SPCX: IPO 3일차 안정세
 
 SpaceX(SPCX)는 IPO 3일차에 $161-167 범위에서 안정세를 보였다([CNBC](https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html)). $135 공모가 대비 약 20% 상승을 유지하며, Musk의 순자산은 $1.05조 이상을 기록 중이다. Cursor의 $600억 SpaceX 인수 합의도 이 IPO와 맞물려 AI 코딩 업계의 지형을 재편하고 있다.

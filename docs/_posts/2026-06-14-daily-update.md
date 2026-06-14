@@ -29,6 +29,10 @@ Only four days remain before Gemini CLI shuts down for individual users on June 
 
 Moonshot AI released Kimi K2.7-Code under a Modified MIT license ([LLM Stats](https://llm-stats.com/ai-news)). As competition in coding-specialized open-source models intensifies, this gives users of open-source tools like Aider another strong option for local-first development.
 
+## OpenAI: Ona Acquisition and IPO Filing
+
+OpenAI announced it will acquire Ona (formerly Gitpod), a German startup that provides secure cloud environments for AI agents ([OpenAI](https://openai.com/index/openai-to-acquire-ona/)). The technology will be integrated into Codex to enable longer-running, persistent tasks — addressing a key gap in Codex CLI's cloud agent capabilities ([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-11/openai-to-acquire-cloud-platform-ona-to-support-ai-agents)). This comes days after OpenAI formally submitted its S-1 registration statement with the SEC, targeting an IPO at roughly $1 trillion valuation ([Fortune](https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/)).
+
 ## SpaceX SPCX: IPO Day 3 Stabilizes
 
 SpaceX (SPCX) stabilized in the $161-167 range on its third day of trading ([CNBC](https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html)). The stock maintains roughly 20% above its $135 IPO price, with Musk's net worth holding above $1.05 trillion. The $60B SpaceX-Cursor acquisition deal continues to reshape the AI coding landscape.

@@ -25,7 +25,7 @@ Copilot은 종량제 전환 이후 15일째 하락세가 이어지며 인기도 
 
 ## Fable 5: 복원 신호 감지
 
-David Sacks 백악관 과학기술자문위원회 공동의장이 6월 14일 Fable 5 수출 통제를 "최대한 빨리" 해제하겠다고 밝혔다([The Hacker News](https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html)). Anthropic이 취약점을 수정하면 일반 공개가 재개될 전망이다. Anthropic 측은 해당 탈옥이 "좁고 보편적이지 않으며" GPT-5.5 등 다른 모델에도 동일 취약점이 존재한다고 반박했다([InfoQ](https://www.infoq.com/news/2026/06/claude-5-release/)).
+David Sacks 백악관 과학기술자문위원회 공동의장이 6월 14일 Fable 5 수출 통제를 "최대한 빨리" 해제하겠다고 밝혔다([The Hacker News](https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html)). Anthropic은 공동창업자이자 최고 컴퓨트 책임자 Tom Brown과 정책 총괄 Sarah Heck를 워싱턴에 파견해 백악관 관계자와 주말 협상에 돌입했다([TechTimes](https://www.techtimes.com/articles/318376/20260615/anthropic-races-lift-fable-5-export-ban-top-engineers-sent-washington-deal.htm)). Anthropic 측은 해당 탈옥이 "좁고 보편적이지 않으며" GPT-5.5 등 다른 모델에도 동일 취약점이 존재한다고 반박했다([InfoQ](https://www.infoq.com/news/2026/06/claude-5-release/)).
 
 ## Google & Kaggle AI Agents 코스 개시
 
@@ -33,7 +33,7 @@ Google과 Kaggle이 오늘부터 5일간(6/15-19) 무료 AI Agents Intensive 코
 
 ## SpaceX SPCX: IPO 후 랠리 지속
 
-SpaceX(SPCX)가 $171.91에 거래되며 IPO 가격 $135 대비 27% 상승했다([TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/261967404-spacex-stock-forecast-after-a-19-percent-ipo-surge-can-spcx-keep-climbing-before-earnings-tradingkey)). 시가총액은 $2.11조를 넘어섰으며, Musk의 순자산은 $1.1조+로 추산된다. 6월 12일 역대 최대 IPO로 나스닥에 상장한 이후 강세가 계속되고 있다([CNBC](https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html)).
+SpaceX(SPCX)가 장중 $178까지 급등하며 IPO 가격 $135 대비 32% 상승했다([Robinhood](https://robinhood.com/us/en/stocks/SPCX/)). 시가총액은 $2.18조를 넘어섰으며, Musk의 순자산은 $1.1조+로 추산된다. 6월 12일 역대 최대 IPO로 나스닥에 상장한 이후 강세가 계속되고 있다([CNBC](https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html)).
 
 ## 마켓 펄스
 

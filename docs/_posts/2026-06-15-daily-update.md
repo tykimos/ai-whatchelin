@@ -25,7 +25,7 @@ Copilot's slide continues on Day 15 of usage-based billing, recording a populari
 
 ## Fable 5: Reinstatement Signal Detected
 
-David Sacks, co-chair of the White House Council of Advisors on Science and Technology, said on June 14 that the administration wants to lift the Fable 5 export control "as soon as possible" ([The Hacker News](https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html)). Once Anthropic fixes the vulnerability, general release should resume. Anthropic maintains the jailbreak is "narrow, non-universal" and exists in other models including GPT-5.5 ([InfoQ](https://www.infoq.com/news/2026/06/claude-5-release/)).
+David Sacks, co-chair of the White House Council of Advisors on Science and Technology, said on June 14 that the administration wants to lift the Fable 5 export control "as soon as possible" ([The Hacker News](https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html)). Anthropic has now dispatched co-founder and chief compute officer Tom Brown along with policy chief Sarah Heck to Washington for weekend talks with White House officials to negotiate reinstatement ([TechTimes](https://www.techtimes.com/articles/318376/20260615/anthropic-races-lift-fable-5-export-ban-top-engineers-sent-washington-deal.htm)). Anthropic maintains the jailbreak is "narrow, non-universal" and exists in other models including GPT-5.5 ([InfoQ](https://www.infoq.com/news/2026/06/claude-5-release/)).
 
 ## Google & Kaggle AI Agents Course Launches
 
@@ -33,7 +33,7 @@ Google and Kaggle kicked off a free five-day AI Agents Intensive course today (J
 
 ## SpaceX SPCX: Post-IPO Rally Continues
 
-SpaceX (SPCX) trades at $171.91, up 27% from the $135 IPO price ([TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/261967404-spacex-stock-forecast-after-a-19-percent-ipo-surge-can-spcx-keep-climbing-before-earnings-tradingkey)). Market cap has surpassed $2.11 trillion, with Musk's net worth estimated at $1.1T+. The strong rally continues after the largest IPO in history on Nasdaq June 12 ([CNBC](https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html)).
+SpaceX (SPCX) surged to $178 during the trading session, up 32% from the $135 IPO price ([Robinhood](https://robinhood.com/us/en/stocks/SPCX/)). Market cap has surpassed $2.18 trillion, with Musk's net worth estimated at $1.1T+. The strong rally continues after the largest IPO in history on Nasdaq June 12 ([CNBC](https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html)).
 
 ## Market Pulse
 

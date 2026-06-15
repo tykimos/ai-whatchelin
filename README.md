@@ -558,8 +558,9 @@ timeline
          : Codex Goal mode GA — hours-long unsupervised tasks across CLI/app/extension (Jun 15)
          : Antigravity rises to 72 — absorbing Gemini CLI migration D-3 (Jun 15)
          : Google & Kaggle AI Agents Intensive — free 5-day course on production-ready agents (Jun 15-19)
-         : SpaceX SPCX rises to $171.91 — 27% above IPO price, Musk net worth $1.1T+ (Jun 15)
+         : SpaceX SPCX surges to $178 — 32% above IPO price, Musk net worth $1.1T+ (Jun 15)
          : David Sacks signals Fable 5 reinstatement "as soon as possible" — fix vulnerability then restore (Jun 14)
+         : Anthropic dispatches Tom Brown & Sarah Heck to Washington for weekend Fable 5 reinstatement talks (Jun 15)
          : ChatGPT 1B monthly active users — fastest app in history to reach that milestone (Jun 7)
          : GPT-4.5 retirement June 27 confirmed — 30-day sunset, GPT-5 family replaces (Jun 4)
 ```

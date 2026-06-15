@@ -557,6 +557,9 @@ timeline
          : Cursor 3.7 — /review 명령어 PR 전 Bugbot, Auto-review 에이전트 안전 시스템 (6/5)
          : Codex Goal 모드 GA — CLI/앱/확장에서 수 시간 무감독 작업 (6/15)
          : Antigravity 72까지 상승 — Gemini CLI 마이그레이션 D-3 흡수 (6/15)
+         : Google & Kaggle AI Agents Intensive — 프로덕션 레디 에이전트 구축 5일 무료 코스 (6/15-19)
+         : SpaceX SPCX $171.91 상승 — IPO 가격 대비 27% 상승, Musk 순자산 $1.1조+ (6/15)
+         : David Sacks, Fable 5 복원 "최대한 빨리" 시사 — 취약점 수정 후 공개 재개 (6/14)
          : ChatGPT 월간 활성 사용자 10억 — 역사상 가장 빠르게 달성한 앱 (6/7)
          : GPT-4.5 퇴역 6/27 확정 — 30일 일몰, GPT-5 패밀리로 대체 (6/4)
 ```

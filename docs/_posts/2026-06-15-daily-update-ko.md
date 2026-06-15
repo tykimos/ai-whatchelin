@@ -3,7 +3,7 @@ title: "Claude Code 에이전트 과금 분리 시행, Gemini CLI 종료 3일 �
 date: 2026-06-15
 lang: ko
 categories: [news]
-tags: [claude-code, anthropic, gemini-cli, copilot, cursor, codex-cli, chatgpt]
+tags: [claude-code, anthropic, gemini-cli, copilot, cursor, codex-cli, chatgpt, spacex, google]
 excerpt: "Anthropic의 Agent SDK 크레딧 분리가 오늘부터 적용되고, Claude Sonnet 4와 Opus 4가 영구 퇴장한다. Gemini CLI 종료까지 3일."
 ---
 
@@ -11,25 +11,29 @@ excerpt: "Anthropic의 Agent SDK 크레딧 분리가 오늘부터 적용되고, 
 
 ## Claude Code: 에이전트 과금 분리 D-Day
 
-6월 15일부터 Claude Code의 프로그래밍 사용(`claude -p`, Agent SDK, GitHub Actions)이 전용 크레딧 풀로 이전된다([Anthropic Blog](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)). Pro 구독자는 월 $20, Max 5x는 $100, Max 20x는 $200의 Agent SDK 크레딧을 받으며, 미사용분은 이월되지 않는다([Bind AI](https://blog.getbind.co/claude-code-pricing-changes-june-15-what-youll-actually-pay-2026/)). 터미널과 IDE에서의 대화형 사용은 기존 구독에 포함되어 변동이 없지만, 자동화 워크플로우를 많이 쓰는 개발자들에게는 실질적인 비용 증가가 될 수 있다. 특히 Opus 4.8 토크나이저가 프롬프트당 최대 35% 더 많은 토큰을 사용하면서 실효 비용은 표시 가격보다 높아질 전망이다([UsageBox](https://usagebox.com/articles/claude-code-cost-2026-per-token-per-month-june-deadlines)).
+6월 15일부터 Claude Code의 프로그래밍 사용(`claude -p`, Agent SDK, GitHub Actions)이 전용 크레딧 풀로 이전된다([Anthropic](https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan)). Pro 구독자는 월 $20, Max 5x는 $100, Max 20x는 $200의 Agent SDK 크레딧을 받으며, 미사용분은 이월되지 않는다([Bind AI](https://blog.getbind.co/claude-code-pricing-changes-june-15-what-youll-actually-pay-2026/)). 터미널과 IDE에서의 대화형 사용은 기존 구독에 포함되어 변동이 없지만, 자동화 워크플로우를 많이 쓰는 개발자들에게는 실질적인 비용 증가가 될 수 있다. 크레딧은 사용자별 적용이며, 소진 시 자동 충전 없이 중단되므로 오버플로 과금을 수동으로 활성화해야 한다([TechTimes](https://www.techtimes.com/articles/317625/20260602/anthropic-ends-subscription-subsidy-agents-june-15-credit-pool-replaces-flat-rate-access.htm)).
 
-같은 날 Claude Sonnet 4와 Opus 4가 오전 9시(PT)에 영구 퇴장한다([Anthropic](https://releasebot.io/updates/anthropic/claude)). 유예 기간 없이 즉시 에러를 반환하므로, 아직 마이그레이션하지 않은 팀은 긴급 대응이 필요하다.
+같은 날 Claude Sonnet 4와 Opus 4가 오전 9시(PT)에 영구 퇴장한다([MindStudio](https://www.mindstudio.ai/blog/claude-sonnet-4-opus-4-deprecation-migration-guide)). 유예 기간 없이 즉시 에러를 반환하므로, 아직 마이그레이션하지 않은 팀은 `claude-sonnet-4-0`을 `claude-sonnet-4-6`으로, `claude-opus-4-0`을 `claude-opus-4-8`로 즉시 교체해야 한다.
 
 ## Gemini CLI: 종료 D-3, 개발자 대이동 가속
 
-Gemini CLI가 6월 18일에 무료 및 개인 사용자 대상 서비스를 종료한다([Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)). Apache 2.0으로 공개되어 10만+ GitHub 스타와 6,000+ 외부 PR을 받았던 프로젝트가 불과 1년 만에 폐쇄형으로 전환되면서, 리눅스 재단이 "오픈소스 신뢰 침식"을 지적하기도 했다([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)). 대체재인 Antigravity CLI는 Go로 재작성된 비공개 소스이며, 출시 시점에서 기능 동등성이 보장되지 않는다([DigitalApplied](https://www.digitalapplied.com/blog/gemini-cli-to-antigravity-cli-migration-june-18-2026-guide)). Antigravity 인기도가 72까지 꾸준히 올라가는 건 기존 Gemini CLI 사용자들이 대안 없이 이동하고 있기 때문이다.
+Gemini CLI가 6월 18일에 무료 및 개인 사용자 대상 서비스를 종료한다([DEV Community](https://dev.to/toboreeee/google-is-killing-gemini-cli-on-june-18-here-is-what-to-do-before-then-4907)). Apache 2.0으로 공개되어 10만+ GitHub 스타와 6,000+ 외부 PR을 받았던 프로젝트가 불과 1년 만에 폐쇄형으로 전환되면서, 리눅스 재단이 "오픈소스 신뢰 침식"을 지적하기도 했다. 대체재인 Antigravity CLI는 Go로 재작성된 비공개 소스이며, 유예 기간 없이 6/18부터 에러를 반환한다([DigitalApplied](https://www.digitalapplied.com/blog/gemini-cli-to-antigravity-cli-migration-june-18-2026-guide)). Antigravity 인기도가 72까지 꾸준히 올라가는 건 기존 Gemini CLI 사용자들이 대안 없이 이동하고 있기 때문이다.
 
 ## GitHub Copilot: 42주 연속 하락, 41점
 
-Copilot은 종량제 전환 이후 15일째 하락세가 이어지며 인기도 41을 기록했다([GitHub Blog](https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/)). Pro 플랜 $10/월에 제한된 AI 크레딧, 에이전트 세션당 $30-40/일이라는 비용 구조가 개발자들의 불만을 사고 있다. 커뮤니티에서는 *"8%의 크레딧이 2시간 만에 소진됐다"*는 보고가 계속되고 있다([GitHub Community Discussion](https://github.com/orgs/community/discussions/192948)).
+Copilot은 종량제 전환 이후 15일째 하락세가 이어지며 인기도 41을 기록했다([GitHub Community Discussion](https://github.com/orgs/community/discussions/192948)). Pro 플랜 $10/월에 제한된 AI 크레딧, 에이전트 세션당 $30-40/일이라는 비용 구조가 개발자들의 불만을 사고 있다. 한편 Copilot에 Claude Fable 5가 추가됐지만 30일 데이터 보존 요구 조건이 기업 보안 담당자들의 우려를 키우고 있다.
 
-## Cursor: Bugbot 90초 리뷰 + Teams 재편
+## Fable 5: 복원 신호 감지
 
-Cursor가 Bugbot의 평균 리뷰 시간을 5분에서 90초로 단축하면서 10% 더 많은 버그를 22% 저렴하게 발견한다([DigitalApplied](https://www.digitalapplied.com/blog/cursor-bugbot-90-second-reviews-june-2026-release)). Auto-review 에이전트 안전 시스템은 맥락 분류기를 사용해 저위험 작업에서는 자율성을 높이고 고위험 작업에서는 속도를 늦추는 균형을 잡는다([DevOps.com](https://devops.com/cursors-new-sdk-turns-ai-coding-agents-into-deployable-infrastructure/)). Teams 가격도 Standard $32/seat/월, Premium $96/seat/월로 재편됐다.
+David Sacks 백악관 과학기술자문위원회 공동의장이 6월 14일 Fable 5 수출 통제를 "최대한 빨리" 해제하겠다고 밝혔다([The Hacker News](https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html)). Anthropic이 취약점을 수정하면 일반 공개가 재개될 전망이다. Anthropic 측은 해당 탈옥이 "좁고 보편적이지 않으며" GPT-5.5 등 다른 모델에도 동일 취약점이 존재한다고 반박했다([InfoQ](https://www.infoq.com/news/2026/06/claude-5-release/)).
 
-## ChatGPT: 월간 활성 사용자 10억 돌파
+## Google & Kaggle AI Agents 코스 개시
 
-Reuters에 따르면 ChatGPT 앱이 월간 활성 사용자 10억을 달성했다([TechnologyChecker](https://technologychecker.io/blog/chatgpt-statistics)). 역사상 가장 빠르게 이 수치에 도달한 앱이다. GPT-5.2는 이미 완전 퇴역했고, GPT-4.5도 6월 27일 퇴역이 예정되어 있다([OpenAI Help Center](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)).
+Google과 Kaggle이 오늘부터 5일간(6/15-19) 무료 AI Agents Intensive 코스를 시작한다([Google Developers Blog](https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/)). 자연어 워크플로우와 핸즈온 코딩 프로젝트로 프로덕션 레디 AI 에이전트 구축을 교육하는 과정이다.
+
+## SpaceX SPCX: IPO 후 랠리 지속
+
+SpaceX(SPCX)가 $171.91에 거래되며 IPO 가격 $135 대비 27% 상승했다([TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/261967404-spacex-stock-forecast-after-a-19-percent-ipo-surge-can-spcx-keep-climbing-before-earnings-tradingkey)). 시가총액은 $2.11조를 넘어섰으며, Musk의 순자산은 $1.1조+로 추산된다. 6월 12일 역대 최대 IPO로 나스닥에 상장한 이후 강세가 계속되고 있다([CNBC](https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html)).
 
 ## 마켓 펄스
 
@@ -38,10 +42,10 @@ Reuters에 따르면 ChatGPT 앱이 월간 활성 사용자 10억을 달성했�
 | Claude Code | 99 | — | 에이전트 과금 분리에도 부동의 1위 |
 | ChatGPT | 96 | — | 10억 MAU 돌파, GPT-5.5 시대 |
 | Cursor | 96 | — | Bugbot 90초, Teams 재편 |
-| Claude AI | 96 | — | Fable 5 정지 해결 협의 중 |
+| Claude AI | 96 | — | Fable 5 복원 신호 포착 |
 | Codex CLI | 87 | — | Goal 모드 GA |
 | Windsurf | 85 | — | $15 가격으로 Copilot 이탈자 흡수 |
 | Antigravity | 72 | ↑1 | Gemini CLI D-3 마이그레이션 |
-| Aider | 68 | — | 안정적, 마지막 릴리스 2월 |
+| Aider | 68 | — | 안정적, 최근 릴리스 빈도 감소 |
 | Gemini CLI | 60 | ↓1 | D-3 종료 카운트다운 |
 | Copilot | 41 | ↓1 | 42주 연속 하락, 종량제 15일차 |

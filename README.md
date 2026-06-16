@@ -521,6 +521,7 @@ timeline
          : Anthropic agent billing D-3 — June 15 Agent SDK/CLI credit pool split (Jun 12)
          : Copilot CLI v1.0.61 — /settings unified config dialog, session resume fix (Jun 11)
          : Fable 5 jailbreak claims and "secret sabotage" backlash days after launch (Jun 12)
+         : Agentjacking MCP injection attack disclosed — 2,388+ orgs exposed, 85% exploit success vs Claude Code, Cursor, Codex via Sentry DSN (Jun 12)
          : SpaceX SPCX opens at $135 — Musk & Shotwell ring opening bell in NYC and Texas simultaneously (Jun 12)
          : SpaceX SPCX surges 19% Day 1 — opened $150, high $176.52, closed ~$161 — Musk becomes first trillionaire at $1.05T (Jun 12)
          : Claude Sonnet 4 & Opus 4 hard retirement confirmed June 15 9AM PT — no grace period, requests return errors (Jun 12)

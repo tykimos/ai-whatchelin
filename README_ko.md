@@ -521,6 +521,7 @@ timeline
          : Anthropic 에이전트 과금 D-3 — 6/15 Agent SDK/CLI 크레딧 풀 분리 (6/12)
          : Copilot CLI v1.0.61 — /settings 통합 설정 대화상자, 세션 재개 수정 (6/11)
          : Fable 5 탈옥 시도 주장 + "비밀 사보타주" 논란 출시 며칠 만에 재점화 (6/12)
+         : Agentjacking MCP 인젝션 공격 공개 — 2,388+ 조직 노출, Sentry DSN 통해 Claude Code·Cursor·Codex 85% 공격 성공률 (6/12)
          : SpaceX SPCX $135 개장 — Musk & Shotwell NYC·텍사스에서 동시 개장벨 (6/12)
          : SpaceX SPCX 첫날 19% 급등 — 시초가 $150, 고가 $176.52, 종가 ~$161 — 머스크 세계 최초 조만장자 $1.05조 (6/12)
          : Claude Sonnet 4 & Opus 4 6/15 오전 9시(PT) 강제 퇴역 확정 — 유예기간 없음, API 요청 에러 반환 (6/12)

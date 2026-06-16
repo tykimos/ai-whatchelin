@@ -1,50 +1,46 @@
 ---
-title: "SpaceX $2.73조 돌파하며 Cursor 인수 확정, Musk '스톡피시급 코딩 AI' 예고"
+title: "Anthropic 에이전트 과금 시행일에 돌연 중단 — Claude 12일간 10번째 장애 속 인프라 위기"
 date: 2026-06-16
 lang: ko
 categories: [news]
-tags: [spacex, cursor, claude-code, copilot, gemini-cli, antigravity, fable-5, microsoft]
-excerpt: "SpaceX가 IPO 3거래일 만에 시총 $2.73조를 돌파하며 Cursor $600억 인수를 공식 확정했다. Musk는 연말까지 AI가 '스톡피시급 코딩'에 도달할 것이라 예언했다."
+tags: [anthropic, claude-code, spacex, cursor, copilot, gemini-cli, fable-5]
+excerpt: "Anthropic이 에이전트 과금 개편을 시행일 당일 돌연 중단했다. 같은 날 Claude는 12일 만에 10번째 장애를 기록하며 인프라 한계를 드러냈다."
 ---
 
-SpaceX가 역대 최대 IPO 이후 불과 3거래일 만에 시가총액 $2.73조를 돌파하며, AI 코딩 도구 시장의 판도를 뒤흔드는 Cursor 인수를 확정 발표했다. 같은 날 Elon Musk는 AI가 올해 안에 인간을 초월하는 코딩 능력에 도달할 것이라 선언했다.
+Anthropic이 한 달간 예고해온 에이전트 과금 개편을 시행일인 6월 15일 당일 돌연 중단했다. "지금은 변경 없음"이라는 한 줄 이메일이 개발자 커뮤니티에 안도와 혼란을 동시에 안겼다. 같은 날 Claude는 12일간 10번째 장애를 기록하며 급성장의 대가를 치르고 있다.
 
-## SpaceX: $2.73조 시총, 세계 4위 기업 목전
+## Anthropic: 에이전트 과금 개편, 시행일에 후퇴
 
-SpaceX(SPCX)가 화요일 주가 $206.19까지 급등하며 IPO 가격($135) 대비 53% 상승을 기록했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-16/spacex-spcx-stock-set-for-more-than-50-jump-in-just-three-sessions)). 시가총액 $2.73조로 Amazon과 Microsoft를 제치고 세계 4위 기업에 오를 기세다. 같은 날 SpaceX는 AI 코딩 에디터 Cursor의 모회사 Anysphere를 $600억에 인수하는 확정 계약을 발표했으며, 전액 주식 거래로 Q3 마감을 목표로 한다([NBC News](https://www.nbcnews.com/tech/tech-news/spacex-buys-ai-coding-startup-cursor-60-billion-rcna350262)).
+Anthropic은 Agent SDK, `claude -p`, 서드파티 앱 사용량을 구독 한도에서 분리해 별도 크레딧 풀로 전환하겠다고 5월 15일 발표했다([The New Stack](https://thenewstack.io/anthropic-pauses-claude-agent-sdk-subscription-change/)). Pro $20, Max 5x $100, Max 20x $200 크레딧이 할당될 예정이었으나, 시행 당일 "사용 패턴에 더 잘 맞추기 위해 작업 중"이라며 돌연 중단했다([The Decoder](https://the-decoder.com/anthropic-backs-off-unpopular-billing-overhaul-as-price-war-with-openai-looms/)). OpenAI와의 가격 전쟁이 임박한 상황에서 사용자 이탈을 자극할 수 없다는 판단이 작용한 것으로 보인다.
 
-## Musk: "스톡피시급 코딩 AI" 연말 도달 예언
+## Claude: 12일간 10번째 장애, 인프라 한계 노출
 
-Musk는 월요일 X에서 "AI가 스톡피시급 코딩과 일반화된 컴퓨터 사용에 도달할 것"이라 포스팅했다([X](https://x.com/elonmusk/status/2066880262668247091)). 스톡피시는 인간이 절대 이길 수 없는 체스 엔진이다. 코딩에 적용하면, AI가 자연어 설명만으로 최적화된 바이너리를 직접 생성해 기존 개발 스택 전체를 건너뛰는 수준을 의미한다. Cursor 인수와 맞물려 SpaceX의 AI 코딩 야심이 선명해지고 있다.
+6월 16일 Claude에서 또 다시 장애가 발생했다([TechTimes](https://www.techtimes.com/articles/318514/20260616/claude-outage-tenth-disruption-12-days-exposes-anthropic-infrastructure-strain.htm)). Opus 4.8과 Haiku 4.5에서 에러가 지속됐으며, 오후 2시(ET) 수정 시도에도 불구하고 완전히 해결되지 않았다. Anthropic은 "Claude 수요가 전례 없는 속도로 성장하고 있으며, 인프라가 한계에 달했다"고 인정했다. 연매출 $300억을 넘기며 연 $100만 이상 지출 기업 고객이 500개에서 1,000개로 두 달 만에 배로 늘었지만, 인프라는 그 속도를 따라잡지 못하고 있다.
 
-## Claude Code: v2.1.178 출시, 권한 체계 강화
+## SpaceX: Amazon 추월, 세계 5위 주식 등극
 
-Claude Code v2.1.178이 오늘 배포됐다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). `Tool(param:value)` 구문으로 파라미터 수준 권한 매칭이 가능해졌고(예: `Agent(model:opus)`로 특정 모델 제한), 중첩 `.claude/skills` 디렉토리 지원으로 작업 디렉토리 기반 스킬 로딩이 추가됐다. 자동 모드 분류기가 서브에이전트 생성 시 차단된 작업을 사전 검토하는 기능도 강화됐다. 어제 시행된 에이전트 과금 분리(Pro $20, Max 5x $100, Max 20x $200 크레딧)에 대한 개발자 적응이 진행 중이다.
+SpaceX(SPCX)가 화요일 4.8% 상승하며 Amazon을 추월해 시가총액 $2.65조로 세계 5위 주식에 올라섰다([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-16/spacex-spcx-stock-set-for-more-than-50-jump-in-just-three-sessions)). IPO 3거래일 만에 $135에서 $201.80까지 49% 급등한 것이다. 같은 날 SpaceX는 Cursor 모회사 Anysphere $600억 인수를 공식 확인했으며([CNBC](https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html)), Musk는 연말까지 AI가 "스톡피시급 코딩"에 도달할 것이라 예언했다.
 
-## Copilot: 43주 연속 하락, 40점 — 심리적 마지노선 재차 붕괴
+## Copilot: 43주 연속 하락, 40점 — 종량제 16일차
 
-GitHub Copilot이 인기도 40을 기록하며 43주 연속 하락세를 이어갔다([GitHub Community](https://github.com/orgs/community/discussions/192948)). 종량제 전환 16일차로, Pro $10/월 AI 크레딧이 에이전틱 세션 2-3시간이면 소진되는 구조에 개발자 불만이 멈추지 않고 있다([The Register](https://www.theregister.com/ai-and-ml/2026/06/02/github-copilot-users-threaten-exit-as-metered-billing-kicks-in/5249826)). Claude Code와 Codex CLI로의 이탈이 꾸준히 이어지고 있다.
+GitHub Copilot이 인기도 40을 기록하며 43주 연속 하락세를 이어갔다([GitHub Community](https://github.com/orgs/community/discussions/192948)). Copilot CLI v1.0.63이 릴리스돼 차단된 이미지 첨부 시 안내 메시지와 Editor 프리뷰 정책을 통한 비전 활성화가 추가됐다([GitHub](https://github.com/github/copilot-cli/releases)).
 
 ## Gemini CLI: 종료 D-2, 최후의 카운트다운
 
-Gemini CLI 개인 사용자 서비스 종료가 이틀 앞으로 다가왔다([DigitalApplied](https://www.digitalapplied.com/blog/gemini-cli-to-antigravity-cli-migration-june-18-2026-guide)). 6월 18일부터 무료·개인 사용자는 Gemini CLI를 사용할 수 없으며, Go 기반 Antigravity CLI로 전환해야 한다. Antigravity 인기도가 73으로 또 한 단계 올랐지만, 주간 컴퓨트 캡으로 인한 쿼터 불만이 사라지지 않고 있다.
+Gemini CLI 개인 사용자 서비스 종료가 이틀 앞이다([DigitalApplied](https://www.digitalapplied.com/blog/gemini-cli-to-antigravity-cli-migration-june-18-2026-guide)). 6월 18일부터 무료·개인 사용자는 Go 기반 Antigravity CLI로 전환해야 한다. 다만 Antigravity CLI는 오픈소스가 아니며 주간 컴퓨트 캡이 적용돼, 기존 Gemini CLI 일 1,000회 제한 대비 체감 다운그레이드라는 불만이 이어지고 있다.
 
-## Fable 5: 정지 4일째, 워싱턴 협상 진행 중
+## Fable 5: 정지 4일째, 복원 시기 불투명
 
-미국 상무부의 수출 통제 지시로 Fable 5가 정지된 지 4일째다([TechTimes](https://www.techtimes.com/articles/318342/20260613/us-government-pulls-anthropics-fable-5-offline-now-come-refunds-vanished-ai.htm)). Anthropic은 주말 동안 Tom Brown과 Sarah Heck를 워싱턴에 파견해 백악관 관계자와 복원 협상을 진행했다. David Sacks가 "최대한 빨리" 해제 의사를 밝혔지만, 실제 복원까지는 수주가 걸릴 것으로 보인다([Octagon](https://octagonai.co/markets/politics/when-will-anthropic-restore-fable-5-access-for-us-customers/)).
-
-## Microsoft: Work IQ API 정식 출시
-
-Microsoft가 Work IQ API를 정식 출시해 에이전트에게 조직 컨텍스트를 프로그래밍 방식으로 제공할 수 있게 됐다([Microsoft Blog](https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/)). 함께 발표된 Web IQ는 모델 불문·MCP 네이티브 AI 퍼스트 검색 스택으로, 기존 대비 2.5배 빠른 관련 구절 반환을 지원한다.
+Fable 5가 상무부 수출 통제 지시로 정지된 지 4일째다([TechTimes](https://www.techtimes.com/articles/318342/20260613/us-government-pulls-anthropics-fable-5-offline-now-come-refunds-vanished-ai.htm)). Anthropic은 주말 워싱턴 협상을 진행했으나, 공식 복원 일정은 발표되지 않았다. Polymarket에서는 6월 내 복원 확률이 35% 수준이다([Polymarket](https://polymarket.com/event/claude-fable-5-restored-for-us-customers-by-20260613193753196)).
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| Claude Code | 99 | — | v2.1.178, 에이전트 과금 적응 중 |
+| Claude Code | 99 | — | v2.1.178, 에이전트 과금 중단으로 안도 |
 | ChatGPT | 96 | — | 10억 MAU, GPT-5.5 시대 |
 | Cursor | 96 | — | SpaceX $600억 인수 확정 |
-| Claude AI | 96 | — | Fable 5 복원 수주 소요 전망 |
+| Claude AI | 96 | — | 12일간 10번째 장애, Fable 5 정지 지속 |
 | Codex CLI | 87 | — | Goal 모드 GA 안착 |
 | Windsurf | 85 | — | $15 가격으로 Copilot 이탈 흡수 |
 | Antigravity | 73 | ↑1 | Gemini CLI D-2 마이그레이션 |

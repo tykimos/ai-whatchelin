@@ -239,7 +239,7 @@ timeline
          : OpenAI, Apple 상대 법적 대응 준비 — ChatGPT 통합 약속 파기 (5/15)
          : OpenAI TanStack 공급망 공격 — 직원 2명 디바이스 침해, 사용자 데이터 무사 (5/15)
          : Anthropic Claude for Small Business — 무료 워크숍 + 15개 에이전트 워크플로우 (5/15)
-         : Anthropic 에이전트 과금 6/15 시행 — Pro $20, Max 5x $100, Max 20x $200 크레딧 (5/15)
+         : Anthropic 에이전트 과금 6/15 발표 — Pro $20, Max 5x $100, Max 20x $200 크레딧 (5/15, 6/15 중단)
          : Windsurf Devin Review + Devin for Terminal 전체 사용자 개방 (5/15)
          : Google I/O D-4 — Gemini Intelligence, Android 리부트, Code with Claude 동시 개최 (5/15)
          : Harness 보고서 — AI 도입 후 81% 조직에서 코드 리뷰 시간 증가 (5/15)
@@ -549,9 +549,9 @@ timeline
          : Gemini CLI 종료 D-4 — 6/18 이후 기업 고객만 유지 (6/14)
          : SpaceX SPCX 3일차 — $161-167 안정, Musk 순자산 $1.05조+ (6/14)
          : Moonshot AI, Kimi K2.7-Code Modified MIT 라이선스로 오픈소스화 (6/14)
-         : Anthropic 에이전트 과금 시행 — Pro $20, Max 5x $100, Max 20x $200 Agent SDK 크레딧, API 요율 적용 (6/15)
+         : Anthropic 에이전트 과금 시행일에 돌연 중단 — "지금은 변경 없음," 사용 패턴 재검토 중 (6/15)
          : Claude Sonnet 4 & Opus 4 하드 퇴장 — 오전 9시(PT) 종료, 요청 시 에러 반환 (6/15)
-         : Claude Code 프로그래밍 사용(claude -p, Agent SDK, GitHub Actions) 전용 크레딧 풀로 이전 (6/15)
+         : Claude Code 프로그래밍 사용(claude -p, Agent SDK, GitHub Actions) 기존 구독 한도에서 계속 차감 (6/15)
          : Copilot 42주 연속 하락 41, 종량제 15일차 — 개발자 이탈 계속 (6/15)
          : Gemini CLI 종료 D-3 — 6/18 이후 기업 고객만 유지 (6/15)
          : Cursor Bugbot 90초 리뷰 — 버그 10% 더 발견, 22% 저렴 (6/10)
@@ -573,6 +573,10 @@ timeline
          : Fable 5 정지 4일째 — Anthropic 워싱턴 주말 협상, 복원 수주 소요 전망 (6/16)
          : Microsoft Work IQ API GA + Web IQ AI 퍼스트 검색 스택 — 모델 불문, MCP 네이티브 (6/16)
          : Google & Kaggle AI Agents Intensive 2일차 — 바이브 코딩 워크숍 계속 (6/16)
+         : Anthropic 에이전트 과금 중단 확정 — The Decoder: "인기 없는 과금 개편에서 후퇴" (6/16)
+         : Claude 장애 — 12일간 10번째 장애, Opus 4.8·Haiku 4.5 에러 지속 (6/16)
+         : SpaceX SPCX Amazon 추월 — 시총 $2.65조로 세계 5위 주식 등극 (6/16)
+         : Copilot CLI v1.0.63 — 차단된 이미지 첨부 설명 제공, Editor 프리뷰 정책으로 비전 활성화 (6/15)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1129,7 +1133,13 @@ quadrantChart
 > *"Gemini CLI가 모든 비기업 사용자 대상으로 서비스를 중단하기까지 5일 남았다. Antigravity CLI로의 마이그레이션이 마지막 단계 — Antigravity가 인기도 70을 돌파하고 Gemini CLI는 62로 하락했다. Code Assist Standard/Enterprise를 통한 기업 사용자는 접근이 유지된다."* — Google Developers Blog `2026.06.13`
 
 **Claude Sonnet 4 & Opus 4 퇴역 D-2** (2026.06.13):
-> *"Claude Sonnet 4와 Opus 4가 6월 15일 오전 9시(PT)에 영구 퇴역하기까지 2일 남았다 — 유예기간 없이 API 요청은 즉시 에러를 반환한다. Anthropic은 각각 Sonnet 4.6과 Opus 4.8로의 마이그레이션을 권고한다. 같은 날 Anthropic 에이전트 과금 크레딧 풀 분리가 시행된다."* — Anthropic `2026.06.13`
+> *"Claude Sonnet 4와 Opus 4가 6월 15일 오전 9시(PT)에 영구 퇴역하기까지 2일 남았다 — 유예기간 없이 API 요청은 즉시 에러를 반환한다. Anthropic은 각각 Sonnet 4.6과 Opus 4.8로의 마이그레이션을 권고한다."* — Anthropic `2026.06.13`
+
+**Anthropic 에이전트 과금 시행일에 돌연 중단** (2026.06.15):
+> *"Anthropic이 에이전트 과금 개편을 시행 당일 중단했다. '지금은 변경 없음'이라는 이메일을 사용자에게 전송. Agent SDK, claude -p, 서드파티 앱은 기존 구독 한도에서 계속 차감된다. 사용 패턴에 더 잘 맞추기 위해 재검토 중이라고 밝혔다."* — The Decoder `2026.06.15`
+
+**Claude 12일간 10번째 장애** (2026.06.16):
+> *"6월 5일 이후 10번째 서비스 장애 — Opus 4.8과 Haiku 4.5 에러가 오후 2시(ET) 수정 시도 후에도 지속됐다. Anthropic: 'Claude 수요가 전례 없는 속도로 성장하고 있으며, 인프라가 한계에 달했다.' 연 $100만 이상 지출 기업 고객이 두 달 만에 500개에서 1,000개로 배증했다."* — TechTimes `2026.06.16`
 
 **2026 파워 스택 공식**:
 ```
@@ -2058,7 +2068,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **개인 금융** (Pro, Plaid 12K+ 은행), **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 6/15**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
+| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 중단** (5/15 발표, 6/15 중단), **Big Four 표준화** (Deloitte/PwC/KPMG) |
 | Claude Code | code.claude.com/changelog | **v2.1.169** 최신, **Fable 5** 출시 — 최초 공개 Mythos급 모델, $10/$50 per MTok, 6/22까지 무료; --safe-mode, /cd 명령어; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지 |
 | Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center |
@@ -2119,7 +2129,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/05/19 | Claude Code **v2.1.144** — /resume 백그라운드 세션 재개, MCP 터널 지원, 셀프호스팅 샌드박스, api.anthropic.com 접근 불가 시 시작 행 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/05/15 | **Claude for Small Business** — 무료 반일 AI 워크숍 + 15개 즉시 실행 에이전트 워크플로우(재무, 운영, 세일즈, HR, CS) | [axios.com](https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb) |
 | 2026/05/15 | **PwC 파트너십** — 엔터프라이즈 딜 실행·기능 혁신에 Claude 투입 | [anthropic.com](https://www.anthropic.com/news) |
-| 2026/05/15 | **에이전트 과금 6/15 시행** — 프로그래밍 방식 Claude 사용량이 챗 구독과 분리; Pro $20/월, Max 5x $100, Max 20x $200 크레딧 | [infoworld.com](https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html) |
+| 2026/05/15 | **에이전트 과금 6/15 발표 → 6/15 중단** — 프로그래밍 방식 Claude 사용량 분리 계획 발표 후, 시행일에 돌연 중단; "사용 패턴 재검토 중" | [the-decoder.com](https://the-decoder.com/anthropic-backs-off-unpopular-billing-overhaul-as-price-war-with-openai-looms/) |
 | 2026/05/14 | **Anthropic $9000억 밸류에이션** 목표 $300억+ 펀딩 라운드, Stainless 인수 협상과 동시 추진 | [bloomberg.com](https://www.newsbytesapp.com/news/business/anthropic-nearing-stainless-acquisition-and-seeking-at-least-30b-funding/tldr) |
 | 2026/05/14 | **Stainless 인수 협상** — OpenAI·Google·Cloudflare·Meta용 SDK 제작사를 $3억+에 인수 협상 | [theinformation.com](https://www.theinformation.com/articles/anthropic-talks-buy-developer-tools-startup-used-by-openai-google) |
 | 2026/05/14 | Claude Code **v2.1.141** — Agent View(통합 세션 목록), /goal 명령어, 터미널 알림 훅, 워크스페이스 신원 연합, 플러그인 옵션 확장 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |

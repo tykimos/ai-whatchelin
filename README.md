@@ -239,7 +239,7 @@ timeline
          : OpenAI preparing legal action against Apple over failed ChatGPT integration (May 15)
          : OpenAI TanStack supply-chain attack — 2 employee devices compromised, no user data (May 15)
          : Anthropic Claude for Small Business — free workshops + 15 agentic workflows (May 15)
-         : Anthropic agent metering June 15 — Pro $20, Max 5x $100, Max 20x $200 credits (May 15)
+         : Anthropic agent metering announced June 15 — Pro $20, Max 5x $100, Max 20x $200 credits (May 15, paused Jun 15)
          : Windsurf Devin Review + Devin for Terminal open to all users (May 15)
          : Google I/O D-4 — Gemini Intelligence, Android reboot, Code with Claude same week (May 15)
          : Harness report — 81% orgs say devs spend more time in code review post-AI (May 15)
@@ -549,9 +549,9 @@ timeline
          : Gemini CLI sunset D-4 — enterprise-only after June 18 (Jun 14)
          : SpaceX SPCX Day 3 — stabilizes around $161-167, Musk net worth $1.05T+ (Jun 14)
          : Moonshot AI open-sources Kimi K2.7-Code under Modified MIT license (Jun 14)
-         : Anthropic agent billing live — Pro $20, Max 5x $100, Max 20x $200 Agent SDK credits, billed at API rates (Jun 15)
+         : Anthropic agent billing PAUSED on launch day — "Nothing changes for now," working to align with usage patterns (Jun 15)
          : Claude Sonnet 4 & Opus 4 hard retirement — 9AM PT shutdown, requests return errors (Jun 15)
-         : Claude Code programmatic usage (claude -p, Agent SDK, GitHub Actions) moves to dedicated credit pool (Jun 15)
+         : Claude Code programmatic usage (claude -p, Agent SDK, GitHub Actions) still draws from subscription limits (Jun 15)
          : Copilot 42-week decline to 41, billing Day 15 — developer exodus continues (Jun 15)
          : Gemini CLI sunset D-3 — enterprise-only after June 18 (Jun 15)
          : Cursor Bugbot 90-second reviews — 10% more bugs, 22% cheaper per run (Jun 10)
@@ -573,6 +573,10 @@ timeline
          : Fable 5 suspension Day 4 — Anthropic weekend Washington talks, reinstatement weeks away (Jun 16)
          : Microsoft Work IQ APIs GA + Web IQ AI-first search stack — model-agnostic, MCP-native (Jun 16)
          : Google & Kaggle AI Agents Intensive Day 2 — vibe coding workshops continue (Jun 16)
+         : Anthropic agent billing pause confirmed — The Decoder: "backs off unpopular billing overhaul" (Jun 16)
+         : Claude outage — 10th disruption in 12 days, Opus 4.8 & Haiku 4.5 errors persist (Jun 16)
+         : SpaceX SPCX overtakes Amazon — 5th largest stock at $2.65T market cap (Jun 16)
+         : Copilot CLI v1.0.63 — blocked image attachments explain what to do, vision via Editor preview policy (Jun 15)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1115,6 +1119,12 @@ quadrantChart
 
 **Claude Sonnet 4 & Opus 4 Retirement D-2** (2026.06.13):
 > *"Two days until Claude Sonnet 4 and Opus 4 are permanently retired at 9AM PT on June 15 — no grace period, API requests will return errors immediately. Anthropic recommends migrating to Sonnet 4.6 and Opus 4.8 respectively. Same-day: Anthropic's agent billing credit pool split takes effect."* — Anthropic `2026.06.13`
+
+**Anthropic Agent Billing Paused on Launch Day** (2026.06.15):
+> *"Anthropic paused the agent billing overhaul on the same day it was supposed to take effect. 'Nothing changes for now,' the company told users by email. The Agent SDK, claude -p, and third-party apps still draw from regular subscription limits. Anthropic says it is working to better align the plan with actual usage patterns."* — The Decoder `2026.06.15`
+
+**Claude 10th Outage in 12 Days** (2026.06.16):
+> *"Claude's tenth significant service disruption since June 5 — Opus 4.8 and Haiku 4.5 errors persisted despite a fix attempt at 2:00 PM ET. Anthropic acknowledged: 'Demand for Claude has grown at an unprecedented rate, and our infrastructure has been stretched to meet it.' Enterprise clients spending $1M+ annually doubled from 500 to 1,000 in under two months."* — TechTimes `2026.06.16`
 
 **2026 Power Stack Formula**:
 ```
@@ -2098,7 +2108,7 @@ All pricing information has been directly verified from each service's official 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering June 15**, **Big Four standardization** (Deloitte/PwC/KPMG) |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering paused** (announced May 15, paused Jun 15), **Big Four standardization** (Deloitte/PwC/KPMG) |
 | Claude Code | code.claude.com/changelog | **v2.1.169** latest, **Fable 5** launched — first public Mythos-class model, $10/$50 per MTok, free through Jun 22; --safe-mode, /cd command; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13 |
 | Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center |

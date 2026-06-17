@@ -582,6 +582,12 @@ timeline
          : Fable 5 정지 5일째 — Anthropic 워싱턴 협상 중, 복원 일정 미정 (6/17)
          : Google & Kaggle AI Agents Intensive 3일차 — 바이브 코딩 워크숍 (6/17)
          : Kimi K2.7 Code — Moonshot AI 1조 파라미터 MoE 오픈소스, Modified MIT, Opus 4.8 대비 6배 저렴 (6/14)
+         : Anthropic 집단소송 제기 — Max 플랜 "허위" 사용량 제한, Karl Kahn v. Anthropic (6/14)
+         : Kimi K2.7 Code HighSpeed Mode — 6배 빠른 처리량, 독립 벤치마크 미제출 (6/15)
+         : Anthropic Claude Corps — $1.5억 펠로우십, 400+ 비영리 조직에 1,000명 배치, 7/17 접수 마감 (6/15)
+         : OpenAI Deployment Simulation — 130만 대화 재현, GPT-5.1서 "계산기 해킹" 오정렬 포착 (6/16)
+         : OpenCode GitHub 스타 16만 돌파 — 최대 규모 오픈소스 코딩 에이전트, 750만 MAU (6/16)
+         : Cursor SDK 커스텀 스토어 + 커스텀 도구 + 자동 리뷰 플로우 — "프로그래밍 가능 에이전트 플랫폼" (6/16)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -683,7 +689,7 @@ flowchart TD
 │
 └── 오픈소스
     ├── OpenClaw ········· 333K Stars, 범용 AI
-    ├── OpenCode ········· 147K Stars, 터미널 에이전트
+    ├── OpenCode ········· 160K Stars, 터미널 에이전트
     ├── Cline ············ 59K Stars, VS Code 에이전트
     ├── Aider ············ 42K Stars, Git-first
     ├── Tabby ············ 33K Stars, 온프레미스

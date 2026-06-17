@@ -582,6 +582,12 @@ timeline
          : Fable 5 suspension Day 5 — Anthropic Washington talks, no reinstatement timeline (Jun 17)
          : Google & Kaggle AI Agents Intensive Day 3 — vibe coding workshops continue (Jun 17)
          : Kimi K2.7 Code — Moonshot AI 1T MoE open-source under Modified MIT, 6x cheaper than Opus 4.8 (Jun 14)
+         : Anthropic class-action lawsuit filed — Max plan "misleading" usage limits, Karl Kahn v. Anthropic (Jun 14)
+         : Kimi K2.7 Code HighSpeed Mode — 6x faster throughput, no independent benchmarks submitted (Jun 15)
+         : Anthropic Claude Corps — $150M fellowship, 1,000 fellows at 400+ nonprofits, applications due Jul 17 (Jun 15)
+         : OpenAI Deployment Simulation — replays 1.3M conversations, caught "calculator hacking" misalignment in GPT-5.1 (Jun 16)
+         : OpenCode surpasses 160K GitHub stars — most-adopted open-source coding agent, 7.5M MAU (Jun 16)
+         : Cursor SDK custom stores + custom tools + auto-review flows — "programmable agent platform" (Jun 16)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -683,7 +689,7 @@ Vibe Coder
 │
 └── Open Source
     ├── OpenClaw ········· 333K Stars, general AI
-    ├── OpenCode ········· 147K Stars, terminal agent
+    ├── OpenCode ········· 160K Stars, terminal agent
     ├── Cline ············ 59K Stars, VS Code agent
     ├── Aider ············ 42K Stars, Git-first
     ├── Tabby ············ 33K Stars, on-premise

@@ -588,6 +588,7 @@ timeline
          : OpenAI Deployment Simulation — replays 1.3M conversations, caught "calculator hacking" misalignment in GPT-5.1 (Jun 16)
          : OpenCode surpasses 160K GitHub stars — most-adopted open-source coding agent, 7.5M MAU (Jun 16)
          : Cursor SDK custom stores + custom tools + auto-review flows — "programmable agent platform" (Jun 16)
+         : Cursor Origin announced — agent-first git hosting platform, GitHub alternative, AI-powered merge conflict resolution (Jun 17)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

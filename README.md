@@ -599,7 +599,14 @@ timeline
          : Google & Kaggle AI Agents Intensive Day 4 — quality/security, evals and guardrails (Jun 18)
          : Claude Code v2.1.179 — mid-stream drop fix, WSL2 scrolling, sandbox glob perf, remote plugin loading (Jun 18)
          : Claude Code v2.1.181 — /config key=value commands, Bun 1.4, line-by-line streaming, network drive fix (Jun 18)
-         : SPCX pulls back from $225 ATH to ~$192 — consolidation after Cursor acquisition announcement (Jun 18)
+         : SPCX drops to ~$175 from $225 ATH — second day decline, Fed holds rates, -10% intraday (Jun 18)
+         : Grok 4.3 released on Amazon Bedrock — 1M context, configurable reasoning, lowest hallucination claims (Jun 18)
+         : Anthropic Seoul partnerships — NAVER, Samsung SDS, LG CNS, Nexon, Hanwha, Channel Corp (Jun 18)
+         : ChatGPT market share below 50% for first time — Gemini 27.7%, Claude 10.3% (Jun 18)
+         : Midjourney Medical launched — HN #1 at 1,265 points (Jun 18)
+         : CVE-2025-53773 Copilot prompt injection CVSS 9.6 — PR description RCE (Jun 18)
+         : HN trending "10k GitHub repos distributing Trojan malware" — 575 points (Jun 18)
+         : GPT-5.6 prediction markets 83% for June 22-28 release — iris-alpha codename (Jun 18)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

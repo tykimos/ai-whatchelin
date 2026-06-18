@@ -599,7 +599,14 @@ timeline
          : Google & Kaggle AI Agents Intensive 4일차 — 품질/보안, 평가·가드레일 (6/18)
          : Claude Code v2.1.179 — 스트림 중단 수정, WSL2 스크롤, 샌드박스 glob 성능, 원격 플러그인 로딩 (6/18)
          : Claude Code v2.1.181 — /config key=value 명령어, Bun 1.4, 라인별 스트리밍, 네트워크 드라이브 수정 (6/18)
-         : SPCX $225 사상 최고가에서 ~$192로 조정 — Cursor 인수 발표 후 차익 실현 (6/18)
+         : SPCX ~$175로 추가 하락 — ATH $225서 이틀 연속 하락, 장중 -10%, 연준 금리 동결 (6/18)
+         : Grok 4.3 Amazon Bedrock 출시 — 1M 컨텍스트, 구성 가능 추론, 환각률 최저 주장 (6/18)
+         : Anthropic 서울 파트너십 — NAVER·Samsung SDS·LG CNS·Nexon·한화·Channel Corp (6/18)
+         : ChatGPT 시장점유율 최초 50% 이하 — Gemini 27.7%, Claude 10.3% (6/18)
+         : Midjourney Medical 출시 — HN 1위 1,265포인트 (6/18)
+         : CVE-2025-53773 Copilot 프롬프트 인젝션 CVSS 9.6 — PR 설명에서 RCE (6/18)
+         : HN "GitHub 악성코드 배포 저장소 1만 개 발견" — 575포인트 (6/18)
+         : GPT-5.6 예측 시장 83% 6/22-28 출시 — iris-alpha 코드명 (6/18)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

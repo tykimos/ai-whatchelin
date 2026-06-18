@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-17</sub>
+  <sub>Last updated: 2026-06-18</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.17-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.18-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -589,6 +589,12 @@ timeline
          : OpenCode surpasses 160K GitHub stars — most-adopted open-source coding agent, 7.5M MAU (Jun 16)
          : Cursor SDK custom stores + custom tools + auto-review flows — "programmable agent platform" (Jun 16)
          : Cursor Origin announced — agent-first git hosting platform, GitHub alternative, AI-powered merge conflict resolution (Jun 17)
+         : Copilot App GA — desktop agentic sessions for macOS/Windows/Linux, Canvases collaboration (Jun 17)
+         : Codex CLI v0.140.0 stable — /usage, /import from Claude Code, session delete, Bedrock auth (Jun 15)
+         : Gemini CLI shutdown — individual users lose access today, enterprise-only hereafter (Jun 18)
+         : Copilot 45-week decline to 38, billing Day 18 — App GA can't offset billing backlash (Jun 18)
+         : Fable 5 suspension Day 6 — Anthropic engineers in Washington face-to-face talks (Jun 18)
+         : Google & Kaggle AI Agents Intensive Day 4 — production agents, vibe coding workshops (Jun 18)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1628,26 +1634,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17"]
-    y-axis "Popularity Score" 37 --> 100
+    x-axis ["06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18"]
+    y-axis "Popularity Score" 35 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39]
+    line "GH Copilot" [51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [83, 84, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
+    line "Windsurf" [84, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58]
-    line "Antigravity" [64, 64, 65, 65, 66, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+    line "Gemini CLI" [70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 55]
+    line "Antigravity" [64, 65, 65, 66, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-39↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-38↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-58↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-74↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-55↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-76↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

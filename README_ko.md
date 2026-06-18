@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-17</sub>
+  <sub>마지막 업데이트: 2026-06-18</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.17-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.18-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -589,6 +589,12 @@ timeline
          : OpenCode GitHub 스타 16만 돌파 — 최대 규모 오픈소스 코딩 에이전트, 750만 MAU (6/16)
          : Cursor SDK 커스텀 스토어 + 커스텀 도구 + 자동 리뷰 플로우 — "프로그래밍 가능 에이전트 플랫폼" (6/16)
          : Cursor Origin 발표 — 에이전트 퍼스트 git 호스팅 플랫폼, GitHub 대항마, AI 기반 머지 충돌 해결 (6/17)
+         : Copilot App GA — macOS/Windows/Linux 데스크톱 에이전트 세션, Canvases 협업 (6/17)
+         : Codex CLI v0.140.0 안정판 — /usage, Claude Code에서 /import, 세션 삭제, Bedrock 인증 (6/15)
+         : Gemini CLI 종료 — 개인 사용자 접근 차단, 기업 전용 전환 완료 (6/18)
+         : Copilot 45주 연속 하락 38, 종량제 18일차 — App GA도 과금 반발 상쇄 못해 (6/18)
+         : Fable 5 정지 6일째 — Anthropic 엔지니어 워싱턴 대면 협상 (6/18)
+         : Google & Kaggle AI Agents Intensive 4일차 — 프로덕션 에이전트, 바이브코딩 워크숍 (6/18)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1598,26 +1604,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-04", "06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17"]
-    y-axis "인기 점수" 37 --> 100
+    x-axis ["06-05", "06-06", "06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18"]
+    y-axis "인기 점수" 35 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39]
+    line "GH Copilot" [51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
-    line "Windsurf" [83, 84, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
+    line "Windsurf" [84, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58]
-    line "Antigravity" [64, 64, 65, 65, 66, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+    line "Gemini CLI" [70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 55]
+    line "Antigravity" [64, 65, 65, 66, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-39↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-38↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-58↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-74↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-55↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-76↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

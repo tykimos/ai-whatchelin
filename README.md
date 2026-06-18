@@ -591,10 +591,15 @@ timeline
          : Cursor Origin announced — agent-first git hosting platform, GitHub alternative, AI-powered merge conflict resolution (Jun 17)
          : Copilot App GA — desktop agentic sessions for macOS/Windows/Linux, Canvases collaboration (Jun 17)
          : Codex CLI v0.140.0 stable — /usage, /import from Claude Code, session delete, Bedrock auth (Jun 15)
+         : G7 AI summit — Altman, Amodei, Hassabis attend working lunch, voluntary youth safety commitments (Jun 17)
+         : Anthropic opens Seoul office — first Korea presence (Jun 17)
          : Gemini CLI shutdown — individual users lose access today, enterprise-only hereafter (Jun 18)
          : Copilot 45-week decline to 38, billing Day 18 — App GA can't offset billing backlash (Jun 18)
          : Fable 5 suspension Day 6 — Anthropic engineers in Washington face-to-face talks (Jun 18)
-         : Google & Kaggle AI Agents Intensive Day 4 — production agents, vibe coding workshops (Jun 18)
+         : Google & Kaggle AI Agents Intensive Day 4 — quality/security, evals and guardrails (Jun 18)
+         : Claude Code v2.1.179 — mid-stream drop fix, WSL2 scrolling, sandbox glob perf, remote plugin loading (Jun 18)
+         : Claude Code v2.1.181 — /config key=value commands, Bun 1.4, line-by-line streaming, network drive fix (Jun 18)
+         : SPCX pulls back from $225 ATH to ~$192 — consolidation after Cursor acquisition announcement (Jun 18)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

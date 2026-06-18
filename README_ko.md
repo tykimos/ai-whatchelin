@@ -591,10 +591,15 @@ timeline
          : Cursor Origin 발표 — 에이전트 퍼스트 git 호스팅 플랫폼, GitHub 대항마, AI 기반 머지 충돌 해결 (6/17)
          : Copilot App GA — macOS/Windows/Linux 데스크톱 에이전트 세션, Canvases 협업 (6/17)
          : Codex CLI v0.140.0 안정판 — /usage, Claude Code에서 /import, 세션 삭제, Bedrock 인증 (6/15)
+         : G7 AI 정상회의 — Altman·Amodei·Hassabis 워킹 런치 참석, 청소년 안전 자발적 합의 (6/17)
+         : Anthropic 서울 오피스 오픈 — 한국 최초 법인 진출 (6/17)
          : Gemini CLI 종료 — 개인 사용자 접근 차단, 기업 전용 전환 완료 (6/18)
          : Copilot 45주 연속 하락 38, 종량제 18일차 — App GA도 과금 반발 상쇄 못해 (6/18)
          : Fable 5 정지 6일째 — Anthropic 엔지니어 워싱턴 대면 협상 (6/18)
-         : Google & Kaggle AI Agents Intensive 4일차 — 프로덕션 에이전트, 바이브코딩 워크숍 (6/18)
+         : Google & Kaggle AI Agents Intensive 4일차 — 품질/보안, 평가·가드레일 (6/18)
+         : Claude Code v2.1.179 — 스트림 중단 수정, WSL2 스크롤, 샌드박스 glob 성능, 원격 플러그인 로딩 (6/18)
+         : Claude Code v2.1.181 — /config key=value 명령어, Bun 1.4, 라인별 스트리밍, 네트워크 드라이브 수정 (6/18)
+         : SPCX $225 사상 최고가에서 ~$192로 조정 — Cursor 인수 발표 후 차익 실현 (6/18)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

@@ -621,6 +621,12 @@ timeline
          : Trump at G7: Fable 5 negotiations "going fine" — first presidential comment on ban (Jun 19)
          : Kaggle AI Agents Intensive Day 5 capstone launches — submission deadline July 6 (Jun 19)
          : Anthropic-Korea Investment hackathon — Claude developers coach 1:1 in Seoul (Jun 19)
+         : Codex CLI v0.141.0 — remote execution Noise encryption, cross-platform shells, 87 changes (Jun 18)
+         : Cursor Automations GA — /automate skill, Slack emoji triggers, computer use for cloud agents (Jun 19)
+         : Windsurf (Devin Desktop) 3.2 — Devin Local enhancements, desktop workflow polish (Jun 19)
+         : Claude Code auto mode safety — blocks destructive git/IaC commands unless explicitly requested (Jun 19)
+         : Copilot PR limits — configurable caps and bypass lists for trusted contributors (Jun 19)
+         : SPCX at $185 — Musk net worth fluctuates, post-IPO correction continues (Jun 19)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

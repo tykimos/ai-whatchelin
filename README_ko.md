@@ -621,6 +621,12 @@ timeline
          : 트럼프 G7에서 Fable 5 협상 "잘 되고 있다" — 금지령 관련 첫 대통령 발언 (6/19)
          : Kaggle AI Agents Intensive 5일차 캡스톤 프로젝트 시작 — 마감 7/6 (6/19)
          : Anthropic-한국투자 해커톤 — Claude 개발자 1:1 코칭 서울 개최 (6/19)
+         : Codex CLI v0.141.0 — 원격 실행 Noise 암호화, 크로스플랫폼 셸, 87개 변경 (6/18)
+         : Cursor Automations GA — /automate 스킬, Slack 이모지 트리거, 클라우드 에이전트 컴퓨터 사용 (6/19)
+         : Windsurf (Devin Desktop) 3.2 — Devin Local 개선, 데스크톱 워크플로우 폴리싱 (6/19)
+         : Claude Code 자동 모드 안전 강화 — 파괴적 git/IaC 명령 명시적 요청 없이 차단 (6/19)
+         : Copilot PR 제한 기능 — 기여 수 상한 설정 및 신뢰 기여자 우회 목록 (6/19)
+         : SPCX $185 — Musk 순자산 변동, IPO 후 조정 지속 (6/19)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

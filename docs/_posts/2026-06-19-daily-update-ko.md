@@ -1,33 +1,35 @@
 ---
-title: "Gemini CLI 폐쇄 후폭풍 — 파이프라인 장애 속 Antigravity 급부상, Fable 5 정지 1주일"
+title: "SK Telecom이 Fable 5 금지 촉발 — 환불 마감 D-1, 트럼프 G7서 '잘 되고 있다'"
 date: 2026-06-19
 lang: ko
 categories: [news]
-tags: [gemini-cli, antigravity, copilot, fable-5, gpt-5.6, spacex, kaggle, claude-code]
-excerpt: "Gemini CLI 폐쇄 첫날, CI/CD 파이프라인이 무더기로 깨지며 개발자들의 분노가 폭발했다. Antigravity CLI가 수혜자로 떠오르는 가운데, Fable 5 정지는 7일째 해제 기미가 없다."
+tags: [fable-5, sk-telecom, gemini-cli, antigravity, copilot, gpt-5.6, kaggle, claude-code]
+excerpt: "Fable 5 금지의 방아쇠를 당긴 주인공이 SK Telecom으로 드러났다. 환불 마감이 내일로 다가온 가운데, 트럼프 대통령이 G7에서 처음으로 '협상이 잘 되고 있다'고 발언했다."
 ---
 
-어제 공식 폐쇄된 Gemini CLI의 여파가 현실로 나타났다. `gemini` 명령어를 사용하던 수만 개의 CI/CD 파이프라인이 HTTP 410 에러를 반환하며 멈췄고, 개발자 커뮤니티는 하루 만에 "사일런트 장애"의 규모를 체감하고 있다.
+Fable 5 정지 사태 7일째, 오늘 가장 큰 뉴스는 금지의 원인이 된 한국 통신사가 SK Telecom으로 특정됐다는 것이다. 동시에 Gemini CLI 셧다운 D+1의 파이프라인 장애가 현실로 나타나며, AI 코딩 도구 시장의 격변이 계속되고 있다.
 
-## Gemini CLI 셧다운 D+1: 사일런트 장애의 규모
+## Fable 5: SK Telecom이 금지 촉발한 원인으로 특정
 
-어제 종료된 Gemini CLI의 후폭풍이 본격화됐다. CI/CD 파이프라인, cron job, 오케스트레이션 브릿지에서 `gemini` 명령어가 HTTP 410을 반환하며 빌드가 무더기로 실패하고 있다([TechTimes](https://www.techtimes.com/articles/318660/20260618/gemini-cli-shutdown-takes-effect-ci-cd-pipelines-break-go-based-antigravity-cli-arrives.htm)). 특히 MCP `serverUrl` 필드명 변경이 에러 없이 실패하는 "사일런트 장애"가 가장 위험하다고 개발자들이 보고하고 있다([DigitalApplied](https://www.digitalapplied.com/blog/gemini-cli-to-antigravity-cli-migration-june-18-2026-guide)). Google이 1년간 외부 기여자들로부터 6,000개 PR을 받아들인 뒤 폐쇄형 바이너리로 전환한 데 대해 Linux Foundation은 "오픈소스 끼워팔기"의 대표 사례로 지목했다([TechTimes](https://www.techtimes.com/articles/317407/20260529/linux-foundation-tool-spotlighted-furious-developers-accuse-sickening-google-gemini-cli.htm)).
+백악관이 Anthropic의 Fable 5·Mythos 5를 정지시킨 직접적 원인이 SK Telecom으로 밝혀졌다([Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls)). SK Telecom은 6월 초 Anthropic의 Project Glasswing 사이버보안 프로그램을 통해 Mythos 5 접근 권한을 획득했는데, 백악관이 이 회사의 중국 연계 이력에 우려를 표명하며 접근 차단을 요청했고, Anthropic이 즉시 이행했다([Korea JoongAng Daily](https://www.koreajoongangdaily.com/business/white-house-officials-pin-anthropic-ai-export-block-on-korean-telecom-report/12726842)). 특히 이번 사태는 Anthropic이 바로 같은 주에 서울 오피스를 여는 시점에 벌어진 것이어서 상황이 극도로 아이러니하다.
 
-## Antigravity: Gemini CLI 무덤 위에서 급성장
+환불 마감이 내일(6월 20일)이다. 6월 9일~14일 사이 플랜 구매 또는 업그레이드한 사용자만 대상이며, 기한은 6월 20일 23:59 PT다([TechJack Solutions](https://techjacksolutions.com/ai-brief/fable-5-refund-window-closes-june-20-what-anthropics-billing/)). Anthropic 국제사업 총괄은 서울 오피스 오프닝에서 "수일 내 복원에 매우 확신한다"고 밝혔고([TechTimes](https://www.techtimes.com/articles/318668/20260618/fable-5-export-ban-day-six-anthropic-opens-seoul-office-vows-models-back-days.htm)), 트럼프 대통령도 G7 에비앙 현장에서 기자들에게 "협상이 잘 되고 있다(going fine)"고 발언해 금지령 관련 첫 대통령 코멘트를 남겼다. Kalshi 예측시장은 7월 1일 전 복원 확률을 57%로 보고 있다.
 
-Gemini CLI 이전 수요를 흡수하며 Antigravity 인기도가 77로 상승했다. Google & Kaggle AI Agents Intensive 5일 과정이 오늘 최종일을 맞으며 Antigravity로 바이브코딩하는 워크숍이 진행됐다([Kaggle](https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google/discussion/708744)). 다만 후속제 Antigravity CLI(`agy`)는 무료 일간 요청이 1,000회에서 20회로 98% 감소한 폐쇄형 Go 바이너리로, 기존 Gemini CLI와 1:1 기능 호환이 안 된다는 점은 여전히 불만 요소다([Groundy](https://groundy.com/articles/google-sunsets-gemini-cli-on-june-18-forced-migration-to-antigravity-cli-breaks/)).
+## Gemini CLI 셧다운 D+1: 사일런트 장애가 가장 위험
 
-## Fable 5 정지 7일째 — 복원 기미 없음
+어제 공식 폐쇄된 Gemini CLI의 후폭풍이 본격화됐다. `gemini` 명령어를 사용하던 CI/CD 파이프라인, cron job, 오케스트레이션 브릿지에서 HTTP 410 에러가 무더기로 발생하고 있다([TechTimes](https://www.techtimes.com/articles/318660/20260618/gemini-cli-shutdown-takes-effect-ci-cd-pipelines-break-go-based-antigravity-cli-arrives.htm)). MCP `serverUrl` 필드명 변경이 에러 없이 통과하는 사일런트 장애가 가장 위험한 것으로 보고되고 있다([DigitalApplied](https://www.digitalapplied.com/blog/gemini-cli-to-antigravity-cli-migration-june-18-2026-guide)). 후속제 Antigravity CLI(`agy`)는 무료 일간 요청이 1,000회에서 20회로 98% 감소한 폐쇄형 Go 바이너리다([Groundy](https://groundy.com/articles/google-sunsets-gemini-cli-on-june-18-forced-migration-to-antigravity-cli-breaks/)). Antigravity 인기도는 77로 상승하며 이전 수요를 흡수 중이다.
 
-미국 정부의 수출 통제 지시로 정지된 Claude Fable 5가 7일째 복원 일정 없이 정지 상태를 유지하고 있다([EisnerAmper](https://www.eisneramper.com/insights/artificial-intelligence-insights/fable-5-suspension-facts-and-timeline-0626/)). David Sacks 전 AI 차르가 "가능한 빨리" 복원하겠다고 했지만, Anthropic이 워싱턴에서 대면 협상을 계속하고 있는 것 외에 구체적 진전은 없다([Octagon AI](https://octagonai.co/markets/politics/when-will-anthropic-restore-fable-5-access-for-us-customers/)). Opus 4.8, Sonnet 4.6 등 다른 Claude 모델은 정상 운영 중이다.
+## GPT-5.6: 다음 주 출시 가능성 83%
 
-## GPT-5.6: "의미 있는 개선" — 다음 주 출시 가능성 83%
-
-OpenAI 수석 과학자 Jakub Pachocki가 GPT-5.6를 내부적으로 "의미 있는 개선(meaningful improvement)"이라고 평가했다([TechTimes](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm)). Polymarket에서 6월 22-28일 출시 확률 83%, $96만 이상 거래량이 형성돼 있다([Polymarket](https://polymarket.com/event/gpt-5pt6-released-by)). 공식 발표는 아직 없지만, iris-alpha 코드명으로 1.5M 컨텍스트를 지원할 것으로 예상된다.
+OpenAI 수석 과학자 Pachocki가 GPT-5.6를 "의미 있는 개선(meaningful improvement)"이라고 평가했다([TechTimes](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm)). Polymarket에서 6월 22-28일 출시 확률이 83%를 기록하고 있으며, iris-alpha 코드명에 1.5M 컨텍스트 윈도우가 예상된다([AIxploria](https://www.aixploria.com/en/ai-radar/gpt-5-6-codex-leak-polymarket-june-release/)). 공식 발표는 아직 없다.
 
 ## Copilot 46주 연속 하락 — 37점, 종량제 19일차
 
-Copilot 인기도가 37로 46주 연속 하락을 기록했다. 종량제 과금 19일차로, 일부 사용자가 월 크레딧의 8%를 2시간 만에 소진하는 사례가 계속 보고되고 있다([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). CVSS 9.6 프롬프트 인젝션 취약점(CVE-2025-53773)도 어제 공개되며 신뢰 회복이 더욱 어려워졌다.
+Copilot 인기도가 37로 46주 연속 하락을 기록했다. 종량제 과금 19일차로, 일부 사용자가 월 크레딧의 8%를 2시간 만에 소진하는 사례가 지속되고 있다([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). 어제 공개된 CVSS 9.6 프롬프트 인젝션 취약점(CVE-2025-53773)도 신뢰 회복에 악재다.
+
+## Kaggle AI Agents Intensive 최종일 — 캡스톤 프로젝트 시작
+
+Google & Kaggle AI Agents Intensive 5일 과정이 최종일을 맞았다. 오늘 프로토타입-투-프로덕션 세션이 진행되며, 캡스톤 프로젝트가 공개돼 7월 6일까지 제출 가능하다([Kaggle](https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google)). 완료 시 Kaggle 프로필에 배지와 수료증이 부여된다.
 
 ## 마켓 펄스
 

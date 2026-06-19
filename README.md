@@ -615,6 +615,12 @@ timeline
          : SPCX stabilizes near $175 — down from $225 ATH, second week of post-IPO correction (Jun 19)
          : Antigravity rises to 77 — absorbing Gemini CLI post-shutdown migration wave (Jun 19)
          : Gemini CLI drops to 50 — enterprise-only, individual pipelines dead (Jun 19)
+         : SK Telecom identified as Fable 5 ban trigger — Project Glasswing access revoked over China ties (Jun 19)
+         : Fable 5 refund window closes June 20 — eligible purchases Jun 9-14 only (Jun 19)
+         : Anthropic "very confident" Fable 5 returning "in coming days" — Seoul office launch statement (Jun 19)
+         : Trump at G7: Fable 5 negotiations "going fine" — first presidential comment on ban (Jun 19)
+         : Kaggle AI Agents Intensive Day 5 capstone launches — submission deadline July 6 (Jun 19)
+         : Anthropic-Korea Investment hackathon — Claude developers coach 1:1 in Seoul (Jun 19)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

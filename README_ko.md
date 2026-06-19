@@ -615,6 +615,12 @@ timeline
          : SPCX ~$175 안정화 — ATH $225서 하락, IPO 후 2주차 조정 (6/19)
          : Antigravity 77 상승 — Gemini CLI 셧다운 후 이전 수요 흡수 (6/19)
          : Gemini CLI 50 하락 — 기업 전용, 개인 파이프라인 사망 (6/19)
+         : SK Telecom, Fable 5 금지 원인으로 특정 — Project Glasswing 접근 중국 연계 우려로 차단 (6/19)
+         : Fable 5 환불 기한 6/20 마감 — 6/9-14 구매분만 대상 (6/19)
+         : Anthropic "Fable 5 수일 내 복원 매우 확신" — 서울 오피스 오프닝 발언 (6/19)
+         : 트럼프 G7에서 Fable 5 협상 "잘 되고 있다" — 금지령 관련 첫 대통령 발언 (6/19)
+         : Kaggle AI Agents Intensive 5일차 캡스톤 프로젝트 시작 — 마감 7/6 (6/19)
+         : Anthropic-한국투자 해커톤 — Claude 개발자 1:1 코칭 서울 개최 (6/19)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

@@ -3,7 +3,7 @@ title: "Fable 5 Refund Window Closes Today as GPT-5.6 Odds Surge to 90%"
 date: 2026-06-20
 lang: en
 categories: [news]
-tags: [fable-5, gpt-5.6, gemini-cli, antigravity, copilot, kiro, claude-code, spcx]
+tags: [fable-5, gpt-5.6, gemini-cli, antigravity, copilot, kiro, claude-code, claude-design, spcx]
 excerpt: "Today is the Fable 5 refund deadline. GPT-5.6 prediction markets jump to 90% for next week, and Gemini CLI shutdown Day 2 fallout continues spreading."
 ---
 
@@ -28,6 +28,10 @@ AWS Kiro shipped an iOS app in early access, letting developers manage coding se
 ## Copilot 47-Week Decline — Score 36, Billing Day 20
 
 Copilot dropped to 36, extending its record streak to 47 consecutive weeks of decline ([GitHub Discussions](https://github.com/orgs/community/discussions/categories/copilot-news-and-announcements)). On billing Day 20, Pro plan users get $15 in monthly credits for $10/mo, but agentic sessions cost $30-40 each — some users reported burning 8% of credits within 2 hours ([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). The CVSS 9.6 prompt injection (CVE-2025-53773) and newly discovered 2FA code theft vulnerability (CVE-2026-42824) continue eroding trust.
+
+## Claude Design Beta — From Design to Code in One Flow
+
+Anthropic launched Claude Design beta for paid plan users (Pro, Max, Team, Enterprise), introducing a WYSIWYG visual canvas where UI elements can be dragged, resized, and restyled with Claude updating the underlying code in real time ([WindowsNews](https://windowsnews.ai/article/anthropic-launches-claude-design-beta-with-wysiwyg-canvas-and-code-handoff-for-paid-users.427631)). Design systems can be imported from tools like Figma, and the new `/design-sync` command provides direct handoff to Claude Code for turning prototypes into production code ([explainx.ai](https://explainx.ai/blog/claude-design-june-2026-update-design-sync-2026)). Available at claude.ai/design or in the desktop app sidebar.
 
 ## Market Pulse
 

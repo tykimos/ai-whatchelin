@@ -635,6 +635,7 @@ timeline
          : Antigravity 78 상승 — Gemini CLI D+2 마이그레이션 흡수 (6/20)
          : Kiro iOS 앱 조기 액세스 — 스마트폰에서 코딩 세션 관리 (6/20)
          : Kiro CLI V3 프리뷰 — 스펙 기반 개발, EARS 표기법, 태그 기반 에이전트 (6/20)
+         : Claude Design 베타 출시 — WYSIWYG 캔버스, 디자인 시스템 임포트, /design-sync Claude Code 연동 (6/20)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

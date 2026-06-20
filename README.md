@@ -635,6 +635,7 @@ timeline
          : Antigravity rises to 78 — absorbing Gemini CLI D+2 migration wave (Jun 20)
          : Kiro iOS app early access — manage coding sessions from smartphone/tablet (Jun 20)
          : Kiro CLI V3 preview — spec-driven development, EARS notation, tag-based agents (Jun 20)
+         : Claude Design beta — WYSIWYG canvas, design systems import, /design-sync Claude Code handoff (Jun 20)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

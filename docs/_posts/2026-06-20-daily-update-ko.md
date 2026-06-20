@@ -3,7 +3,7 @@ title: "Fable 5 환불 마감일 — GPT-5.6 출시 확률 90% 급등, Gemini CL
 date: 2026-06-20
 lang: ko
 categories: [news]
-tags: [fable-5, gpt-5.6, gemini-cli, antigravity, copilot, kiro, claude-code, spcx]
+tags: [fable-5, gpt-5.6, gemini-cli, antigravity, copilot, kiro, claude-code, claude-design, spcx]
 excerpt: "Fable 5 환불 마감이 오늘이다. GPT-5.6 예측시장 확률이 90%로 치솟고, Gemini CLI 셧다운 이틀째 사일런트 장애가 확산 중이다."
 ---
 
@@ -28,6 +28,10 @@ AWS Kiro가 iOS 앱을 조기 액세스로 출시해 모바일에서 코딩 세�
 ## Copilot 47주 연속 하락 — 36점, 종량제 D-20
 
 Copilot 인기도가 36으로 47주 연속 하락했다([GitHub Discussions](https://github.com/orgs/community/discussions/categories/copilot-news-and-announcements)). 종량제 20일차로, Pro 플랜 $10/월에 $15 크레딧 포함이지만 에이전틱 세션당 $30-40이 소진되어 2시간 만에 월간 크레딧의 8%가 소진되는 사례가 보고됐다([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). CVSS 9.6 프롬프트 인젝션(CVE-2025-53773)과 새로 발견된 2FA 코드 탈취 취약점(CVE-2026-42824)이 신뢰를 더욱 잠식하고 있다.
+
+## Claude Design 베타 출시 — 디자인에서 코드까지 원스톱
+
+Anthropic이 Claude Design 베타를 유료 플랜(Pro·Max·Team·Enterprise) 사용자에게 공개했다([WindowsNews](https://windowsnews.ai/article/anthropic-launches-claude-design-beta-with-wysiwyg-canvas-and-code-handoff-for-paid-users.427631)). WYSIWYG 캔버스에서 UI 요소를 드래그·리사이즈·스타일링하면 Claude가 실시간으로 코드를 업데이트하며, Figma 등에서 디자인 시스템을 임포트할 수 있다([explainx.ai](https://explainx.ai/blog/claude-design-june-2026-update-design-sync-2026)). `/design-sync` 명령어로 Claude Code와 직접 연동해 프로토타입을 프로덕션 코드로 전환하는 워크플로우가 완성됐다. claude.ai/design 또는 데스크톱 앱 사이드바에서 접근 가능하다.
 
 ## 마켓 펄스
 

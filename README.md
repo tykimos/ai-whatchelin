@@ -644,6 +644,8 @@ timeline
          : Grok V9-Medium 1.5T-parameter model training complete — trained on Cursor data, release imminent (Jun 21)
          : OpenCode v1.17.8 — 176K GitHub stars, 7.5M MAU, most-adopted open-source coding agent (Jun 21)
          : SPCX at $185 — pullback from $225 ATH continues, analyst consensus Buy (Jun 21)
+         : Claude Code reaches 63% developer adoption — Black Duck Security study, trails Copilot 83% but closing (Jun 21)
+         : 97% of developers use AI coding tools, only 1/3 have governance frameworks — Black Duck Security (Jun 21)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

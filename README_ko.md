@@ -644,6 +644,8 @@ timeline
          : Grok V9-Medium 1.5T 파라미터 모델 훈련 완료 — Cursor 데이터 활용, 출시 임박 (6/21)
          : OpenCode v1.17.8 — 176K GitHub 스타, 750만 MAU, 최대 오픈소스 코딩 에이전트 (6/21)
          : SPCX $185 — $225 ATH 대비 하락 지속, 애널리스트 컨센서스 Buy (6/21)
+         : Claude Code 개발자 채택률 63% 도달 — Black Duck Security 조사, Copilot 83% 추격 중 (6/21)
+         : 개발자 97%가 AI 코딩 도구 사용, 거버넌스 프레임워크 갖춘 조직은 1/3 — Black Duck Security (6/21)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

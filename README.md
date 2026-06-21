@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-20</sub>
+  <sub>Last updated: 2026-06-21</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.20-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.21-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -636,6 +636,14 @@ timeline
          : Kiro iOS app early access — manage coding sessions from smartphone/tablet (Jun 20)
          : Kiro CLI V3 preview — spec-driven development, EARS notation, tag-based agents (Jun 20)
          : Claude Design beta — WYSIWYG canvas, design systems import, /design-sync Claude Code handoff (Jun 20)
+         : Fable 5 suspension Day 9 — Polymarket 57% reinstatement before Jul 1, White House demands all jailbreaks fixed (Jun 21)
+         : GPT-5.6 prediction market correction — Polymarket "not by June 28" at 77%, down from 90% (Jun 21)
+         : Copilot 48-week decline to 35, billing Day 21 — developer exodus continues unabated (Jun 21)
+         : Gemini CLI shutdown Day 3 — CI/CD pipelines still breaking, HTTP 410 errors persist (Jun 21)
+         : Antigravity rises to 79 — absorbing Gemini CLI D+3 migration wave (Jun 21)
+         : Grok V9-Medium 1.5T-parameter model training complete — trained on Cursor data, release imminent (Jun 21)
+         : OpenCode v1.17.8 — 176K GitHub stars, 7.5M MAU, most-adopted open-source coding agent (Jun 21)
+         : SPCX at $185 — pullback from $225 ATH continues, analyst consensus Buy (Jun 21)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1675,26 +1683,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-07", "06-08", "06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20"]
-    y-axis "Popularity Score" 34 --> 100
+    x-axis ["06-08", "06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21"]
+    y-axis "Popularity Score" 33 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36]
+    line "GH Copilot" [48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 55, 50, 48]
-    line "Antigravity" [65, 66, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78]
+    line "Gemini CLI" [67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46]
+    line "Antigravity" [66, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-36↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-35↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-48↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-78↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-46↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-79↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

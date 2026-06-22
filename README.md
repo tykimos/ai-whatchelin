@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-21</sub>
+  <sub>Last updated: 2026-06-22</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.21-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.22-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -646,6 +646,16 @@ timeline
          : SPCX at $185 — pullback from $225 ATH continues, analyst consensus Buy (Jun 21)
          : Claude Code reaches 63% developer adoption — Black Duck Security study, trails Copilot 83% but closing (Jun 21)
          : 97% of developers use AI coding tools, only 1/3 have governance frameworks — Black Duck Security (Jun 21)
+         : Fable 5 suspension Day 10 — free trial ends today, usage credits start Jun 23; Android app selector shows Fable 5 (UI artifact, not restoration) (Jun 22)
+         : GPT-5.6 launch window opens — Polymarket 40% for Jun 22-28, 78% "not by June 28"; no OpenAI announcement (Jun 22)
+         : ChatGPT market share below 50% first time — Sensor Tower: 46.4%, Gemini 27.7%, Claude 10.3% (Jun 22)
+         : GLM-5.2 open-weight by Zhipu AI — SWE-bench Pro 62.1 vs GPT-5.5 58.6, MIT license, 1/6 cost (Jun 22)
+         : OpenRouter Fusion — budget model panel matches Fable 5 solo on DRACO at half cost (Jun 22)
+         : Codex Record & Replay — macOS Business users demonstrate workflows, replay as autonomous skills (Jun 22)
+         : Anthropic domain expertise study — 400K sessions show domain expertise drives autonomous agent value, not coding skill (Jun 22)
+         : Copilot decline to 34, billing Day 22 — developer exodus continues (Jun 22)
+         : Gemini CLI shutdown Day 4 — pipeline failures persist, HTTP 410 errors (Jun 22)
+         : Antigravity rises to 80 — Gemini CLI D+4 migration wave continues (Jun 22)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1685,26 +1695,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-08", "06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21"]
-    y-axis "Popularity Score" 33 --> 100
+    x-axis ["06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22"]
+    y-axis "Popularity Score" 32 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35]
+    line "GH Copilot" [47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46]
-    line "Antigravity" [66, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79]
+    line "Gemini CLI" [66, 65, 64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44]
+    line "Antigravity" [66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-35↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-34↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-46↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-79↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-44↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-80↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

@@ -33,6 +33,14 @@ Today marks both the 10th day of Fable 5's suspension and the last day it would 
 
 OpenAI added Record & Replay to the Codex macOS app, allowing users to demonstrate a workflow once and convert it into a reusable, autonomous skill ([TechTimes](https://www.techtimes.com/articles/318759/20260620/openai-codex-automation-gains-record-replay-show-it-once-skip-script.htm)). The feature generates a natural-language SKILL.md that the model interprets against current screen state on replay. Available to Business, Enterprise, and Edu subscribers outside the EU, UK, and Switzerland.
 
+## Anthropic: Domain Expertise Trumps Coding Skill
+
+Anthropic released findings from 400,000 Claude Code sessions showing that domain knowledge — not coding ability — is the primary driver of autonomous agent effectiveness ([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026)). Teams should prioritize domain experts in review roles over senior engineers for better model performance. The study suggests a shift in how organizations should staff AI-augmented development teams.
+
+## Fable 5 Restoration Path: July 8 Identity Verification
+
+The most concrete structural signal for Fable 5's return is Anthropic's identity verification policy taking effect July 8 ([explainx.ai](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)). This would allow Anthropic to verify US citizenship and potentially restore Fable 5 to domestic users without requiring the export control directive to be fully lifted. Prediction markets place **57%** odds on restoration before July 1 ([Polymarket](https://polymarket.com/event/claude-fable-5-restored-for-us-customers-by-20260613193753196)).
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |

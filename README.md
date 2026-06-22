@@ -658,6 +658,8 @@ timeline
          : Copilot decline to 34, billing Day 22 — developer exodus continues (Jun 22)
          : Gemini CLI shutdown Day 4 — pipeline failures persist, HTTP 410 errors (Jun 22)
          : Antigravity rises to 80 — Gemini CLI D+4 migration wave continues (Jun 22)
+         : Anthropic domain expertise study — 400K Claude Code sessions show domain knowledge > coding skill for agent effectiveness (Jun 22)
+         : Fable 5 restoration path — Jul 8 identity verification policy may enable US-only access; Polymarket 57% before Jul 1 (Jun 22)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

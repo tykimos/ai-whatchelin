@@ -33,6 +33,14 @@ Fable 5 정지가 10일째에 접어든 가운데, 오늘이 구독 플랜 내 �
 
 OpenAI가 Codex macOS 앱에 Record & Replay 기능을 추가했다([TechTimes](https://www.techtimes.com/articles/318759/20260620/openai-codex-automation-gains-record-replay-show-it-once-skip-script.htm)). 워크플로우를 한 번 시연하면 자연어 SKILL.md로 변환돼 반복 실행할 수 있다. Business/Enterprise/Edu 구독자 대상이며, EU·UK·스위스는 현재 제외다.
 
+## Anthropic: 도메인 전문성이 코딩 능력보다 중요
+
+Anthropic이 40만 건의 Claude Code 세션을 분석한 연구 결과를 공개했다([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026)). 핵심 발견은 자율 코딩 에이전트의 효과를 결정하는 것이 개발자의 코딩 실력이 아니라 **도메인 지식**이라는 점이다. 팀 구성 시 시니어 엔지니어보다 해당 분야 전문가를 리뷰 역할에 배치하는 것이 더 나은 결과를 낳았다.
+
+## Fable 5 복원 전망: 7월 8일 본인인증이 열쇠
+
+Fable 5 정지에 대한 가장 구체적인 복원 경로는 Anthropic이 7월 8일에 시행하는 본인인증(identity verification) 정책이다([explainx.ai](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)). 이를 통해 미국 시민권자 확인이 가능해지면, 수출통제 지침의 전면 해제 없이도 국내 사용자 복원이 가능하다. Polymarket에서는 7월 1일 이전 복원 확률을 **57%**로 보고 있다([Polymarket](https://polymarket.com/event/claude-fable-5-restored-for-us-customers-by-20260613193753196)).
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |

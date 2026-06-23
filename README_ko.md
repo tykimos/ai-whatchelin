@@ -667,7 +667,9 @@ timeline
          : Gemini CLI 셧다운 5일차 — CI/CD 파이프라인 장애 지속, HTTP 410 오류 (6/23)
          : Antigravity 81 상승 — Gemini CLI D+5 이전 수요 흡수 (6/23)
          : OpenAI uv·ruff 인수 — Python 패키지 도구 생태계 확장 (6/23)
-         : GPT-5.6 예측시장 조정 — Polymarket "6/28까지 아님" 77%, 기대감 냉각 (6/23)
+         : GPT-5.6 예측시장 조정 — Polymarket "6/28까지 미출시" 81%로 상승; 신규 마켓 7/11·7/26 각 40% (6/23)
+         : Grok Build Remote 출시 — xAI 웹 기반 코딩 에이전트, /goal 자율 실행 + 빌트인 검증 (6/23)
+         : Codex CLI /usage 사용 한도 리셋 크레딧 조회·교환; /plugins Curated/Workspace/Shared 분류 개편 (6/23)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2152,7 +2154,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-06-09)
+### 팩트 체크 로그 (2026-06-23)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -2160,11 +2162,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **개인 금융** (Pro, Plaid 12K+ 은행), **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 중단** (5/15 발표, 6/15 중단), **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.169** 최신, **Fable 5** 출시 — 최초 공개 Mythos급 모델, $10/$50 per MTok, 6/22까지 무료; --safe-mode, /cd 명령어; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지 |
-| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수 |
+| Claude Code | code.claude.com/changelog | **v2.1.185** 최신, **Fable 5** 출시 — 최초 공개 Mythos급 모델, $10/$50 per MTok, 6/23 무료 종료; --safe-mode, /cd 명령어; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync |
+| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 발표 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 6일차 이탈 가속, **Copilot App** 테크니컬 프리뷰, **Project Polaris** GPT-4 Turbo 대체 8월, **MAI-Code-1-Flash** 5B 코딩 모델, **Microsoft Claude Code 취소** (6/30), 33주 연속 하락 50 |
+| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 23일차 이탈 가속, **Copilot App GA** (6/17) — Canvases·클라우드 자동화, **Project Polaris** GPT-4 Turbo 대체 8월, **MAI-Code-1-Flash** 5B 코딩 모델, **Microsoft Claude Code 취소** (6/30), 49주 연속 하락 33 |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -2173,7 +2175,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Tabnine | tabnine.com/pricing | 연간 구독만, 무료 폐지 |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro 2025.07 폐지, Amp 전환 |
 | Trae | docs.trae.ai | 5단계: Free/$3/$10/$30/$100 |
-| Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모) |
+| Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모), **Grok Build Remote** 웹 에이전트, **/goal** 자율 실행, Agent Dashboard |
 | Antigravity | antigravity.google | **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반; **자동 업데이트 참사** (5/20) — 에디터·터미널·파일 탐색기 삭제, 점수 62→58 |
 
 

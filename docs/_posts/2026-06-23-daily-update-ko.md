@@ -3,7 +3,7 @@ title: "Fable 5 무료 체험 종료, NSA 증언이 차단 판도를 바꾸다"
 date: 2026-06-23
 lang: ko
 categories: [news]
-tags: [fable-5, claude, copilot, gemini-cli, antigravity, openai, gpt-5-6, cursor, continue]
+tags: [fable-5, claude, copilot, gemini-cli, antigravity, openai, gpt-5-6, cursor, continue, grok-build]
 excerpt: "Anthropic Fable 5 무료 체험이 오늘 종료되며 유료 크레딧으로 전환되지만, 모델 자체는 미국 정부 수출통제 명령으로 여전히 정지 상태다. NSA 국장의 의회 증언이 차단 논의의 성격을 완전히 바꿔놓았다."
 ---
 
@@ -25,9 +25,13 @@ GitHub Copilot의 인기도가 33점으로 떨어지며 49주 연속 하락세�
 
 SpaceX의 $600억 Cursor 인수와 동시에, Cursor가 오픈소스 AI 코딩 어시스턴트 Continue를 인수했다([The New Stack](https://thenewstack.io/cursor-acquires-continue-coding/)). Y Combinator 출신인 Continue는 VS Code 확장·JetBrains 플러그인·CLI로 제공되며 초기 오픈소스 코딩 어시스턴트 중 가장 널리 채택된 도구 중 하나였다. 기존 Continue 사용자는 7월 15일까지 데이터를 내보내야 하며, 이후 삭제될 예정이다([Hacker News](https://news.ycombinator.com/item?id=48548758)). AI 개발 도구 시장의 통합이 가속화되고 있다.
 
+## Grok Build Remote 출시 — xAI 웹 코딩 에이전트 진출
+
+xAI가 Grok Build Remote를 공식 출시했다([MarkTechPost](https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/)). 브라우저에서 바로 가상 개발 환경을 생성할 수 있으며, /goal 명령어로 장시간 자율 실행과 빌트인 검증을 지원한다. Agent Dashboard에서 다수의 코딩 세션을 한 화면에서 관리할 수 있어, SpaceX의 $600억 Cursor 인수와 함께 xAI의 개발자 도구 생태계가 빠르게 확장되고 있다([Progressive Robot](https://www.progressiverobot.com/2026/06/22/grok-build-remote-xai-web-coding-agent-83/)).
+
 ## OpenAI, Python 도구 생태계 인수 확대
 
-OpenAI가 Python 패키지 관리 도구 uv와 린터 ruff를 인수했다([buildfastwithai](https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026)). 수백만 개발자가 사용하는 필수 도구들을 통해 OpenAI는 Codex 생태계를 코딩 에이전트를 넘어 개발 인프라 전반으로 확장하려는 전략이다. GPT-5.6 출시 시기에 대해서는 Polymarket에서 "6월 28일까지 아님"이 77%로 기대감이 냉각됐다([TechTimes](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm)).
+OpenAI가 Python 패키지 관리 도구 uv와 린터 ruff를 인수했다([buildfastwithai](https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026)). 수백만 개발자가 사용하는 필수 도구들을 통해 OpenAI는 Codex 생태계를 코딩 에이전트를 넘어 개발 인프라 전반으로 확장하려는 전략이다. GPT-5.6 출시 시기에 대해서는 Polymarket에서 "6월 28일까지 미출시"가 81%로 상승했으며, 새로 개설된 마켓에서는 7월 11일과 7월 26일이 각 40%로 출시 시점이 7월로 밀리는 추세다([Polymarket](https://polymarket.com/event/when-will-gpt-5pt6-be-released)).
 
 ## 마켓 펄스
 

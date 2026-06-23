@@ -667,7 +667,9 @@ timeline
          : Gemini CLI shutdown Day 5 — CI/CD pipeline failures persist, HTTP 410 errors (Jun 23)
          : Antigravity rises to 81 — absorbing Gemini CLI D+5 migration wave (Jun 23)
          : OpenAI acquires uv and ruff — Python package tooling acquisition expands developer ecosystem (Jun 23)
-         : GPT-5.6 prediction market correction — Polymarket "not by June 28" at 77%, anticipation cools (Jun 23)
+         : GPT-5.6 prediction market correction — Polymarket "not by June 28" rises to 81%; new market shows July 11 and July 26 at 40% each (Jun 23)
+         : Grok Build Remote launch — xAI web-based coding agent, /goal autonomous execution with built-in verification (Jun 23)
+         : Codex CLI /usage now shows and redeems earned usage-limit reset credits; /plugins reorganized into Curated/Workspace/Shared (Jun 23)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2192,7 +2194,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-06-09)
+### Fact Check Log (2026-06-23)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -2200,11 +2202,11 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering paused** (announced May 15, paused Jun 15), **Big Four standardization** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.169** latest, **Fable 5** launched — first public Mythos-class model, $10/$50 per MTok, free through Jun 22; --safe-mode, /cd command; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13 |
-| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal |
+| Claude Code | code.claude.com/changelog | **v2.1.185** latest, **Fable 5** launched — first public Mythos-class model, $10/$50 per MTok, free ended Jun 23; --safe-mode, /cd command; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync |
+| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting announced |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 6 exodus, **Copilot App** tech preview, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **MAI-Code-1-Flash** 5B coding model, **Microsoft cancels Claude Code** (June 30), 33-week decline to 50 |
+| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 23 exodus, **Copilot App GA** (Jun 17) — Canvases, cloud automations, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **MAI-Code-1-Flash** 5B coding model, **Microsoft cancels Claude Code** (June 30), 49-week decline to 33 |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
@@ -2213,7 +2215,7 @@ All pricing information has been directly verified from each service's official 
 | Tabnine | tabnine.com/pricing | annual subscription only, free plan discontinued |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro discontinued Jul 2025, moved to Amp |
 | Trae | docs.trae.ai | 5 tiers: Free/$3/$10/$30/$100 |
-| Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo) |
+| Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo), **Grok Build Remote** web-based agent, **/goal** autonomous execution, Agent Dashboard |
 | Antigravity | antigravity.google | **Antigravity 2.0 GA** — desktop app + CLI + SDK, free tier, AI Ultra $100/mo (5x Pro), Gemini 3.5 Flash powered; **auto-update fiasco** (May 20) — editor/terminal/file explorer removed, score drops 62→58 |
 | Midjourney | midjourney.com | V1 video model launched, 5-20sec clips |
 

@@ -3,7 +3,7 @@ title: "Fable 5 Free Trial Ends as NSA Testimony Reshapes the Ban"
 date: 2026-06-23
 lang: en
 categories: [news]
-tags: [fable-5, claude, copilot, gemini-cli, antigravity, openai, gpt-5-6, cursor, continue]
+tags: [fable-5, claude, copilot, gemini-cli, antigravity, openai, gpt-5-6, cursor, continue, grok-build]
 excerpt: "Anthropic's Fable 5 free subscriber access ended today, transitioning to paid usage credits — but the model itself remains suspended under a US government export control directive. NSA testimony has fundamentally changed the nature of the ban debate."
 ---
 
@@ -25,9 +25,13 @@ The fallout from Gemini CLI's June 18 shutdown continues five days in, with CI/C
 
 Alongside SpaceX's $60 billion Cursor acquisition, Cursor quietly snapped up Continue — one of the earliest and most widely adopted open-source AI coding assistants ([The New Stack](https://thenewstack.io/cursor-acquires-continue-coding/)). The Y Combinator alum offered VS Code extensions, JetBrains plugins, and a CLI. Existing Continue users must export their data by July 15, after which it will be deleted ([Hacker News](https://news.ycombinator.com/item?id=48548758)). The deal underscores the accelerating consolidation in the AI developer tools market.
 
+## Grok Build Remote Launches — xAI Enters Web Coding Agent Race
+
+xAI officially launched Grok Build Remote, a browser-based virtual development environment with the new /goal command for long-running autonomous execution with built-in verification ([MarkTechPost](https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/)). The Agent Dashboard provides a single screen to manage multiple coding sessions simultaneously. Combined with the SpaceX-Cursor $60B acquisition, xAI's developer tool ecosystem is expanding rapidly ([Progressive Robot](https://www.progressiverobot.com/2026/06/22/grok-build-remote-xai-web-coding-agent-83/)).
+
 ## OpenAI Acquires Python Tooling Ecosystem
 
-OpenAI acquired uv (a fast Python package installer) and ruff (a Python linter), both industry-standard tools used by millions of developers ([buildfastwithai](https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026)). The move extends OpenAI's developer ecosystem beyond Codex into foundational development infrastructure. Meanwhile, GPT-5.6 anticipation has cooled — Polymarket now shows 77% odds of "not by June 28," down from 90% earlier this week ([TechTimes](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm)).
+OpenAI acquired uv (a fast Python package installer) and ruff (a Python linter), both industry-standard tools used by millions of developers ([buildfastwithai](https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026)). The move extends OpenAI's developer ecosystem beyond Codex into foundational development infrastructure. Meanwhile, GPT-5.6 anticipation has cooled further — Polymarket now shows 81% odds of "not by June 28," up from 77% earlier today, with a newly created market showing July 11 and July 26 at 40% each as the most likely release dates ([Polymarket](https://polymarket.com/event/when-will-gpt-5pt6-be-released)).
 
 ## Market Pulse
 

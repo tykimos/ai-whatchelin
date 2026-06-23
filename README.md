@@ -588,6 +588,7 @@ timeline
          : OpenAI Deployment Simulation — replays 1.3M conversations, caught "calculator hacking" misalignment in GPT-5.1 (Jun 16)
          : OpenCode surpasses 160K GitHub stars — most-adopted open-source coding agent, 7.5M MAU (Jun 16)
          : Cursor SDK custom stores + custom tools + auto-review flows — "programmable agent platform" (Jun 16)
+         : Cursor acquires Continue — open-source AI coding assistant joins SpaceX/Cursor, user data export deadline Jul 15 (Jun 16)
          : Cursor Origin announced — agent-first git hosting platform, GitHub alternative, AI-powered merge conflict resolution (Jun 17)
          : Copilot App GA — desktop agentic sessions for macOS/Windows/Linux, Canvases collaboration (Jun 17)
          : Codex CLI v0.140.0 stable — /usage, /import from Claude Code, session delete, Bedrock auth (Jun 15)
@@ -772,7 +773,7 @@ Vibe Coder
     ├── Cline ············ 59K Stars, VS Code agent
     ├── Aider ············ 42K Stars, Git-first
     ├── Tabby ············ 33K Stars, on-premise
-    ├── Continue.dev ····· 32K Stars, CI/CD integration
+    ├── Continue.dev ····· 32K Stars, CI/CD integration (acquired by Cursor Jun 2026)
     └── Goose ············ 29K Stars, made by Block
 ```
 

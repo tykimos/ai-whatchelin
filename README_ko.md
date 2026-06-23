@@ -588,6 +588,7 @@ timeline
          : OpenAI Deployment Simulation — 130만 대화 재현, GPT-5.1서 "계산기 해킹" 오정렬 포착 (6/16)
          : OpenCode GitHub 스타 16만 돌파 — 최대 규모 오픈소스 코딩 에이전트, 750만 MAU (6/16)
          : Cursor SDK 커스텀 스토어 + 커스텀 도구 + 자동 리뷰 플로우 — "프로그래밍 가능 에이전트 플랫폼" (6/16)
+         : Cursor, Continue 인수 — 오픈소스 AI 코딩 어시스턴트 SpaceX/Cursor에 합류, 사용자 데이터 7/15까지 내보내기 (6/16)
          : Cursor Origin 발표 — 에이전트 퍼스트 git 호스팅 플랫폼, GitHub 대항마, AI 기반 머지 충돌 해결 (6/17)
          : Copilot App GA — macOS/Windows/Linux 데스크톱 에이전트 세션, Canvases 협업 (6/17)
          : Codex CLI v0.140.0 안정판 — /usage, Claude Code에서 /import, 세션 삭제, Bedrock 인증 (6/15)
@@ -772,7 +773,7 @@ flowchart TD
     ├── Cline ············ 59K Stars, VS Code 에이전트
     ├── Aider ············ 42K Stars, Git-first
     ├── Tabby ············ 33K Stars, 온프레미스
-    ├── Continue.dev ····· 32K Stars, CI/CD 통합
+    ├── Continue.dev ····· 32K Stars, CI/CD 통합 (2026년 6월 Cursor에 인수)
     └── Goose ············ 29K Stars, Block 제작
 ```
 

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-22</sub>
+  <sub>마지막 업데이트: 2026-06-23</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.22-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.23-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -660,6 +660,13 @@ timeline
          : Antigravity 80 상승 — Gemini CLI D+4 마이그레이션 흡수 (6/22)
          : Anthropic 도메인 전문성 연구 — 40만 Claude Code 세션 분석, 코딩 실력보다 도메인 지식이 에이전트 효과 결정 (6/22)
          : Fable 5 복원 경로 — 7/8 본인인증 정책으로 미국 내 복원 가능, Polymarket 7/1 이전 복원 57% (6/22)
+         : Fable 5 무료 체험 종료 — $10/$50/MTok 크레딧 과금 시작, 모델은 여전히 정지 11일차 (6/23)
+         : NSA 증언으로 Fable 5 차단 논의 전환 — Rudd 국장: Mythos가 기밀 시스템 대부분 자율 침투 (6/23)
+         : Copilot 49주 연속 하락 33, 종량제 23일차 — 개발자 이탈 계속 (6/23)
+         : Gemini CLI 셧다운 5일차 — CI/CD 파이프라인 장애 지속, HTTP 410 오류 (6/23)
+         : Antigravity 81 상승 — Gemini CLI D+5 이전 수요 흡수 (6/23)
+         : OpenAI uv·ruff 인수 — Python 패키지 도구 생태계 확장 (6/23)
+         : GPT-5.6 예측시장 조정 — Polymarket "6/28까지 아님" 77%, 기대감 냉각 (6/23)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1669,26 +1676,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22"]
-    y-axis "인기 점수" 32 --> 100
+    x-axis ["06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23"]
+    y-axis "인기 점수" 31 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34]
+    line "GH Copilot" [46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [66, 65, 64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44]
-    line "Antigravity" [66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80]
+    line "Gemini CLI" [65, 64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42]
+    line "Antigravity" [67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-34↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-33↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-44↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-80↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-42↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-81↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

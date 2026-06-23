@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-22</sub>
+  <sub>Last updated: 2026-06-23</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.22-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.23-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -660,6 +660,13 @@ timeline
          : Antigravity rises to 80 — Gemini CLI D+4 migration wave continues (Jun 22)
          : Anthropic domain expertise study — 400K Claude Code sessions show domain knowledge > coding skill for agent effectiveness (Jun 22)
          : Fable 5 restoration path — Jul 8 identity verification policy may enable US-only access; Polymarket 57% before Jul 1 (Jun 22)
+         : Fable 5 free trial ends — usage credits required at $10/$50 per MTok, model still suspended Day 11 (Jun 23)
+         : NSA testimony reshapes Fable 5 ban — Gen. Rudd: Mythos breached nearly all NSA classified systems autonomously (Jun 23)
+         : Copilot 49-week decline to 33, billing Day 23 — developer exodus continues (Jun 23)
+         : Gemini CLI shutdown Day 5 — CI/CD pipeline failures persist, HTTP 410 errors (Jun 23)
+         : Antigravity rises to 81 — absorbing Gemini CLI D+5 migration wave (Jun 23)
+         : OpenAI acquires uv and ruff — Python package tooling acquisition expands developer ecosystem (Jun 23)
+         : GPT-5.6 prediction market correction — Polymarket "not by June 28" at 77%, anticipation cools (Jun 23)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1699,26 +1706,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-09", "06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22"]
-    y-axis "Popularity Score" 32 --> 100
+    x-axis ["06-10", "06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23"]
+    y-axis "Popularity Score" 31 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34]
+    line "GH Copilot" [46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [66, 65, 64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44]
-    line "Antigravity" [66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80]
+    line "Gemini CLI" [65, 64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42]
+    line "Antigravity" [67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-34↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-33↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-44↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-80↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-42↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-81↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

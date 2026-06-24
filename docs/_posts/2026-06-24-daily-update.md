@@ -1,45 +1,57 @@
 ---
-title: "OpenAI Goes All-In on Cybersecurity — Codex Security and GPT-5.5-Cyber Get Full Launch"
+title: "Anthropic Deploys Claude Tag as AI Teammate in Slack — Codex SSD Bug 85% Fixed, Fable 5 Congress Deadline in Two Days"
 date: 2026-06-24
 lang: en
 categories: [news]
-tags: [openai, codex-security, gpt-5-5-cyber, daybreak, copilot, antigravity, gemini-cli, fable-5, kiro]
-excerpt: "OpenAI massively expands its Daybreak cybersecurity program with the Codex Security plugin and full GPT-5.5-Cyber release. Copilot hits 50 weeks of consecutive decline while Antigravity rises to 82, absorbing the Gemini CLI shutdown fallout."
+tags: [anthropic, claude-tag, openai, codex-security, codex-cli, copilot, antigravity, gemini-cli, fable-5, kiro]
+excerpt: "Anthropic launches Claude Tag, turning Slack channels into AI-powered team workspaces. Codex CLI's 640TB SSD bug gets an 85% fix, and the congressional deadline for Fable 5 export control answers is just two days away."
 ---
 
-OpenAI today announced a major expansion of its Daybreak cybersecurity program. The headline additions are a Codex Security plugin for finding, validating, and patching vulnerabilities directly inside Codex; the full release of GPT-5.5-Cyber for trusted defenders; and Patch the Planet, an open-source patching initiative built with Trail of Bits ([OpenAI](https://openai.com/index/daybreak-securing-the-world/)). Cisco, Cloudflare, CrowdStrike, IBM, Palo Alto Networks, and other major security firms have joined as partners, signaling that AI-powered security tooling is entering its enterprise era ([Security Boulevard](https://securityboulevard.com/2026/06/openai-expands-daybreak-with-codex-security-and-gpt-5-5-cyber-updates/)).
+Anthropic yesterday launched Claude Tag, shifting the unit of AI collaboration from individual conversations to team channels ([Fortune](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/)). Team members can tag @Claude in Slack conversations, and the bot breaks tasks down into stages, works through them independently, and delivers results back to the channel. Inside Anthropic, Claude Tag already approves and incorporates 65% of the product team's code changes ([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-23/anthropic-wants-claude-to-be-your-new-slack-coworker)). The product launches as a research preview for Enterprise and Team customers, with the existing Claude in Slack integration retiring on August 3.
 
-## Codex Security: 30 Million Commits Scanned, 500K Auto-Fixed
+## Claude Outages: Two Consecutive Days, Now Resolved
 
-Since its March research preview, Codex Security has scanned over 30 million commits across 30,000+ codebases, with human reviewers confirming 70,000+ fixed findings and 500,000+ auto-validated fixes ([OpenAI](https://openai.com/daybreak/)). The updated plugin now provides end-to-end vulnerability discovery through patch generation within Codex workflows. OpenAI's strategy of extending beyond coding agents into foundational development infrastructure — first uv and ruff, now security tooling — is becoming unmistakably clear.
+Claude experienced back-to-back outages on June 23 and 24. The first hit all models and platforms starting at 14:19 UTC on June 23, with US reports peaking at 7,119 before resolution at 16:44 UTC ([TechRadar](https://www.techradar.com/news/live/claude-down-june-23-2026)). A second incident on June 24 saw elevated error rates on Opus 4.8 lasting 1 hour and 40 minutes ([StatusGator](https://statusgator.com/services/anthropic/claude-code)). Both are now resolved, but the timing — immediately after the Claude Tag launch — has raised questions about infrastructure load.
 
-## Copilot: 50-Week Decline Hits 32 — No Floor in Sight
+## Codex CLI: 640TB SSD Bug Gets 85% Fix
 
-GitHub Copilot's popularity score dropped to 32, marking its 50th consecutive week of decline and Day 24 of usage-based billing ([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). Reports continue to surface of developers on the $39 Pro+ plan burning through 8% of their monthly credits in two hours, and single change requests costing over $6 ([GitHub Community](https://github.com/orgs/community/discussions/192948)). Market share has slid from 67% to 51% since March.
+The critical Codex CLI bug that silently wrote 640TB/year to local SSDs through a runaway SQLite TRACE logger has been partially patched. Three pull requests merged on June 23 eliminate 85% of the problematic log writes, shipping in v0.142.0 and v0.143.0 ([SecurityOnline](https://securityonline.info/codex-ssd-wear-issue-fix/)). However, The Register notes that OpenAI's response was slow — the bug went eight days without official acknowledgment — and Windows users still lack the RAM-redirect workaround available on Linux and macOS ([The Register](https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402)).
 
-## Gemini CLI Shutdown Day 6 — Antigravity Breaks 82
+## OpenAI Daybreak Expansion: Codex Security + GPT-5.5-Cyber
 
-The Gemini CLI individual-user shutdown is now six days old, with HTTP 410 errors and silent MCP failures still plaguing CI/CD pipelines ([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)). Antigravity hit 82, its seventh consecutive week of gains — up 27 points from the Antigravity 2.0 rollback crisis low of 55 in late May. Google's CLI consolidation strategy is paying dividends for its replacement tool, even if the transition pain remains acute.
+OpenAI announced a major expansion of its Daybreak cybersecurity program, headlined by the Codex Security plugin for end-to-end vulnerability discovery and patching, the full release of GPT-5.5-Cyber for trusted defenders, and the Patch the Planet open-source initiative with Trail of Bits ([OpenAI](https://openai.com/index/daybreak-securing-the-world/)). Since its March preview, Codex Security has scanned 30 million commits across 30,000+ codebases, with 500,000+ auto-validated fixes ([Security Boulevard](https://securityboulevard.com/2026/06/openai-expands-daybreak-with-codex-security-and-gpt-5-5-cyber-updates/)).
 
-## Fable 5: Ban Day 12, July 8 Looms as Key Inflection
+## Copilot: 50-Week Decline Hits 32 — Billing Day 24
 
-The Fable 5 and Mythos 5 export control suspension enters its 12th day with no restoration. Anthropic's July 8 identity verification policy remains the most concrete structural path to a US-only restoration, with the August 1 Executive Order deadline as the secondary milestone ([explainx.ai](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)). Polymarket holds July 1 restoration odds at 57%, but the NSA director's congressional testimony — describing Mythos as having "autonomously breached nearly all NSA classified systems" — has shifted the debate from patchable jailbreak to fundamental capability concern, clouding the outlook.
+GitHub Copilot's popularity score dropped to 32, marking 50 consecutive weeks of decline. The usage-based billing transition, now 24 days old, continues to draw developer backlash, with reports of Pro+ plan users burning 8% of monthly credits in two hours ([GitHub Community](https://github.com/orgs/community/discussions/192948)). Market share has fallen from 67% to 51% since March ([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)).
+
+## Fable 5: Ban Day 12, Congress Deadline D-2
+
+The Fable 5 export control suspension enters its 12th day with a key inflection approaching: the June 26 deadline for Commerce Secretary Lutnick to respond to a bipartisan congressional letter demanding a written explanation ([explainx.ai](https://www.explainx.ai/blog/us-government-bans-fable-5-mythos-5-anthropic-export-control-2026)). Over 100 cybersecurity experts have also signed a letter urging the US to lift restrictions ([ThePlanetTools](https://theplanettools.ai/blog/cybersecurity-experts-letter-lift-fable-5-restrictions-2026)). Polymarket holds July 1 restoration odds at 57%, but the June 26 response may prove decisive.
+
+## Gemini CLI Shutdown Day 7 — Antigravity Holds at 82
+
+The Gemini CLI individual-user shutdown is now seven days old. Antigravity holds at 82, maintaining its seven-week winning streak as it continues absorbing displaced Gemini CLI users ([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)). Migration documentation is live at antigravity.google/docs/gcli-migration.
 
 ## Kiro: AWS Previews iOS App at Summit New York
 
-AWS unveiled early access to a Kiro iOS app at its New York Summit, allowing developers to start coding sessions and approve changes from their phones ([DevOps.com](https://devops.com/aws-previews-ios-app-to-manage-kiro-ai-coding-workflows/)). Combined with Kiro's aerospace-grade EARS-notation spec-driven approach and the announced end of Amazon Q Developer support in April 2027, AWS is making a clear bet that Kiro will be its flagship AI coding platform going forward.
+AWS unveiled early access to a Kiro iOS app at its New York Summit, enabling developers to start coding sessions and approve changes from their phones ([DevOps.com](https://devops.com/aws-previews-ios-app-to-manage-kiro-ai-coding-workflows/)). With Amazon Q Developer's April 2027 end-of-support announced, the transition to Kiro as AWS's flagship AI coding platform is accelerating.
+
+## OpenAI and Broadcom Unveil Custom "Jalapeno" AI Chip
+
+OpenAI today revealed its first custom-designed inference chip, codenamed "Jalapeno," co-developed with Broadcom in just nine months ([TechCrunch](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)). Optimized for LLM inference with substantially better performance-per-watt, initial deployment is targeted for late 2026 ([CNBC](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html)). The move signals OpenAI's push to reduce its dependence on Nvidia.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | Opus 4.8 stable base, Fable 5 ban Day 12 |
+| Claude Code | 99 | — | Claude Tag launch, Opus 4.8 stable |
 | ChatGPT | 96 | — | GPT-5.6 timeline slipping to July |
-| Claude AI | 96 | — | Holds via Opus 4.8 despite Fable 5 suspension |
-| Cursor | 96 | — | SpaceX acquisition proceeding, Continue integration ahead |
-| Codex CLI | 87 | — | Daybreak expansion strengthens security ecosystem |
-| Windsurf | 85 | — | Devin Desktop stable, $15 price holds |
-| Antigravity | 82 | ↑1 | Gemini CLI D+6 migration absorption, 7-week streak |
+| Claude AI | 96 | — | Two-day outage resolved, Claude Tag positive |
+| Cursor | 96 | — | SpaceX $60B acquisition closing Q3 |
+| Codex CLI | 87 | — | SSD bug 85% fixed, Daybreak expansion |
+| Windsurf | 85 | — | Devin Desktop stable, Cascade EOL July 1 |
+| Antigravity | 82 | ↑1 | Gemini CLI D+7 migration absorption, 7-week streak |
 | Aider | 68 | — | Open-source steady |
-| Gemini CLI | 40 | ↓2 | Shutdown Day 6, enterprise-only |
+| Gemini CLI | 40 | ↓2 | Shutdown Day 7, enterprise-only |
 | Copilot | 32 | ↓1 | 50-week decline, billing Day 24 |

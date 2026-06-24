@@ -1,45 +1,57 @@
 ---
-title: "OpenAI, 사이버 보안에 올인 — Codex Security와 GPT-5.5-Cyber 정식 확대"
+title: "Anthropic, Claude Tag로 Slack에 AI 팀원 투입 — Codex SSD 버그 85% 수정, Fable 5 의회 기한 이틀 앞으로"
 date: 2026-06-24
 lang: ko
 categories: [news]
-tags: [openai, codex-security, gpt-5-5-cyber, daybreak, copilot, antigravity, gemini-cli, fable-5, kiro]
-excerpt: "OpenAI가 Daybreak 사이버보안 프로그램을 대폭 확대하며 Codex Security 플러그인과 GPT-5.5-Cyber 정식 버전을 출시했다. Copilot은 50주 연속 하락, Antigravity는 82로 상승하며 Gemini CLI 공백을 계속 흡수하고 있다."
+tags: [anthropic, claude-tag, openai, codex-security, codex-cli, copilot, antigravity, gemini-cli, fable-5, kiro]
+excerpt: "Anthropic이 Claude Tag를 출시해 Slack에서 AI 팀원과 협업하는 시대를 열었다. Codex CLI의 640TB SSD 버그가 85% 수정됐고, Fable 5 수출통제에 대한 의회 답변 기한이 이틀 앞으로 다가왔다."
 ---
 
-OpenAI가 오늘 Daybreak 사이버보안 프로그램의 대규모 확장을 발표했다. Codex 안에서 직접 취약점을 발견·검증·패치할 수 있는 Codex Security 플러그인, 신뢰된 방어자 전용 GPT-5.5-Cyber 정식 버전, 그리고 Trail of Bits와 협력한 오픈소스 패치 이니셔티브 Patch the Planet이 핵심이다([OpenAI](https://openai.com/index/daybreak-securing-the-world/)). Cisco, Cloudflare, CrowdStrike, IBM, Palo Alto Networks 등 주요 보안 기업이 파트너로 참여하며, AI 기반 보안 도구의 본격적인 엔터프라이즈 시대를 예고하고 있다([Security Boulevard](https://securityboulevard.com/2026/06/openai-expands-daybreak-with-codex-security-and-gpt-5-5-cyber-updates/)).
+Anthropic이 어제 Claude Tag를 출시하며 AI 협업의 단위를 개인 대화에서 팀 채널로 확장했다([Fortune](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/)). 팀원들이 Slack 채널에서 @Claude를 태그하면 작업을 분해하고 독립적으로 처리한 뒤 결과를 돌려주는 방식이다. Anthropic 내부에서는 이미 제품팀 코드 변경의 65%를 Claude Tag가 승인·반영하고 있다([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-23/anthropic-wants-claude-to-be-your-new-slack-coworker)). Enterprise와 Team 고객 대상 리서치 프리뷰로 시작하며, 기존 Claude in Slack 연동은 8월 3일 종료 예정이다.
 
-## Codex Security: 3천만 커밋 스캔, 50만 건 자동 수정
+## Claude 서비스 장애: 이틀 연속 발생 후 해소
 
-3월 리서치 프리뷰 이후 Codex Security는 3만 개 이상의 코드베이스에서 3천만 건의 커밋을 스캔했으며, 수동 검토를 통해 7만 건 이상이 수정 확인되고 50만 건 이상이 자동 수정 판정을 받았다([OpenAI](https://openai.com/daybreak/)). 이번 업데이트로 Codex 워크플로 안에서 취약점 발견부터 패치 생성까지 원스톱으로 처리할 수 있게 됐다. OpenAI는 코딩 에이전트를 넘어 개발 인프라 전체를 장악하려는 전략을 점점 더 분명히 하고 있다.
+Claude가 6월 23일과 24일 이틀 연속 장애를 겪었다. 23일에는 모든 모델과 플랫폼에서 오후 2시 19분(UTC)부터 오류율이 급증해 미국에서만 7,119건의 장애 보고가 접수됐다([TechRadar](https://www.techradar.com/news/live/claude-down-june-23-2026)). 24일에는 Opus 4.8에서 1시간 40분간 오류율 상승이 발생했다([StatusGator](https://statusgator.com/services/anthropic/claude-code)). 현재는 모두 해소된 상태지만, Claude Tag 출시 직후의 장애라는 점에서 인프라 부하 우려가 나오고 있다.
 
-## Copilot: 50주 연속 하락, 32점 — 바닥이 안 보인다
+## Codex CLI: 640TB SSD 버그, 85% 수정 완료
 
-GitHub Copilot의 인기도가 32점으로 떨어지며 50주 연속 하락이라는 기록을 세웠다. 종량제 전환 24일차로, 개발자들의 불만이 여전히 가라앉지 않고 있다([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)). $39 Pro+ 플랜에서 2시간 만에 월 크레딧의 8%를 소진했다는 보고, 단일 변경 요청에 $6 이상이 과금됐다는 사례가 커뮤니티에서 계속 공유되고 있다([GitHub Community](https://github.com/orgs/community/discussions/192948)). 시장 점유율도 3월 67%에서 51%로 급감한 상태다.
+Codex CLI의 SQLite 로거가 연간 640TB를 SSD에 기록하는 치명적 버그가 부분 수정됐다. 6월 23일 세 건의 PR이 머지되어 로그의 85%를 줄이는 패치가 v0.142.0과 v0.143.0에 포함됐다([SecurityOnline](https://securityonline.info/codex-ssd-wear-issue-fix/)). 다만 The Register에 따르면 OpenAI의 공식 대응이 늦었다는 비판이 이어지고 있으며, Windows 사용자는 여전히 RAM 리다이렉트 우회가 불가능한 상태다([The Register](https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402)).
 
-## Gemini CLI 셧다운 6일차 — Antigravity 82 돌파
+## OpenAI Daybreak 대규모 확장: Codex Security + GPT-5.5-Cyber
 
-Gemini CLI 개인 사용자 차단 6일째. CI/CD 파이프라인의 HTTP 410 에러와 MCP 사일런트 실패가 계속되면서, Antigravity로의 이전이 가속화되고 있다([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)). Antigravity는 82점을 기록하며 7주 연속 상승세를 이어가고 있다. 5월 말 Antigravity 2.0 롤백 위기 때의 55점 저점과 비교하면 27점 상승으로, Google의 CLI 도구 통합 전략이 결과적으로 Antigravity에 힘을 실어주고 있는 형국이다.
+OpenAI가 Daybreak 사이버보안 프로그램을 대폭 확장했다. Codex 안에서 직접 취약점을 발견·검증·패치할 수 있는 Codex Security 플러그인, 신뢰된 방어자 전용 GPT-5.5-Cyber 정식 버전, 그리고 Trail of Bits와 협력한 Patch the Planet 이니셔티브가 핵심이다([OpenAI](https://openai.com/index/daybreak-securing-the-world/)). Codex Security는 3월 프리뷰 이후 3만 개 코드베이스에서 3천만 건의 커밋을 스캔하고 50만 건을 자동 수정했다([Security Boulevard](https://securityboulevard.com/2026/06/openai-expands-daybreak-with-codex-security-and-gpt-5-5-cyber-updates/)).
 
-## Fable 5: 차단 12일차, 7월 8일이 핵심 분기점
+## Copilot: 50주 연속 하락, 32점 — 종량제 24일차
 
-Fable 5와 Mythos 5의 수출통제 차단이 12일째 이어지고 있다. Anthropic의 7월 8일 ID 인증 정책 시행이 미국 한정 복원의 가장 구체적인 경로로 남아 있으며, 8월 1일 60일 행정명령 마감도 주요 변수다([explainx.ai](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)). Polymarket 7월 1일 전 복원 확률은 57%를 유지하고 있지만, NSA 국장의 의회 증언 이후 "패치로 해결 가능한 문제"에서 "근본적 AI 능력 우려"로 논의의 성격이 바뀐 점이 복원 전망을 불투명하게 만들고 있다.
+GitHub Copilot의 인기도가 32점으로 50주 연속 하락이라는 기록을 세웠다. 종량제 전환 24일차로, $39 Pro+ 플랜에서 2시간 만에 월 크레딧 8%를 소진했다는 보고가 이어지고 있다([GitHub Community](https://github.com/orgs/community/discussions/192948)). 시장 점유율도 3월 67%에서 51%로 급감했다([gHacks](https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/)).
+
+## Fable 5: 차단 12일차, 의회 답변 기한 D-2
+
+Fable 5 수출통제 차단 12일째. 4명의 초당파 의원이 6월 18일 상무장관에게 보낸 공식 서한의 답변 기한이 6월 26일로 이틀 앞으로 다가왔다([explainx.ai](https://www.explainx.ai/blog/us-government-bans-fable-5-mythos-5-anthropic-export-control-2026)). 100명 이상의 사이버보안 전문가도 Fable 5 제한 해제를 촉구하는 서한을 발표했다([ThePlanetTools](https://theplanettools.ai/blog/cybersecurity-experts-letter-lift-fable-5-restrictions-2026)). Polymarket 7월 1일 복원 확률은 57%를 유지하고 있으나, 6월 26일 답변이 분기점이 될 전망이다.
+
+## Gemini CLI 셧다운 7일차 — Antigravity 82
+
+Gemini CLI 개인 사용자 차단이 7일째 이어지면서, Antigravity가 82를 기록하며 7주 연속 상승세를 유지하고 있다([The Register](https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605)). Google은 antigravity.google/docs/gcli-migration에서 마이그레이션 문서를 제공하고 있다.
 
 ## Kiro: AWS Summit에서 iOS 앱 공개
 
-AWS가 뉴욕 서밋에서 Kiro의 iOS 앱 얼리 액세스를 발표했다([DevOps.com](https://devops.com/aws-previews-ios-app-to-manage-kiro-ai-coding-workflows/)). 스마트폰에서 코딩 세션을 시작하고 변경 사항을 승인할 수 있으며, 기존 Kiro 웹 앱의 관리 기능을 모바일로 확장한 것이다. 항공우주급 EARS 표기법 기반의 스펙 중심 개발이라는 차별화 전략과 함께, Amazon Q Developer의 2027년 4월 지원 종료가 예고되면서 Kiro로의 전환이 본격화될 전망이다.
+AWS가 뉴욕 서밋에서 Kiro iOS 앱 얼리 액세스를 발표했다([DevOps.com](https://devops.com/aws-previews-ios-app-to-manage-kiro-ai-coding-workflows/)). 스마트폰에서 코딩 세션을 시작하고 변경 사항을 승인할 수 있으며, Amazon Q Developer의 2027년 4월 지원 종료가 예고되면서 Kiro로의 전환이 본격화될 전망이다.
+
+## OpenAI·Broadcom, 커스텀 AI 칩 "Jalapeno" 공개
+
+OpenAI가 Broadcom과 9개월 만에 공동 개발한 첫 번째 커스텀 추론 칩 "Jalapeno"를 오늘 공개했다([TechCrunch](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)). LLM 추론에 최적화된 설계로 와트당 성능이 크게 향상됐으며, 2026년 말 초기 배치를 목표로 하고 있다([CNBC](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html)). Nvidia 의존도를 줄이려는 OpenAI의 인프라 전략이 본격화되고 있다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| Claude Code | 99 | — | Opus 4.8 기반 안정, Fable 5 차단 12일차 |
-| ChatGPT | 96 | — | GPT-5.6 출시 7월로 밀리는 추세 |
-| Claude AI | 96 | — | Fable 5 정지에도 Opus 4.8로 유지 |
-| Cursor | 96 | — | SpaceX 인수 진행 중, Continue 통합 예정 |
-| Codex CLI | 87 | — | Daybreak 확장으로 보안 생태계 강화 |
-| Windsurf | 85 | — | Devin Desktop 안정, $15 가격 유지 |
-| Antigravity | 82 | ↑1 | Gemini CLI D+6 이전 흡수, 7주 연속 상승 |
+| Claude Code | 99 | — | Claude Tag 출시, Opus 4.8 안정 |
+| ChatGPT | 96 | — | GPT-5.6 7월 출시 전망 |
+| Claude AI | 96 | — | 이틀 연속 장애 후 해소, Claude Tag 긍정적 |
+| Cursor | 96 | — | SpaceX $60B 인수 Q3 완료 예정 |
+| Codex CLI | 87 | — | SSD 버그 85% 수정, Daybreak 확장 |
+| Windsurf | 85 | — | Devin Desktop 안정, Cascade 7/1 종료 |
+| Antigravity | 82 | ↑1 | Gemini CLI D+7 이전 흡수, 7주 연속 상승 |
 | Aider | 68 | — | 오픈소스 안정 유지 |
-| Gemini CLI | 40 | ↓2 | 셧다운 6일차, 기업 전용 |
+| Gemini CLI | 40 | ↓2 | 셧다운 7일차, 기업 전용 |
 | Copilot | 32 | ↓1 | 50주 연속 하락, 종량제 24일차 |

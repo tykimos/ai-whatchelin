@@ -670,6 +670,14 @@ timeline
          : GPT-5.6 예측시장 조정 — Polymarket "6/28까지 미출시" 81%로 상승; 신규 마켓 7/11·7/26 각 40% (6/23)
          : Grok Build Remote 출시 — xAI 웹 기반 코딩 에이전트, /goal 자율 실행 + 빌트인 검증 (6/23)
          : Codex CLI /usage 사용 한도 리셋 크레딧 조회·교환; /plugins Curated/Workspace/Shared 분류 개편 (6/23)
+         : OpenAI Daybreak 확장 — Codex Security 플러그인 GA + GPT-5.5-Cyber 정식 출시, Trail of Bits Patch the Planet (6/24)
+         : Copilot 50주 연속 하락 32, 종량제 24일차 — 바닥 보이지 않아 (6/24)
+         : Fable 5 차단 12일째 — 7/8 신원인증 정책이 핵심 복원 경로, Polymarket 7/1 전 복원 57% (6/24)
+         : Antigravity 82 상승 — Gemini CLI D+6 이전 흡수, 7주 연속 상승 (6/24)
+         : Gemini CLI 셧다운 6일째 — CI/CD 파이프라인 장애 지속, HTTP 410 오류 (6/24)
+         : Kiro iOS 앱 얼리 액세스, AWS Summit 뉴욕에서 공개 — 스마트폰으로 코딩 세션 관리 (6/24)
+         : GPT-5.6 Pro 6/25 출시 예상 — Polymarket "6/28까지 미출시" 81%, Pachocki "의미 있는 개선" (6/24)
+         : Codex CLI v0.143.0-alpha.14 — 롤아웃 토큰 예산, 플러그인 탐색, exec-server 복구 (6/24)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

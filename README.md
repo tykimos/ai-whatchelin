@@ -670,6 +670,14 @@ timeline
          : GPT-5.6 prediction market correction — Polymarket "not by June 28" rises to 81%; new market shows July 11 and July 26 at 40% each (Jun 23)
          : Grok Build Remote launch — xAI web-based coding agent, /goal autonomous execution with built-in verification (Jun 23)
          : Codex CLI /usage now shows and redeems earned usage-limit reset credits; /plugins reorganized into Curated/Workspace/Shared (Jun 23)
+         : OpenAI Daybreak expansion — Codex Security plugin GA + GPT-5.5-Cyber full release, Trail of Bits Patch the Planet (Jun 24)
+         : Copilot 50-week decline to 32, billing Day 24 — no floor in sight (Jun 24)
+         : Fable 5 ban Day 12 — July 8 identity verification as key restoration path, Polymarket 57% before Jul 1 (Jun 24)
+         : Antigravity rises to 82 — Gemini CLI D+6 migration absorption, 7-week streak (Jun 24)
+         : Gemini CLI shutdown Day 6 — CI/CD pipelines still breaking, HTTP 410 errors persist (Jun 24)
+         : Kiro iOS app early access at AWS Summit New York — manage coding sessions from phone (Jun 24)
+         : GPT-5.6 Pro expected June 25 — Polymarket "not by June 28" at 81%, Pachocki "meaningful improvement" (Jun 24)
+         : Codex CLI v0.143.0-alpha.14 — rollout token budgets, plugin discovery, exec-server recovery (Jun 24)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

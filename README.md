@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-24</sub>
+  <sub>Last updated: 2026-06-25</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.24-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.25-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -678,6 +678,12 @@ timeline
          : Kiro iOS app early access at AWS Summit New York — manage coding sessions from phone (Jun 24)
          : GPT-5.6 Pro expected June 25 — Polymarket "not by June 28" at 81%, Pachocki "meaningful improvement" (Jun 24)
          : Codex CLI v0.143.0-alpha.14 — rollout token budgets, plugin discovery, exec-server recovery (Jun 24)
+         : Kiro IDE 1.0 released — agent focus mode, NL hooks, dockable chat tabs, session export (Jun 25)
+         : Copilot 51-week decline to 31, billing Day 25 — developer exodus continues (Jun 25)
+         : Fable 5 ban Day 13 — Congress deadline tomorrow, 100+ cybersecurity experts demand lift (Jun 25)
+         : GPT-5.6 no OpenAI announcement despite prediction market expectations for June 25 (Jun 25)
+         : Gemini CLI shutdown Day 8 — CI/CD pipelines still breaking, HTTP 410 errors persist (Jun 25)
+         : Antigravity rises to 83 — Gemini CLI D+8 migration absorption, 8-week streak (Jun 25)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1717,26 +1723,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24"]
+    x-axis ["06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25"]
     y-axis "Popularity Score" 30 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32]
+    line "GH Copilot" [44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40]
-    line "Antigravity" [68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82]
+    line "Gemini CLI" [63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38]
+    line "Antigravity" [69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-32↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-31↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-40↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-82↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-38↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-83↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

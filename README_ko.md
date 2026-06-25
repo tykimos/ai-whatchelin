@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-24</sub>
+  <sub>마지막 업데이트: 2026-06-25</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.24-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.25-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -678,6 +678,12 @@ timeline
          : Kiro iOS 앱 얼리 액세스, AWS Summit 뉴욕에서 공개 — 스마트폰으로 코딩 세션 관리 (6/24)
          : GPT-5.6 Pro 6/25 출시 예상 — Polymarket "6/28까지 미출시" 81%, Pachocki "의미 있는 개선" (6/24)
          : Codex CLI v0.143.0-alpha.14 — 롤아웃 토큰 예산, 플러그인 탐색, exec-server 복구 (6/24)
+         : Kiro IDE 1.0 출시 — 에이전트 포커스 모드, NL 훅, 도킹 가능 채팅 탭, 세션 내보내기 (6/25)
+         : Copilot 51주 연속 하락 31, 종량제 25일차 — 개발자 이탈 지속 (6/25)
+         : Fable 5 차단 13일째 — 의회 답변 기한 내일, 100+ 사이버보안 전문가 해제 요구 (6/25)
+         : GPT-5.6 예측시장 기대에도 OpenAI 공식 발표 없음 (6/25)
+         : Gemini CLI 셧다운 8일째 — CI/CD 파이프라인 장애 지속, HTTP 410 오류 (6/25)
+         : Antigravity 83 상승 — Gemini CLI D+8 이전 흡수, 8주 연속 상승 (6/25)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1687,26 +1693,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-11", "06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24"]
+    x-axis ["06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25"]
     y-axis "인기 점수" 30 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32]
+    line "GH Copilot" [44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [64, 63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40]
-    line "Antigravity" [68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82]
+    line "Gemini CLI" [63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38]
+    line "Antigravity" [69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-32↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-31↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-40↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-82↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-38↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-83↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

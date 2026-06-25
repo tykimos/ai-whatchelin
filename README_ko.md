@@ -684,6 +684,9 @@ timeline
          : GPT-5.6 예측시장 기대에도 OpenAI 공식 발표 없음 (6/25)
          : Gemini CLI 셧다운 8일째 — CI/CD 파이프라인 장애 지속, HTTP 410 오류 (6/25)
          : Antigravity 83 상승 — Gemini CLI D+8 이전 흡수, 8주 연속 상승 (6/25)
+         : Anthropic, Alibaba의 Claude "불법" 접근 고발 — 가짜 계정 25,000개, 28.8M 교환, 적대적 증류 (6/24)
+         : Claude Tag Slack 출시 — AI 가상 직원, 내부 코드 65% 처리, Enterprise/Team 베타 (6/23)
+         : Copilot CLI v1.0.64 GA — 탭 터미널 레이아웃, 대화형 도구 설정, /diff 개선 (6/23)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

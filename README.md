@@ -684,6 +684,9 @@ timeline
          : GPT-5.6 no OpenAI announcement despite prediction market expectations for June 25 (Jun 25)
          : Gemini CLI shutdown Day 8 — CI/CD pipelines still breaking, HTTP 410 errors persist (Jun 25)
          : Antigravity rises to 83 — Gemini CLI D+8 migration absorption, 8-week streak (Jun 25)
+         : Anthropic accuses Alibaba of "illicit" Claude access — 25,000 fake accounts, 28.8M exchanges, adversarial distillation (Jun 24)
+         : Claude Tag launched on Slack — AI virtual employee, 65% internal code, Enterprise/Team beta (Jun 23)
+         : Copilot CLI v1.0.64 GA — tabbed terminal layout, interactive tool config, improved /diff (Jun 23)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

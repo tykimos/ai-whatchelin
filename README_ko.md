@@ -2171,19 +2171,19 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-06-23)
+### 팩트 체크 로그 (2026-06-25)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex 통합** Brockman 총괄 — 에이전틱 "슈퍼앱", **개인 금융** (Pro, Plaid 12K+ 은행), **Codex 모바일**(전 플랜), **파일 라이브러리** Free/Go 확대(500MB→100GB), **Dell 파트너십** 하이브리드·온프레미스 Codex, **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각 |
+| ChatGPT | chatgpt.com/pricing | **Jalapeño 칩** Broadcom 공동개발 — 첫 자체 ASIC, 추론 50% 절감; **GPT-4.5 6/27 은퇴**, o3 8/26 은퇴; **"에이전트가 업무 변화"** 보고서 — 80.6% 30분+ Codex 요청; **ChatGPT + Codex 통합** Brockman 총괄, **개인 금융**(Pro, Plaid 12K+), **Codex 모바일**(전 플랜), **Dell 파트너십**, **Musk v. Altman 평결** — 전 청구 기각 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 중단** (5/15 발표, 6/15 중단), **Big Four 표준화** (Deloitte/PwC/KPMG) |
 | Claude Code | code.claude.com/changelog | **v2.1.185** 최신, **Fable 5** 출시 — 최초 공개 Mythos급 모델, $10/$50 per MTok, 6/23 무료 종료; --safe-mode, /cd 명령어; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync |
 | Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 발표 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 23일차 이탈 가속, **Copilot App GA** (6/17) — Canvases·클라우드 자동화, **Project Polaris** GPT-4 Turbo 대체 8월, **MAI-Code-1-Flash** 5B 코딩 모델, **Microsoft Claude Code 취소** (6/30), 49주 연속 하락 33 |
+| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 25일차 이탈 가속, **Copilot App GA** (6/17), **Agentic Workflows** 공개 미리보기(GitHub Actions), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **MAI-Code-1-Flash** 5B 코딩 모델, **Microsoft Claude Code 취소** (6/30), 51주 연속 하락 31 |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -2234,6 +2234,12 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/06/24 | **Anthropic, Alibaba 사상 최대 증류 공격 고발** — Qwen 연구소가 가짜 계정 25,000개로 28.8M건 교환, Claude SWE·에이전틱 추론 타깃; 상원 은행위원회·백악관에 서한 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models) |
+| 2026/06/23 | **Claude Tag** 출시 — Slack 내 AI 가상 직원, Enterprise/Team 대상; Anthropic 내부 코드 변경 65%를 Tag가 승인·반영 | [fortune.com](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/) |
+| 2026/06/12 | **Fable 5 & Mythos 5 수출통제 차단** — 미국 정부 국가안보 근거 외국인 접근 전면 중단 지시; 전 세계 셧다운 | [anthropic.com](https://www.anthropic.com/news/fable-mythos-access) |
+| 2026/06/09 | **Fable 5 GA** — 최초 공개 Mythos급 모델; Pro/Max/Team/Enterprise에서 6/22까지 무료 후 사용량 크레딧 전환 | [anthropic.com](https://www.anthropic.com/news) |
+| 2026/06/~ | **S-1 IPO 비공개 제출** — $9,650억 밸류에이션 목표, 2026년 10월 상장 예정 | [bloomberg.com](https://www.bloomberg.com) |
+| 2026/06/~ | **$650억 Series H** ~$9,650억 포스트머니 밸류에이션 | [cnbc.com](https://www.cnbc.com) |
 | 2026/05/20 | **Anthropic, Stainless $3억+에 인수 확정** — OpenAI·Google·Cloudflare·Perplexity·Groq용 SDK 제작사; Stainless 호스팅 SDK 생성기 종료; Anthropic이 모델 + MCP + SDK 툴체인 수직 통합 | [anthropic.com](https://www.anthropic.com/news/anthropic-acquires-stainless) |
 | 2026/05/19 | **Code with Claude London 1일차** — Research·Claude Platform·Claude Code 3트랙; MCP 핵심 주제; 5/20 인디 개발자 확장 세션 | [claude.com](https://claude.com/code-with-claude/london) |
 | 2026/05/19 | Claude Code **v2.1.144** — /resume 백그라운드 세션 재개, MCP 터널 지원, 셀프호스팅 샌드박스, api.anthropic.com 접근 불가 시 시작 행 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -2304,6 +2310,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/06/25 | **"에이전트가 업무를 변화시키는 방법"** — 내부 보고서: 사용자 80.6%가 30분+ Codex 요청, P99 사용자 하루 60+ 에이전트시간; 연구 부서 2025년 11월 대비 56배 증가 | [openai.com](https://openai.com/index/how-agents-are-transforming-work/) |
+| 2026/06/24 | **Jalapeño 추론 칩** Broadcom 공동 공개 — 첫 자체 ASIC, 9개월 설계→테이프아웃, 추론 토큰 ~50% 절감, 2026년 말 Microsoft와 배포 | [techcrunch.com](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/) |
+| 2026/06/27 | **GPT-4.5 은퇴** — ChatGPT에서 30일 일몰 후 종료, 출시 4개월 만; o3 8/26 은퇴(90일 일몰) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/06/25 | **Codex Record & Replay** — macOS 워크플로우 1회 시연 후 재사용 스킬로 변환 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/06/24 | **S-1 비공개 제출** — OpenAI, SEC에 IPO 초안 등록서 비공개 제출 | [openai.com](https://openai.com/index/openai-submits-confidential-s-1/) |
 | 2026/05/19 | **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각; 자선 신탁 위반·부당이득 모두 소멸시효 초과; Musk "달력 기술적 문제" 주장하며 제9순회 항소 선언 | [npr.org](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) |
 | 2026/05/16 | **ChatGPT + Codex 통합** — Greg Brockman이 총괄, ChatGPT·Codex·개발자 API를 단일 에이전틱 "슈퍼앱"으로 병합; Codex가 코딩 넘어 확장 후 ChatGPT + Atlas 통합 예정 | [techcrunch.com](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/) |
 | 2026/05/15 | **ChatGPT 개인 금융** — Pro 사용자($200/월) 미국 대상, Plaid 통해 은행 계좌 연결(12,000+ 기관); 지출·청구서·구독·순자산·투자 대시보드; 웹 + iOS | [techcrunch.com](https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/) |

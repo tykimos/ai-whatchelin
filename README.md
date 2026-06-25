@@ -2211,19 +2211,19 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-06-23)
+### Fact Check Log (2026-06-25)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT + Codex merger** under Brockman — unified agentic "super app", **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **File Library** to Free/Go (500MB→100GB), **Dell partnership** for hybrid/on-prem Codex, **Musk v. Altman verdict** — jury unanimously rejects all claims |
+| ChatGPT | chatgpt.com/pricing | **Jalapeño chip** with Broadcom — first custom ASIC, 50% cheaper inference; **GPT-4.5 retiring Jun 27**, o3 retiring Aug 26; **"Agents Transforming Work"** report — 80.6% 30-min+ Codex requests; **ChatGPT + Codex merger** under Brockman, **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **Dell partnership**, **Musk v. Altman verdict** — all claims rejected |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering paused** (announced May 15, paused Jun 15), **Big Four standardization** (Deloitte/PwC/KPMG) |
 | Claude Code | code.claude.com/changelog | **v2.1.185** latest, **Fable 5** launched — first public Mythos-class model, $10/$50 per MTok, free ended Jun 23; --safe-mode, /cd command; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync |
 | Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting announced |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 23 exodus, **Copilot App GA** (Jun 17) — Canvases, cloud automations, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **MAI-Code-1-Flash** 5B coding model, **Microsoft cancels Claude Code** (June 30), 49-week decline to 33 |
+| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 25 exodus, **Copilot App GA** (Jun 17), **Agentic Workflows** public preview (GitHub Actions), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **MAI-Code-1-Flash** 5B coding model, **Microsoft cancels Claude Code** (June 30), 51-week decline to 31 |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
@@ -2275,6 +2275,12 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/06/24 | **Anthropic accuses Alibaba of largest distillation attack** — Qwen lab ran 25,000 fake accounts, 28.8M exchanges targeting Claude's SWE + agentic reasoning; letter sent to Senate Banking Committee and White House | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models) |
+| 2026/06/23 | **Claude Tag** launches — AI virtual employee embedded in Slack for Enterprise/Team customers; 65% of Anthropic's internal code changes approved by Tag | [fortune.com](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/) |
+| 2026/06/12 | **Fable 5 & Mythos 5 export ban** — US government directive suspends all access by foreign nationals citing national security; worldwide shutdown | [anthropic.com](https://www.anthropic.com/news/fable-mythos-access) |
+| 2026/06/09 | **Fable 5 GA** — first public Mythos-class model; included free on Pro/Max/Team/Enterprise through June 22, then usage credits | [anthropic.com](https://www.anthropic.com/news) |
+| 2026/06/~ | **S-1 IPO filed** — confidential filing targeting $965B valuation, October 2026 listing | [bloomberg.com](https://www.bloomberg.com) |
+| 2026/06/~ | **$65B Series H** at ~$965B post-money valuation | [cnbc.com](https://www.cnbc.com) |
 | 2026/05/20 | **Anthropic acquires Stainless** for $300M+ — SDK maker for OpenAI, Google, Cloudflare, Perplexity, Groq; Stainless winds down hosted SDK generator; Anthropic now controls model + MCP + SDK toolchain | [anthropic.com](https://www.anthropic.com/news/anthropic-acquires-stainless) |
 | 2026/05/19 | **Code with Claude London Day 1** — Research, Claude Platform, Claude Code tracks; MCP core theme; indie dev extended session May 20 | [claude.com](https://claude.com/code-with-claude/london) |
 | 2026/05/19 | Claude Code **v2.1.144** — /resume for background sessions, MCP tunnel support, self-hosted sandboxes, startup fix for unreachable api.anthropic.com | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -2345,6 +2351,11 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/06/25 | **"How Agents Are Transforming Work"** — internal report: 80.6% of users make 30-min+ Codex requests; P99 users run 60+ agent-hours/day; Research usage 56x vs Nov 2025 | [openai.com](https://openai.com/index/how-agents-are-transforming-work/) |
+| 2026/06/24 | **Jalapeño inference chip** unveiled with Broadcom — first custom ASIC, 9-month design-to-tapeout, ~50% cheaper inference tokens, deploying late 2026 with Microsoft | [techcrunch.com](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/) |
+| 2026/06/27 | **GPT-4.5 retiring** from ChatGPT — 30-day sunset, 4 months after Feb launch; o3 retiring Aug 26 (90-day sunset) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/06/25 | **Codex Record & Replay** — macOS feature to demonstrate a workflow once and turn it into a reusable skill | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/06/24 | **S-1 confidential filing** — OpenAI submits draft S-1 to SEC ahead of planned IPO | [openai.com](https://openai.com/index/openai-submits-confidential-s-1/) |
 | 2026/05/19 | **Musk v. Altman verdict** — jury unanimously rejects all claims; breach of charitable trust and unjust enrichment barred by statute of limitations; Musk vows 9th Circuit appeal, calls it "calendar technicality" | [npr.org](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) |
 | 2026/05/16 | **ChatGPT + Codex merger** — Greg Brockman takes charge, merging ChatGPT, Codex, and dev API into single agentic "super app"; Codex expands beyond coding first, then ChatGPT + Atlas fold in | [techcrunch.com](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/) |
 | 2026/05/15 | **ChatGPT Personal Finance** — Pro users ($200/mo) in the US can connect bank accounts via Plaid (12,000+ institutions); spending, bills, subscriptions, net worth, investment dashboards; web + iOS | [techcrunch.com](https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/) |

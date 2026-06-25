@@ -1,45 +1,49 @@
 ---
-title: "Anthropic Accuses Alibaba of 'Illicit' Claude Access — 25,000 Fake Accounts, 28.8M Exchanges in Largest Known Distillation Attack"
+title: "OpenAI Unveils First Custom Chip 'Jalapeño' as Anthropic Charges Alibaba With 25,000-Account Distillation Attack"
 date: 2026-06-25
 lang: en
 categories: [news]
-tags: [anthropic, alibaba, claude-tag, kiro, aws, gpt-5-6, openai, fable-5, copilot, antigravity, gemini-cli]
-excerpt: "Anthropic notified the White House that Alibaba's Qwen lab ran 25,000 fake accounts to extract Claude's reasoning capabilities. Meanwhile, Kiro IDE 1.0 ships, GPT-5.6 misses its June 25 window, and the Fable 5 congressional deadline is tomorrow."
+tags: [openai, broadcom, jalapeno, anthropic, alibaba, claude-tag, kiro, aws, gpt-5-6, gpt-4-5, fable-5, copilot, antigravity, gemini-cli, codex]
+excerpt: "OpenAI and Broadcom unveil Jalapeño, a purpose-built inference ASIC targeting 50% cheaper tokens. The same day, Anthropic reports the largest known distillation attack — 28.8M exchanges through 25,000 fake Alibaba-linked accounts."
 ---
 
-Anthropic has formally accused Alibaba Group's Qwen AI lab of waging the largest known "adversarial distillation" attack against Claude, generating 28.8 million exchanges through nearly 25,000 fraudulent accounts between April 22 and June 5 ([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models)). The campaign targeted Claude's software engineering and agentic reasoning capabilities — the very features that power Claude Code and Managed Agents ([CNBC](https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html)). Anthropic described the technique as competitors repeatedly prompting advanced models to harvest reasoning patterns, bypassing millions of dollars in R&D. The company notified US senators and White House officials, escalating US-China AI tensions alongside the ongoing Fable 5 export control standoff.
+OpenAI and Broadcom unveiled **Jalapeño**, OpenAI's first custom AI inference chip, co-developed from design to tape-out in just nine months ([TechCrunch](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)). The purpose-built ASIC targets LLM inference bottlenecks — data movement, compute-memory balance, and networking efficiency. Early lab tests show performance on par with Nvidia Blackwell and Google TPUs while cutting inference token costs by roughly 50%, according to Broadcom CEO Hock Tan ([CNBC](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html)). Initial deployment is slated for late 2026 with Microsoft as the primary deployment partner ([OpenAI](https://openai.com/index/openai-broadcom-jalapeno-inference-chip/)).
+
+## Anthropic Accuses Alibaba of Largest Known Claude Distillation Attack
+
+Anthropic has formally notified the US Senate Banking Committee that Alibaba's Qwen AI lab waged "the largest known distillation attack" on Claude, generating 28.8 million exchanges through roughly 25,000 fraudulent accounts between April 22 and June 5 ([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models)). The operation surpassed three previous campaigns — DeepSeek, Moonshot, and MiniMax — which collectively generated 16 million exchanges across 24,000 accounts. It targeted Claude's software engineering and agentic reasoning capabilities, escalating US-China AI tensions alongside the ongoing Fable 5 export control standoff ([CNBC](https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html)).
+
+## OpenAI: "How Agents Are Transforming Work" — P99 Users Run 60+ Hours of Codex Daily
+
+OpenAI published its internal agent adoption report today ([OpenAI](https://openai.com/index/how-agents-are-transforming-work/)). By June 2026, Research saw a 56x increase in AI usage versus November 2025, Customer Support rose 32x, and Engineering 27x. Strikingly, 80.6% of sampled users made at least one Codex request estimated to exceed 30 minutes of human work, and 25.6% exceeded eight hours in a single request. At the 99th percentile, users regularly generate more than 60 hours of parallel Codex agent turns per day.
 
 ## Kiro IDE 1.0: AWS Ships Agent-First Coding Platform
 
-AWS's AI coding IDE Kiro shipped version 1.0 today, introducing capability-based permissions for agent access, a builder for specialized agents, and an experimental "agent focus mode" for directing parallel agents ([Kiro Changelog](https://kiro.dev/changelog/ide/)). Natural language hook creation, dockable chat tabs, and session export round out the feature set. With Amazon Q Developer's April 2027 end-of-support now official, the migration path is clear ([AWS Blog](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/)).
+AWS's AI coding IDE Kiro shipped version 1.0, introducing capability-based permissions for agent access, a specialized agent builder, and an experimental "agent focus mode" for directing parallel agents ([Kiro Changelog](https://kiro.dev/changelog/ide/)). With Amazon Q Developer's April 2027 end-of-support now official, the Kiro migration path is clear ([AWS Blog](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/)).
 
-## Claude Tag: Your AI Teammate Inside Slack
+## GPT-4.5 Retires in 2 Days; GPT-5.6 Slips to July
 
-Anthropic launched Claude Tag on June 23, embedding an AI "virtual employee" directly into Slack for Enterprise and Team customers ([Fortune](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/)). Tag @Claude in any channel to delegate tasks — the bot breaks work into stages, executes independently, and delivers results. All employees share a single Claude "identity," enabling half-finished task handoffs. An "ambient" behavior feature proactively surfaces updates across the organization ([TechCrunch](https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/)). Within Anthropic itself, Claude Tag already approves and incorporates 65% of the code changes the product team submits ([The Decoder](https://the-decoder.com/claude-tag-embeds-anthropics-ai-in-slack-already-writes-65-percent-of-internal-code-company-says/)).
-
-## GPT-5.6: June 25 Prediction Falls Flat
-
-Polymarket traders had flagged June 25 as a likely GPT-5.6 launch date, but no OpenAI announcement materialized ([Geeky Gadgets](https://www.geeky-gadgets.com/gpt-5-6-pro-leak-features/)). The "not by June 28" contract has climbed to 81%, with July 11 and July 26 emerging as the next prediction windows at roughly 40% each ([QCode](https://qcode.cc/en/gpt-5-6-guide)).
+GPT-4.5 will be retired from ChatGPT on June 27, just four months after its February launch ([OpenAI Help](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)). GPT-5 and GPT-5.3-Codex have fully superseded it on every benchmark. Separately, o3 is set for retirement on August 26 after a 90-day sunset period. Meanwhile, the predicted June 25 GPT-5.6 launch window has passed with no announcement — Polymarket's "not by June 28" contract climbed to 81%, with July 11 and July 26 emerging as the next prediction windows ([Geeky Gadgets](https://www.geeky-gadgets.com/gpt-5-6-pro-leak-features/)).
 
 ## Fable 5: Ban Day 13, Congress Deadline D-1
 
-The Fable 5 export control suspension enters its 13th day. Tomorrow's June 26 deadline — when four bipartisan lawmakers demanded a written explanation from Commerce Secretary Lutnick — is the nearest forcing function ([explainx.ai](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)). Over 100 cybersecurity experts have signed a letter urging the US to lift restrictions, arguing the ban "handcuffs defenders without slowing attackers" ([TechCrunch](https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/)).
+The Fable 5 export control suspension enters its 13th day. Anthropic's Head of Growth confirmed zero traffic is being served as of today ([explainx.ai](https://explainx.ai/blog/is-fable-5-back-2026)). Tomorrow's June 26 deadline — when four bipartisan lawmakers demanded a written explanation from Commerce Secretary Lutnick — is the nearest forcing function ([explainx.ai](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)). Prediction markets give 57% odds of restoration before July 1 and 75% by July 17, with the July 8 government ID verification policy as the critical path.
 
-## Copilot: 51-Week Decline Hits 31, CLI v1.0.64 GA
+## Claude Tag: Your AI Teammate Inside Slack
 
-GitHub Copilot's score dropped to 31 — 51 consecutive weeks of decline, billing Day 25 ([GitHub Community](https://github.com/orgs/community/discussions/192948)). On a brighter note, Copilot CLI v1.0.64 shipped GA with a redesigned tabbed terminal layout, interactive tool configuration, and improved /diff wrapping ([GitHub Changelog](https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/)).
+Anthropic launched Claude Tag on June 23, embedding an AI "virtual employee" directly into Slack for Enterprise and Team customers ([Fortune](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/)). Tag @Claude in any channel to delegate tasks — the bot breaks work into stages, executes independently, and delivers results. Within Anthropic itself, Claude Tag already approves and incorporates 65% of the code changes the product team submits ([The Decoder](https://the-decoder.com/claude-tag-embeds-anthropics-ai-in-slack-already-writes-65-percent-of-internal-code-company-says/)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | Claude Code | 99 | — | Claude Tag launch, Alibaba distillation charges |
-| ChatGPT | 96 | — | GPT-5.6 slipping to July, 46.4% share |
-| Claude AI | 96 | — | Seoul partnerships, outages resolved |
+| ChatGPT | 96 | — | Jalapeño chip unveiled, GPT-4.5 retiring in 2 days |
+| Claude AI | 96 | — | Fable 5 ban Day 13, Seoul partnerships |
 | Cursor | 96 | — | SpaceX $60B acquisition closing Q3 |
-| Codex CLI | 87 | — | Daybreak GA, uv/ruff acquisition |
+| Codex CLI | 87 | — | Agents report — 80.6% users exceed 30-min tasks |
 | Windsurf | 85 | — | Devin Desktop stable, Cascade EOL July 1 |
 | Antigravity | 83 | ↑1 | Gemini CLI D+8 absorption, 8-week streak |
-| Aider | 68 | — | Open-source steady |
+| Aider | 68 | — | Open-source steady, v0.86.2 |
 | Gemini CLI | 38 | ↓2 | Shutdown Day 8, enterprise-only |
-| Copilot | 31 | ↓1 | 51-week decline, CLI v1.0.64 GA |
+| Copilot | 31 | ↓1 | 51-week decline, Agentic Workflows preview |

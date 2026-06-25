@@ -1,45 +1,49 @@
 ---
-title: "Anthropic, Alibaba의 Claude '불법 접근' 고발 — 가짜 계정 25,000개로 28.8M 교환, Kiro IDE 1.0 출시"
+title: "OpenAI 첫 자체 칩 'Jalapeño' 공개, Anthropic은 Alibaba 25,000 계정 불법 증류 고발"
 date: 2026-06-25
 lang: ko
 categories: [news]
-tags: [anthropic, alibaba, claude-tag, kiro, aws, gpt-5-6, openai, fable-5, copilot, antigravity, gemini-cli]
-excerpt: "Anthropic이 Alibaba 산하 Qwen 연구소가 가짜 계정 25,000개로 Claude를 무단 접근했다며 백악관에 서한을 보냈다. AWS의 Kiro IDE 1.0 출시, GPT-5.6 6월 25일 예측 빗나감, Fable 5 의회 기한 임박."
+tags: [openai, broadcom, jalapeno, anthropic, alibaba, claude-tag, kiro, aws, gpt-5-6, gpt-4-5, fable-5, copilot, antigravity, gemini-cli, codex]
+excerpt: "OpenAI가 Broadcom과 공동 개발한 추론 전용 칩 Jalapeño를 공개하며 Nvidia 의존 탈피에 나섰다. 같은 날 Anthropic은 Alibaba Qwen 연구소의 사상 최대 증류 공격을 백악관에 보고했다."
 ---
 
-Anthropic이 Alibaba 그룹 산하 Qwen AI 연구소를 상대로 Claude 모델에 대한 대규모 "불법 접근"을 공식 고발했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models)). 4월 22일부터 6월 5일까지 약 25,000개의 가짜 계정을 통해 28.8M건 이상의 교환이 이뤄졌으며, 소프트웨어 엔지니어링과 에이전틱 추론 등 Claude의 핵심 역량이 타깃이 됐다([CNBC](https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html)). Anthropic은 이를 "적대적 증류(adversarial distillation)"로 규정했는데, 이는 경쟁사가 수백만 달러의 R&D 비용을 우회해 자사 AI를 훈련시키기 위해 고급 모델의 추론 패턴을 반복적으로 추출하는 방식이다. 이 사실은 미국 상원의원 및 백악관 관계자에게 전달됐으며, Fable 5 수출통제 논의와 맞물려 미중 AI 긴장을 더욱 고조시키고 있다.
+OpenAI가 Broadcom과 공동 개발한 첫 자체 AI 칩 **Jalapeño**를 공개했다([TechCrunch](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)). LLM 추론에 특화된 ASIC으로 설계부터 테이프아웃까지 단 9개월 만에 완성됐으며, 초기 실험실 테스트에서 Nvidia Blackwell 및 Google TPU와 동등한 성능을 기록하면서 추론 토큰당 비용은 약 50% 절감된다고 Broadcom CEO Hock Tan이 밝혔다([CNBC](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html)). 2026년 말 초기 배포를 목표로 하며 Microsoft가 핵심 배포 파트너로 확인됐다([OpenAI](https://openai.com/index/openai-broadcom-jalapeno-inference-chip/)).
+
+## Anthropic, Alibaba Qwen의 사상 최대 Claude 증류 공격 고발
+
+Anthropic이 Alibaba 산하 Qwen AI 연구소가 약 25,000개 가짜 계정으로 28.8M건의 교환을 수행해 Claude의 소프트웨어 엔지니어링·에이전틱 추론 역량을 추출했다고 미 상원 은행위원회에 공식 서한을 보냈다([Bloomberg](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models)). 이전 DeepSeek·Moonshot·MiniMax의 세 차례 증류 캠페인을 합친 것(16M건, 24,000 계정)보다 규모가 크며, Fable 5 수출통제와 맞물려 미중 AI 긴장이 한층 고조되고 있다([CNBC](https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html)).
+
+## OpenAI "에이전트가 업무를 변화시키는 방법" — Codex 99번째 백분위 하루 60시간
+
+OpenAI가 오늘 자사 내부 에이전트 도입 현황을 공개했다([OpenAI](https://openai.com/index/how-agents-are-transforming-work/)). 2026년 6월 기준 연구 부서의 AI 사용량이 2025년 11월 대비 56배, 고객지원 32배, 엔지니어링 27배 증가했다. 특히 전체 사용자의 80.6%가 30분 이상의 인적 작업에 해당하는 Codex 요청을 1회 이상 수행했고, 25.6%는 8시간 이상 분량의 단일 요청을 보낸 적이 있다. 99번째 백분위 사용자는 하루 60시간 이상의 Codex 에이전트 턴을 병렬로 생성하고 있다.
 
 ## Kiro IDE 1.0: AWS 에이전트 코딩 본격화
 
-AWS의 AI 코딩 IDE Kiro가 오늘 IDE 1.0을 정식 출시했다([Kiro Changelog](https://kiro.dev/changelog/ide/)). 에이전트 접근 범위 제어, 특화 에이전트 빌더, 실험적 '에이전트 포커스 모드'가 핵심이며, 자연어 훅 생성·도킹 가능 채팅 탭·세션 내보내기도 포함됐다. Amazon Q Developer의 2027년 4월 지원 종료가 확정되면서 Kiro 전환이 가속화되고 있다([AWS Blog](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/)).
+AWS의 Kiro가 IDE 1.0을 정식 출시하며 에이전트 접근 범위 제어, 특화 에이전트 빌더, 실험적 '에이전트 포커스 모드'를 도입했다([Kiro Changelog](https://kiro.dev/changelog/ide/)). Amazon Q Developer의 2027년 4월 지원 종료가 확정되면서 Kiro 전환이 가속화되고 있다([AWS Blog](https://aws.amazon.com/blogs/devops/amazon-q-developer-end-of-support-announcement/)).
 
-## Claude Tag: Slack 속 AI 가상 직원 등장
+## GPT-4.5 은퇴 D-2, GPT-5.6은 7월로
 
-Anthropic이 6월 23일 Claude Tag를 출시했다([Fortune](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/)). Slack 채널에서 @Claude를 태그해 작업을 위임하면 단계별로 자율 수행한 뒤 결과를 전달하는 방식이다. 전 직원이 하나의 Claude "정체성"에 접근해 반쯤 끝낸 작업을 서로 이어받을 수 있으며, "앰비언트" 기능으로 조직 전체 정보를 능동적으로 업데이트한다([TechCrunch](https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/)). Anthropic 내부에서는 이미 코드 변경의 65%를 Claude Tag가 승인·반영하고 있다([The Decoder](https://the-decoder.com/claude-tag-embeds-anthropics-ai-in-slack-already-writes-65-percent-of-internal-code-company-says/)).
-
-## GPT-5.6: 6월 25일 예측 빗나감
-
-Polymarket에서 거론됐던 GPT-5.6의 6월 25일 출시 예측은 빗나갔다([Geeky Gadgets](https://www.geeky-gadgets.com/gpt-5-6-pro-leak-features/)). "6월 28일까지 미출시" 확률은 81%로 상승했고, 7월 11일과 26일이 새로운 출시 전망 시점으로 부상 중이다([QCode](https://qcode.cc/en/gpt-5-6-guide)).
+GPT-4.5가 6월 27일 ChatGPT에서 공식 은퇴한다([OpenAI Help](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)). 2026년 2월 출시 후 4개월 만으로, GPT-5와 GPT-5.3-Codex가 모든 벤치마크에서 완전히 대체했다. 별도로 o3 모델은 8월 26일 90일 일몰 기간 후 은퇴 예정이다. 한편 GPT-5.6의 6월 25일 출시 예측은 빗나갔고, Polymarket에서 "6/28까지 미출시" 확률이 81%로 상승하면서 7월 출시가 유력해지고 있다([Geeky Gadgets](https://www.geeky-gadgets.com/gpt-5-6-pro-leak-features/)).
 
 ## Fable 5: 차단 13일째, 의회 기한 D-1
 
-Fable 5 수출통제가 13일째 지속되는 가운데, 내일 6월 26일이 초당파 의원 4명의 상무장관 서한 답변 기한이다([explainx.ai](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)). 100명+ 사이버보안 전문가가 제한 해제를 촉구했으며, 7월 8일 신원인증 정책이 미국 내 복원 핵심 경로로 떠오르고 있다([TechCrunch](https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/)).
+Fable 5 수출통제 13일째, 내일 6월 26일이 초당파 의원 4명의 상무장관 서한 답변 기한이다([explainx.ai](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)). Anthropic 성장 총괄은 오늘 트래픽이 여전히 0임을 확인했다([explainx.ai](https://explainx.ai/blog/is-fable-5-back-2026)). 예측 시장은 7월 1일 전 복원 확률 57%, 7월 17일 전 75%를 제시하며, 7월 8일 정부 신원인증 정책 발효가 핵심 경로로 부상 중이다.
 
-## Copilot: 51주 연속 하락 31 — 종량제 25일차
+## Claude Tag: Slack 속 AI 가상 직원
 
-GitHub Copilot 인기도가 31로 51주 연속 하락했다([GitHub Community](https://github.com/orgs/community/discussions/192948)). 한편 Copilot CLI v1.0.64가 GA로 전환되면서 탭 기반 레이아웃, 대화형 도구 설정, 개선된 /diff 뷰를 제공한다([GitHub Changelog](https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/)).
+Anthropic이 6월 23일 출시한 Claude Tag는 Slack 채널에서 @Claude를 태그해 작업을 위임하는 가상 직원이다([Fortune](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/)). 전 직원이 하나의 Claude "정체성"에 접근하며, "앰비언트" 기능으로 조직 전체에 능동적 업데이트를 제공한다. Anthropic 내부에서는 이미 코드 변경의 65%를 Claude Tag가 승인·반영 중이다([The Decoder](https://the-decoder.com/claude-tag-embeds-anthropics-ai-in-slack-already-writes-65-percent-of-internal-code-company-says/)).
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
 | Claude Code | 99 | — | Claude Tag 출시, Alibaba 고발로 보안 강화 |
-| ChatGPT | 96 | — | GPT-5.6 7월 전망, 시장 점유율 46.4% |
-| Claude AI | 96 | — | 서울 파트너십 확대, 장애 해소 |
+| ChatGPT | 96 | — | Jalapeño 칩 공개, GPT-4.5 이틀 후 은퇴 |
+| Claude AI | 96 | — | Fable 5 차단 D13, 서울 파트너십 |
 | Cursor | 96 | — | SpaceX $60B 인수 Q3 마감 예정 |
-| Codex CLI | 87 | — | Daybreak GA, uv/ruff 인수 |
+| Codex CLI | 87 | — | 에이전트 보고서 — 80.6% 사용자 30분+ 작업 |
 | Windsurf | 85 | — | Devin Desktop 안정, Cascade 7/1 EOL |
 | Antigravity | 83 | ↑1 | Gemini CLI D+8 흡수, 8주 연속 상승 |
-| Aider | 68 | — | 오픈소스 안정 유지 |
+| Aider | 68 | — | 오픈소스 안정 유지, v0.86.2 |
 | Gemini CLI | 38 | ↓2 | 셧다운 8일차, 기업 전용 |
-| Copilot | 31 | ↓1 | 51주 연속 하락, CLI v1.0.64 GA |
+| Copilot | 31 | ↓1 | 51주 연속 하락, Agentic Workflows 프리뷰 |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-25</sub>
+  <sub>마지막 업데이트: 2026-06-26</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.06.26-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -687,6 +687,13 @@ timeline
          : Anthropic, Alibaba의 Claude "불법" 접근 고발 — 가짜 계정 25,000개, 28.8M 교환, 적대적 증류 (6/24)
          : Claude Tag Slack 출시 — AI 가상 직원, 내부 코드 65% 처리, Enterprise/Team 베타 (6/23)
          : Copilot CLI v1.0.64 GA — 탭 터미널 레이아웃, 대화형 도구 설정, /diff 개선 (6/23)
+         : Copilot 52주 연속 하락 30, 종량제 26일차 — 만 1년 연속 하락 (6/26)
+         : Fable 5 차단 14일째 — 의회 답변 기한일, 상무장관 서한 응답 기한 (6/26)
+         : GPT-4.5 은퇴 D-1 — 내일 6/27 공식 은퇴 (6/26)
+         : Claude Code v2.1.191 — /rewind 지원, CPU 사용량 37% 감소, 에이전트 안정성 개선 (6/24)
+         : Antigravity 84 상승 — Gemini CLI D+9 이전 흡수, 9주 연속 상승 (6/26)
+         : Gemini CLI 셧다운 9일째 — 기업 전용, 36으로 하락 지속 (6/26)
+         : Cursor 3.9 — 커스터마이즈 페이지로 플러그인·스킬·MCP 통합 (6/22)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1696,26 +1703,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25"]
-    y-axis "인기 점수" 30 --> 100
+    x-axis ["06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26"]
+    y-axis "인기 점수" 28 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
+    line "GH Copilot" [43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38]
-    line "Antigravity" [69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83]
+    line "Gemini CLI" [62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38, 36]
+    line "Antigravity" [70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-31↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-30↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-38↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-83↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-36↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-84↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-25</sub>
+  <sub>Last updated: 2026-06-26</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.26-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -687,6 +687,13 @@ timeline
          : Anthropic accuses Alibaba of "illicit" Claude access — 25,000 fake accounts, 28.8M exchanges, adversarial distillation (Jun 24)
          : Claude Tag launched on Slack — AI virtual employee, 65% internal code, Enterprise/Team beta (Jun 23)
          : Copilot CLI v1.0.64 GA — tabbed terminal layout, interactive tool config, improved /diff (Jun 23)
+         : Copilot 52-week decline to 30, billing Day 26 — full year of unbroken decline (Jun 26)
+         : Fable 5 ban Day 14 — Congress deadline day, Commerce Secretary response due (Jun 26)
+         : GPT-4.5 retirement D-1 — retiring tomorrow June 27 (Jun 26)
+         : Claude Code v2.1.191 — /rewind support, 37% CPU reduction, agent stability improvements (Jun 24)
+         : Antigravity rises to 84 — Gemini CLI D+9 migration absorption, 9-week streak (Jun 26)
+         : Gemini CLI shutdown Day 9 — enterprise-only, continuing decline to 36 (Jun 26)
+         : Cursor 3.9 — Customize page unifies plugins, skills, MCPs (Jun 22)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1726,26 +1733,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-12", "06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25"]
-    y-axis "Popularity Score" 30 --> 100
+    x-axis ["06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26"]
+    y-axis "Popularity Score" 28 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
+    line "GH Copilot" [43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [63, 62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38]
-    line "Antigravity" [69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83]
+    line "Gemini CLI" [62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38, 36]
+    line "Antigravity" [70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-31↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-30↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-38↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-83↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-36↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-84↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

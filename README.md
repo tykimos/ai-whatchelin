@@ -694,6 +694,11 @@ timeline
          : Antigravity rises to 84 — Gemini CLI D+9 migration absorption, 9-week streak (Jun 26)
          : Gemini CLI shutdown Day 9 — enterprise-only, continuing decline to 36 (Jun 26)
          : Cursor 3.9 — Customize page unifies plugins, skills, MCPs (Jun 22)
+         : Google DeepMind loses 4 researchers to Anthropic in 6 days — Jumper, Adler, Pritzel, Conmy; Alphabet $270B+ market cap loss (Jun 26)
+         : Gemini 3.5 Pro delayed to July — researcher exodus and benchmark gaps (Jun 26)
+         : OpenAI Jalapeño chip unveiled — first custom inference chip, ~50% lower cost vs NVIDIA, Broadcom partnership (Jun 26)
+         : DeepSeek permanent 75% price cut — $0.44/M input tokens, 5x cheaper than GPT-5.5 (Jun 26)
+         : Noam Shazeer (Transformer co-author, Gemini co-lead) leaves Google for OpenAI (Jun 26)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

@@ -694,6 +694,11 @@ timeline
          : Antigravity 84 상승 — Gemini CLI D+9 이전 흡수, 9주 연속 상승 (6/26)
          : Gemini CLI 셧다운 9일째 — 기업 전용, 36으로 하락 지속 (6/26)
          : Cursor 3.9 — 커스터마이즈 페이지로 플러그인·스킬·MCP 통합 (6/22)
+         : Google DeepMind 연구자 4명 6일 만에 Anthropic 이적 — Jumper·Adler·Pritzel·Conmy, Alphabet 시총 $2,700억+ 증발 (6/26)
+         : Gemini 3.5 Pro 7월로 연기 — 연구자 이탈과 벤치마크 격차 (6/26)
+         : OpenAI Jalapeño 칩 공개 — 최초 자체 추론 칩, NVIDIA 대비 ~50% 비용 절감, Broadcom 파트너십 (6/26)
+         : DeepSeek 영구 75% 가격 인하 — 입력 $0.44/M 토큰, GPT-5.5 대비 5배 저렴 (6/26)
+         : Noam Shazeer (Transformer 공동저자, Gemini 공동책임자) Google 떠나 OpenAI 합류 (6/26)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

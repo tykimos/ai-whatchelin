@@ -713,6 +713,9 @@ timeline
          : Gemini CLI shutdown Day 11 — enterprise-only, declining to 32 (Jun 28)
          : Codex CLI rises to 88 — GPT-5.6 available through Codex for preview organizations (Jun 28)
          : ChatGPT rises to 97 — GPT-5.6 buzz, GPT-4.5 retired, personal finance expanded to Plus (Jun 28)
+         : GPT-5.6 Sol max reasoning + ultra mode — subagent parallelization for complex projects (Jun 26)
+         : Windsurf Cascade EOL D-3 — July 1 hard deadline, CI/automation must migrate to Devin Local (Jun 28)
+         : Fable 5 identity verification July 8 — government ID + selfie may enable US-only restoration path (Jun 28)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

@@ -713,6 +713,9 @@ timeline
          : Gemini CLI 셧다운 11일째 — 기업 전용, 32로 하락 (6/28)
          : Codex CLI 88 상승 — GPT-5.6 프리뷰 기관에 Codex 통해 제공 (6/28)
          : ChatGPT 97 상승 — GPT-5.6 열풍, GPT-4.5 은퇴, 개인 금융 Plus 확대 (6/28)
+         : GPT-5.6 Sol max reasoning + ultra mode — 서브에이전트 병렬화로 복잡한 프로젝트 처리 (6/26)
+         : Windsurf Cascade EOL D-3 — 7/1 마감, CI/자동화 Devin Local 이전 필수 (6/28)
+         : Fable 5 신원확인 7/8 — 정부 ID + 셀피로 미국 전용 복원 경로 가능성 (6/28)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

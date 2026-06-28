@@ -7,7 +7,7 @@ tags: [openai, gpt-5.6, fable-5, copilot, antigravity, codex, claude-code, zhipu
 excerpt: "OpenAI가 GPT-5.6 Sol/Terra/Luna를 공개했지만, 미 정부 요청으로 ~20개 사전승인 기관만 접근 가능하다. GPT-4.5는 공식 은퇴하고, Fable 5는 16일째 차단 중이지만 복원 신호가 감지됐다."
 ---
 
-OpenAI가 GPT-5.6 시리즈를 공개했다. Sol(플래그십), Terra(균형형), Luna(경량형) 세 모델로 구성되며, Sol은 프론티어 추론과 장기 에이전틱 작업에, Terra는 GPT-5.5 수준 성능을 절반 가격에, Luna는 대량 처리에 최적화됐다([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)). 하지만 트럼프 행정부의 요청으로 약 20개 사전승인 기관에만 제한 프리뷰가 제공되고 있으며, 일반 사용자는 접근할 수 없다([Axios](https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump)). Hacker News에서 1,218개 댓글이 달리며 "정부가 누가 AI를 쓸지 결정하는 시대"에 대한 격렬한 논쟁이 벌어졌다. API 가격은 Sol $5/$30, Terra $2.50/$15, Luna $1/$6(MTok 기준)으로, GA는 "수 주 내" 예정이다([MarkTechPost](https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/)).
+OpenAI가 GPT-5.6 시리즈를 공개했다. Sol(플래그십), Terra(균형형), Luna(경량형) 세 모델로 구성되며, Sol은 프론티어 추론과 장기 에이전틱 작업에, Terra는 GPT-5.5 수준 성능을 절반 가격에, Luna는 대량 처리에 최적화됐다([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)). Sol에는 새로운 "max reasoning" 설정과 서브에이전트를 분산 투입해 복잡한 프로젝트를 병렬 처리하는 "ultra mode"가 도입됐다 — OpenAI의 에이전틱 인프라 구축 의지가 가장 명확히 드러난 기능이다([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)). 하지만 트럼프 행정부의 요청으로 약 20개 사전승인 기관에만 제한 프리뷰가 제공되고 있으며, 일반 사용자는 접근할 수 없다([Axios](https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump)). Hacker News에서 1,218개 댓글이 달리며 "정부가 누가 AI를 쓸지 결정하는 시대"에 대한 격렬한 논쟁이 벌어졌다. API 가격은 Sol $5/$30, Terra $2.50/$15, Luna $1/$6(MTok 기준)으로, GA는 "수 주 내" 예정이다([MarkTechPost](https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/)).
 
 ## GPT-4.5 공식 은퇴 — GPT-4 시대의 종막
 
@@ -21,9 +21,13 @@ Fable 5 수출통제가 16일째 이어지고 있지만 복원 신호가 나타�
 
 6월 27일 OpenAI Codex가 약 12시간 동안 경고 상태에 빠졌다. 남용/사기 방지 시스템이 정상 계정을 잘못 차단하면서 사용량 한도가 예상보다 빠르게 소진되는 문제가 발생했다([StatusGator](https://statusgator.com/services/openai/codex)). ChatGPT Windows 데스크톱 앱도 6월 28일 일시적 장애를 겪었으나 복구됐다.
 
+## Windsurf Cascade EOL D-3 — 7월 1일 마이그레이션 마감
+
+Windsurf 사용자에게 시간이 촉박하다. 기존 Windsurf IDE의 로컬 AI 에이전트였던 Cascade가 7월 1일 서비스 종료된다([Web Developer](https://webdeveloper.com/news/windsurf-devin-desktop-cascade-eol/)). Cascade를 직접 호출하는 CI 파이프라인, 자동화 스크립트, 워크플로 규칙은 마감일 전에 Devin Local(30% 토큰 효율 향상을 주장하는 Rust 재작성 버전)로 전환해야 한다. 6월 2일 Devin Desktop 전환 시 대부분 자동 이관됐지만, 커스텀 통합은 조용히 깨질 수 있다.
+
 ## Copilot 54주 연속 하락 — 종량제 28일차
 
-GitHub Copilot이 54주 연속 하락하며 28점에 도달했다. 종량제 전환 28일째, 에이전틱 세션당 $30-40 비용이 개발자 이탈을 지속시키고 있다([GitHub Discussions](https://github.com/orgs/community/discussions/192948)). 반면 Copilot for Jira GA와 MAI-Code-1-Flash 모델 GA가 신규 출시되며 기능 측면의 반격을 시도하고 있다([Releasebot](https://releasebot.io/updates/github)).
+GitHub Copilot이 54주 연속 하락하며 28점에 도달했다. 종량제 전환 28일째, 에이전틱 세션당 $30-40 비용이 개발자 이탈을 지속시키고 있다([GitHub Discussions](https://github.com/orgs/community/discussions/192948)). 일부 개발자는 크레딧 체계 전환 후 월 비용이 ~$29에서 $750 이상으로 급증했다고 보고하고 있다([TechCrunch](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/)). 반면 Copilot for Jira GA와 MAI-Code-1-Flash 모델 GA가 신규 출시되며 기능 측면의 반격을 시도하고 있다([Releasebot](https://releasebot.io/updates/github)).
 
 ## 마켓 펄스
 

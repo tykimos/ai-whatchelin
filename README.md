@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-06-26</sub>
+  <sub>Last updated: 2026-06-28</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.06.26-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.06.28-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -699,6 +699,20 @@ timeline
          : OpenAI Jalapeño chip unveiled — first custom inference chip, ~50% lower cost vs NVIDIA, Broadcom partnership (Jun 26)
          : DeepSeek permanent 75% price cut — $0.44/M input tokens, 5x cheaper than GPT-5.5 (Jun 26)
          : Noam Shazeer (Transformer co-author, Gemini co-lead) leaves Google for OpenAI (Jun 26)
+         : GPT-5.6 Sol/Terra/Luna limited preview — ~20 pre-approved orgs, US gov requested restrictions; Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per MTok (Jun 26)
+         : GPT-4.5 officially retired from ChatGPT — all GPT-4 era models gone, conversations migrate to GPT-5.5 (Jun 27)
+         : Fable 5 ban Day 15 — Mythos 5 partially restored for Annex A entities only; Fable unchanged; Axios reports return possible "this coming week" (Jun 27)
+         : Copilot 53-week decline to 29, billing Day 27 — Copilot for Jira GA, MAI-Code-1-Flash GA (Jun 27)
+         : Claude Code v2.1.195 — fullscreen mouse controls, voice dictation fix, background agent reliability (Jun 27)
+         : Antigravity 85 — v2.2.1, 10-week streak, absorbing Gemini CLI migration (Jun 27)
+         : Gemini CLI shutdown Day 10 — enterprise-only, declining to 34 (Jun 27)
+         : Codex 12-hour outage — abuse prevention systems incorrectly rate-limiting accounts (Jun 27)
+         : Fable 5 ban Day 16 — Zhipu GLM-5.2 claims Mythos-parity on security benchmarks, undermining containment logic (Jun 28)
+         : Copilot 54-week decline to 28, billing Day 28 — month-long billing yields $30-40/day agentic sessions (Jun 28)
+         : Antigravity 86 — 10-week streak continues, Gemini CLI D+11 migration absorption (Jun 28)
+         : Gemini CLI shutdown Day 11 — enterprise-only, declining to 32 (Jun 28)
+         : Codex CLI rises to 88 — GPT-5.6 available through Codex for preview organizations (Jun 28)
+         : ChatGPT rises to 97 — GPT-5.6 buzz, GPT-4.5 retired, personal finance expanded to Plus (Jun 28)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1738,26 +1752,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26"]
-    y-axis "Popularity Score" 28 --> 100
+    x-axis ["06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28"]
+    y-axis "Popularity Score" 26 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30]
+    line "GH Copilot" [41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38, 36]
-    line "Antigravity" [70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84]
+    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 88]
+    line "Gemini CLI" [60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38, 36, 34, 32]
+    line "Antigravity" [72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-30↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-28↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-36↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-84↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-88↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-32↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-86↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -2223,19 +2237,19 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-06-25)
+### Fact Check Log (2026-06-28)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **Jalapeño chip** with Broadcom — first custom ASIC, 50% cheaper inference; **GPT-4.5 retiring Jun 27**, o3 retiring Aug 26; **"Agents Transforming Work"** report — 80.6% 30-min+ Codex requests; **ChatGPT + Codex merger** under Brockman, **Personal Finance** (Pro, Plaid 12K+ banks), **Codex on mobile** (all plans), **Dell partnership**, **Musk v. Altman verdict** — all claims rejected |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** limited preview — $5/$30, $2.50/$15, $1/$6 per MTok, ~20 pre-approved orgs; **GPT-4.5 retired** Jun 27, all GPT-4 era gone; **Jalapeño chip** Broadcom ASIC, 50% cheaper inference; o3 retiring Aug 26; **ChatGPT + Codex merger** under Brockman, **Personal Finance** expanded to Plus, **Codex Remote GA** all plans |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering paused** (announced May 15, paused Jun 15), **Big Four standardization** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.185** latest, **Fable 5** launched — first public Mythos-class model, $10/$50 per MTok, free ended Jun 23; --safe-mode, /cd command; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync |
-| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting announced |
-| Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center |
-| Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, new signups blocked May 15 |
-| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 25 exodus, **Copilot App GA** (Jun 17), **Agentic Workflows** public preview (GitHub Actions), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **MAI-Code-1-Flash** 5B coding model, **Microsoft cancels Claude Code** (June 30), 51-week decline to 31 |
+| Claude Code | code.claude.com/changelog | **v2.1.195** latest, **Fable 5** launched but export-banned Day 16 — first public Mythos-class model, $10/$50 per MTok; Mythos 5 partially restored (Annex A only); **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
+| Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting announced |
+| Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1** |
+| Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
+| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 28, **54-week decline to 28**, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
@@ -2363,9 +2377,11 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/06/26 | **GPT-5.6 Sol/Terra/Luna limited preview** — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; ~20 pre-approved orgs per US gov request; GA "in coming weeks" | [openai.com](https://openai.com/index/previewing-gpt-5-6-sol/) |
+| 2026/06/27 | **GPT-4.5 officially retired** from ChatGPT — 30-day sunset complete, all GPT-4 era models gone, conversations migrate to GPT-5.5 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/06/25 | **Codex Remote GA** — available on all ChatGPT plans, mobile remote control with QR auth pairing, DigitalOcean Droplet workspace plugin | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/25 | **"How Agents Are Transforming Work"** — internal report: 80.6% of users make 30-min+ Codex requests; P99 users run 60+ agent-hours/day; Research usage 56x vs Nov 2025 | [openai.com](https://openai.com/index/how-agents-are-transforming-work/) |
 | 2026/06/24 | **Jalapeño inference chip** unveiled with Broadcom — first custom ASIC, 9-month design-to-tapeout, ~50% cheaper inference tokens, deploying late 2026 with Microsoft | [techcrunch.com](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/) |
-| 2026/06/27 | **GPT-4.5 retiring** from ChatGPT — 30-day sunset, 4 months after Feb launch; o3 retiring Aug 26 (90-day sunset) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/25 | **Codex Record & Replay** — macOS feature to demonstrate a workflow once and turn it into a reusable skill | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/24 | **S-1 confidential filing** — OpenAI submits draft S-1 to SEC ahead of planned IPO | [openai.com](https://openai.com/index/openai-submits-confidential-s-1/) |
 | 2026/05/19 | **Musk v. Altman verdict** — jury unanimously rejects all claims; breach of charitable trust and unjust enrichment barred by statute of limitations; Musk vows 9th Circuit appeal, calls it "calendar technicality" | [npr.org](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) |

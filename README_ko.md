@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-26</sub>
+  <sub>마지막 업데이트: 2026-06-28</sub>
 </p>
 
 <p align="center">
@@ -699,6 +699,20 @@ timeline
          : OpenAI Jalapeño 칩 공개 — 최초 자체 추론 칩, NVIDIA 대비 ~50% 비용 절감, Broadcom 파트너십 (6/26)
          : DeepSeek 영구 75% 가격 인하 — 입력 $0.44/M 토큰, GPT-5.5 대비 5배 저렴 (6/26)
          : Noam Shazeer (Transformer 공동저자, Gemini 공동책임자) Google 떠나 OpenAI 합류 (6/26)
+         : GPT-5.6 Sol/Terra/Luna 제한 프리뷰 — 미 정부 요청으로 ~20개 사전승인 기관만 접근; Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok (6/26)
+         : GPT-4.5 ChatGPT에서 공식 은퇴 — GPT-4 시대 모델 완전 종료, 기존 대화 GPT-5.5로 이관 (6/27)
+         : Fable 5 차단 15일째 — Mythos 5 Annex A 엔터티만 부분 복원; Fable 변동 없음; Axios "이번 주 내 복원 가능" 보도 (6/27)
+         : Copilot 53주 연속 하락 29, 종량제 27일차 — Copilot for Jira GA, MAI-Code-1-Flash GA (6/27)
+         : Claude Code v2.1.195 — 전체화면 마우스 컨트롤, 음성 받아쓰기 수정, 백그라운드 에이전트 안정성 (6/27)
+         : Antigravity 85 — v2.2.1, 10주 연속 상승, Gemini CLI 이전 흡수 (6/27)
+         : Gemini CLI 셧다운 10일째 — 기업 전용, 34로 하락 (6/27)
+         : Codex 12시간 장애 — 남용 방지 시스템이 계정을 잘못 차단 (6/27)
+         : Fable 5 차단 16일째 — Zhipu GLM-5.2 보안 벤치마크에서 Mythos급 성능 주장, 수출통제 논리 약화 (6/28)
+         : Copilot 54주 연속 하락 28, 종량제 28일차 — 에이전틱 세션당 $30-40 비용 (6/28)
+         : Antigravity 86 — 10주 연속 상승 지속, Gemini CLI D+11 이전 흡수 (6/28)
+         : Gemini CLI 셧다운 11일째 — 기업 전용, 32로 하락 (6/28)
+         : Codex CLI 88 상승 — GPT-5.6 프리뷰 기관에 Codex 통해 제공 (6/28)
+         : ChatGPT 97 상승 — GPT-5.6 열풍, GPT-4.5 은퇴, 개인 금융 Plus 확대 (6/28)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1708,26 +1722,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-13", "06-14", "06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26"]
-    y-axis "인기 점수" 28 --> 100
+    x-axis ["06-15", "06-16", "06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28"]
+    y-axis "인기 점수" 26 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30]
+    line "GH Copilot" [41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87]
-    line "Gemini CLI" [62, 61, 60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38, 36]
-    line "Antigravity" [70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84]
+    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 88]
+    line "Gemini CLI" [60, 59, 58, 55, 50, 48, 46, 44, 42, 40, 38, 36, 34, 32]
+    line "Antigravity" [72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-30↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-28↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-87―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-36↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-84↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-88↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-32↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-86↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -2183,19 +2197,19 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-06-25)
+### 팩트 체크 로그 (2026-06-28)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **Jalapeño 칩** Broadcom 공동개발 — 첫 자체 ASIC, 추론 50% 절감; **GPT-4.5 6/27 은퇴**, o3 8/26 은퇴; **"에이전트가 업무 변화"** 보고서 — 80.6% 30분+ Codex 요청; **ChatGPT + Codex 통합** Brockman 총괄, **개인 금융**(Pro, Plaid 12K+), **Codex 모바일**(전 플랜), **Dell 파트너십**, **Musk v. Altman 평결** — 전 청구 기각 |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **ChatGPT + Codex 통합** Brockman 총괄, **개인 금융** Plus 확대, **Codex Remote GA** 전 플랜 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 중단** (5/15 발표, 6/15 중단), **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.185** 최신, **Fable 5** 출시 — 최초 공개 Mythos급 모델, $10/$50 per MTok, 6/23 무료 종료; --safe-mode, /cd 명령어; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync |
-| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 발표 |
-| Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center |
-| Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, 신규 가입 5/15 차단 |
-| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 25일차 이탈 가속, **Copilot App GA** (6/17), **Agentic Workflows** 공개 미리보기(GitHub Actions), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **MAI-Code-1-Flash** 5B 코딩 모델, **Microsoft Claude Code 취소** (6/30), 51주 연속 하락 31 |
+| Claude Code | code.claude.com/changelog | **v2.1.195** 최신, **Fable 5** 수출통제 16일째 — 최초 공개 Mythos급 모델, $10/$50/MTok; Mythos 5 Annex A 부분 복원; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
+| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 발표 |
+| Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1** |
+| Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
+| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 28일차, **54주 연속 하락 28**, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -2322,9 +2336,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/06/26 | **GPT-5.6 Sol/Terra/Luna 제한 프리뷰** — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; 미 정부 요청으로 ~20개 사전승인 기관만 접근; GA "수 주 내" 예정 | [openai.com](https://openai.com/index/previewing-gpt-5-6-sol/) |
+| 2026/06/27 | **GPT-4.5 공식 은퇴** — ChatGPT에서 30일 일몰 후 종료, 출시 4개월 만; GPT-4 시대 모델 완전 종료, 기존 대화 GPT-5.5 이관 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/06/25 | **Codex Remote GA** — 전 ChatGPT 플랜에서 모바일로 원격 코딩 제어, QR 인증 페어링, DigitalOcean Droplet 워크스페이스 플러그인 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/25 | **"에이전트가 업무를 변화시키는 방법"** — 내부 보고서: 사용자 80.6%가 30분+ Codex 요청, P99 사용자 하루 60+ 에이전트시간; 연구 부서 2025년 11월 대비 56배 증가 | [openai.com](https://openai.com/index/how-agents-are-transforming-work/) |
 | 2026/06/24 | **Jalapeño 추론 칩** Broadcom 공동 공개 — 첫 자체 ASIC, 9개월 설계→테이프아웃, 추론 토큰 ~50% 절감, 2026년 말 Microsoft와 배포 | [techcrunch.com](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/) |
-| 2026/06/27 | **GPT-4.5 은퇴** — ChatGPT에서 30일 일몰 후 종료, 출시 4개월 만; o3 8/26 은퇴(90일 일몰) | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/25 | **Codex Record & Replay** — macOS 워크플로우 1회 시연 후 재사용 스킬로 변환 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/24 | **S-1 비공개 제출** — OpenAI, SEC에 IPO 초안 등록서 비공개 제출 | [openai.com](https://openai.com/index/openai-submits-confidential-s-1/) |
 | 2026/05/19 | **Musk v. Altman 평결** — 배심원 만장일치 전 청구 기각; 자선 신탁 위반·부당이득 모두 소멸시효 초과; Musk "달력 기술적 문제" 주장하며 제9순회 항소 선언 | [npr.org](https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed) |

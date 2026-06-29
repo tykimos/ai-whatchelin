@@ -2210,7 +2210,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-06-28)
+### 팩트 체크 로그 (2026-06-29)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -2218,11 +2218,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **ChatGPT + Codex 통합** Brockman 총괄, **개인 금융** Plus 확대, **Codex Remote GA** 전 플랜 |
 | Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 중단** (5/15 발표, 6/15 중단), **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.195** 최신, **Fable 5** 수출통제 16일째 — 최초 공개 Mythos급 모델, $10/$50/MTok; Mythos 5 Annex A 부분 복원; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
+| Claude Code | code.claude.com/changelog | **v2.1.195** 최신, **Fable 5** 수출통제 17일째 — 최초 공개 Mythos급 모델, $10/$50/MTok; Mythos 5 Annex A 부분 복원; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 발표 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
-| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 28일차, **54주 연속 하락 28**, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
+| GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 29일차, **55주 연속 하락 27**, **가입 재개** 6/16 (Student/Pro/Pro+/Max), **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |

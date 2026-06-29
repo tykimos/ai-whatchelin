@@ -2250,7 +2250,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-06-28)
+### Fact Check Log (2026-06-29)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -2258,11 +2258,11 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** limited preview — $5/$30, $2.50/$15, $1/$6 per MTok, ~20 pre-approved orgs; **GPT-4.5 retired** Jun 27, all GPT-4 era gone; **Jalapeño chip** Broadcom ASIC, 50% cheaper inference; o3 retiring Aug 26; **ChatGPT + Codex merger** under Brockman, **Personal Finance** expanded to Plus, **Codex Remote GA** all plans |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **Stainless acquired** $300M+, **Akamai $1.8B** cloud deal, Cowork GA, **Legal Industry** 20+ MCP, **agent metering paused** (announced May 15, paused Jun 15), **Big Four standardization** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.195** latest, **Fable 5** launched but export-banned Day 16 — first public Mythos-class model, $10/$50 per MTok; Mythos 5 partially restored (Annex A only); **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
+| Claude Code | code.claude.com/changelog | **v2.1.195** latest, **Fable 5** launched but export-banned Day 17 — first public Mythos-class model, $10/$50 per MTok; Mythos 5 partially restored (Annex A only); **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
 | Cursor | cursor.com/pricing | **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Teams pricing** Standard $32/Premium $96 (annual), **Cursor in Jira** — cloud agents, **Bugbot usage-based billing** $1-1.50/run (after Jun 8), SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting announced |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
-| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 28, **54-week decline to 28**, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
+| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 29, **55-week decline to 27**, **Signups reopened** Jun 16 (Student/Pro/Pro+/Max), **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |

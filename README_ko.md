@@ -726,6 +726,10 @@ timeline
          : Windsurf Cascade EOL D-2 — 7/1 마감, 모든 CI/자동화 Devin Local 이전 필수 (6/29)
          : SPCX ~$153 — ATH $225 대비 32% 하락, IPO 후 조정 지속 (6/29)
          : GPT-5.6 Sol/Terra/Luna GA 일정 "수 주 내" — ~20개 기관 제한 프리뷰 계속 (6/29)
+         : GPT-5.6 Codex 사용자에게 비밀 배포 — 히든 Juice 값 128, 353K 컨텍스트 윈도우 감지 (6/29)
+         : Cursor iOS 앱 App Store 정식 출시 — 에이전트 관리·차이점 리뷰·음성 대화 (6/29)
+         : 오스트리아, EU에 Anthropic 유치 촉구 — Fable 5 차단이 AI 주권 논의 촉발 (6/28)
+         : GPT-4.5 ChatGPT에서 공식 퇴장 — API는 이미 종료, GPT-5 패밀리로 전면 대체 (6/27)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

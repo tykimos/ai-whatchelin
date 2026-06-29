@@ -726,6 +726,10 @@ timeline
          : Windsurf Cascade EOL D-2 — July 1 hard deadline, all CI/automation must migrate to Devin Local (Jun 29)
          : SPCX at ~$153 — down 32% from $225 ATH, post-IPO correction continues (Jun 29)
          : GPT-5.6 Sol/Terra/Luna GA timeline "coming weeks" — limited preview continues with ~20 orgs (Jun 29)
+         : GPT-5.6 silently rolled to Codex users — hidden Juice value 128, 353K context window detected (Jun 29)
+         : Cursor iOS app released on App Store — agent management, diff review, voice conversations (Jun 29)
+         : Austria urges EU to establish Anthropic in Europe — Fable 5 ban triggers AI sovereignty push (Jun 28)
+         : GPT-4.5 officially retired from ChatGPT — API already dead, GPT-5 family replaces all (Jun 27)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

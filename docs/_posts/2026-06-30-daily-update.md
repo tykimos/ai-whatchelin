@@ -29,7 +29,7 @@ Fable 5 remains fully suspended for its 18th day. Despite Axios reporting that r
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | Stable #1, v2.1.193 improvements ongoing |
+| Claude Code | 99 | — | Stable #1, v2.1.195 improvements ongoing |
 | ChatGPT | 97 | — | GPT-5.6 Sol limited preview continues |
 | Claude AI | 96 | — | Fable 5 D18, restoration timeline unclear |
 | Cursor | 96 | — | Stable after iOS app launch |

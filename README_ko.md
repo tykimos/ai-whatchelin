@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-06-30</sub>
+  <sub>마지막 업데이트: 2026-07-01</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.06.30-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.01-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -730,6 +730,11 @@ timeline
          : Cursor iOS 앱 App Store 정식 출시 — 에이전트 관리·차이점 리뷰·음성 대화 (6/29)
          : 오스트리아, EU에 Anthropic 유치 촉구 — Fable 5 차단이 AI 주권 논의 촉발 (6/28)
          : GPT-4.5 ChatGPT에서 공식 퇴장 — API는 이미 종료, GPT-5 패밀리로 전면 대체 (6/27)
+         : Cascade 공식 종료 — Windsurf 레거시 에이전트 종료, Devin Local이 모든 로컬 워크플로 대체 (7/1)
+         : Copilot 56주 연속 하락 25, 종량제 31일차 — 첫 번째 완전한 종량제 월 마감 (7/1)
+         : Fable 5 차단 19일째 — 앱 내부 문자열에서 신원확인 크레딧 확인, 복원 아직 없음 (7/1)
+         : Antigravity 89 상승 — 12주 연속 상승, Codex CLI 추월 단독 2위 (7/1)
+         : Gemini CLI 셧다운 13일째 — 기업 전용, 26으로 하락 (7/1)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1739,26 +1744,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-17", "06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30"]
-    y-axis "인기 점수" 25 --> 100
+    x-axis ["06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01"]
+    y-axis "인기 점수" 24 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26]
+    line "GH Copilot" [38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 88, 88, 88]
-    line "Gemini CLI" [58, 55, 50, 48, 46, 44, 42, 40, 38, 36, 34, 32, 30, 28]
-    line "Antigravity" [74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88]
+    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 88, 88, 88, 88]
+    line "Gemini CLI" [55, 50, 48, 46, 44, 42, 40, 38, 36, 34, 32, 30, 28, 26]
+    line "Antigravity" [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-26↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-25↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-28↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-88↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-26↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-89↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

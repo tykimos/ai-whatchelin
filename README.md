@@ -727,12 +727,12 @@ timeline
          : SPCX at ~$153 — down 32% from $225 ATH, post-IPO correction continues (Jun 29)
          : GPT-5.6 Sol/Terra/Luna GA timeline "coming weeks" — limited preview continues with ~20 orgs (Jun 29)
          : GPT-5.6 silently rolled to Codex users — hidden Juice value 128, 353K context window detected (Jun 29)
-         : Cursor iOS app released on App Store — agent management, diff review, voice conversations (Jun 29)
+         : Cursor iOS app released on App Store — agent management, diff review, voice conversations, 75% off Composer 2.5 through Jul 5 (Jun 29)
          : Austria urges EU to establish Anthropic in Europe — Fable 5 ban triggers AI sovereignty push (Jun 28)
          : GPT-4.5 officially retired from ChatGPT — API already dead, GPT-5 family replaces all (Jun 27)
          : Cascade officially EOL — Windsurf legacy agent shuts down, Devin Local replaces all local workflows (Jul 1)
          : Copilot 56-week decline to 25, billing Day 31 — first full month of usage-based billing complete (Jul 1)
-         : Fable 5 ban LIFTED — Commerce Dept lifts export controls June 30, restored globally July 1, new 99%+ jailbreak classifier (Jul 1)
+         : Fable 5 + Mythos 5 ban LIFTED — Commerce Dept lifts export controls June 30, both models restored globally July 1, new 99%+ jailbreak classifier (Jul 1)
          : Claude Sonnet 5 launched — default model in Claude Code, 1M context, $2/$10 per MTok intro pricing through Aug 31 (Jun 30)
          : Claude Code v2.1.197 — Sonnet 5 default, org default models, readable session names, streaming idle watchdog (Jul 1)
          : Cursor Teams pricing effective today — Standard $32/seat/mo, Premium $96/seat/mo (annual), split usage pools (Jul 1)
@@ -1740,8 +1740,8 @@ xychart-beta
 **r/programming LLM Ban** (2026.04.01):
 > *"r/programming (6.9M members) temporarily banned all LLM content for April, citing 'exhausting' AI discourse. Started April 1 — not an April Fools' joke."* — Tom's Hardware `2026.04.01`
 
-**Fable 5 Ban Lifted — Restored Globally** (2026.07.01):
-> *"The U.S. Commerce Department lifted export controls on Fable 5 on June 30, restoring global access starting July 1 across Claude Platform, Claude.ai, Claude Code, and Claude Cowork. Commerce Secretary Lutnick wrote: 'Over the past two weeks, we have worked closely with Anthropic to strengthen America's leadership in AI.' Anthropic trained a new classifier blocking the Amazon-reported jailbreak in 99%+ of cases. Pro/Max/Team/Enterprise get 50% weekly usage for Fable 5 through July 7."* — NBC News/Al Jazeera `2026.07.01`
+**Fable 5 + Mythos 5 Ban Lifted — Restored Globally** (2026.07.01):
+> *"The U.S. Commerce Department lifted export controls on both Fable 5 and Mythos 5 on June 30, restoring global access starting July 1 across Claude Platform, Claude.ai, Claude Code, and Claude Cowork. Commerce Secretary Lutnick wrote: 'Over the past two weeks, we have worked closely with Anthropic to strengthen America's leadership in AI.' Anthropic trained a new classifier blocking the Amazon-reported jailbreak in 99%+ of cases. Pro/Max/Team/Enterprise get 50% weekly usage for Fable 5 through July 7. AWS, Google Cloud, and Microsoft Foundry access restoring 'as quickly as possible.'"* — NBC News/CNBC/Al Jazeera `2026.07.01`
 
 **Claude Sonnet 5 Launched** (2026.06.30):
 > *"Anthropic launched Claude Sonnet 5 as the default model in Claude Code with a native 1M-token context window. Introductory pricing of $2/$10 per MTok through August 31 (standard $3/$15 after). Near-Opus-4.8 performance at a fraction of the cost, optimized for autonomous agent execution. Update to v2.1.197 for access."* — TechCrunch/Anthropic `2026.06.30`
@@ -2285,8 +2285,8 @@ All pricing information has been directly verified from each service's official 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** limited preview — $5/$30, $2.50/$15, $1/$6 per MTok, ~20 pre-approved orgs; **GPT-5.6 Sol on Cerebras** 750 tok/s in July; **GPT-4.5 retired** Jun 27, all GPT-4 era gone; **Jalapeño chip** Broadcom ASIC, 50% cheaper inference; o3 retiring Aug 26; **Codex CLI v0.142.5**, **Codex Remote GA** all plans |
-| Claude | claude.com/pricing | **Sonnet 5 launched** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 ban LIFTED** Jul 1 — restored globally, 99%+ jailbreak classifier; Max plan ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **agent metering paused**, **Big Four standardization** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.197** latest — Sonnet 5 default, org default models; **Fable 5 restored** globally Jul 1; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
+| Claude | claude.com/pricing | **Sonnet 5 launched** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 ban LIFTED** Jul 1 — both models restored globally, 99%+ jailbreak classifier; Max plan ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **agent metering paused**, **Big Four standardization** (Deloitte/PwC/KPMG) |
+| Claude Code | code.claude.com/changelog | **v2.1.197** latest — Sonnet 5 default, org default models, 37% CPU reduction in streaming; **Fable 5 + Mythos 5 restored** globally Jul 1; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
 | Cursor | cursor.com/pricing | **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |

@@ -4,14 +4,14 @@ date: 2026-07-01
 lang: en
 categories: [news]
 tags: [fable-5, claude-sonnet-5, anthropic, windsurf, cascade, copilot, cursor, codex-cli, antigravity]
-excerpt: "The Commerce Department lifts the 18-day export ban on Fable 5, Claude Sonnet 5 launches as the new default, and Cascade shuts down for good. The second half of 2026 starts with a bang."
+excerpt: "The Commerce Department lifts the 18-day export ban on both Fable 5 and Mythos 5, Claude Sonnet 5 launches as the new default, and Cascade shuts down for good. The second half of 2026 starts with a bang."
 ---
 
 The first day of H2 2026 delivered more upheaval than most full weeks. The U.S. Commerce Department lifted export controls on Fable 5 after an 18-day suspension, restoring it globally starting today ([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)). Simultaneously, Anthropic launched Claude Sonnet 5 as the default model across the platform ([TechCrunch](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/)).
 
-## Fable 5: Back After 18 Days — New 99%+ Jailbreak Classifier
+## Fable 5 + Mythos 5: Back After 18 Days — New 99%+ Jailbreak Classifier
 
-The first frontier model ever forced offline by a government returns. Commerce Secretary Howard Lutnick wrote to Anthropic co-founder Tom Brown: "Over the past two weeks, we have worked closely with Anthropic to strengthen America's leadership in AI" ([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)). Anthropic trained a new cybersecurity safety classifier that blocks the Amazon-reported jailbreak in over 99% of cases ([Digital Applied](https://www.digitalapplied.com/blog/claude-fable-5-safety-classifier-coding-tradeoffs-2026)). Pro, Max, Team, and select Enterprise subscribers can use Fable 5 for up to 50% of their weekly usage limit through July 7 ([ExplainX](https://explainx.ai/blog/is-fable-5-back-2026)).
+The first frontier models ever forced offline by a government return. The Commerce Department lifted export controls on both Fable 5 and Mythos 5 simultaneously ([CNBC](https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html)). Commerce Secretary Howard Lutnick wrote to Anthropic co-founder Tom Brown: "Over the past two weeks, we have worked closely with Anthropic to strengthen America's leadership in AI" ([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)). Anthropic trained a new cybersecurity safety classifier that blocks the Amazon-reported jailbreak in over 99% of cases ([Digital Applied](https://www.digitalapplied.com/blog/claude-fable-5-safety-classifier-coding-tradeoffs-2026)). Pro, Max, Team, and select Enterprise subscribers can use Fable 5 for up to 50% of their weekly usage limit through July 7 ([ExplainX](https://explainx.ai/blog/is-fable-5-back-2026)). AWS, Google Cloud, and Microsoft Foundry access is being restored "as quickly as possible" ([Al Jazeera](https://www.aljazeera.com/economy/2026/7/1/us-lifts-restrictions-on-powerful-ai-models-fable-mythos-anthropic-says)).
 
 ## Claude Sonnet 5: The New Default
 

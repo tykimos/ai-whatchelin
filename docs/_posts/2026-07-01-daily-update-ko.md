@@ -4,14 +4,14 @@ date: 2026-07-01
 lang: ko
 categories: [news]
 tags: [fable-5, claude-sonnet-5, anthropic, windsurf, cascade, copilot, cursor, codex-cli, antigravity]
-excerpt: "18일간의 수출통제가 해제되며 Fable 5가 전 세계 복원됐고, Claude Sonnet 5가 기본 모델로 출시됐다. Cascade 종료, Cursor 가격 개편까지 — 하반기 첫날부터 지각변동이다."
+excerpt: "18일간의 수출통제가 해제되며 Fable 5와 Mythos 5가 동시에 전 세계 복원됐고, Claude Sonnet 5가 기본 모델로 출시됐다. Cascade 종료, Cursor 가격 개편까지 — 하반기 첫날부터 지각변동이다."
 ---
 
 2026년 하반기의 첫날, AI 코딩 도구 시장에서 예고된 것 이상의 격변이 터졌다. 미 상무부가 6월 30일 Fable 5 수출통제를 해제하며 7월 1일부터 전 세계 복원을 개시했고([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)), Anthropic은 같은 날 Claude Sonnet 5를 기본 모델로 출시했다([TechCrunch](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/)).
 
-## Fable 5: 18일 만에 전 세계 복원 — 99%+ 탈옥 차단 분류기 도입
+## Fable 5 + Mythos 5: 18일 만에 전 세계 복원 — 99%+ 탈옥 차단 분류기 도입
 
-6월 12일 아마존 연구진의 탈옥 보고로 사상 최초 정부 강제 오프라인된 프론티어 모델 Fable 5가 18일 만에 돌아왔다. 상무부 하워드 러트닉 장관은 톰 브라운 공동창업자에게 보낸 서한에서 "지난 2주간 Anthropic과 긴밀히 협력해 미국의 AI 리더십을 강화했다"고 밝혔다([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)). Anthropic은 아마존이 보고한 탈옥 기법을 99% 이상 차단하는 새로운 사이버보안 분류기를 훈련시켰으며([Digital Applied](https://www.digitalapplied.com/blog/claude-fable-5-safety-classifier-coding-tradeoffs-2026)), 7월 7일까지 주간 사용량의 50%까지 Fable 5 사용이 가능하다([ExplainX](https://explainx.ai/blog/is-fable-5-back-2026)).
+6월 12일 아마존 연구진의 탈옥 보고로 사상 최초 정부 강제 오프라인된 프론티어 모델 Fable 5와 Mythos 5가 18일 만에 동시에 돌아왔다. 상무부가 두 모델의 수출통제를 동시에 해제했다([CNBC](https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html)). 하워드 러트닉 장관은 톰 브라운 공동창업자에게 보낸 서한에서 "지난 2주간 Anthropic과 긴밀히 협력해 미국의 AI 리더십을 강화했다"고 밝혔다([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)). Anthropic은 아마존이 보고한 탈옥 기법을 99% 이상 차단하는 새로운 사이버보안 분류기를 훈련시켰으며([Digital Applied](https://www.digitalapplied.com/blog/claude-fable-5-safety-classifier-coding-tradeoffs-2026)), 7월 7일까지 주간 사용량의 50%까지 Fable 5 사용이 가능하다([ExplainX](https://explainx.ai/blog/is-fable-5-back-2026)). AWS·Google Cloud·Microsoft Foundry 접근은 "최대한 빨리" 복원 중이다([Al Jazeera](https://www.aljazeera.com/economy/2026/7/1/us-lifts-restrictions-on-powerful-ai-models-fable-mythos-anthropic-says)).
 
 ## Claude Sonnet 5 출시 — 에이전트 시대의 새 기본 모델
 

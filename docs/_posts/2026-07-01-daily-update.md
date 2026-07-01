@@ -1,43 +1,47 @@
 ---
-title: "Cascade Officially Dead — AI Coding Market Enters H2 2026 With a Bang"
+title: "Fable 5 Returns, Sonnet 5 Ships — H2 2026 Opens With a Triple Shockwave"
 date: 2026-07-01
 lang: en
 categories: [news]
-tags: [windsurf, devin, cascade, copilot, antigravity, fable-5, claude-code]
-excerpt: "Windsurf's legacy agent Cascade shuts down today. Teams that haven't migrated to Devin Local face immediate CI pipeline breakages."
+tags: [fable-5, claude-sonnet-5, anthropic, windsurf, cascade, copilot, cursor, codex-cli, antigravity]
+excerpt: "The Commerce Department lifts the 18-day export ban on Fable 5, Claude Sonnet 5 launches as the new default, and Cascade shuts down for good. The second half of 2026 starts with a bang."
 ---
 
-The first day of H2 2026 brings a long-anticipated shakeup to the AI coding tool landscape. Cascade, the local agent engine that powered Windsurf, is officially dead as of today, completing Cognition's transition to Devin Desktop ([Web Developer](https://webdeveloper.com/news/windsurf-devin-desktop-cascade-eol/)).
+The first day of H2 2026 delivered more upheaval than most full weeks. The U.S. Commerce Department lifted export controls on Fable 5 after an 18-day suspension, restoring it globally starting today ([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)). Simultaneously, Anthropic launched Claude Sonnet 5 as the default model across the platform ([TechCrunch](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/)).
 
-## Windsurf (Devin Desktop): Cascade Shutdown — Devin Local Era Begins
+## Fable 5: Back After 18 Days — New 99%+ Jailbreak Classifier
 
-Twenty-nine days after the OTA rebrand from Windsurf to Devin Desktop on June 2, Cascade is gone. Interactive editor users were migrated automatically, but teams whose CI pipelines or automation scripts explicitly invoke Cascade face immediate breakage starting today ([andrew.ooo](https://andrew.ooo/answers/cascade-eol-july-1-2026-migrate-devin-local-cursor-claude-code/)). Devin Local, a Rust rewrite, delivers 30% better token efficiency and parallel subagents. Parent company Cognition recently raised over $1B at a $26B valuation ([The Agent Report](https://the-agent-report.com/2026/06/cognition-devin-1b-26b-valuation-june-2026/)).
+The first frontier model ever forced offline by a government returns. Commerce Secretary Howard Lutnick wrote to Anthropic co-founder Tom Brown: "Over the past two weeks, we have worked closely with Anthropic to strengthen America's leadership in AI" ([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)). Anthropic trained a new cybersecurity safety classifier that blocks the Amazon-reported jailbreak in over 99% of cases ([Digital Applied](https://www.digitalapplied.com/blog/claude-fable-5-safety-classifier-coding-tradeoffs-2026)). Pro, Max, Team, and select Enterprise subscribers can use Fable 5 for up to 50% of their weekly usage limit through July 7 ([ExplainX](https://explainx.ai/blog/is-fable-5-back-2026)).
 
-## GitHub Copilot: Billing Day 31 — First Full Month Closes
+## Claude Sonnet 5: The New Default
 
-Copilot's first complete usage-based billing month has closed. The bill shock developers feared is now confirmed: agentic users saw costs jump from $29/month to $750, with some teams reporting surges from $50 to over $3,000 ([TechTimes](https://www.techtimes.com/articles/319340/20260629/github-copilot-billing-shock-confirmed-agentic-users-face-10x-cost-surge.htm)). At 25 points, Copilot marks its 56th consecutive week of decline, cementing the end of the "unlimited coding assistant" era.
+Anthropic shipped Claude Sonnet 5 on June 30, making it the default model in Claude Code with a native 1M-token context window ([Anthropic](https://www.anthropic.com/news/claude-sonnet-5)). Introductory pricing runs at $2/$10 per MTok through August 31 — near-Opus-4.8 performance at a fraction of the cost, optimized for autonomous agent execution. Update to Claude Code v2.1.197 for access ([Releasebot](https://releasebot.io/updates/anthropic/claude-code)).
 
-## Antigravity: Sole 2nd Place at 89 — 12-Week Streak
+## Windsurf: Cascade Officially Dead — Devin Local Takes Over
 
-Antigravity hit 89 today, overtaking Codex CLI (88) to claim sole second place among coding tools. The 12-week surge is fueled by developers migrating from the shuttered Gemini CLI ([Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)). Its open model strategy — offering Gemini 3 Pro, Claude Sonnet 4.5, and GPT-OSS free to individuals — continues to pay dividends.
+Cascade, the legacy local agent powering Windsurf, shut down today ([Web Developer](https://webdeveloper.com/news/windsurf-devin-desktop-cascade-eol/)). Teams with CI pipelines explicitly invoking Cascade face immediate breakage. Devin Local, a Rust rewrite delivering 30% better token efficiency and parallel subagents, is the replacement ([andrew.ooo](https://andrew.ooo/answers/cascade-eol-july-1-2026-migrate-devin-local-cursor-claude-code/)).
 
-## Fable 5: Day 19 Suspended — July 8 ID Verification Looms
+## Cursor: Teams Pricing Goes Live — Split Usage Pools
 
-Fable 5 remains fully suspended on its 19th day. Leaked Claude app strings confirm that Fable 5 usage credits will be tied to identity verification ([ExplainX](https://explainx.ai/blog/when-will-fable-5-be-available-again-2026)), with Anthropic's July 8 Persona identity verification policy emerging as the most likely path to US-only restoration. Polymarket odds for a pre-July 1 reinstatement have faded, with expectations now shifting to the July 8 window ([Polymarket](https://polymarket.com/event/claude-fable-5-restored-for-us-customers-by-20260613193753196)).
+Cursor's Teams pricing overhaul takes effect today for renewing customers: Standard seats at $32/month (annual), Premium seats at $96/month (annual) with 5x usage ([Cursor Blog](https://cursor.com/blog/teams-pricing-june-2026)). Usage is now split into Composer/Auto and Third-Party API pools. Cursor estimates 90% of teams will see lower costs ([Finout](https://www.finout.io/blog/what-happened-to-cursor-pricing-2026-guide-5-cost-cutting-tips)).
+
+## GitHub Copilot: 56-Week Decline — First Billing Month Closes
+
+Copilot's first complete usage-based billing month has closed, confirming bill shock: agentic users saw costs jump from $29/month to $750+ ([TechTimes](https://www.techtimes.com/articles/319340/20260629/github-copilot-billing-shock-confirmed-agentic-users-face-10x-cost-surge.htm)). At 25 points, the 56-week unbroken decline continues.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | Stable #1, 50% limit boost through Jul 13 |
-| ChatGPT | 97 | — | GPT-5.6 Sol limited preview continues |
-| Claude AI | 96 | — | Fable 5 D19, awaiting Jul 8 ID verification |
-| Cursor | 96 | — | Stable post-iOS app launch, v3.9 update |
+| Claude Code | 99 | — | Sonnet 5 default, 50% limit boost through Jul 13 |
+| Claude AI | 98 | ↑2 | Fable 5 restored + Sonnet 5 launch double boost |
+| ChatGPT | 97 | — | GPT-5.6 Sol limited preview, Cerebras in July |
+| Cursor | 96 | — | Teams pricing effective today, iOS app stable |
 | Antigravity | 89 | ↑1 | 12-week streak, overtakes Codex CLI for sole 2nd |
-| Codex CLI | 88 | — | GPT-5.6 available to preview orgs |
+| Codex CLI | 88 | — | v0.142.5, GPT-5.6 preview org access |
 | Windsurf | 85 | — | Cascade officially EOL today, Devin Local takes over |
 | Aider | 68 | — | Open-source stable |
-| Gemini CLI | 26 | ↓2 | Shutdown Day 13, enterprise-only |
+| Gemini CLI | 26 | ↓2 | Shutdown Day 13, Code Assist GitHub shuts Jul 17 |
 | Copilot | 25 | ↓1 | 56-week decline, first billing month closed |
 
-With Cascade gone, the AI coding market has crystallized into a Devin Local, Claude Code, and Cursor triumvirate. Antigravity's ascent to sole second place is a vindication of the free, open-model strategy.
+Fable 5's dramatic return and Sonnet 5's launch give Anthropic a commanding start to H2 2026. With Cascade's death and Cursor's pricing reset, the market is consolidating fast.

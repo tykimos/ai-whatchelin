@@ -732,9 +732,16 @@ timeline
          : GPT-4.5 ChatGPT에서 공식 퇴장 — API는 이미 종료, GPT-5 패밀리로 전면 대체 (6/27)
          : Cascade 공식 종료 — Windsurf 레거시 에이전트 종료, Devin Local이 모든 로컬 워크플로 대체 (7/1)
          : Copilot 56주 연속 하락 25, 종량제 31일차 — 첫 번째 완전한 종량제 월 마감 (7/1)
-         : Fable 5 차단 19일째 — 앱 내부 문자열에서 신원확인 크레딧 확인, 복원 아직 없음 (7/1)
+         : Fable 5 차단 해제 — 상무부 6/30 수출통제 해제, 7/1 전 세계 복원, 99%+ 탈옥 차단 분류기 도입 (7/1)
+         : Claude Sonnet 5 출시 — Claude Code 기본 모델, 1M 컨텍스트, $2/$10/MTok 프로모션 가격 8/31까지 (6/30)
+         : Claude Code v2.1.197 — Sonnet 5 기본값, 조직 기본 모델, 읽기 쉬운 세션 이름, 스트리밍 유휴 워치독 (7/1)
+         : Cursor Teams 가격 오늘 발효 — Standard $32/시트/월, Premium $96/시트/월 (연간), 분리 사용량 풀 (7/1)
+         : Codex CLI v0.142.5 — 트레이스 로그 보안 수정, WebSocket 페이로드 로그 기록 방지 (7/1)
+         : GPT-5.6 Sol Cerebras 7월 출시 — 750 tok/s, 프론티어 지능 전례 없는 속도 (7/1)
+         : SPCX ~$171 안정 — IPO 저점 $135에서 회복, 7/7 Nasdaq-100 편입 (7/1)
          : Antigravity 89 상승 — 12주 연속 상승, Codex CLI 추월 단독 2위 (7/1)
-         : Gemini CLI 셧다운 13일째 — 기업 전용, 26으로 하락 (7/1)
+         : Gemini CLI 셧다운 13일째 — 기업 전용, 26으로 하락; Code Assist GitHub 전면 종료 7/17 (7/1)
+         : Anthropic 개인정보보호정책 7/8 발효 — 신원확인 데이터 카테고리, 법 집행기관 데이터 공유 조항 (7/1)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1703,6 +1710,18 @@ xychart-beta
 **r/programming LLM 금지** (2026.04.01):
 > *"r/programming (690만 회원)이 4월 한 달간 모든 LLM 콘텐츠를 일시 금지. AI 담론이 '지겹도록' 다른 주제를 묻어버린다며. 4월 1일 시작 — 만우절 장난 아님."* — Tom's Hardware `2026.04.01`
 
+**Fable 5 차단 해제 — 전 세계 복원** (2026.07.01):
+> *"미 상무부가 6월 30일 Fable 5 수출통제를 해제하며 7월 1일부터 전 세계 복원을 개시했다. 러트닉 장관은 '지난 2주간 Anthropic과 긴밀히 협력해 미국의 AI 리더십을 강화했다'고 밝혔다. Anthropic은 아마존이 보고한 탈옥 기법을 99% 이상 차단하는 새로운 분류기를 훈련시켰다. Pro/Max/Team/Enterprise는 7월 7일까지 주간 사용량의 50%까지 Fable 5 사용 가능."* — NBC News/Al Jazeera `2026.07.01`
+
+**Claude Sonnet 5 출시** (2026.06.30):
+> *"Anthropic이 Claude Sonnet 5를 Claude Code 기본 모델로 출시했다. 1M 토큰 네이티브 컨텍스트 윈도우, 8월 31일까지 $2/$10/MTok 프로모션 가격 적용. Opus 4.8에 근접한 성능을 훨씬 저렴한 비용으로 제공하며, 자율 에이전트 실행에 최적화. v2.1.197로 업데이트하면 접근 가능."* — TechCrunch/Anthropic `2026.06.30`
+
+**Cursor Teams 가격 발효** (2026.07.01):
+> *"Cursor의 Teams 가격 개편이 오늘부터 기존 고객에게 적용된다: Standard 시트 $32/월(연간), Premium 시트 $96/월(연간)으로 5배 사용량 제공. Composer/Auto와 서드파티 API 사용량이 분리된 풀로 관리되며, 팀 90%가 비용 절감 효과를 볼 것으로 예상."* — cursor.com `2026.07.01`
+
+**Copilot 종량제 첫 월 마감** (2026.07.01):
+> *"Copilot의 첫 번째 완전한 종량제 청구 월이 마감됐다. 에이전틱 사용자들의 월 $29→$750 폭증, 일부 팀은 $50→$3,000 이상 급증 사례가 확인됐다. 25점으로 56주 연속 하락세가 이어지고 있다."* — TechTimes `2026.07.01`
+
 | 매치업 | 승자 (상황별) |
 |---|---|
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
@@ -2219,17 +2238,17 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-06-29)
+### 팩트 체크 로그 (2026-07-01)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **ChatGPT + Codex 통합** Brockman 총괄, **개인 금융** Plus 확대, **Codex Remote GA** 전 플랜 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **Stainless $3억+ 인수**, **Akamai $18억** 클라우드 계약, Cowork GA, **법률 산업** 20+ MCP, **에이전트 과금 중단** (5/15 발표, 6/15 중단), **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.195** 최신, **Fable 5** 수출통제 17일째 — 최초 공개 Mythos급 모델, $10/$50/MTok; Mythos 5 Annex A 부분 복원; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
-| Cursor | cursor.com/pricing | **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Teams 가격** Standard $32/Premium $96 (연간), **Cursor Jira 연동** — 이슈에서 클라우드 에이전트, **Bugbot 종량제** $1-1.50/회 (6/8 이후), SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 발표 |
-| Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1** |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **GPT-5.6 Sol Cerebras** 7월 출시 750 tok/s; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **Codex CLI v0.142.5**, **Codex Remote GA** 전 플랜 |
+| Claude | claude.com/pricing | **Sonnet 5 출시** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 차단 해제** 7/1 — 전 세계 복원, 99%+ 탈옥 차단 분류기; Max 플랜 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **에이전트 과금 중단**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
+| Claude Code | code.claude.com/changelog | **v2.1.197** 최신 — Sonnet 5 기본값, 조직 기본 모델; **Fable 5 전 세계 복원** 7/1; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
+| Cursor | cursor.com/pricing | **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
+| Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
 | GitHub Copilot | github.com/features/copilot/plans | **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, 종량제 29일차, **55주 연속 하락 27**, **가입 재개** 6/16 (Student/Pro/Pro+/Max), **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-01</sub>
+  <sub>Last updated: 2026-07-02</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.01-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.02-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -742,6 +742,17 @@ timeline
          : Antigravity rises to 89 — 12-week streak, surpasses Codex CLI, sole 2nd place (Jul 1)
          : Gemini CLI shutdown Day 13 — enterprise-only, declining to 26; Code Assist GitHub full shutdown Jul 17 (Jul 1)
          : Anthropic Privacy Policy effective Jul 8 — verification data category, law enforcement data sharing clause (Jul 1)
+         : Claude Code steganography scandal — HN #1 2,350 points, undisclosed proxy fingerprinting in system prompts removed in v2.1.197 (Jun 30)
+         : Claude Science beta launched — AI workbench for scientists, 60+ databases, $30K grants per project, all paid plans (Jun 30)
+         : California-Anthropic deal — largest US state government AI deployment, 50% discount, DMV/Medicaid/cyber defense (Jun 29)
+         : OpenAI considering delaying IPO to 2027 — SpaceX rocky debut, CFO pushback, $1T valuation "nonstarter" (Jun 25)
+         : GPT-5.6 METR cheating controversy — highest detected cheating rate on ReAct harness, exploiting eval bugs (Jun 26)
+         : Copilot billing shock confirmed — first full month, agentic users $29→$750, code completions remain free (Jun 30)
+         : Kiro adds Claude Sonnet 5 — full 1M context, 1.3x credit multiplier, US-East-1 and EU-Frankfurt (Jul 1)
+         : Copilot 57-week decline to 24, billing Day 32 — first full month of usage-based billing complete (Jul 2)
+         : Antigravity rises to 90 — 13-week streak, breaks 90 milestone, widens gap over Codex CLI (Jul 2)
+         : Gemini CLI shutdown Day 14 — enterprise-only, declining to 25; Code Assist GitHub full shutdown Jul 17 (Jul 2)
+         : SPCX at ~$171 — Nasdaq-100 inclusion Jul 7 confirmed, recovering from $135 IPO low (Jul 2)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1793,26 +1804,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01"]
-    y-axis "Popularity Score" 24 --> 100
+    x-axis ["06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02"]
+    y-axis "Popularity Score" 22 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25]
+    line "GH Copilot" [37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 88, 88, 88, 88]
-    line "Gemini CLI" [55, 50, 48, 46, 44, 42, 40, 38, 36, 34, 32, 30, 28, 26]
-    line "Antigravity" [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [50, 48, 46, 44, 42, 40, 38, 36, 34, 32, 30, 28, 26, 25]
+    line "Antigravity" [77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-25↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-24↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-26↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-89↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-25↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-90↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

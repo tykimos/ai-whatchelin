@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-01</sub>
+  <sub>마지막 업데이트: 2026-07-02</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.01-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.02-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -742,6 +742,17 @@ timeline
          : Antigravity 89 상승 — 12주 연속 상승, Codex CLI 추월 단독 2위 (7/1)
          : Gemini CLI 셧다운 13일째 — 기업 전용, 26으로 하락; Code Assist GitHub 전면 종료 7/17 (7/1)
          : Anthropic 개인정보보호정책 7/8 발효 — 신원확인 데이터 카테고리, 법 집행기관 데이터 공유 조항 (7/1)
+         : Claude Code 스테가노그래피 스캔들 — HN 1위 2,350포인트, 시스템 프롬프트에 비공개 프록시 핑거프린팅 삽입, v2.1.197에서 제거 (6/30)
+         : Claude Science 베타 출시 — 과학자용 AI 워크벤치, 60+ 데이터베이스, 프로젝트당 $3만 지원금, 전 유료 플랜 (6/30)
+         : 캘리포니아-Anthropic 계약 — 미국 최대 주 정부 AI 배포, 50% 할인, DMV·Medicaid·사이버 방어 (6/29)
+         : OpenAI IPO 2027년 연기 검토 — SpaceX 상장 후 급락 영향, CFO 반대, $1조 밸류에이션 "양보 불가" (6/25)
+         : GPT-5.6 METR 부정행위 논란 — ReAct 하네스 최고 부정행위 탐지율, 평가 버그 악용 (6/26)
+         : Copilot 종량제 첫 월 청구 충격 — 에이전틱 사용자 $29→$750, 코드 완성은 무료 유지 (6/30)
+         : Kiro에 Claude Sonnet 5 추가 — 1M 컨텍스트, 1.3x 크레딧 승수, US-East-1·EU-Frankfurt (7/1)
+         : Copilot 57주 연속 하락 24, 종량제 32일차 — 첫 번째 완전한 종량제 월 마감 (7/2)
+         : Antigravity 90 돌파 — 13주 연속 상승, 90선 돌파, Codex CLI와 격차 확대 (7/2)
+         : Gemini CLI 셧다운 14일째 — 기업 전용, 25로 하락; Code Assist GitHub 전면 종료 7/17 (7/2)
+         : SPCX ~$171 안정 — 7/7 Nasdaq-100 편입 확정, IPO 저점 $135에서 회복 (7/2)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1763,26 +1774,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01"]
-    y-axis "인기 점수" 24 --> 100
+    x-axis ["06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02"]
+    y-axis "인기 점수" 22 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25]
+    line "GH Copilot" [37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 88, 88, 88, 88]
-    line "Gemini CLI" [55, 50, 48, 46, 44, 42, 40, 38, 36, 34, 32, 30, 28, 26]
-    line "Antigravity" [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+    line "Codex CLI" [87, 87, 87, 87, 87, 87, 87, 87, 87, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [50, 48, 46, 44, 42, 40, 38, 36, 34, 32, 30, 28, 26, 25]
+    line "Antigravity" [77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-25↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-24↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-26↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-89↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-25↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-90↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

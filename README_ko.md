@@ -759,6 +759,11 @@ timeline
          : Copilot Vision GA — 채팅에 이미지·PDF 첨부, Free 포함 전 구독자 (7/1)
          : Copilot CLI 자동 모델 선택 GA — 작업 기반 모델 라우팅, 선택된 모델 요금으로 과금 (7/1)
          : Kimi K2.7 Code Copilot GA — 최초 오픈웨이트 모델 피커 등록, Pro/Pro+/Max (7/1)
+         : OpenAI 미 정부 5% 지분 제안 — Altman, 미국 주요 AI 기업 모두에 정부 지분 제안 (7/2)
+         : Fortune: Anthropic, OpenAI 매출 추월 — 연환산 $470억 vs OpenAI $250-330억 (7/2)
+         : Anthropic, 비밀 추적 코드 제거 — 중국 경쟁사 감시용 핑거프린팅 삭제 (7/1)
+         : Claude, Microsoft Foundry/Azure GA — 네이티브 Azure 인증·과금·거버넌스 (7/2)
+         : Antigravity CLI v2.1.4 — antigravity_guide 스킬, --project 플래그, OSC8 하이퍼링크, CPU 충돌 수정 (7/1)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2255,14 +2260,14 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-07-01)
+### 팩트 체크 로그 (2026-07-02)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **GPT-5.6 Sol Cerebras** 7월 출시 750 tok/s; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **Codex CLI v0.142.5**, **Codex Remote GA** 전 플랜 |
-| Claude | claude.com/pricing | **Sonnet 5 출시** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 차단 해제** 7/1 — 두 모델 전 세계 복원, 99%+ 탈옥 차단 분류기; Max 플랜 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **에이전트 과금 중단**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **OpenAI 미 정부 5% 지분 제안** (7/2, Bloomberg); **GPT-5.6 Sol Cerebras** 7월 출시 750 tok/s; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **Codex CLI v0.142.5**, **Codex Remote GA** 전 플랜 |
+| Claude | claude.com/pricing | **Sonnet 5 출시** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 차단 해제** 7/1 — 두 모델 전 세계 복원, 99%+ 탈옥 차단 분류기; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억, Fortune 7/2); **Azure/Foundry GA** (7/2); Max 플랜 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **에이전트 과금 중단**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
 | Claude Code | code.claude.com/changelog | **v2.1.197** 최신 — Sonnet 5 기본값, 조직 기본 모델, 스트리밍 CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |

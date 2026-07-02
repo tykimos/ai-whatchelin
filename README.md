@@ -759,6 +759,11 @@ timeline
          : Copilot Vision GA — images and PDFs in chat prompts, all subscribers including Free (Jul 1)
          : Copilot CLI auto model selection GA — task-based routing across model families, billing at selected model rate (Jul 1)
          : Kimi K2.7 Code GA in Copilot — first open-weight model in Copilot model picker, Pro/Pro+/Max rollout (Jul 1)
+         : OpenAI proposes 5% US government stake — Altman offers equity to all leading US AI developers (Jul 2)
+         : Fortune: Anthropic overtakes OpenAI in revenue — $47B run rate vs OpenAI $25-33B (Jul 2)
+         : Anthropic removing covert tracking code — undisclosed China-competitor fingerprinting stripped (Jul 1)
+         : Claude on Microsoft Foundry/Azure GA — native Azure identity, billing, governance (Jul 2)
+         : Antigravity CLI v2.1.4 — antigravity_guide skill, --project flags, OSC8 hyperlinks, CPU crash fix (Jul 1)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2295,14 +2300,14 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-07-01)
+### Fact Check Log (2026-07-02)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** limited preview — $5/$30, $2.50/$15, $1/$6 per MTok, ~20 pre-approved orgs; **GPT-5.6 Sol on Cerebras** 750 tok/s in July; **GPT-4.5 retired** Jun 27, all GPT-4 era gone; **Jalapeño chip** Broadcom ASIC, 50% cheaper inference; o3 retiring Aug 26; **Codex CLI v0.142.5**, **Codex Remote GA** all plans |
-| Claude | claude.com/pricing | **Sonnet 5 launched** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 ban LIFTED** Jul 1 — both models restored globally, 99%+ jailbreak classifier; Max plan ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **agent metering paused**, **Big Four standardization** (Deloitte/PwC/KPMG) |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** limited preview — $5/$30, $2.50/$15, $1/$6 per MTok, ~20 pre-approved orgs; **OpenAI proposes 5% US govt stake** (Jul 2, Bloomberg); **GPT-5.6 Sol on Cerebras** 750 tok/s in July; **GPT-4.5 retired** Jun 27, all GPT-4 era gone; **Jalapeño chip** Broadcom ASIC, 50% cheaper inference; o3 retiring Aug 26; **Codex CLI v0.142.5**, **Codex Remote GA** all plans |
+| Claude | claude.com/pricing | **Sonnet 5 launched** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 ban LIFTED** Jul 1 — both models restored globally, 99%+ jailbreak classifier; **Anthropic overtakes OpenAI in revenue** ($47B vs $25-33B, Fortune Jul 2); **Azure/Foundry GA** (Jul 2); Max plan ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **agent metering paused**, **Big Four standardization** (Deloitte/PwC/KPMG) |
 | Claude Code | code.claude.com/changelog | **v2.1.197** latest — Sonnet 5 default, org default models, 37% CPU reduction in streaming; **Fable 5 + Mythos 5 restored** globally Jul 1; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
 | Cursor | cursor.com/pricing | **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |

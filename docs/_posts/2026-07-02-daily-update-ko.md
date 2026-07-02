@@ -1,51 +1,47 @@
 ---
-title: "Claude Science 출격, Fable 5 복원 D+1 — Anthropic이 7월도 장악한다"
+title: "Copilot, 오픈웨이트·비전·자동라우팅 삼중 업데이트 — 그래도 57주째 하락"
 date: 2026-07-02
 lang: ko
 categories: [news]
-tags: [claude-science, fable-5, anthropic, claude-sonnet-5, antigravity, copilot, gemini-cli, cursor]
-excerpt: "Anthropic이 Claude Science AI 연구 워크벤치를 공개했고, Fable 5 전 세계 복원이 순조롭게 진행되고 있다. Antigravity는 90을 돌파하며 13주 연속 상승세를 이어가고, Copilot은 57주째 하락하며 24점을 기록했다."
+tags: [copilot, kimi-k2-7, claude-code, fable-5, antigravity, cursor, gemini-cli, gpt-5-6]
+excerpt: "GitHub Copilot이 Kimi K2.7 오픈웨이트 모델, Vision GA, 자동 모델 선택을 한꺼번에 출시했지만 57주 연속 하락을 멈추지 못했다. Claude Code v2.1.198은 Chrome GA와 백그라운드 에이전트 자동 PR을 도입했고, Antigravity는 13주 연속 상승으로 90선을 돌파했다."
 ---
 
-Fable 5 복원 첫날이 지나고, Anthropic은 멈추지 않았다. 6월 30일 공개한 Claude Science가 연구자들 사이에서 빠르게 확산되고 있고([MIT Technology Review](https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/)), Sonnet 5가 Claude Code의 기본 모델로 자리를 잡았다. 한편 Antigravity가 마침내 90을 돌파하며 AI 코딩 도구 시장의 지각변동이 가속화되고 있다.
+GitHub Copilot이 하루 사이에 세 가지 대형 업데이트를 쏟아냈다. 오픈웨이트 모델 Kimi K2.7 Code를 모델 피커에 올리고, 이미지·PDF를 채팅에 붙일 수 있는 Vision을 전 구독자에게 개방하고, 작업 특성에 따라 모델을 자동 라우팅하는 Auto Model Selection을 정식 출시했다([GitHub Changelog](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/)). 하지만 57주 연속 하락 행진은 멈추지 않았다.
 
-## Claude Science: 과학자를 위한 AI 워크벤치 정식 공개
+## Copilot: 삼중 업데이트에도 24점 — 종량제 32일차
 
-Anthropic이 Claude Science를 베타로 출시했다([Anthropic](https://www.anthropic.com/news/claude-science-ai-workbench)). 60개 이상의 과학 데이터베이스와 커넥터를 사전 구성하여 유전체학·단백질체학·구조생물학·화학정보학을 하나의 워크스페이스에서 처리할 수 있다. 3D 단백질 구조, 게놈 브라우저 트랙, 화학 구조 렌더링을 지원하며, macOS·Linux 로컬 또는 SSH/HPC 원격 실행이 가능하다([TechCrunch](https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/)). Forbes의 한 연구자는 "26달러로 내 연구 분야 전체를 매핑했다"고 평가했다([Forbes](https://www.forbes.com/sites/johndrake/2026/06/30/anthropics-new-ai-workbench-mapped-my-field-for-26-now-imagine-it-aimed-at-the-rest-of-science/)). 최대 50개 프로젝트에 프로젝트당 $30,000 컴퓨트 크레딧을 지원하는 보조금 프로그램도 시작됐다(7/15 신청 마감).
+Kimi K2.7 Code는 Copilot 모델 피커에 등장한 최초의 오픈웨이트 모델이다([GitHub Changelog](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/)). Microsoft Azure에서 호스팅되며 Pro/Pro+/Max 플랜에 순차 배포 중이고, Business/Enterprise는 관리자가 정책에서 활성화해야 사용할 수 있다. Copilot Vision도 7월 1일 GA로 전환되어 Free 포함 전 구독자에게 이미지·PDF 첨부 기능을 개방했다([GitHub Changelog](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/)). 자동 모델 선택은 작업의 추론 복잡도, 코드 생성 난이도, 도구 오케스트레이션 필요도를 실시간 평가해 최적 모델을 라우팅한다([GitHub Changelog](https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task/)). 그러나 이 모든 기능에도 Copilot 인기도는 57주 연속 하락해 24점을 기록했다 — 종량제 첫 달 $30-40/일 에이전틱 세션 비용 충격이 이탈을 가속화하고 있다.
 
-## Fable 5: 복원 D+1 — 순조로운 첫날, 클라우드 접근 복원 중
+## Claude Code v2.1.198: Chrome GA, 백그라운드 에이전트 자동 PR
 
-18일간의 수출통제가 해제된 뒤 Fable 5의 전 세계 복원 첫날이 큰 문제 없이 마무리됐다([Al Jazeera](https://www.aljazeera.com/economy/2026/7/1/us-lifts-restrictions-on-powerful-ai-models-fable-mythos-anthropic-says)). 99%+ 탈옥 차단 분류기가 가동 중이며, 7월 7일까지 주간 사용량의 50% 한도가 적용된다([ExplainX](https://explainx.ai/blog/is-fable-5-back-2026)). AWS·Google Cloud·Azure 접근은 "최대한 빨리" 복원 중이나 아직 완료되지 않았다([CNBC](https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html)). Anthropic은 아마존·마이크로소프트·구글과 함께 업계 탈옥 심각도 프레임워크에도 합류했다([NBC News](https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501)).
+Claude Code v2.1.198이 7월 1일 릴리스됐다([GitHub Releases](https://github.com/anthropics/claude-code/releases)). 핵심은 세 가지다: Chrome 통합이 GA로 전환됐고, 워크트리에서 작업 중인 백그라운드 에이전트가 완료 시 자동으로 커밋·푸시·드래프트 PR을 생성하게 됐으며, 에이전트 완료나 입력 필요 시 Notification 훅이 발동되는 알림 시스템이 추가됐다. /dataviz 스킬도 새로 도입되어 차트·대시보드 디자인 가이드를 제공한다. Sonnet 5가 기본 모델로 확정되며 1M 컨텍스트와 $2/$10/MTok 프로모션 가격이 8월 31일까지 적용된다([Anthropic](https://www.anthropic.com/news/claude-sonnet-5)).
 
-## Antigravity: 90 돌파 — 13주 연속 상승, Codex CLI 격차 확대
+## Fable 5 복원 D+2 — 순조로운 진행, 클라우드 접근 복원 중
 
-Google Antigravity가 90점을 돌파하며 13주 연속 상승세를 이어갔다. Gemini CLI 셧다운 이후 가장 큰 수혜자로, Codex CLI(88)와의 격차를 2점으로 벌렸다. Claude Code(99)와 Cursor(96)에 이어 사실상 3위권을 확고히 했다.
+Fable 5 전 세계 복원 이틀째가 큰 문제 없이 마무리됐다([ExplainX](https://explainx.ai/blog/is-fable-5-back-2026)). 99%+ 탈옥 차단 분류기가 가동 중이며 7월 7일까지 주간 사용량 50% 한도가 유지된다. AWS·Google Cloud·Azure 접근은 "최대한 빨리" 복원 중이나 완료되지 않았다([CNBC](https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html)).
 
-## Copilot: Claude Sonnet 5 추가했지만 57주 연속 하락 — 24점
+## Antigravity 90 돌파 — 13주 연속 상승
 
-모델 지형이 얼마나 바뀌었는지를 보여주는 사건이다. GitHub이 Copilot에 Claude Sonnet 5를 추가하며 Pro, Pro+, Max, Business, Enterprise 플랜에 순차 배포를 시작했다([GitHub Blog](https://github.blog/ai-and-ml/github-copilot/)). 내부 테스트에서 Sonnet 5는 CLI 스타일 작업에서 특히 강한 성능을 보였다. 하지만 정작 Copilot 자체의 인기도는 57주 연속 하락하며 24점을 기록했다([GitHub Community](https://github.com/orgs/community/discussions/197089)). 첫 번째 완전한 종량제 월이 마감된 이후에도 안정화 기미가 보이지 않고, 에이전틱 세션 $30-40/일 비용 충격이 이탈을 가속화하고 있다.
+Google Antigravity가 90점을 돌파하며 13주 연속 상승세를 이어갔다. Gemini CLI 셧다운 이후 가장 큰 수혜자로, Codex CLI(88)와의 격차를 2점으로 벌리며 사실상 3위권을 확고히 했다.
 
-## Cursor iOS 퍼블릭 베타 출시
+## GPT-5.6 Sol/Terra/Luna: 제한 프리뷰 지속, GA "수 주 내"
 
-Cursor가 iOS 앱을 퍼블릭 베타로 전체 유료 플랜에 출시했다. 7월 5일까지 Composer 2.5 실행 시 75% 할인이 적용된다([Cursor Blog](https://cursor.com/blog)). 모바일 앱은 상시 에이전트, Remote Control, 실시간 알림, 모바일 코드 리뷰를 지원하며 폰에서 에이전트 작업을 관리할 수 있다.
-
-## Gemini CLI: 셧다운 14일째 — 25점, 하락 지속
-
-Gemini CLI가 셧다운 14일째에 접어들며 25점으로 하락했다. 기업 전용으로만 유지되며, Code Assist GitHub의 전면 종료(7/17)가 다가오고 있다([9to5Google](https://9to5google.com/2026/06/17/gemini-cli-code-assist-shutting-down/)).
+6월 26일 발표된 GPT-5.6 삼중 모델 체계가 ~20개 사전승인 기관에서 제한 프리뷰를 이어가고 있다([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)). Sol은 $5/$30, Terra는 $2.50/$15, Luna는 $1/$6/MTok이며, Cerebras에서 750 tok/s 속도로 7월 중 출시될 예정이다([VentureBeat](https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov/)).
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| Claude Code | 99 | — | Sonnet 5 기본 모델, Fable 5 복원 첫 주 |
+| Claude Code | 99 | — | v2.1.198 Chrome GA, Sonnet 5 기본, Fable 5 복원 |
 | Claude AI | 98 | — | Claude Science 출시, Fable 5 + Sonnet 5 모멘텀 |
 | ChatGPT | 97 | — | GPT-5.6 Sol 제한 프리뷰, Cerebras 7월 출시 |
-| Cursor | 96 | — | Teams 가격 D+2, iOS 퍼블릭 베타 75% 할인 |
+| Cursor | 96 | — | Teams 가격 발효, iOS 퍼블릭 베타 75% 할인 |
 | Antigravity | 90 | ↑1 | 13주 연속 상승, 90선 돌파 |
 | Codex CLI | 88 | — | GPT-5.6 프리뷰 기관 제공 |
-| Windsurf | 85 | — | Cascade 종료 D+1, Devin Local 전환 안정 |
+| Windsurf | 85 | — | Cascade 공식 종료, Devin Local 전환 완료 |
 | Aider | 68 | — | 오픈소스 안정 유지 |
 | Gemini CLI | 25 | ↓1 | 셧다운 14일째, Code Assist 7/17 종료 |
-| Copilot | 24 | ↓1 | 57주 연속 하락, Sonnet 5 추가했지만 종량제 32일차 |
+| Copilot | 24 | ↓1 | 57주 연속 하락, 삼중 업데이트도 종량제 반발 상쇄 못해 |
 
-Claude Science의 출시와 Fable 5의 순조로운 복원으로 Anthropic이 7월에도 주도권을 쥐고 있다. Antigravity의 90선 돌파는 Google의 코딩 에이전트 시장 재진입이 본격화됐음을 보여준다. Copilot이 Sonnet 5를 추가한 것은 Microsoft조차 Anthropic 모델에 의존하게 됐다는 의미 — 더 나은 모델이 57주 연속 하락을 반전시킬 수 있을지가 관건이다.
+Copilot의 삼중 업데이트는 기술적으로 인상적이지만, 종량제 과금의 구조적 문제를 해결하지 못했다. 반면 Claude Code는 v2.1.198에서 백그라운드 에이전트 자동 PR이라는 워크플로 혁신을 선보이며 99점을 유지하고 있다. Kimi K2.7의 Copilot 진입은 오픈웨이트 모델이 상용 IDE에 정식 통합되는 첫 사례로, 모델 선택의 민주화를 보여주는 이정표다.

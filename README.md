@@ -755,6 +755,10 @@ timeline
          : SPCX at ~$171 — Nasdaq-100 inclusion Jul 7 confirmed, recovering from $135 IPO low (Jul 2)
          : Copilot adds Claude Sonnet 5 — gradual rollout Pro/Pro+/Max/Business/Enterprise, strong CLI task performance, ZDR (Jul 2)
          : Cursor iOS public beta — 75% off Composer 2.5 through Jul 5, agent management from phone (Jul 2)
+         : Claude Code v2.1.198 — Chrome GA, background agent auto-PR in worktrees, /dataviz skill, notification hooks (Jul 1)
+         : Copilot Vision GA — images and PDFs in chat prompts, all subscribers including Free (Jul 1)
+         : Copilot CLI auto model selection GA — task-based routing across model families, billing at selected model rate (Jul 1)
+         : Kimi K2.7 Code GA in Copilot — first open-weight model in Copilot model picker, Pro/Pro+/Max rollout (Jul 1)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

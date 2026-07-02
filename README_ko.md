@@ -755,6 +755,10 @@ timeline
          : SPCX ~$171 안정 — 7/7 Nasdaq-100 편입 확정, IPO 저점 $135에서 회복 (7/2)
          : Copilot에 Claude Sonnet 5 추가 — Pro/Pro+/Max/Business/Enterprise 순차 배포, CLI 작업 강점, ZDR (7/2)
          : Cursor iOS 퍼블릭 베타 — 7/5까지 Composer 2.5 75% 할인, 폰에서 에이전트 관리 (7/2)
+         : Claude Code v2.1.198 — Chrome GA, 백그라운드 에이전트 워크트리 자동 PR, /dataviz 스킬, 알림 훅 (7/1)
+         : Copilot Vision GA — 채팅에 이미지·PDF 첨부, Free 포함 전 구독자 (7/1)
+         : Copilot CLI 자동 모델 선택 GA — 작업 기반 모델 라우팅, 선택된 모델 요금으로 과금 (7/1)
+         : Kimi K2.7 Code Copilot GA — 최초 오픈웨이트 모델 피커 등록, Pro/Pro+/Max (7/1)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

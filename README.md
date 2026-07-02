@@ -753,6 +753,8 @@ timeline
          : Antigravity rises to 90 — 13-week streak, breaks 90 milestone, widens gap over Codex CLI (Jul 2)
          : Gemini CLI shutdown Day 14 — enterprise-only, declining to 25; Code Assist GitHub full shutdown Jul 17 (Jul 2)
          : SPCX at ~$171 — Nasdaq-100 inclusion Jul 7 confirmed, recovering from $135 IPO low (Jul 2)
+         : Copilot adds Claude Sonnet 5 — gradual rollout Pro/Pro+/Max/Business/Enterprise, strong CLI task performance, ZDR (Jul 2)
+         : Cursor iOS public beta — 75% off Composer 2.5 through Jul 5, agent management from phone (Jul 2)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2301,7 +2303,7 @@ All pricing information has been directly verified from each service's official 
 | Cursor | cursor.com/pricing | **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
-| GitHub Copilot | github.com/features/copilot/plans | **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 29, **55-week decline to 27**, **Signups reopened** Jun 16 (Student/Pro/Pro+/Max), **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
+| GitHub Copilot | github.com/features/copilot/plans | **Claude Sonnet 5 added** (Jul 2) — gradual rollout Pro/Pro+/Max/Business/Enterprise, ZDR; **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, billing Day 32, **57-week decline to 24**, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |

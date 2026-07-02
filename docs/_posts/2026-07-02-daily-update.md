@@ -3,7 +3,7 @@ title: "Claude Science Debuts as Fable 5 Completes Day One of Global Restoration
 date: 2026-07-02
 lang: en
 categories: [news]
-tags: [claude-science, fable-5, anthropic, claude-sonnet-5, antigravity, copilot, gemini-cli]
+tags: [claude-science, fable-5, anthropic, claude-sonnet-5, antigravity, copilot, gemini-cli, cursor]
 excerpt: "Anthropic launched Claude Science, an AI research workbench connecting 60+ scientific databases, while Fable 5's global restoration completed its first full day without incident. Antigravity breaks 90 on its 13th consecutive week of gains."
 ---
 
@@ -21,9 +21,13 @@ Fable 5's first full day of global restoration passed without major incident ([A
 
 Google Antigravity hit 90 on its 13th consecutive week of gains. The biggest beneficiary of Gemini CLI's shutdown, it now leads Codex CLI (88) by 2 points and has firmly established itself in the top tier behind Claude Code (99) and Cursor (96).
 
-## Copilot Drops to 24 — 57th Straight Week of Decline
+## Copilot Adds Claude Sonnet 5 — But Decline Continues to 24
 
-GitHub Copilot fell to 24 in its 57th consecutive week of decline ([GitHub Community](https://github.com/orgs/community/discussions/197089)). The first full month of usage-based billing has completed with no signs of stabilization. Agentic session costs of $30-40/day continue to drive developer exodus.
+In a move that underscores how far the model landscape has shifted, GitHub added Claude Sonnet 5 to Copilot with gradual rollout across Pro, Pro+, Max, Business, and Enterprise plans ([GitHub Blog](https://github.blog/ai-and-ml/github-copilot/)). Sonnet 5 showed particularly strong results on CLI-style tasks in internal testing. Yet Copilot itself fell to 24 in its 57th consecutive week of decline ([GitHub Community](https://github.com/orgs/community/discussions/197089)). The first full month of usage-based billing has completed with no signs of stabilization — agentic session costs of $30-40/day continue to drive developer exodus.
+
+## Cursor iOS Public Beta Launches
+
+Cursor shipped its iOS app in public beta on all paid plans, with 75% off Composer 2.5 runs through July 5 ([Cursor Blog](https://cursor.com/blog)). The mobile app supports always-on agents, Remote Control, live notifications, and mobile code review — letting developers manage agent work from their phone.
 
 ## Gemini CLI: Shutdown Day 14 — Decline Continues
 
@@ -36,12 +40,12 @@ Gemini CLI entered its 14th day of shutdown, declining to 25. Enterprise-only ac
 | Claude Code | 99 | — | Sonnet 5 default, Fable 5 restoration week 1 |
 | Claude AI | 98 | — | Claude Science launch, Fable 5 + Sonnet 5 momentum |
 | ChatGPT | 97 | — | GPT-5.6 Sol limited preview, Cerebras July launch |
-| Cursor | 96 | — | Teams pricing Day 2, iOS app stable |
+| Cursor | 96 | — | Teams pricing Day 2, iOS public beta 75% off |
 | Antigravity | 90 | ↑1 | 13-week streak, breaks 90 milestone |
 | Codex CLI | 88 | — | GPT-5.6 available to preview orgs |
 | Windsurf | 85 | — | Cascade EOL Day 2, Devin Local transition stable |
 | Aider | 68 | — | Open source steady |
 | Gemini CLI | 25 | ↓1 | Shutdown Day 14, Code Assist shuts Jul 17 |
-| Copilot | 24 | ↓1 | 57-week decline, billing Day 32 |
+| Copilot | 24 | ↓1 | 57-week decline, adds Sonnet 5 but billing Day 32 |
 
-Claude Science's launch and Fable 5's smooth restoration cement Anthropic's dominance at the start of July. Antigravity's 90-point breakthrough confirms Google's serious re-entry into the coding agent market.
+Claude Science's launch and Fable 5's smooth restoration cement Anthropic's dominance at the start of July. Antigravity's 90-point breakthrough confirms Google's serious re-entry into the coding agent market. Copilot adding Sonnet 5 shows even Microsoft now depends on Anthropic's models — the question is whether better models can reverse a 57-week decline.

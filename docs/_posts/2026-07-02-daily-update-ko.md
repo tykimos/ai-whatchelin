@@ -3,7 +3,7 @@ title: "Claude Science 출격, Fable 5 복원 D+1 — Anthropic이 7월도 장�
 date: 2026-07-02
 lang: ko
 categories: [news]
-tags: [claude-science, fable-5, anthropic, claude-sonnet-5, antigravity, copilot, gemini-cli]
+tags: [claude-science, fable-5, anthropic, claude-sonnet-5, antigravity, copilot, gemini-cli, cursor]
 excerpt: "Anthropic이 Claude Science AI 연구 워크벤치를 공개했고, Fable 5 전 세계 복원이 순조롭게 진행되고 있다. Antigravity는 90을 돌파하며 13주 연속 상승세를 이어가고, Copilot은 57주째 하락하며 24점을 기록했다."
 ---
 
@@ -21,9 +21,13 @@ Anthropic이 Claude Science를 베타로 출시했다([Anthropic](https://www.an
 
 Google Antigravity가 90점을 돌파하며 13주 연속 상승세를 이어갔다. Gemini CLI 셧다운 이후 가장 큰 수혜자로, Codex CLI(88)와의 격차를 2점으로 벌렸다. Claude Code(99)와 Cursor(96)에 이어 사실상 3위권을 확고히 했다.
 
-## Copilot: 57주 연속 하락 — 24점, 종량제 32일차
+## Copilot: Claude Sonnet 5 추가했지만 57주 연속 하락 — 24점
 
-GitHub Copilot이 57주 연속으로 하락하며 24점을 기록했다([GitHub Community](https://github.com/orgs/community/discussions/197089)). 첫 번째 완전한 종량제 월이 마감된 이후에도 안정화 기미가 보이지 않는다. 에이전틱 세션 사용자들의 $30-40/일 비용 충격이 이탈을 가속화하고 있다.
+모델 지형이 얼마나 바뀌었는지를 보여주는 사건이다. GitHub이 Copilot에 Claude Sonnet 5를 추가하며 Pro, Pro+, Max, Business, Enterprise 플랜에 순차 배포를 시작했다([GitHub Blog](https://github.blog/ai-and-ml/github-copilot/)). 내부 테스트에서 Sonnet 5는 CLI 스타일 작업에서 특히 강한 성능을 보였다. 하지만 정작 Copilot 자체의 인기도는 57주 연속 하락하며 24점을 기록했다([GitHub Community](https://github.com/orgs/community/discussions/197089)). 첫 번째 완전한 종량제 월이 마감된 이후에도 안정화 기미가 보이지 않고, 에이전틱 세션 $30-40/일 비용 충격이 이탈을 가속화하고 있다.
+
+## Cursor iOS 퍼블릭 베타 출시
+
+Cursor가 iOS 앱을 퍼블릭 베타로 전체 유료 플랜에 출시했다. 7월 5일까지 Composer 2.5 실행 시 75% 할인이 적용된다([Cursor Blog](https://cursor.com/blog)). 모바일 앱은 상시 에이전트, Remote Control, 실시간 알림, 모바일 코드 리뷰를 지원하며 폰에서 에이전트 작업을 관리할 수 있다.
 
 ## Gemini CLI: 셧다운 14일째 — 25점, 하락 지속
 
@@ -36,12 +40,12 @@ Gemini CLI가 셧다운 14일째에 접어들며 25점으로 하락했다. 기�
 | Claude Code | 99 | — | Sonnet 5 기본 모델, Fable 5 복원 첫 주 |
 | Claude AI | 98 | — | Claude Science 출시, Fable 5 + Sonnet 5 모멘텀 |
 | ChatGPT | 97 | — | GPT-5.6 Sol 제한 프리뷰, Cerebras 7월 출시 |
-| Cursor | 96 | — | Teams 가격 D+2, iOS 앱 안정 |
+| Cursor | 96 | — | Teams 가격 D+2, iOS 퍼블릭 베타 75% 할인 |
 | Antigravity | 90 | ↑1 | 13주 연속 상승, 90선 돌파 |
 | Codex CLI | 88 | — | GPT-5.6 프리뷰 기관 제공 |
 | Windsurf | 85 | — | Cascade 종료 D+1, Devin Local 전환 안정 |
 | Aider | 68 | — | 오픈소스 안정 유지 |
 | Gemini CLI | 25 | ↓1 | 셧다운 14일째, Code Assist 7/17 종료 |
-| Copilot | 24 | ↓1 | 57주 연속 하락, 종량제 32일차 |
+| Copilot | 24 | ↓1 | 57주 연속 하락, Sonnet 5 추가했지만 종량제 32일차 |
 
-Claude Science의 출시와 Fable 5의 순조로운 복원으로 Anthropic이 7월에도 주도권을 쥐고 있다. Antigravity의 90선 돌파는 Google의 코딩 에이전트 시장 재진입이 본격화됐음을 보여준다.
+Claude Science의 출시와 Fable 5의 순조로운 복원으로 Anthropic이 7월에도 주도권을 쥐고 있다. Antigravity의 90선 돌파는 Google의 코딩 에이전트 시장 재진입이 본격화됐음을 보여준다. Copilot이 Sonnet 5를 추가한 것은 Microsoft조차 Anthropic 모델에 의존하게 됐다는 의미 — 더 나은 모델이 57주 연속 하락을 반전시킬 수 있을지가 관건이다.

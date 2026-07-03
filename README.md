@@ -764,6 +764,18 @@ timeline
          : Anthropic removing covert tracking code — undisclosed China-competitor fingerprinting stripped (Jul 1)
          : Claude on Microsoft Foundry/Azure GA — native Azure identity, billing, governance (Jul 2)
          : Antigravity CLI v2.1.4 — antigravity_guide skill, --project flags, OSC8 hyperlinks, CPU crash fix (Jul 1)
+         : Gemini 3.5 Flash GA — outperforms 3.1 Pro, 4x faster output, Terminal-Bench 76.2% (Jul 1)
+         : Copilot Browser Tools for VS Code GA — agents drive real browsers, navigate, click, screenshot (Jul 1)
+         : Claude Apps Gateway — self-hosted enterprise gateway on Bedrock/Vertex, SSO, spend caps (Jul 1)
+         : Kiro HIPAA compliance — IDE and CLI in AWS HIPAA Eligible Services (Jul 1)
+         : Together AI $800M Series C at $8.3B — Aramco/Nvidia/Vista, 500+ MW compute (Jul 1)
+         : 8090 Labs $135M Series A — Chamath takes CEO, Salesforce leads, regulated-industry coding (Jun 29)
+         : New Gemini Flash checkpoint on LM Arena — sparks Gemini 4 speculation (Jul 2)
+         : Copilot 58-week decline to 23, billing Day 33 — developer exodus unabated (Jul 3)
+         : Gemini CLI shutdown Day 15 — enterprise-only, declining to 24; Code Assist GitHub shutdown Jul 17 (Jul 3)
+         : BLS June payrolls 57K — tech layoffs 142K YTD, AI employment shock goes mainstream (Jul 3)
+         : Anthropic blocks Chinese workaround access — Ant Group, ByteDance VPN reimbursements, identity verification (Jul 3)
+         : Google Ultra AI Access removed from Workspace Jul 7 — migrate to Enterprise Standard/Plus (Jul 3)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

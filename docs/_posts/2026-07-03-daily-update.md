@@ -21,9 +21,13 @@ The BLS June payroll report released July 3 showed just 57,000 jobs added, far b
 
 Anthropic unveiled Claude Science, a dedicated AI workbench for scientists that integrates commonly used research tools and packages, produces auditable artifacts, and provides flexible computing resource access ([Anthropic](https://www.anthropic.com/news/claude-science-ai-workbench)). This continues Claude's industry-specific app strategy, following the legal sector launch earlier this year.
 
+## Gemini 3.5 Flash GA — Terminal-Bench 76.2%, Enters Frontier Coding Race
+
+Google launched Gemini 3.5 Flash into general availability across Antigravity, Gemini API, and AI Studio ([Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)). Output speed is 4x faster than other frontier models, and it outperforms Gemini 3.1 Pro on coding benchmarks including Terminal-Bench 2.1 (76.2%) and MCP Atlas (83.6%). A new Flash checkpoint also surfaced on LM Arena, sparking speculation about whether it signals Gemini 4 or an incremental update ([TechTimes](https://www.techtimes.com/articles/319542/20260702/new-gemini-flash-checkpoint-surfaces-lm-arena-gemini-4-incremental-update.htm)).
+
 ## Google: Ultra AI Access Removed July 7, Antigravity Hits 91
 
-Google's Ultra AI Access add-on will be removed from Workspace accounts starting July 7. Gemini CLI and Code Assist access must migrate to Enterprise Standard or Plus ([Google Workspace Help](https://knowledge.workspace.google.com/admin/gemini/ai-ultra-access)). Meanwhile, Antigravity hit 91 on its 14th consecutive week of gains, extending its lead over Codex CLI (88) to 3 points.
+Google's Ultra AI Access add-on will be removed from Workspace accounts starting July 7. Gemini CLI and Code Assist access must migrate to Enterprise Standard or Plus ([Google Workspace Help](https://knowledge.workspace.google.com/admin/gemini/ai-ultra-access)). Antigravity hit 91 on its 14th consecutive week of gains, extending its lead over Codex CLI (88) to 3 points.
 
 ## Copilot: 58-Week Slide Continues — 23 Points
 

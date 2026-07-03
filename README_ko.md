@@ -764,6 +764,18 @@ timeline
          : Anthropic, 비밀 추적 코드 제거 — 중국 경쟁사 감시용 핑거프린팅 삭제 (7/1)
          : Claude, Microsoft Foundry/Azure GA — 네이티브 Azure 인증·과금·거버넌스 (7/2)
          : Antigravity CLI v2.1.4 — antigravity_guide 스킬, --project 플래그, OSC8 하이퍼링크, CPU 충돌 수정 (7/1)
+         : Gemini 3.5 Flash GA — 3.1 Pro 능가, 4배 빠른 출력, Terminal-Bench 76.2% (7/1)
+         : Copilot Browser Tools for VS Code GA — 에이전트가 실제 브라우저 조작, 탐색·클릭·스크린샷 (7/1)
+         : Claude Apps Gateway — Bedrock/Vertex 셀프호스팅 엔터프라이즈 게이트웨이, SSO, 지출 상한 (7/1)
+         : Kiro HIPAA 준수 — IDE·CLI AWS HIPAA 적격 서비스 등록 (7/1)
+         : Together AI $8억 시리즈 C, $83억 밸류에이션 — Aramco/Nvidia/Vista, 500+ MW 컴퓨트 (7/1)
+         : 8090 Labs $1.35억 시리즈 A — Chamath CEO 취임, Salesforce 리드, 규제산업 코딩 (6/29)
+         : LM Arena에 새 Gemini Flash 체크포인트 등장 — Gemini 4 추측 촉발 (7/2)
+         : Copilot 58주 연속 하락 23, 종량제 33일차 — 개발자 이탈 여전 (7/3)
+         : Gemini CLI 셧다운 15일째 — 기업 전용, 24로 하락; Code Assist GitHub 7/17 종료 (7/3)
+         : BLS 6월 비농업 고용 5.7만 — 기술업계 해고 14.2만 YTD, AI 고용 충격 가시화 (7/3)
+         : Anthropic 중국 우회 접속 차단 — Ant Group·ByteDance VPN 환급, 신원인증 도입 (7/3)
+         : Google Ultra AI Access 7/7 Workspace 폐지 — Enterprise Standard/Plus 이전 필수 (7/3)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

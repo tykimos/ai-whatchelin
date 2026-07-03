@@ -21,9 +21,13 @@ BLS 6월 고용보고서가 7월 3일 발표됐다. 비농업 고용 증가폭�
 
 Anthropic이 과학자를 위한 AI 워크벤치 Claude Science를 공개했다([Anthropic](https://www.anthropic.com/news/claude-science-ai-workbench)). 연구자가 자주 사용하는 도구·패키지를 통합하고, 감사 가능한 아티팩트를 생성하며, 유연한 컴퓨팅 자원 접근을 제공한다. Claude의 산업별 전용 앱 전략(법률→과학)이 본격화되는 모습이다.
 
+## Gemini 3.5 Flash GA — Terminal-Bench 76.2%로 프론티어 코딩 경쟁 가세
+
+Google이 Gemini 3.5 Flash를 정식 출시했다([Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)). Antigravity, Gemini API, AI Studio에서 즉시 사용 가능하며, 출력 속도는 다른 프론티어 모델 대비 4배 빠르다. Terminal-Bench 2.1에서 76.2%, MCP Atlas에서 83.6%를 기록해 코딩 벤치마크에서 3.1 Pro를 넘어섰다. LM Arena에는 새로운 Flash 체크포인트가 등장해 Gemini 4 추측을 촉발하고 있다([TechTimes](https://www.techtimes.com/articles/319542/20260702/new-gemini-flash-checkpoint-surfaces-lm-arena-gemini-4-incremental-update.htm)).
+
 ## Google: Ultra AI Access 7/7 폐지, Antigravity 91 돌파
 
-Google Ultra AI Access 애드온이 7월 7일부터 Workspace에서 제거된다. Gemini CLI·Code Assist 접근권은 Enterprise Standard/Plus로 이전해야 한다([Google Workspace Help](https://knowledge.workspace.google.com/admin/gemini/ai-ultra-access)). 한편 Antigravity는 91점으로 14주 연속 상승하며 Codex CLI(88)와의 격차를 3점으로 벌렸다.
+Google Ultra AI Access 애드온이 7월 7일부터 Workspace에서 제거된다. Gemini CLI·Code Assist 접근권은 Enterprise Standard/Plus로 이전해야 한다([Google Workspace Help](https://knowledge.workspace.google.com/admin/gemini/ai-ultra-access)). Antigravity는 91점으로 14주 연속 상승하며 Codex CLI(88)와의 격차를 3점으로 벌렸다.
 
 ## Copilot: 58주 연속 하락 — 23점
 

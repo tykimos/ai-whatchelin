@@ -782,6 +782,11 @@ timeline
          : Cursor iOS 할인 D-1 — 7/5 Composer 2.5 75% 할인 종료 (7/4)
          : Fable 5 무료 포함 D-3 — 7/7 마감, 이후 $10/$50 per MTok 사용 크레딧 (7/4)
          : SPCX Nasdaq-100 편입 D-3 — 7/7 확정 (7/4)
+         : Claude Code v2.1.199 — 스택 스킬(최대 5개), SSL 오류 즉시 실패, 부분 API 응답 보존 (7/2)
+         : Claude Code v2.1.200 — Manual 권한 모드 기본값, 백그라운드 세션 안정성, 유휴 타임아웃 옵트인 (7/3)
+         : Claude Code v2.1.201 — Sonnet 5 세션 하네스 리마인더 최적화 (7/4)
+         : Copilot AI 크레딧 풀 비용 센터 + 사용자별 예산 — REST API로 엔터프라이즈 차지백 (7/2)
+         : Codex Remote GA — ChatGPT 모바일에서 QR 페어링으로 Mac/Windows 호스트 제어, 전 플랜 (7/2)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1762,6 +1767,9 @@ xychart-beta
 **Copilot 종량제 첫 월 마감** (2026.07.01):
 > *"Copilot의 첫 번째 완전한 종량제 청구 월이 마감됐다. 에이전틱 사용자들의 월 $29→$750 폭증, 일부 팀은 $50→$3,000 이상 급증 사례가 확인됐다. 25점으로 56주 연속 하락세가 이어지고 있다."* — TechTimes `2026.07.01`
 
+**Claude Code v2.1.200 — Manual 권한 기본값** (2026.07.03):
+> *"Claude Code v2.1.200이 CLI·VS Code·JetBrains 전체에서 기본 권한 모드를 'default'에서 'Manual'로 변경했다. AskUserQuestion 대화상자의 자동 계속이 중단됐으며, 유휴 타임아웃은 /config에서 옵트인 방식으로 전환됐다. 수면/깨어남 후 백그라운드 세션 충돌과 'claude stop' 레이스 컨디션도 수정됐다. 업그레이드하는 모든 사용자에게 영향을 주는 보안 우선 변경이다."* — code.claude.com/changelog `2026.07.03`
+
 | 매치업 | 승자 (상황별) |
 |---|---|
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
@@ -2278,7 +2286,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-07-03)
+### 팩트 체크 로그 (2026-07-04)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -2286,11 +2294,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **OpenAI 미 정부 5% 지분 제안** (7/2, Bloomberg); **GPT-5.6 Sol Cerebras** 7월 출시 750 tok/s; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **Codex CLI v0.142.5**, **Codex Remote GA** 전 플랜 |
 | Claude | claude.com/pricing | **Claude Science 출시** (7/3) — 연구자용 AI 워크벤치; **중국 우회 접속 전면 차단** (7/3) — 해외 법인·VPN·시간대 모니터링·신원인증; **Sonnet 5 출시** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 차단 해제** 7/1 — 두 모델 전 세계 복원, 99%+ 탈옥 차단 분류기; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억, Fortune 7/2); **Azure/Foundry GA** (7/2); Max 플랜 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **에이전트 과금 중단**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.198** 최신 — Chrome 통합 GA, 백그라운드 에이전트 자동 커밋·푸시·드래프트 PR, 알림 훅; **Sonnet 5 기본값**, 조직 기본 모델, 스트리밍 CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
+| Claude Code | code.claude.com/changelog | **v2.1.201** 최신 — Sonnet 5 하네스 최적화; **v2.1.200** Manual 권한 기본값, 백그라운드 세션 안정성; **v2.1.199** 스택 스킬(5개), SSL 수정; **Sonnet 5 기본값**, 조직 기본 모델, 스트리밍 CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **58주 연속 하락 23**; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
+| GitHub Copilot | github.com/features/copilot/plans | **59주 연속 하락 22**; **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -2300,7 +2308,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Sourcegraph | sourcegraph.com | Cody Free/Pro 2025.07 폐지, Amp 전환 |
 | Trae | docs.trae.ai | 5단계: Free/$3/$10/$30/$100 |
 | Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모), **Grok Build Remote** 웹 에이전트, **/goal** 자율 실행, Agent Dashboard |
-| Antigravity | antigravity.google | **14주 연속 상승 91점**; **Ultra AI Access 7/7 Workspace 제거** — Enterprise Standard/Plus로 이전 필요; **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반; **자동 업데이트 참사** (5/20) — 에디터·터미널·파일 탐색기 삭제, 점수 62→58 |
+| Antigravity | antigravity.google | **15주 연속 상승 92점**; **Ultra AI Access 7/7 Workspace 제거** — Enterprise Standard/Plus로 이전 필요; **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반; **자동 업데이트 참사** (5/20) — 에디터·터미널·파일 탐색기 삭제, 점수 62→58 |
 
 
 

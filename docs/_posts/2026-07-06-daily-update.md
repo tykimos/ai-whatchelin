@@ -3,7 +3,7 @@ title: "Alibaba Bans Claude Code, Fable 5 Subscription Ends Tomorrow — AI Tool
 date: 2026-07-06
 lang: en
 categories: [news]
-tags: [claude-code, alibaba, fable-5, copilot, antigravity, cursor, codex-cli]
+tags: [claude-code, alibaba, fable-5, copilot, antigravity, cursor, codex-cli, tesla]
 excerpt: "Alibaba bans Claude Code company-wide over Chinese user identification concerns, Fable 5 exits subscription plans tomorrow, and Copilot enters the 20s on its 61st consecutive week of decline. AI coding tools are becoming geopolitical instruments."
 ---
 
@@ -28,6 +28,10 @@ Antigravity rose to 94 on its 17th consecutive week of gains, now 6 points above
 ## Cursor: DuneSlide CVSS 9.8 Vulnerabilities Patched
 
 Two zero-click RCE vulnerabilities (CVSS 9.8) disclosed on July 1 affected all Cursor versions before 3.0 ([Medium](https://blurbrahlab.medium.com/cursor-hit-by-cvss-9-8-zero-click-rce-top-10-ai-flutter-news-july-3-2026-54cea50bfdbb)). Both are patched in Cursor 3.0+, released in April. The timing — mid-SpaceX $60B acquisition — drew heightened scrutiny, though the vulnerabilities were already fixed before disclosure.
+
+## Tesla: $200/Week AI Spending Cap Takes Effect Today
+
+Tesla's $200/week AI tool spending cap takes effect today for all employees ([Electrek](https://electrek.co/2026/07/02/tesla-caps-employee-ai-spending-200-week/)). Engineers were burning "thousands of dollars' worth of tokens each week," prompting an emergency brake after six months of gamifying token consumption with leaderboards ([The Information](https://www.theinformation.com/articles/tesla-caps-employee-ai-spend-200-per-week-adoption-push)). Notable exemption: xAI beta products (Grok) are excluded from the cap. Yet engineers reportedly prefer Anthropic's Claude for daily development despite sustained internal Grok promotion ([TechTimes](https://www.techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays-exempt.htm)). Following Uber's $1,500/month cap, Meta, Amazon, and Walmart have also introduced spending controls — corporate AI token governance is becoming an industry-wide standard.
 
 ## Market Pulse
 

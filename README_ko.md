@@ -805,6 +805,8 @@ timeline
          : SPCX Nasdaq-100 편입 D-1 — 7/7 확정 (7/6)
          : Google Ultra AI Access 제거 D-1 — 7/7 Workspace 전환 마감 (7/6)
          : Codex CLI 레거시 모델 종료 D-17 — 7/23 영구 종료 (7/6)
+         : Tesla AI 도구 주당 $200 지출 상한 오늘 시행 — Grok 면제, 엔지니어들 내부 홍보 불구 Claude 선호 (7/6)
+         : Copilot CLI v1.0.68 — kimi-k2.7-code 모델 지원, IDE 연결 끊김 처리 개선 (7/1)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

@@ -805,6 +805,8 @@ timeline
          : SPCX Nasdaq-100 inclusion D-1 — Jul 7 confirmed (Jul 6)
          : Google Ultra AI Access removal D-1 — Jul 7 Workspace migration deadline (Jul 6)
          : Codex CLI legacy model shutdown D-17 — Jul 23 permanent removal (Jul 6)
+         : Tesla $200/week AI spending cap effective today — Grok exempt, engineers prefer Claude despite internal push (Jul 6)
+         : Copilot CLI v1.0.68 — kimi-k2.7-code model support, IDE disconnect handling (Jul 1)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

@@ -785,6 +785,8 @@ timeline
          : Claude Code v2.1.199 — stacked skills (up to 5), SSL errors fail immediately, partial API responses preserved (Jul 2)
          : Claude Code v2.1.200 — Manual permissions default, background session reliability, idle timeout opt-in (Jul 3)
          : Claude Code v2.1.201 — Sonnet 5 sessions harness reminder optimization (Jul 4)
+         : Alibaba bans Claude Code effective Jul 10 — hidden Chinese user identification experiment acknowledged by Anthropic (Jul 4)
+         : Cursor DuneSlide CVSS 9.8 zero-click RCE — two vulnerabilities affect all versions before 3.0, patched (Jul 1)
          : Copilot AI Credit Pools for Cost Centers + per-user budgets — enterprise chargeback via REST API (Jul 2)
          : Codex Remote GA — QR pairing from ChatGPT mobile to Mac/Windows host, all plans (Jul 2)
          : Cursor iOS 75% promo expires — Composer 2.5 mobile discount ends (Jul 5)

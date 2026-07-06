@@ -785,6 +785,8 @@ timeline
          : Claude Code v2.1.199 — 스택 스킬(최대 5개), SSL 오류 즉시 실패, 부분 API 응답 보존 (7/2)
          : Claude Code v2.1.200 — Manual 권한 모드 기본값, 백그라운드 세션 안정성, 유휴 타임아웃 옵트인 (7/3)
          : Claude Code v2.1.201 — Sonnet 5 세션 하네스 리마인더 최적화 (7/4)
+         : Alibaba Claude Code 전사 사용 금지 7/10 발효 — Anthropic, 중국 사용자 식별 실험 인정 (7/4)
+         : Cursor DuneSlide CVSS 9.8 제로클릭 RCE — 3.0 이전 전 버전 영향, 패치 완료 (7/1)
          : Copilot AI 크레딧 풀 비용 센터 + 사용자별 예산 — REST API로 엔터프라이즈 차지백 (7/2)
          : Codex Remote GA — ChatGPT 모바일에서 QR 페어링으로 Mac/Windows 호스트 제어, 전 플랜 (7/2)
          : Cursor iOS 75% 프로모션 종료 — Composer 2.5 모바일 할인 만료 (7/5)

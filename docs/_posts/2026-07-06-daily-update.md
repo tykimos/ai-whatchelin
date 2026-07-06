@@ -3,8 +3,8 @@ title: "Alibaba Bans Claude Code, Fable 5 Subscription Ends Tomorrow — AI Tool
 date: 2026-07-06
 lang: en
 categories: [news]
-tags: [claude-code, alibaba, fable-5, copilot, antigravity, cursor, codex-cli, tesla]
-excerpt: "Alibaba bans Claude Code company-wide over Chinese user identification concerns, Fable 5 exits subscription plans tomorrow, and Copilot enters the 20s on its 61st consecutive week of decline. AI coding tools are becoming geopolitical instruments."
+tags: [claude-code, alibaba, fable-5, copilot, antigravity, cursor, codex-cli, tesla, gemini, meta]
+excerpt: "Alibaba bans Claude Code over Chinese user identification, Fable 5 exits subscriptions tomorrow, Meta's SWE-Together benchmark crowns Opus 4.8 as most autonomous agent, and Gemini 3.5 Pro is delayed to July 17."
 ---
 
 The AI coding tool market is no longer just a technology race — it's becoming a geopolitical arena. Alibaba's company-wide Claude Code ban deepens the US-China AI rift, while tomorrow's simultaneous expiry of Fable 5 subscription inclusion and Google Ultra AI Access marks a cost structure watershed.
@@ -32,6 +32,14 @@ Two zero-click RCE vulnerabilities (CVSS 9.8) disclosed on July 1 affected all C
 ## Tesla: $200/Week AI Spending Cap Takes Effect Today
 
 Tesla's $200/week AI tool spending cap takes effect today for all employees ([Electrek](https://electrek.co/2026/07/02/tesla-caps-employee-ai-spending-200-week/)). Engineers were burning "thousands of dollars' worth of tokens each week," prompting an emergency brake after six months of gamifying token consumption with leaderboards ([The Information](https://www.theinformation.com/articles/tesla-caps-employee-ai-spend-200-per-week-adoption-push)). Notable exemption: xAI beta products (Grok) are excluded from the cap. Yet engineers reportedly prefer Anthropic's Claude for daily development despite sustained internal Grok promotion ([TechTimes](https://www.techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays-exempt.htm)). Following Uber's $1,500/month cap, Meta, Amazon, and Walmart have also introduced spending controls — corporate AI token governance is becoming an industry-wide standard.
+
+## Meta SWE-Together: Opus 4.8 Needs Least Steering — 63% pass@1
+
+Meta released its SWE-Together benchmark, a 109-task multi-turn evaluation measuring real-world agent reliability rather than single-prompt accuracy ([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026)). Claude Opus 4.8 achieved 63% pass@1, requiring "the least corrective steering of any evaluated model." As coding agents mature, benchmarks are shifting from correctness to autonomy — how far can the agent go before a human needs to intervene?
+
+## Gemini 3.5 Pro: Officially Delayed to July 17
+
+Google pushed Gemini 3.5 Pro GA to July 17 after enterprise testing revealed coding performance and multi-step reasoning gaps ([Analytics Insight](https://www.analyticsinsight.net/news/is-google-delaying-gemini-35-pro-launch-to-july-for-further-testing)). The company scrapped its initial base model approach and is upgrading math capabilities before launch. The 20+ percentage point gap behind Claude Mythos 5 on SWE-Bench Pro (80.3% vs ~55%) remains a significant challenge ([Geeky Gadgets](https://www.geeky-gadgets.com/gemini-pro-scraps-base-model/)).
 
 ## Market Pulse
 

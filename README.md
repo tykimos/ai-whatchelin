@@ -807,6 +807,10 @@ timeline
          : Codex CLI legacy model shutdown D-17 — Jul 23 permanent removal (Jul 6)
          : Tesla $200/week AI spending cap effective today — Grok exempt, engineers prefer Claude despite internal push (Jul 6)
          : Copilot CLI v1.0.68 — kimi-k2.7-code model support, IDE disconnect handling (Jul 1)
+         : Copilot CLI v1.0.69 — file/folder completion for /sandbox, monorepo indexer memory fix (Jul 5)
+         : Meta SWE-Together benchmark — 109 multi-turn tasks, Opus 4.8 needs least corrective steering at 63% pass@1 (Jul 6)
+         : Gemini 3.5 Pro delayed to July 17 — Google refining coding performance and math after enterprise testing (Jul 6)
+         : SPCX pre-market rally — $4.3B forced index fund buying expected from Nasdaq-100 inclusion Jul 7 (Jul 6)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1355,6 +1359,15 @@ quadrantChart
 
 **Claude 10th Outage in 12 Days** (2026.06.16):
 > *"Claude's tenth significant service disruption since June 5 — Opus 4.8 and Haiku 4.5 errors persisted despite a fix attempt at 2:00 PM ET. Anthropic acknowledged: 'Demand for Claude has grown at an unprecedented rate, and our infrastructure has been stretched to meet it.' Enterprise clients spending $1M+ annually doubled from 500 to 1,000 in under two months."* — TechTimes `2026.06.16`
+
+**Meta SWE-Together Benchmark** (2026.07.06):
+> *"Claude Opus 4.8 needs the least corrective steering of any evaluated model, achieving 63% pass@1 on Meta's 109-task multi-turn coding benchmark — designed to measure real-world agent reliability rather than single-prompt performance."* — BuildFastWithAI `2026.07.06`
+
+**Gemini 3.5 Pro Delayed to July 17** (2026.07.06):
+> *"Google pushed Gemini 3.5 Pro GA to July 17, citing coding performance and multi-step reasoning gaps discovered during enterprise testing. The company scrapped its initial base model approach and is upgrading math capabilities before launch — a 20+ percentage point gap behind Claude Mythos 5 on SWE-Bench Pro."* — Geeky Gadgets/Analytics Insight `2026.07.06`
+
+**Tesla $200/Week AI Spending Cap** (2026.07.06):
+> *"Tesla capped all employee AI tool spending at $200/week starting today, after engineers burned thousands of dollars in tokens each week during a six-month adoption push with internal leaderboards. xAI's Grok products are exempt from the cap — yet Tesla engineers reportedly still prefer Claude for daily development work."* — Electrek/The Information `2026.07.06`
 
 **2026 Power Stack Formula**:
 ```

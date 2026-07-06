@@ -3,8 +3,8 @@ title: "Alibaba Claude Code 전사 금지, Fable 5 구독 무료 내일 종료 �
 date: 2026-07-06
 lang: ko
 categories: [news]
-tags: [claude-code, alibaba, fable-5, copilot, antigravity, cursor, codex-cli, tesla]
-excerpt: "Alibaba가 Claude Code 전사 사용을 금지하고, Fable 5 구독 포함이 내일 만료되며, Copilot은 61주 연속 하락하여 20선에 진입했다. AI 코딩 도구가 지정학적 무기가 되고 있다."
+tags: [claude-code, alibaba, fable-5, copilot, antigravity, cursor, codex-cli, tesla, gemini, meta]
+excerpt: "Alibaba Claude Code 전사 금지, Fable 5 구독 내일 종료, Meta SWE-Together 벤치마크가 Opus 4.8을 가장 자율적인 에이전트로 선정, Gemini 3.5 Pro 7월 17일로 지연."
 ---
 
 AI 코딩 도구 시장이 기술 경쟁을 넘어 지정학적 긴장의 무대로 변하고 있다. Alibaba의 Claude Code 전사 사용 금지가 중국-미국 AI 갈등을 한층 심화시켰고, 내일은 Fable 5 구독 무료와 Google Ultra AI Access가 동시 종료되는 비용 구조의 분수령이다.
@@ -32,6 +32,14 @@ Antigravity가 94점으로 17주 연속 상승을 기록했다([Google Developer
 ## Tesla: AI 도구 주당 $200 지출 상한 오늘 시행
 
 Tesla가 오늘(7/6)부터 전 직원의 AI 도구 사용에 주당 $200 상한을 도입했다([Electrek](https://electrek.co/2026/07/02/tesla-caps-employee-ai-spending-200-week/)). 엔지니어들이 매주 수천 달러 규모의 토큰을 소비하면서, 6개월간 토큰 소비 랭킹으로 채택을 독려하던 Tesla가 급제동을 건 것이다([The Information](https://www.theinformation.com/articles/tesla-caps-employee-ai-spend-200-per-week-adoption-push)). 주목할 점은 xAI 베타 제품(Grok)이 상한에서 면제된다는 것이다. 그러나 엔지니어들은 내부 Grok 홍보에도 불구하고 Anthropic Claude를 일상 개발 도구로 선호하는 것으로 알려졌다([TechTimes](https://www.techtimes.com/articles/319710/20260704/tesla-limits-ai-tool-spending-200-weekly-while-musks-grok-stays-exempt.htm)). Uber의 월 $1,500 상한에 이어 Meta, Amazon, Walmart도 비용 통제에 나서며, 기업의 AI 토큰 비용 거버넌스가 업계 표준으로 자리잡고 있다.
+
+## Meta SWE-Together: Opus 4.8 교정 최소 — 63% pass@1
+
+Meta가 109개 멀티턴 과제로 구성된 SWE-Together 벤치마크를 공개했다([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026)). 단일 프롬프트가 아닌 실제 에이전트의 자율 작업 수행 신뢰성을 측정한다. Claude Opus 4.8이 63% pass@1로 "평가 대상 모델 중 가장 적은 교정이 필요한 모델"로 평가됐다. 코딩 에이전트 시대에 벤치마크의 초점이 '정답률'에서 '자율성'으로 이동하고 있음을 보여준다.
+
+## Gemini 3.5 Pro: 7월 17일로 공식 지연
+
+Google이 Gemini 3.5 Pro GA를 7월 17일로 연기했다([Analytics Insight](https://www.analyticsinsight.net/news/is-google-delaying-gemini-35-pro-launch-to-july-for-further-testing)). 기업 테스트에서 코딩 성능과 멀티스텝 추론이 목표 수준에 미달한 것이 원인이다. SWE-Bench Pro에서 Claude Mythos 5(80.3%) 대비 20포인트 이상 벌어진 격차를 좁혀야 하는 Google의 숙제가 커지고 있다([Geeky Gadgets](https://www.geeky-gadgets.com/gemini-pro-scraps-base-model/)).
 
 ## 마켓 펄스
 

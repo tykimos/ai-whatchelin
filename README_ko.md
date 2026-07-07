@@ -819,6 +819,10 @@ timeline
          : Gemini CLI 셧다운 19일째 — 기업 전용, 20으로 하락 (7/7)
          : SPCX Nasdaq-100 편입 — 인덱스 펀드 $43억 의무 매수 (7/7)
          : Grok Build /goal 자율 모드 추가, 음성 받아쓰기, 클립보드 인식 명령 (7/7)
+         : Microsoft 365 Copilot 3년 만에 채택률 4.5% 미만 — 주간 사용 1%뿐, 가격은 인상 (7/7)
+         : Copilot에서 Gemini 2.5 Pro·Gemini 3 Flash 7/31 지원 종료 예고 (7/7)
+         : Copilot 팀 "존재할 권리를 증명해야" — EVP Andreou 1,200자 내부 메모 (7/3)
+         : Claude Code v2.1.200 — Manual 권한 기본값, AskUserQuestion 자동계속 해제, 백그라운드 세션 안정성 (7/3)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

@@ -819,6 +819,10 @@ timeline
          : Gemini CLI shutdown Day 19 — enterprise-only, declining to 20 (Jul 7)
          : SPCX joins Nasdaq-100 — $4.3B forced index fund buying (Jul 7)
          : Grok Build adds /goal autonomous mode, voice dictation, clipboard-aware commands (Jul 7)
+         : Microsoft 365 Copilot adoption under 4.5% after 3 years — only 1% weekly use, prices went up (Jul 7)
+         : Copilot Gemini 2.5 Pro & Gemini 3 Flash deprecation July 31 across all Copilot experiences (Jul 7)
+         : Copilot team told product must "earn the right to exist" — EVP Andreou 1,200-word internal memo (Jul 3)
+         : Claude Code v2.1.200 — Manual permissions default, AskUserQuestion no-auto-continue, background session reliability (Jul 3)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

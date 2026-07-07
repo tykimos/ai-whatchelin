@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-06</sub>
+  <sub>Last updated: 2026-07-07</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.06-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.07-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -811,6 +811,14 @@ timeline
          : Meta SWE-Together benchmark — 109 multi-turn tasks, Opus 4.8 needs least corrective steering at 63% pass@1 (Jul 6)
          : Gemini 3.5 Pro delayed to July 17 — Google refining coding performance and math after enterprise testing (Jul 6)
          : SPCX pre-market rally — $4.3B forced index fund buying expected from Nasdaq-100 inclusion Jul 7 (Jul 6)
+         : Fable 5 subscription inclusion ends today — $10/$50 per MTok usage credits required starting Jul 8 (Jul 7)
+         : JADEPUFFER — first fully autonomous AI ransomware, Sysdig publishes definitive analysis (Jul 7)
+         : Anthropic overtakes OpenAI on revenue — Fortune confirms, $47B run rate (Jul 7)
+         : Copilot 62-week decline to 19, billing Day 37 — falls below the 20s (Jul 7)
+         : Antigravity rises to 95 — 18-week streak, 7 pts above Codex CLI (Jul 7)
+         : Gemini CLI shutdown Day 19 — enterprise-only, declining to 20 (Jul 7)
+         : SPCX joins Nasdaq-100 — $4.3B forced index fund buying (Jul 7)
+         : Grok Build adds /goal autonomous mode, voice dictation, clipboard-aware commands (Jul 7)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1874,26 +1882,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06"]
-    y-axis "Popularity Score" 18 --> 100
+    x-axis ["06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07"]
+    y-axis "Popularity Score" 17 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20]
+    line "GH Copilot" [32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [42, 40, 38, 36, 34, 32, 30, 28, 26, 25, 24, 23, 22, 21]
-    line "Antigravity" [81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
+    line "Codex CLI" [87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [40, 38, 36, 34, 32, 30, 28, 26, 25, 24, 23, 22, 21, 20]
+    line "Antigravity" [82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-20↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-19↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-21↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-94↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-20↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-95↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

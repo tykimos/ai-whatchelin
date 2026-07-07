@@ -821,6 +821,10 @@ timeline
          : Grok Build /goal 자율 모드 추가, 음성 받아쓰기, 클립보드 인식 명령 (7/7)
          : Microsoft 365 Copilot 3년 만에 채택률 4.5% 미만 — 주간 사용 1%뿐, 가격은 인상 (7/7)
          : Copilot에서 Gemini 2.5 Pro·Gemini 3 Flash 7/31 지원 종료 예고 (7/7)
+         : Claude Cowork 모바일·웹 확장 — 사용자 90%가 비코딩 업무, Max 구독자 우선, 오프라인 예약 실행 (7/7)
+         : Copilot App 전 플랜 개방 — Free·Education·BYOK 모드, macOS/Windows/Linux (7/7)
+         : GPT-5.6 Sol/Terra/Luna 3종 Codex 앱서 유출 — Fable 5 크레딧 전환 7/7-9 윈도우 노림 (7/7)
+         : Claude Code v2.1.202 — 동적 워크플로우 크기 설정, OTel 워크플로우 속성 (7/6)
          : Copilot 팀 "존재할 권리를 증명해야" — EVP Andreou 1,200자 내부 메모 (7/3)
          : Claude Code v2.1.200 — Manual 권한 기본값, AskUserQuestion 자동계속 해제, 백그라운드 세션 안정성 (7/3)
 ```

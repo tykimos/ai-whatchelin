@@ -821,6 +821,10 @@ timeline
          : Grok Build adds /goal autonomous mode, voice dictation, clipboard-aware commands (Jul 7)
          : Microsoft 365 Copilot adoption under 4.5% after 3 years — only 1% weekly use, prices went up (Jul 7)
          : Copilot Gemini 2.5 Pro & Gemini 3 Flash deprecation July 31 across all Copilot experiences (Jul 7)
+         : Claude Cowork expands to mobile & web — 90% non-coding use, Max subscribers first, scheduled tasks run offline (Jul 7)
+         : Copilot App available to all plans — Free, Education, BYOK mode, macOS/Windows/Linux (Jul 7)
+         : GPT-5.6 Sol/Terra/Luna trio leaked in Codex app — timed for Fable 5 credit switch window Jul 7-9 (Jul 7)
+         : Claude Code v2.1.202 — dynamic workflow size setting, OTel workflow attributes (Jul 6)
          : Copilot team told product must "earn the right to exist" — EVP Andreou 1,200-word internal memo (Jul 3)
          : Claude Code v2.1.200 — Manual permissions default, AskUserQuestion no-auto-continue, background session reliability (Jul 3)
 ```

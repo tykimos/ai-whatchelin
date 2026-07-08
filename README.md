@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-07</sub>
+  <sub>Last updated: 2026-07-08</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.07-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.08-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -824,6 +824,15 @@ timeline
          : Claude Cowork expands to mobile & web — 90% non-coding use, Max subscribers first, scheduled tasks run offline (Jul 7)
          : Copilot App available to all plans — Free, Education, BYOK mode, macOS/Windows/Linux (Jul 7)
          : GPT-5.6 Sol/Terra/Luna trio leaked in Codex app — timed for Fable 5 credit switch window Jul 7-9 (Jul 7)
+         : Trump administration approves GPT-5.6 public launch — Sol/Terra/Luna 3-model GA July 9 (Jul 8)
+         : Fable 5 credit switch backlash — Anthropic extends subscription access to July 12 (Jul 8)
+         : SpaceX-Cursor joint model debuts July 9 — same day as GPT-5.6 GA, Grok 4.5 private beta (Jul 8)
+         : Claude Code & Cowork for Government public beta — FedRAMP High, local storage, tamper-evident logs (Jul 8)
+         : Copilot 63-week decline to 18, billing Day 38 — M365 adoption crisis deepens (Jul 8)
+         : Antigravity rises to 96 — 19-week streak, overtakes Codex CLI (Jul 8)
+         : Gemini CLI shutdown Day 20 — enterprise-only, declining to 19 (Jul 8)
+         : JADEPUFFER first autonomous AI ransomware — 600+ payloads, 31-second self-correction (Jul 7)
+         : Anthropic $19B data center lease with TeraWulf — sustainable computing for IPO narrative (Jul 7)
          : Claude Code v2.1.202 — dynamic workflow size setting, OTel workflow attributes (Jul 6)
          : Copilot team told product must "earn the right to exist" — EVP Andreou 1,200-word internal memo (Jul 3)
          : Claude Code v2.1.200 — Manual permissions default, AskUserQuestion no-auto-continue, background session reliability (Jul 3)
@@ -1890,26 +1899,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07"]
-    y-axis "Popularity Score" 17 --> 100
+    x-axis ["06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08"]
+    y-axis "Popularity Score" 16 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19]
+    line "GH Copilot" [31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [40, 38, 36, 34, 32, 30, 28, 26, 25, 24, 23, 22, 21, 20]
-    line "Antigravity" [82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95]
+    line "Codex CLI" [87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+    line "Gemini CLI" [38, 36, 34, 32, 30, 28, 26, 25, 24, 23, 22, 21, 20, 19]
+    line "Antigravity" [83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-19↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-18↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-20↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-95↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-19↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-96↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

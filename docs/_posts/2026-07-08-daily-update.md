@@ -1,33 +1,37 @@
 ---
-title: "GPT-5.6 Gets Regulatory Green Light — Three Models Go Public Tomorrow Alongside SpaceX-Cursor Joint Model"
+title: "Grok 4.5 Drops Early — SpaceX-Cursor Joint Model Delivers Opus-Class at 60% Less"
 date: 2026-07-08
 lang: en
 categories: [news]
-tags: [gpt-5-6, fable-5, claude-code, claude-cowork, copilot, antigravity, spacex-cursor, jadepuffer]
-excerpt: "The Trump administration approved GPT-5.6 for public launch. Sol, Terra, and Luna go GA tomorrow July 9 — the same day SpaceX-Cursor debuts their jointly-developed AI model. Fable 5 gets a 5-day subscription extension after credit-switch backlash."
+tags: [grok-4-5, gpt-5-6, fable-5, claude-code, cursor, copilot, antigravity, chinese-ai, vs-code]
+excerpt: "SpaceXAI and Cursor unveiled Grok 4.5 today — Opus-class performance at $2/$6 per MTok. GPT-5.6 goes GA tomorrow. Chinese AI models now claim 46% of US enterprise token usage on OpenRouter."
 ---
 
-July 9 is shaping up to be a watershed day for AI coding tools. The Trump administration cleared GPT-5.6 for public release, meaning OpenAI's three next-gen models launch tomorrow — and SpaceX-Cursor's joint model arrives on the same day. Meanwhile, Anthropic scrambled to extend Fable 5's subscription access after backlash on the credit transition's first day.
+SpaceXAI and Cursor surprised the market by unveiling Grok 4.5 today rather than waiting for tomorrow's scheduled wider release. The first joint model from the $60B acquisition pairing is live in Grok Build and Cursor right now. Meanwhile, GPT-5.6's three-model GA is confirmed for tomorrow, and Chinese AI models have quietly captured nearly half of US enterprise token usage.
+
+## Grok 4.5: SpaceX-Cursor's First Joint Model — Opus-Class, 60% Cheaper
+
+SpaceXAI and Cursor unveiled Grok 4.5, built on the 1.5T-parameter V9 foundation with Cursor's developer data in supplementary training ([Axios](https://www.axios.com/2026/07/08/spacexai-grok-new-model)). At $2/$6 per MTok, it undercuts Opus 4.8 ($5/$25) by over 60% while claiming to beat it on multiple benchmarks ([The Next Web](https://thenextweb.com/news/spacexai-grok-4-5-cursor-opus-class-coding-model)). Live now in Grok Build, all Cursor plans, and the SpaceXAI console, with wider public release tomorrow July 9. Not yet available in the EU ([AI Weekly](https://aiweekly.co/alerts/spacexai-ships-grok-45-with-cursor-eu-access-delayed)).
 
 ## GPT-5.6: Trump Administration Approves Public Launch Tomorrow
 
-The Trump administration gave OpenAI the green light for GPT-5.6's broad public launch after additional testing by the Department of Commerce's Center for AI Standards and Innovation ([Axios](https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted)). Sol ($5/$30 per MTok flagship), Terra ($2.50/$15 general purpose), and Luna ($1/$6 lightweight) will all go GA tomorrow July 9 ([Neowin](https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/)). A Cerebras partnership will deliver 750 tokens/second in Sol Fast mode later this month. The 1.5M-token context window is 5.9x GPT-5.5's 256K ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)).
+The Trump administration cleared GPT-5.6 for broad public release after testing by the Department of Commerce's Center for AI Standards and Innovation ([Axios](https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted)). Sol ($5/$30 flagship), Terra ($2.50/$15 general purpose), and Luna ($1/$6 lightweight) all go GA tomorrow July 9 ([OpenAI Community](https://community.openai.com/t/introducing-gpt-5-6-series-sol-terra-and-luna/1384931)). A Cerebras partnership will deliver 750 tokens/second in Sol Fast mode later this month.
+
+## Chinese AI Models Claim 46% of US Enterprise Token Usage
+
+Chinese AI models now represent 30-46% of enterprise token usage on OpenRouter, up from roughly 30% for US models just a year ago ([CNBC](https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html)). The cost advantage is decisive: 60-90% cheaper than Anthropic and OpenAI frontiers ([The Decoder](https://the-decoder.com/chinese-ai-models-regularly-pass-30-percent-on-openrouter-as-cost-gap-widens/)). Zhipu AI's GLM-5.2 exploded on Vercel with 27x daily token volume growth and 80x customer growth in its first week ([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026)).
 
 ## Fable 5: Credit Switch Backlash Forces 5-Day Extension
 
-Today marked Fable 5's transition to credits-only at $10/$50 per MTok, but user backlash was fierce enough that Anthropic announced an extension for existing subscribers through July 12 ([Digital Trends](https://www.digitaltrends.com/computing/claude-fable-5-is-leaving-subscriptions-but-maybe-not-for-good/)). Anthropic reiterated this is not permanent removal: "We aim to restore Fable as a standard part of subscriptions as soon as capacity allows" ([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/)).
+Today marked Fable 5's transition to credits-only at $10/$50 per MTok, but backlash was fierce enough that Anthropic extended subscription access through July 12 ([Forbes](https://www.forbes.com/sites/sandycarter/2026/07/07/claude-fable-5-extends-by-five-more-days-10-moves-to-make-now/)). Anthropic's updated privacy policy requiring government ID verification for Fable 5 access also took effect today ([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026)).
 
-## SpaceX-Cursor Joint Model: Debuting Same Day as GPT-5.6
+## VS Code 1.128: Multi-Chat Claude Agent Sessions
 
-SpaceXAI and Cursor will unveil their first jointly-developed AI model tomorrow July 9 — the same day as GPT-5.6's public launch ([TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262018045-spacex-and-cursor-unveil-joint-ai-model-wednesday-tradingkey)). Grok 4.5, built on the 1.5T-parameter V9 foundation with Cursor's developer data in supplemental training, is already in private beta at SpaceX and Tesla ([Digital Applied](https://www.digitalapplied.com/blog/grok-4-5-cursor-data-flywheel-spacex-private-beta-2026)).
+VS Code 1.128 shipped today with multi-chat support for Claude agent sessions — compare approaches, fork from earlier turns, and run work in parallel within a single session ([VS Code](https://code.visualstudio.com/updates/v1_128)). Copilot Vision (image and PDF attachments in chat) also reached GA.
 
-## Claude Code and Cowork Enter Government — FedRAMP High
+## Trump Cancels AI Executive Order Signing
 
-Claude Code and Cowork are now available in public beta through Claude for Government Desktop, deployed in a FedRAMP High authorized environment ([Claude Blog](https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government)). Conversation history stays local on agency-managed devices with tamper-evident audit logs and department-level administration.
-
-## JADEPUFFER: First Fully Autonomous AI Ransomware Documented
-
-Security firm Sysdig documented the first end-to-end autonomous AI ransomware operation, where an LLM agent executed recon, credential harvesting, lateral movement, privilege escalation, encryption, and ransom note generation without any human direction ([BleepingComputer](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/)). It exploited CVE-2025-3248 in Langflow, ran 600+ payloads, and self-corrected within 31 seconds ([Sysdig](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion)).
+President Trump abruptly cancelled a scheduled AI executive order signing ceremony, citing concerns it could "undermine America's lead over China" ([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026)). The August 1 NSA/CISA framework deadline remains the sole confirmed governance milestone.
 
 ## Market Pulse
 
@@ -36,12 +40,12 @@ Security firm Sysdig documented the first end-to-end autonomous AI ransomware op
 | Claude Code | 99 | — | Government launch, Sonnet 5 default settled |
 | Claude AI | 98 | — | Fable 5 credit switch, 5-day subscription extension |
 | ChatGPT | 97 | — | GPT-5.6 regulatory approval, 3-model GA tomorrow |
-| Cursor | 96 | — | SpaceX joint model debuts tomorrow |
+| Cursor | 96 | — | Grok 4.5 launched today, SpaceX joint model live |
 | Antigravity | 96 | ↑1 | 19-week streak, overtook Codex CLI |
-| Codex CLI | 88 | — | GPT-5.6 Sol integration pending |
+| Codex CLI | 88 | — | GPT-5.6 Bedrock support added |
 | Windsurf | 85 | — | Devin Local stable, Sonnet 5 integrated |
 | Aider | 68 | — | Open source steady |
 | Gemini CLI | 19 | ↓1 | Shutdown Day 20, enterprise-only remnant |
 | Copilot | 18 | ↓1 | 63-week decline, M365 adoption under 4.5% |
 
-Tomorrow's "Super Wednesday" pits GPT-5.6's triple GA against the SpaceX-Cursor joint model debut. Anthropic bought itself five days with the Fable 5 extension — the question is whether that's enough to weather two major competitor launches on the same day.
+Grok 4.5's surprise early drop and tomorrow's GPT-5.6 triple GA make this the most crowded launch window of 2026. The real story might be happening underneath: Chinese models now own nearly half the enterprise token flow, and Grok 4.5's $2/$6 pricing suggests SpaceX-Cursor read the room on where the price war is headed.

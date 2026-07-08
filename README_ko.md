@@ -836,6 +836,16 @@ timeline
          : Claude Code v2.1.202 — 동적 워크플로우 크기 설정, OTel 워크플로우 속성 (7/6)
          : Copilot 팀 "존재할 권리를 증명해야" — EVP Andreou 1,200자 내부 메모 (7/3)
          : Claude Code v2.1.200 — Manual 권한 기본값, AskUserQuestion 자동계속 해제, 백그라운드 세션 안정성 (7/3)
+         : Grok 4.5 출시 — SpaceXAI-Cursor 첫 공동 모델, Opus급 $2/$6/MTok, Opus 4.8 대비 60% 저렴 (7/8)
+         : GPT-5.6 Sol/Terra/Luna 공개 승인 — 트럼프 행정부 3종 GA 7/9 확정 (7/8)
+         : 중국 AI 모델 미국 기업 토큰 점유율 30~46% — CNBC 조사, OpenRouter 데이터 (7/8)
+         : VS Code 1.128 — Claude 멀티챗 에이전트 세션, Copilot Vision GA, OS레벨 키바인딩 (7/8)
+         : Fable 5 크레딧 전환 반발 — Anthropic 7/12까지 구독 연장 조치 (7/8)
+         : Anthropic ID 인증 정책 발효 — 여권·신분증 + 셀카, Fable 5 접근용 (7/8)
+         : 트럼프 AI 행정명령 서명 취소 — "중국 대비 우위 약화" 우려 (7/8)
+         : GLM-5.2 채택 폭발 — Vercel 첫 주 27배 일간 토큰량, 80배 고객 증가 (7/8)
+         : Claude Code v2.1.204 — 헤드리스 hook 이벤트 스트리밍 수정, 원격 워커 유휴 회수 방지 (7/8)
+         : Codex CLI v0.143.0 — Bedrock GPT-5.6 Sol/Terra/Luna 지원, Enterprise Computer Use (7/8)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1408,6 +1418,15 @@ quadrantChart
 
 **Tesla AI 도구 주당 $200 지출 상한** (2026.07.06):
 > *"Tesla가 오늘부터 전 직원의 AI 도구 지출을 주당 $200으로 제한했다. 6개월간 사내 리더보드로 토큰 소비를 게임화하던 Tesla의 엔지니어들이 매주 수천 달러를 소비한 결과다. xAI의 Grok은 상한 면제 — 그러나 엔지니어들은 일상 개발에 Claude를 선호하는 것으로 알려졌다."* — Electrek/The Information `2026.07.06`
+
+**Grok 4.5 출시 — SpaceX-Cursor 첫 공동 모델** (2026.07.08):
+> *"SpaceXAI와 Cursor가 $60B 인수 합의 후 첫 공동 모델 Grok 4.5를 공개했다. $2/$6/MTok으로 Opus 4.8 대비 60% 이상 저렴하면서 여러 벤치마크에서 Opus 4.8을 능가한다고 주장. 1.5T 파라미터 V9 파운데이션에 Cursor 개발자 데이터를 보조 학습. Grok Build, Cursor 전 플랜, SpaceXAI 콘솔에서 즉시 사용 가능."* — Axios/The Next Web `2026.07.08`
+
+**중국 AI 모델 미국 기업 토큰 점유율 46%** (2026.07.08):
+> *"중국 AI 모델이 OpenRouter를 통한 미국 기업 토큰 사용량에서 30~46%를 차지하고 있다. 1년 전 미국 모델이 70%를 차지하던 것이 30%로 급감. GLM-5.2는 Vercel에서 첫 주 27배 일간 토큰량 증가, 80배 고객 성장을 기록. '가격이 모든 것을 결정한다'고 인프라 리더가 CNBC에 밝혔다."* — CNBC/The Decoder `2026.07.08`
+
+**VS Code 1.128 — Claude 멀티챗 에이전트 세션** (2026.07.08):
+> *"VS Code 1.128이 Claude 에이전트 세션에서 멀티챗을 지원한다. 하나의 세션에 관련 챗을 여러 개 열어 접근 방식 비교, 기존 턴에서 포크, 병렬 작업이 가능. 각 챗은 독립된 히스토리·제목·모델 선택을 유지한다."* — Visual Studio Code `2026.07.08`
 
 **2026 파워 스택 공식**:
 ```

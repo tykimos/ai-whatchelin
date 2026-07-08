@@ -836,6 +836,16 @@ timeline
          : Claude Code v2.1.202 — dynamic workflow size setting, OTel workflow attributes (Jul 6)
          : Copilot team told product must "earn the right to exist" — EVP Andreou 1,200-word internal memo (Jul 3)
          : Claude Code v2.1.200 — Manual permissions default, AskUserQuestion no-auto-continue, background session reliability (Jul 3)
+         : Grok 4.5 launched — SpaceXAI-Cursor first joint model, Opus-class at $2/$6 per MTok, 60% cheaper than Opus 4.8 (Jul 8)
+         : GPT-5.6 Sol/Terra/Luna approved for public launch — Trump admin clears 3-model GA July 9 (Jul 8)
+         : Chinese AI models claim 30-46% of US enterprise token usage on OpenRouter — CNBC investigation (Jul 8)
+         : VS Code 1.128 — multi-chat Claude agent sessions, Copilot Vision GA, OS-level keybindings (Jul 8)
+         : Fable 5 credit switch backlash — Anthropic extends subscription access to July 12 (Jul 8)
+         : Anthropic ID verification privacy policy effective — government ID + selfie for Fable 5 access (Jul 8)
+         : Trump cancels AI executive order signing — "undermine America's lead over China" concerns (Jul 8)
+         : GLM-5.2 adoption explosion — 27x daily token volume, 80x customer growth on Vercel in first week (Jul 8)
+         : Claude Code v2.1.204 — headless hook event streaming fix, prevents remote worker idle-reap (Jul 8)
+         : Codex CLI v0.143.0 — Bedrock GPT-5.6 Sol/Terra/Luna support, Computer Use for Enterprise (Jul 8)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1393,6 +1403,15 @@ quadrantChart
 
 **Tesla $200/Week AI Spending Cap** (2026.07.06):
 > *"Tesla capped all employee AI tool spending at $200/week starting today, after engineers burned thousands of dollars in tokens each week during a six-month adoption push with internal leaderboards. xAI's Grok products are exempt from the cap — yet Tesla engineers reportedly still prefer Claude for daily development work."* — Electrek/The Information `2026.07.06`
+
+**Grok 4.5 Launched — SpaceX-Cursor Joint Model** (2026.07.08):
+> *"SpaceXAI and Cursor unveiled Grok 4.5 — the first model built jointly since the $60B acquisition agreement. At $2/$6 per MTok, it undercuts Opus 4.8 by 60%+ while claiming to beat it on multiple benchmarks. Built on the 1.5T-parameter V9 foundation with Cursor developer data. Live in Grok Build, all Cursor plans, and SpaceXAI console; wider release July 9."* — Axios/The Next Web `2026.07.08`
+
+**Chinese AI Models Claim 46% of US Enterprise Usage** (2026.07.08):
+> *"Chinese AI models now represent 30-46% of enterprise token usage on OpenRouter — up from under 30% of the market a year ago when US models held 70%. GLM-5.2 exploded on Vercel with 27x daily token volume growth and 80x customer growth in its first week. 'Price is doing the work here,' one infrastructure leader told CNBC."* — CNBC/The Decoder `2026.07.08`
+
+**VS Code 1.128 — Multi-Chat Claude Agent Sessions** (2026.07.08):
+> *"VS Code 1.128 shipped with multi-chat support for Claude agent sessions. A session can contain related chats so you can compare approaches, branch from an earlier turn, and run work in parallel. Each chat keeps its own history, title, and model selection."* — Visual Studio Code `2026.07.08`
 
 **2026 Power Stack Formula**:
 ```

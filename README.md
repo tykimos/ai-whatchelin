@@ -853,6 +853,16 @@ timeline
          : Antigravity rises to 97 — 20-week streak, widening lead over Codex CLI (Jul 9)
          : Gemini CLI shutdown Day 21 — enterprise-only, declining to 18 (Jul 9)
          : Devin Desktop v3.4.27 — improved editor context, flexible MCP permissions, plan mode sandbox (Jul 9)
+         : ChatGPT Work agent + Codex desktop merger — unified agentic "super app," ChatGPT Classic for old app (Jul 9)
+         : GPT-5.6 Sol/Terra/Luna added to GitHub Copilot — Sol Pro+/Max/Biz/Enterprise, Terra/Luna all paid plans (Jul 9)
+         : GPT-5.4 retirement announced for July 23 — GPT-5.5 remains available (Jul 9)
+         : Codex CLI v0.144.0 — "writes" approval mode, MCP auth without experimental flag, ultra reasoning warning (Jul 9)
+         : Tesla $200/week per-employee AI tool spending cap — effective Jul 6, manager sign-off above limit (Jul 9)
+         : Claude Code v2.1.205 — auto mode blocks transcript tampering, /doctor diagnostics, 400MB memory savings (Jul 9)
+         : Claude "Reflect" feature — monthly recap, focus settings, break reminders, quiet hours (Jul 9)
+         : Copilot "Ask for Repository Overview" GA — AI-generated repo summaries for all plans (Jul 9)
+         : Antigravity CLI v1.1.0 — request-review mode with line-level diffs before file modifications (Jul 9)
+         : Ben Bernanke appointed to Anthropic Long-Term Benefit Trust (Jul 9)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

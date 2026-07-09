@@ -853,6 +853,16 @@ timeline
          : Antigravity 97로 상승 — 20주 연속 상승, Codex CLI와 격차 확대 (7/9)
          : Gemini CLI 셧다운 21일째 — 기업 전용, 18로 하락 (7/9)
          : Devin Desktop v3.4.27 — 에디터 컨텍스트 인식 개선, 유연한 MCP 권한, 플랜 모드 샌드박스 (7/9)
+         : ChatGPT Work 에이전트 + Codex 데스크톱 통합 — 통합 에이전틱 "슈퍼 앱", 기존 앱은 ChatGPT Classic으로 (7/9)
+         : GPT-5.6 Sol/Terra/Luna GitHub Copilot 추가 — Sol Pro+/Max/Biz/Enterprise, Terra/Luna 모든 유료 플랜 (7/9)
+         : GPT-5.4 7월 23일 폐지 예고 — GPT-5.5는 유지 (7/9)
+         : Codex CLI v0.144.0 — "writes" 승인 모드, 실험 플래그 없는 MCP 인증, ultra 추론 경고 (7/9)
+         : Tesla 직원 AI 도구 주당 $200 지출 상한 — 7/6부터 적용, 초과 시 관리자 승인 필요 (7/9)
+         : Claude Code v2.1.205 — auto 모드 세션 트랜스크립트 변조 차단, /doctor 진단, 400MB 메모리 절약 (7/9)
+         : Claude "Reflect" 기능 — 월간 리캡, 집중 설정, 휴식 리마인더, 조용한 시간 (7/9)
+         : Copilot "Ask for Repository Overview" GA — 모든 플랜에서 AI 저장소 요약 (7/9)
+         : Antigravity CLI v1.1.0 — 파일 수정 전 라인별 diff 표시 request-review 모드 (7/9)
+         : Ben Bernanke Anthropic 장기이익신탁 이사 선임 (7/9)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

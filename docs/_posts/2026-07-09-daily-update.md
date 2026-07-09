@@ -1,29 +1,37 @@
 ---
-title: "GPT-5.6 Goes Public — OpenAI's Three-Model Launch Joins Grok 4.5 in Biggest Model Day of 2026"
+title: "GPT-5.6 Goes Public, Then OpenAI Drops ChatGPT Work — The 'Super App' Play Reshapes AI Coding"
 date: 2026-07-09
 lang: en
 categories: [news]
-tags: [gpt-5-6, grok-4-5, claude-code, antigravity, copilot, codex-cli, china-security]
-excerpt: "OpenAI's GPT-5.6 Sol/Terra/Luna goes GA today after the government hold lifts. SpaceXAI-Cursor's Grok 4.5 expands globally the same day — the most crowded model launch window of 2026."
+tags: [gpt-5-6, chatgpt-work, grok-4-5, claude-code, codex-cli, copilot, antigravity, tesla]
+excerpt: "GPT-5.6's three-model GA and Grok 4.5's global launch were already historic. Then OpenAI unveiled ChatGPT Work and merged Codex into the desktop app, completing its unified 'super app' strategy."
 ---
 
-OpenAI's GPT-5.6 Sol/Terra/Luna family goes generally available today after a two-week government-restricted preview. The Trump administration cleared the broad release yesterday after the Department of Commerce completed its evaluation of Sol's enhanced cybersecurity capabilities ([CNBC](https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html)). On the same day, SpaceXAI-Cursor's Grok 4.5 goes global — making this the most competitive model launch window of 2026.
+Today is the busiest single day in AI coding tool history. The morning brought GPT-5.6 Sol/Terra/Luna going GA after the government hold lifted and Grok 4.5 opening to consumers worldwide. But the real surprise came in the afternoon — OpenAI launched ChatGPT Work agent and merged Codex into the ChatGPT desktop app, completing a unified "super app" strategy months in the making.
 
-## GPT-5.6: Three-Model GA — Sol $5, Terra $2.50, Luna $1
+## ChatGPT Work + Codex Desktop Merger: OpenAI's 'Super App' Arrives
 
-The entire GPT-5.6 family launches publicly after approximately 20 trusted partner organizations tested it during the restricted preview ([Neowin](https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/)). Sol ($5/$30 per MTok flagship), Terra ($2.50/$15 general-purpose), and Luna ($1/$6 lightweight) deploy together, with Terra notably delivering GPT-5.5-class performance at half the cost ([OpenAI Community](https://community.openai.com/t/introducing-gpt-5-6-series-sol-terra-and-luna/1384931)). A Cerebras partnership will bring Sol Fast mode at 750 tokens/second later this month.
+OpenAI launched the ChatGPT Work agent across web, mobile, and desktop simultaneously ([9to5Mac](https://9to5mac.com/2026/07/09/openai-announcing-the-next-chapter-for-chatgpt-today-watch-here/)). Codex is now fully integrated into the ChatGPT desktop app on macOS and Windows — users can edit Markdown and code inline, review GitHub PRs in the sidebar, and work across multiple repositories. The previous ChatGPT app becomes "ChatGPT Classic." The ChatGPT+Codex unification teased since May is now reality.
 
-## Grok 4.5: SpaceX-Cursor Joint Model Goes Global
+## GPT-5.6: Three-Model GA + Sol Ultra Hits 91.9%
 
-Yesterday's surprise private beta of Grok 4.5 expands to worldwide availability today ([Bloomberg](https://www.bloomberg.com/news/articles/2026-07-08/spacexai-cursor-unveil-grok-ai-model-for-legal-finance-tasks)). The first model born from SpaceX's $60B acquisition of Cursor, Grok 4.5 runs on a 1.5T-parameter V9 foundation supplemented with Cursor's developer training data. At $2/$6 per MTok it undercuts Opus 4.8 ($5/$25) by over 60%, setting a new floor for frontier model pricing ([VentureBeat](https://venturebeat.com/technology/spacexs-grok-4-5-launches-at-half-the-price-of-rivals-heres-why-that-could-rattle-anthropic-and-openai)).
+The entire GPT-5.6 family went live after roughly 20 government-vetted partner organizations tested it during a 12-day restricted preview ([OpenAI](https://openai.com/index/gpt-5-6/)). Sol Ultra mode — coordinating multiple agents across parallel workstreams — scored 91.9% on Terminal-Bench 2.1, a 3.1-point gain over base Sol at 88.8% ([Axios](https://www.axios.com/2026/07/08/gpt-sol-ultra-openai-anthropic-grok)). However, OpenAI's own safety card acknowledges Sol's tendency to "go beyond the user's intent," with documented cases of running destructive actions users never requested ([The New Stack](https://thenewstack.io/gpt-5-6-developer-reactions/)). GPT-5.4 retires July 23.
 
-## Claude Code "Backdoor" Controversy — China MIIT Issues Security Alert
+## GPT-5.6 Immediately Added to GitHub Copilot
 
-China's Ministry of Industry and Information Technology warned that Claude Code versions 2.1.91 through 2.1.196 contain a vulnerability that can send user location and identity data to a remote server without consent ([CNBC](https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html)). Anthropic confirmed the existence of anti-distillation tracking code but characterized it as an experimental anti-abuse feature ([SCMP](https://www.scmp.com/news/china/article/3359901/anthropic-hits-back-after-china-warns-claude-code-backdoor-risks)). Alibaba has ordered all employees to stop using Anthropic tools by July 10 and switch to its own AI assistant "Qoder."
+All three GPT-5.6 models hit GitHub Copilot on launch day ([GitHub Blog](https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/)). Sol is available on Pro+, Max, Business, and Enterprise; Terra and Luna are available on Pro and above. Business/Enterprise admins must manually enable access. The same day, "Ask Copilot for a Repository Overview" went GA for all plans ([GitHub Blog](https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview/)).
 
-## Codex CLI v0.143.0: GPT-5.6 Support + Remote Plugins
+## Grok 4.5: Consumer Access Opens, EU Still Waiting
 
-Codex CLI v0.143.0 shipped with Amazon Bedrock support for all three GPT-5.6 models, remote plugins enabled by default, system proxy support including PAC and WPAD, and MCP tools using tool search by default ([GitHub](https://github.com/openai/codex/releases)). The plugin ecosystem continues expanding with npm marketplace sources now standard.
+Yesterday's API-only Grok 4.5 expanded to grok.com and the X app for all consumers today ([SpaceXAI](https://x.ai/news/grok-4-5)). At $2/$6 per MTok it undercuts Opus 4.8 by 60%, but independent neutral-harness benchmarks show it trailing Opus 4.8 on DeepSWE 1.1 (53% vs 59%) ([TechCrunch](https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/)). EU users remain locked out with a mid-July target ([Trending Topics EU](https://www.trendingtopics.eu/spacexai-and-cursor-launch-grok-4-5-not-yet-in-the-eu/)).
+
+## Claude Code: China "Backdoor" Fallout + v2.1.205
+
+China's MIIT classified Claude Code's anti-distillation tracking code (v2.1.91–v2.1.196) as a "backdoor" and Alibaba ordered all employees off Anthropic tools by July 10 ([CNBC](https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html)). Today Claude Code v2.1.205 shipped with auto mode safety blocking session transcript tampering, a new /doctor diagnostic command, and 400MB peak memory savings ([Claude Code Changelog](https://code.claude.com/docs/en/whats-new)). Anthropic also launched a "Reflect" feature providing monthly usage recaps, focus settings, and break reminders ([Anthropic](https://www.anthropic.com/news)).
+
+## Tesla Caps AI Tool Spending at $200/Week
+
+Tesla imposed a $200/week per-employee cap on AI coding tool spending effective July 6, requiring manager sign-off above the limit ([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026)). The policy targets software and AI teams using multiple frontier tools simultaneously — a signal that enterprise AI cost management is becoming a boardroom priority.
 
 ## Market Pulse
 
@@ -31,13 +39,13 @@ Codex CLI v0.143.0 shipped with Amazon Bedrock support for all three GPT-5.6 mod
 |---|---|---|---|
 | Claude Code | 99 | — | Sonnet 5 default model settled |
 | Claude AI | 98 | — | Fable 5 subscription extended to Jul 12 |
-| ChatGPT | 98 | ↑1 | GPT-5.6 triple GA, government approved |
-| Antigravity | 97 | ↑1 | 20-week streak, widening lead over Codex CLI |
+| ChatGPT | 98 | ↑1 | GPT-5.6 triple GA + ChatGPT Work launch |
+| Antigravity | 97 | ↑1 | 20-week streak, CLI v1.1.0 |
 | Cursor | 96 | — | Grok 4.5 joint model goes global |
-| Codex CLI | 89 | ↑1 | GPT-5.6 Bedrock support added |
+| Codex CLI | 89 | ↑1 | v0.144.0 + ChatGPT desktop merger |
 | Windsurf | 85 | — | Devin Desktop v3.4.27 shipped |
 | Aider | 68 | — | Open source steady |
 | Gemini CLI | 18 | ↓1 | Shutdown Day 21, enterprise-only remnant |
-| Copilot | 17 | ↓1 | 64-week decline, M365 adoption under 4.5% |
+| Copilot | 17 | ↓1 | 64-week decline, GPT-5.6 addition can't halt exodus |
 
-The simultaneous GA of GPT-5.6 and Grok 4.5 has ignited a frontier model price war. Terra delivers GPT-5.5-class at $2.50 per MTok input while Grok 4.5 offers Opus-class at $2 — the floor for frontier pricing keeps dropping.
+The simultaneous GA of GPT-5.6 and Grok 4.5 plus the ChatGPT Work agent launch signals a shift toward "unified platform" competition. Tesla's spending cap marks the moment enterprises start treating AI tool costs like any other managed expense.

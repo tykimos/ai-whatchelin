@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-08</sub>
+  <sub>마지막 업데이트: 2026-07-09</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.08-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.09-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -846,6 +846,13 @@ timeline
          : GLM-5.2 채택 폭발 — Vercel 첫 주 27배 일간 토큰량, 80배 고객 증가 (7/8)
          : Claude Code v2.1.204 — 헤드리스 hook 이벤트 스트리밍 수정, 원격 워커 유휴 회수 방지 (7/8)
          : Codex CLI v0.143.0 — Bedrock GPT-5.6 Sol/Terra/Luna 지원, Enterprise Computer Use (7/8)
+         : GPT-5.6 Sol/Terra/Luna GA — 정부 제한 해제 후 공개 출시, Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per MTok (7/9)
+         : 중국 MIIT Claude Code "백도어" 경보 — 반증류 추적 코드 확인, 알리바바 Qoder 전환 지시 7/10 (7/9)
+         : Grok 4.5 글로벌 공개 — SpaceXAI-Cursor Opus급 $2/$6 per MTok 전세계 출시 (7/9)
+         : Copilot 64주 연속 하락 17, 종량제 39일차 — 개발자 이탈 지속 (7/9)
+         : Antigravity 97로 상승 — 20주 연속 상승, Codex CLI와 격차 확대 (7/9)
+         : Gemini CLI 셧다운 21일째 — 기업 전용, 18로 하락 (7/9)
+         : Devin Desktop v3.4.27 — 에디터 컨텍스트 인식 개선, 유연한 MCP 권한, 플랜 모드 샌드박스 (7/9)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1888,26 +1895,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08"]
-    y-axis "인기 점수" 16 --> 100
+    x-axis ["06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09"]
+    y-axis "인기 점수" 15 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18]
+    line "GH Copilot" [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
-    line "Gemini CLI" [38, 36, 34, 32, 30, 28, 26, 25, 24, 23, 22, 21, 20, 19]
-    line "Antigravity" [83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96]
+    line "Codex CLI" [87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89]
+    line "Gemini CLI" [36, 34, 32, 30, 28, 26, 25, 24, 23, 22, 21, 20, 19, 18]
+    line "Antigravity" [84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-18↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-17↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-88―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-19↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-96↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-89↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-18↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-97↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-10</sub>
+  <sub>마지막 업데이트: 2026-07-11</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.11-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -873,6 +873,19 @@ timeline
          : SPCX ~$153 — Colossus 2 NAACP 소송 부담, $225 ATH 대비 하락 (7/10)
          : Codex CLI v0.143.0 안정판 — 원격 플러그인 기본, 시스템 프록시, Bedrock GPT-5.6 (7/10)
          : ChatGPT Work + Codex "슈퍼 앱" 2일차 — 기존 앱은 ChatGPT Classic으로 이름 변경 (7/10)
+         : Cursor 3.11 — 사이드 챗 병렬 에이전트, 에이전트 트랜스크립트 검색, 클라우드 에이전트 훅, Team MCP (7/10)
+         : Claude Code v2.1.206 — 데스크톱 내장 브라우저, /doctor CLAUDE.md 경량화 제안, /code-review Opus 4.8 품질 개선 (7/10)
+         : Claude Code v2.1.207 — Bedrock/Vertex/Foundry 자동 모드 기본 활성화, Bedrock Opus 4.8 기본 (7/11)
+         : Copilot CLI v1.0.70-71 — GPT-5.6 모델 지원, /refine 프롬프트 재작성, 고정 프롬프트 (7/10)
+         : Copilot 66주 연속 하락 15, 종량제 41일차 — 개발자 이탈 지속 (7/11)
+         : Antigravity 99로 상승 — 22주 연속, Claude Code와 나란히 최고점 (7/11)
+         : Gemini 3.5 Pro 7월 17일 출시 확정 — 수학·SVG·코딩 아키텍처 개편 (7/11)
+         : Gemini CLI 셧다운 23일째 — 기업 전용, 16으로 하락 (7/11)
+         : Fable 5 구독 포함 D-1 — 내일 7/12 종료, 이후 $10/$50 per MTok 크레딧 (7/11)
+         : SPCX ~$148로 하락 — $225 ATH 대비 34%, 8/6 실적 발표 다음 촉매 (7/11)
+         : Codex CLI v0.144.1 — 독립 설치 수정, macOS 패키지 코드 모드 호스트 (7/11)
+         : Apple OpenAI 소송 — IO Products 인수 영업비밀 침해 주장 (7/11)
+         : Siri ChatGPT에서 Gemini로 전환 — Apple-OpenAI 파트너십 종료 (7/11)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1915,26 +1928,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-27", "06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10"]
+    x-axis ["06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11"]
     y-axis "인기 점수" 15 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16]
+    line "GH Copilot" [28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [87, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89]
-    line "Gemini CLI" [34, 32, 30, 28, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17]
-    line "Antigravity" [85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89]
+    line "Gemini CLI" [32, 30, 28, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16]
+    line "Antigravity" [86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-16↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-15↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-89―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-17↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-98↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-16↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-99↑-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

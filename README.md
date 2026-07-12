@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-11</sub>
+  <sub>Last updated: 2026-07-12</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.11-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.12-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -886,6 +886,16 @@ timeline
          : Codex CLI v0.144.1 — standalone install fix, macOS package code-mode host (Jul 11)
          : Apple sues OpenAI — IO Products acquisition trade secret theft allegations (Jul 11)
          : Siri switches from ChatGPT to Gemini — Apple-OpenAI partnership ends (Jul 11)
+         : Fable 5 subscription inclusion ends today — $10/$50 per MTok usage credits required Jul 13 (Jul 12)
+         : Copilot 67-week decline to 14, billing Day 42 — falls deeper into teens (Jul 12)
+         : Gemini CLI shutdown Day 24 — enterprise-only, declining to 15 (Jul 12)
+         : Gemini 3.5 Pro D-5 — July 17 GA approaching, coding/math benchmarks refined (Jul 12)
+         : Cursor rises to 97 — iOS beta momentum, 3.11 side chats adoption, Grok 4.5 integration (Jul 12)
+         : Codex merged into ChatGPT desktop — unified super app with 15-integration plugin directory (Jul 12)
+         : Grok 4.5 EU still locked — mid-July regulatory clearance target (Jul 12)
+         : ChatGPT Group Chat discontinued — no new group chats as of Jul 9 (Jul 12)
+         : Atlas browser deprecating Aug 9 — capabilities merging into ChatGPT and Codex (Jul 12)
+         : Anthropic $47B revenue run rate — overtakes OpenAI's $25-33B, Claude Code alone $2.5B+ (Jul 12)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1958,26 +1968,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["06-28", "06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11"]
-    y-axis "Popularity Score" 15 --> 100
+    x-axis ["06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12"]
+    y-axis "Popularity Score" 14 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
-    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96]
+    line "GH Copilot" [27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89]
-    line "Gemini CLI" [32, 30, 28, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16]
-    line "Antigravity" [86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89]
+    line "Gemini CLI" [30, 28, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
+    line "Antigravity" [87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-96―-3498DB?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-15↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-97↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-14↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-89―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-16↓-E74C3C?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-99↑-27AE60?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-15↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
 

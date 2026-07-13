@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-12</sub>
+  <sub>마지막 업데이트: 2026-07-13</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.12-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.13-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -224,7 +224,7 @@ timeline
          : Cursor Microsoft Teams 통합 — @Cursor로 클라우드 에이전트 위임 (5/13)
          : Copilot 11주 연속 하락 73 — CVE + Grok 종료 D-2 신뢰 악화 (5/13)
          : Claude Code v2.1.141 — 훅·플러그인·워크스페이스 신원 연합 (5/14)
-         : Claude Code 주간 한도 50% 인상 — Pro/Max/Team/Enterprise, 7/13까지 (5/14)
+         : Claude Code 주간 한도 50% 인상 — Pro/Max/Team/Enterprise, 7/19까지 (5/14)
          : Anthropic, Stainless $3억+ 인수 협상 — OpenAI·Google용 SDK 제작사 (5/14, 5/20 확정)
          : Cursor 클라우드 에이전트 개발 환경 — 멀티레포, Dockerfile 캐싱 (5/13)
          : Copilot 클라우드 에이전트 REST API 공개 미리보기 — 프로그래밍 방식 에이전트 작업 (5/13)
@@ -825,7 +825,7 @@ timeline
          : Copilot App 전 플랜 개방 — Free·Education·BYOK 모드, macOS/Windows/Linux (7/7)
          : GPT-5.6 Sol/Terra/Luna 3종 Codex 앱서 유출 — Fable 5 크레딧 전환 7/7-9 윈도우 노림 (7/7)
          : 트럼프 행정부 GPT-5.6 공개 출시 승인 — Sol/Terra/Luna 3종 7/9 GA (7/8)
-         : Fable 5 크레딧 전환 반발 — Anthropic 기존 구독자 7/12까지 연장 조치 (7/8)
+         : Fable 5 크레딧 전환 반발 — Anthropic 기존 구독자 7/19까지 연장 조치 (7/8)
          : SpaceX-Cursor 공동 모델 7/9 출격 — GPT-5.6 GA 같은 날, Grok 4.5 프라이빗 베타 (7/8)
          : Claude Code·Cowork 정부 퍼블릭 베타 — FedRAMP High, 로컬 저장, 변조 방지 감사 로그 (7/8)
          : Copilot 63주 연속 하락 18, 종량제 38일차 — M365 채택 위기 심화 (7/8)
@@ -840,7 +840,7 @@ timeline
          : GPT-5.6 Sol/Terra/Luna 공개 승인 — 트럼프 행정부 3종 GA 7/9 확정 (7/8)
          : 중국 AI 모델 미국 기업 토큰 점유율 30~46% — CNBC 조사, OpenRouter 데이터 (7/8)
          : VS Code 1.128 — Claude 멀티챗 에이전트 세션, Copilot Vision GA, OS레벨 키바인딩 (7/8)
-         : Fable 5 크레딧 전환 반발 — Anthropic 7/12까지 구독 연장 조치 (7/8)
+         : Fable 5 크레딧 전환 반발 — Anthropic 7/19까지 구독 연장 조치 (7/8)
          : Anthropic ID 인증 정책 발효 — 여권·신분증 + 셀카, Fable 5 접근용 (7/8)
          : 트럼프 AI 행정명령 서명 취소 — "중국 대비 우위 약화" 우려 (7/8)
          : GLM-5.2 채택 폭발 — Vercel 첫 주 27배 일간 토큰량, 80배 고객 증가 (7/8)
@@ -896,6 +896,15 @@ timeline
          : ChatGPT 그룹 챗 종료 — 7/9부터 신규 생성 불가 (7/12)
          : Atlas 브라우저 8/9 종료 예정 — 기능을 ChatGPT·Codex에 통합 (7/12)
          : Anthropic 연간 매출 $47B 런레이트 — OpenAI $25-33B 추월, Claude Code만 $2.5B+ (7/12)
+         : Fable 5 구독 포함 접근 7/19까지 3차 연장 — 5주 만에 세 번째 연장 (7/13)
+         : Claude Code 50% 주간 한도 상향도 7/19까지 연장 (7/13)
+         : Cursor에서 Claude Honeycomb EAP 유출 — 미발표 Anthropic 연구 모델, Opus 5 추측 (7/13)
+         : Copilot 68주 연속 하락 13, 종량제 43일차 — Gemini CLI 이하 추락 (7/13)
+         : Gemini CLI 셧다운 25일째 — 기업 전용, 14로 하락 (7/13)
+         : Gemini 3.5 Pro D-4 — 7월 17일 GA 카운트다운, 200만 토큰 컨텍스트 확인 (7/13)
+         : GPT-5.6 5일차 — ChatGPT Work 슈퍼 앱 채택 안정화 (7/13)
+         : Copilot Vision GA — Copilot Chat에 이미지/PDF 첨부 정식 출시 (7/13)
+         : Sonnet 5.5 다음 주 출시 예고 — Dario Amodei 확인, Sonnet-Opus 격차 축소 목표 (7/13)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1938,25 +1947,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["06-29", "06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12"]
-    y-axis "인기 점수" 14 --> 100
+    x-axis ["06-30", "07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13"]
+    y-axis "인기 점수" 13 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
-    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97]
+    line "GH Copilot" [26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89]
-    line "Gemini CLI" [30, 28, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
-    line "Antigravity" [87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 89]
+    line "Gemini CLI" [28, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
+    line "Antigravity" [88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-97↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-14↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-13↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-89―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-15↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-14↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 

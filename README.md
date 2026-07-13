@@ -1983,7 +1983,7 @@ xychart-beta
     line "GH Copilot" [26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 89]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90]
     line "Gemini CLI" [28, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
     line "Antigravity" [88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99]
 ```
@@ -1994,7 +1994,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-13↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-89―-3498DB?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-90↑-3498DB?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-14↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>

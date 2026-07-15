@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-14</sub>
+  <sub>마지막 업데이트: 2026-07-15</sub>
 </p>
 
 <p align="center">
@@ -912,7 +912,7 @@ timeline
          : Copilot 69주 연속 하락 12, 종량제 44일차 — 역대 최저 (7/14)
          : Gemini CLI 셧다운 26일째 — 기업 전용, 13으로 하락 (7/14)
          : Gemini 3.5 Pro D-3 — 7월 17일 GA 카운트다운, 사양 미확인 (7/14)
-         : Codex Micro 출시 — OpenAI 첫 하드웨어, Work Louder 매크로패드, 13키 + 조이스틱 (7/15)
+         : Codex Micro $230 출시 — OpenAI 첫 하드웨어, Work Louder 한정판, 에이전트 상태 키 + 추론 다이얼 (7/15)
          : Copilot 70주 연속 하락 11, 종량제 45일차 — 한 자릿수 진입 임박 (7/15)
          : Gemini CLI 셧다운 27일째 — 기업 전용, 12로 하락 (7/15)
          : Gemini 3.5 Pro D-2 — 7월 17일 GA, 200만 토큰 + Deep Think 예상 (7/15)
@@ -2573,6 +2573,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/15 | **Codex Micro $230 출시** — OpenAI 첫 하드웨어, Work Louder 한정 협업, 에이전트 상태 키, 추론 다이얼, 조이스틱; Apple 영업비밀 소송 중 별도 하드웨어 프로젝트 관련 | [techcrunch.com](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/) |
+| 2026/07/09 | **GPT-5.6 Sol GA** — ChatGPT 기본 모델, Plus/Pro 5시간 제한 해제, Codex GPT-5.6 구동 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/26 | **GPT-5.6 Sol/Terra/Luna 제한 프리뷰** — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; 미 정부 요청으로 ~20개 사전승인 기관만 접근; GA "수 주 내" 예정 | [openai.com](https://openai.com/index/previewing-gpt-5-6-sol/) |
 | 2026/06/27 | **GPT-4.5 공식 은퇴** — ChatGPT에서 30일 일몰 후 종료, 출시 4개월 만; GPT-4 시대 모델 완전 종료, 기존 대화 GPT-5.5 이관 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/25 | **Codex Remote GA** — 전 ChatGPT 플랜에서 모바일로 원격 코딩 제어, QR 인증 페어링, DigitalOcean Droplet 워크스페이스 플러그인 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
@@ -2656,6 +2658,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/15 | **Copilot Code Quality** 7월 20일 GA 발표 — 활성 커미터당 $10/월, AI 기반 코드 품질 분석 | [github.blog](https://github.blog/changelog/month/07-2026/) |
 | 2026/07/14 | Copilot **Visual Studio 6월 업데이트** — 조직 수준 커스텀 에이전트, 파일 전체 넥스트 에딧 제안, .NET/Azure 스킬 내장, 모델 피커 개편 | [github.blog](https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update/) |
 | 2026/07/01 | **Copilot Vision GA** — Copilot Chat에서 이미지/PDF 첨부, 전 티어, 기본 활성화 | [github.blog](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/) |
 | 2026/05/16 | **Microsoft, Claude Code 라이선스 취소** — Experiences + Devices 팀(Windows, M365, Outlook, Teams, Surface) 6/30까지 종료; Copilot CLI로 전환; 재정적 동기 | [windowscentral.com](https://www.windowscentral.com/microsoft/microsoft-cancels-claude-code-licenses-shifting-developers-to-github-copilot-cli-a-move-likely-driven-by-financial-motives) |

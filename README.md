@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-14</sub>
+  <sub>Last updated: 2026-07-15</sub>
 </p>
 
 <p align="center">
@@ -912,7 +912,7 @@ timeline
          : Copilot 69-week decline to 12, billing Day 44 — worst recorded level (Jul 14)
          : Gemini CLI shutdown Day 26 — enterprise-only, declining to 13 (Jul 14)
          : Gemini 3.5 Pro D-3 — July 17 GA countdown, specs still unconfirmed (Jul 14)
-         : Codex Micro launch day — OpenAI first hardware, Work Louder macro pad, 13 keys + joystick (Jul 15)
+         : Codex Micro launches at $230 — OpenAI first hardware, Work Louder limited-run, agent status keys + reasoning dial (Jul 15)
          : Copilot 70-week decline to 11, billing Day 45 — single digits imminent (Jul 15)
          : Gemini CLI shutdown Day 27 — enterprise-only, declining to 12 (Jul 15)
          : Gemini 3.5 Pro D-2 — July 17 GA, 2M context + Deep Think expected (Jul 15)
@@ -2614,6 +2614,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/15 | **Codex Micro launches at $230** — OpenAI's first hardware product, limited-run collaboration with Work Louder, agent status keys, reasoning dial, joystick; amid Apple trade-secret lawsuit over separate hardware project | [techcrunch.com](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/) |
+| 2026/07/09 | **GPT-5.6 Sol GA** — ChatGPT default model, 5-hour limit removed for Plus/Pro, Codex powered by GPT-5.6 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/26 | **GPT-5.6 Sol/Terra/Luna limited preview** — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; ~20 pre-approved orgs per US gov request; GA "in coming weeks" | [openai.com](https://openai.com/index/previewing-gpt-5-6-sol/) |
 | 2026/06/27 | **GPT-4.5 officially retired** from ChatGPT — 30-day sunset complete, all GPT-4 era models gone, conversations migrate to GPT-5.5 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/25 | **Codex Remote GA** — available on all ChatGPT plans, mobile remote control with QR auth pairing, DigitalOcean Droplet workspace plugin | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
@@ -2697,6 +2699,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/15 | **Copilot Code Quality** GA announced for July 20 — $10/active committer/month, AI-driven code quality analysis | [github.blog](https://github.blog/changelog/month/07-2026/) |
 | 2026/07/14 | Copilot **Visual Studio June update** — org-level custom agents, next-edit suggestions across file, built-in .NET/Azure skills, redesigned model picker | [github.blog](https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update/) |
 | 2026/07/01 | **Copilot Vision GA** — image/PDF attachment in Copilot Chat, all tiers, on by default | [github.blog](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/) |
 | 2026/05/16 | **Microsoft cancels Claude Code licenses** — Experiences + Devices team (Windows, M365, Outlook, Teams, Surface) winding down by June 30; shifting to Copilot CLI; financial motives cited | [windowscentral.com](https://www.windowscentral.com/microsoft/microsoft-cancels-claude-code-licenses-shifting-developers-to-github-copilot-cli-a-move-likely-driven-by-financial-motives) |

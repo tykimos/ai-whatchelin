@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.14-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.15-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -905,6 +905,18 @@ timeline
          : GPT-5.6 5일차 — ChatGPT Work 슈퍼 앱 채택 안정화 (7/13)
          : Copilot Vision GA — Copilot Chat에 이미지/PDF 첨부 정식 출시 (7/13)
          : Sonnet 5.5 다음 주 출시 예고 — Dario Amodei 확인, Sonnet-Opus 격차 축소 목표 (7/13)
+         : Grok Build 개인정보 스캔들 — 전체 Git 레포 GCS에 업로드, 프라이버시 토글 무효 (7/14)
+         : Copilot Visual Studio 6월 업데이트 — 조직 수준 커스텀 에이전트, 넥스트 에딧 제안 (7/14)
+         : Cursor "Sand" 범용 에이전트 개발 중 — Claude Cowork 시장 겨냥 (7/14)
+         : Concho AI 출시 — MCP 기반 레거시 앱 현대화 플랫폼 (7/14)
+         : Copilot 69주 연속 하락 12, 종량제 44일차 — 역대 최저 (7/14)
+         : Gemini CLI 셧다운 26일째 — 기업 전용, 13으로 하락 (7/14)
+         : Gemini 3.5 Pro D-3 — 7월 17일 GA 카운트다운, 사양 미확인 (7/14)
+         : Codex Micro 출시 — OpenAI 첫 하드웨어, Work Louder 매크로패드, 13키 + 조이스틱 (7/15)
+         : Copilot 70주 연속 하락 11, 종량제 45일차 — 한 자릿수 진입 임박 (7/15)
+         : Gemini CLI 셧다운 27일째 — 기업 전용, 12로 하락 (7/15)
+         : Gemini 3.5 Pro D-2 — 7월 17일 GA, 200만 토큰 + Deep Think 예상 (7/15)
+         : GPT-5.6 7일차 — ChatGPT 기본 모델 안정화, Codex Micro 출시 (7/15)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1947,25 +1959,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14"]
-    y-axis "인기 점수" 12 --> 100
+    x-axis ["07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15"]
+    y-axis "인기 점수" 11 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
-    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97]
+    line "GH Copilot" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90]
-    line "Gemini CLI" [26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
-    line "Antigravity" [89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90]
+    line "Gemini CLI" [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+    line "Antigravity" [90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-12↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-11↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-13↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-12↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2443,7 +2455,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Tabnine | tabnine.com/pricing | 연간 구독만, 무료 폐지 |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro 2025.07 폐지, Amp 전환 |
 | Trae | docs.trae.ai | 5단계: Free/$3/$10/$30/$100 |
-| Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모), **Grok Build Remote** 웹 에이전트, **/goal** 자율 실행, Agent Dashboard |
+| Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모), **Grok Build Remote** 웹 에이전트, **/goal** 자율 실행, Agent Dashboard; **⚠️ 개인정보 스캔들 (7/14)** — 전체 Git 레포 GCS 업로드, 프라이버시 토글 무효 |
 | Antigravity | antigravity.google | **15주 연속 상승 92점**; **Ultra AI Access 7/7 Workspace 제거** — Enterprise Standard/Plus로 이전 필요; **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반; **자동 업데이트 참사** (5/20) — 에디터·터미널·파일 탐색기 삭제, 점수 62→58 |
 
 
@@ -2644,6 +2656,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/14 | Copilot **Visual Studio 6월 업데이트** — 조직 수준 커스텀 에이전트, 파일 전체 넥스트 에딧 제안, .NET/Azure 스킬 내장, 모델 피커 개편 | [github.blog](https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update/) |
+| 2026/07/01 | **Copilot Vision GA** — Copilot Chat에서 이미지/PDF 첨부, 전 티어, 기본 활성화 | [github.blog](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/) |
 | 2026/05/16 | **Microsoft, Claude Code 라이선스 취소** — Experiences + Devices 팀(Windows, M365, Outlook, Teams, Surface) 6/30까지 종료; Copilot CLI로 전환; 재정적 동기 | [windowscentral.com](https://www.windowscentral.com/microsoft/microsoft-cancels-claude-code-licenses-shifting-developers-to-github-copilot-cli-a-move-likely-driven-by-financial-motives) |
 | 2026/05/14 | **Copilot App** 테크니컬 프리뷰 — 이슈/PR에서 시작하는 GitHub 네이티브 데스크톱 에이전트 경험, 세션별 브랜치·파일·대화 격리, 일시정지/재개 | [github.blog](https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/) |
 | 2026/05/14 | **Copilot 개인 플랜**: Pro/Pro+ flex 할당, 고볼륨 사용자용 **Max** 플랜 신설, 사용량 기반 과금(AI 크레딧) 6/1 전환 | [github.blog](https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/) |
@@ -2674,6 +2688,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/10 | **Cursor 3.11** — /side 병렬 에이전트 채팅, 에이전트 대화 검색, 팀 MCP 서버, iOS 퍼블릭 베타(모든 유료 플랜) | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/19 | **Composer 2.5** — Cursor 자체 모델, SWE-Bench Multilingual 79.8%, CursorBench v3.1 63.2%, Opus 4.7/GPT-5.5급 성능; 입력 $0.50/M, 출력 $2.50/M (스탠다드); **xAI Colossus 2 파트너십**으로 대규모 후속 모델 훈련 | [cursor.com](https://cursor.com/blog/composer-2-5) |
 | 2026/05/18 | **Cursor 3.4** — **/multitask** 에디터 내 비동기 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window(대시보드·테이블·다이어그램), PR 리뷰 경험 개선, 빠른 액션 필 | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/13 | **클라우드 에이전트 개발 환경** — 멀티레포 지원, Dockerfile 레이어 캐싱(빌드 70% 가속), 환경별 롤백, 감사 로깅, 스코프드 시크릿 | [cursor.com](https://cursor.com/changelog/05-13-26) |
@@ -2696,6 +2711,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/14 | **Grok Build 개인정보 스캔들** — 전체 Git 레포 GCS에 업로드, 프라이버시 토글 무효, Musk 데이터 삭제 약속 | [thehackernews.com](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html) |
+| 2026/07/08 | **Grok 4.5** — SpaceXAI-Cursor 첫 공동 모델, Opus급 $2/$6/MTok, 1.5T V9 파운데이션, Cursor 개발자 데이터 | [axios.com](https://www.axios.com/) |
 | 2026/05/14 | **Grok Build** 베타 — 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta 모델, 2M 컨텍스트, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99/월 프로모) | [engadget.com](https://www.engadget.com/2173482/xai-coding-agent-grok-build/) |
 | 2026/03/10 | **Grok 4.20** (2M 컨텍스트, 멀티에이전트) | [docs.x.ai](https://docs.x.ai/developers/release-notes) |
 | 2026/01/28 | Grok Imagine API (비디오 + 이미지 생성) | [x.ai](https://x.ai/news/grok-imagine-api) |

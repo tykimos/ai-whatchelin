@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.14-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.15-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -905,6 +905,18 @@ timeline
          : GPT-5.6 Day 5 — ChatGPT Work super app adoption stabilizing (Jul 13)
          : Copilot Vision GA — image/PDF attachment in Copilot Chat now generally available (Jul 13)
          : Sonnet 5.5 reportedly coming next week — Dario Amodei confirms, closing Sonnet-Opus gap (Jul 13)
+         : Grok Build privacy scandal — entire Git repos uploaded to GCS, privacy toggle non-functional (Jul 14)
+         : Copilot Visual Studio June update — org-level custom agents, next-edit suggestions across file (Jul 14)
+         : Cursor "Sand" general-purpose agent in development — targeting Claude Cowork market (Jul 14)
+         : Concho AI launched — MCP-based legacy app modernization platform (Jul 14)
+         : Copilot 69-week decline to 12, billing Day 44 — worst recorded level (Jul 14)
+         : Gemini CLI shutdown Day 26 — enterprise-only, declining to 13 (Jul 14)
+         : Gemini 3.5 Pro D-3 — July 17 GA countdown, specs still unconfirmed (Jul 14)
+         : Codex Micro launch day — OpenAI first hardware, Work Louder macro pad, 13 keys + joystick (Jul 15)
+         : Copilot 70-week decline to 11, billing Day 45 — single digits imminent (Jul 15)
+         : Gemini CLI shutdown Day 27 — enterprise-only, declining to 12 (Jul 15)
+         : Gemini 3.5 Pro D-2 — July 17 GA, 2M context + Deep Think expected (Jul 15)
+         : GPT-5.6 Day 7 — ChatGPT default model stabilizing, Codex Micro launches (Jul 15)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1977,25 +1989,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-01", "07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14"]
-    y-axis "Popularity Score" 12 --> 100
+    x-axis ["07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15"]
+    y-axis "Popularity Score" 11 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
-    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97]
+    line "GH Copilot" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90]
-    line "Gemini CLI" [26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
-    line "Antigravity" [89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90]
+    line "Gemini CLI" [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+    line "Antigravity" [90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-12↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-11↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-13↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-12↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2483,7 +2495,7 @@ All pricing information has been directly verified from each service's official 
 | Tabnine | tabnine.com/pricing | annual subscription only, free plan discontinued |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro discontinued Jul 2025, moved to Amp |
 | Trae | docs.trae.ai | 5 tiers: Free/$3/$10/$30/$100 |
-| Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo), **Grok Build Remote** web-based agent, **/goal** autonomous execution, Agent Dashboard |
+| Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo), **Grok Build Remote** web-based agent, **/goal** autonomous execution, Agent Dashboard; **⚠️ Privacy scandal (Jul 14)** — entire Git repos uploaded to GCS, privacy toggle non-functional |
 | Antigravity | antigravity.google | **15-week streak to 92**; **Ultra AI Access removed Jul 7** from Workspace — migrate to Enterprise Standard/Plus; **Antigravity 2.0 GA** — desktop app + CLI + SDK, free tier, AI Ultra $100/mo (5x Pro), Gemini 3.5 Flash powered; **auto-update fiasco** (May 20) — editor/terminal/file explorer removed, score drops 62→58 |
 | Midjourney | midjourney.com | V1 video model launched, 5-20sec clips |
 
@@ -2685,6 +2697,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/14 | Copilot **Visual Studio June update** — org-level custom agents, next-edit suggestions across file, built-in .NET/Azure skills, redesigned model picker | [github.blog](https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update/) |
+| 2026/07/01 | **Copilot Vision GA** — image/PDF attachment in Copilot Chat, all tiers, on by default | [github.blog](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/) |
 | 2026/05/16 | **Microsoft cancels Claude Code licenses** — Experiences + Devices team (Windows, M365, Outlook, Teams, Surface) winding down by June 30; shifting to Copilot CLI; financial motives cited | [windowscentral.com](https://www.windowscentral.com/microsoft/microsoft-cancels-claude-code-licenses-shifting-developers-to-github-copilot-cli-a-move-likely-driven-by-financial-motives) |
 | 2026/05/14 | **Copilot App** technical preview — GitHub-native desktop experience for agentic development from issues/PRs, isolated sessions with branch/file/conversation separation, pause/resume | [github.blog](https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/) |
 | 2026/05/14 | **Copilot individual plans**: flex allotments for Pro/Pro+, new **Max** plan for high-volume usage, usage-based billing (AI Credits) June 1 | [github.blog](https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/) |
@@ -2715,6 +2729,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/10 | **Cursor 3.11** — /side parallel agent chats, agent transcript search, team MCP servers, iOS public beta on all paid plans | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/19 | **Composer 2.5** — Cursor's own model, 79.8% SWE-Bench Multilingual, 63.2% CursorBench v3.1, matches Opus 4.7/GPT-5.5; $0.50/M input, $2.50/M output (standard); **xAI Colossus 2 partnership** for training larger model from scratch | [cursor.com](https://cursor.com/blog/composer-2-5) |
 | 2026/05/18 | **Cursor 3.4** — **/multitask** for async parallel subagents in editor, **interactive canvases** in Agents Window (dashboards, tables, diagrams), PR review experience, quick-action pills for common workflows | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/13 | **Development Environments** for cloud agents — multi-repo support, Dockerfile layer caching (70% faster builds), per-environment rollback, audit logging, scoped secrets | [cursor.com](https://cursor.com/changelog/05-13-26) |
@@ -2737,6 +2752,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/14 | **Grok Build privacy scandal** — entire Git repos uploaded to GCS, privacy toggle non-functional, Musk promises data deletion | [thehackernews.com](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html) |
+| 2026/07/08 | **Grok 4.5** — SpaceXAI-Cursor first joint model, Opus-class at $2/$6 per MTok, 1.5T V9 foundation, Cursor developer data | [axios.com](https://www.axios.com/) |
 | 2026/05/14 | **Grok Build** beta — first coding agent, 8 parallel agents, Grok 4.3 beta model, 2M context, SWE-Bench 70.8%, $300/mo SuperGrok Heavy ($99/mo promo) | [engadget.com](https://www.engadget.com/2173482/xai-coding-agent-grok-build/) |
 | 2026/03/10 | **Grok 4.20** (2M context, multi-agent) | [docs.x.ai](https://docs.x.ai/developers/release-notes) |
 | 2026/01/28 | Grok Imagine API (video + image generation) | [x.ai](https://x.ai/news/grok-imagine-api) |

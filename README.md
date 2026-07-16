@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-15</sub>
+  <sub>Last updated: 2026-07-16</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.15-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.16-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -917,6 +917,12 @@ timeline
          : Gemini CLI shutdown Day 27 — enterprise-only, declining to 12 (Jul 15)
          : Gemini 3.5 Pro D-2 — July 17 GA, 2M context + Deep Think expected (Jul 15)
          : GPT-5.6 Day 7 — ChatGPT default model stabilizing, Codex Micro launches (Jul 15)
+         : Grok Build open-sourced under Apache 2.0 — 844K lines Rust, exfiltration code remains in binary (Jul 16)
+         : Codex Micro begins shipping — Agent Keys ChatGPT Desktop only, first wave July 24 (Jul 16)
+         : Copilot 71-week decline to 10, billing Day 46 — single digits reached (Jul 16)
+         : Gemini CLI shutdown Day 28 — enterprise-only, declining to 11 (Jul 16)
+         : Gemini 3.5 Pro D-1 — July 17 GA target tomorrow, specs still unconfirmed (Jul 16)
+         : China AI companion rules Day 2 — Doubao/Qwen still offline (Jul 16)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1989,25 +1995,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15"]
-    y-axis "Popularity Score" 11 --> 100
+    x-axis ["07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16"]
+    y-axis "Popularity Score" 10 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
-    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97]
+    line "GH Copilot" [23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90]
-    line "Gemini CLI" [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
-    line "Antigravity" [90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90]
+    line "Gemini CLI" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+    line "Antigravity" [91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-11↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-10↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-12↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-11↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2486,7 +2492,7 @@ All pricing information has been directly verified from each service's official 
 | Cursor | cursor.com/pricing | **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
-| GitHub Copilot | github.com/features/copilot/plans | **59-week decline to 22**; **AI Credit Pools for Cost Centers** + **per-user budgets** (Jul 2); **Copilot CLI v1.0.68** — Kimi K2.7 Code model added, Claude Sonnet 5 support; **Claude Sonnet 5 added** (Jul 2) — gradual rollout Pro/Pro+/Max/Business/Enterprise, ZDR; **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
+| GitHub Copilot | github.com/features/copilot/plans | **71-week decline to 10**; **AI Credit Pools for Cost Centers** + **per-user budgets** (Jul 2); **Copilot CLI v1.0.68** — Kimi K2.7 Code model added, Claude Sonnet 5 support; **Claude Sonnet 5 added** (Jul 2) — gradual rollout Pro/Pro+/Max/Business/Enterprise, ZDR; **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
@@ -2495,8 +2501,8 @@ All pricing information has been directly verified from each service's official 
 | Tabnine | tabnine.com/pricing | annual subscription only, free plan discontinued |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro discontinued Jul 2025, moved to Amp |
 | Trae | docs.trae.ai | 5 tiers: Free/$3/$10/$30/$100 |
-| Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo), **Grok Build Remote** web-based agent, **/goal** autonomous execution, Agent Dashboard; **⚠️ Privacy scandal (Jul 14)** — entire Git repos uploaded to GCS, privacy toggle non-functional |
-| Antigravity | antigravity.google | **15-week streak to 92**; **Ultra AI Access removed Jul 7** from Workspace — migrate to Enterprise Standard/Plus; **Antigravity 2.0 GA** — desktop app + CLI + SDK, free tier, AI Ultra $100/mo (5x Pro), Gemini 3.5 Flash powered; **auto-update fiasco** (May 20) — editor/terminal/file explorer removed, score drops 62→58 |
+| Grok Build | x.ai | **NEW** — xAI's first coding agent, 8 parallel agents, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/mo ($99 promo), **Grok Build Remote** web-based agent, **/goal** autonomous execution, Agent Dashboard; **⚠️ Privacy scandal (Jul 14)** — entire Git repos uploaded to GCS, privacy toggle non-functional; **Open-sourced (Jul 16)** Apache 2.0, 844K lines Rust, exfiltration code remains in binary |
+| Antigravity | antigravity.google | **26-week streak to 99**; **Ultra AI Access removed Jul 7** from Workspace — migrate to Enterprise Standard/Plus; **Antigravity 2.0 GA** — desktop app + CLI + SDK, free tier, AI Ultra $100/mo (5x Pro), Gemini 3.5 Flash powered; **auto-update fiasco** (May 20) — editor/terminal/file explorer removed, score drops 62→58 |
 | Midjourney | midjourney.com | V1 video model launched, 5-20sec clips |
 
 
@@ -2755,6 +2761,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/16 | **Grok Build open-sourced** under Apache 2.0 — 844K lines Rust on GitHub, exfiltration code remains in binary, server-side flag only | [techtimes.com](https://www.techtimes.com/articles/320671/20260716/grok-build-open-sourced-after-covert-upload-code-exfiltrate-repos-stays.htm) |
 | 2026/07/14 | **Grok Build privacy scandal** — entire Git repos uploaded to GCS, privacy toggle non-functional, Musk promises data deletion | [thehackernews.com](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html) |
 | 2026/07/08 | **Grok 4.5** — SpaceXAI-Cursor first joint model, Opus-class at $2/$6 per MTok, 1.5T V9 foundation, Cursor developer data | [axios.com](https://www.axios.com/) |
 | 2026/05/14 | **Grok Build** beta — first coding agent, 8 parallel agents, Grok 4.3 beta model, 2M context, SWE-Bench 70.8%, $300/mo SuperGrok Heavy ($99/mo promo) | [engadget.com](https://www.engadget.com/2173482/xai-coding-agent-grok-build/) |

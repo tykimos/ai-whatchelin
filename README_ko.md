@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-15</sub>
+  <sub>마지막 업데이트: 2026-07-16</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.15-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.16-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -917,6 +917,12 @@ timeline
          : Gemini CLI 셧다운 27일째 — 기업 전용, 12로 하락 (7/15)
          : Gemini 3.5 Pro D-2 — 7월 17일 GA, 200만 토큰 + Deep Think 예상 (7/15)
          : GPT-5.6 7일차 — ChatGPT 기본 모델 안정화, Codex Micro 출시 (7/15)
+         : Grok Build Apache 2.0 오픈소스 전환 — Rust 844K 라인, 유출 코드 바이너리에 잔존 (7/16)
+         : Codex Micro 출하 시작 — Agent Keys ChatGPT Desktop 전용, 첫 배송 7/24 (7/16)
+         : Copilot 71주 연속 하락 10, 종량제 46일차 — 한 자릿수 진입 (7/16)
+         : Gemini CLI 셧다운 28일째 — 기업 전용, 11로 하락 (7/16)
+         : Gemini 3.5 Pro D-1 — 내일 7/17 GA 목표, 사양 미확인 (7/16)
+         : 중국 AI 컴패니언 규제 2일차 — Doubao·Qwen 여전히 중단 (7/16)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1959,25 +1965,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-02", "07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15"]
-    y-axis "인기 점수" 11 --> 100
+    x-axis ["07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16"]
+    y-axis "인기 점수" 10 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
-    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97]
+    line "GH Copilot" [23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90]
-    line "Gemini CLI" [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
-    line "Antigravity" [90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99]
+    line "Codex CLI" [88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90]
+    line "Gemini CLI" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+    line "Antigravity" [91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-11↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-10↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-12↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-11↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2446,7 +2452,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Cursor | cursor.com/pricing | **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
-| GitHub Copilot | github.com/features/copilot/plans | **59주 연속 하락 22**; **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
+| GitHub Copilot | github.com/features/copilot/plans | **71주 연속 하락 10**; **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -2455,8 +2461,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Tabnine | tabnine.com/pricing | 연간 구독만, 무료 폐지 |
 | Sourcegraph | sourcegraph.com | Cody Free/Pro 2025.07 폐지, Amp 전환 |
 | Trae | docs.trae.ai | 5단계: Free/$3/$10/$30/$100 |
-| Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모), **Grok Build Remote** 웹 에이전트, **/goal** 자율 실행, Agent Dashboard; **⚠️ 개인정보 스캔들 (7/14)** — 전체 Git 레포 GCS 업로드, 프라이버시 토글 무효 |
-| Antigravity | antigravity.google | **15주 연속 상승 92점**; **Ultra AI Access 7/7 Workspace 제거** — Enterprise Standard/Plus로 이전 필요; **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반; **자동 업데이트 참사** (5/20) — 에디터·터미널·파일 탐색기 삭제, 점수 62→58 |
+| Grok Build | x.ai | **신규** — xAI 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99 프로모), **Grok Build Remote** 웹 에이전트, **/goal** 자율 실행, Agent Dashboard; **⚠️ 개인정보 스캔들 (7/14)** — 전체 Git 레포 GCS 업로드, 프라이버시 토글 무효; **오픈소스 전환 (7/16)** Apache 2.0, Rust 844K 라인, 유출 코드 바이너리 잔존 |
+| Antigravity | antigravity.google | **26주 연속 상승 99점**; **Ultra AI Access 7/7 Workspace 제거** — Enterprise Standard/Plus로 이전 필요; **Antigravity 2.0 GA** — 데스크톱 앱 + CLI + SDK, 무료 티어, AI Ultra $100/월 (Pro 5배), Gemini 3.5 Flash 기반; **자동 업데이트 참사** (5/20) — 에디터·터미널·파일 탐색기 삭제, 점수 62→58 |
 
 
 
@@ -2714,6 +2720,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/16 | **Grok Build 오픈소스 전환** Apache 2.0 — Rust 844K 라인 GitHub 공개, 유출 코드 바이너리 잔존, 서버 측 플래그만으로 제어 | [techtimes.com](https://www.techtimes.com/articles/320671/20260716/grok-build-open-sourced-after-covert-upload-code-exfiltrate-repos-stays.htm) |
 | 2026/07/14 | **Grok Build 개인정보 스캔들** — 전체 Git 레포 GCS에 업로드, 프라이버시 토글 무효, Musk 데이터 삭제 약속 | [thehackernews.com](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html) |
 | 2026/07/08 | **Grok 4.5** — SpaceXAI-Cursor 첫 공동 모델, Opus급 $2/$6/MTok, 1.5T V9 파운데이션, Cursor 개발자 데이터 | [axios.com](https://www.axios.com/) |
 | 2026/05/14 | **Grok Build** 베타 — 최초 코딩 에이전트, 8개 병렬 에이전트, Grok 4.3 beta 모델, 2M 컨텍스트, SWE-Bench 70.8%, SuperGrok Heavy $300/월 ($99/월 프로모) | [engadget.com](https://www.engadget.com/2173482/xai-coding-agent-grok-build/) |

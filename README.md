@@ -920,9 +920,13 @@ timeline
          : Grok Build open-sourced under Apache 2.0 — 844K lines Rust, exfiltration code remains in binary (Jul 16)
          : Codex Micro begins shipping — Agent Keys ChatGPT Desktop only, first wave July 24 (Jul 16)
          : Copilot 71-week decline to 10, billing Day 46 — single digits reached (Jul 16)
-         : Gemini CLI shutdown Day 28 — enterprise-only, declining to 11 (Jul 16)
+         : Gemini CLI shutdown Day 28 — enterprise-only, declining to 10 (Jul 16)
          : Gemini 3.5 Pro D-1 — July 17 GA target tomorrow, specs still unconfirmed (Jul 16)
          : China AI companion rules Day 2 — Doubao/Qwen still offline (Jul 16)
+         : Bloomberg: Gemini 3.5 Pro "months behind schedule" — Alphabet drops 4.4%, ~$200B market cap erased (Jul 16)
+         : Ode with Anthropic launched — $1.5B AI implementation firm, Anthropic + Blackstone + H&F (Jul 16)
+         : Claude Code v2.1.211 — subagent text streaming, permission preview hardening (Jul 16)
+         : Gemini CLI shutdown Day 28 — Gemini 3.5 Pro bombshell compounds decline, score drops to 10 (Jul 16)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2002,7 +2006,7 @@ xychart-beta
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90]
-    line "Gemini CLI" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+    line "Gemini CLI" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 10]
     line "Antigravity" [91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2013,7 +2017,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_GH_Copilot-10↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-11↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-10↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2544,6 +2548,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/16 | **Ode with Anthropic** launched — $1.5B AI implementation firm, joint venture with Blackstone and Hellman & Friedman, 100 engineers (over half former founders), "Claude-first" but model-agnostic | [techcrunch.com](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/) |
+| 2026/07/16 | **Claude Code v2.1.211** — `--forward-subagent-text` streaming flag, permission preview character neutralization, parallel session logout fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/06/24 | **Anthropic accuses Alibaba of largest distillation attack** — Qwen lab ran 25,000 fake accounts, 28.8M exchanges targeting Claude's SWE + agentic reasoning; letter sent to Senate Banking Committee and White House | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models) |
 | 2026/06/23 | **Claude Tag** launches — AI virtual employee embedded in Slack for Enterprise/Team customers; 65% of Anthropic's internal code changes approved by Tag | [fortune.com](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/) |
 | 2026/06/12 | **Fable 5 & Mythos 5 export ban** — US government directive suspends all access by foreign nationals citing national security; worldwide shutdown | [anthropic.com](https://www.anthropic.com/news/fable-mythos-access) |
@@ -2671,6 +2677,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/16 | **Bloomberg: Gemini 3.5 Pro "months behind schedule"** — coding capabilities specific pain point, Alphabet drops 4.4% (~$200B market cap erased), DeepMind scrapped original base model, Gemini 3.6 Flash stopgap rumored | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals) |
 | 2026/05/19 | **Gemini 3.5 Flash GA** — 4x faster than frontier models, Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, $1.50/$9 per 1M tokens, 1M context window; Gemini 3.5 Pro coming next month | [tomsguide.com](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates) |
 | 2026/05/19 | **Antigravity 2.0 GA** — global launch with desktop app, CLI tool, SDK for custom workflows; multi-agent orchestration, voice commands, AI Studio export; AI Ultra plan $100/mo (5x Pro limits) | [techcrunch.com](https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/) |
 | 2026/05/19 | **Gemini Spark** — personal AI agent in Gemini app, runs 24/7 on Google Cloud VMs, powered by Gemini 3.5 | [macrumors.com](https://www.macrumors.com/2026/05/19/google-io-2026-roundup/) |

@@ -920,9 +920,13 @@ timeline
          : Grok Build Apache 2.0 오픈소스 전환 — Rust 844K 라인, 유출 코드 바이너리에 잔존 (7/16)
          : Codex Micro 출하 시작 — Agent Keys ChatGPT Desktop 전용, 첫 배송 7/24 (7/16)
          : Copilot 71주 연속 하락 10, 종량제 46일차 — 한 자릿수 진입 (7/16)
-         : Gemini CLI 셧다운 28일째 — 기업 전용, 11로 하락 (7/16)
+         : Gemini CLI 셧다운 28일째 — 기업 전용, 10으로 하락 (7/16)
          : Gemini 3.5 Pro D-1 — 내일 7/17 GA 목표, 사양 미확인 (7/16)
          : 중국 AI 컴패니언 규제 2일차 — Doubao·Qwen 여전히 중단 (7/16)
+         : Bloomberg: Gemini 3.5 Pro "수개월 지연" — Alphabet 4.4% 하락, 시가총액 ~$2000억 증발 (7/16)
+         : Ode with Anthropic 출범 — $15억 AI 구현 기업, Anthropic + Blackstone + H&F (7/16)
+         : Claude Code v2.1.211 — 서브에이전트 텍스트 스트리밍, 권한 프리뷰 강화 (7/16)
+         : Gemini CLI 셧다운 28일째 — Gemini 3.5 Pro 악재 겹쳐 점수 10으로 하락 (7/16)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1972,7 +1976,7 @@ xychart-beta
     line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90]
-    line "Gemini CLI" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+    line "Gemini CLI" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 10]
     line "Antigravity" [91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -1983,7 +1987,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_GH_Copilot-10↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-11↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-10↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2503,6 +2507,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/16 | **Ode with Anthropic** 출범 — $15억 AI 구현 기업, Blackstone·Hellman & Friedman과 합작, 엔지니어 100명 (절반 이상 전직 창업자), "Claude-first" 모델 불문 | [techcrunch.com](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/) |
+| 2026/07/16 | **Claude Code v2.1.211** — `--forward-subagent-text` 스트리밍 플래그, 권한 프리뷰 문자 무력화, 병렬 세션 로그아웃 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/06/24 | **Anthropic, Alibaba 사상 최대 증류 공격 고발** — Qwen 연구소가 가짜 계정 25,000개로 28.8M건 교환, Claude SWE·에이전틱 추론 타깃; 상원 은행위원회·백악관에 서한 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models) |
 | 2026/06/23 | **Claude Tag** 출시 — Slack 내 AI 가상 직원, Enterprise/Team 대상; Anthropic 내부 코드 변경 65%를 Tag가 승인·반영 | [fortune.com](https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/) |
 | 2026/06/12 | **Fable 5 & Mythos 5 수출통제 차단** — 미국 정부 국가안보 근거 외국인 접근 전면 중단 지시; 전 세계 셧다운 | [anthropic.com](https://www.anthropic.com/news/fable-mythos-access) |
@@ -2630,6 +2636,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/16 | **Bloomberg: Gemini 3.5 Pro "수개월 지연"** — 코딩 역량이 구체적 문제점, Alphabet 4.4% 하락 (~$2000억 시가총액 증발), DeepMind 원래 기반 모델 폐기, Gemini 3.6 Flash 임시 대안 루머 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals) |
 | 2026/05/19 | **Gemini 3.5 Flash GA** — 프론티어 모델 대비 4배 빠른 출력, Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, $1.50/$9/M 토큰, 1M 컨텍스트; Gemini 3.5 Pro 내달 출시 예정 | [tomsguide.com](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates) |
 | 2026/05/19 | **Antigravity 2.0 GA** — 데스크톱 앱·CLI·SDK 전 세계 출시; 멀티에이전트 오케스트레이션, 음성 명령, AI Studio 내보내기; AI Ultra $100/월 (Pro 5배) | [techcrunch.com](https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/) |
 | 2026/05/19 | **Gemini Spark** — Gemini 앱 내 개인 AI 에이전트, Google Cloud VM에서 24/7 작동, Gemini 3.5 기반 | [macrumors.com](https://www.macrumors.com/2026/05/19/google-io-2026-roundup/) |

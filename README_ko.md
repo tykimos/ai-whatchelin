@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-16</sub>
+  <sub>마지막 업데이트: 2026-07-17</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.16-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.17-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1969,25 +1969,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16"]
-    y-axis "인기 점수" 10 --> 100
+    x-axis ["07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17"]
+    y-axis "인기 점수" 9 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
-    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97, 97]
+    line "GH Copilot" [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90]
-    line "Gemini CLI" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 10]
-    line "Antigravity" [91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99]
+    line "Codex CLI" [88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90]
+    line "Gemini CLI" [23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 10, 9]
+    line "Antigravity" [92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-10↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-9↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-10↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-9↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2507,6 +2507,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/17 | **Claude Code v2.1.212** — `/fork`가 백그라운드 세션으로 전환(기존 서브에이전트→`/subtask`), 세션당 WebSearch 제한(기본 200회), `claude auto-mode reset` 명령어, `/resume` 세션 선택기 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/16 | **Ode with Anthropic** 출범 — $15억 AI 구현 기업, Blackstone·Hellman & Friedman과 합작, 엔지니어 100명 (절반 이상 전직 창업자), "Claude-first" 모델 불문 | [techcrunch.com](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/) |
 | 2026/07/16 | **Claude Code v2.1.211** — `--forward-subagent-text` 스트리밍 플래그, 권한 프리뷰 문자 무력화, 병렬 세션 로그아웃 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/06/24 | **Anthropic, Alibaba 사상 최대 증류 공격 고발** — Qwen 연구소가 가짜 계정 25,000개로 28.8M건 교환, Claude SWE·에이전틱 추론 타깃; 상원 은행위원회·백악관에 서한 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models) |
@@ -2636,6 +2637,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/17 | **Gemini 3.5 Pro 여전히 "coming soon"** — 루머였던 7/17 GA 목표일 경과, DeepMind 공식 페이지 "3.5 Pro coming soon" 유지; Gemini API에는 3.5 Flash와 3.1 Pro만 등록 | [deepmind.google](https://deepmind.google/models/gemini/) |
 | 2026/07/16 | **Bloomberg: Gemini 3.5 Pro "수개월 지연"** — 코딩 역량이 구체적 문제점, Alphabet 4.4% 하락 (~$2000억 시가총액 증발), DeepMind 원래 기반 모델 폐기, Gemini 3.6 Flash 임시 대안 루머 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals) |
 | 2026/05/19 | **Gemini 3.5 Flash GA** — 프론티어 모델 대비 4배 빠른 출력, Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, $1.50/$9/M 토큰, 1M 컨텍스트; Gemini 3.5 Pro 내달 출시 예정 | [tomsguide.com](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates) |
 | 2026/05/19 | **Antigravity 2.0 GA** — 데스크톱 앱·CLI·SDK 전 세계 출시; 멀티에이전트 오케스트레이션, 음성 명령, AI Studio 내보내기; AI Ultra $100/월 (Pro 5배) | [techcrunch.com](https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/) |

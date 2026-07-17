@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-16</sub>
+  <sub>Last updated: 2026-07-17</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.16-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.17-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1999,25 +1999,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-03", "07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16"]
-    y-axis "Popularity Score" 10 --> 100
+    x-axis ["07-04", "07-05", "07-06", "07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17"]
+    y-axis "Popularity Score" 9 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
-    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97, 97]
+    line "GH Copilot" [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+    line "Cursor" [96, 96, 96, 96, 96, 96, 96, 96, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90]
-    line "Gemini CLI" [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 10]
-    line "Antigravity" [91, 92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99]
+    line "Codex CLI" [88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90]
+    line "Gemini CLI" [23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 10, 9]
+    line "Antigravity" [92, 93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-10↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-9↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-10↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-9↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2548,6 +2548,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/17 | **Claude Code v2.1.212** — `/fork` now spawns background session (not in-session subagent), `/subtask` replaces old behavior, session-wide WebSearch limit (default 200), `claude auto-mode reset` command, `/resume` session picker | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/16 | **Ode with Anthropic** launched — $1.5B AI implementation firm, joint venture with Blackstone and Hellman & Friedman, 100 engineers (over half former founders), "Claude-first" but model-agnostic | [techcrunch.com](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/) |
 | 2026/07/16 | **Claude Code v2.1.211** — `--forward-subagent-text` streaming flag, permission preview character neutralization, parallel session logout fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/06/24 | **Anthropic accuses Alibaba of largest distillation attack** — Qwen lab ran 25,000 fake accounts, 28.8M exchanges targeting Claude's SWE + agentic reasoning; letter sent to Senate Banking Committee and White House | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models) |
@@ -2677,6 +2678,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/17 | **Gemini 3.5 Pro still "coming soon"** — rumored July 17 GA target passes without official launch, DeepMind page still lists "3.5 Pro coming soon"; Gemini API shows only 3.5 Flash and 3.1 Pro | [deepmind.google](https://deepmind.google/models/gemini/) |
 | 2026/07/16 | **Bloomberg: Gemini 3.5 Pro "months behind schedule"** — coding capabilities specific pain point, Alphabet drops 4.4% (~$200B market cap erased), DeepMind scrapped original base model, Gemini 3.6 Flash stopgap rumored | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals) |
 | 2026/05/19 | **Gemini 3.5 Flash GA** — 4x faster than frontier models, Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, $1.50/$9 per 1M tokens, 1M context window; Gemini 3.5 Pro coming next month | [tomsguide.com](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates) |
 | 2026/05/19 | **Antigravity 2.0 GA** — global launch with desktop app, CLI tool, SDK for custom workflows; multi-agent orchestration, voice commands, AI Studio export; AI Ultra plan $100/mo (5x Pro limits) | [techcrunch.com](https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/) |

@@ -927,6 +927,21 @@ timeline
          : Ode with Anthropic launched — $1.5B AI implementation firm, Anthropic + Blackstone + H&F (Jul 16)
          : Claude Code v2.1.211 — subagent text streaming, permission preview hardening (Jul 16)
          : Gemini CLI shutdown Day 28 — Gemini 3.5 Pro bombshell compounds decline, score drops to 10 (Jul 16)
+         : Kimi K3 launched — Moonshot AI 2.8T MoE, 1M context, Artificial Analysis #3, $3/$15 per MTok (Jul 16)
+         : LM Studio Bionic launched — AI agent app for coding/research with open models, zero data retention (Jul 16)
+         : Grok 4.5 described as "Opus-class but faster and cheaper" by Musk — 64.7% SWE-bench Pro (Jul 16)
+         : Copilot CLI v1.0.71 — plan mode hard-blocks workspace edits, voice device persistence (Jul 16)
+         : Nadella criticizes Fable as "editorially controlled" — Microsoft-Anthropic tensions rise (Jul 16)
+         : Codex CLI v0.144.5 — improved dangerous command detection and rejection reasons (Jul 16)
+         : Claude Code v2.1.212 — /fork background sessions, /subtask replaces old /fork, WebSearch cap 200 (Jul 17)
+         : Gemini 3.5 Pro July 17 GA no-show — Google silent, DeepMind page still says "coming soon" (Jul 17)
+         : Copilot 72-week decline to 9, billing Day 47 — Code Quality GA July 20 (Jul 17)
+         : Gemini CLI shutdown Day 29 — 3.5 Pro no-show deepens decline, holding at 9 (Jul 17)
+         : Codex CLI surpasses 5M weekly users — 1M+ non-programming use cases (Jul 17)
+         : Gemini Notebook (formerly NotebookLM) — secure cloud computer for code, Pro rollout (Jul 17)
+         : Apple targets dozens of OpenAI employees with legal letters — HN #1 (Jul 17)
+         : Atlas sunsetting August 9 — capabilities merged into ChatGPT and Codex (Jul 17)
+         : Anthropic discloses China-linked abuse — 28.8M queries from ~25K fraudulent accounts Apr-Jun (Jul 17)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2548,6 +2563,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/17 | **Claude for Teachers** launched — free access to premium Claude tools for verified US K-12 educators, curriculum connections aligned to standards in all 50 states | [anthropic.com](https://www.anthropic.com/news) |
+| 2026/07/17 | **Anthropic discloses China-linked abuse** — operators affiliated with Alibaba ran ~28.8M queries via ~25K fraudulent accounts (Apr-Jun), disclosed to Senate Banking Committee | [naturalnews.com](https://www.naturalnews.com/2026-07-17-anthropic-alleges-china-linked-operators-queries-knowledge.html) |
 | 2026/07/17 | **Claude Code v2.1.212** — `/fork` now spawns background session (not in-session subagent), `/subtask` replaces old behavior, session-wide WebSearch limit (default 200), `claude auto-mode reset` command, `/resume` session picker | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/16 | **Ode with Anthropic** launched — $1.5B AI implementation firm, joint venture with Blackstone and Hellman & Friedman, 100 engineers (over half former founders), "Claude-first" but model-agnostic | [techcrunch.com](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/) |
 | 2026/07/16 | **Claude Code v2.1.211** — `--forward-subagent-text` streaming flag, permission preview character neutralization, parallel session logout fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -2627,6 +2644,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/17 | **Codex CLI surpasses 5M weekly users** — 1M+ non-programming use cases (finance, reporting); v0.144.5 improves dangerous command detection | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026) |
+| 2026/07/17 | **Atlas sunsetting August 9** — browser-based agentic feature deprecated, capabilities integrated into ChatGPT and Codex | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/07/17 | **Apple targets dozens of OpenAI employees with legal letters** — talent poaching and IP tensions escalate, HN #1 | [news.ycombinator.com](https://news.ycombinator.com/front) |
 | 2026/07/15 | **Codex Micro launches at $230** — OpenAI's first hardware product, limited-run collaboration with Work Louder, agent status keys, reasoning dial, joystick; amid Apple trade-secret lawsuit over separate hardware project | [techcrunch.com](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/) |
 | 2026/07/09 | **GPT-5.6 Sol GA** — ChatGPT default model, 5-hour limit removed for Plus/Pro, Codex powered by GPT-5.6 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/26 | **GPT-5.6 Sol/Terra/Luna limited preview** — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; ~20 pre-approved orgs per US gov request; GA "in coming weeks" | [openai.com](https://openai.com/index/previewing-gpt-5-6-sol/) |
@@ -2678,6 +2698,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/17 | **Gemini Notebook** (formerly NotebookLM) — rebranded with secure cloud computer for code execution inside notebooks, Pro rollout | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026) |
 | 2026/07/17 | **Gemini 3.5 Pro still "coming soon"** — rumored July 17 GA target passes without official launch, DeepMind page still lists "3.5 Pro coming soon"; Gemini API shows only 3.5 Flash and 3.1 Pro | [deepmind.google](https://deepmind.google/models/gemini/) |
 | 2026/07/16 | **Bloomberg: Gemini 3.5 Pro "months behind schedule"** — coding capabilities specific pain point, Alphabet drops 4.4% (~$200B market cap erased), DeepMind scrapped original base model, Gemini 3.6 Flash stopgap rumored | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals) |
 | 2026/05/19 | **Gemini 3.5 Flash GA** — 4x faster than frontier models, Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, $1.50/$9 per 1M tokens, 1M context window; Gemini 3.5 Pro coming next month | [tomsguide.com](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates) |
@@ -2714,6 +2735,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/16 | **Copilot CLI v1.0.71** — plan mode hard-blocks workspace edits at tool-call layer, voice device persistence, memory refresh after 30 min in long sessions | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.71) |
+| 2026/07/16 | **Nadella criticizes Fable** as "editorially controlled" — Microsoft CEO publicly challenges Anthropic's content policies | [cnbc.com](https://www.cnbc.com/2026/07/16/microsoft-ceo-says-anthropic-fable-request-policy-doesnt-make-sense.html) |
 | 2026/07/15 | **Copilot Code Quality** GA announced for July 20 — $10/active committer/month, AI-driven code quality analysis | [github.blog](https://github.blog/changelog/month/07-2026/) |
 | 2026/07/14 | Copilot **Visual Studio June update** — org-level custom agents, next-edit suggestions across file, built-in .NET/Azure skills, redesigned model picker | [github.blog](https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update/) |
 | 2026/07/01 | **Copilot Vision GA** — image/PDF attachment in Copilot Chat, all tiers, on by default | [github.blog](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/) |

@@ -1,29 +1,33 @@
 ---
-title: "Gemini 3.5 Pro Misses Rumored July 17 Target — Google Goes Silent"
+title: "Kimi K3's 2.8 Trillion Parameters Shake Up the Model Rankings"
 date: 2026-07-17
 lang: en
 categories: [news]
-tags: [gemini-3-5-pro, claude-code, github-copilot, grok-build, antigravity]
-excerpt: "The rumored July 17 GA target for Gemini 3.5 Pro has passed with no official announcement from Google. Meanwhile, Claude Code v2.1.212 upgrades /fork to background sessions for stronger multitasking."
+tags: [kimi-k3, lm-studio, claude-code, gemini, codex-cli, copilot]
+excerpt: "Moonshot AI unveils Kimi K3 — a 2.8T-parameter MoE model that debuted at #3 on Artificial Analysis. LM Studio Bionic, Gemini Notebook rebranding, and Apple-OpenAI legal letters add to a packed news day."
 ---
 
-Google is silent. A day after Bloomberg's bombshell erased roughly $200 billion in Alphabet market cap, the industry-watched July 17 GA target for Gemini 3.5 Pro has come and gone without a word. The DeepMind model page still reads "3.5 Pro coming soon" ([DeepMind](https://deepmind.google/models/gemini/)).
+Chinese AI startup Moonshot AI has unveiled Kimi K3, a 2.8 trillion parameter MoE model that debuted at #3 on the Artificial Analysis leaderboard behind Fable 5 and GPT-5.6 Sol ([Bloomberg](https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals)). It is the largest open-track model ever released, priced at $3/$15 per million tokens.
 
-## Gemini 3.5 Pro — July 17 No-Show, Trust Recovery Distant
+## Kimi K3 — China's 2.8 Trillion Parameter Challenger
 
-The July 17 GA date reported by TechTimes, HackerNoon, and others has passed without an official confirmation or postponement notice from Google ([TechTimes](https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm)). The Gemini API still lists only 3.5 Flash and 3.1 Pro, while the rumored 2M context window and Deep Think mode remain unconfirmed ([AIToolsReview](https://aitoolsreview.co.uk/insights/gemini-3-5-pro)). Combined with yesterday's Bloomberg report of a "months behind schedule" delay and a scrapped base model, today's silence deepens developer anxiety.
+Featuring a 1M-token context window, Kimi K3 outperformed competitors on the Arena.ai front-end web dev benchmark ([Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3)). Open weights are expected by July 27. Simon Willison noted that "context processing quality is on a completely different level compared to K2.7" ([Simon Willison](https://simonwillison.net/2026/Jul/16/kimi-k3/)).
 
-## Claude Code v2.1.212 — /fork Evolves to Background Sessions
+## LM Studio Bionic — An AI Agent for Open Models
 
-Anthropic shipped Claude Code v2.1.212 ([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). The headline change: `/fork` now copies your conversation into an independent background session instead of spawning an in-session subagent. The old behavior moves to `/subtask`. A session-wide WebSearch call limit (default 200, tunable via `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`) blocks runaway search loops, and `claude auto-mode reset` restores auto-mode defaults.
+LM Studio expanded beyond its chat app with Bionic, a new AI agent for coding, research, and document work using open models ([LM Studio Blog](https://lmstudio.ai/blog/introducing-lm-studio-bionic)). It supports both local and cloud execution with zero data retention, and includes local voice transcription via Mistral's Voxtral ([9to5Mac](https://9to5mac.com/2026/07/16/lm-studio-expands-beyond-chat-with-bionic-a-new-ai-agent-app-for-open-models/)).
 
-## Copilot Code Quality — 3 Days to Paywall
+## Gemini Notebook — NotebookLM Rebranded, Now with Code Execution
 
-GitHub Code Quality goes GA on July 20, ending the free preview ([GitHub](https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026/)). Pricing lands at $10 per active committer per month, with AI-powered features (Copilot code review, AI-assisted detection, Autofix) billed separately on usage. Over 10,000 enterprises used the preview, so pushback against the sudden paywall is likely ([DevOps.com](https://devops.com/github-code-quality-moves-to-general-availability-bringing-new-costs-and-capabilities/)).
+Google rebranded NotebookLM as Gemini Notebook and added a secure cloud computer for running code directly inside notebooks ([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026)). Rolling out to Pro users first — a notable contrast to the Gemini 3.5 Pro July 17 GA no-show.
 
-## Grok Build — Exfiltration Code Still Ships Two Days After Open-Source
+## Apple vs OpenAI — Legal Battle Begins
 
-Two days after xAI open-sourced Grok Build under Apache 2.0, the code that uploaded entire Git repositories to Google Cloud Storage remains compiled into the binary ([Simon Willison](https://simonwillison.net/2026/Jul/15/grok-build/)). No affected user count, no total data volume, and no independent deletion verification have been disclosed ([The Register](https://www.theregister.com/ai-and-ml/2026/07/16/spacex-open-sources-grok-build-after-data-retention-furore/5272333)).
+Apple has sent legal letters to dozens of OpenAI employees, topping Hacker News for the day ([Hacker News](https://news.ycombinator.com/front)). The move signals escalating tensions over talent poaching and intellectual property between the two companies.
+
+## Codex CLI — 5 Million Weekly Users
+
+OpenAI's Codex CLI surpassed 5 million weekly users, with over 1 million using it for non-programming tasks like finance and reporting ([BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026)). Version 0.144.5 strengthened dangerous command detection ([GitHub](https://github.com/openai/codex/releases)).
 
 ## Market Pulse
 
@@ -31,13 +35,13 @@ Two days after xAI open-sourced Grok Build under Apache 2.0, the code that uploa
 |---|---|---|---|
 | Claude Code | 99 | — | v2.1.212, /fork background sessions |
 | Antigravity | 99 | — | v2.2.1 stable, 26-week streak |
-| ChatGPT | 99 | — | Codex Micro first deliveries 7/24 |
-| Claude AI | 98 | — | Fable 5 third extension, Ode launch |
+| ChatGPT | 99 | — | Codex hits 5M weekly users |
+| Claude AI | 98 | — | Fable 5 extended, Ode launch |
 | Cursor | 97 | — | SpaceX acquisition Q3 close expected |
-| Codex CLI | 90 | — | GPT-5.6 powered, ChatGPT merge complete |
-| Windsurf | 85 | — | Devin Desktop v3.4.27 stable |
-| Aider | 68 | — | Open source steady, 44K stars |
-| Gemini CLI | 9 | ↓1 | 3.5 Pro July 17 no-show, shutdown Day 29 |
-| Copilot | 9 | ↓1 | 72-week decline, Code Quality GA in 3 days |
+| Codex CLI | 90 | — | 5M weekly users, v0.144.5 |
+| Windsurf | 85 | — | Devin Desktop stabilizing |
+| Aider | 68 | — | No releases, 44K stars steady |
+| Gemini CLI | 9 | — | 3.5 Pro July 17 no-show, shutdown Day 29 |
+| Copilot | 9 | — | 72-week decline, Code Quality GA in 3 days |
 
-Gemini CLI and Copilot both dropped to 9, entering single digits together. Whenever Google ships 3.5 Pro, yesterday's Bloomberg bombshell and today's silence have created a trust deficit that will take far longer to erase than a model launch.
+Kimi K3's arrival reshapes the model market into a three-way race (Fable 5, GPT-5.6 Sol, Kimi K3). In the coding agent space, Codex CLI's 5 million user milestone proves the ChatGPT ecosystem's pull with developers.

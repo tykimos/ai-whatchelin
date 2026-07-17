@@ -927,6 +927,21 @@ timeline
          : Ode with Anthropic 출범 — $15억 AI 구현 기업, Anthropic + Blackstone + H&F (7/16)
          : Claude Code v2.1.211 — 서브에이전트 텍스트 스트리밍, 권한 프리뷰 강화 (7/16)
          : Gemini CLI 셧다운 28일째 — Gemini 3.5 Pro 악재 겹쳐 점수 10으로 하락 (7/16)
+         : Kimi K3 출시 — Moonshot AI 2.8조 파라미터 MoE, 100만 토큰 컨텍스트, Artificial Analysis 3위, $3/$15/MTok (7/16)
+         : LM Studio Bionic 출시 — 오픈 모델 기반 AI 에이전트 앱, 코딩·리서치·문서 작업, 데이터 보존 제로 (7/16)
+         : Grok 4.5 Musk "Opus급이지만 더 빠르고 저렴" — SWE-bench Pro 64.7% (7/16)
+         : Copilot CLI v1.0.71 — Plan 모드 워크스페이스 수정 차단, 음성 장치 기억 (7/16)
+         : Nadella, Fable을 "편집 통제된 모델"로 비판 — Microsoft-Anthropic 긴장 고조 (7/16)
+         : Codex CLI v0.144.5 — 위험 명령 탐지 강화, 거부 이유 명확화 (7/16)
+         : Claude Code v2.1.212 — /fork 백그라운드 세션 전환, /subtask 신설, WebSearch 제한 200회 (7/17)
+         : Gemini 3.5 Pro 7/17 GA 불발 — Google 침묵, DeepMind 페이지 "coming soon" 유지 (7/17)
+         : Copilot 72주 연속 하락 9, 종량제 47일차 — Code Quality GA 7/20 (7/17)
+         : Gemini CLI 셧다운 29일째 — 3.5 Pro 불발로 하락 지속, 9 유지 (7/17)
+         : Codex CLI 주간 사용자 500만 돌파 — 100만+ 비프로그래밍 용도 (7/17)
+         : Gemini Notebook (구 NotebookLM) — 보안 클라우드 컴퓨터 코드 실행, Pro 배포 시작 (7/17)
+         : Apple, 수십 명의 OpenAI 직원에 법적 서한 — HN 1위 (7/17)
+         : Atlas 8/9 종료 예정 — 기능 ChatGPT·Codex에 통합 (7/17)
+         : Anthropic, 중국 연계 악용 공개 — 25K 사기 계정에서 2880만 쿼리 (4~6월) (7/17)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2507,6 +2522,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/17 | **Claude for Teachers** 출시 — 인증된 미국 K-12 교사에게 프리미엄 Claude 도구 무료 제공, 50개주 교육과정 연계 | [anthropic.com](https://www.anthropic.com/news) |
+| 2026/07/17 | **Anthropic, 중국 연계 악용 공개** — Alibaba 관련 운영자가 가짜 계정 ~25K로 2880만 쿼리 실행 (4~6월), 상원 은행위원회에 보고 | [naturalnews.com](https://www.naturalnews.com/2026-07-17-anthropic-alleges-china-linked-operators-queries-knowledge.html) |
 | 2026/07/17 | **Claude Code v2.1.212** — `/fork`가 백그라운드 세션으로 전환(기존 서브에이전트→`/subtask`), 세션당 WebSearch 제한(기본 200회), `claude auto-mode reset` 명령어, `/resume` 세션 선택기 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/16 | **Ode with Anthropic** 출범 — $15억 AI 구현 기업, Blackstone·Hellman & Friedman과 합작, 엔지니어 100명 (절반 이상 전직 창업자), "Claude-first" 모델 불문 | [techcrunch.com](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/) |
 | 2026/07/16 | **Claude Code v2.1.211** — `--forward-subagent-text` 스트리밍 플래그, 권한 프리뷰 문자 무력화, 병렬 세션 로그아웃 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -2586,6 +2603,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/17 | **Codex CLI 주간 사용자 500만 돌파** — 100만+ 비프로그래밍 용도(재무, 보고서 등); v0.144.5 위험 명령 탐지 강화 | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026) |
+| 2026/07/17 | **Atlas 8/9 서비스 종료 예정** — 브라우저 기반 에이전틱 기능 폐지, ChatGPT·Codex에 기능 통합 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/07/17 | **Apple, 수십 명의 OpenAI 직원에 법적 서한** — 인재 유출·지적 재산권 긴장 고조, HN 1위 | [news.ycombinator.com](https://news.ycombinator.com/front) |
 | 2026/07/15 | **Codex Micro $230 출시** — OpenAI 첫 하드웨어, Work Louder 한정 협업, 에이전트 상태 키, 추론 다이얼, 조이스틱; Apple 영업비밀 소송 중 별도 하드웨어 프로젝트 관련 | [techcrunch.com](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/) |
 | 2026/07/09 | **GPT-5.6 Sol GA** — ChatGPT 기본 모델, Plus/Pro 5시간 제한 해제, Codex GPT-5.6 구동 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/06/26 | **GPT-5.6 Sol/Terra/Luna 제한 프리뷰** — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; 미 정부 요청으로 ~20개 사전승인 기관만 접근; GA "수 주 내" 예정 | [openai.com](https://openai.com/index/previewing-gpt-5-6-sol/) |
@@ -2637,6 +2657,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/17 | **Gemini Notebook** (구 NotebookLM) — 보안 클라우드 컴퓨터에서 코드 실행 기능 추가, Pro 사용자 순차 배포 | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026) |
 | 2026/07/17 | **Gemini 3.5 Pro 여전히 "coming soon"** — 루머였던 7/17 GA 목표일 경과, DeepMind 공식 페이지 "3.5 Pro coming soon" 유지; Gemini API에는 3.5 Flash와 3.1 Pro만 등록 | [deepmind.google](https://deepmind.google/models/gemini/) |
 | 2026/07/16 | **Bloomberg: Gemini 3.5 Pro "수개월 지연"** — 코딩 역량이 구체적 문제점, Alphabet 4.4% 하락 (~$2000억 시가총액 증발), DeepMind 원래 기반 모델 폐기, Gemini 3.6 Flash 임시 대안 루머 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals) |
 | 2026/05/19 | **Gemini 3.5 Flash GA** — 프론티어 모델 대비 4배 빠른 출력, Terminal-Bench 2.1 76.2%, MCP Atlas 83.6%, $1.50/$9/M 토큰, 1M 컨텍스트; Gemini 3.5 Pro 내달 출시 예정 | [tomsguide.com](https://www.tomsguide.com/news/live/google-io-2026-live-news-updates) |
@@ -2673,6 +2694,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/16 | **Copilot CLI v1.0.71** — Plan 모드 워크스페이스 수정 도구 호출 레이어에서 차단, 음성 장치 기억, 30분 이상 세션 메모리 새로고침 | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.71) |
+| 2026/07/16 | **Nadella, Fable "편집 통제된 모델"로 비판** — Microsoft CEO, Anthropic 콘텐츠 정책 공개 비판 | [cnbc.com](https://www.cnbc.com/2026/07/16/microsoft-ceo-says-anthropic-fable-request-policy-doesnt-make-sense.html) |
 | 2026/07/15 | **Copilot Code Quality** 7월 20일 GA 발표 — 활성 커미터당 $10/월, AI 기반 코드 품질 분석 | [github.blog](https://github.blog/changelog/month/07-2026/) |
 | 2026/07/14 | Copilot **Visual Studio 6월 업데이트** — 조직 수준 커스텀 에이전트, 파일 전체 넥스트 에딧 제안, .NET/Azure 스킬 내장, 모델 피커 개편 | [github.blog](https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update/) |
 | 2026/07/01 | **Copilot Vision GA** — Copilot Chat에서 이미지/PDF 첨부, 전 티어, 기본 활성화 | [github.blog](https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available/) |

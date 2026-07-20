@@ -953,6 +953,9 @@ timeline
          : Copilot 73주 연속 하락 8, 종량제 48일차 — 역대 최저 (7/18)
          : Gemini CLI 셧다운 32일째 — Antigravity 이관 완료 (7/20)
          : Kimi K2.7 Copilot Business/Enterprise 확대 — 전 Copilot 티어 최초 오픈웨이트 모델 (7/20)
+         : Claude Code v2.1.215 — /verify·/code-review 스킬 자동 호출 중단, 명시적 호출만 가능 (7/19)
+         : Fable 5 Max/Team Premium 정규 포함 — 한도 50%; Pro $100 일회성 크레딧, $10/$50 per MTok (7/20)
+         : Copilot Gemini 2.5 Pro·Gemini 3 Flash 7/31 전면 지원 종료 (7/20)
          : Anthropic IPO 로드쇼 개시 — 투자자 미팅 일정 잡기 시작, 10월 상장 목표 (7/20)
 ```
 
@@ -2479,7 +2482,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **OpenAI 미 정부 5% 지분 제안** (7/2, Bloomberg); **GPT-5.6 Sol Cerebras** 7월 출시 750 tok/s; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **Codex CLI v0.142.5**, **Codex Remote GA** 전 플랜 |
 | Claude | claude.com/pricing | **Claude Science 출시** (7/3) — 연구자용 AI 워크벤치; **중국 우회 접속 전면 차단** (7/3) — 해외 법인·VPN·시간대 모니터링·신원인증; **Sonnet 5 출시** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 차단 해제** 7/1 — 두 모델 전 세계 복원, 99%+ 탈옥 차단 분류기; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억, Fortune 7/2); **Azure/Foundry GA** (7/2); Max 플랜 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **에이전트 과금 중단**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.201** 최신 — Sonnet 5 하네스 최적화; **v2.1.200** Manual 권한 기본값, 백그라운드 세션 안정성; **v2.1.199** 스택 스킬(5개), SSL 수정; **Sonnet 5 기본값**, 조직 기본 모델, 스트리밍 CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/13까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
+| Claude Code | code.claude.com/changelog | **v2.1.215** 최신 — /verify·/code-review 자동 호출 중단 (7/19); **v2.1.212** /fork→백그라운드 세션, /subtask, WebSearch 200 제한; **v2.1.211** 서브에이전트 스트리밍; **Sonnet 5 기본값**, 조직 기본 모델, 스트리밍 CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/19까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
@@ -2534,7 +2537,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/20 | **Fable 5 Max/Team Premium 정규 포함** — 한도 50% 배정; Pro·Team Standard에 $100 일회성 사용 크레딧, 이후 $10/$50 per MTok | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories) |
 | 2026/07/20 | **Anthropic IPO 로드쇼 개시** — CNBC 보도, 투자자 미팅 일정 조율 중, 6/1 비공개 S-1 제출 (~$9650억 밸류에이션), 2026년 10월 상장 목표 | [cnbc.com](https://www.cnbc.com) |
+| 2026/07/19 | **Claude Code v2.1.215** — `/verify`·`/code-review` 스킬 자동 호출 중단, 명시적 호출 필요; 권한 검사 강화, Bash/PowerShell 안전성 개선 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Fable 5 무료 접근 만료** — Pro 플랜 사용자 $10/$50 per MTok 크레딧 과금 전환; Max 플랜은 Fable 5 포함 유지; Claude Code 50% 주간 한도 보너스도 동시 만료 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/) |
 | 2026/07/18 | **Anthropic CISO 프레임워크** — 기업 에이전트 배포 운영 가이드, 4가지 리스크 평가 질문: 콘텐츠 신뢰, 허용 동작, 영향 범위, 관측 가능성 | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
 | 2026/07/17 | **Claude for Teachers** 출시 — 인증된 미국 K-12 교사에게 프리미엄 Claude 도구 무료 제공, 50개주 교육과정 연계 | [anthropic.com](https://www.anthropic.com/news) |

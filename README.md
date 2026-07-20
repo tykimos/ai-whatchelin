@@ -953,6 +953,9 @@ timeline
          : Copilot 73-week decline to 8, billing Day 48 — new all-time low (Jul 18)
          : Gemini CLI shutdown Day 32 — Antigravity migration complete (Jul 20)
          : Kimi K2.7 expanded to Copilot Business/Enterprise — first open-weight model across all Copilot tiers (Jul 20)
+         : Claude Code v2.1.215 — /verify and /code-review skills no longer auto-invoked, explicit call only (Jul 19)
+         : Fable 5 permanent on Max/Team Premium — 50% of limits; Pro gets $100 one-time credit, $10/$50 per MTok (Jul 20)
+         : Copilot Gemini 2.5 Pro and Gemini 3 Flash deprecation July 31 across all experiences (Jul 20)
          : Anthropic IPO roadshow begins — bankers scheduling investor meetings, targeting October listing (Jul 20)
 ```
 
@@ -2519,7 +2522,7 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** limited preview — $5/$30, $2.50/$15, $1/$6 per MTok, ~20 pre-approved orgs; **OpenAI proposes 5% US govt stake** (Jul 2, Bloomberg); **GPT-5.6 Sol on Cerebras** 750 tok/s in July; **GPT-4.5 retired** Jun 27, all GPT-4 era gone; **Jalapeño chip** Broadcom ASIC, 50% cheaper inference; o3 retiring Aug 26; **Codex CLI v0.142.5**, **Codex Remote GA** all plans |
 | Claude | claude.com/pricing | **Claude Science launched** (Jul 3) — AI workbench for researchers; **Chinese offshore access crackdown** (Jul 3) — blocks subsidiaries, VPNs, time-zone monitoring, ID verification; **Sonnet 5 launched** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 ban LIFTED** Jul 1 — both models restored globally, 99%+ jailbreak classifier; **Anthropic overtakes OpenAI in revenue** ($47B vs $25-33B, Fortune Jul 2); **Azure/Foundry GA** (Jul 2); Max plan ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **agent metering paused**, **Big Four standardization** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.201** latest — Sonnet 5 harness optimization; **v2.1.200** Manual permissions default, background session reliability; **v2.1.199** stacked skills (5), SSL fix; **Sonnet 5 default**, org default models, 37% CPU reduction in streaming; **Fable 5 + Mythos 5 restored** globally Jul 1; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 13; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
+| Claude Code | code.claude.com/changelog | **v2.1.215** latest — /verify and /code-review no longer auto-invoked (Jul 19); **v2.1.212** /fork→background session, /subtask, WebSearch 200 cap; **v2.1.211** subagent text streaming; **Sonnet 5 default**, org default models, 37% CPU reduction in streaming; **Fable 5 + Mythos 5 restored** globally Jul 1; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 19; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
 | Cursor | cursor.com/pricing | **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
@@ -2575,7 +2578,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/20 | **Fable 5 permanent on Max/Team Premium** — included at 50% of limits; Pro and Team Standard get $100 one-time usage credit, $10/$50 per MTok ongoing | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories) |
 | 2026/07/20 | **Anthropic IPO roadshow begins** — bankers scheduling investor meetings per CNBC, confidential S-1 filed June 1 at ~$965B valuation, targeting October 2026 listing | [cnbc.com](https://www.cnbc.com) |
+| 2026/07/19 | **Claude Code v2.1.215** — `/verify` and `/code-review` skills no longer auto-invoked; users must explicitly call them; tighter permission checks, safer Bash/PowerShell handling | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Fable 5 free access expires** — Pro plan users now pay $10/$50 per MTok usage credits; Max plan retains Fable 5 as included model; Claude Code 50% weekly limit bonus also expires | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/) |
 | 2026/07/18 | **Anthropic CISO framework** — operational guidance with 4 risk-assessment questions for enterprise agent deployment: content trust, allowed actions, blast radius, observability | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
 | 2026/07/17 | **Claude for Teachers** launched — free access to premium Claude tools for verified US K-12 educators, curriculum connections aligned to standards in all 50 states | [anthropic.com](https://www.anthropic.com/news) |

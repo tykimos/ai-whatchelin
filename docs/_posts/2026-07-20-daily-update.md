@@ -1,43 +1,43 @@
 ---
-title: "Fable 5 Goes Paid — Opus 5 Weekend Launch Odds Hit 68% on Polymarket"
+title: "OpenAI Hit by 4-Day Outage Streak as Fable 5 Goes Paid and Kimi K3 Takes #1"
 date: 2026-07-20
 lang: en
 categories: [news]
-tags: [claude, fable-5, opus-5, devin-desktop, cursor, codex, copilot, antigravity]
-excerpt: "Fable 5's free ride is officially over as usage credits kick in. Meanwhile, Polymarket gives Opus 5 a 68% chance of launching by July 24, and Devin Desktop ships its biggest release yet."
+tags: [openai, claude, fable-5, kimi-k3, codex, cursor, copilot, antigravity, gemini]
+excerpt: "OpenAI has suffered four consecutive days of service incidents since July 17, while Fable 5's free era officially ended and Moonshot AI's Kimi K3 claimed the top spot on Arena.ai's Frontend Code Arena."
 ---
 
-Anthropic's Fable 5 free era is over. As of 11:59 PM PT on July 19, Pro plan users now pay prepaid usage credits at $10/$50 per million input/output tokens — double the rate of Opus 4.8 ([VantagePoint](https://vantagepoint.io/blog/ai/claude-fable-5-included-access-july-19)). Max plan subscribers keep Fable 5 as a standard included model, but for everyone else, it's the priciest generally available model Anthropic has ever shipped ([TechTimes](https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm)). Claude Code's 50% weekly limit bonus expired alongside it.
+OpenAI is wobbling. Starting with GPT-5.6 Sol server overload on July 17, followed by a ~5-hour Codex outage on July 18, elevated ChatGPT errors on July 19, and GitHub-dependent Codex workflow failures today — the company has logged four incidents in four days ([OpenAI Status](https://status.openai.com/history)). The instability coincides with GPT-5.6 Sol settling in as ChatGPT's default model, suggesting infrastructure is struggling under the transition load.
 
-## Opus 5 "Honeycomb" — This Weekend?
+## Fable 5: The Free Ride Is Over
 
-Polymarket's "Next Claude Opus released by..." contract puts the probability at 68% by July 24 and 91% by end of month ([Polymarket](https://polymarket.com/event/next-claude-opus-released-byptptpt-20260701204710232)). The "Claude Honeycomb EAP" sighting in Cursor's model picker on July 8–9 remains the strongest signal — leaked specs include a 1M-token context window, an xhigh reasoning tier, and Opus 4.8 safety fallback routing ([Valletta Software](https://vallettasoftware.com/blog/post/claude-opus-5-release-date)). The timing right after Fable 5's paid transition is suggestive, but Anthropic has made no official announcement.
+Anthropic's Fable 5 free access officially expired at 11:59 PM PT on July 19 ([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/)). Pro plan users now pay prepaid usage credits at $10/$50 per million input/output tokens — double the rate of Opus 4.8 ([TechTimes](https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm)). Only Max plan subscribers keep Fable 5 as an included model. Claude Code's 50% weekly limit bonus expired alongside it. This was the third extension — originally set to end June 22, then July 7, then July 12 ([Forbes](https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/)). Meanwhile, Anthropic's IPO roadshow has begun with bankers scheduling investor meetings, targeting an October listing ([CNBC](https://www.cnbc.com)).
 
-## Devin Desktop v3.5.17 — Worktree Sessions and Fast Context
+## Kimi K3: The 2.8-Trillion-Parameter Giant That Beat Fable 5
 
-Cognition shipped Devin Desktop v3.5.17 yesterday ([Devin Changelog](https://docs.devin.ai/desktop/changelog)). Worktree-backed sessions now open instantly, Devin Local gains a customizations/skills sidebar, a hooks tab with trigger events, a timeline navigator, and Fast Context support for faster large-codebase navigation. A dedicated command migrates legacy Windsurf hooks to Devin hooks. With Cascade's July 1 EOL, Devin Local — rewritten in Rust with 30% better token efficiency — is now the sole built-in agent.
+Moonshot AI launched Kimi K3 on July 16 — a 2.8-trillion-parameter MoE model that hit #1 on Arena.ai's Frontend Code Arena with a 76% pairwise win rate, beating Claude Fable 5 ([Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3)). Priced at $3/$15 per MTok — one-third of Fable 5's cost — with open weights due July 27. Markets are calling it another "DeepSeek moment" for Chinese AI ([Fortune](https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/)).
 
-## Cursor iOS Public Beta
+## Gemini 3.5 Pro: Three Missed Deadlines and Counting
 
-Cursor for iOS is now in public beta on all paid plans ([Cursor Blog](https://cursor.com/blog)). Users can pick a repo, launch an agent, use voice input, and run slash commands from their phone. Last week's Slack integration upgrade also added multi-repo environment support and pre-execution plan sharing ([Cursor Changelog](https://cursor.com/changelog)).
+Google's Gemini 3.5 Pro has now blown through its third GA target date on July 17. Bloomberg reports Google scrapped the original base model entirely and is rebuilding from scratch after it fell short on coding and complex reasoning, sending Alphabet shares down ~4% ([Bloomberg](https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals)). The model has missed June, early July, and July 17 deadlines ([9to5Google](https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/)).
 
-## Codex Merges into ChatGPT Desktop
+## Cursor iOS Public Beta + Slack Multi-Repo
 
-OpenAI merged the standalone Codex app into the ChatGPT desktop app for macOS and Windows on July 9 ([Releasebot](https://releasebot.io/updates/openai/chatgpt)). Codex keeps its dedicated coding workspace alongside Chat and Work, with PR Chat for reviewing GitHub pull requests without leaving the app. Codex CLI v0.144.6 refreshed GPT-5.6 Sol/Terra/Luna context windows to 272K tokens ([GitHub Releases](https://github.com/openai/codex/releases)).
+Cursor for iOS is now in public beta on all paid plans ([Cursor Blog](https://cursor.com/blog)). Last week's Slack integration upgrade added pre-execution plan sharing, multi-repo environment support, and cross-channel/thread functionality ([Cursor Changelog](https://cursor.com/changelog)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | Claude Code | 99 | — | Fable 5 credits live, Opus 5 watch |
-| ChatGPT | 99 | — | Codex+ChatGPT merge, GPT-5.6 Sol 272K |
-| Antigravity | 99 | — | PDF attachments, quota screen redesign |
-| Claude AI | 98 | — | Fable 5 paid D+1, Honeycomb 68% |
+| ChatGPT | 99 | — | 4-day outage streak, GPT-5.6 Sol overload |
+| Antigravity | 99 | — | Benefiting from Gemini 3.5 Pro delays |
+| Claude AI | 98 | — | Fable 5 paid D+1, IPO roadshow begins |
 | Cursor | 97 | — | iOS public beta, Slack multi-repo |
-| Codex CLI | 90 | — | v0.144.6 stable, active alpha builds |
-| Windsurf | 85 | — | v3.5.17, Devin Local Fast Context |
-| Aider | 68 | — | 44K stars, holding steady |
-| Copilot | 6 | ↓1 | 75-week decline, app opened to all plans |
-| Gemini CLI | 6 | ↓1 | EOL Day 32, Antigravity migration complete |
+| Codex CLI | 90 | — | v0.144.6 stable, 4-day outage impact |
+| Windsurf | 85 | — | Devin Desktop v3.5.17 stabilizing |
+| Aider | 68 | — | 44K stars, release cadence slowing |
+| Copilot | 6 | ↓1 | 73-week decline, Code Quality GA launches |
+| Gemini CLI | 6 | ↓1 | EOL Day 32, 3.5 Pro misses 3rd deadline |
 
-The convergence of Fable 5's paid transition and Opus 5 launch speculation makes this weekend a potential inflection point for the Anthropic ecosystem. Cost-sensitive Pro users face a fork: shift to Sonnet 5 or Opus 4.8, or load up credits and keep Fable 5.
+OpenAI's consecutive outages and Kimi K3's emergence show the AI coding tool landscape remains volatile. The Fable 5 paid transition puts cost-sensitive users at a crossroads: shift to Sonnet 5 or Opus 4.8, or load credits and stay the course.

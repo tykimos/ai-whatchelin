@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-20</sub>
+  <sub>마지막 업데이트: 2026-07-21</sub>
 </p>
 
 <p align="center">
@@ -954,7 +954,11 @@ timeline
          : Gemini CLI 셧다운 32일째 — Antigravity 이관 완료 (7/20)
          : Kimi K2.7 Copilot Business/Enterprise 확대 — 전 Copilot 티어 최초 오픈웨이트 모델 (7/20)
          : Claude Code v2.1.215 — /verify·/code-review 스킬 자동 호출 중단, 명시적 호출만 가능 (7/19)
+         : Claude Code v2.1.216 — sandbox.filesystem.disabled 설정, 이차 속도 저하 수정, OAuth 토큰 만료 수정 (7/20)
+         : Devin Desktop 대규모 업데이트 — 워크트리 기반 세션, 네트워크 정책 제어, Sonnet 5 통합 (7/19)
          : Fable 5 Max/Team Premium 정규 포함 — 한도 50%; Pro $100 일회성 크레딧, $10/$50 per MTok (7/20)
+         : Copilot 74주 연속 하락 5 — 역대 최저 (7/21)
+         : Gemini CLI 셧다운 33일째 — Antigravity CLI 2.0 완전 대체 (7/21)
          : Copilot Gemini 2.5 Pro·Gemini 3 Flash 7/31 전면 지원 종료 (7/20)
          : Anthropic IPO 로드쇼 개시 — 투자자 미팅 일정 잡기 시작, 10월 상장 목표 (7/20)
 ```
@@ -1999,25 +2003,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20"]
-    y-axis "인기 점수" 6 --> 100
+    x-axis ["07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21"]
+    y-axis "인기 점수" 5 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
-    line "Cursor" [96, 96, 96, 96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97]
+    line "GH Copilot" [18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+    line "Cursor" [96, 96, 96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90]
-    line "Gemini CLI" [20, 19, 18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6]
-    line "Antigravity" [95, 96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "Codex CLI" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90]
+    line "Gemini CLI" [19, 18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5]
+    line "Antigravity" [96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-6↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-5↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-6↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-5↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2539,6 +2543,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 |---|---|---|
 | 2026/07/20 | **Fable 5 Max/Team Premium 정규 포함** — 한도 50% 배정; Pro·Team Standard에 $100 일회성 사용 크레딧, 이후 $10/$50 per MTok | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories) |
 | 2026/07/20 | **Anthropic IPO 로드쇼 개시** — CNBC 보도, 투자자 미팅 일정 조율 중, 6/1 비공개 S-1 제출 (~$9650억 밸류에이션), 2026년 10월 상장 목표 | [cnbc.com](https://www.cnbc.com) |
+| 2026/07/20 | **Claude Code v2.1.216** — `sandbox.filesystem.disabled` 설정, 장시간 세션 이차 속도 저하 수정, 자동 모드 OAuth 토큰 만료 수정, 재개된 백그라운드 세션 에이전트 프롬프트·도구 제한 복원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Claude Code v2.1.215** — `/verify`·`/code-review` 스킬 자동 호출 중단, 명시적 호출 필요; 권한 검사 강화, Bash/PowerShell 안전성 개선 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Fable 5 무료 접근 만료** — Pro 플랜 사용자 $10/$50 per MTok 크레딧 과금 전환; Max 플랜은 Fable 5 포함 유지; Claude Code 50% 주간 한도 보너스도 동시 만료 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/) |
 | 2026/07/18 | **Anthropic CISO 프레임워크** — 기업 에이전트 배포 운영 가이드, 4가지 리스크 평가 질문: 콘텐츠 신뢰, 허용 동작, 영향 범위, 관측 가능성 | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-20</sub>
+  <sub>Last updated: 2026-07-21</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.20-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.21-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -954,7 +954,11 @@ timeline
          : Gemini CLI shutdown Day 32 — Antigravity migration complete (Jul 20)
          : Kimi K2.7 expanded to Copilot Business/Enterprise — first open-weight model across all Copilot tiers (Jul 20)
          : Claude Code v2.1.215 — /verify and /code-review skills no longer auto-invoked, explicit call only (Jul 19)
+         : Claude Code v2.1.216 — sandbox.filesystem.disabled setting, quadratic slowdown fix, OAuth token expiry fix (Jul 20)
+         : Devin Desktop major update — worktree-backed sessions, network policy controls, Sonnet 5 integration (Jul 19)
          : Fable 5 permanent on Max/Team Premium — 50% of limits; Pro gets $100 one-time credit, $10/$50 per MTok (Jul 20)
+         : Copilot 74-week decline to 5 — new all-time low (Jul 21)
+         : Gemini CLI shutdown Day 33 — Antigravity CLI 2.0 fully replaces it (Jul 21)
          : Copilot Gemini 2.5 Pro and Gemini 3 Flash deprecation July 31 across all experiences (Jul 20)
          : Anthropic IPO roadshow begins — bankers scheduling investor meetings, targeting October listing (Jul 20)
 ```
@@ -2029,25 +2033,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-07", "07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20"]
-    y-axis "Popularity Score" 6 --> 100
+    x-axis ["07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21"]
+    y-axis "Popularity Score" 5 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
-    line "Cursor" [96, 96, 96, 96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97]
+    line "GH Copilot" [18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+    line "Cursor" [96, 96, 96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90]
-    line "Gemini CLI" [20, 19, 18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6]
-    line "Antigravity" [95, 96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "Codex CLI" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90]
+    line "Gemini CLI" [19, 18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5]
+    line "Antigravity" [96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-6↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-5↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-6↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-5↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2580,6 +2584,7 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | 2026/07/20 | **Fable 5 permanent on Max/Team Premium** — included at 50% of limits; Pro and Team Standard get $100 one-time usage credit, $10/$50 per MTok ongoing | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories) |
 | 2026/07/20 | **Anthropic IPO roadshow begins** — bankers scheduling investor meetings per CNBC, confidential S-1 filed June 1 at ~$965B valuation, targeting October 2026 listing | [cnbc.com](https://www.cnbc.com) |
+| 2026/07/20 | **Claude Code v2.1.216** — `sandbox.filesystem.disabled` setting, fixed quadratic slowdown in long sessions, fixed OAuth token expiration in auto mode, restored agent prompt/tool restrictions in resumed background sessions | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Claude Code v2.1.215** — `/verify` and `/code-review` skills no longer auto-invoked; users must explicitly call them; tighter permission checks, safer Bash/PowerShell handling | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Fable 5 free access expires** — Pro plan users now pay $10/$50 per MTok usage credits; Max plan retains Fable 5 as included model; Claude Code 50% weekly limit bonus also expires | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/) |
 | 2026/07/18 | **Anthropic CISO framework** — operational guidance with 4 risk-assessment questions for enterprise agent deployment: content trust, allowed actions, blast radius, observability | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |

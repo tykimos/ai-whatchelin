@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.20-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.21-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -961,6 +961,9 @@ timeline
          : Gemini CLI 셧다운 33일째 — Antigravity CLI 2.0 완전 대체 (7/21)
          : Copilot Gemini 2.5 Pro·Gemini 3 Flash 7/31 전면 지원 종료 (7/20)
          : Anthropic IPO 로드쇼 개시 — 투자자 미팅 일정 잡기 시작, 10월 상장 목표 (7/20)
+         : AWS AgentCore GA — 선언적 에이전트 오케스트레이션, 메모리·가드레일·오류 복구 지원 (7/20)
+         : Claude Cowork 모바일·웹 확장 — 백그라운드 세션, 예약 작업, 공유 프로젝트 (7/21)
+         : ChatGPT 장애 지속 — 7/20 DownDetector 보고, GPT-5.6 Sol 안착 불안정 (7/21)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

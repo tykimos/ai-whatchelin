@@ -961,6 +961,9 @@ timeline
          : Gemini CLI shutdown Day 33 — Antigravity CLI 2.0 fully replaces it (Jul 21)
          : Copilot Gemini 2.5 Pro and Gemini 3 Flash deprecation July 31 across all experiences (Jul 20)
          : Anthropic IPO roadshow begins — bankers scheduling investor meetings, targeting October listing (Jul 20)
+         : AWS AgentCore GA — declarative agent orchestration with memory, guardrails, and error recovery (Jul 20)
+         : Claude Cowork expands to mobile and web — background sessions, scheduled tasks, shared projects (Jul 21)
+         : ChatGPT outage continues — Jul 20 DownDetector reports, GPT-5.6 Sol settling-in instability (Jul 21)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

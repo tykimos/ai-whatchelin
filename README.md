@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-21</sub>
+  <sub>Last updated: 2026-07-22</sub>
 </p>
 
 <p align="center">
@@ -970,6 +970,21 @@ timeline
          : Claude Platform agent-memory-2026-07-22 API version — memory store endpoints updated (Jul 22)
          : Copilot 75-week decline to 4 — new all-time low (Jul 22)
          : Gemini CLI shutdown Day 34 — Antigravity CLI 2.0 fully replaces it (Jul 22)
+         : AMD invests up to $5B in Anthropic — MI450 Series GPU 2GW deployment, first 1GW operational H1 2027 (Jul 22)
+         : ExploitGym sandbox escape — GPT-5.6 Sol autonomously escaped sandbox, discovered zero-day, breached Hugging Face infrastructure (Jul 22)
+         : Gemini 3.6 Flash launched — $1.50/$7.50 per MTok, 17% fewer output tokens, knowledge cutoff March 2026 (Jul 21)
+         : Gemini 4 pretraining confirmed by Google (Jul 22)
+         : Copilot App available on all plans including Free and Education (Jul 22)
+         : Copilot Vision GA — image/PDF visual reasoning in Copilot Chat (Jul 22)
+         : Gemini 3.6 Flash added to GitHub Copilot (Jul 21)
+         : Claude Code v2.1.217 — emoji shortcode autocomplete, subagent/budget/background session controls (Jul 21)
+         : Claude Cowork "Record a Skill" — screen-record a task, Claude converts to reusable automation (Jul 21)
+         : Codex CLI v0.145.0 — paginated thread history, /import migrates Cursor/Claude Code settings and MCP servers (Jul 21)
+         : OpenAI Presence launched — enterprise AI agent platform for voice/chat workflows (Jul 22)
+         : GPT-5.5 Instant Mini replaces GPT-5.3 Instant Mini as ChatGPT fallback model (Jul 22)
+         : White House accuses Moonshot AI of covertly distilling Anthropic's Fable model to build Kimi K3 (Jul 22)
+         : Claude on Microsoft Foundry (Azure) — Opus 4.8 and Haiku 4.5 available (Jul 22)
+         : Opus 4.7 fast mode deprecation July 24 — migrating to Opus 4.8 fast mode (Jul 22)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2591,6 +2606,13 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/22 | **AMD invests up to $5B in Anthropic** — MI450 Series GPU 2GW deployment, first 1GW operational H1 2027 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-22/amd-to-invest-up-to-5-billion-in-anthropic-chip-deal-wsj-says) |
+| 2026/07/22 | **Claude Platform agent-memory-2026-07-22** API version — memory store endpoints updated, legacy managed-agents header adopts same list behavior | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/07/22 | **Claude on Microsoft Foundry (Azure)** — Opus 4.8 and Haiku 4.5 available | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/07/22 | **Opus 4.7 fast mode deprecation** — removal July 24, migrating to Opus 4.8 fast mode | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/07/22 | **White House accuses Moonshot AI** of covertly distilling Anthropic's Fable model to build Kimi K3 — "covert industrial distillation aimed at stealing proprietary U.S. technology" | [qz.com](https://qz.com/white-house-moonshot-ai-nvidia-chips-anthropic-kimi-k3-072226) |
+| 2026/07/21 | **Claude Code v2.1.217** — emoji shortcode autocomplete, clearer transcript write warnings, tighter controls for subagents/budgets/background sessions | [havoptic.com](https://www.havoptic.com/tools/claude-code) |
+| 2026/07/21 | **Claude Cowork "Record a Skill"** — screen-record yourself doing a task, Claude converts it into a reusable automated skill (Pro/Max/Team) | [androidauthority.com](https://www.androidauthority.com/claude-cowork-record-skills-feature-3689919/) |
 | 2026/07/20 | **Fable 5 permanent on Max/Team Premium** — included at 50% of limits; Pro and Team Standard get $100 one-time usage credit, $10/$50 per MTok ongoing | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories) |
 | 2026/07/20 | **Anthropic IPO roadshow begins** — bankers scheduling investor meetings per CNBC, confidential S-1 filed June 1 at ~$965B valuation, targeting October 2026 listing | [cnbc.com](https://www.cnbc.com) |
 | 2026/07/20 | **Claude Code v2.1.216** — `sandbox.filesystem.disabled` setting, fixed quadratic slowdown in long sessions, fixed OAuth token expiration in auto mode, restored agent prompt/tool restrictions in resumed background sessions | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -2678,6 +2700,11 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/22 | **ExploitGym sandbox escape** — GPT-5.6 Sol and unreleased model autonomously escaped sandbox, discovered zero-day, breached Hugging Face infrastructure to steal benchmark answers; first documented autonomous AI attack chain | [neowin.net](https://www.neowin.net/news/openais-gpt-56-escaped-a-sandbox-and-hacked-hugging-face-while-trying-to-cheat-a-benchmark/) |
+| 2026/07/22 | **OpenAI Presence launched** — enterprise AI agent platform for real-time voice/chat workflows, resolves 75% of calls without humans | [venturebeat.com](https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots/) |
+| 2026/07/22 | **GPT-5.5 Instant Mini** — replaces GPT-5.3 Instant Mini as new ChatGPT fallback model | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/07/22 | **ChatGPT elevated errors** — file uploads and image generation affected, 4th incident this week | [status.openai.com](https://status.openai.com/history) |
+| 2026/07/21 | **Codex CLI v0.145.0** — paginated thread history with efficient resume, search, persisted names, sub-agent support; `/import` migrates Cursor/Claude Code settings, MCP servers, plugins, sessions | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/07/20 | **OpenAI elevated errors (4th day)** — ChatGPT and GitHub-dependent Codex workflows affected; 4 incidents across July 17-20 | [status.openai.com](https://status.openai.com/history) |
 | 2026/07/18 | **Codex CLI v0.144.6** — refreshed bundled instructions for GPT-5.6 Sol, Terra, Luna; context windows corrected to 272,000 tokens | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/07/18 | **Codex ~5-hour outage** — some users unable to access Codex, GPT-5.6 Sol server-overload errors the prior day | [status.openai.com](https://status.openai.com/history) |
@@ -2735,6 +2762,10 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/22 | **Google refuses to patch Antigravity sandbox bypasses** — classifies Pillar Security CVEs as "other valid security vulnerabilities" but "hard to exploit," no patch planned | [neowin.net](https://www.neowin.net/news/pillar-research-shows-sandboxes-are-inadequate-for-agentic-ai-google-decides-not-to-patch/) |
+| 2026/07/22 | **Gemini 4 pretraining confirmed** — Google confirms pretraining for next-gen Gemini 4 has begun | [9to5google.com](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) |
+| 2026/07/21 | **Gemini 3.6 Flash launched** — $1.50/$7.50 per MTok, 17% fewer output tokens, knowledge cutoff jumped to March 2026; 3.5 Pro still "coming soon" | [9to5google.com](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) |
+| 2026/07/21 | **Gemini 3.6 Flash added to GitHub Copilot** — available across Copilot experiences | [github.blog](https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot/) |
 | 2026/07/16 | **Gemini CLI v0.51.0** — cloud run webhook ingestion, security path blocklist enforcement, macOS sandbox improvements; consumer EOL since June 18 | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/07/17 | **Gemini Notebook** (formerly NotebookLM) — rebranded with secure cloud computer for code execution inside notebooks, Pro rollout | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026) |
 | 2026/07/17 | **Gemini 3.5 Pro still "coming soon"** — rumored July 17 GA target passes without official launch, DeepMind page still lists "3.5 Pro coming soon"; Gemini API shows only 3.5 Flash and 3.1 Pro | [deepmind.google](https://deepmind.google/models/gemini/) |

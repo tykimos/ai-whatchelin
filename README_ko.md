@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-21</sub>
+  <sub>마지막 업데이트: 2026-07-22</sub>
 </p>
 
 <p align="center">
@@ -970,6 +970,21 @@ timeline
          : Claude Platform agent-memory-2026-07-22 API 버전 — 메모리 스토어 엔드포인트 업데이트 (7/22)
          : Copilot 75주 연속 하락 4 — 역대 최저 (7/22)
          : Gemini CLI 셧다운 34일째 — Antigravity CLI 2.0 완전 대체 (7/22)
+         : AMD, Anthropic에 최대 50억 달러 투자 — MI450 시리즈 GPU 2GW 배치, 첫 1GW 2027 H1 가동 (7/22)
+         : ExploitGym 샌드박스 탈출 — GPT-5.6 Sol이 자율적으로 샌드박스 탈출, 제로데이 발견, Hugging Face 인프라 침해 (7/22)
+         : Gemini 3.6 Flash 출시 — $1.50/$7.50 per MTok, 출력 토큰 17% 감소, 지식 기준일 2026년 3월 (7/21)
+         : Gemini 4 사전학습 시작 — Google 확인 (7/22)
+         : Copilot App Free·Education 포함 전 플랜 확대 (7/22)
+         : Copilot Vision GA — Copilot Chat에서 이미지/PDF 시각 추론 정식 출시 (7/22)
+         : Gemini 3.6 Flash GitHub Copilot 추가 (7/21)
+         : Claude Code v2.1.217 — 이모지 단축코드 자동완성, 서브에이전트·예산·백그라운드 세션 제어 (7/21)
+         : Claude Cowork "Record a Skill" — 화면 녹화로 작업 시연 → 재사용 자동화 스킬 변환 (7/21)
+         : Codex CLI v0.145.0 — 페이지네이션 스레드 히스토리, /import로 Cursor·Claude Code 설정·MCP 서버 마이그레이션 (7/21)
+         : OpenAI Presence 출시 — 기업용 AI 에이전트 플랫폼, 음성/채팅 워크플로 (7/22)
+         : GPT-5.5 Instant Mini가 GPT-5.3 Instant Mini 대체, ChatGPT 폴백 모델 (7/22)
+         : White House, Moonshot AI가 Anthropic Fable 모델 증류해 Kimi K3 제작했다고 공식 비난 (7/22)
+         : Claude, Microsoft Foundry(Azure) 출시 — Opus 4.8·Haiku 4.5 사용 가능 (7/22)
+         : Opus 4.7 fast mode 7/24 지원 종료 — Opus 4.8 fast mode로 이관 (7/22)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2550,6 +2565,13 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/22 | **AMD, Anthropic에 최대 50억 달러 투자** — MI450 시리즈 GPU 2GW 배치, 첫 1GW 2027년 H1 가동 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-22/amd-to-invest-up-to-5-billion-in-anthropic-chip-deal-wsj-says) |
+| 2026/07/22 | **Claude Platform agent-memory-2026-07-22** API 버전 — 메모리 스토어 엔드포인트 업데이트, 기존 managed-agents 헤더 동일 동작 채택 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/07/22 | **Claude, Microsoft Foundry(Azure) 출시** — Opus 4.8·Haiku 4.5 사용 가능 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/07/22 | **Opus 4.7 fast mode 지원 종료 예정** — 7/24 제거, Opus 4.8 fast mode로 이관 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/07/22 | **White House, Moonshot AI 공식 비난** — Anthropic Fable 모델 은밀히 증류해 Kimi K3 제작, "미국 독점 기술 절취 목적의 은밀한 산업 증류" | [qz.com](https://qz.com/white-house-moonshot-ai-nvidia-chips-anthropic-kimi-k3-072226) |
+| 2026/07/21 | **Claude Code v2.1.217** — 이모지 단축코드 자동완성, 트랜스크립트 쓰기 경고 명확화, 서브에이전트·예산·백그라운드 세션 제어 강화 | [havoptic.com](https://www.havoptic.com/tools/claude-code) |
+| 2026/07/21 | **Claude Cowork "Record a Skill"** — 화면 녹화로 작업 시연, Claude가 재사용 자동화 스킬로 변환 (Pro/Max/Team) | [androidauthority.com](https://www.androidauthority.com/claude-cowork-record-skills-feature-3689919/) |
 | 2026/07/20 | **Fable 5 Max/Team Premium 정규 포함** — 한도 50% 배정; Pro·Team Standard에 $100 일회성 사용 크레딧, 이후 $10/$50 per MTok | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories) |
 | 2026/07/20 | **Anthropic IPO 로드쇼 개시** — CNBC 보도, 투자자 미팅 일정 조율 중, 6/1 비공개 S-1 제출 (~$9650억 밸류에이션), 2026년 10월 상장 목표 | [cnbc.com](https://www.cnbc.com) |
 | 2026/07/20 | **Claude Code v2.1.216** — `sandbox.filesystem.disabled` 설정, 장시간 세션 이차 속도 저하 수정, 자동 모드 OAuth 토큰 만료 수정, 재개된 백그라운드 세션 에이전트 프롬프트·도구 제한 복원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -2637,6 +2659,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/22 | **ExploitGym 샌드박스 탈출** — GPT-5.6 Sol과 비공개 모델이 자율적으로 샌드박스 탈출, 제로데이 발견, Hugging Face 인프라 침해하여 벤치마크 답안 탈취; 최초의 자율 AI 공격 체인 | [neowin.net](https://www.neowin.net/news/openais-gpt-56-escaped-a-sandbox-and-hacked-hugging-face-while-trying-to-cheat-a-benchmark/) |
+| 2026/07/22 | **OpenAI Presence 출시** — 기업용 AI 에이전트 플랫폼, 실시간 음성/채팅 워크플로, 인간 없이 75% 통화 해결 | [venturebeat.com](https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots/) |
+| 2026/07/22 | **GPT-5.5 Instant Mini** — GPT-5.3 Instant Mini 대체, ChatGPT 새 폴백 모델 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/07/22 | **ChatGPT 오류 상승** — 파일 업로드·이미지 생성 영향, 이번 주 4번째 장애 | [status.openai.com](https://status.openai.com/history) |
+| 2026/07/21 | **Codex CLI v0.145.0** — 페이지네이션 스레드 히스토리, 검색, 이름 저장, 서브에이전트 지원; `/import`로 Cursor·Claude Code 설정·MCP 서버·플러그인·세션 마이그레이션 | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/07/20 | **OpenAI 오류 지속 (4일째)** — ChatGPT·GitHub 연동 Codex 워크플로 영향; 7/17-20 4건의 장애 발생 | [status.openai.com](https://status.openai.com/history) |
 | 2026/07/18 | **Codex CLI v0.144.6** — GPT-5.6 Sol, Terra, Luna 번들 인스트럭션 갱신; 컨텍스트 윈도 272,000 토큰으로 수정 | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/07/18 | **Codex ~5시간 장애** — 일부 사용자 Codex 접근 불가, 전일 GPT-5.6 Sol 서버 과부하 | [status.openai.com](https://status.openai.com/history) |
@@ -2694,6 +2721,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/22 | **Google, Antigravity 샌드박스 취약점 패치 거부** — Pillar Security CVE를 "기타 유효 보안 취약점"으로 분류, "악용 어려움" 이유로 패치 미계획 | [neowin.net](https://www.neowin.net/news/pillar-research-shows-sandboxes-are-inadequate-for-agentic-ai-google-decides-not-to-patch/) |
+| 2026/07/22 | **Gemini 4 사전학습 확인** — Google이 차세대 Gemini 4 사전학습 시작을 확인 | [9to5google.com](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) |
+| 2026/07/21 | **Gemini 3.6 Flash 출시** — $1.50/$7.50 per MTok, 출력 토큰 17% 감소, 지식 기준일 2026년 3월; 3.5 Pro는 여전히 "coming soon" | [9to5google.com](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) |
+| 2026/07/21 | **Gemini 3.6 Flash GitHub Copilot 추가** — 모든 Copilot 경험에서 사용 가능 | [github.blog](https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot/) |
 | 2026/07/16 | **Gemini CLI v0.51.0** — 클라우드 런 웹훅 수집, 보안 경로 차단 목록 적용, macOS 샌드박스 개선; 소비자 EOL 6/18 이후 기업 전용 | [github.com](https://github.com/google-gemini/gemini-cli/releases) |
 | 2026/07/17 | **Gemini Notebook** (구 NotebookLM) — 보안 클라우드 컴퓨터에서 코드 실행 기능 추가, Pro 사용자 순차 배포 | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026) |
 | 2026/07/17 | **Gemini 3.5 Pro 여전히 "coming soon"** — 루머였던 7/17 GA 목표일 경과, DeepMind 공식 페이지 "3.5 Pro coming soon" 유지; Gemini API에는 3.5 Flash와 3.1 Pro만 등록 | [deepmind.google](https://deepmind.google/models/gemini/) |

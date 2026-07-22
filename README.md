@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.21-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.22-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -964,6 +964,12 @@ timeline
          : AWS AgentCore GA — declarative agent orchestration with memory, guardrails, and error recovery (Jul 20)
          : Claude Cowork expands to mobile and web — background sessions, scheduled tasks, shared projects (Jul 21)
          : ChatGPT outage continues — Jul 20 DownDetector reports, GPT-5.6 Sol settling-in instability (Jul 21)
+         : Pillar Security "Week of Sandbox Escapes" — CVEs in Cursor, Codex CLI, Gemini CLI, Antigravity; agents write files that trusted host tools execute (Jul 22)
+         : Google declines to patch Antigravity sandbox bypasses — classifies as "other valid security" but "hard to exploit" (Jul 22)
+         : ChatGPT elevated errors — file uploads and image generation affected (Jul 22)
+         : Claude Platform agent-memory-2026-07-22 API version — memory store endpoints updated (Jul 22)
+         : Copilot 75-week decline to 4 — new all-time low (Jul 22)
+         : Gemini CLI shutdown Day 34 — Antigravity CLI 2.0 fully replaces it (Jul 22)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2036,25 +2042,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21"]
-    y-axis "Popularity Score" 5 --> 100
+    x-axis ["07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22"]
+    y-axis "Popularity Score" 4 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
-    line "Cursor" [96, 96, 96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
+    line "GH Copilot" [17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+    line "Cursor" [96, 96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90]
-    line "Gemini CLI" [19, 18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5]
-    line "Antigravity" [96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "Codex CLI" [89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90]
+    line "Gemini CLI" [18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4]
+    line "Antigravity" [97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-5↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-4↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-5↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-4↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 

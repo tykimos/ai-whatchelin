@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.21-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.22-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -964,6 +964,12 @@ timeline
          : AWS AgentCore GA — 선언적 에이전트 오케스트레이션, 메모리·가드레일·오류 복구 지원 (7/20)
          : Claude Cowork 모바일·웹 확장 — 백그라운드 세션, 예약 작업, 공유 프로젝트 (7/21)
          : ChatGPT 장애 지속 — 7/20 DownDetector 보고, GPT-5.6 Sol 안착 불안정 (7/21)
+         : Pillar Security "Week of Sandbox Escapes" — Cursor·Codex CLI·Gemini CLI·Antigravity 샌드박스 탈출 CVE 공개, 호스트 도구 악용 (7/22)
+         : Google, Antigravity 샌드박스 취약점 패치 거부 — "악용 어려움" 분류 (7/22)
+         : ChatGPT 오류 상승 — 파일 업로드·이미지 생성 영향 (7/22)
+         : Claude Platform agent-memory-2026-07-22 API 버전 — 메모리 스토어 엔드포인트 업데이트 (7/22)
+         : Copilot 75주 연속 하락 4 — 역대 최저 (7/22)
+         : Gemini CLI 셧다운 34일째 — Antigravity CLI 2.0 완전 대체 (7/22)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2006,25 +2012,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-08", "07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21"]
-    y-axis "인기 점수" 5 --> 100
+    x-axis ["07-09", "07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22"]
+    y-axis "인기 점수" 4 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
-    line "Cursor" [96, 96, 96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
+    line "GH Copilot" [17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+    line "Cursor" [96, 96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [88, 89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90]
-    line "Gemini CLI" [19, 18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5]
-    line "Antigravity" [96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "Codex CLI" [89, 89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90]
+    line "Gemini CLI" [18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4]
+    line "Antigravity" [97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-5↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-4↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-90―-3498DB?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-5↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-4↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 

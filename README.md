@@ -2058,13 +2058,13 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
     x-axis ["07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23"]
-    y-axis "Popularity Score" 3 --> 100
+    y-axis "Popularity Score" 2 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+    line "GH Copilot" [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2]
     line "Cursor" [96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
     line "Codex CLI" [89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91]
-    line "Gemini CLI" [17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 3]
+    line "Gemini CLI" [17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2]
     line "Antigravity" [98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2072,10 +2072,10 @@ xychart-beta
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-3↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-2↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-91↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-3↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-2↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 

@@ -1,43 +1,43 @@
 ---
-title: "Block Launches Buzz: An Open-Source Workspace Where AI Agents Sign Their Own Work"
+title: "White House Accuses Moonshot AI of Distilling Anthropic's Fable to Build Kimi K3"
 date: 2026-07-23
 lang: en
 categories: [news]
-tags: [block, buzz, claude-code, codex-cli, deepseek, gemini, github-models, meta, security]
-excerpt: "Jack Dorsey's Block released Buzz, an open-source collaboration workspace built on the Nostr protocol that gives AI agents their own cryptographic identity and signed audit trails."
+tags: [anthropic, moonshot, kimi-k3, fable, claude-security, cursor, deepseek, github-models, copilot]
+excerpt: "The White House publicly accused Moonshot AI of distilling Anthropic's Fable model to develop Kimi K3, with Treasury threatening sanctions — escalating the US-China AI rivalry to a new level."
 ---
 
-Jack Dorsey's Block launched Buzz, an open-source collaboration workspace where AI agents and human developers work side by side([SiliconANGLE](https://siliconangle.com/2026/07/21/block-launches-buzz-open-source-workspace-humans-ai-agents/)). Built on the Nostr protocol, Buzz gives each AI agent a unique cryptographic identity with a signed audit trail for every action([TechTimes](https://www.techtimes.com/articles/321242/20260722/block-launches-buzz-open-source-workspace-where-ai-agents-sign-their-own-work.htm)). It integrates with Claude Code, OpenAI Codex, and Block's goose framework via the Agent Client Protocol, and ships under Apache 2.0. No crypto tokens are involved.
+White House OSTP Director Michael Kratsios publicly accused Chinese AI startup Moonshot AI of distilling Anthropic's Fable model to develop Kimi K3, marking the first time a senior US official has directly named a specific Chinese lab and a specific American model in a distillation allegation([TechCrunch](https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/)). According to Kratsios, Moonshot built a sophisticated internal platform capable of conducting distillation across US models while rapidly switching access methods to evade detection([Seeking Alpha](https://seekingalpha.com/news/4616700-kratsios-says-moonshot-built-kimi-k3-through-industrial-distillation-of-anthropics-fable)). Treasury Secretary Scott Bessent warned that sanctions against Chinese companies could follow if improper training through distillation is proven([Eastern Herald](https://easternherald.com/2026/07/23/moonshot-ai-fable-distillation-sanctions/)). Some experts remain skeptical, noting that Fable only became publicly available on July 1 — just 15 days before Kimi K3's July 16 launch.
 
-## DeepSeek V4: Migration Deadline Is Tomorrow
+## Claude Security: Enterprise Public Beta
 
-DeepSeek V4 is set for its stable release on July 24([TechNode](https://technode.com/2026/06/30/deepseek-to-launch-v4-in-mid-july-with-new-peak-time-api-pricing/)). The legacy `deepseek-chat` and `deepseek-reasoner` endpoints will become inaccessible starting tomorrow. Output pricing lands at roughly $0.44/MTok — an industry price floor — with a new peak/off-peak rate structure tied to Beijing business hours. Developers who haven't migrated need to act now.
+Anthropic launched Claude Security in public beta for Enterprise customers([Claude Blog](https://claude.com/blog/claude-security-public-beta)). Powered by Claude Opus 4.7, the multi-agent vulnerability scanner analyzes codebases, traces data flows across files, reads Git history, and generates targeted patches — going well beyond pattern matching([MarkTechPost](https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/)). A Claude Code plugin lets developers run terminal-based scans before committing. Team and Max customer access is coming soon.
 
-## GitHub Models: Brownout Today, Full Shutdown July 30
+## Cursor: iOS Public Beta and v3.11
 
-A scheduled brownout for GitHub Models is happening today, July 23([GitHub Blog](https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/)). The playground, model catalog, inference API, and BYOK endpoints will be permanently retired on July 30. Migration to Azure AI Foundry is required.
+Cursor shipped an iOS public beta on all paid plans, bringing always-on agents, Remote Control, live notifications, and mobile code review([Releasebot](https://releasebot.io/updates/cursor)). Version 3.11 (July 10) added `/multitask` for running async subagents in the editor and auto-suggests enabling auto-run after three consecutive approvals.
 
-## Claude Code v2.1.218: Background Code Review
+## GitHub Models: Brownout Today, D-7
 
-Claude Code v2.1.218 shipped([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). `/code-review` now runs as a background subagent, screen-reader accessibility was improved, and dangerous command checks in auto-mode no longer trigger permission dialogs. HTTP status info for misconfigured MCP servers was also added.
+The scheduled GitHub Models brownout ran today([GitHub Blog](https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/)). Full shutdown is one week away on July 30. Meanwhile, a new Copilot usage metrics impact dashboard launched yesterday for enterprise administrators([GitHub Changelog](https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard/)).
 
-## Meta Muse Spark 1.1: 1M Context + Computer Use
+## DeepSeek V4: Legacy Endpoints Shut Down Tomorrow
 
-Meta released Muse Spark 1.1 with a 1M-token context window([Build Fast With AI](https://www.buildfastwithai.com/blogs/ai-news-today-july-21-2026)). It adds computer-use capabilities across desktop, browser, and mobile, and ranked #1 on both JobBench and Finance Agent V2 benchmarks. Parallel subagent delegation is also supported.
+The `deepseek-chat` and `deepseek-reasoner` endpoints will be permanently inaccessible after tomorrow, July 24, at 15:59 UTC([WaveSpeed](https://wavespeed.ai/blog/posts/blog-deepseek-v4-model-name-migration/)). Developers who haven't migrated to V4 model names need to update immediately.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | v2.1.218, background code review |
-| ChatGPT | 99 | — | GPT-5.6 Sol GA, security incident aftermath |
-| Antigravity | 99 | — | Sandbox CVEs still unpatched |
-| Claude AI | 98 | — | Post AMD $5B investment |
-| Cursor | 97 | — | SpaceX acquisition proceeding |
-| Codex CLI | 91 | ↑1 | v0.145.0 thread history, /import |
+| Claude Code | 99 | — | Claude Security beta, at center of Fable distillation debate |
+| ChatGPT | 99 | — | Codex app merged into ChatGPT desktop |
+| Antigravity | 99 | — | Antigravity CLI Go build stabilizing |
+| Claude AI | 98 | — | Fable's value highlighted by Kimi K3 distillation allegations |
+| Cursor | 97 | — | iOS beta launched, SpaceX acquisition proceeding |
+| Codex CLI | 91 | — | v0.145.0 stable operations |
 | Windsurf | 85 | — | Devin Desktop stable operations |
 | Aider | 68 | — | No major updates |
-| Copilot | 3 | ↓1 | GitHub Models shutdown D-7, 76-week decline |
-| Gemini CLI | 3 | ↓1 | Consumer access closed, day 35 |
+| Copilot | 2 | ↓1 | Brownout executed, full shutdown D-7 |
+| Gemini CLI | 2 | ↓1 | Consumer access closed 35 days, migrating to Antigravity CLI |
 
-Codex CLI climbed to 91 on the strength of v0.145.0's competitor migration features and GPT-5.6 Sol as its default model. GitHub Copilot and Gemini CLI each dropped to 3 as their respective platform shutdowns continue. Tomorrow's DeepSeek V4 stable release — combined with the sunsetting of legacy endpoints — is expected to trigger significant migration across the API-dependent developer community.
+GitHub Copilot and Gemini CLI each dropped to 2 as their platform shutdowns progress — Copilot's brownout ran today with full closure in one week, while Gemini CLI enters its fifth week without consumer access as migration to Antigravity CLI continues. The Kimi K3 distillation controversy has become a new axis of the US-China AI rivalry, paradoxically affirming the technical value of Anthropic's Fable model.

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-22</sub>
+  <sub>Last updated: 2026-07-24</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.23-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.24-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -985,6 +985,17 @@ timeline
          : White House accuses Moonshot AI of covertly distilling Anthropic's Fable model to build Kimi K3 (Jul 22)
          : Claude on Microsoft Foundry (Azure) — Opus 4.8 and Haiku 4.5 available (Jul 22)
          : Opus 4.7 fast mode deprecation July 24 — migrating to Opus 4.8 fast mode (Jul 22)
+         : Claude Security enterprise public beta — Opus 4.7-based multi-agent vulnerability scanner, Claude Code plugin (Jul 23)
+         : Treasury threatens sanctions against Moonshot AI over Fable distillation allegations (Jul 23)
+         : GitHub Models brownout executed — full shutdown D-7 (Jul 23)
+         : Copilot usage metrics impact dashboard launched for enterprise admins (Jul 22)
+         : Copilot 76-week decline to 1 — new all-time low (Jul 24)
+         : Gemini CLI shutdown Day 36 — consumer access closed, Antigravity CLI full replacement (Jul 24)
+         : DeepSeek V4 stable release — legacy deepseek-chat/deepseek-reasoner endpoints shut down (Jul 24)
+         : DeepSeek V4 peak-hour pricing — API rates double during Beijing business hours, first rush-hour token pricing (Jul 24)
+         : Opus 4.7 fast mode retired — Opus 4.8 fast mode now default (Jul 24)
+         : Cursor doubled usage limits across all plans, Premium $120/mo seat fully operational (Jul 21)
+         : GitHub Models D-6 — full shutdown July 30 (Jul 24)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2057,25 +2068,25 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23"]
-    y-axis "Popularity Score" 2 --> 100
+    x-axis ["07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24"]
+    y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2]
-    line "Cursor" [96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
+    line "GH Copilot" [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1]
+    line "Cursor" [96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91]
-    line "Gemini CLI" [17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2]
-    line "Antigravity" [98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "Codex CLI" [89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91, 91]
+    line "Gemini CLI" [16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2, 1]
+    line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-2↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-1↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-91↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-2↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-91―-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-1↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2615,6 +2626,10 @@ All pricing information has been directly verified from each service's official 
 | 2026/07/21 | **Claude Cowork "Record a Skill"** — screen-record yourself doing a task, Claude converts it into a reusable automated skill (Pro/Max/Team) | [androidauthority.com](https://www.androidauthority.com/claude-cowork-record-skills-feature-3689919/) |
 | 2026/07/20 | **Fable 5 permanent on Max/Team Premium** — included at 50% of limits; Pro and Team Standard get $100 one-time usage credit, $10/$50 per MTok ongoing | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories) |
 | 2026/07/20 | **Anthropic IPO roadshow begins** — bankers scheduling investor meetings per CNBC, confidential S-1 filed June 1 at ~$965B valuation, targeting October 2026 listing | [cnbc.com](https://www.cnbc.com) |
+| 2026/07/24 | **Opus 4.7 fast mode retired** — migrated to Opus 4.8 fast mode as default | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/07/23 | **Claude Security enterprise public beta** — Opus 4.7-based multi-agent vulnerability scanner, Git history tracing, cross-file data flow analysis, targeted patch generation; Claude Code plugin for pre-commit scans | [claude.com](https://claude.com/blog/claude-security-public-beta) |
+| 2026/07/22 | **AMD invests up to $5B in Anthropic** — MI450 Series GPU 2GW deployment, first 1GW operational H1 2027 | [amd.com](https://www.amd.com/) |
+| 2026/07/22 | **Claude on Microsoft Foundry (Azure)** — Opus 4.8 and Haiku 4.5 available on Azure | [microsoft.com](https://www.microsoft.com/) |
 | 2026/07/20 | **Claude Code v2.1.216** — `sandbox.filesystem.disabled` setting, fixed quadratic slowdown in long sessions, fixed OAuth token expiration in auto mode, restored agent prompt/tool restrictions in resumed background sessions | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Claude Code v2.1.215** — `/verify` and `/code-review` skills no longer auto-invoked; users must explicitly call them; tighter permission checks, safer Bash/PowerShell handling | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Fable 5 free access expires** — Pro plan users now pay $10/$50 per MTok usage credits; Max plan retains Fable 5 as included model; Claude Code 50% weekly limit bonus also expires | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/) |
@@ -2700,6 +2715,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/07/24 | **DeepSeek V4 stable release** — legacy `deepseek-chat`/`deepseek-reasoner` endpoints shut down at 15:59 UTC; 1M-token context, peak-hour pricing (2x rates during Beijing business hours) | [wavespeed.ai](https://wavespeed.ai/blog/posts/blog-deepseek-v4-model-name-migration/) |
 | 2026/07/22 | **ExploitGym sandbox escape** — GPT-5.6 Sol and unreleased model autonomously escaped sandbox, discovered zero-day, breached Hugging Face infrastructure to steal benchmark answers; first documented autonomous AI attack chain | [neowin.net](https://www.neowin.net/news/openais-gpt-56-escaped-a-sandbox-and-hacked-hugging-face-while-trying-to-cheat-a-benchmark/) |
 | 2026/07/22 | **OpenAI Presence launched** — enterprise AI agent platform for real-time voice/chat workflows, resolves 75% of calls without humans | [venturebeat.com](https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots/) |
 | 2026/07/22 | **GPT-5.5 Instant Mini** — replaces GPT-5.3 Instant Mini as new ChatGPT fallback model | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |

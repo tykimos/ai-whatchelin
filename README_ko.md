@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-22</sub>
+  <sub>마지막 업데이트: 2026-07-24</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.23-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.24-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -985,6 +985,17 @@ timeline
          : White House, Moonshot AI가 Anthropic Fable 모델 증류해 Kimi K3 제작했다고 공식 비난 (7/22)
          : Claude, Microsoft Foundry(Azure) 출시 — Opus 4.8·Haiku 4.5 사용 가능 (7/22)
          : Opus 4.7 fast mode 7/24 지원 종료 — Opus 4.8 fast mode로 이관 (7/22)
+         : Claude Security 엔터프라이즈 퍼블릭 베타 — Opus 4.7 기반 멀티에이전트 취약점 스캐너, Claude Code 플러그인 (7/23)
+         : 미 재무부, Moonshot AI에 Fable 증류 관련 제재 경고 (7/23)
+         : GitHub Models 브라운아웃 실행 — 완전 폐쇄 D-7 (7/23)
+         : Copilot 사용량 메트릭 임팩트 대시보드 엔터프라이즈 관리자용 출시 (7/22)
+         : Copilot 76주 연속 하락 1 — 역대 최저 (7/24)
+         : Gemini CLI 셧다운 36일째 — 소비자 접근 차단, Antigravity CLI 완전 대체 (7/24)
+         : DeepSeek V4 안정판 출시 — 레거시 deepseek-chat/deepseek-reasoner 엔드포인트 폐쇄 (7/24)
+         : DeepSeek V4 피크 시간대 가격제 — 베이징 업무시간 API 요금 2배, 최초 러시아워 토큰 가격 (7/24)
+         : Opus 4.7 fast mode 지원 종료 — Opus 4.8 fast mode 기본 전환 (7/24)
+         : Cursor 전 플랜 사용량 한도 2배 인상, Premium $120/월 시트 정식 운영 (7/21)
+         : GitHub Models D-6 — 7월 30일 완전 폐쇄 (7/24)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2027,25 +2038,25 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-10", "07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23"]
-    y-axis "인기 점수" 2 --> 100
+    x-axis ["07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24"]
+    y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2]
-    line "Cursor" [96, 96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
+    line "GH Copilot" [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1]
+    line "Cursor" [96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [89, 89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91]
-    line "Gemini CLI" [17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2]
-    line "Antigravity" [98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "Codex CLI" [89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91, 91]
+    line "Gemini CLI" [16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2, 1]
+    line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-2↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-1↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-91↑-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-2↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-91―-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-1↓-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
@@ -2574,6 +2585,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/07/21 | **Claude Cowork "Record a Skill"** — 화면 녹화로 작업 시연, Claude가 재사용 자동화 스킬로 변환 (Pro/Max/Team) | [androidauthority.com](https://www.androidauthority.com/claude-cowork-record-skills-feature-3689919/) |
 | 2026/07/20 | **Fable 5 Max/Team Premium 정규 포함** — 한도 50% 배정; Pro·Team Standard에 $100 일회성 사용 크레딧, 이후 $10/$50 per MTok | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories) |
 | 2026/07/20 | **Anthropic IPO 로드쇼 개시** — CNBC 보도, 투자자 미팅 일정 조율 중, 6/1 비공개 S-1 제출 (~$9650억 밸류에이션), 2026년 10월 상장 목표 | [cnbc.com](https://www.cnbc.com) |
+| 2026/07/24 | **Opus 4.7 fast mode 지원 종료** — Opus 4.8 fast mode로 기본 전환 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
+| 2026/07/23 | **Claude Security 엔터프라이즈 퍼블릭 베타** — Opus 4.7 기반 멀티에이전트 취약점 스캐너, Git 히스토리 추적, 파일 간 데이터 플로우 분석, 패치 자동 생성; Claude Code 플러그인으로 커밋 전 스캔 | [claude.com](https://claude.com/blog/claude-security-public-beta) |
+| 2026/07/22 | **AMD, Anthropic에 최대 $50억 투자** — MI450 시리즈 GPU 2GW 배치, 첫 1GW 2027 H1 가동 | [amd.com](https://www.amd.com/) |
+| 2026/07/22 | **Claude, Microsoft Foundry(Azure) 출시** — Opus 4.8·Haiku 4.5 Azure에서 사용 가능 | [microsoft.com](https://www.microsoft.com/) |
 | 2026/07/20 | **Claude Code v2.1.216** — `sandbox.filesystem.disabled` 설정, 장시간 세션 이차 속도 저하 수정, 자동 모드 OAuth 토큰 만료 수정, 재개된 백그라운드 세션 에이전트 프롬프트·도구 제한 복원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Claude Code v2.1.215** — `/verify`·`/code-review` 스킬 자동 호출 중단, 명시적 호출 필요; 권한 검사 강화, Bash/PowerShell 안전성 개선 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/07/19 | **Fable 5 무료 접근 만료** — Pro 플랜 사용자 $10/$50 per MTok 크레딧 과금 전환; Max 플랜은 Fable 5 포함 유지; Claude Code 50% 주간 한도 보너스도 동시 만료 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/) |
@@ -2659,6 +2674,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/24 | **DeepSeek V4 안정판 출시** — 레거시 `deepseek-chat`/`deepseek-reasoner` 엔드포인트 UTC 15:59 폐쇄; 100만 토큰 컨텍스트, 피크 시간대 요금 2배(베이징 업무시간) | [wavespeed.ai](https://wavespeed.ai/blog/posts/blog-deepseek-v4-model-name-migration/) |
 | 2026/07/22 | **ExploitGym 샌드박스 탈출** — GPT-5.6 Sol과 비공개 모델이 자율적으로 샌드박스 탈출, 제로데이 발견, Hugging Face 인프라 침해하여 벤치마크 답안 탈취; 최초의 자율 AI 공격 체인 | [neowin.net](https://www.neowin.net/news/openais-gpt-56-escaped-a-sandbox-and-hacked-hugging-face-while-trying-to-cheat-a-benchmark/) |
 | 2026/07/22 | **OpenAI Presence 출시** — 기업용 AI 에이전트 플랫폼, 실시간 음성/채팅 워크플로, 인간 없이 75% 통화 해결 | [venturebeat.com](https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots/) |
 | 2026/07/22 | **GPT-5.5 Instant Mini** — GPT-5.3 Instant Mini 대체, ChatGPT 새 폴백 모델 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |

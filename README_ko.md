@@ -995,6 +995,8 @@ timeline
          : DeepSeek V4 피크 시간대 가격제 — 베이징 업무시간 API 요금 2배, 최초 러시아워 토큰 가격 (7/24)
          : Opus 4.7 fast mode 지원 종료 — Opus 4.8 fast mode 기본 전환 (7/24)
          : Cursor 전 플랜 사용량 한도 2배 인상, Premium $120/월 시트 정식 운영 (7/21)
+         : Cursor Router 출시 — 60만 건 이상 요청 학습 모델 라우터, 30-60% 비용 절감, Teams 기본 적용 (7/22)
+         : Antigravity CLI v1.1.5 — /effort 명령어로 추론 깊이 실시간 조절 (7/21)
          : GitHub Models D-6 — 7월 30일 완전 폐쇄 (7/24)
 ```
 
@@ -2522,7 +2524,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **OpenAI 미 정부 5% 지분 제안** (7/2, Bloomberg); **GPT-5.6 Sol Cerebras** 7월 출시 750 tok/s; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **Codex CLI v0.142.5**, **Codex Remote GA** 전 플랜 |
 | Claude | claude.com/pricing | **Claude Science 출시** (7/3) — 연구자용 AI 워크벤치; **중국 우회 접속 전면 차단** (7/3) — 해외 법인·VPN·시간대 모니터링·신원인증; **Sonnet 5 출시** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 차단 해제** 7/1 — 두 모델 전 세계 복원, 99%+ 탈옥 차단 분류기; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억, Fortune 7/2); **Azure/Foundry GA** (7/2); Max 플랜 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **에이전트 과금 중단**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
 | Claude Code | code.claude.com/changelog | **v2.1.215** 최신 — /verify·/code-review 자동 호출 중단 (7/19); **v2.1.212** /fork→백그라운드 세션, /subtask, WebSearch 200 제한; **v2.1.211** 서브에이전트 스트리밍; **Sonnet 5 기본값**, 조직 기본 모델, 스트리밍 CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/19까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
-| Cursor | cursor.com/pricing | **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
+| Cursor | cursor.com/pricing | **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
 | GitHub Copilot | github.com/features/copilot/plans | **71주 연속 하락 10**; **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
@@ -2816,6 +2818,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/22 | **Cursor Router** — 60만 건 이상 실시간 요청으로 학습한 지능형 모델 라우터, 작업별 최적 모델 자동 선택, 30-60% 비용 절감, Teams 기본 적용·Enterprise 수동 활성화 | [cursor.com](https://cursor.com/blog/router) |
 | 2026/07/10 | **Cursor 3.11** — /side 병렬 에이전트 채팅, 에이전트 대화 검색, 팀 MCP 서버, iOS 퍼블릭 베타(모든 유료 플랜) | [cursor.com](https://cursor.com/changelog) |
 | 2026/05/19 | **Composer 2.5** — Cursor 자체 모델, SWE-Bench Multilingual 79.8%, CursorBench v3.1 63.2%, Opus 4.7/GPT-5.5급 성능; 입력 $0.50/M, 출력 $2.50/M (스탠다드); **xAI Colossus 2 파트너십**으로 대규모 후속 모델 훈련 | [cursor.com](https://cursor.com/blog/composer-2-5) |
 | 2026/05/18 | **Cursor 3.4** — **/multitask** 에디터 내 비동기 병렬 서브에이전트, **인터랙티브 캔버스** Agents Window(대시보드·테이블·다이어그램), PR 리뷰 경험 개선, 빠른 액션 필 | [cursor.com](https://cursor.com/changelog) |

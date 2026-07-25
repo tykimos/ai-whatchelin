@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-24</sub>
+  <sub>마지막 업데이트: 2026-07-25</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.24-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.25-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -998,6 +998,16 @@ timeline
          : Cursor Router 출시 — 60만 건 이상 요청 학습 모델 라우터, 30-60% 비용 절감, Teams 기본 적용 (7/22)
          : Antigravity CLI v1.1.5 — /effort 명령어로 추론 깊이 실시간 조절 (7/21)
          : GitHub Models D-6 — 7월 30일 완전 폐쇄 (7/24)
+         : Claude Opus 5 출시 — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배, 노력도 토글 (7/24)
+         : Claude Code v2.1.219 — Opus 5 기본 모델, 서브에이전트 3단계 중첩, 네트워크 strictAllowlist (7/24)
+         : Claude Opus 5 출시 당일 GitHub Copilot GA — Pro/Pro+/Max/Business/Enterprise (7/24)
+         : MCP 2026-07-28 RC 발표 — 스테이트리스 아키텍처, 서버 렌더링 UI, 브레이킹 체인지 (7/23)
+         : Antigravity CLI v1.1.6 — Markdown 커스텀 에이전트, codesearch 프로그레시브 스트리밍 (7/24)
+         : Antigravity CLI v1.1.7 — 복합 셸 명령 권한 프롬프트, CJK 클립보드 수정 (7/24)
+         : Anthropic 대화 중 도구 변경 베타, 자동 폴백 베타, 음성 모드 Opus/Sonnet 지원 (7/24)
+         : GitHub Models D-5 — 7월 30일 완전 폐쇄 (7/25)
+         : Kiro RCE 취약점 공개 — 악성 웹페이지가 MCP 설정 변조 가능, v1.0.165+ 업데이트 필요 (7/2026)
+         : Huawei CodeArts Agent 오픈 베타 — 프로젝트 수준 코드 생성, 자율 개발 에이전트 (7/24)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2040,14 +2050,14 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-11", "07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24"]
+    x-axis ["07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1]
-    line "Cursor" [96, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
+    line "GH Copilot" [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1]
+    line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [89, 89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91, 91]
-    line "Gemini CLI" [16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2, 1]
+    line "Codex CLI" [89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91]
+    line "Gemini CLI" [15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2055,10 +2065,10 @@ xychart-beta
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-1↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-91―-27AE60?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-1↓-E74C3C?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 

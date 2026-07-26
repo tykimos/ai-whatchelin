@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-25</sub>
+  <sub>Last updated: 2026-07-26</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.25-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.26-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2080,14 +2080,14 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-12", "07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25"]
+    x-axis ["07-13", "07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1]
+    line "GH Copilot" [13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [89, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91]
-    line "Gemini CLI" [15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1]
+    line "Codex CLI" [90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 91]
+    line "Gemini CLI" [14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->

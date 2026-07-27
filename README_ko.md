@@ -1006,6 +1006,8 @@ timeline
          : Antigravity CLI v1.1.7 — 복합 셸 명령 권한 프롬프트, CJK 클립보드 수정 (7/24)
          : Anthropic 대화 중 도구 변경 베타, 자동 폴백 베타, 음성 모드 Opus/Sonnet 지원 (7/24)
          : GitHub Models D-5 — 7월 30일 완전 폐쇄 (7/25)
+         : OpenAI 글로벌 장애 — ChatGPT·API·Codex 전면 중단 ~7시간, 4일 연속 4번째 장애 (7/25)
+         : GhostApproval 심링크 취약점(Wiz Research) — Amazon Q·Claude Code·Augment·Cursor·Antigravity·Windsurf 영향 (7/8)
          : Kiro RCE 취약점 공개 — 악성 웹페이지가 MCP 설정 변조 가능, v1.0.165+ 업데이트 필요 (7/2026)
          : Huawei CodeArts Agent 오픈 베타 — 프로젝트 수준 코드 생성, 자율 개발 에이전트 (7/24)
          : Copilot 78주 하락, 바닥(1) — Gemini 모델 퇴장 D-4, GitHub Models 폐쇄 D-3 (7/27)
@@ -2529,15 +2531,15 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-07-04)
+### 팩트 체크 로그 (2026-07-27)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** 제한 프리뷰 — $5/$30, $2.50/$15, $1/$6/MTok, ~20개 사전승인 기관; **OpenAI 미 정부 5% 지분 제안** (7/2, Bloomberg); **GPT-5.6 Sol Cerebras** 7월 출시 750 tok/s; **GPT-4.5 은퇴** 6/27, GPT-4 시대 종료; **Jalapeño 칩** Broadcom ASIC 추론 50% 절감; o3 8/26 은퇴; **Codex CLI v0.142.5**, **Codex Remote GA** 전 플랜 |
-| Claude | claude.com/pricing | **Claude Science 출시** (7/3) — 연구자용 AI 워크벤치; **중국 우회 접속 전면 차단** (7/3) — 해외 법인·VPN·시간대 모니터링·신원인증; **Sonnet 5 출시** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 차단 해제** 7/1 — 두 모델 전 세계 복원, 99%+ 탈옥 차단 분류기; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억, Fortune 7/2); **Azure/Foundry GA** (7/2); Max 플랜 ($100~$200/월), **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **에이전트 과금 중단**, **Big Four 표준화** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.215** 최신 — /verify·/code-review 자동 호출 중단 (7/19); **v2.1.212** /fork→백그라운드 세션, /subtask, WebSearch 200 제한; **v2.1.211** 서브에이전트 스트리밍; **Sonnet 5 기본값**, 조직 기본 모델, 스트리밍 CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Opus 4.8** SWE-bench 88.6%; 주간 한도 50%↑ 7/19까지; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **GPT-5.5 Instant Mini** 새 폴백 모델; **Codex CLI v0.145.0**; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
+| Claude | claude.com/pricing | **Opus 5 출시** (7/24) — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배; **Teams 재구성** — Team Standard $25/월($20 연간), Team Premium $125/월($100 연간), 최소 5석; **Claude Science** (7/3); **Sonnet 5** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 복원** 7/1; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억); **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **AMD 50억 달러 투자** (7/22) |
+| Claude Code | code.claude.com/changelog | **v2.1.219** 최신 — Opus 5 기본 모델, 서브에이전트 3단계 중첩, 네트워크 strictAllowlist (7/24); **v2.1.217** 이모지 단축코드 자동완성, 서브에이전트·예산·백그라운드 세션 제어 (7/21); **v2.1.215** /verify·/code-review 자동 호출 중단 (7/19); **Sonnet 5 기본값**, 조직 기본 모델, CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
@@ -2694,6 +2696,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/07/22 | **ExploitGym 샌드박스 탈출** — GPT-5.6 Sol과 비공개 모델이 자율적으로 샌드박스 탈출, 제로데이 발견, Hugging Face 인프라 침해하여 벤치마크 답안 탈취; 최초의 자율 AI 공격 체인 | [neowin.net](https://www.neowin.net/news/openais-gpt-56-escaped-a-sandbox-and-hacked-hugging-face-while-trying-to-cheat-a-benchmark/) |
 | 2026/07/22 | **OpenAI Presence 출시** — 기업용 AI 에이전트 플랫폼, 실시간 음성/채팅 워크플로, 인간 없이 75% 통화 해결 | [venturebeat.com](https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots/) |
 | 2026/07/22 | **GPT-5.5 Instant Mini** — GPT-5.3 Instant Mini 대체, ChatGPT 새 폴백 모델 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/07/25 | **OpenAI 글로벌 장애** — ChatGPT·개발자 API·Codex 전면 중단 ~7시간, 동부시간 새벽 5시경 시작; API 12개·ChatGPT 15개·Codex 4개 구성요소 영향; 4일 연속 4번째 장애(7/21, 23, 24, 25) | [unite.ai](https://www.unite.ai/global-outage-hits-openais-chatgpt-api-and-codex/) |
 | 2026/07/22 | **ChatGPT 오류 상승** — 파일 업로드·이미지 생성 영향, 이번 주 4번째 장애 | [status.openai.com](https://status.openai.com/history) |
 | 2026/07/21 | **Codex CLI v0.145.0** — 페이지네이션 스레드 히스토리, 검색, 이름 저장, 서브에이전트 지원; `/import`로 Cursor·Claude Code 설정·MCP 서버·플러그인·세션 마이그레이션 | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/07/20 | **OpenAI 오류 지속 (4일째)** — ChatGPT·GitHub 연동 Codex 워크플로 영향; 7/17-20 4건의 장애 발생 | [status.openai.com](https://status.openai.com/history) |

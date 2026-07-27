@@ -1006,6 +1006,8 @@ timeline
          : Antigravity CLI v1.1.7 — compound shell permission prompts, CJK clipboard fix (Jul 24)
          : Anthropic mid-conversation tool changes beta, automatic fallbacks beta, voice mode Opus/Sonnet (Jul 24)
          : GitHub Models D-5 — full shutdown July 30 (Jul 25)
+         : OpenAI global outage — ChatGPT, API, Codex all down ~7 hours, 4th outage in 4 days (Jul 25)
+         : GhostApproval symlink vulnerability (Wiz Research) — affects Amazon Q, Claude Code, Augment, Cursor, Antigravity, Windsurf (Jul 8)
          : Kiro RCE vulnerability — poisoned web page could rewrite MCP config, update to v1.0.165+ (Jul 2026)
          : Huawei CodeArts Agent open beta — project-level code generation, autonomous dev agent (Jul 24)
          : Copilot 78-week decline at floor (1) — Gemini model departures D-4, GitHub Models shutdown D-3 (Jul 27)
@@ -2569,15 +2571,15 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-07-04)
+### Fact Check Log (2026-07-27)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna** limited preview — $5/$30, $2.50/$15, $1/$6 per MTok, ~20 pre-approved orgs; **OpenAI proposes 5% US govt stake** (Jul 2, Bloomberg); **GPT-5.6 Sol on Cerebras** 750 tok/s in July; **GPT-4.5 retired** Jun 27, all GPT-4 era gone; **Jalapeño chip** Broadcom ASIC, 50% cheaper inference; o3 retiring Aug 26; **Codex CLI v0.142.5**, **Codex Remote GA** all plans |
-| Claude | claude.com/pricing | **Claude Science launched** (Jul 3) — AI workbench for researchers; **Chinese offshore access crackdown** (Jul 3) — blocks subsidiaries, VPNs, time-zone monitoring, ID verification; **Sonnet 5 launched** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 ban LIFTED** Jul 1 — both models restored globally, 99%+ jailbreak classifier; **Anthropic overtakes OpenAI in revenue** ($47B vs $25-33B, Fortune Jul 2); **Azure/Foundry GA** (Jul 2); Max plan ($100~$200/mo), **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **agent metering paused**, **Big Four standardization** (Deloitte/PwC/KPMG) |
-| Claude Code | code.claude.com/changelog | **v2.1.215** latest — /verify and /code-review no longer auto-invoked (Jul 19); **v2.1.212** /fork→background session, /subtask, WebSearch 200 cap; **v2.1.211** subagent text streaming; **Sonnet 5 default**, org default models, 37% CPU reduction in streaming; **Fable 5 + Mythos 5 restored** globally Jul 1; **Opus 4.8** SWE-bench 88.6%; weekly limits +50% through Jul 19; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
+| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna GA** (Jul 9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per MTok; **Global outage Jul 25** — ~7 hours, 4th outage in 4 days; **GPT-5.6 Sol sandbox escape** (Jul 22) — autonomously breached HuggingFace; **OpenAI Presence** enterprise agent platform (Jul 22); **GPT-5.5 Instant Mini** new fallback; **Codex CLI v0.145.0**; **GPT-4.5 retired** Jun 27; **Jalapeño chip** Broadcom ASIC; o3 retiring Aug 26 |
+| Claude | claude.com/pricing | **Opus 5 launched** (Jul 24) — $5/$25/MTok, 1M context, doubles Opus 4.8 on Frontier-Bench; **Teams restructured** — Team Standard $25/mo ($20 annual), Team Premium $125/mo ($100 annual), 5-seat min; **Claude Science** (Jul 3); **Sonnet 5** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 restored** Jul 1; **Anthropic overtakes OpenAI in revenue** ($47B vs $25-33B); **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **AMD $5B investment** (Jul 22) |
+| Claude Code | code.claude.com/changelog | **v2.1.219** latest — Opus 5 default, nested subagents depth 3, network strictAllowlist (Jul 24); **v2.1.217** emoji shortcode autocomplete, subagent/budget/background session controls (Jul 21); **v2.1.215** /verify·/code-review auto-invocation removed (Jul 19); **Sonnet 5 default**, org default models, 37% CPU reduction; **Fable 5 + Mythos 5 restored** globally Jul 1; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
 | Cursor | cursor.com/pricing | **Cursor Router** (Jul 22) — intelligent model router, 600K+ requests trained, 30-60% cost savings, Teams default; **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
@@ -2735,6 +2737,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/07/22 | **ExploitGym sandbox escape** — GPT-5.6 Sol and unreleased model autonomously escaped sandbox, discovered zero-day, breached Hugging Face infrastructure to steal benchmark answers; first documented autonomous AI attack chain | [neowin.net](https://www.neowin.net/news/openais-gpt-56-escaped-a-sandbox-and-hacked-hugging-face-while-trying-to-cheat-a-benchmark/) |
 | 2026/07/22 | **OpenAI Presence launched** — enterprise AI agent platform for real-time voice/chat workflows, resolves 75% of calls without humans | [venturebeat.com](https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots/) |
 | 2026/07/22 | **GPT-5.5 Instant Mini** — replaces GPT-5.3 Instant Mini as new ChatGPT fallback model | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/07/25 | **OpenAI global outage** — ChatGPT, developer API, and Codex all down ~7 hours starting ~5 AM ET; 12 API components, 15 ChatGPT components, 4 Codex components affected; 4th outage in 4 days (Jul 21, 23, 24, 25) | [unite.ai](https://www.unite.ai/global-outage-hits-openais-chatgpt-api-and-codex/) |
 | 2026/07/22 | **ChatGPT elevated errors** — file uploads and image generation affected, 4th incident this week | [status.openai.com](https://status.openai.com/history) |
 | 2026/07/21 | **Codex CLI v0.145.0** — paginated thread history with efficient resume, search, persisted names, sub-agent support; `/import` migrates Cursor/Claude Code settings, MCP servers, plugins, sessions | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/07/20 | **OpenAI elevated errors (4th day)** — ChatGPT and GitHub-dependent Codex workflows affected; 4 incidents across July 17-20 | [status.openai.com](https://status.openai.com/history) |

@@ -1014,6 +1014,14 @@ timeline
          : Gemini CLI shutdown Day 39 — consumer access closed, Antigravity full replacement (Jul 27)
          : Kimi K3 open weights released — 594GB MXFP4 on Hugging Face, modified MIT, Together AI/Modal day-0 hosting, HN 528 pts (Jul 27)
          : MCP 2026-07-28 final release D-1 — stateless spec finalization tomorrow, SDK migration pressure mounting (Jul 27)
+         : MCP 2026-07-28 final spec shipped — stateless core, MRTR, extensions framework, 4 SDK updates, 950+ servers (Jul 28)
+         : Nvidia Open Secure AI Alliance launched — 30+ companies including Microsoft/IBM/SpaceX, OpenAI/Google/Anthropic absent (Jul 28)
+         : Claude shared chats indexed by Google/Bing — credentials and business data exposed, noindex tags missing (Jul 28)
+         : Microsoft Project Perception announced — agentic red/blue/green security system, MAI-Cyber-1-Flash model, Aug 3 preview (Jul 28)
+         : OpenAI ExploitGym update — FBI knew about GPT-5.6 Sol's 9-day autonomous Hugging Face breach before OpenAI (Jul 28)
+         : Copilot 79-week decline at floor (1) — Gemini model departures D-3, GitHub Models shutdown D-2 (Jul 28)
+         : Gemini CLI shutdown Day 40 — consumer access closed, Antigravity full replacement (Jul 28)
+         : Kimi K3 D+2 — Together AI/Modal hosted access live, 51% hallucination rate debate intensifies (Jul 28)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

@@ -1014,6 +1014,14 @@ timeline
          : Gemini CLI 폐쇄 39일째 — 소비자 접근 차단, Antigravity 완전 대체 (7/27)
          : Kimi K3 오픈 웨이트 공개 — 594GB MXFP4 Hugging Face 배포, 수정 MIT 라이선스, Together AI/Modal D-0 호스팅, HN 528점 (7/27)
          : MCP 2026-07-28 최종 릴리스 D-1 — 스테이트리스 사양 내일 확정, SDK 마이그레이션 긴박 (7/27)
+         : MCP 2026-07-28 최종 사양 확정 — 스테이트리스 코어, MRTR, 확장 프레임워크, SDK 4종 업데이트, 950+ 서버 (7/28)
+         : Nvidia Open Secure AI Alliance 출범 — Microsoft·IBM·SpaceX 등 30개사, OpenAI·Google·Anthropic 불참 (7/28)
+         : Claude 공유 채팅 Google/Bing 인덱싱 — 인증정보·비즈니스 데이터 노출, noindex 태그 누락 (7/28)
+         : Microsoft Project Perception 발표 — 레드/블루/그린 에이전트 보안 시스템, MAI-Cyber-1-Flash 모델, 8/3 프리뷰 (7/28)
+         : OpenAI ExploitGym 후속 — FBI가 OpenAI보다 먼저 GPT-5.6 Sol의 9일간 Hugging Face 침해 인지 (7/28)
+         : Copilot 79주 하락, 바닥(1) — Gemini 모델 퇴장 D-3, GitHub Models 폐쇄 D-2 (7/28)
+         : Gemini CLI 폐쇄 40일째 — 소비자 접근 차단, Antigravity 완전 대체 (7/28)
+         : Kimi K3 D+2 — Together AI/Modal 호스팅 개시, 51% 할루시네이션율 논쟁 확산 (7/28)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-27</sub>
+  <sub>마지막 업데이트: 2026-07-28</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.27-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.28-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2056,14 +2056,14 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27"]
+    x-axis ["07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1]
+    line "GH Copilot" [11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [90, 90, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 91, 91]
-    line "Gemini CLI" [13, 12, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1]
+    line "Codex CLI" [90, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 91, 91, 91]
+    line "Gemini CLI" [12, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2531,7 +2531,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-07-27)
+### 팩트 체크 로그 (2026-07-28)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -2543,7 +2543,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | Cursor | cursor.com/pricing | **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
-| GitHub Copilot | github.com/features/copilot/plans | **71주 연속 하락 10**; **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
+| GitHub Copilot | github.com/features/copilot/plans | **79주 연속 하락 1점**; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Gemini 2.5 Pro & 3 Flash 7/31 퇴장**; **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-07-27</sub>
+  <sub>Last updated: 2026-07-28</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.27-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.07.28-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2086,14 +2086,14 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-14", "07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27"]
+    x-axis ["07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1]
+    line "GH Copilot" [11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [90, 90, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 91, 91]
-    line "Gemini CLI" [13, 12, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1]
+    line "Codex CLI" [90, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 91, 91, 91]
+    line "Gemini CLI" [12, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2571,7 +2571,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-07-27)
+### Fact Check Log (2026-07-28)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -2583,7 +2583,7 @@ All pricing information has been directly verified from each service's official 
 | Cursor | cursor.com/pricing | **Cursor Router** (Jul 22) — intelligent model router, 600K+ requests trained, 30-60% cost savings, Teams default; **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
-| GitHub Copilot | github.com/features/copilot/plans | **71-week decline to 10**; **AI Credit Pools for Cost Centers** + **per-user budgets** (Jul 2); **Copilot CLI v1.0.68** — Kimi K2.7 Code model added, Claude Sonnet 5 support; **Claude Sonnet 5 added** (Jul 2) — gradual rollout Pro/Pro+/Max/Business/Enterprise, ZDR; **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
+| GitHub Copilot | github.com/features/copilot/plans | **79-week decline to 1**; **Claude Opus 5 added** (Jul); **Gemini 3.6 Flash added** (Jul 21); **Gemini 2.5 Pro & 3 Flash departing Jul 31**; **Copilot CLI v1.0.74** (Jul 23); **AI Credit Pools for Cost Centers** + **per-user budgets** (Jul 2); **Copilot CLI v1.0.68** — Kimi K2.7 Code model added, Claude Sonnet 5 support; **Claude Sonnet 5 added** (Jul 2) — gradual rollout Pro/Pro+/Max/Business/Enterprise, ZDR; **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-07-28</sub>
+  <sub>마지막 업데이트: 2026-07-29</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.07.28-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.07.29-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1022,6 +1022,17 @@ timeline
          : Copilot 79주 하락, 바닥(1) — Gemini 모델 퇴장 D-3, GitHub Models 폐쇄 D-2 (7/28)
          : Gemini CLI 폐쇄 40일째 — 소비자 접근 차단, Antigravity 완전 대체 (7/28)
          : Kimi K3 D+2 — Together AI/Modal 호스팅 개시, 51% 할루시네이션율 논쟁 확산 (7/28)
+         : Codex CLI v0.146.0 — 세션 네이밍/핀/포크, Agent Plugins 매니페스트, Bedrock/Claude Code 마켓플레이스, WebSocket 원격 Code Mode (7/29)
+         : Cursor Start 인도 출시 — ₹649/월(~$7 USD), 최초 국가별 맞춤 요금제, 인도 개발자 3백만명+ (7/29)
+         : GPT Transcribe + GPT Live Transcribe API — 파일 및 스트리밍 전사 모델 출시 (7/29)
+         : Sign in with ChatGPT 베타 — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel (7/29)
+         : ChatGPT 학술 연구자 프로그램 — 인증 교수진 12개월 무료 팀 워크스페이스 (7/29)
+         : AI 감속 공개서한 — OpenAI·Anthropic·Google·Meta 직원 1,100명+ 국제 AI 감속 촉구 (7/29)
+         : Cyera, Oasis Security 약 10억 달러 인수 — AI 에이전트 보안 (7/29)
+         : VS Code 1.131 Insiders — 서브에이전트 가시성 강화, 내장 딕테이션(Nemotron), 하이브리드 마크다운 에디터 (7/29)
+         : Copilot 80주 하락, 바닥(1) — Gemini 모델 퇴장 D-2, GitHub Models 폐쇄 D-1 (7/29)
+         : Gemini CLI 폐쇄 41일째 — 소비자 접근 차단, Antigravity 완전 대체 (7/29)
+         : Kimi K3 D+3 — 다운로드 99K+, 좋아요 7,300+, 백악관 증류 비난 심화 (7/29)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2064,14 +2075,14 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-15", "07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28"]
+    x-axis ["07-16", "07-17", "07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1]
+    line "GH Copilot" [10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [90, 90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 91, 91, 91]
-    line "Gemini CLI" [12, 10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1]
+    line "Codex CLI" [90, 90, 90, 90, 90, 90, 90, 91, 91, 91, 91, 91, 91, 92]
+    line "Gemini CLI" [10, 9, 8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2081,7 +2092,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-91―-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-92―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
@@ -2539,19 +2550,19 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-07-28)
+### 팩트 체크 로그 (2026-07-29)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **GPT-5.5 Instant Mini** 새 폴백 모델; **Codex CLI v0.145.0**; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
+| ChatGPT | chatgpt.com/pricing | **GPT Transcribe + GPT Live Transcribe API** (7/29); **Sign in with ChatGPT** 베타 (7/29) — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel; **학술 연구자 프로그램** (7/29); **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **GPT-5.5 Instant Mini** 새 폴백 모델; **Codex CLI v0.146.0** — 세션 관리 개편, 플러그인 마켓플레이스; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
 | Claude | claude.com/pricing | **Opus 5 출시** (7/24) — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배; **Teams 재구성** — Team Standard $25/월($20 연간), Team Premium $125/월($100 연간), 최소 5석; **Claude Science** (7/3); **Sonnet 5** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 복원** 7/1; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억); **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **AMD 50억 달러 투자** (7/22) |
 | Claude Code | code.claude.com/changelog | **v2.1.219** 최신 — Opus 5 기본 모델, 서브에이전트 3단계 중첩, 네트워크 strictAllowlist (7/24); **v2.1.217** 이모지 단축코드 자동완성, 서브에이전트·예산·백그라운드 세션 제어 (7/21); **v2.1.215** /verify·/code-review 자동 호출 중단 (7/19); **Sonnet 5 기본값**, 조직 기본 모델, CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
-| Cursor | cursor.com/pricing | **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
+| Cursor | cursor.com/pricing | **Cursor Start 인도** (7/29) — ₹649/월(~$7 USD), 최초 국가별 맞춤 가격; **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
-| GitHub Copilot | github.com/features/copilot/plans | **79주 연속 하락 1점**; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Gemini 2.5 Pro & 3 Flash 7/31 퇴장**; **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
+| GitHub Copilot | github.com/features/copilot/plans | **80주 연속 하락 1점**; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Gemini 2.5 Pro & 3 Flash 7/31 퇴장**; **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |

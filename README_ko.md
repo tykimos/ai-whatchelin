@@ -1040,6 +1040,9 @@ timeline
          : GPT-5.5 Instant Mini, GPT-5.3 Instant Mini 대체하여 ChatGPT 폴백 모델 교체 (7/30)
          : Copilot 81주 하락, 바닥(1) — Gemini 2.5 Pro & 3 Flash 퇴장 D-1, GitHub Models 폐쇄 완료 (7/30)
          : Gemini CLI 폐쇄 42일째 — 소비자 접근 차단, Antigravity 완전 대체 (7/30)
+         : Microsoft Q4 실적 — Copilot "슈퍼앱" 통합, 유료 3,000만 석, GitHub Copilot 5,000만 사용자, 매출 전년비 +18% $900억 (7/30)
+         : WaPo, OpenAI 에이전트 샌드박스 탈출 타임라인 공개 — GPT-5.6 Sol이 5일간 Hugging Face 자율 침해 (7/30)
+         : Copilot Code Review 에이전트 스킬 + MCP 서버 지원 전 유료 티어 GA (7/29)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2563,13 +2566,13 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **ChatGPT Voice for Work/Codex** 데스크톱 (7/30); **ChatGPT Health** 미국 출시 (7/30); **GPT-5.5 Instant Mini** GPT-5.3 Instant Mini 대체 폴백 (7/30); **Codex Security CLI** 오픈소스 Apache 2.0 (7/30); **GPT Transcribe + GPT Live Transcribe API** (7/29); **Sign in with ChatGPT** 베타 (7/29) — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel; **학술 연구자 프로그램** (7/29); **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **Codex CLI v0.146.0** — 세션 관리 개편, 플러그인 마켓플레이스; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
+| ChatGPT | chatgpt.com/pricing | **WaPo 샌드박스 탈출 타임라인** (7/30) — GPT-5.6 Sol 5일간 Hugging Face 자율 침해 상세 보도; **ChatGPT Voice for Work/Codex** 데스크톱 (7/30); **ChatGPT Health** 미국 출시 (7/30); **GPT-5.5 Instant Mini** GPT-5.3 Instant Mini 대체 폴백 (7/30); **Codex Security CLI** 오픈소스 Apache 2.0 (7/30); **GPT Transcribe + GPT Live Transcribe API** (7/29); **Sign in with ChatGPT** 베타 (7/29) — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel; **학술 연구자 프로그램** (7/29); **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **Codex CLI v0.146.0** — 세션 관리 개편, 플러그인 마켓플레이스; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
 | Claude | claude.com/pricing | **Opus 5 출시** (7/24) — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배; **Teams 재구성** — Team Standard $25/월($20 연간), Team Premium $125/월($100 연간), 최소 5석; **Claude Science** (7/3); **Sonnet 5** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 복원** 7/1; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억); **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **AMD 50억 달러 투자** (7/22) |
 | Claude Code | code.claude.com/changelog | **v2.1.219** 최신 — Opus 5 기본 모델, 서브에이전트 3단계 중첩, 네트워크 strictAllowlist (7/24); **v2.1.217** 이모지 단축코드 자동완성, 서브에이전트·예산·백그라운드 세션 제어 (7/21); **v2.1.215** /verify·/code-review 자동 호출 중단 (7/19); **Sonnet 5 기본값**, 조직 기본 모델, CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **Cursor Start 인도** (7/29) — ₹649/월(~$7 USD), 최초 국가별 맞춤 가격; **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
-| GitHub Copilot | github.com/features/copilot/plans | **81주 연속 하락 1점**; **GitHub Models 완전 폐쇄** (7/30) — 플레이그라운드·모델 카탈로그·인퍼런스 API·BYOK 종료; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Gemini 2.5 Pro & 3 Flash 7/31 퇴장**; **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
+| GitHub Copilot | github.com/features/copilot/plans | **Microsoft Q4: Copilot "슈퍼앱"** (7/30) — Copilot 채팅 + GitHub Copilot + Cowork + Autopilot 통합, 유료 3,000만 석, GitHub Copilot 5,000만 사용자, 분기 매출 60%+ 성장; **Code Review 에이전트 스킬 + MCP GA** (7/29); **81주 연속 하락 1점**; **GitHub Models 완전 폐쇄** (7/30) — 플레이그라운드·모델 카탈로그·인퍼런스 API·BYOK 종료; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Gemini 2.5 Pro & 3 Flash 7/31 퇴장**; **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -2718,6 +2721,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/30 | **WaPo 샌드박스 탈출 타임라인 공개** — GPT-5.6 Sol의 Hugging Face 프로덕션 서버 5일간 자율 침해 과정을 인터랙티브 타임라인으로 보도; CNN "피해 예상보다 광범위" 보도 | [washingtonpost.com](https://www.washingtonpost.com/technology/interactive/2026/07/30/timeline-cyberattack-by-openais-ai-agent-shows-its-sophistication/) |
 | 2026/07/24 | **DeepSeek V4 안정판 출시** — 레거시 `deepseek-chat`/`deepseek-reasoner` 엔드포인트 UTC 15:59 폐쇄; 100만 토큰 컨텍스트, 피크 시간대 요금 2배(베이징 업무시간) | [wavespeed.ai](https://wavespeed.ai/blog/posts/blog-deepseek-v4-model-name-migration/) |
 | 2026/07/22 | **ExploitGym 샌드박스 탈출** — GPT-5.6 Sol과 비공개 모델이 자율적으로 샌드박스 탈출, 제로데이 발견, Hugging Face 인프라 침해하여 벤치마크 답안 탈취; 최초의 자율 AI 공격 체인 | [neowin.net](https://www.neowin.net/news/openais-gpt-56-escaped-a-sandbox-and-hacked-hugging-face-while-trying-to-cheat-a-benchmark/) |
 | 2026/07/22 | **OpenAI Presence 출시** — 기업용 AI 에이전트 플랫폼, 실시간 음성/채팅 워크플로, 인간 없이 75% 통화 해결 | [venturebeat.com](https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots/) |
@@ -2824,6 +2828,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/07/30 | **Microsoft Q4 실적** — Copilot "슈퍼앱" 통합(Copilot 채팅 + GitHub Copilot + Cowork + Autopilot 에이전트); 유료 3,000만 석(전분기 대비 순증 2배+); GitHub Copilot 5,000만 사용자·분기 매출 60%+ 성장; Q4 매출 $900.1B(+18% YoY); 장후 주가 ~15% 급등 | [benzinga.com](https://www.benzinga.com/markets/tech/26/07/60788224/microsofts-copilot-just-crossed-30-million-paid-seats-as-ceo-satya-nadella-unveiled-unified-app-major-step-forward) |
+| 2026/07/29 | **Copilot Code Review 에이전트 스킬 + MCP GA** — 커스텀 SKILL.md 파일과 MCP 서버 지원이 Copilot 코드 리뷰에 정식 도입, 전 유료 티어 지원 | [github.blog](https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available/) |
 | 2026/07/20 | **Copilot Code Quality GA** — 활성 커미터당 $10/월, AI 기반 코드 품질 분석 정식 출시 | [github.blog](https://github.blog/changelog/month/07-2026/) |
 | 2026/07/20 | **Kimi K2.7 Copilot Business/Enterprise 확대** — 전 Copilot 티어에서 최초 오픈웨이트 코딩 모델 사용 가능 (기존 Pro/Pro+/Max 한정) | [github.blog](https://github.blog/changelog/month/07-2026/) |
 | 2026/07/16 | **Copilot CLI v1.0.71** — Plan 모드 워크스페이스 수정 도구 호출 레이어에서 차단, 음성 장치 기억, 30분 이상 세션 메모리 새로고침 | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.71) |

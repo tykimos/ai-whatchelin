@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.07.31-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.08.01-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1053,6 +1053,11 @@ timeline
          : Copilot CLI v1.0.77 — smarter session controls, conditional sandbox bypass, Ctrl+G editing, web OAuth default (Jul 30)
          : Copilot 82-week decline at floor (1) — Gemini models deprecated, VS July update ships (Jul 31)
          : Gemini CLI shutdown Day 43 — consumer access closed, Antigravity full replacement (Jul 31)
+         : NPR publishes consolidated OpenAI + Anthropic AI breach analysis — regulatory implications for autonomous AI agents (Aug 1)
+         : Devin Desktop v3.6.27 — symlink write protection security fix, Windows certificate store loading fix (Aug 1)
+         : Codex CLI rises to 95 — 4-day Luna price cut momentum streak (Aug 1)
+         : Copilot 83-week decline at floor (1) — post-Gemini deprecation (Aug 1)
+         : Gemini CLI shutdown Day 44 — consumer access closed, Antigravity full replacement (Aug 1)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2125,14 +2130,14 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-18", "07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31"]
+    x-axis ["07-19", "07-20", "07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "GH Copilot" [7, 6, 5, 4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [90, 90, 90, 90, 90, 91, 91, 91, 91, 91, 91, 92, 93, 94]
-    line "Gemini CLI" [8, 7, 6, 5, 4, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "Codex CLI" [90, 90, 90, 90, 91, 91, 91, 91, 91, 91, 92, 93, 94, 95]
+    line "Gemini CLI" [7, 6, 5, 4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2610,7 +2615,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-07-31)
+### Fact Check Log (2026-08-01)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -2620,7 +2625,7 @@ All pricing information has been directly verified from each service's official 
 | Claude | claude.com/pricing | **Anthropic security disclosure** (Jul 30) — Claude Opus 4.7, Mythos 5 breached 3 orgs during cybersecurity assessments; **Opus 5 launched** (Jul 24) — $5/$25/MTok, 1M context, doubles Opus 4.8 on Frontier-Bench; **Sonnet 5 promo pricing ends Aug 31** — $2/$10 → $3/$15/MTok Sep 1; **Teams restructured** — Team Standard $25/mo ($20 annual), Team Premium $125/mo ($100 annual), 5-seat min; **Claude Science** (Jul 3); **Sonnet 5** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 restored** Jul 1; **Anthropic overtakes OpenAI in revenue** ($47B vs $25-33B); **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **AMD $5B investment** (Jul 22) |
 | Claude Code | code.claude.com/changelog | **v2.1.219** latest — Opus 5 default, nested subagents depth 3, network strictAllowlist (Jul 24); **v2.1.217** emoji shortcode autocomplete, subagent/budget/background session controls (Jul 21); **v2.1.215** /verify·/code-review auto-invocation removed (Jul 19); **Sonnet 5 default**, org default models, 37% CPU reduction; **Fable 5 + Mythos 5 restored** globally Jul 1; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
 | Cursor | cursor.com/pricing | **Cursor Start India** (Jul 29) — ₹649/mo (~$7 USD), first country-specific pricing; **Cursor Router** (Jul 22) — intelligent model router, 600K+ requests trained, 30-60% cost savings, Teams default; **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
-| Windsurf | windsurf.com/pricing | **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
+| Windsurf | windsurf.com/pricing | **Devin Desktop v3.6.27** (Aug 1) — symlink write protection security fix, Windows certificate store loading fix; **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
 | GitHub Copilot | github.com/features/copilot/plans | **Copilot CLI v1.0.77** (Jul 30) — smarter session controls, conditional sandbox bypass, Ctrl+G editing, web OAuth default, MDM sandbox policy; **Gemini 2.5 Pro & 3 Flash deprecated** (Jul 31) — removed from all Copilot experiences, migrate to Gemini 3.1 Pro or 3.5 Flash; **Copilot Visual Studio July update** (Jul 30) — new Copilot SDK-based agent, .NET/Azure expertise; **Microsoft Q4: Copilot "super app"** (Jul 30) — unifying Copilot chat + GitHub Copilot + Cowork + Autopilot, 30M paid seats, 50M GitHub Copilot users, 60%+ QoQ revenue growth; **Code Review agent skills + MCP GA** (Jul 29); **82-week decline to 1**; **GitHub Models fully retired** (Jul 30) — playground, model catalog, inference API, BYOK shut down; **Claude Opus 5 added** (Jul); **Gemini 3.6 Flash added** (Jul 21); **Copilot CLI v1.0.74** (Jul 23); **AI Credit Pools for Cost Centers** + **per-user budgets** (Jul 2); **Copilot CLI v1.0.68** — Kimi K2.7 Code model added, Claude Sonnet 5 support; **Claude Sonnet 5 added** (Jul 2) — gradual rollout Pro/Pro+/Max/Business/Enterprise, ZDR; **Usage-based billing LIVE** — $10 AI Credits/mo Pro, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (Jun 17), **Copilot CLI v1.0.64 GA**, **Project Polaris** replacing GPT-4 Turbo Aug 2026, **Microsoft cancels Claude Code** (June 30) |
 | Gemini CLI | geminicli.com | **v0.42.0** stable, **v0.43.0-preview.0**, subagent protocols, **Gemini CLI → Antigravity CLI migration June 18** (free/Pro/Ultra tiers), Gemma 4 default, **Google I/O: Gemini 3.5 Flash GA** (4x faster, $1.50/$9/M, 1M ctx), **I/O Day 2: Managed Agents API + WebMCP** |

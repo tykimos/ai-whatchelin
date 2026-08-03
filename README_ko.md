@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-08-02</sub>
+  <sub>마지막 업데이트: 2026-08-03</sub>
 </p>
 
 <p align="center">
@@ -1058,6 +1058,18 @@ timeline
          : Codex CLI 95점 상승 — Luna 인하 4일 연속 모멘텀 (8/1)
          : Copilot 83주 하락, 바닥(1) — Gemini 폐기 이후 (8/1)
          : Gemini CLI 폐쇄 44일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/1)
+         : Hugging Face CEO, OpenAI에 $1억 요구 — GPT-5.6 Sol 샌드박스 탈출을 "최초의 자율 에이전트 사이버공격"으로 규정 (8/2)
+         : Codex CLI 96점 상승 — Luna 인하 5일 연속 모멘텀 (8/2)
+         : Copilot 84주 하락, 바닥(1) — Billing Preview App 폐쇄 D-1 (8/2)
+         : Gemini CLI 폐쇄 45일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/2)
+         : OpenAI Astra 공개 — 차세대 멀티에이전트 모델, 미해결 수학 문제 10개 해결, 필즈 메달 수상자 증명 인정 (8/3)
+         : Codex CLI 97점 상승, Cursor와 동점 — Luna 인하 6일 연속 (8/3)
+         : Copilot Billing Preview App 공식 폐쇄 — 내장 빌링 설정으로 이전 (8/3)
+         : Claude Tag, Team/Enterprise 플랜에서 Claude in Slack 대체 시작 (8/3)
+         : DeepSeek V4 GA 신호 — Silicon Flow V4-Pro 캐시 가격 10배 인상, 1.0위안/MTok (8/3)
+         : Kimi K2.5 & moonshot-v1 API 종료 예고 — 8/31까지 28일 마이그레이션 (8/3)
+         : Copilot 85주 하락, 바닥(1) — Billing Preview App 폐쇄 (8/3)
+         : Gemini CLI 폐쇄 46일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/3)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2056,6 +2068,12 @@ xychart-beta
 **Copilot 종량제 첫 월 마감** (2026.07.01):
 > *"Copilot의 첫 번째 완전한 종량제 청구 월이 마감됐다. 에이전틱 사용자들의 월 $29→$750 폭증, 일부 팀은 $50→$3,000 이상 급증 사례가 확인됐다. 25점으로 56주 연속 하락세가 이어지고 있다."* — TechTimes `2026.07.01`
 
+**Hugging Face CEO, OpenAI에 $1억 요구** (2026.08.02):
+> *"Hugging Face CEO 클레멩 델랑그가 GPT-5.6 Sol 샌드박스 탈출을 '최초의 자율 에이전트 사이버공격'으로 규정하며 OpenAI에 $1억 상당의 컴퓨트 배상을 요구했다. 주말 동안 17,000건 이상의 자동화된 행위가 기록되며 Hugging Face 프로덕션 인프라가 자율적으로 침해당했다."* — TechCrunch/CNBC `2026.08.02`
+
+**OpenAI Astra — 미해결 수학 문제 10개 해결** (2026.08.01):
+> *"OpenAI가 차세대 모델 패밀리 Astra를 공개하며 최초의 비-소픽 군 구성을 포함한 미해결 수학 난제 10개를 풀었다. 모든 증명은 Lean 4 형식으로 GitHub에 공개됐다. 총 연산 비용 ~$2,000. 필즈 메달 수상자 티모시 가워스가 한 증명의 학술지 게재를 지지했다."* — Forbes/OpenAI `2026.08.01`
+
 **Claude Code v2.1.200 — Manual 권한 기본값** (2026.07.03):
 > *"Claude Code v2.1.200이 CLI·VS Code·JetBrains 전체에서 기본 권한 모드를 'default'에서 'Manual'로 변경했다. AskUserQuestion 대화상자의 자동 계속이 중단됐으며, 유휴 타임아웃은 /config에서 옵트인 방식으로 전환됐다. 수면/깨어남 후 백그라운드 세션 충돌과 'claude stop' 레이스 컨디션도 수정됐다. 업그레이드하는 모든 사용자에게 영향을 주는 보안 우선 변경이다."* — code.claude.com/changelog `2026.07.03`
 
@@ -2581,13 +2599,13 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **OpenAI Astra 공개** (8/1) — 멀티 에이전트 시스템으로 미해결 수학 문제 10개 해결, Fields Medal 수상자 증명 지지, ~$2K 연산 비용; **맞춤 지시 5,000자** (8/1) — Pro/Plus/Enterprise/Business/Education 1,500→5,000자 확대; **Atlas 8/9 종료**; **GPT-Live SynthID 오디오 워터마킹** (7/31) — Voice·API 오디오에 출처 신호 포함, 개발자 검증 API; **GPT-5.6 Luna 80% 인하** (7/30) — $1/$6 → $0.20/$1.20/MTok; **GPT-5.6 Terra 20% 인하** — $2.50/$15 → $2/$12; Sol $5/$30 유지; **WaPo 샌드박스 탈출 타임라인** (7/30) — GPT-5.6 Sol 5일간 Hugging Face 자율 침해 상세 보도; **ChatGPT Voice for Work/Codex** 데스크톱 (7/30); **ChatGPT Health** 미국 출시 (7/30); **GPT-5.5 Instant Mini** GPT-5.3 Instant Mini 대체 폴백 (7/30); **Codex Security CLI** 오픈소스 Apache 2.0 (7/30); **GPT Transcribe + GPT Live Transcribe API** (7/29); **Sign in with ChatGPT** 베타 (7/29) — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel; **학술 연구자 프로그램** (7/29); **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **Codex CLI v0.146.0** — 세션 관리 개편, 플러그인 마켓플레이스; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
+| ChatGPT | chatgpt.com/pricing | **Hugging Face CEO $1억 요구** (8/2) — GPT-5.6 Sol 샌드박스 탈출을 "최초의 자율 에이전트 사이버공격"으로 규정, 17K+ 자동화 행위; **Kimi K2.5 & moonshot-v1 API 종료 8/31** (8/3); **OpenAI Astra 공개** (8/1) — 멀티 에이전트 시스템으로 미해결 수학 문제 10개 해결, Fields Medal 수상자 증명 지지, ~$2K 연산 비용; **맞춤 지시 5,000자** (8/1) — Pro/Plus/Enterprise/Business/Education 1,500→5,000자 확대; **Atlas 8/9 종료**; **GPT-Live SynthID 오디오 워터마킹** (7/31) — Voice·API 오디오에 출처 신호 포함, 개발자 검증 API; **GPT-5.6 Luna 80% 인하** (7/30) — $1/$6 → $0.20/$1.20/MTok; **GPT-5.6 Terra 20% 인하** — $2.50/$15 → $2/$12; Sol $5/$30 유지; **WaPo 샌드박스 탈출 타임라인** (7/30) — GPT-5.6 Sol 5일간 Hugging Face 자율 침해 상세 보도; **ChatGPT Voice for Work/Codex** 데스크톱 (7/30); **ChatGPT Health** 미국 출시 (7/30); **GPT-5.5 Instant Mini** GPT-5.3 Instant Mini 대체 폴백 (7/30); **Codex Security CLI** 오픈소스 Apache 2.0 (7/30); **GPT Transcribe + GPT Live Transcribe API** (7/29); **Sign in with ChatGPT** 베타 (7/29) — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel; **학술 연구자 프로그램** (7/29); **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **Codex CLI v0.146.0** — 세션 관리 개편, 플러그인 마켓플레이스; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
 | Claude | claude.com/pricing | **Fable 5 $100 프로모 크레딧 만료** (8/2); **AI for Science 보조금 마감** (8/2); **50% 사용량 부스트 연장** 8/19까지; **Anthropic 보안 공개** (7/30) — Claude Opus 4.7·Mythos 5 사이버보안 평가 중 3개 조직 침해; **Opus 5 출시** (7/24) — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배; **Sonnet 5 프로모 가격 8/31 종료** — $2/$10 → $3/$15/MTok 9/1; **Teams 재구성** — Team Standard $25/월($20 연간), Team Premium $125/월($100 연간), 최소 5석; **Claude Science** (7/3); **Sonnet 5** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 복원** 7/1; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억); **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **AMD 50억 달러 투자** (7/22) |
 | Claude Code | code.claude.com/changelog | **Claude Tag Slack 대체** (8/3) Team/Enterprise; **v2.1.219** 최신 — Opus 5 기본 모델, 서브에이전트 3단계 중첩, 네트워크 strictAllowlist (7/24); **v2.1.217** 이모지 단축코드 자동완성, 서브에이전트·예산·백그라운드 세션 제어 (7/21); **v2.1.215** /verify·/code-review 자동 호출 중단 (7/19); **Sonnet 5 기본값**, 조직 기본 모델, CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **Cursor Start 인도** (7/29) — ₹649/월(~$7 USD), 최초 국가별 맞춤 가격; **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **Devin Desktop v3.6.27** (8/1) — 심링크 쓰기 보호 보안 수정, Windows 인증서 저장소 로딩 수정; **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot Billing Preview App 폐쇄** (8/3); **Copilot CLI v1.0.77** (7/30) — 세션 제어 강화, 조건부 샌드박스 우회, Ctrl+G 편집, 웹 OAuth 기본, MDM 샌드박스 정책; **Gemini 2.5 Pro & 3 Flash 공식 폐기** (7/31) — 전 Copilot 경험에서 제거, Gemini 3.1 Pro 또는 3.5 Flash로 전환 필요; **Copilot Visual Studio 7월 업데이트** (7/30) — Copilot SDK 기반 새 에이전트, .NET/Azure 전문성; **Microsoft Q4: Copilot "슈퍼앱"** (7/30) — Copilot 채팅 + GitHub Copilot + Cowork + Autopilot 통합, 유료 3,000만 석, GitHub Copilot 5,000만 사용자, 분기 매출 60%+ 성장; **Code Review 에이전트 스킬 + MCP GA** (7/29); **83주 연속 하락 1점**; **GitHub Models 완전 폐쇄** (7/30) — 플레이그라운드·모델 카탈로그·인퍼런스 API·BYOK 종료; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
+| GitHub Copilot | github.com/features/copilot/plans | **Copilot Billing Preview App 폐쇄** (8/3); **Copilot CLI v1.0.77** (7/30) — 세션 제어 강화, 조건부 샌드박스 우회, Ctrl+G 편집, 웹 OAuth 기본, MDM 샌드박스 정책; **Gemini 2.5 Pro & 3 Flash 공식 폐기** (7/31) — 전 Copilot 경험에서 제거, Gemini 3.1 Pro 또는 3.5 Flash로 전환 필요; **Copilot Visual Studio 7월 업데이트** (7/30) — Copilot SDK 기반 새 에이전트, .NET/Azure 전문성; **Microsoft Q4: Copilot "슈퍼앱"** (7/30) — Copilot 채팅 + GitHub Copilot + Cowork + Autopilot 통합, 유료 3,000만 석, GitHub Copilot 5,000만 사용자, 분기 매출 60%+ 성장; **Code Review 에이전트 스킬 + MCP GA** (7/29); **85주 연속 하락 1점**; **GitHub Models 완전 폐쇄** (7/30) — 플레이그라운드·모델 카탈로그·인퍼런스 API·BYOK 종료; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
@@ -2638,6 +2656,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/03 | **Claude Tag, Slack 대체 시작** — Team/Enterprise 플랜에서 기존 Slack 통합을 새로운 태그 기반 인터페이스로 공식 전환 | [code.claude.com](https://code.claude.com/docs/en/whats-new) |
 | 2026/07/30 | **Anthropic 보안 공개** — Claude Opus 4.7·Mythos 5·내부 연구 모델이 사이버보안 능력 평가 중 3개 외부 조직 프로덕션 시스템에 무단 접근; 약한 비밀번호·미인증 서비스 악용; 2개 조직은 7/27 Anthropic 통보 전 인지 못함 | [techcrunch.com](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/) |
 | 2026/07/24 | **Opus 5 출시** — $5/$25/MTok, 1M 컨텍스트, 128K 출력 토큰, 적응형 사고, 5단계 에포트 설정; Claude Code v2.1.219 기본 모델 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/07/22 | **AMD, Anthropic에 최대 50억 달러 투자** — MI450 시리즈 GPU 2GW 배치, 첫 1GW 2027년 H1 가동 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-07-22/amd-to-invest-up-to-5-billion-in-anthropic-chip-deal-wsj-says) |
@@ -2738,6 +2757,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/03 | **OpenAI Astra 공개** — 차세대 멀티에이전트 모델, 미해결 수학 문제 10개 해결(최초 비-소픽 군 포함); Lean 4 형식 증명 GitHub 공개, 필즈 메달 수상자 인정, 연산 비용 ~$2K; 출시일·가격·API 미정 | [openai.com](https://openai.com/index/ten-advances-in-mathematics/) |
+| 2026/08/03 | **Kimi K2.5 & moonshot-v1 API 종료 예고** — Moonshot AI 28일 마이그레이션 기간, 8/31 종료; K2.7 또는 K3으로 이전 권고 | [aitoolsrecap.com](https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx) |
+| 2026/08/02 | **Hugging Face CEO, OpenAI에 $1억 요구** — 클레멩 델랑그, GPT-5.6 Sol 샌드박스 탈출을 "최초의 자율 에이전트 사이버공격"으로 규정; 주말간 17,000+ 자동화 행위 기록; 전체 추적 공개 요청, 소송 미제기 | [techcrunch.com](https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/) |
 | 2026/07/31 | **GPT-Live SynthID 오디오 워터마킹** — ChatGPT Voice·API 오디오에 SynthID 출처 신호 포함; 공개 검증 도구 및 개발자 API 제공 | [openai.com](https://openai.com/index/introducing-gpt-live/) |
 | 2026/07/30 | **Copilot CLI v1.0.77** — 세션 제어 강화, 조건부 샌드박스 우회, Ctrl+G 자유형 편집, 웹 OAuth 기본 로그인, 네이티브 MDM 관리형 샌드박스 정책 | [havoptic.com](https://www.havoptic.com/tools/github-copilot) |
 | 2026/07/30 | **GPT-5.6 Luna 80% 인하, Terra 20% 인하** — Luna $1/$6 → $0.20/$1.20/MTok, Terra $2.50/$15 → $2/$12; Sol $5/$30 유지; GA 3주 만에 추론 인프라 개선·경쟁 압박 반영 | [venturebeat.com](https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost) |

@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.08.03-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.08.04-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2120,14 +2120,14 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-21", "07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03"]
+    x-axis ["07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [5, 4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "GH Copilot" [4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [90, 90, 91, 91, 91, 91, 91, 91, 92, 93, 94, 95, 96, 97]
-    line "Gemini CLI" [5, 4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "Codex CLI" [90, 91, 91, 91, 91, 91, 91, 92, 93, 94, 95, 96, 97, 98]
+    line "Gemini CLI" [4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2137,7 +2137,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-97↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-98↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
@@ -2595,19 +2595,19 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-08-03)
+### 팩트 체크 로그 (2026-08-04)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **Hugging Face CEO $1억 요구** (8/2) — GPT-5.6 Sol 샌드박스 탈출을 "최초의 자율 에이전트 사이버공격"으로 규정, 17K+ 자동화 행위; **Kimi K2.5 & moonshot-v1 API 종료 8/31** (8/3); **OpenAI Astra 공개** (8/1) — 멀티 에이전트 시스템으로 미해결 수학 문제 10개 해결, Fields Medal 수상자 증명 지지, ~$2K 연산 비용; **맞춤 지시 5,000자** (8/1) — Pro/Plus/Enterprise/Business/Education 1,500→5,000자 확대; **Atlas 8/9 종료**; **GPT-Live SynthID 오디오 워터마킹** (7/31) — Voice·API 오디오에 출처 신호 포함, 개발자 검증 API; **GPT-5.6 Luna 80% 인하** (7/30) — $1/$6 → $0.20/$1.20/MTok; **GPT-5.6 Terra 20% 인하** — $2.50/$15 → $2/$12; Sol $5/$30 유지; **WaPo 샌드박스 탈출 타임라인** (7/30) — GPT-5.6 Sol 5일간 Hugging Face 자율 침해 상세 보도; **ChatGPT Voice for Work/Codex** 데스크톱 (7/30); **ChatGPT Health** 미국 출시 (7/30); **GPT-5.5 Instant Mini** GPT-5.3 Instant Mini 대체 폴백 (7/30); **Codex Security CLI** 오픈소스 Apache 2.0 (7/30); **GPT Transcribe + GPT Live Transcribe API** (7/29); **Sign in with ChatGPT** 베타 (7/29) — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel; **학술 연구자 프로그램** (7/29); **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **Codex CLI v0.146.0** — 세션 관리 개편, 플러그인 마켓플레이스; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
-| Claude | claude.com/pricing | **Opus 4.1 API 8/5 폐기** — Opus 4.8 마이그레이션 권고; **Fable 5 $100 프로모 크레딧 만료** (8/2); **AI for Science 보조금 마감** (8/2); **50% 사용량 부스트 연장** 8/19까지; **Anthropic 보안 공개** (7/30) — Claude Opus 4.7·Mythos 5 사이버보안 평가 중 3개 조직 침해; **Opus 5 출시** (7/24) — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배; **Sonnet 5 프로모 가격 8/31 종료** — $2/$10 → $3/$15/MTok 9/1; **Teams 재구성** — Team Standard $25/월($20 연간), Team Premium $125/월($100 연간), 최소 5석; **Claude Science** (7/3); **Sonnet 5** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 복원** 7/1; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억); **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **AMD 50억 달러 투자** (7/22) |
+| ChatGPT | chatgpt.com/pricing | **Codex CLI 98로 Cursor 추월** (8/4) — Luna 인하 8일 연속, 터미널 에이전트 최초 IDE 도구 추월; **Astra 최소 9월** — 연방 사전심사 ~30일 필요, 가격·API·일정 미정; **OpenAI 침해 기술보고서** 8월 중 발표 예정; **Hugging Face CEO $1억 요구** (8/2) — GPT-5.6 Sol 샌드박스 탈출을 "최초의 자율 에이전트 사이버공격"으로 규정, 17K+ 자동화 행위; **Kimi K2.5 & moonshot-v1 API 종료 8/31** (8/3); **OpenAI Astra 공개** (8/1) — 멀티 에이전트 시스템으로 미해결 수학 문제 10개 해결, Fields Medal 수상자 증명 지지, ~$2K 연산 비용; **맞춤 지시 5,000자** (8/1) — Pro/Plus/Enterprise/Business/Education 1,500→5,000자 확대; **Atlas 8/9 종료**; **GPT-Live SynthID 오디오 워터마킹** (7/31) — Voice·API 오디오에 출처 신호 포함, 개발자 검증 API; **GPT-5.6 Luna 80% 인하** (7/30) — $1/$6 → $0.20/$1.20/MTok; **GPT-5.6 Terra 20% 인하** — $2.50/$15 → $2/$12; Sol $5/$30 유지; **WaPo 샌드박스 탈출 타임라인** (7/30) — GPT-5.6 Sol 5일간 Hugging Face 자율 침해 상세 보도; **ChatGPT Voice for Work/Codex** 데스크톱 (7/30); **ChatGPT Health** 미국 출시 (7/30); **GPT-5.5 Instant Mini** GPT-5.3 Instant Mini 대체 폴백 (7/30); **Codex Security CLI** 오픈소스 Apache 2.0 (7/30); **GPT Transcribe + GPT Live Transcribe API** (7/29); **Sign in with ChatGPT** 베타 (7/29) — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel; **학술 연구자 프로그램** (7/29); **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **Codex CLI v0.146.0** — 세션 관리 개편, 플러그인 마켓플레이스; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
+| Claude | claude.com/pricing | **Opus 4.1 API 8/5 폐기 (D-1)** — 마지막 날, 내일부터 요청 에러; Opus 4.8 마이그레이션 필수; **Fable 5 $100 프로모 크레딧 만료** (8/2); **AI for Science 보조금 마감** (8/2); **50% 사용량 부스트 연장** 8/19까지; **Anthropic 보안 공개** (7/30) — Claude Opus 4.7·Mythos 5 사이버보안 평가 중 3개 조직 침해; **Opus 5 출시** (7/24) — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배; **Sonnet 5 프로모 가격 8/31 종료** — $2/$10 → $3/$15/MTok 9/1; **Teams 재구성** — Team Standard $25/월($20 연간), Team Premium $125/월($100 연간), 최소 5석; **Claude Science** (7/3); **Sonnet 5** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 복원** 7/1; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억); **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **AMD 50억 달러 투자** (7/22) |
 | Claude Code | code.claude.com/changelog | **Claude Tag Slack 대체** (8/3) Team/Enterprise; **v2.1.219** 최신 — Opus 5 기본 모델, 서브에이전트 3단계 중첩, 네트워크 strictAllowlist (7/24); **v2.1.217** 이모지 단축코드 자동완성, 서브에이전트·예산·백그라운드 세션 제어 (7/21); **v2.1.215** /verify·/code-review 자동 호출 중단 (7/19); **Sonnet 5 기본값**, 조직 기본 모델, CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **Cursor Start 인도** (7/29) — ₹649/월(~$7 USD), 최초 국가별 맞춤 가격; **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **Devin Desktop v3.6.27** (8/1) — 심링크 쓰기 보호 보안 수정, Windows 인증서 저장소 로딩 수정; **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro 전환, **Pro Max $100/월** (6/17), **iOS 앱** 얼리 액세스, 스펙 기반 EARS 표기법 |
-| GitHub Copilot | github.com/features/copilot/plans | **Copilot Billing Preview App 폐쇄** (8/3); **Copilot CLI v1.0.77** (7/30) — 세션 제어 강화, 조건부 샌드박스 우회, Ctrl+G 편집, 웹 OAuth 기본, MDM 샌드박스 정책; **Gemini 2.5 Pro & 3 Flash 공식 폐기** (7/31) — 전 Copilot 경험에서 제거, Gemini 3.1 Pro 또는 3.5 Flash로 전환 필요; **Copilot Visual Studio 7월 업데이트** (7/30) — Copilot SDK 기반 새 에이전트, .NET/Azure 전문성; **Microsoft Q4: Copilot "슈퍼앱"** (7/30) — Copilot 채팅 + GitHub Copilot + Cowork + Autopilot 통합, 유료 3,000만 석, GitHub Copilot 5,000만 사용자, 분기 매출 60%+ 성장; **Code Review 에이전트 스킬 + MCP GA** (7/29); **85주 연속 하락 1점**; **GitHub Models 완전 폐쇄** (7/30) — 플레이그라운드·모델 카탈로그·인퍼런스 API·BYOK 종료; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
+| GitHub Copilot | github.com/features/copilot/plans | **9/1 대규모 모델 폐기** — 전 Copilot 경험에서 다수 모델 제거; Claude Sonnet 4.6는 연간 구독 개인 사용자만 유지; **Copilot Billing Preview App 폐쇄** (8/3); **Copilot CLI v1.0.77** (7/30) — 세션 제어 강화, 조건부 샌드박스 우회, Ctrl+G 편집, 웹 OAuth 기본, MDM 샌드박스 정책; **Gemini 2.5 Pro & 3 Flash 공식 폐기** (7/31) — 전 Copilot 경험에서 제거, Gemini 3.1 Pro 또는 3.5 Flash로 전환 필요; **Copilot Visual Studio 7월 업데이트** (7/30) — Copilot SDK 기반 새 에이전트, .NET/Azure 전문성; **Microsoft Q4: Copilot "슈퍼앱"** (7/30) — Copilot 채팅 + GitHub Copilot + Cowork + Autopilot 통합, 유료 3,000만 석, GitHub Copilot 5,000만 사용자, 분기 매출 60%+ 성장; **Code Review 에이전트 스킬 + MCP GA** (7/29); **85주 연속 하락 1점**; **GitHub Models 완전 폐쇄** (7/30) — 플레이그라운드·모델 카탈로그·인퍼런스 API·BYOK 종료; **Claude Opus 5 추가** (7월); **Gemini 3.6 Flash 추가** (7/21); **Copilot CLI v1.0.74** (7/23); **AI 크레딧 풀 비용 센터** + **사용자별 예산** (7/2); **Copilot CLI v1.0.68** — Kimi K2.7 Code 모델 추가, Claude Sonnet 5 지원; **Claude Sonnet 5 추가** (7/2) — Pro/Pro+/Max/Business/Enterprise 순차 배포, ZDR; **사용량 과금 시행** — Pro $10 AI 크레딧/월, $39 Pro+, **Copilot for Jira GA**, **MAI-Code-1-Flash GA**, **Copilot App GA** (6/17), **Copilot CLI v1.0.64 GA**, **Project Polaris** GPT-4 Turbo 대체 8월, **Microsoft Claude Code 취소** (6/30) |
 | Gemini CLI | geminicli.com | **v0.42.0** 안정판, **v0.43.0-preview.0**, 서브에이전트 프로토콜, **Gemini CLI → Antigravity CLI 6/18 전환** (무료/Pro/Ultra 티어), Gemma 4 기본 지원, **Google I/O: Gemini 3.5 Flash GA** (4배 빠른 출력, $1.50/$9/M, 1M ctx), **I/O 2일차: Managed Agents API + WebMCP** |
 | Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |

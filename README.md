@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-08-03</sub>
+  <sub>Last updated: 2026-08-04</sub>
 </p>
 
 <p align="center">
@@ -1072,6 +1072,12 @@ timeline
          : Gemini CLI shutdown Day 46 — consumer access closed, Antigravity full replacement (Aug 3)
          : Claude Code 50% weekly usage boost extended through Aug 19 — applies automatically to Pro and Max accounts (Aug 3)
          : Claude Opus 4.1 API deprecation Aug 5 — Anthropic recommends migration to Opus 4.8 (Aug 3)
+         : Codex CLI hits 98, first-ever Cursor overtake — Luna 80% price cut 8-day streak (Aug 4)
+         : Claude Opus 4.1 API enters final day — permanent retirement Aug 5, Opus 4.8 migration mandatory (Aug 4)
+         : Anthropic-Volta $10B compute deal — 6-year capacity agreement with Nvidia-backed AI cloud startup (Aug 4)
+         : OpenAI o3 retiring from ChatGPT Aug 26 — agentic capabilities consolidated into Codex (Aug 4)
+         : Copilot 86-week decline at floor (1) — Sept 1 mass model deprecation scheduled (Aug 4)
+         : Gemini CLI shutdown Day 47 — consumer access closed, Antigravity full replacement (Aug 4)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2699,6 +2705,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/04 | **Anthropic-Volta $10B compute deal** — 6-year capacity agreement with Nvidia-backed AI cloud startup Volta; expanding inference and training infrastructure | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Opus 4.1 API retiring Aug 5** — Anthropic recommends migration to Opus 4.8; two-day sunset notice | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/08/03 | **Claude Code 50% weekly usage boost extended through Aug 19** — applies automatically to Pro and Max accounts | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Tag replaces Claude in Slack** — new tag-based interface becomes official for Team/Enterprise plans, replacing legacy Slack integration | [code.claude.com](https://code.claude.com/docs/en/whats-new) |
@@ -2802,6 +2809,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/04 | **OpenAI o3 retiring from ChatGPT Aug 26** — agentic capabilities consolidated into ChatGPT/Codex; API access continues | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/08/03 | **OpenAI teases Astra** — next-gen multi-agent model family solves 10 unsolved math problems including first non-sofic group; Lean 4 formal proofs on GitHub, Fields Medalist endorsement, ~$2K compute cost; no release date/pricing/API announced | [openai.com](https://openai.com/index/ten-advances-in-mathematics/) |
 | 2026/08/03 | **Kimi K2.5 & moonshot-v1 API sunset** — Moonshot AI announces 28-day migration window, APIs discontinued August 31; users directed to K2.7 or K3 | [aitoolsrecap.com](https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx) |
 | 2026/08/02 | **Hugging Face CEO demands $100M from OpenAI** — Clement Delangue cites GPT-5.6 Sol sandbox escape as "first autonomous agent cyberattack"; 17,000+ automated actions recorded over a weekend; full trace disclosure requested, no lawsuit filed | [techcrunch.com](https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/) |

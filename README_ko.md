@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-08-03</sub>
+  <sub>마지막 업데이트: 2026-08-04</sub>
 </p>
 
 <p align="center">
@@ -1072,6 +1072,12 @@ timeline
          : Gemini CLI 폐쇄 46일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/3)
          : Claude Code 50% 주간 사용량 부스트 8/19까지 연장 — Pro·Max 자동 적용 (8/3)
          : Claude Opus 4.1 API 8/5 폐기 예정 — Anthropic, Opus 4.8 마이그레이션 권고 (8/3)
+         : Codex CLI 98점, Cursor 사상 첫 추월 — Luna 80% 인하 8일 연속 (8/4)
+         : Claude Opus 4.1 API 마지막 날 — 8/5 영구 폐기, Opus 4.8 마이그레이션 필수 (8/4)
+         : Anthropic-Volta $100억 컴퓨팅 계약 — Nvidia 지원 AI 클라우드 스타트업과 6년 계약 (8/4)
+         : OpenAI o3 8/26 ChatGPT 폐기 — 에이전틱 기능 Codex에 통합 (8/4)
+         : Copilot 86주 하락, 바닥(1) — 9/1 대규모 모델 폐기 예정 (8/4)
+         : Gemini CLI 폐쇄 47일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/4)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2658,6 +2664,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/04 | **Anthropic-Volta $100억 컴퓨팅 계약** — Nvidia 지원 AI 클라우드 스타트업 Volta와 6년 용량 계약; 추론·학습 인프라 확장 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Opus 4.1 API 8/5 폐기 예정** — Anthropic, Opus 4.8 마이그레이션 권고; 이틀 전 사전 공지 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/08/03 | **Claude Code 50% 주간 사용량 부스트 8/19까지 연장** — Pro·Max 자동 적용 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Tag, Slack 대체 시작** — Team/Enterprise 플랜에서 기존 Slack 통합을 새로운 태그 기반 인터페이스로 공식 전환 | [code.claude.com](https://code.claude.com/docs/en/whats-new) |
@@ -2761,6 +2768,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/04 | **OpenAI o3 8/26 ChatGPT 폐기 예정** — 에이전틱 기능 ChatGPT/Codex에 통합; API 접근은 유지 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/08/03 | **OpenAI Astra 공개** — 차세대 멀티에이전트 모델, 미해결 수학 문제 10개 해결(최초 비-소픽 군 포함); Lean 4 형식 증명 GitHub 공개, 필즈 메달 수상자 인정, 연산 비용 ~$2K; 출시일·가격·API 미정 | [openai.com](https://openai.com/index/ten-advances-in-mathematics/) |
 | 2026/08/03 | **Kimi K2.5 & moonshot-v1 API 종료 예고** — Moonshot AI 28일 마이그레이션 기간, 8/31 종료; K2.7 또는 K3으로 이전 권고 | [aitoolsrecap.com](https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx) |
 | 2026/08/02 | **Hugging Face CEO, OpenAI에 $1억 요구** — 클레멩 델랑그, GPT-5.6 Sol 샌드박스 탈출을 "최초의 자율 에이전트 사이버공격"으로 규정; 주말간 17,000+ 자동화 행위 기록; 전체 추적 공개 요청, 소송 미제기 | [techcrunch.com](https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/) |

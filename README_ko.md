@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-08-04</sub>
+  <sub>마지막 업데이트: 2026-08-05</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.08.04-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.08.05-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1078,6 +1078,15 @@ timeline
          : OpenAI o3 8/26 ChatGPT 폐기 — 에이전틱 기능 Codex에 통합 (8/4)
          : Copilot 86주 하락, 바닥(1) — 9/1 대규모 모델 폐기 예정 (8/4)
          : Gemini CLI 폐쇄 47일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/4)
+         : Claude Opus 4.1 영구 퇴장 — API 요청 에러 반환, Opus 4.8/5 마이그레이션 필수 (8/5)
+         : Claude for Open Source 출시 — OSS 메인테이너에 Claude Max 20x 6개월 무료(~$1,200 상당) (8/5)
+         : Sonnet 5 프로모션 가격 8/31 종료 — $2/$10에서 9/1부터 $3/$15/MTok, 50% 인상 (8/5)
+         : Codex CLI 99점, Claude Code·Antigravity와 역대 최고 동률 — Luna 9일 연속 (8/5)
+         : OpenAI Atlas 브라우저 8/9 종료 — 에이전틱 기능 ChatGPT/Codex에 통합 (8/5)
+         : GPT-5.4·GPT-5.4 mini Codex 8/31 폐기 — GPT-5.6 Terra/Luna로 마이그레이션 (8/5)
+         : 백악관 AI 안전 프레임워크 회의 최종일 — Meta·Anthropic·Google·OpenAI 최종 검토 (8/5)
+         : Copilot 87주 하락, 바닥(1) — Billing Preview App 폐쇄, 9/1 대폐기 (8/5)
+         : Gemini CLI 폐쇄 48일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/5)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2126,14 +2135,14 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04"]
+    x-axis ["07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "GH Copilot" [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [90, 91, 91, 91, 91, 91, 91, 92, 93, 94, 95, 96, 97, 98]
-    line "Gemini CLI" [4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "Codex CLI" [91, 91, 91, 91, 91, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+    line "Gemini CLI" [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2143,7 +2152,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-98↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-99↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
@@ -2601,7 +2610,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-08-04)
+### 팩트 체크 로그 (2026-08-05)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -2664,6 +2673,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/05 | **Claude Opus 4.1 영구 퇴장** — API 요청 에러 반환; Opus 4.8 또는 Opus 5로 마이그레이션 필수; 6/5 60일 전 사전 공지 | [platform.claude.com](https://platform.claude.com/docs/en/about-claude/model-deprecations) |
+| 2026/08/05 | **Claude for Open Source 출시** — 오픈소스 메인테이너에 Claude Max 20x 6개월 무료(~$1,200 상당) 제공 | [releasebot.io](https://releasebot.io/updates/anthropic) |
+| 2026/08/05 | **Sonnet 5 프로모션 가격 8/31 종료** — $2/$10/MTok에서 9/1 $3/$15로 50% 인상; 새 토크나이저로 동일 텍스트에 최대 35% 더 많은 과금 토큰 | [finopsllm.com](https://finopsllm.com/research/sonnet-5-intro-pricing-deadline) |
 | 2026/08/04 | **Anthropic-Volta $100억 컴퓨팅 계약** — Nvidia 지원 AI 클라우드 스타트업 Volta와 6년 용량 계약; 추론·학습 인프라 확장 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Opus 4.1 API 8/5 폐기 예정** — Anthropic, Opus 4.8 마이그레이션 권고; 이틀 전 사전 공지 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/08/03 | **Claude Code 50% 주간 사용량 부스트 8/19까지 연장** — Pro·Max 자동 적용 | [anthropic.com](https://www.anthropic.com/news) |
@@ -2768,6 +2780,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/05 | **OpenAI Atlas 브라우저 8/9 종료** — 2025년 10월 출시, 에이전틱 기능 ChatGPT·Codex에 통합 | [searchengineland.com](https://searchengineland.com/openai-chatgpt-atlas-deprecation-482003) |
+| 2026/08/05 | **GPT-5.4·GPT-5.4 mini Codex 8/31 폐기** — gpt-5.6-terra·gpt-5.6-luna로 마이그레이션 권고 | [releasebot.io](https://releasebot.io/updates/openai) |
 | 2026/08/04 | **OpenAI o3 8/26 ChatGPT 폐기 예정** — 에이전틱 기능 ChatGPT/Codex에 통합; API 접근은 유지 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/08/03 | **OpenAI Astra 공개** — 차세대 멀티에이전트 모델, 미해결 수학 문제 10개 해결(최초 비-소픽 군 포함); Lean 4 형식 증명 GitHub 공개, 필즈 메달 수상자 인정, 연산 비용 ~$2K; 출시일·가격·API 미정 | [openai.com](https://openai.com/index/ten-advances-in-mathematics/) |
 | 2026/08/03 | **Kimi K2.5 & moonshot-v1 API 종료 예고** — Moonshot AI 28일 마이그레이션 기간, 8/31 종료; K2.7 또는 K3으로 이전 권고 | [aitoolsrecap.com](https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-08-04</sub>
+  <sub>Last updated: 2026-08-05</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.08.04-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.08.05-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1078,6 +1078,15 @@ timeline
          : OpenAI o3 retiring from ChatGPT Aug 26 — agentic capabilities consolidated into Codex (Aug 4)
          : Copilot 86-week decline at floor (1) — Sept 1 mass model deprecation scheduled (Aug 4)
          : Gemini CLI shutdown Day 47 — consumer access closed, Antigravity full replacement (Aug 4)
+         : Claude Opus 4.1 permanently retired — API requests now return errors, Opus 4.8/5 migration mandatory (Aug 5)
+         : Claude for Open Source launched — 6 months free Claude Max 20x for OSS maintainers (~$1,200 value) (Aug 5)
+         : Sonnet 5 promo pricing ends Aug 31 — $2/$10 rising to $3/$15/MTok on Sep 1, 50% increase (Aug 5)
+         : Codex CLI hits 99, ties Claude Code & Antigravity at all-time high — Luna 9-day streak (Aug 5)
+         : OpenAI Atlas browser shutting down Aug 9 — agentic capabilities folded into ChatGPT/Codex (Aug 5)
+         : GPT-5.4 and GPT-5.4 mini retiring from Codex Aug 31 — migrate to GPT-5.6 Terra/Luna (Aug 5)
+         : White House AI safety framework meeting final day — Meta, Anthropic, Google, OpenAI conclude review (Aug 5)
+         : Copilot 87-week decline at floor (1) — Billing Preview App retired, Sept 1 mass deprecation (Aug 5)
+         : Gemini CLI shutdown Day 48 — consumer access closed, Antigravity full replacement (Aug 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2156,14 +2165,14 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-22", "07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04"]
+    x-axis ["07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "GH Copilot" [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [90, 91, 91, 91, 91, 91, 91, 92, 93, 94, 95, 96, 97, 98]
-    line "Gemini CLI" [4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "Codex CLI" [91, 91, 91, 91, 91, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+    line "Gemini CLI" [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2173,7 +2182,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-98↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-99↑-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
@@ -2641,7 +2650,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-08-04)
+### Fact Check Log (2026-08-05)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -2705,6 +2714,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/05 | **Claude Opus 4.1 permanently retired** — API requests now return errors; migration to Opus 4.8 or Opus 5 mandatory; 60-day notice given from Jun 5 | [platform.claude.com](https://platform.claude.com/docs/en/about-claude/model-deprecations) |
+| 2026/08/05 | **Claude for Open Source launched** — 6 months free Claude Max 20x (~$1,200 value) for open-source maintainers and contributors | [releasebot.io](https://releasebot.io/updates/anthropic) |
+| 2026/08/05 | **Sonnet 5 promo pricing ends Aug 31** — $2/$10/MTok rising to $3/$15 on Sep 1, a 50% increase; new tokenizer can produce up to 35% more billable tokens | [finopsllm.com](https://finopsllm.com/research/sonnet-5-intro-pricing-deadline) |
 | 2026/08/04 | **Anthropic-Volta $10B compute deal** — 6-year capacity agreement with Nvidia-backed AI cloud startup Volta; expanding inference and training infrastructure | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Opus 4.1 API retiring Aug 5** — Anthropic recommends migration to Opus 4.8; two-day sunset notice | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/08/03 | **Claude Code 50% weekly usage boost extended through Aug 19** — applies automatically to Pro and Max accounts | [anthropic.com](https://www.anthropic.com/news) |
@@ -2809,6 +2821,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/05 | **OpenAI Atlas browser shutting down Aug 9** — launched Oct 2025, agentic capabilities folded into ChatGPT and Codex | [searchengineland.com](https://searchengineland.com/openai-chatgpt-atlas-deprecation-482003) |
+| 2026/08/05 | **GPT-5.4 and GPT-5.4 mini retiring from Codex Aug 31** — users directed to migrate to gpt-5.6-terra and gpt-5.6-luna | [releasebot.io](https://releasebot.io/updates/openai) |
 | 2026/08/04 | **OpenAI o3 retiring from ChatGPT Aug 26** — agentic capabilities consolidated into ChatGPT/Codex; API access continues | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/08/03 | **OpenAI teases Astra** — next-gen multi-agent model family solves 10 unsolved math problems including first non-sofic group; Lean 4 formal proofs on GitHub, Fields Medalist endorsement, ~$2K compute cost; no release date/pricing/API announced | [openai.com](https://openai.com/index/ten-advances-in-mathematics/) |
 | 2026/08/03 | **Kimi K2.5 & moonshot-v1 API sunset** — Moonshot AI announces 28-day migration window, APIs discontinued August 31; users directed to K2.7 or K3 | [aitoolsrecap.com](https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx) |

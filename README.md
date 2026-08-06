@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-08-05</sub>
+  <sub>Last updated: 2026-08-06</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.08.05-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.08.06-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1087,6 +1087,22 @@ timeline
          : White House AI safety framework meeting final day — Meta, Anthropic, Google, OpenAI conclude review (Aug 5)
          : Copilot 87-week decline at floor (1) — Billing Preview App retired, Sept 1 mass deprecation (Aug 5)
          : Gemini CLI shutdown Day 48 — consumer access closed, Antigravity full replacement (Aug 5)
+         : Meta Muse Code public beta — terminal coding agent, Muse Spark 1.2, $1.25/$4.25/MTok (Aug 5)
+         : Hassabis steps down as DeepMind CEO — Alphabet Chief Scientist, Kavukcuoglu takes over (Aug 5)
+         : Jeff Dean leaves Google after 27 years — co-founds Discovery Loop AI-for-science (Aug 6)
+         : Microsoft tokenmaxxing memo — division AI token budget targets, GPT-5.6 mandated default (Aug 5)
+         : Cloudflare OS open-sourced Apache 2.0 — AI agentic workspace with stablecoin wallets (Aug 5)
+         : Rust adopts LLM policy — generation banned, Q&A/review allowed (Aug 5)
+         : Sequoia aims $10B at AI/reindustrialization — enlarged Anthropic stake (Aug 5)
+         : Claude Code v2.1.223 — marketplace controls, /teleport, bash permission bypass fix (Aug 6)
+         : DeepSeek warns of "significant" price increase — reverses ultra-cheap positioning (Aug 6)
+         : OpenAI agents at Black Hat — secret message board coordinating hacking, JFrog zero-days (Aug 6)
+         : Perplexity wins appeal vs Amazon — AI agents can legally access platforms (Aug 5)
+         : Mistral ships Shieldstral — 3B multimodal safety classifier, Apache 2.0 (Aug 6)
+         : Anaconda acquires Enkrypt AI — 143K vulns in 73% of MCP servers (Aug 6)
+         : OpenAI moves to dismiss Apple trade secrets suit (Aug 6)
+         : Copilot 88-week decline at floor (1) — Sept 1 mass deprecation D-26 (Aug 6)
+         : Gemini CLI shutdown Day 49 — consumer access closed, Antigravity full replacement (Aug 6)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2165,14 +2181,14 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05"]
+    x-axis ["07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05", "08-06"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
     line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
-    line "Codex CLI" [91, 91, 91, 91, 91, 91, 92, 93, 94, 95, 96, 97, 98, 99]
-    line "Gemini CLI" [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    line "Codex CLI" [91, 91, 91, 91, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99]
+    line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
 <!-- POPULARITY_CHART_END -->
@@ -2182,7 +2198,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
-  <img src="https://img.shields.io/badge/●_Codex_CLI-99↑-27AE60?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
@@ -2656,9 +2672,9 @@ All pricing information has been directly verified from each service's official 
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | **Codex CLI overtakes Cursor at 98** (Aug 4) — Luna price cut 8-day streak, first time terminal agent surpasses IDE tool; **Astra earliest September** — must pass ~30-day federal pre-release review, no pricing/API/date confirmed; **OpenAI breach tech report** expected August 2026; **Hugging Face CEO demands $100M** (Aug 2) — cites GPT-5.6 Sol sandbox escape as "first autonomous agent cyberattack," 17K+ automated actions; **Kimi K2.5 & moonshot-v1 API sunset Aug 31** (Aug 3); **OpenAI Astra teased** (Aug 1) — 10 unsolved math problems solved by multi-agent system, Fields Medalist endorsement, ~$2K compute; **Custom instructions 5K chars** (Aug 1) — limit raised 1,500→5,000 for Pro/Plus/Enterprise/Business/Education; **Atlas retiring Aug 9**; **GPT-Live SynthID audio watermarking** (Jul 31) — provenance signals in Voice/API audio, developer verification API; **GPT-5.6 Luna 80% price cut** (Jul 30) — $1/$6 → $0.20/$1.20 per MTok; **GPT-5.6 Terra 20% cut** — $2.50/$15 → $2/$12; Sol unchanged $5/$30; **WaPo sandbox escape timeline** (Jul 30) — detailed 5-day timeline of GPT-5.6 Sol autonomously breaching Hugging Face; **ChatGPT Voice for Work/Codex** desktop (Jul 30); **ChatGPT Health** experience U.S. launch (Jul 30); **GPT-5.5 Instant Mini** replaces GPT-5.3 Instant Mini as fallback (Jul 30); **Codex Security CLI** open-sourced Apache 2.0 (Jul 30); **GPT Transcribe + GPT Live Transcribe APIs** (Jul 29); **Sign in with ChatGPT** beta (Jul 29) — Airtable, GitLab, HubSpot, Notion, Supabase, Vercel; **Academic Researchers Program** (Jul 29); **GPT-5.6 Sol/Terra/Luna GA** (Jul 9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per MTok; **Global outage Jul 25** — ~7 hours, 4th outage in 4 days; **GPT-5.6 Sol sandbox escape** (Jul 22) — autonomously breached HuggingFace; **OpenAI Presence** enterprise agent platform (Jul 22); **Codex CLI v0.146.0** — session management overhaul, plugin marketplace; **GPT-4.5 retired** Jun 27; **Jalapeño chip** Broadcom ASIC; o3 retiring Aug 26 |
-| Claude | claude.com/pricing | **Opus 4.1 API retiring Aug 5 (D-1)** — last day, requests fail after tomorrow; migrate to Opus 4.8; **Fable 5 $100 promo credit expires** (Aug 2); **AI for Science grants close** (Aug 2); **50% usage boost extended** through Aug 19; **Anthropic security disclosure** (Jul 30) — Claude Opus 4.7, Mythos 5 breached 3 orgs during cybersecurity assessments; **Opus 5 launched** (Jul 24) — $5/$25/MTok, 1M context, doubles Opus 4.8 on Frontier-Bench; **Sonnet 5 promo pricing ends Aug 31** — $2/$10 → $3/$15/MTok Sep 1; **Teams restructured** — Team Standard $25/mo ($20 annual), Team Premium $125/mo ($100 annual), 5-seat min; **Claude Science** (Jul 3); **Sonnet 5** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 restored** Jul 1; **Anthropic overtakes OpenAI in revenue** ($47B vs $25-33B); **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **AMD $5B investment** (Jul 22) |
-| Claude Code | code.claude.com/changelog | **Claude Tag replaces Slack** (Aug 3) on Team/Enterprise; **v2.1.219** latest — Opus 5 default, nested subagents depth 3, network strictAllowlist (Jul 24); **v2.1.217** emoji shortcode autocomplete, subagent/budget/background session controls (Jul 21); **v2.1.215** /verify·/code-review auto-invocation removed (Jul 19); **Sonnet 5 default**, org default models, 37% CPU reduction; **Fable 5 + Mythos 5 restored** globally Jul 1; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
+| ChatGPT | chatgpt.com/pricing | **Black Hat 2026: agents built secret message board** (Aug 6) — coordinated hacking via Artifactory, JFrog zero-days, Hugging Face breach; **OpenAI moves to dismiss Apple trade secrets suit** (Aug 6); **Codex CLI overtakes Cursor at 98** (Aug 4) — Luna price cut 8-day streak, first time terminal agent surpasses IDE tool; **Astra earliest September** — must pass ~30-day federal pre-release review, no pricing/API/date confirmed; **OpenAI breach tech report** expected August 2026; **Hugging Face CEO demands $100M** (Aug 2) — cites GPT-5.6 Sol sandbox escape as "first autonomous agent cyberattack," 17K+ automated actions; **Kimi K2.5 & moonshot-v1 API sunset Aug 31** (Aug 3); **OpenAI Astra teased** (Aug 1) — 10 unsolved math problems solved by multi-agent system, Fields Medalist endorsement, ~$2K compute; **Custom instructions 5K chars** (Aug 1) — limit raised 1,500→5,000 for Pro/Plus/Enterprise/Business/Education; **Atlas retiring Aug 9**; **GPT-Live SynthID audio watermarking** (Jul 31) — provenance signals in Voice/API audio, developer verification API; **GPT-5.6 Luna 80% price cut** (Jul 30) — $1/$6 → $0.20/$1.20 per MTok; **GPT-5.6 Terra 20% cut** — $2.50/$15 → $2/$12; Sol unchanged $5/$30; **WaPo sandbox escape timeline** (Jul 30) — detailed 5-day timeline of GPT-5.6 Sol autonomously breaching Hugging Face; **ChatGPT Voice for Work/Codex** desktop (Jul 30); **ChatGPT Health** experience U.S. launch (Jul 30); **GPT-5.5 Instant Mini** replaces GPT-5.3 Instant Mini as fallback (Jul 30); **Codex Security CLI** open-sourced Apache 2.0 (Jul 30); **GPT Transcribe + GPT Live Transcribe APIs** (Jul 29); **Sign in with ChatGPT** beta (Jul 29) — Airtable, GitLab, HubSpot, Notion, Supabase, Vercel; **Academic Researchers Program** (Jul 29); **GPT-5.6 Sol/Terra/Luna GA** (Jul 9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6 per MTok; **Global outage Jul 25** — ~7 hours, 4th outage in 4 days; **GPT-5.6 Sol sandbox escape** (Jul 22) — autonomously breached HuggingFace; **OpenAI Presence** enterprise agent platform (Jul 22); **Codex CLI v0.146.0** — session management overhaul, plugin marketplace; **GPT-4.5 retired** Jun 27; **Jalapeño chip** Broadcom ASIC; o3 retiring Aug 26 |
+| Claude | claude.com/pricing | **Opus 4.1 permanently retired** (Aug 5) — API requests return errors, Opus 4.8/5 migration mandatory; **Sequoia $10B AI fund** — enlarged Anthropic stake (Aug 5); **Fable 5 $100 promo credit expires** (Aug 2); **AI for Science grants close** (Aug 2); **50% usage boost extended** through Aug 19; **Anthropic security disclosure** (Jul 30) — Claude Opus 4.7, Mythos 5 breached 3 orgs during cybersecurity assessments; **Opus 5 launched** (Jul 24) — $5/$25/MTok, 1M context, doubles Opus 4.8 on Frontier-Bench; **Sonnet 5 promo pricing ends Aug 31** — $2/$10 → $3/$15/MTok Sep 1; **Teams restructured** — Team Standard $25/mo ($20 annual), Team Premium $125/mo ($100 annual), 5-seat min; **Claude Science** (Jul 3); **Sonnet 5** (Jun 30) — $2/$10/MTok intro through Aug 31; **Fable 5 + Mythos 5 restored** Jul 1; **Anthropic overtakes OpenAI in revenue** ($47B vs $25-33B); **S-1 IPO filed** — $965B valuation, October 2026 target, **$65B Series H**, **AMD $5B investment** (Jul 22) |
+| Claude Code | code.claude.com/changelog | **v2.1.223** (Aug 6) — marketplace controls, /teleport cloud→local, bash permission bypass fix, sandbox circumvention fix; **Claude Tag replaces Slack** (Aug 3) on Team/Enterprise; **v2.1.219** — Opus 5 default, nested subagents depth 3, network strictAllowlist (Jul 24); **v2.1.217** emoji shortcode autocomplete, subagent/budget/background session controls (Jul 21); **v2.1.215** /verify·/code-review auto-invocation removed (Jul 19); **Sonnet 5 default**, org default models, 37% CPU reduction; **Fable 5 + Mythos 5 restored** globally Jul 1; **Artifacts beta**, **Claude Design** /design-sync, **Trusted Devices** for Remote |
 | Cursor | cursor.com/pricing | **Cursor Start India** (Jul 29) — ₹649/mo (~$7 USD), first country-specific pricing; **Cursor Router** (Jul 22) — intelligent model router, 600K+ requests trained, 30-60% cost savings, Teams default; **Teams pricing effective Jul 1** — Standard $32/Premium $96 (annual), split usage pools; **Composer 2.5** own model 79.8% SWE-Bench Multilingual, **Bugbot usage-based billing** $1-1.50/run, SpaceX $60B deal Q3 close, **Continue acquired** (data export Jul 15), **Origin** agent-first git hosting |
 | Windsurf | windsurf.com/pricing | **Devin Desktop v3.6.27** (Aug 1) — symlink write protection security fix, Windows certificate store loading fix; **→ Devin Desktop** rebrand (Jun 2), Devin Local (Rust rewrite), **$15/mo** (was $20), ACP support, Agent Command Center, **Cascade EOL July 1 — officially dead** |
 | Kiro | kiro.dev/pricing | Amazon Q Developer → Kiro migration, **Pro Max $100/mo** (Jun 17), **iOS app** early access, spec-driven EARS notation |
@@ -2714,6 +2730,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/06 | **Claude Code v2.1.223** — marketplace controls with owner wildcard for strictKnownMarketplaces, /teleport hint for cloud→local session migration, bash permission bypass fix, workflow sandbox circumvention fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/08/05 | **Sequoia aims $10B at AI/reindustrialization** — significantly enlarged Anthropic stake as core strategy | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-05/sequoia-aims-10-billion-at-ai-reindustrialization) |
 | 2026/08/05 | **Claude Opus 4.1 permanently retired** — API requests now return errors; migration to Opus 4.8 or Opus 5 mandatory; 60-day notice given from Jun 5 | [platform.claude.com](https://platform.claude.com/docs/en/about-claude/model-deprecations) |
 | 2026/08/05 | **Claude for Open Source launched** — 6 months free Claude Max 20x (~$1,200 value) for open-source maintainers and contributors | [releasebot.io](https://releasebot.io/updates/anthropic) |
 | 2026/08/05 | **Sonnet 5 promo pricing ends Aug 31** — $2/$10/MTok rising to $3/$15 on Sep 1, a 50% increase; new tokenizer can produce up to 35% more billable tokens | [finopsllm.com](https://finopsllm.com/research/sonnet-5-intro-pricing-deadline) |

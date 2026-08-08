@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-08-07</sub>
+  <sub>마지막 업데이트: 2026-08-08</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.08.07-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.08.08-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1113,6 +1113,18 @@ timeline
          : Anthropic Tino Cuellar(전 CA 대법관) 첫 최고글로벌담당임원 임명 (8/6)
          : DALL-E GPT 8/30 은퇴 — ChatGPT Images로 대체 (8/7)
          : Codex Goal 모드 GA — 앱·IDE·CLI 전체; Auto-review GPT-5.6 Luna 업그레이드 (8/7)
+         : Claude Code v2.1.225 — 게이트웨이 비용 제한 지원, 워크스페이스 신뢰 프롬프트, OAuth/MCP 수정 (8/8)
+         : Codex CLI v0.147.0 — 포터블 에이전트 플러그인, --approve-for-me 플래그, MCP 2026-07-28 프로토콜 (8/8)
+         : Atlas D-1 — OpenAI Atlas 브라우저 내일(8/9) 종료 (8/8)
+         : Kiro Crew Apache 2.0 오픈소스 — 멀티에이전트 오케스트레이션, Amazon 내부 39K 빌더 사용 (8/8)
+         : Kiro IDE 1.0.288 — Agent Plugin 형식 Powers 지원, 세션 고정, "Open with Kiro CLI" (8/8)
+         : Antigravity Desktop v2.6.0 + CLI v1.1.11 — Vim 모드, 히스토리 로딩 속도 향상 (8/8)
+         : Copilot 코드 리뷰 effort 레벨 GA — lite/balanced 깊이 조절 (8/8)
+         : Devin 자동화 큐잉 + GitLab 통합 + 보안 프로필 GA (8/8)
+         : Anthropic Fable 5 생물학 세이프가드 — 모델 폴백 85% 감소 (8/8)
+         : DeepSeek 가격 인상 4일째 — 2-10배 인상 예상, V4 Flash 일 8조 토큰 처리 (8/8)
+         : Copilot 89주 하락, 바닥(1) — 9/1 대폐기 D-24 (8/8)
+         : Gemini CLI 폐쇄 51일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/8)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2161,7 +2173,7 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05", "08-06", "08-07"]
+    x-axis ["07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05", "08-06", "08-07", "08-08"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2699,6 +2711,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/08 | **Claude Code v2.1.225** — 게이트웨이 비용 제한 지원(사용량 경고), `claude agents` 워크스페이스 신뢰 프롬프트, Remote Control 사진 직접 표시, 헤드리스 세션 OAuth 토큰 수정, macOS MCP OAuth 키체인 수정, auto 모드 안전 필터 거부 카운트 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/08/08 | **Fable 5 생물학 세이프가드 개선** — 생물학 관련 모델 폴백 85% 감소; 건강/교육 질문과 이중용도 연구를 구분하는 안전 분류기 재훈련 | [anthropic.com](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards) |
+| 2026/08/08 | **Managed Agents 업데이트** — 예산 캡이 `budget_reached` 정지 사유로 하드 리밋 적용, 어드바이저 설정으로 턴 중간 모델 자문, 추론 지역 제어 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/08/07 | **Claude Code v2.1.224** — Team/Enterprise 자체 호스팅 러너 `claude self-hosted-runner`, HTTPS zip 아카이브 플러그인 설치(SHA-256 검증), 크로스 세션 메시징 SendMessage/ListAgents, 샌드박스 JWT 인식 자격증명 마스킹 + AWS SigV4 재서명, 200-서브에이전트 제한 제거, Remote Control 압축 진행률 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/08/06 | **Claude 장애** — Mythos 5·Fable 5·Opus 5·Sonnet 5 전 모델 오류 상승(ET 12:56경 시작); 8/7 복구 | [statusgator.com](https://statusgator.com/services/claude/claudeai) |
 | 2026/08/06 | **Tino Cuellar 최고글로벌담당임원 임명** — 전 캘리포니아 대법관, Anthropic 첫 CGAO 취임 | [anthropic.com](https://www.anthropic.com/news) |
@@ -2811,6 +2826,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/08 | **Codex CLI v0.147.0** — 포터블 에이전트 플러그인(로컬/리모트 카탈로그), 영구 대화 섹션, `--approve-for-me` 자동 승인 플래그, MCP 2026-07-28 프로토콜(페이지네이션 검색), Amazon Bedrock 캐싱, 커맨드 비밀 정보 마스킹 | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/08/08 | **Atlas D-1** — OpenAI Atlas 브라우저 내일(8/9) 종료; 사용자는 마감 전 북마크 수동 내보내기 필요; 기능은 ChatGPT/Codex에 통합 | [digitaltrends.com](https://www.digitaltrends.com/computing/chatgpt-atlas-is-shutting-down-and-it-has-some-homework-left-before-you-migrate/) |
 | 2026/08/07 | **GPT-5.6 Luna/Sol 전 티어 기본 전환** — Luna가 GPT-5.5를 대체하여 Free/Go 기본 모델로 전환, 무료 텍스트 채팅 무제한 + "Think" 버튼; Sol이 Plus/Pro 기본 모델, 적응형 디테일·추론 슬라이더; GPT-5.5 대비 사실 오류 68% 감소 | [9to5mac.com](https://9to5mac.com/2026/08/06/openai-updating-chatgpt-with-a-smarter-gpt-5-6-sol-and-unlimited-free-chats/) |
 | 2026/08/07 | **Codex Goal 모드 GA** — 앱·IDE·CLI 전체; Auto-review GPT-5.6 Luna 업그레이드로 비용 10x 절감 예상 | [openai.com](https://openai.com/products/release-notes/) |
 | 2026/08/07 | **DALL-E GPT 8/30 은퇴** — ChatGPT Images로 대체 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
@@ -2888,6 +2905,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/08 | **Antigravity Desktop v2.6.0** — 히스토리 로딩 속도 향상, 커스텀 훅/서브에이전트 개선, "질문하기" 패널 재디자인; 9개 개선 + 21개 버그 수정 | [antigravity.google](https://antigravity.google/changelog) |
+| 2026/08/08 | **Antigravity CLI v1.1.11** — Vim 모달 편집(Normal/Insert/Visual/Visual Line), Vim 인식 프롬프트 제출, 플러그인 활성화/비활성화, MCP/자동완성 수정 | [releasebot.io](https://releasebot.io/updates/google/antigravity) |
 | 2026/07/22 | **Google, Antigravity 샌드박스 취약점 패치 거부** — Pillar Security CVE를 "기타 유효 보안 취약점"으로 분류, "악용 어려움" 이유로 패치 미계획 | [neowin.net](https://www.neowin.net/news/pillar-research-shows-sandboxes-are-inadequate-for-agentic-ai-google-decides-not-to-patch/) |
 | 2026/07/22 | **Gemini 4 사전학습 확인** — Google이 차세대 Gemini 4 사전학습 시작을 확인 | [9to5google.com](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) |
 | 2026/07/21 | **Gemini 3.6 Flash 출시** — $1.50/$7.50 per MTok, 출력 토큰 17% 감소, 지식 기준일 2026년 3월; 3.5 Pro는 여전히 "coming soon" | [9to5google.com](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) |
@@ -2930,6 +2949,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/08 | **Copilot 코드 리뷰 effort 레벨 GA** — lite/balanced 깊이 조절로 복잡도·리스크별 리뷰 심도 조정; Code Quality 자동 리뷰어 요청 중단 | [github.blog](https://github.blog/changelog/month/08-2026/) |
+| 2026/08/08 | **Copilot Usage Metrics API** — Claude·Codex 등 통합 에이전트의 활동을 GitHub 워크플로우에서 추적 가능 | [github.blog](https://github.blog/changelog/month/08-2026/) |
 | 2026/08/07 | **Kimi K3 GitHub Copilot GA** — Moonshot AI 오픈웨이트 모델 Fireworks AI 호스팅, $3/$15/MTok, 프론티어급 에이전틱 코딩, Pro/Pro+/Max/Business/Enterprise; Business/Enterprise 관리자 활성화 필요 | [github.blog](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot/) |
 | 2026/08/07 | **Copilot CLI v1.0.79-6** — 세션 히스토리·타임라인 렌더링 수정, 실패 로드 재시도 및 보고, 장기 세션 재개 스크롤 수정 | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/07/30 | **Microsoft Q4 실적** — Copilot "슈퍼앱" 통합(Copilot 채팅 + GitHub Copilot + Cowork + Autopilot 에이전트); 유료 3,000만 석(전분기 대비 순증 2배+); GitHub Copilot 5,000만 사용자·분기 매출 60%+ 성장; Q4 매출 $900.1B(+18% YoY); 장후 주가 ~15% 급등 | [benzinga.com](https://www.benzinga.com/markets/tech/26/07/60788224/microsofts-copilot-just-crossed-30-million-paid-seats-as-ceo-satya-nadella-unveiled-unified-app-major-step-forward) |
@@ -2971,6 +2992,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/08 | **Cursor for iOS** 퍼블릭 베타 — 모바일에서 에이전트 관리, 모든 유료 플랜 지원 | [cursor.com](https://cursor.com/changelog) |
 | 2026/08/07 | **Cursor Router Auto Intelligence** — Fable급 이상 품질에 68% 비용 절감(출시 대비 추가 18% 절감); Auto Balance Opus 4.8 능가하며 41% 비용 절감; Opus 5 라우팅 통합; Compass 복잡도 예측기 강화 | [cursor.com](https://cursor.com/changelog) |
 | 2026/07/22 | **Cursor Router** — 60만 건 이상 실시간 요청으로 학습한 지능형 모델 라우터, 작업별 최적 모델 자동 선택, 30-60% 비용 절감, Teams 기본 적용·Enterprise 수동 활성화 | [cursor.com](https://cursor.com/blog/router) |
 | 2026/07/10 | **Cursor 3.11** — /side 병렬 에이전트 채팅, 에이전트 대화 검색, 팀 MCP 서버, iOS 퍼블릭 베타(모든 유료 플랜) | [cursor.com](https://cursor.com/changelog) |

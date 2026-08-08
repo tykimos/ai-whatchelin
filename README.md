@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-08-07</sub>
+  <sub>Last updated: 2026-08-08</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.08.07-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.08.08-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1113,6 +1113,18 @@ timeline
          : Anthropic appoints Tino Cuellar (former CA Supreme Court Justice) as first Chief Global Affairs Officer (Aug 6)
          : DALL-E GPT retiring Aug 30 — replaced by ChatGPT Images (Aug 7)
          : Codex Goal mode GA — app, IDE extension, CLI; Auto-review upgrading to GPT-5.6 Luna (Aug 7)
+         : Claude Code v2.1.225 — gateway spend-limit support, workspace trust prompts, OAuth/MCP fixes (Aug 8)
+         : Codex CLI v0.147.0 — portable agent plugins, --approve-for-me flag, MCP 2026-07-28 protocol (Aug 8)
+         : Atlas D-1 — OpenAI Atlas browser shuts down tomorrow Aug 9 (Aug 8)
+         : Kiro Crew open-sourced Apache 2.0 — multi-agent orchestration, 39K Amazon builders (Aug 8)
+         : Kiro IDE 1.0.288 — Powers in Agent Plugin format, session pinning, "Open with Kiro CLI" (Aug 8)
+         : Antigravity Desktop v2.6.0 + CLI v1.1.11 — Vim mode, faster history loading (Aug 8)
+         : Copilot code review effort levels GA — lite/balanced depth adjustment (Aug 8)
+         : Devin automations queueing + GitLab integration + security profiles GA (Aug 8)
+         : Anthropic Fable 5 biology safeguards — 85% reduction in model fallbacks (Aug 8)
+         : DeepSeek price hike Day 4 — 2-10x increase expected, V4 Flash hit 8T tokens/day (Aug 8)
+         : Copilot 89-week decline at floor (1) — Sept 1 mass deprecation D-24 (Aug 8)
+         : Gemini CLI shutdown Day 51 — consumer access closed, Antigravity full replacement (Aug 8)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2191,7 +2203,7 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05", "08-06", "08-07"]
+    x-axis ["07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05", "08-06", "08-07", "08-08"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2740,6 +2752,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/08 | **Claude Code v2.1.225** — gateway spend-limit support for usage warnings, workspace trust prompts for `claude agents`, Remote Control photo display, OAuth token fix for headless sessions, MCP OAuth macOS keychain fix, auto mode safety-filter refusal fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/08/08 | **Fable 5 biology safeguards improved** — 85% reduction in biology-related model fallbacks; retrained safety classifier to distinguish health/educational queries from dual-use research | [anthropic.com](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards) |
+| 2026/08/08 | **Managed Agents update** — budget caps as hard spending limits with `budget_reached` stop reason, advisor configuration for mid-turn model consultation, inference geo controls | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/08/07 | **Claude Code v2.1.224** — self-hosted runner `claude self-hosted-runner` for Team/Enterprise, archive plugin install from HTTPS zip w/ SHA-256, cross-session messaging via SendMessage/ListAgents, sandbox JWT-aware credential masking + AWS SigV4 re-signing, 200-subagent cap removed, Remote Control compaction progress | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/08/06 | **Claude outage** — elevated errors across Mythos 5, Fable 5, Opus 5, and Sonnet 5 starting ~12:56 PM ET; service restored by Aug 7 | [statusgator.com](https://statusgator.com/services/claude/claudeai) |
 | 2026/08/06 | **Tino Cuellar appointed Chief Global Affairs Officer** — former California Supreme Court Justice becomes Anthropic's first CGAO | [anthropic.com](https://www.anthropic.com/news) |
@@ -2852,6 +2867,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/08 | **Codex CLI v0.147.0** — portable agent plugins with local/remote catalog, persistent conversation sections, `--approve-for-me` flag for automated approvals, MCP 2026-07-28 protocol with paginated discovery, Amazon Bedrock caching, secrets redacted from commands | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/08/08 | **Atlas D-1** — OpenAI Atlas browser shuts down tomorrow Aug 9; users must export bookmarks manually before deadline; capabilities folding into ChatGPT/Codex | [digitaltrends.com](https://www.digitaltrends.com/computing/chatgpt-atlas-is-shutting-down-and-it-has-some-homework-left-before-you-migrate/) |
 | 2026/08/07 | **GPT-5.6 Luna/Sol default all tiers** — Luna replaces GPT-5.5 as Free/Go default with unlimited free text chats and "Think" button; Sol becomes Plus/Pro default with adaptive detail and thinking slider; 68% fewer factual errors vs GPT-5.5 | [9to5mac.com](https://9to5mac.com/2026/08/06/openai-updating-chatgpt-with-a-smarter-gpt-5-6-sol-and-unlimited-free-chats/) |
 | 2026/08/07 | **Codex Goal mode GA** — available across app, IDE extension, and CLI; Auto-review upgrading to GPT-5.6 Luna with expected 10x cost reduction | [openai.com](https://openai.com/products/release-notes/) |
 | 2026/08/07 | **DALL-E GPT retiring Aug 30** — replaced by ChatGPT Images | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
@@ -2929,6 +2946,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/08 | **Antigravity Desktop v2.6.0** — faster history loading, custom hooks/subagents refinements, redesigned "ask questions" panel; 9 improvements + 21 bug fixes | [antigravity.google](https://antigravity.google/changelog) |
+| 2026/08/08 | **Antigravity CLI v1.1.11** — Vim modal editing mode (Normal/Insert/Visual/Visual Line), Vim-aware prompt submission, plugin enable/disable, MCP/autocomplete fixes | [releasebot.io](https://releasebot.io/updates/google/antigravity) |
 | 2026/07/22 | **Google refuses to patch Antigravity sandbox bypasses** — classifies Pillar Security CVEs as "other valid security vulnerabilities" but "hard to exploit," no patch planned | [neowin.net](https://www.neowin.net/news/pillar-research-shows-sandboxes-are-inadequate-for-agentic-ai-google-decides-not-to-patch/) |
 | 2026/07/22 | **Gemini 4 pretraining confirmed** — Google confirms pretraining for next-gen Gemini 4 has begun | [9to5google.com](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) |
 | 2026/07/21 | **Gemini 3.6 Flash launched** — $1.50/$7.50 per MTok, 17% fewer output tokens, knowledge cutoff jumped to March 2026; 3.5 Pro still "coming soon" | [9to5google.com](https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/) |
@@ -2971,6 +2990,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/08 | **Copilot code review effort levels GA** — lite and balanced effort levels for adjusting review depth by complexity/risk; Code Quality no longer auto-requests Copilot as reviewer | [github.blog](https://github.blog/changelog/month/08-2026/) |
+| 2026/08/08 | **Copilot Usage Metrics API** — now tracks agent app activity from Claude, Codex, and other integrated agents in GitHub workflows | [github.blog](https://github.blog/changelog/month/08-2026/) |
 | 2026/08/07 | **Kimi K3 GA in GitHub Copilot** — Moonshot AI open-weight model hosted on Fireworks AI at $3/$15/MTok, frontier-level agentic coding, available across Pro/Pro+/Max/Business/Enterprise; Business/Enterprise admin opt-in required | [github.blog](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot/) |
 | 2026/08/07 | **Copilot CLI v1.0.79-6** — session history and timeline rendering fixes, failed loads retried and reported, long-session resume scroll fix | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/07/30 | **Microsoft Q4 earnings** — Copilot "super app" unifying Copilot chat + GitHub Copilot + Cowork + Autopilot agents; 30M paid seats (net additions 2x+ QoQ); GitHub Copilot 50M users, 60%+ QoQ revenue growth; Q4 revenue $90.01B (+18% YoY); stock surged ~15% AH | [benzinga.com](https://www.benzinga.com/markets/tech/26/07/60788224/microsofts-copilot-just-crossed-30-million-paid-seats-as-ceo-satya-nadella-unveiled-unified-app-major-step-forward) |
@@ -3012,6 +3033,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/08 | **Cursor for iOS** public beta — agent management from mobile, available on all paid plans | [cursor.com](https://cursor.com/changelog) |
 | 2026/08/07 | **Cursor Router Auto Intelligence** — above-Fable quality at 68% lower cost (18% further reduction since launch); Auto Balance outperforms Opus 4.8 at 41% lower cost; Opus 5 integrated into routing; enhanced Compass complexity predictor | [cursor.com](https://cursor.com/changelog) |
 | 2026/07/22 | **Cursor Router** — intelligent model router trained on 600K+ requests, auto-selects model per task, 30-60% cost savings, Teams default, Enterprise opt-in | [cursor.com](https://cursor.com/blog/router) |
 | 2026/07/10 | **Cursor 3.11** — /side parallel agent chats, agent transcript search, team MCP servers, iOS public beta on all paid plans | [cursor.com](https://cursor.com/changelog) |

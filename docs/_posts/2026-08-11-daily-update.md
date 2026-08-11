@@ -1,47 +1,43 @@
 ---
-title: "Claude Code Goes Full Auto on Aug 14 — Anthropic Bets Safety Classifier Beats Human Review"
+title: "SpaceX-Cursor $60B Buyout May Close Next Week — Anthropic Declares Data Center Empire with Theseus JV"
 date: 2026-08-11
 lang: en
 categories: [news]
-tags: [claude-code, anthropic, meta, chatgpt, openai, devin, copilot]
-excerpt: "Anthropic is making auto mode the default permission mode for Claude Code. Their data: the safety classifier catches 89% of harmful actions while human reviewers catch just 13.6%. Meta drops a 30B open-weight agent that runs on a single consumer GPU."
+tags: [cursor, spacex, anthropic, claude-code, openai, codex, meta]
+excerpt: "Cursor told employees the SpaceX $60B acquisition could finalize as early as next week. The same day, Anthropic unveiled Theseus Infrastructure with Macquarie and GIC for dedicated AI data centers, while OpenAI shipped GPT-5-Codex-Mini offering 4x more usage per subscription."
 ---
 
-Anthropic announced that auto mode will become the default permission mode for new Claude Code sessions on Pro, Max, and Team plans starting August 14([TechCrunch](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)). In testing with 1,053 paid users, the safety classifier caught 89% of harmful actions, while human reviewers — who habitually approve ~97% of prompts — caught only 13.6%([Simon Willison](https://simonwillison.net/2026/Aug/8/auto-mode/)). Prompt injection screening and customizable hard deny rules have been added alongside the change. Enterprise, API, AWS, and Bedrock deployments will follow "within the coming month."
+Tectonic shifts are hitting the AI coding tool market simultaneously. Cursor informed employees that SpaceX's $60-billion all-stock buyout could close as early as next week — or by the end of August at the latest — pending final regulatory clearances([CBS News](https://www.cbsnews.com/news/spacex-cursor-60-billion-ai-acquisition/)). The acquisition agreement signed June 5 is in its final stretch, with Cursor's workforce and operational tools set to fold directly into SpaceXAI([TechCrunch](https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/)). The era of Cursor as an independent tool is officially ending.
 
-## Claude Code: v2.1.227 Ships
+## Anthropic: Theseus Infrastructure — A Data Center Empire
 
-Today's v2.1.227 release fixes a bug where feature flags were evaluated without the user's subscription tier when sessions started with an expired login token([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Also fixed: Bash command execution failures in claude-code-action, /tui rewind behavior, enhanced slash-command menu, and reduced event-loop stalls. A stability patch three days before the auto mode default switch.
+Anthropic announced a strategic partnership with Macquarie Asset Management and GIC to establish Theseus Infrastructure — a platform to develop, operate, and lease dedicated AI data center infrastructure at scale under long-term agreements([Bloomberg](https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers)). Macquarie and GIC will own the platform and fund the majority of equity. Anthropic pledged to pay 100% of grid-upgrade costs and cover consumer electricity price increases tied to its demand([Macquarie](https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.html)). This is Anthropic's fourth major infrastructure deal after SpaceX Colossus, Akamai, and TeraWulf — sharpening the IPO narrative around compute self-sufficiency.
 
-## Meta: Muse Glimmer 30B — Open-Weight Agent on a Single GPU
+## Claude Code: v2.1.227 + Auto Mode D-3
 
-Meta released Muse Glimmer, a 30-billion-parameter open-weight model under Apache 2.0([Bloomberg](https://www.bloomberg.com/news/articles/2026-08-10/meta-releases-muse-glimmer-ai-model-people-can-run-on-their-laptop)). It runs on a single consumer GPU at under 20GB quantized, with 131K context and 100+ language support([Meta AI Research](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model)). Designed for local agentic tasks: coding, function calling, and LLM-as-judge. CEO Zuckerberg published a 14-page essay arguing for distributed, open AI development([CNBC](https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html)).
+Claude Code v2.1.227 shipped today. Vim mode's yank register now survives dialogs, history search, and transcript views. Tool search was re-enabled on Google Vertex AI, and dynamic workflows default to medium size (under 15 agents)([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Three days remain until auto mode becomes the default permission mode on August 14.
 
-## ChatGPT: Restaurant Reservations + Voice File Uploads
+## OpenAI: GPT-5-Codex-Mini + GPT-5.4 Sunset Warning
 
-ChatGPT now supports restaurant reservations through OpenTable, Resy, and Yelp across all plans([OpenAI](https://openai.com/products/release-notes/)). Separately, GPT-Live Voice gained file upload support and Projects integration, enabling document analysis during voice conversations. OpenAI also expanded its Daybreak initiative with two tiers: Blue (GPT-5.6 Sol with cyber guardrails removed) and Red (access to GPT-5.6-Cyber, a purpose-trained model)([techstartups.com](https://techstartups.com/2026/08/10/top-tech-news-today-august-10-2026-apple-google-meta-openai-unitree-more/)).
+OpenAI added GPT-5-Codex-Mini to Codex CLI and the IDE Extension — a smaller, more cost-effective version of GPT-5-Codex offering up to 4x more usage per ChatGPT subscription([OpenAI Codex Changelog](https://developers.openai.com/codex/changelog)). Meanwhile, GPT-5.4 and GPT-5.4 mini will be removed from Codex for ChatGPT-authenticated users on August 31. Users should migrate saved configs to gpt-5.6-luna([OpenAI Help](https://help.openai.com/en/articles/9624314-model-release-notes)).
 
-## Devin Desktop: Conversation Sharing + Customizations Panel
+## Meta: Muse Glimmer 30B Gaining Traction
 
-Devin Desktop shipped safer restart confirmations when local agents are active, renamed "Plugins" to "Extensions," and added codemap support from remote machines([Releasebot](https://releasebot.io/updates/windsurf)). Devin Local gained a conversation sharing feature with sanitized transcripts (system prompts dropped, secrets redacted), mid-turn reverting, and a new Customizations panel with a Subagents section.
-
-## GitHub: Actions/Pages Outage + Auto Mode Transparency
-
-GitHub Actions and Pages experienced roughly 20 hours of degraded availability on August 6-7([BigGo Finance](https://finance.biggo.com/news/51fece48-5b5c-4241-9292-3a19f12b6024)). AI-driven load combined with the ongoing Azure migration is cited as the cause. In the Copilot weekly release, Auto mode now shows which model handled each request along with AI credit and cache details, and /side enables parallel questions([GitHub Blog](https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3/)).
+Yesterday's Muse Glimmer 30B release is spreading rapidly through the open-source community. Under 20GB quantized on a single consumer GPU, 131K context, Apache 2.0 — the combination is reinforcing the local AI agent trend following Ollama's $65M Series B([Meta AI Research](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | Auto mode default Aug 14 announced, v2.1.227 |
-| ChatGPT | 99 | — | Restaurant reservations, Daybreak expansion, legacy cleanup |
+| Claude Code | 99 | — | Theseus JV + auto mode D-3, v2.1.227 |
+| ChatGPT | 99 | — | GPT-5-Codex-Mini added, GPT-5.4 sunset countdown |
 | Antigravity | 99 | — | Holding at ceiling |
 | Claude AI | 99 | — | 50% usage boost extended through Aug 19 |
 | Codex CLI | 99 | — | v0.147.0 plugin ecosystem, at ceiling |
-| Cursor | 97 | — | Router Auto Intelligence holding, no new release |
-| Windsurf | 85 | — | Devin Desktop conversation sharing added |
+| Cursor | 97 | — | SpaceX $60B buyout may close next week |
+| Windsurf | 85 | — | Devin Desktop stable |
 | Aider | 68 | — | No releases since Aug 2025 |
-| Copilot | 1 | — | 91-week decline, Actions outage, D-21 |
+| Copilot | 1 | — | 91-week decline, Sept 1 mass deprecation D-21 |
 | Gemini CLI | 1 | — | Shutdown Day 54, Antigravity full replacement |
 
-Claude Code's auto mode default is a watershed moment in the "human oversight vs automation efficiency" debate for AI coding tools. Anthropic's data — a 6.5x higher catch rate from the classifier than from humans — is compelling, but community reaction is split. Meta's Muse Glimmer 30B pushes the "local AI agent" trend another step forward — following Ollama's $65M raise and DeepSeek's price hike warning, local execution demand is becoming structurally entrenched.
+The SpaceX-Cursor acquisition closing and Anthropic's Theseus JV landing on the same day is a signal: the AI coding tool market is transitioning from an "independent startup era" to a "mega-infrastructure bloc competition." OpenAI's GPT-5-Codex-Mini throws a new card into the cost-efficiency race, while Meta's open-weight agent further entrenches the local execution camp.

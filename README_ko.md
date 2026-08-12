@@ -1146,6 +1146,16 @@ timeline
          : Copilot 주간 릴리스 — Auto 모드 모델 표시, 세션 내비게이션, /side 병렬 질문 (8/7)
          : Copilot 91주 하락, 바닥(1) — 9/1 대폐기 D-21 (8/11)
          : Gemini CLI 폐쇄 54일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/11)
+         : ChatGPT Linux 데스크톱 앱 프리뷰 — Codex 전 데스크톱 OS 달성, Ubuntu/Debian/Fedora (8/11)
+         : Copilot 메모리 + Ollama JetBrains 추가 — 세션 간 지속 컨텍스트, 로컬 모델 BYOK (8/11)
+         : MAI-Code-1.1-Flash GitHub Copilot 배포 — 73% 저렴, 네이티브 비전, 0.25x 프리미엄 배율 (8/11)
+         : Anthropic 투명 텍스트 워터마크 — EU AI Act Article 50(2), 전 Claude 모델, 인터넷 반발 (8/11)
+         : GitHub Spark 지원 종료 — 8/4 신규 차단, 8/31 완전 폐쇄 (8/4)
+         : Claude Code v2.1.228 — Remote Control 데이터 유출 수정, 리드로잉 수정, Windows Git 감지 (8/12)
+         : Cognition AI $400억+ 밸류에이션 협상 — ARR $10억 근접, 3개월 전 $260억 대비 53% 상승 (8/12)
+         : Windsurf 86 상승 — Cognition $400억 밸류에이션, ARR $10억 궤도 (8/12)
+         : Copilot 92주 하락, 바닥(1) — 9/1 대폐기 D-20 (8/12)
+         : Gemini CLI 폐쇄 55일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/12)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2205,7 +2215,7 @@ xychart-beta
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
-    line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
+    line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 86]
     line "Codex CLI" [93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2216,7 +2226,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
@@ -2739,6 +2749,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
 | 2026/08/12 | **Claude Code v2.1.228** — 드문 레이아웃 오류 후 인터랙티브 세션 리드로잉 중단 수정; Windows에서 상위 폴더 실행 시 Git 미발견 수정; /model 변경 후 /tui 이전 모델 회귀 수정; 크로스 세션 메시징 초기화 수정; Remote Control /resume 세션 간 대화 데이터 유출 수정; 동기화 스킬이 로컬 명령 덮어쓰기 방지 강화 | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.228) |
+| 2026/08/11 | **Anthropic 투명 텍스트 워터마크** — EU AI Act Article 50(2) 준수; 8/2부터 신규 Claude 모델 텍스트에 투명 워터마크 내장, 복사-붙여넣기 후에도 유지; 과도한 편집 시 소실 가능; 전 세계 적용; 인터넷 반발 상당 | [forbes.com](https://www.forbes.com/sites/maryroeloffs/2026/08/11/claude-will-put-invisible-watermarks-on-ai-text-and-images-and-the-internet-isnt-happy/) |
 | 2026/08/11 | **Anthropic Theseus Infrastructure JV** — Macquarie Asset Management·GIC와 파트너십, AI 전용 데이터센터 인프라 대규모 구축; 미국 우선, 장기 리스; Anthropic이 전력망 업그레이드 비용 100% 부담 및 소비자 전기 가격 상승분 보전 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers) |
 | 2026/08/11 | **Claude Code v2.1.227** — 만료 로그인 토큰 시 구독 티어 없이 피처 플래그 평가 수정, claude-code-action Bash 명령 실행 수정, /tui 되감기 동작 수정, 슬래시 명령 메뉴 개선, 이벤트 루프 지연 감소; Vim 모드 yank 레지스터 다이얼로그 생존; Vertex AI 도구 검색 재활성화; 다이내믹 워크플로우 medium 크기 기본값 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/08/09 | **Claude Code auto 모드 8/14 기본 전환** — Pro·Max·Team 플랜 신규 세션에서 auto 모드가 기본 권한 모드; 안전 분류기가 유해 행동 89% 포착 vs 인간 리뷰 13.6%; 프롬프트 인젝션 스크리닝 + 커스텀 하드 디나이 규칙 추가; Enterprise/API/AWS/Bedrock는 "한 달 내" 후속 적용 | [techcrunch.com](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/) |
@@ -2858,6 +2869,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/11 | **ChatGPT Linux 데스크톱 앱** — Codex 프리뷰 포함; Ubuntu 24.04/26.04 LTS·Debian 13·Fedora 43/44; x64+ARM64; Codex 전 주요 데스크톱 OS 달성 (800만+ 사용자) | [techcrunch.com](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/) |
 | 2026/08/11 | **GPT-5-Codex-Mini** — GPT-5-Codex 소형 버전; ChatGPT 구독 대비 최대 4배 사용량; Codex CLI 및 IDE Extension 추가 | [developers.openai.com](https://developers.openai.com/codex/changelog) |
 | 2026/08/11 | **GPT-5.4/mini 8/31 Codex 퇴출** — ChatGPT 인증 사용자 대상 GPT-5.4·GPT-5.4 mini Codex에서 제거; API 키 접근은 유지; gpt-5.6-luna로 마이그레이션 | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
 | 2026/08/10 | **ChatGPT 레스토랑 예약** — OpenTable·Resy·Yelp을 통한 검색·예약; 모바일·웹·데스크톱 전 플랜 지원 | [openai.com](https://openai.com/products/release-notes/) |
@@ -2987,8 +2999,12 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/12 | **Cognition AI $400억+ 밸류에이션 협상** — ARR $10억 근접(이전 라운드 대비 2배), $10억+ 추가 유치 예상, 3개월 전 $260억 대비 53% 상승 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value) |
+| 2026/08/11 | **Copilot 메모리 + Ollama JetBrains** — 에이전트 세션 간 지속 메모리, Ollama BYOK 프로바이더, MCP 서버 수정, 엔터프라이즈 제어 | [github.blog](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/) |
+| 2026/08/11 | **MAI-Code-1.1-Flash Copilot 배포** — MAI-Code-1-Flash 대비 73% 저렴, 네이티브 비전, Terminal-Bench 22% 향상, 0.25x 프리미엄 배율; MAI-Code-1-Flash 9/10 퇴장 | [microsoft.ai](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/) |
 | 2026/08/10 | **Devin Desktop 업데이트** — 로컬 에이전트 활성 시 안전 재시작 확인, 설정·키보드 단축키 에디터 탭으로 열기, "Plugins"→"Extensions" 변경, 워크트리 터미널 생성, 원격 머신 코드맵; Devin Local 대화 공유 기능(시스템 프롬프트 삭제·시크릿 마스킹), 턴 중간 되돌리기, 커스터마이제이션 패널 | [releasebot.io](https://releasebot.io/updates/windsurf) |
 | 2026/08/08 | **Copilot 코드 리뷰 effort 레벨 GA** — lite/balanced 깊이 조절로 복잡도·리스크별 리뷰 심도 조정; Code Quality 자동 리뷰어 요청 중단 | [github.blog](https://github.blog/changelog/month/08-2026/) |
+| 2026/08/04 | **GitHub Spark 지원 종료** — 8/4부터 신규 사용자·앱 생성 차단; 8/31 완전 폐쇄; 기존 사용자 내보내기 가능; AI 모델 발전으로 Copilot 네이티브 경험으로 전환 | [github.blog](https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com/) |
 | 2026/08/08 | **Copilot Usage Metrics API** — Claude·Codex 등 통합 에이전트의 활동을 GitHub 워크플로우에서 추적 가능 | [github.blog](https://github.blog/changelog/month/08-2026/) |
 | 2026/08/07 | **Kimi K3 GitHub Copilot GA** — Moonshot AI 오픈웨이트 모델 Fireworks AI 호스팅, $3/$15/MTok, 프론티어급 에이전틱 코딩, Pro/Pro+/Max/Business/Enterprise; Business/Enterprise 관리자 활성화 필요 | [github.blog](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot/) |
 | 2026/08/07 | **Copilot CLI v1.0.79-6** — 세션 히스토리·타임라인 렌더링 수정, 실패 로드 재시도 및 보고, 장기 세션 재개 스크롤 수정 | [github.com](https://github.com/github/copilot-cli/releases) |

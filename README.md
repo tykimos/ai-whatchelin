@@ -1146,6 +1146,16 @@ timeline
          : Copilot weekly release — Auto mode shows model used per request, session navigation, /side parallel questions (Aug 7)
          : Copilot 91-week decline at floor (1) — Sept 1 mass deprecation D-21 (Aug 11)
          : Gemini CLI shutdown Day 54 — consumer access closed, Antigravity full replacement (Aug 11)
+         : ChatGPT Linux desktop app preview — Codex on all desktop OS, Ubuntu/Debian/Fedora (Aug 11)
+         : Copilot memory + Ollama in JetBrains — persistent context across sessions, local model BYOK (Aug 11)
+         : MAI-Code-1.1-Flash in GitHub Copilot — 73% cheaper, native vision, 0.25x premium multiplier (Aug 11)
+         : Anthropic invisible text watermarks — EU AI Act Article 50(2), all Claude models, internet backlash (Aug 11)
+         : GitHub Spark deprecated — no new users/apps Aug 4, full shutdown Aug 31 (Aug 4)
+         : Claude Code v2.1.228 — Remote Control data leak fix, redrawing fix, Windows Git detection (Aug 12)
+         : Cognition AI in talks at $40B+ valuation — ARR approaching $1B, doubled from $26B round 3 months ago (Aug 12)
+         : Windsurf rises to 86 — Cognition $40B valuation, ARR $1B trajectory (Aug 12)
+         : Copilot 92-week decline at floor (1) — Sept 1 mass deprecation D-20 (Aug 12)
+         : Gemini CLI shutdown Day 55 — consumer access closed, Antigravity full replacement (Aug 12)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2235,7 +2245,7 @@ xychart-beta
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
-    line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85]
+    line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 86]
     line "Codex CLI" [93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2246,7 +2256,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-97―-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-85―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
@@ -2780,6 +2790,7 @@ All pricing information has been directly verified from each service's official 
 | Date | Release | Source |
 |---|---|---|
 | 2026/08/12 | **Claude Code v2.1.228** — fixed interactive sessions that could stop redrawing entirely after rare layout errors; fixed Git not found on Windows when launched from parent folder; fixed /tui reverting to earlier model after /model change; fixed cross-session messaging initialization; fixed Remote Control /resume leaking conversation data between sessions; hardened synced skills against shadowing local commands | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.228) |
+| 2026/08/11 | **Anthropic invisible text watermarks** — EU AI Act Article 50(2) compliance; invisible watermarks embedded in Claude-generated text starting Aug 2 for new models, survives copy-paste; heavy editing can erase; applies globally; internet backlash significant | [forbes.com](https://www.forbes.com/sites/maryroeloffs/2026/08/11/claude-will-put-invisible-watermarks-on-ai-text-and-images-and-the-internet-isnt-happy/) |
 | 2026/08/11 | **Anthropic Theseus Infrastructure JV** — partnership with Macquarie Asset Management and GIC to develop dedicated AI data center infrastructure at scale; US-first, long-term leases; Anthropic pays 100% of grid-upgrade costs and covers consumer electricity price increases | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers) |
 | 2026/08/11 | **Claude Code v2.1.227** — fixed feature flag evaluation without subscription tier on expired login token, fixed Bash command execution in claude-code-action, fixed /tui rewind behavior, enhanced slash-command menu, reduced event-loop stalls; vim mode yank register survives dialogs; tool search re-enabled on Vertex AI; dynamic workflows default to medium size guideline | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/08/09 | **Claude Code auto mode becoming default Aug 14** — auto mode will be default permission mode for new sessions on Pro, Max, and Team plans; safety classifier catches 89% of harmful actions vs 13.6% by human review; prompt injection screening and customizable hard deny rules added; Enterprise/API/AWS/Bedrock to follow "within coming month" | [techcrunch.com](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/) |
@@ -2899,6 +2910,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/11 | **ChatGPT Linux desktop app** — preview with Codex support; Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44; x64+ARM64; Codex now on all major desktop OS (8M+ users) | [techcrunch.com](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/) |
 | 2026/08/11 | **GPT-5-Codex-Mini** — smaller, more cost-effective version of GPT-5-Codex; up to 4x more usage per ChatGPT subscription; added to Codex CLI and IDE Extension | [developers.openai.com](https://developers.openai.com/codex/changelog) |
 | 2026/08/11 | **GPT-5.4/mini leaving Codex Aug 31** — GPT-5.4 and GPT-5.4 mini removed from Codex for ChatGPT-authenticated users; API key access remains; migrate to gpt-5.6-luna | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
 | 2026/08/10 | **ChatGPT restaurant reservations** — search and book via OpenTable, Resy, and Yelp; available across all plans on mobile, web, and desktop | [openai.com](https://openai.com/products/release-notes/) |
@@ -3028,8 +3040,12 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/12 | **Cognition AI $40B+ valuation talks** — ARR approaching $1B (doubled from prior round), new funding round expected to raise $1B+, up from $26B valuation 3 months ago | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value) |
+| 2026/08/11 | **Copilot memory + Ollama in JetBrains** — persistent memory across agent sessions, Ollama as BYOK provider, MCP server fixes, enterprise controls | [github.blog](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/) |
+| 2026/08/11 | **MAI-Code-1.1-Flash in Copilot** — 73% cheaper than MAI-Code-1-Flash, native vision, 22% Terminal-Bench improvement, 0.25x premium multiplier; MAI-Code-1-Flash retires Sept 10 | [microsoft.ai](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/) |
 | 2026/08/10 | **Devin Desktop update** — safer restart confirmations when local agents active, Settings/Keyboard Shortcuts open as editor tabs, "Plugins" renamed to "Extensions", terminal creation in worktrees, codemaps from remote machines; Devin Local share conversation feature with sanitized transcripts, mid-turn reverting, new Customizations panel | [releasebot.io](https://releasebot.io/updates/windsurf) |
 | 2026/08/08 | **Copilot code review effort levels GA** — lite and balanced effort levels for adjusting review depth by complexity/risk; Code Quality no longer auto-requests Copilot as reviewer | [github.blog](https://github.blog/changelog/month/08-2026/) |
+| 2026/08/04 | **GitHub Spark deprecated** — no new users or app creation from Aug 4; full shutdown Aug 31; existing users can export; AI models advanced enough for Copilot-native experiences | [github.blog](https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com/) |
 | 2026/08/08 | **Copilot Usage Metrics API** — now tracks agent app activity from Claude, Codex, and other integrated agents in GitHub workflows | [github.blog](https://github.blog/changelog/month/08-2026/) |
 | 2026/08/07 | **Kimi K3 GA in GitHub Copilot** — Moonshot AI open-weight model hosted on Fireworks AI at $3/$15/MTok, frontier-level agentic coding, available across Pro/Pro+/Max/Business/Enterprise; Business/Enterprise admin opt-in required | [github.blog](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot/) |
 | 2026/08/07 | **Copilot CLI v1.0.79-6** — session history and timeline rendering fixes, failed loads retried and reported, long-session resume scroll fix | [github.com](https://github.com/github/copilot-cli/releases) |

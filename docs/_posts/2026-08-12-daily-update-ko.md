@@ -1,43 +1,43 @@
 ---
-title: "SpaceX-Cursor 인수 이번 주 마감 가능 — Claude Code auto 모드 D-2, v2.1.228 보안 패치"
+title: "Cognition AI $400억 밸류에이션 협상 돌입 — Devin 모회사 3개월 만에 53% 점프"
 date: 2026-08-12
 lang: ko
 categories: [news]
-tags: [cursor, spacex, claude-code, anthropic, copilot, devin-desktop]
-excerpt: "SpaceX의 $600억 Cursor 인수가 이번 주 중으로 마감될 수 있다는 보도가 나왔다. Claude Code는 auto 모드 기본 전환을 이틀 앞두고 v2.1.228을 배포해 Remote Control 보안 이슈를 패치했으며, GitHub Copilot은 9월 대폐기를 20일 앞두고 Kimi K3 통합에 집중하고 있다."
+tags: [cognition, devin, windsurf, claude-code, copilot, chatgpt, anthropic, cursor, spacex]
+excerpt: "Bloomberg 보도에 따르면 Cognition AI가 $400억 이상 밸류에이션으로 신규 펀딩 협상에 돌입했다. 3개월 전 $260억 라운드 대비 53% 상승이며, ARR이 $10억에 근접하면서 Devin/Windsurf 생태계의 위상이 급변하고 있다."
 ---
 
-SpaceX-Cursor $600억 인수가 최종 규제 승인만 남기고 빠르면 이번 주 마감될 수 있다. 8월 9일 내부 미팅에서 Cursor는 직원들에게 "빠르면 다음 주, 늦어도 8월 말"이라고 통보했으며([Seeking Alpha](https://seekingalpha.com/news/4629527-cursor-says-spacex-deal-could-be-done-by-end-of-next-week---report)), SpaceX(SPCX) 주가는 8월 10일 4.23% 상승했다([startuphub.ai](https://www.startuphub.ai/ai-news/ipo-watch/2026/spacex-cursor-acquisition-lockup-2026-08-10)). 인수 확정 시 Cursor 브랜드는 퇴장하고 후속 제품들은 Grok 이름을 채택할 가능성이 높다([PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/cursor-brand-name-may-not-survive-spacex-acquisition/)).
+Cognition AI가 $400억 이상 밸류에이션으로 신규 펀딩 라운드 협상에 들어갔다([Bloomberg](https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value)). 3개월 전 $10억을 유치하며 $260억 밸류에이션을 찍은 직후인데, 연간 반복 매출(ARR)이 $10억에 근접하며 이전 라운드 대비 약 2배로 뛰었다([TechCrunch](https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/)). Peter Thiel이 지원하는 이 회사는 $10억 이상을 추가로 유치할 것으로 예상되며, AI 코딩 에이전트 시장의 밸류에이션 기준을 다시 쓰고 있다([Seeking Alpha](https://seekingalpha.com/news/4631210-peter-thiel-backed-cognition-ai-in-talks-to-raise-funding-at-40b-valuation-report)).
 
-## Claude Code: v2.1.228 + auto 모드 D-2
+## ChatGPT: Linux 데스크톱 앱 출시 + Codex 전 플랫폼 달성
 
-Anthropic이 Claude Code v2.1.228을 배포했다([GitHub](https://github.com/anthropics/claude-code/releases/tag/v2.1.228)). 드문 레이아웃 오류 후 인터랙티브 세션이 리드로잉을 완전히 중단하는 버그를 수정했고, Windows에서 상위 폴더로부터 실행 시 Git을 찾지 못하는 문제를 해결했다. 가장 주목할 만한 수정은 Remote Control /resume이 연결된 세션 간에 대화 데이터를 유출하던 보안 이슈다. 8월 14일 auto 모드 기본 전환까지 이틀 남았으며, 안전 분류기의 89% 포착률(인간 리뷰 13.6% 대비)이 실전 검증될 시점이 코앞이다.
+OpenAI가 ChatGPT Linux 데스크톱 앱 프리뷰를 배포했다([TechCrunch](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/)). Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44를 지원하며 x64/ARM64 패키지를 제공한다. Codex가 800만 사용자를 달성한 가운데 macOS·Windows에 이어 Linux까지 커버함으로써 전 주요 데스크톱 OS 지원을 완성했다([The New Stack](https://thenewstack.io/openais-chatgpt-desktop-linux/)).
 
-## Claude AI: 음성 모드 전 모델 개방 + M365 쓰기 도구
+## GitHub Copilot: JetBrains에 메모리 + Ollama, MAI-Code-1.1-Flash 추가
 
-Claude AI의 음성 모드가 이제 Haiku, Sonnet, Opus 모든 모델에서 사용 가능하다(Fable은 아직 제외)([SlashGear](https://www.slashgear.com/2229323/claude-ai-voice-mode-update-model-choice/)). 기존에는 Haiku 전용이었던 제약이 풀렸다. 한편 Microsoft 365 커넥터에 쓰기 도구가 추가되어 이메일 작성·발송, 캘린더 이벤트 관리, OneDrive·SharePoint 파일 생성·업데이트가 가능해졌다([suprmind.ai](https://suprmind.ai/hub/claude/features/)).
+Copilot이 JetBrains IDE에 지속적 메모리와 Ollama 로컬 모델 접근을 추가했다([GitHub Blog](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/)). 세션 간 컨텍스트를 유지하며, BYOK 방식으로 로컬 모델을 사용할 수 있다. 같은 날 Microsoft의 MAI-Code-1.1-Flash가 Copilot 전 환경에 배포됐는데, 기존 MAI-Code-1-Flash 대비 73% 저렴하고 코드 품질과 비전 지원을 동시에 개선했다([Microsoft AI](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/)). 9/1 대폐기 D-20 카운트다운이 진행 중인 가운데, 기존 MAI-Code-1-Flash는 9/10 퇴장 예정이다.
 
-## Cursor: Router가 Fable급 품질을 68% 저렴하게 달성
+## Anthropic: Claude 텍스트 투명 워터마크 논란
 
-Cursor Router Auto Intelligence가 Fable급 이상의 사용자 만족도를 68% 낮은 비용으로 달성했다([Releasebot](https://releasebot.io/updates/cursor)). 출시 대비 추가 18% 비용 절감이며, Auto Balance는 Opus 4.8을 능가하면서 41% 비용을 줄였다. Opus 5가 라우팅 믹스에 추가됐다. Google Workspace Plugins(Gmail, Drive, Calendar)도 에이전트에서 직접 사용 가능하다.
+Anthropic이 8월 2일부터 신규 Claude 모델에 투명 워터마크를 내장하기 시작했다([Forbes](https://www.forbes.com/sites/maryroeloffs/2026/08/11/claude-will-put-invisible-watermarks-on-ai-text-and-images-and-the-internet-isnt-happy/)). EU AI Act Article 50(2) 준수를 위한 조치로, 텍스트의 의미·품질·가독성에 영향을 주지 않으면서 AI 생성 여부를 기계적으로 판별할 수 있다([Gizmodo](https://gizmodo.com/anthropics-claude-will-start-adding-invisible-watermarks-to-ai-generated-text-2000797759)). 단, 과도한 편집으로 워터마크가 소실될 수 있으며, "인터넷이 행복하지 않다"는 반응이 주류다([Fortune](https://fortune.com/2026/08/11/anthropic-claude-watermark-ai-text-police-ai-slop/)).
 
-## GitHub Copilot: 9/1 대폐기 D-20, Kimi K3 확대
+## SpaceX-Cursor: 이번 주 마감 가능성 + Grok 리브랜딩
 
-GitHub Copilot의 9월 1일 대규모 모델 폐기까지 20일이 남았다([GitHub Blog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). Claude Sonnet 4.6은 연간 개인 구독자만 유지된다. 한편 Moonshot AI의 오픈웨이트 모델 Kimi K3가 Copilot Pro/Pro+/Max/Business/Enterprise에 GA됐으며, $3/$15/MTok으로 프론티어 에이전틱 코딩 성능을 제공한다([GitHub Blog](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot/)).
+SpaceX의 $600억 Cursor 인수가 빠르면 이번 주 마감될 수 있다. Cursor는 8/9 내부 미팅에서 "빠르면 다음 주, 늦어도 8월 말"이라 통보했으며([Seeking Alpha](https://seekingalpha.com/news/4629527-cursor-says-spacex-deal-could-be-done-by-end-of-next-week---report)), 인수 확정 시 Cursor 브랜드는 퇴장하고 Grok 이름을 채택할 가능성이 높다([PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/cursor-brand-name-may-not-survive-spacex-acquisition/)).
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
 | Claude Code | 99 | — | v2.1.228 보안 패치, auto 모드 D-2 |
-| ChatGPT | 99 | — | GPT-5-Codex-Mini 확산, GPT-5.4 퇴장 D-19 |
+| ChatGPT | 99 | — | Linux 데스크톱 출시, 전 플랫폼 달성 |
 | Antigravity | 99 | — | 상한 유지 |
-| Claude AI | 99 | — | 음성 모드 전 모델 개방, M365 쓰기 도구 |
-| Codex CLI | 99 | — | v0.147.0 플러그인 생태계, 상한 유지 |
+| Claude AI | 99 | — | 텍스트 워터마크 논란, 음성 모드 전 모델 |
+| Codex CLI | 99 | — | Linux Codex 프리뷰, 상한 유지 |
 | Cursor | 97 | — | SpaceX 인수 이번 주 마감 가능 |
-| Windsurf | 85 | — | Devin Local 에디터 컨텍스트 인식 강화 |
+| Windsurf | 86 | ↑1 | Cognition $400억 밸류에이션, ARR $10억 근접 |
 | Aider | 68 | — | 2025년 8월 이후 릴리스 없음 |
-| Copilot | 1 | — | 92주 하락, 9/1 대폐기 D-20 |
+| Copilot | 1 | — | 92주 하락, 메모리+Ollama+MAI-Code-1.1-Flash |
 | Gemini CLI | 1 | — | 폐쇄 55일째, Antigravity 완전 대체 |
 
-SpaceX-Cursor 인수가 초읽기에 들어가면서 AI 코딩 도구 시장의 '빅테크 통합' 흐름이 가속화되고 있다. Claude Code는 auto 모드 전환을 앞두고 마지막 안정화 패치에 집중하고 있으며, GitHub Copilot은 대폐기 전 Kimi K3라는 새 모델 카드를 꺼내들었다.
+Cognition AI의 $400억 밸류에이션 협상은 AI 코딩 에이전트 시장이 "인프라"에서 "플랫폼"으로 진화하고 있음을 보여준다. Windsurf/Devin 생태계가 ARR $10억 궤도에 올라서면서, SpaceX-Cursor $600억과 함께 AI 코딩 도구 빅딜의 시대가 본격화되고 있다.

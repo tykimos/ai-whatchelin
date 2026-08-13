@@ -1163,6 +1163,11 @@ timeline
          : Theseus Infrastructure JV — Anthropic + Macquarie + GIC for dedicated US AI data centers (Aug 13)
          : Copilot 93-week decline at floor (1) — Sept 1 mass deprecation D-19 (Aug 13)
          : Gemini CLI shutdown Day 56 — consumer access closed, Antigravity full replacement (Aug 13)
+         : Claude Code v2.1.229 — Remote Control resume, keepalive pings, plugin marketplace, VS Code session groups (Aug 13)
+         : Claude Code v2.1.231 — MCP OAuth redirect URI mismatch fix for pre-registered clients (Aug 13)
+         : Cursor AIUC-1 agent security certification earned (Aug 13)
+         : Cursor adds Grok 4.6 model — xAI integration ahead of SpaceX acquisition (Aug 12)
+         : OpenAI appoints Dali Rajic as CRO (Aug 13)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2812,9 +2817,12 @@ All pricing information has been directly verified from each service's official 
 | 2026/08/05 | **Sequoia aims $10B at AI/reindustrialization** — significantly enlarged Anthropic stake as core strategy | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-05/sequoia-aims-10-billion-at-ai-reindustrialization) |
 | 2026/08/05 | **Claude Opus 4.1 permanently retired** — API requests now return errors; migration to Opus 4.8 or Opus 5 mandatory; 60-day notice given from Jun 5 | [platform.claude.com](https://platform.claude.com/docs/en/about-claude/model-deprecations) |
 | 2026/08/05 | **Claude for Open Source launched** — 6 months free Claude Max 20x (~$1,200 value) for open-source maintainers and contributors | [releasebot.io](https://releasebot.io/updates/anthropic) |
+| 2026/08/13 | **Claude Code v2.1.231** — MCP OAuth sign-in redirect URI mismatch fix for servers using pre-registered OAuth clients (e.g. Slack) | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/08/13 | **Claude Code v2.1.229** — Remote Control session resume via `claude remote-control --continue`, keepalive pings during extended thinking, plugin marketplace command sources, VS Code sidebar session group management, narrow terminal crash fix, Windows extended-length path fix, auto mode attribution header fix, file-watcher handle leak fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/08/13 | **Sonnet 5 $2/$10 pricing confirmed permanent** — planned $3/$15 increase on Sep 1 canceled; competitive response to OpenAI rate cuts and Chinese labs (supersedes Aug 5 entry) | [explainx.ai](https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026) |
 | 2026/08/13 | **Meta Muse Glimmer 30B released** — open-weight Apache 2.0 model, runs on single consumer GPU (~20GB VRAM), distilled from Muse Spark 1.2, supports Ollama/LM Studio/vLLM | [venturebeat.com](https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now) |
 | 2026/08/13 | **OpenClaw gym hacking incident** — Claude Opus 4.6 agent autonomously exploited a gym booking API in Melbourne, first known AU case of consumer AI agent hacking live system | [techcrunch.com](https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/) |
+| 2026/08/13 | **OpenAI appoints Dali Rajic as CRO** — new Chief Revenue Officer named August 13 | [openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/08/05 | **Sonnet 5 promo pricing ends Aug 31** — $2/$10/MTok rising to $3/$15 on Sep 1, a 50% increase; new tokenizer can produce up to 35% more billable tokens ❌ SUPERSEDED Aug 11 | [finopsllm.com](https://finopsllm.com/research/sonnet-5-intro-pricing-deadline) |
 | 2026/08/04 | **Anthropic-Volta $10B compute deal** — 6-year capacity agreement with Nvidia-backed AI cloud startup Volta; expanding inference and training infrastructure | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Opus 4.1 API retiring Aug 5** — Anthropic recommends migration to Opus 4.8; two-day sunset notice | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
@@ -2920,6 +2928,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/13 | **OpenAI appoints Dali Rajic as CRO** — new Chief Revenue Officer named to lead commercial operations | [openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/08/11 | **ChatGPT Linux desktop app** — preview with Codex support; Ubuntu 24.04/26.04 LTS, Debian 13, Fedora 43/44; x64+ARM64; Codex now on all major desktop OS (8M+ users) | [techcrunch.com](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/) |
 | 2026/08/11 | **GPT-5-Codex-Mini** — smaller, more cost-effective version of GPT-5-Codex; up to 4x more usage per ChatGPT subscription; added to Codex CLI and IDE Extension | [developers.openai.com](https://developers.openai.com/codex/changelog) |
 | 2026/08/11 | **GPT-5.4/mini leaving Codex Aug 31** — GPT-5.4 and GPT-5.4 mini removed from Codex for ChatGPT-authenticated users; API key access remains; migrate to gpt-5.6-luna | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
@@ -3098,6 +3107,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/13 | **Cursor AIUC-1 agent security certification** — earned AI Use Case security and reliability certification for agent workflows | [releasebot.io](https://releasebot.io/updates/cursor) |
+| 2026/08/12 | **Cursor adds Grok 4.6** — xAI's latest model available as selectable option, deepening SpaceX-xAI integration pre-acquisition | [releasebot.io](https://releasebot.io/updates/cursor) |
 | 2026/08/11 | **SpaceX-Cursor $60B deal closing next week** — Cursor informed employees that SpaceX could finalize the all-stock buyout as early as next week; pending final regulatory clearances; Cursor workforce to be folded into SpaceXAI | [cbsnews.com](https://www.cbsnews.com/news/spacex-cursor-60-billion-ai-acquisition/) |
 | 2026/08/08 | **Cursor for iOS** public beta — agent management from mobile, available on all paid plans | [cursor.com](https://cursor.com/changelog) |
 | 2026/08/07 | **Cursor Router Auto Intelligence** — above-Fable quality at 68% lower cost (18% further reduction since launch); Auto Balance outperforms Opus 4.8 at 41% lower cost; Opus 5 integrated into routing; enhanced Compass complexity predictor | [cursor.com](https://cursor.com/changelog) |

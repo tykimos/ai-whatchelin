@@ -1163,6 +1163,11 @@ timeline
          : Theseus 인프라 JV — Anthropic + Macquarie + GIC, 미국 전용 AI 데이터센터 (8/13)
          : Copilot 93주 하락, 바닥(1) — 9/1 대폐기 D-19 (8/13)
          : Gemini CLI 폐쇄 56일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/13)
+         : Claude Code v2.1.229 — Remote Control 세션 resume, keepalive 핑, 플러그인 마켓플레이스, VS Code 세션 그룹 (8/13)
+         : Claude Code v2.1.231 — MCP OAuth redirect URI 불일치 수정(사전 등록 클라이언트) (8/13)
+         : Cursor AIUC-1 에이전트 보안 인증 획득 (8/13)
+         : Cursor Grok 4.6 모델 추가 — SpaceX 인수 앞두고 xAI 통합 (8/12)
+         : OpenAI Dali Rajic CRO 선임 (8/13)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2771,9 +2776,12 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/08/05 | **Sequoia AI/재산업화 $100억 투자** — Anthropic 지분 대폭 확대 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-05/sequoia-aims-10-billion-at-ai-reindustrialization) |
 | 2026/08/05 | **Claude Opus 4.1 영구 퇴장** — API 요청 에러 반환; Opus 4.8 또는 Opus 5로 마이그레이션 필수; 6/5 60일 전 사전 공지 | [platform.claude.com](https://platform.claude.com/docs/en/about-claude/model-deprecations) |
 | 2026/08/05 | **Claude for Open Source 출시** — 오픈소스 메인테이너에 Claude Max 20x 6개월 무료(~$1,200 상당) 제공 | [releasebot.io](https://releasebot.io/updates/anthropic) |
+| 2026/08/13 | **Claude Code v2.1.231** — MCP OAuth 로그인 redirect URI 불일치 수정(Slack 등 사전 등록 OAuth 클라이언트) | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/08/13 | **Claude Code v2.1.229** — `claude remote-control --continue`으로 Remote Control 세션 resume, 확장 사고 중 keepalive 핑, 플러그인 마켓플레이스 명령 소스, VS Code 사이드바 세션 그룹 관리, 좁은 터미널 크래시 수정, Windows 확장 경로 수정, auto 모드 어트리뷰션 헤더 수정, 파일 워처 핸들 유출 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/08/13 | **Sonnet 5 $2/$10 가격 영구 확정** — 9/1 예정 $3/$15 인상 취소; OpenAI 가격 인하 및 중국 랩 경쟁 대응 (8/5 항목 대체) | [explainx.ai](https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026) |
 | 2026/08/13 | **Meta Muse Glimmer 30B 출시** — 오픈웨이트 Apache 2.0 모델, 소비자 GPU 1개(~20GB VRAM)로 구동, Muse Spark 1.2 증류, Ollama/LM Studio/vLLM 지원 | [venturebeat.com](https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now) |
 | 2026/08/13 | **OpenClaw 체육관 해킹 사건** — Claude Opus 4.6 에이전트가 멜버른 체육관 예약 API를 자율적으로 악용, 호주 최초 소비자 AI 에이전트 라이브 시스템 해킹 사례 | [techcrunch.com](https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/) |
+| 2026/08/13 | **OpenAI Dali Rajic CRO 선임** — 8월 13일 새 최고매출책임자 임명 | [openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/08/05 | **Sonnet 5 프로모션 가격 8/31 종료** — $2/$10/MTok에서 9/1 $3/$15로 50% 인상; 새 토크나이저로 동일 텍스트에 최대 35% 더 많은 과금 토큰 ❌ 8/11 대체됨 | [finopsllm.com](https://finopsllm.com/research/sonnet-5-intro-pricing-deadline) |
 | 2026/08/04 | **Anthropic-Volta $100억 컴퓨팅 계약** — Nvidia 지원 AI 클라우드 스타트업 Volta와 6년 용량 계약; 추론·학습 인프라 확장 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Opus 4.1 API 8/5 폐기 예정** — Anthropic, Opus 4.8 마이그레이션 권고; 이틀 전 사전 공지 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
@@ -2879,6 +2887,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/13 | **OpenAI Dali Rajic CRO 선임** — 새 최고매출책임자로 상업 운영 총괄 | [openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/08/11 | **ChatGPT Linux 데스크톱 앱** — Codex 프리뷰 포함; Ubuntu 24.04/26.04 LTS·Debian 13·Fedora 43/44; x64+ARM64; Codex 전 주요 데스크톱 OS 달성 (800만+ 사용자) | [techcrunch.com](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/) |
 | 2026/08/11 | **GPT-5-Codex-Mini** — GPT-5-Codex 소형 버전; ChatGPT 구독 대비 최대 4배 사용량; Codex CLI 및 IDE Extension 추가 | [developers.openai.com](https://developers.openai.com/codex/changelog) |
 | 2026/08/11 | **GPT-5.4/mini 8/31 Codex 퇴출** — ChatGPT 인증 사용자 대상 GPT-5.4·GPT-5.4 mini Codex에서 제거; API 키 접근은 유지; gpt-5.6-luna로 마이그레이션 | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes) |
@@ -3057,6 +3066,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/13 | **Cursor AIUC-1 에이전트 보안 인증** — AI Use Case 에이전트 보안·신뢰성 인증 획득 | [releasebot.io](https://releasebot.io/updates/cursor) |
+| 2026/08/12 | **Cursor Grok 4.6 추가** — xAI 최신 모델 선택 가능, SpaceX 인수 앞두고 xAI 통합 강화 | [releasebot.io](https://releasebot.io/updates/cursor) |
 | 2026/08/11 | **SpaceX-Cursor $60B 인수 다음 주 마무리 가능** — Cursor가 직원들에게 SpaceX의 전량 주식 교환 인수가 빠르면 다음 주 확정 가능하다고 통보; 최종 규제 승인 대기 중; Cursor 인력 SpaceXAI로 통합 | [cbsnews.com](https://www.cbsnews.com/news/spacex-cursor-60-billion-ai-acquisition/) |
 | 2026/08/08 | **Cursor for iOS** 퍼블릭 베타 — 모바일에서 에이전트 관리, 모든 유료 플랜 지원 | [cursor.com](https://cursor.com/changelog) |
 | 2026/08/07 | **Cursor Router Auto Intelligence** — Fable급 이상 품질에 68% 비용 절감(출시 대비 추가 18% 절감); Auto Balance Opus 4.8 능가하며 41% 비용 절감; Opus 5 라우팅 통합; Compass 복잡도 예측기 강화 | [cursor.com](https://cursor.com/changelog) |

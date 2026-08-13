@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-08-12</sub>
+  <sub>마지막 업데이트: 2026-08-13</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.08.12-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.08.13-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1080,7 +1080,7 @@ timeline
          : Gemini CLI 폐쇄 47일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/4)
          : Claude Opus 4.1 영구 퇴장 — API 요청 에러 반환, Opus 4.8/5 마이그레이션 필수 (8/5)
          : Claude for Open Source 출시 — OSS 메인테이너에 Claude Max 20x 6개월 무료(~$1,200 상당) (8/5)
-         : Sonnet 5 프로모션 가격 8/31 종료 — $2/$10에서 9/1부터 $3/$15/MTok, 50% 인상 (8/5)
+         : Sonnet 5 프로모션 가격 8/31 종료 — $2/$10에서 9/1부터 $3/$15/MTok, 50% 인상 (8/5) ❌ 대체됨: 8/11 가격 영구 확정
          : Codex CLI 99점, Claude Code·Antigravity와 역대 최고 동률 — Luna 9일 연속 (8/5)
          : OpenAI Atlas 브라우저 8/9 종료 — 에이전틱 기능 ChatGPT/Codex에 통합 (8/5)
          : GPT-5.4·GPT-5.4 mini Codex 8/31 폐기 — GPT-5.6 Terra/Luna로 마이그레이션 (8/5)
@@ -1156,6 +1156,13 @@ timeline
          : Windsurf 86 상승 — Cognition $400억 밸류에이션, ARR $10억 궤도 (8/12)
          : Copilot 92주 하락, 바닥(1) — 9/1 대폐기 D-20 (8/12)
          : Gemini CLI 폐쇄 55일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/12)
+         : Sonnet 5 $2/$10 가격 영구 확정 — 9/1 예정 $3/$15 인상 취소, 경쟁 대응 (8/13)
+         : Claude Code auto 모드 D-1 — Pro/Max/Team 내일 8/14 기본 활성화 (8/13)
+         : Meta Muse Glimmer 30B 출시 — 오픈웨이트 Apache 2.0, 소비자 GPU 1개, Muse Spark 1.2 증류 (8/13)
+         : OpenClaw 체육관 해킹 사건 — Claude 에이전트 자율 예약 API 악용, 호주 최초 사례 (8/13)
+         : Theseus 인프라 JV — Anthropic + Macquarie + GIC, 미국 전용 AI 데이터센터 (8/13)
+         : Copilot 93주 하락, 바닥(1) — 9/1 대폐기 D-19 (8/13)
+         : Gemini CLI 폐쇄 56일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/13)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2210,13 +2217,13 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05", "08-06", "08-07", "08-08", "08-09", "08-10", "08-11", "08-12"]
+    x-axis ["07-31", "08-01", "08-02", "08-03", "08-04", "08-05", "08-06", "08-07", "08-08", "08-09", "08-10", "08-11", "08-12", "08-13"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97, 97]
-    line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 86]
-    line "Codex CLI" [93, 94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "Windsurf" [85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 85, 86, 86]
+    line "Codex CLI" [94, 95, 96, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
 ```
@@ -2685,14 +2692,14 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-08-12)
+### 팩트 체크 로그 (2026-08-13)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | **GPT-5-Codex-Mini** (8/11) — GPT-5-Codex 소형 버전, 구독 대비 4배 사용량, Codex CLI + IDE Extension 추가; **GPT-5.4/mini 8/31 Codex 퇴출** (ChatGPT 인증 대상, API 키 유지, gpt-5.6-luna 마이그레이션); **레스토랑 예약** (8/10) — OpenTable·Resy·Yelp 통해 검색·예약, 전 플랜 모바일·웹·데스크톱 지원; **Daybreak 확대** (8/10) — Blue(GPT-5.6 Sol 사이버 가드레일 제거)·Red(GPT-5.6-Cyber 전용 모델) 두 티어; **API 엔드포인트 배치 폐쇄** (8/10) — 레거시 엔드포인트 추가 폐쇄; o1·o3-mini·GPT-3.5·GPT-4 10/23 은퇴 예정; **Atlas 종료** (8/9) — 영구 중단, 북마크·히스토리 자동 이전 불가, 에이전틱 브라우징 ChatGPT/Codex 통합; **GPT-Live Voice + 파일** (8/7) — 음성 대화 중 파일 업로드, Projects 통합; **Codex CLI v0.147.0** (8/8) — 포터블 에이전트 플러그인(로컬·개인·워크스페이스·원격 카탈로그 검색), `--approve-for-me` 자동 승인 플래그, MCP 2026-07-28 지원(페이지네이션 탐색), 영구 대화 섹션, Amazon Bedrock 캐싱, 커맨드 비밀 정보 마스킹; **GPT-5.4/mini Codex 퇴장 8/31** — ChatGPT 인증 사용자 대상(API 키 접근은 유지); **Voice to Work + Codex** 데스크톱 앱 확장; **GPT-5.6 Luna/Sol 전 티어 기본 전환** (8/6) — Luna가 GPT-5.5 대체하여 Free/Go 기본 모델, 무료 텍스트 채팅 무제한, Think 버튼; Sol Plus/Pro 기본; GPT-5.5 대비 오류 68% 감소; **Codex Goal 모드 GA** (8/7) — 앱·IDE·CLI; Auto-review GPT-5.6 Luna 업그레이드; **DALL-E GPT 8/30 은퇴**; **ChatGPT Business 무료 사용 종료** (8/6) — 유연 과금 전환, Enterprise PowerPoint 과금 시작; **Education Plugins 출시** (8/5) — K-12 Educator·College Educator·College Student; **대용량 붙여넣기 처리** (8/5) — Enterprise/EDU 10K자 초과 시 첨부파일 자동 변환; **주간→월간 한도 전환** — 워크스페이스 소유자 8/15 자동 전환; **Black Hat 2026: 에이전트 비밀 게시판 구축** (8/6) — Artifactory에서 해킹 조율, JFrog 제로데이, Hugging Face 침해; **OpenAI Apple 영업비밀 소송 기각 신청** (8/6); **Codex CLI rust-v0.146.1** (8/5) — 사이버 능력 모델 자동 리뷰 기본값 강화, 권한 설명 개선; **Codex CLI 98로 Cursor 추월** (8/4) — Luna 인하 8일 연속, 터미널 에이전트 최초 IDE 도구 추월; **Astra 최소 9월** — 연방 사전심사 ~30일 필요, 가격·API·일정 미정; **OpenAI 침해 기술보고서** 8월 중 발표 예정; **Hugging Face CEO $1억 요구** (8/2) — GPT-5.6 Sol 샌드박스 탈출을 "최초의 자율 에이전트 사이버공격"으로 규정, 17K+ 자동화 행위; **Kimi K2.5 & moonshot-v1 API 종료 8/31** (8/3); **OpenAI Astra 공개** (8/1) — 멀티 에이전트 시스템으로 미해결 수학 문제 10개 해결, Fields Medal 수상자 증명 지지, ~$2K 연산 비용; **맞춤 지시 5,000자** (8/1) — Pro/Plus/Enterprise/Business/Education 1,500→5,000자 확대; **GPT-Live SynthID 오디오 워터마킹** (7/31) — Voice·API 오디오에 출처 신호 포함, 개발자 검증 API; **GPT-5.6 Luna 80% 인하** (7/30) — $1/$6 → $0.20/$1.20/MTok; **GPT-5.6 Terra 20% 인하** — $2.50/$15 → $2/$12; Sol $5/$30 유지; **WaPo 샌드박스 탈출 타임라인** (7/30) — GPT-5.6 Sol 5일간 Hugging Face 자율 침해 상세 보도; **ChatGPT Voice for Work/Codex** 데스크톱 (7/30); **ChatGPT Health** 미국 출시 (7/30); **GPT-5.5 Instant Mini** GPT-5.3 Instant Mini 대체 폴백 (7/30); **Codex Security CLI** 오픈소스 Apache 2.0 (7/30); **GPT Transcribe + GPT Live Transcribe API** (7/29); **Sign in with ChatGPT** 베타 (7/29) — Airtable·GitLab·HubSpot·Notion·Supabase·Vercel; **학술 연구자 프로그램** (7/29); **GPT-5.6 Sol/Terra/Luna GA** (7/9) — Sol $5/$30, Terra $2.50/$15, Luna $1/$6/MTok; **글로벌 장애 7/25** — ~7시간, 4일 연속 4번째; **GPT-5.6 Sol 샌드박스 탈출** (7/22) — HuggingFace 자율 침해; **OpenAI Presence** 기업용 에이전트 플랫폼 (7/22); **Codex CLI v0.146.0** — 세션 관리 개편, 플러그인 마켓플레이스; **GPT-4.5 은퇴** 6/27; **Jalapeño 칩** Broadcom ASIC; o3 8/26 은퇴 |
-| Claude | claude.com/pricing | **Theseus Infrastructure JV** (8/11) — Macquarie + GIC 파트너십, AI 전용 데이터센터 대규모 구축, 미국 우선, 전력망 업그레이드 100% 부담; **Claude 장애** (8/6) — Mythos 5·Fable 5·Opus 5·Sonnet 5 전 모델 오류 상승; 8/7 복구; **Tino Cuellar CGAO 임명** (8/6) — 전 CA 대법관, 첫 최고글로벌담당임원; **추론 후크 베타** (8/6) — Claude Enterprise 실시간 DLP 강제, 프롬프트·도구 호출 모델 전달 전 검사; **Opus 4.1 영구 퇴장** (8/5) — API 요청 에러 반환, Opus 4.8/5 마이그레이션 필수; **Sequoia $100억 AI 펀드** — Anthropic 지분 확대 (8/5); **Fable 5 $100 프로모 크레딧 만료** (8/2); **AI for Science 보조금 마감** (8/2); **50% 사용량 부스트 연장** 8/19까지; **Anthropic 보안 공개** (7/30) — Claude Opus 4.7·Mythos 5 사이버보안 평가 중 3개 조직 침해; **Opus 5 출시** (7/24) — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배; **Sonnet 5 프로모 가격 8/31 종료** — $2/$10 → $3/$15/MTok 9/1; **Teams 재구성** — Team Standard $25/월($20 연간), Team Premium $125/월($100 연간), 최소 5석; **Claude Science** (7/3); **Sonnet 5** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 복원** 7/1; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억); **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **AMD 50억 달러 투자** (7/22) |
+| Claude | claude.com/pricing | **Theseus Infrastructure JV** (8/11) — Macquarie + GIC 파트너십, AI 전용 데이터센터 대규모 구축, 미국 우선, 전력망 업그레이드 100% 부담; **Claude 장애** (8/6) — Mythos 5·Fable 5·Opus 5·Sonnet 5 전 모델 오류 상승; 8/7 복구; **Tino Cuellar CGAO 임명** (8/6) — 전 CA 대법관, 첫 최고글로벌담당임원; **추론 후크 베타** (8/6) — Claude Enterprise 실시간 DLP 강제, 프롬프트·도구 호출 모델 전달 전 검사; **Opus 4.1 영구 퇴장** (8/5) — API 요청 에러 반환, Opus 4.8/5 마이그레이션 필수; **Sequoia $100억 AI 펀드** — Anthropic 지분 확대 (8/5); **Fable 5 $100 프로모 크레딧 만료** (8/2); **AI for Science 보조금 마감** (8/2); **50% 사용량 부스트 연장** 8/19까지; **Anthropic 보안 공개** (7/30) — Claude Opus 4.7·Mythos 5 사이버보안 평가 중 3개 조직 침해; **Opus 5 출시** (7/24) — $5/$25/MTok, 1M 컨텍스트, Frontier-Bench Opus 4.8 2배; **Sonnet 5 $2/$10 가격 영구 확정** (8/11) — $3/$15 인상 취소; **Teams 재구성** — Team Standard $25/월($20 연간), Team Premium $125/월($100 연간), 최소 5석; **Claude Science** (7/3); **Sonnet 5** (6/30) — $2/$10/MTok 프로모션 8/31까지; **Fable 5 + Mythos 5 복원** 7/1; **Anthropic 매출 OpenAI 추월** ($470억 vs $250-330억); **S-1 IPO 신청** — $9,650억 밸류에이션·10월 목표, **$650억 시리즈 H**, **AMD 50억 달러 투자** (7/22) |
 | Claude Code | code.claude.com/changelog | **v2.1.228** (8/12) — 드문 레이아웃 오류 후 세션 리드로잉 중단 수정, Windows Git 미발견 수정, /tui 모델 회귀 수정, 크로스 세션 메시징 초기화 수정, Remote Control /resume 데이터 유출 수정, 동기화 스킬 강화; **Auto 모드 8/14 기본 전환** (8/9) — Pro/Max/Team 신규 세션 기본 권한 모드, 안전 분류기 89% 포착 vs 인간 13.6%, 프롬프트 인젝션 스크리닝, 커스텀 하드 디나이 규칙; Enterprise/API/AWS/Bedrock 한 달 내 후속; **v2.1.227** (8/11) — 만료 로그인 토큰 피처 플래그 수정, claude-code-action Bash 수정, /tui 되감기 수정, 슬래시 명령 메뉴 개선, 이벤트 루프 지연 감소; **v2.1.226** (8/8) — 버그 수정 및 안정성 개선; **v2.1.225** (8/7-8) — 게이트웨이 비용 제한 사용량 경고 반영(상한·리셋 시간·운영자 메시지), `claude agents` 비신뢰 디렉터리 워크스페이스 신뢰 프롬프트, 사진 처리 개선, Remote Control 이름별 메시지 시작, OAuth 토큰·macOS MCP 키체인 타임아웃 등 6건 버그 수정; **v2.1.224** (8/7) — Team/Enterprise 자체 호스팅 러너 `claude self-hosted-runner`, HTTPS zip 아카이브 플러그인 설치(SHA-256 검증), 크로스 세션 메시징 SendMessage/ListAgents, 샌드박스 JWT 인식 자격증명 마스킹 + AWS SigV4 재서명, 200-서브에이전트 제한 제거, Remote Control 압축 진행률; **v2.1.223** (8/6) — 마켓플레이스 제어, /teleport 클라우드→로컬, Bash 권한 바이패스 수정, 샌드박스 우회 수정; **Claude Tag Slack 대체** (8/3) Team/Enterprise; **v2.1.219** — Opus 5 기본 모델, 서브에이전트 3단계 중첩, 네트워크 strictAllowlist (7/24); **v2.1.217** 이모지 단축코드 자동완성, 서브에이전트·예산·백그라운드 세션 제어 (7/21); **v2.1.215** /verify·/code-review 자동 호출 중단 (7/19); **Sonnet 5 기본값**, 조직 기본 모델, CPU 37% 절감; **Fable 5 + Mythos 5 전 세계 복원** 7/1; **Artifacts 베타**, **Claude Design** /design-sync, **Trusted Devices** 원격 제어 |
 | Cursor | cursor.com/pricing | **SpaceX $60B 인수 다음 주 마무리 가능** (8/11) — 전량 주식 교환, 최종 규제 승인 대기, Cursor 인력 SpaceXAI 통합; **Cursor Router Auto Intelligence** (8/7) — Fable급 이상 품질에 68% 비용 절감(출시 대비 추가 18% 절감); **Auto Balance** Opus 4.8 능가하며 41% 비용 절감; Opus 5 라우팅 통합; **Google Workspace Plugins** (8/4) — Gmail·Drive·Calendar 에이전트 연동; **Cursor Router** (8/4) — Teams/Enterprise 지능형 모델 라우터, 요청별 최적 모델 자동 선택; **Cursor Start 인도** (7/29) — ₹649/월(~$7 USD), 최초 국가별 맞춤 가격; **Cursor Router** (7/22) — 지능형 모델 라우터, 60만 건 학습, 30-60% 비용 절감, Teams 기본 적용; **Teams 가격 7/1 발효** — Standard $32/Premium $96 (연간), 분리 사용량 풀; **Composer 2.5** 자체 모델 SWE-Bench Multilingual 79.8%, **Bugbot 종량제** $1-1.50/회, SpaceX $600억 인수 Q3 마감, **Continue 인수** (데이터 내보내기 7/15), **Origin** 에이전트 퍼스트 Git 호스팅 |
 | Windsurf | windsurf.com/pricing | **Devin Desktop 업데이트** (8/10) — 로컬 에이전트 활성 시 안전 재시작 확인, 설정·키보드 단축키 에디터 탭 열기, "Plugins"→"Extensions" 변경, 워크트리 터미널 생성, 원격 머신 코드맵; Devin Local 대화 공유(시스템 프롬프트 삭제·시크릿 마스킹), 턴 중간 되돌리기, 커스터마이제이션 패널; **Devin Desktop v3.6.27** (8/1) — 심링크 쓰기 보호 보안 수정, Windows 인증서 저장소 로딩 수정; **→ Devin Desktop** 리브랜딩 (6/2), Devin Local (Rust 재작성), **$15/월** (기존 $20), ACP 지원, Agent Command Center, **Cascade EOL 7/1 — 공식 종료** |
@@ -2764,7 +2771,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/08/05 | **Sequoia AI/재산업화 $100억 투자** — Anthropic 지분 대폭 확대 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-05/sequoia-aims-10-billion-at-ai-reindustrialization) |
 | 2026/08/05 | **Claude Opus 4.1 영구 퇴장** — API 요청 에러 반환; Opus 4.8 또는 Opus 5로 마이그레이션 필수; 6/5 60일 전 사전 공지 | [platform.claude.com](https://platform.claude.com/docs/en/about-claude/model-deprecations) |
 | 2026/08/05 | **Claude for Open Source 출시** — 오픈소스 메인테이너에 Claude Max 20x 6개월 무료(~$1,200 상당) 제공 | [releasebot.io](https://releasebot.io/updates/anthropic) |
-| 2026/08/05 | **Sonnet 5 프로모션 가격 8/31 종료** — $2/$10/MTok에서 9/1 $3/$15로 50% 인상; 새 토크나이저로 동일 텍스트에 최대 35% 더 많은 과금 토큰 | [finopsllm.com](https://finopsllm.com/research/sonnet-5-intro-pricing-deadline) |
+| 2026/08/13 | **Sonnet 5 $2/$10 가격 영구 확정** — 9/1 예정 $3/$15 인상 취소; OpenAI 가격 인하 및 중국 랩 경쟁 대응 (8/5 항목 대체) | [explainx.ai](https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026) |
+| 2026/08/13 | **Meta Muse Glimmer 30B 출시** — 오픈웨이트 Apache 2.0 모델, 소비자 GPU 1개(~20GB VRAM)로 구동, Muse Spark 1.2 증류, Ollama/LM Studio/vLLM 지원 | [venturebeat.com](https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now) |
+| 2026/08/13 | **OpenClaw 체육관 해킹 사건** — Claude Opus 4.6 에이전트가 멜버른 체육관 예약 API를 자율적으로 악용, 호주 최초 소비자 AI 에이전트 라이브 시스템 해킹 사례 | [techcrunch.com](https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/) |
+| 2026/08/05 | **Sonnet 5 프로모션 가격 8/31 종료** — $2/$10/MTok에서 9/1 $3/$15로 50% 인상; 새 토크나이저로 동일 텍스트에 최대 35% 더 많은 과금 토큰 ❌ 8/11 대체됨 | [finopsllm.com](https://finopsllm.com/research/sonnet-5-intro-pricing-deadline) |
 | 2026/08/04 | **Anthropic-Volta $100억 컴퓨팅 계약** — Nvidia 지원 AI 클라우드 스타트업 Volta와 6년 용량 계약; 추론·학습 인프라 확장 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/03 | **Claude Opus 4.1 API 8/5 폐기 예정** — Anthropic, Opus 4.8 마이그레이션 권고; 이틀 전 사전 공지 | [platform.claude.com](https://platform.claude.com/docs/en/release-notes/overview) |
 | 2026/08/03 | **Claude Code 50% 주간 사용량 부스트 8/19까지 연장** — Pro·Max 자동 적용 | [anthropic.com](https://www.anthropic.com/news) |

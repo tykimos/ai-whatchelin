@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-08-13</sub>
+  <sub>마지막 업데이트: 2026-08-18</sub>
 </p>
 
 <p align="center">
@@ -2789,6 +2789,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/17 | **Claude Code v2.1.234** — 사용량 제한 초기화 시 자동 세션 연속, GitLab MR 뱃지, 자격증명 유출 방지, `selection:clear` 키바인딩, `CLAUDE_CODE_PROJECT_DIR_NAME` 환경변수; v2.1.233 런어웨이 빌드 방지 메모리 제한 추가 | [havoptic.com](https://www.havoptic.com/tools/claude-code) |
 | 2026/08/16 | **Claude 장애** — 21:58 UTC부터 claude.ai·Claude Code·Claude Cowork 인증 실패; 22:34 UTC 복구(~36분); 원인 미공개 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/) |
 | 2026/08/12 | **Claude Code v2.1.228** — 드문 레이아웃 오류 후 인터랙티브 세션 리드로잉 중단 수정; Windows에서 상위 폴더 실행 시 Git 미발견 수정; /model 변경 후 /tui 이전 모델 회귀 수정; 크로스 세션 메시징 초기화 수정; Remote Control /resume 세션 간 대화 데이터 유출 수정; 동기화 스킬이 로컬 명령 덮어쓰기 방지 강화 | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.228) |
 | 2026/08/11 | **Anthropic 투명 텍스트 워터마크** — EU AI Act Article 50(2) 준수; 8/2부터 신규 Claude 모델 텍스트에 투명 워터마크 내장, 복사-붙여넣기 후에도 유지; 과도한 편집 시 소실 가능; 전 세계 적용; 인터넷 반발 상당 | [forbes.com](https://www.forbes.com/sites/maryroeloffs/2026/08/11/claude-will-put-invisible-watermarks-on-ai-text-and-images-and-the-internet-isnt-happy/) |
@@ -3012,6 +3013,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/16 | **Google 피크/오프피크 API 가격제** — 오프피크 시간 Gemini 모델 전체 50% 할인, 즉시 적용 | [aiagentsdirectory.com](https://aiagentsdirectory.com/news/ai-agents-news-brief-august-17-2026) |
+| 2026/08/13 | **Gemini 3.7 Flash 출시** — $0.75/$3.75/MTok 프로모(3.6 Flash 절반), DeepSWE 49.0%→65.3%; 표준 가격 $1.50/$7.50 2027년 1월; 3.6 Flash 출시 23일 만에 후속 | [9to5google.com](https://9to5google.com/2026/08/13/gemini-3-7-flash-launch/) |
 | 2026/08/08 | **Antigravity Desktop v2.6.0** — 히스토리 로딩 속도 향상, 커스텀 훅/서브에이전트 개선, "질문하기" 패널 재디자인; 9개 개선 + 21개 버그 수정 | [antigravity.google](https://antigravity.google/changelog) |
 | 2026/08/08 | **Antigravity CLI v1.1.11** — Vim 모달 편집(Normal/Insert/Visual/Visual Line), Vim 인식 프롬프트 제출, 플러그인 활성화/비활성화, MCP/자동완성 수정 | [releasebot.io](https://releasebot.io/updates/google/antigravity) |
 | 2026/07/22 | **Google, Antigravity 샌드박스 취약점 패치 거부** — Pillar Security CVE를 "기타 유효 보안 취약점"으로 분류, "악용 어려움" 이유로 패치 미계획 | [neowin.net](https://www.neowin.net/news/pillar-research-shows-sandboxes-are-inadequate-for-agentic-ai-google-decides-not-to-patch/) |
@@ -3056,6 +3059,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/17 | **GitHub 8시간 장애** — ET 오전 9:40~오후 5:15; 웹/API 오류율 ~20%, 아카이브 다운로드 ~50%; Actions·Webhooks·Issues·PR·Copilot·인증 저하; AI 코딩 에이전트의 30배 트래픽 급증이 원인; Actions 연간 다운타임 예산 거의 전부 소진 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/) |
+| 2026/08/16 | **Stripe $70억+ OpenRouter 인수 확정** — AI 모델 라우팅·과금 Stripe 인프라 통합; 2026년 5월 시리즈 B 밸류에이션 대비 5.4배 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion) |
 | 2026/08/12 | **Cognition AI $400억+ 밸류에이션 협상** — ARR $10억 근접(이전 라운드 대비 2배), $10억+ 추가 유치 예상, 3개월 전 $260억 대비 53% 상승 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value) |
 | 2026/08/11 | **Copilot 메모리 + Ollama JetBrains** — 에이전트 세션 간 지속 메모리, Ollama BYOK 프로바이더, MCP 서버 수정, 엔터프라이즈 제어 | [github.blog](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/) |
 | 2026/08/11 | **MAI-Code-1.1-Flash Copilot 배포** — MAI-Code-1-Flash 대비 73% 저렴, 네이티브 비전, Terminal-Bench 22% 향상, 0.25x 프리미엄 배율; MAI-Code-1-Flash 9/10 퇴장 | [microsoft.ai](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/) |
@@ -3136,6 +3141,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/08/12 | **Grok 4.6 출시** — 500K 컨텍스트, $2/$6/MTok, xhigh 추론 레벨; Artificial Analysis 지능 지수 61(GPT-5.6 Sol Max와 동률); DeepSWE v1.1 65.9%; xAI API·Grok Build·Cursor·OpenRouter·Vercel·Cloudflare에서 사용 가능 | [x.ai](https://x.ai/news/grok-4-6) |
 | 2026/07/16 | **Grok Build 오픈소스 전환** Apache 2.0 — Rust 844K 라인 GitHub 공개, 유출 코드 바이너리 잔존, 서버 측 플래그만으로 제어 | [techtimes.com](https://www.techtimes.com/articles/320671/20260716/grok-build-open-sourced-after-covert-upload-code-exfiltrate-repos-stays.htm) |
 | 2026/07/14 | **Grok Build 개인정보 스캔들** — 전체 Git 레포 GCS에 업로드, 프라이버시 토글 무효, Musk 데이터 삭제 약속 | [thehackernews.com](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html) |
 | 2026/07/08 | **Grok 4.5** — SpaceXAI-Cursor 첫 공동 모델, Opus급 $2/$6/MTok, 1.5T V9 파운데이션, Cursor 개발자 데이터 | [axios.com](https://www.axios.com/) |

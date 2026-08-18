@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-08-13</sub>
+  <sub>Last updated: 2026-08-18</sub>
 </p>
 
 <p align="center">
@@ -2830,6 +2830,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/17 | **Claude Code v2.1.234** — automatic session continuation when usage limits reset, GitLab merge request badges, credential leak protections, `selection:clear` keybinding, `CLAUDE_CODE_PROJECT_DIR_NAME` env var; v2.1.233 added memory limits to prevent runaway builds | [havoptic.com](https://www.havoptic.com/tools/claude-code) |
 | 2026/08/16 | **Claude outage** — authentication failures starting 21:58 UTC across claude.ai, Claude Code, and Claude Cowork; restored by 22:34 UTC (~36 min); root cause not disclosed | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/) |
 | 2026/08/12 | **Claude Code v2.1.228** — fixed interactive sessions that could stop redrawing entirely after rare layout errors; fixed Git not found on Windows when launched from parent folder; fixed /tui reverting to earlier model after /model change; fixed cross-session messaging initialization; fixed Remote Control /resume leaking conversation data between sessions; hardened synced skills against shadowing local commands | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.228) |
 | 2026/08/11 | **Anthropic invisible text watermarks** — EU AI Act Article 50(2) compliance; invisible watermarks embedded in Claude-generated text starting Aug 2 for new models, survives copy-paste; heavy editing can erase; applies globally; internet backlash significant | [forbes.com](https://www.forbes.com/sites/maryroeloffs/2026/08/11/claude-will-put-invisible-watermarks-on-ai-text-and-images-and-the-internet-isnt-happy/) |
@@ -3053,6 +3054,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/16 | **Google peak/off-peak API pricing** — off-peak rates 50% cheaper across Gemini models, effective immediately | [aiagentsdirectory.com](https://aiagentsdirectory.com/news/ai-agents-news-brief-august-17-2026) |
+| 2026/08/13 | **Gemini 3.7 Flash launched** — $0.75/$3.75/MTok introductory (half of 3.6 Flash), DeepSWE benchmark 49.0%→65.3%; standard rates $1.50/$7.50 from Jan 2027; 23 days after 3.6 Flash | [9to5google.com](https://9to5google.com/2026/08/13/gemini-3-7-flash-launch/) |
 | 2026/08/08 | **Antigravity Desktop v2.6.0** — faster history loading, custom hooks/subagents refinements, redesigned "ask questions" panel; 9 improvements + 21 bug fixes | [antigravity.google](https://antigravity.google/changelog) |
 | 2026/08/08 | **Antigravity CLI v1.1.11** — Vim modal editing mode (Normal/Insert/Visual/Visual Line), Vim-aware prompt submission, plugin enable/disable, MCP/autocomplete fixes | [releasebot.io](https://releasebot.io/updates/google/antigravity) |
 | 2026/07/22 | **Google refuses to patch Antigravity sandbox bypasses** — classifies Pillar Security CVEs as "other valid security vulnerabilities" but "hard to exploit," no patch planned | [neowin.net](https://www.neowin.net/news/pillar-research-shows-sandboxes-are-inadequate-for-agentic-ai-google-decides-not-to-patch/) |
@@ -3097,6 +3100,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/17 | **GitHub 8-hour outage** — ~9:40 AM to ~5:15 PM ET; ~20% error rates for web/API, ~50% for archive downloads; Actions, Webhooks, Issues, PRs, Copilot, and auth degraded; consumed nearly entire year's downtime budget for Actions; attributed to 30x scale demands from AI coding agents | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/) |
+| 2026/08/16 | **Stripe finalizes $7B+ OpenRouter acquisition** — AI model routing and billing integrated into Stripe infrastructure; 5.4x markup over May 2026 Series B valuation | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion) |
 | 2026/08/12 | **Cognition AI $40B+ valuation talks** — ARR approaching $1B (doubled from prior round), new funding round expected to raise $1B+, up from $26B valuation 3 months ago | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value) |
 | 2026/08/11 | **Copilot memory + Ollama in JetBrains** — persistent memory across agent sessions, Ollama as BYOK provider, MCP server fixes, enterprise controls | [github.blog](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/) |
 | 2026/08/11 | **MAI-Code-1.1-Flash in Copilot** — 73% cheaper than MAI-Code-1-Flash, native vision, 22% Terminal-Bench improvement, 0.25x premium multiplier; MAI-Code-1-Flash retires Sept 10 | [microsoft.ai](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/) |
@@ -3177,6 +3182,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/08/12 | **Grok 4.6 launched** — 500K context, $2/$6 per MTok, xhigh reasoning level; 61 on Artificial Analysis Intelligence Index (matching GPT-5.6 Sol Max); DeepSWE v1.1 65.9%; available via xAI API, Grok Build, Cursor, OpenRouter, Vercel, Cloudflare | [x.ai](https://x.ai/news/grok-4-6) |
 | 2026/07/16 | **Grok Build open-sourced** under Apache 2.0 — 844K lines Rust on GitHub, exfiltration code remains in binary, server-side flag only | [techtimes.com](https://www.techtimes.com/articles/320671/20260716/grok-build-open-sourced-after-covert-upload-code-exfiltrate-repos-stays.htm) |
 | 2026/07/14 | **Grok Build privacy scandal** — entire Git repos uploaded to GCS, privacy toggle non-functional, Musk promises data deletion | [thehackernews.com](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html) |
 | 2026/07/08 | **Grok 4.5** — SpaceXAI-Cursor first joint model, Opus-class at $2/$6 per MTok, 1.5T V9 foundation, Cursor developer data | [axios.com](https://www.axios.com/) |

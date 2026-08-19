@@ -1,43 +1,43 @@
 ---
-title: "Cursor Origin Ships Without Data Terms — SpaceX Now Holds Developers' Code"
+title: "Claude Code 50% Boost Extended Again — Ghostjacking Targets AI Agents"
 date: 2026-08-19
 lang: en
 categories: [news]
-tags: [cursor, origin, spacex, github, claude, anthropic, glm, copilot]
-excerpt: "Cursor's new code hosting platform Origin launched without clear data terms, raising questions about SpaceX holding paid developers' source code. Anthropic's 50% usage boost expires today, and Z.ai released coding-focused GLM-5.3."
+tags: [claude, anthropic, ghostjacking, cursor, origin, spacex, copilot, glm]
+excerpt: "Anthropic extends Claude Code's 50% usage boost to August 31 for the fourth time. Meanwhile, the Ghostjacking attack disclosed at DEF CON exploits AI coding agents' log-reading habits with a 90% success rate."
 ---
 
-The dust from GitHub's 8-hour outage hasn't settled, and the alternative that emerged from it — Cursor Origin — is already facing its own controversy. SpaceX-owned Cursor's code hosting platform launched without clear data governance terms.
+Anthropic's 50% usage boost was scheduled to expire tonight, but a last-minute extension pushes the deadline to August 31. This marks the fourth extension since the promotion began on May 13, with Anthropic citing "strong demand and securing additional compute capacity" ([KuCoin](https://www.kucoin.com/news/flash/anthropic-extends-claude-code-weekly-limit-increase-by-50-until-august-31)). Pro, Max, Team, and Enterprise plans all benefit automatically. Whether the increase becomes permanent remains undecided.
 
-## Cursor Origin: The Data Terms Gap
+## Ghostjacking: A New Attack Vector Targeting AI Agents
 
-As Cursor Origin's early beta enters day four, reports surfaced that Origin shipped without clear data usage terms ([TechTimes](https://www.techtimes.com/articles/324838/20260818/cursor-origin-ships-no-data-terms-spacex-now-holds-paid-developers-code.htm)). Following SpaceX's $60B acquisition, Cursor's workforce was absorbed into SpaceXAI — meaning paid developers' source code now lives on a space company's servers ([TechCrunch](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/)). Origin drew attention as a "GitHub alternative" right after the outage, but data governance concerns could slow enterprise adoption.
+Tenet Security unveiled the Ghostjacking attack at DEF CON. The technique plants malicious prompt injection instructions inside Cloudflare, Datadog, and Sentry logs that AI coding agents (including Claude Code) routinely read. Once ingested, the poisoned instructions enable DNS hijacking, cloud credential theft, and firewall bypass ([SecurityWeek](https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/)). Testing showed a 90% success rate. Cloudflare runs in 42% of Fortune 500 firms and Datadog in 48%, putting a significant portion of enterprise infrastructure at risk ([CybersecurityNews](https://cybersecuritynews.com/ghostjacking-attack/)).
 
-## Anthropic: 50% Usage Boost Expires Today
+## Fable 5: Removed from Pro/Standard Tiers
 
-Anthropic's 50% usage boost expires today (August 19). Claude Code v2.1.234 continues with stable updates including auto session continuation, credential leak protections, and GitLab MR badges ([Havoptic](https://www.havoptic.com/tools/claude-code)). Two days after the August 16 outage, services are running normally. The Compliance API has been expanded to cover Claude Code for Enterprise audit and eDiscovery needs.
+Fable 5 now stays as a permanent inclusion only on Max and Team Premium plans. Pro and Team Standard tiers lost direct access and must pay per-token for Fable 5 usage. This continues the step-down from the July 20 $100 one-time credit offer.
+
+## Cursor Origin: Data Terms Gap Enters Day Four
+
+Cursor Origin's early beta continues to draw scrutiny as no data governance terms have been published. With SpaceX's $60B acquisition placing developers' code on a space company's servers, the lack of data retention, training-use, and subprocessor policies raises enterprise adoption questions ([TechTimes](https://www.techtimes.com/articles/324838/20260818/cursor-origin-ships-no-data-terms-spacex-now-holds-paid-developers-code.htm)). Analysts have also questioned whether Cursor under SpaceX might route to Grok rather than Claude/GPT.
 
 ## Z.ai GLM-5.3: New Coding-Focused Model
 
-Z.ai released GLM-5.3 on August 18 — a coding-focused model built through post-training scaling on the GLM-5.2 base. It joins an increasingly crowded open-weight coding model market alongside Qwen-3.6-Coder and Kimi K3.
-
-## GitHub Copilot: Deprecation D-13
-
-Thirteen days remain until GitHub's September 1 mass model deprecation ([GitHub Blog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). Services have recovered after the August 17 outage, but Actions 90-day uptime fell to 99.33% ([TechTimes](https://www.techtimes.com/articles/324820/20260818/github-actions-hit-three-nines-failure-one-august-outage-consumed-years-downtime-budget.htm)). MAI-Code-1-Flash faces a separate deprecation on September 10, and Claude Sonnet 4.6 will only remain available to annual individual subscribers ([GitHub Blog](https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash/)).
+Z.ai released GLM-5.3, a coding-focused model built through post-training scaling on the GLM-5.2 base. It joins Qwen-3.6-Coder and Kimi K3 in an increasingly competitive open-weight coding model market.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | v2.1.234, 50% boost expires today |
+| Claude Code | 99 | — | 50% boost extended to Aug 31, v2.1.234 |
 | ChatGPT | 99 | — | Ultrafast preview ongoing |
-| Codex CLI | 99 | — | v0.147.0, /import command added |
+| Codex CLI | 99 | — | v0.147.0, plugin ecosystem expanding |
 | Antigravity | 99 | — | Ceiling streak holds |
 | Claude AI | 99 | — | Sonnet 5 $2/$10 pricing permanent |
-| Cursor | 99 | — | Origin data terms controversy |
+| Cursor | 99 | — | Origin data terms controversy ongoing |
 | Windsurf | 86 | — | Devin Desktop stabilizing |
 | Aider | 68 | — | No recent releases |
 | Copilot | 1 | — | Post-outage recovery, deprecation D-13 |
 | Gemini CLI | 1 | — | Day 62 post-shutdown |
 
-With seven tools pinned at 99, points no longer differentiate. Competition has shifted to infrastructure stability, data governance, and billing architecture.
+With seven tools pinned at 99, points no longer differentiate. Security threats like Ghostjacking are emerging as a new competitive axis for AI coding agents.

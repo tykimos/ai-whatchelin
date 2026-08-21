@@ -1222,6 +1222,7 @@ timeline
          : Windsurf Devin Local — .devinignore support, editor context awareness, MCP permissions persist across sessions (Aug 21)
          : Copilot 101-week decline at floor (1) — Sept 1 mass deprecation D-11 (Aug 21)
          : Gemini CLI shutdown Day 64 — consumer access closed, Antigravity full replacement (Aug 21)
+         : Slack Code launched — AI coding agents (Claude Code, Devin, Copilot, Vercel) embedded in dedicated Slack channels for collaborative coding (Aug 21)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2887,6 +2888,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/08/15 | **SpaceX officially closes $60B Cursor acquisition** — largest AI deal in history; all-stock deal finalized; Cursor workforce folded into SpaceXAI; product transitioning to Grok branding | [techcrunch.com](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/) |
 | 2026/08/15 | **Agent Plugins 1.0 released** — portable open standard for cross-client agent plugins; publishers include AWS, Anysphere, Microsoft, OpenAI, Vercel; Google joined as core maintainer | [github.blog](https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3/) |
 | 2026/08/16 | **Claude Code self-hosted environments public beta** — Team/Enterprise can run sessions on own infrastructure with internal network access and compliance controls | [blog.mean.ceo](https://blog.mean.ceo/claude-code-news-august-2026/) |
+| 2026/08/21 | **Slack Code launched** — Slack embeds AI coding agents (Claude Code, Devin, Copilot, Vercel agent) into dedicated channels; teams can watch, steer, review, and ship software collaboratively; available on any Slack plan | [slack.com](https://slack.com/blog/news/slack-code-channels-for-agents) |
 | 2026/08/20 | **Claude Code v2.1.237** — prompt caching fix for sessions using LLM gateways or custom base URLs; built-in "Concise" output style where Claude leads with results and skips preamble | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/08/20 | **Claude Code v2.1.236** — ANTHROPIC_DEFAULT_MODEL env var for default model across sessions; notify_when_idle cross-session messaging on macOS/Linux; macOS sandbox wildcard read-deny rules; VS Code screen reader live announcements; improved auto mode classifier on Bedrock, Vertex AI, and Foundry | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/08/20 | **OpenAI rewriting Preparedness Framework** — Astra reaching "Critical" cybersecurity threshold forces policy revision; chain-of-thought monitoring with 30-min anomaly alerts; stricter sandboxing for all frontier model work | [axios.com](https://www.axios.com/2026/08/18/openai-pause-astra-preparedness-framework) |

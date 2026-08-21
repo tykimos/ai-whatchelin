@@ -1222,6 +1222,7 @@ timeline
          : Windsurf Devin Local — .devinignore 지원, 에디터 컨텍스트 인식, MCP 권한 세션 간 유지 (8/21)
          : Copilot 101주 하락, 바닥(1) — 9/1 대폐기 D-11 (8/21)
          : Gemini CLI 폐쇄 64일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/21)
+         : Slack Code 출시 — AI 코딩 에이전트(Claude Code, Devin, Copilot, Vercel)를 Slack 전용 채널에 임베드, 협업 코딩 지원 (8/21)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2846,6 +2847,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/08/15 | **SpaceX Cursor $600억 인수 공식 마감** — AI 역사상 최대 거래; 전량 주식 교환 확정; Cursor 인력 SpaceXAI 편입; Grok 브랜딩 전환 예정 | [techcrunch.com](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/) |
 | 2026/08/15 | **Agent Plugins 1.0 출시** — 크로스 클라이언트 포터블 오픈 표준; AWS·Anysphere·Microsoft·OpenAI·Vercel 게시; Google 핵심 메인테이너 합류 | [github.blog](https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3/) |
 | 2026/08/16 | **Claude Code 자체 호스팅 환경 퍼블릭 베타** — Team/Enterprise 자체 인프라에서 세션 실행, 내부 네트워크 접근·컴플라이언스 제어 | [blog.mean.ceo](https://blog.mean.ceo/claude-code-news-august-2026/) |
+| 2026/08/21 | **Slack Code 출시** — AI 코딩 에이전트(Claude Code, Devin, Copilot, Vercel 에이전트)를 Slack 전용 채널에 임베드; 팀이 함께 보고·조종·리뷰·배포 가능; 모든 Slack 플랜에서 이용 가능 | [slack.com](https://slack.com/blog/news/slack-code-channels-for-agents) |
 | 2026/08/20 | **Claude Code v2.1.237** — LLM 게이트웨이/커스텀 베이스 URL 프롬프트 캐싱 수정; "Concise" 출력 스타일 내장(결과 우선, 서두 생략) | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/08/20 | **Claude Code v2.1.236** — ANTHROPIC_DEFAULT_MODEL 환경변수로 세션 기본 모델 설정; notify_when_idle 크로스 세션 메시징(macOS/Linux); macOS 샌드박스 와일드카드 읽기 거부; VS Code 스크린 리더 라이브 안내; Bedrock/Vertex AI/Foundry auto 모드 분류기 개선 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/08/20 | **OpenAI Preparedness Framework 재작성** — Astra '위험(Critical)' 사이버보안 임계값 도달로 정책 개정; 사고 연쇄 모니터링 30분 이상 경보; 프론티어 모델 전체 샌드박싱 강화 | [axios.com](https://www.axios.com/2026/08/18/openai-pause-astra-preparedness-framework) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-08-20</sub>
+  <sub>Last updated: 2026-08-21</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.08.20-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.08.21-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1216,6 +1216,12 @@ timeline
          : A2A protocol governance moves to Agentic AI Foundation — membership 40→250+ orgs, joins MCP under vendor-neutral stewardship (Aug 19)
          : Copilot 100-week decline at floor (1) — Sept 1 mass deprecation D-12 (Aug 20)
          : Gemini CLI shutdown Day 63 — consumer access closed, Antigravity full replacement (Aug 20)
+         : Claude Code v2.1.238 — prompt caching fix for custom gateways, Linux idle CPU fix, voice mode native build fix (Aug 21)
+         : Grok 4.6 GA in GitHub Copilot — available across 8 surfaces, agentic coding, sustained reasoning (Aug 14)
+         : Copilot enterprise managed JetBrains settings — MCP server access, OpenTelemetry, permission modes (Aug 15)
+         : Windsurf Devin Local — .devinignore support, editor context awareness, MCP permissions persist across sessions (Aug 21)
+         : Copilot 101-week decline at floor (1) — Sept 1 mass deprecation D-11 (Aug 21)
+         : Gemini CLI shutdown Day 64 — consumer access closed, Antigravity full replacement (Aug 21)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2300,12 +2306,12 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["08-07", "08-08", "08-09", "08-10", "08-11", "08-12", "08-13", "08-14", "08-15", "08-16", "08-17", "08-18", "08-19", "08-20"]
+    x-axis ["08-08", "08-09", "08-10", "08-11", "08-12", "08-13", "08-14", "08-15", "08-16", "08-17", "08-18", "08-19", "08-20", "08-21"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [97, 97, 97, 97, 97, 97, 97, 97, 98, 98, 99, 99, 99, 99]
-    line "Windsurf" [85, 85, 85, 85, 85, 86, 86, 86, 86, 86, 86, 86, 86, 86]
+    line "Cursor" [97, 97, 97, 97, 97, 97, 97, 98, 98, 99, 99, 99, 99, 99]
+    line "Windsurf" [85, 85, 85, 85, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]

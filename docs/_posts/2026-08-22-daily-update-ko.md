@@ -1,43 +1,45 @@
 ---
-title: "OpenAI, GPT-5.6 Sol 가격 20% 이상 인하 — 가격 전쟁 신호탄"
+title: "OpenAI, GPT-5.6 Sol 가격 20% 인하 — Codex 2,000만 돌파와 가격전 본격화"
 date: 2026-08-22
 lang: ko
 categories: [news]
-tags: [openai, gpt-5.6-sol, claude-code, cursor, copilot, antigravity, pricing]
-excerpt: "OpenAI가 프론티어 모델 GPT-5.6 Sol의 API 가격을 20% 이상 인하했다. Anthropic·중국 AI와의 경쟁이 본격 가격전 양상으로 번지고 있다."
+tags: [openai, gpt-5.6-sol, codex, claude-code, claude-academy, cursor, copilot, antigravity, pricing, security]
+excerpt: "OpenAI가 GPT-5.6 Sol API 가격을 20% 이상 인하하고 Codex 2,000만 사용자를 돌파했다. Anthropic은 Claude Academy를 출시하며 교육 전선을 열었고, Copilot에서는 AI 자동 수정이 보안 사고로 이어졌다."
 ---
 
-OpenAI가 프론티어 모델 GPT-5.6 Sol의 개발자용 API 가격을 20% 이상 인하했다([Business Standard](https://www.business-standard.com/technology/tech-news/openai-cuts-developer-pricing-for-gpt-5-6-sol-model-by-more-than-20-126082200107_1.html)). 표준 단문 컨텍스트 기준 입력 토큰이 $5→$4, 출력 토큰이 $30→$20으로 내려갔다([Reuters via Investing.com](https://www.investing.com/news/stock-market-news/openai-cuts-developer-pricing-for-frontier-gpt56-sol-model-by-more-than-20-4872186)). 3개월 한정 프로모션이지만, 지난달 GPT-5.6 Terra 20% 인하·Luna 80% 인하에 이은 연속 할인이다([CNBC](https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html)). Anthropic과 중국 AI 모델의 추격에 개발자 이탈을 막으려는 수비적 행보로 읽힌다([Finimize](https://finimize.com/content/openai-cut-gpt-56-sol-api-prices-to-keep-developers-close)).
+OpenAI가 프론티어 모델 GPT-5.6 Sol의 API 가격을 20% 이상 인하했다([Business Standard](https://www.business-standard.com/technology/tech-news/openai-cuts-developer-pricing-for-gpt-5-6-sol-model-by-more-than-20-126082200107_1.html)). 표준 단문 컨텍스트 기준 입력 토큰이 $5→$4, 출력 토큰이 $30→$20으로 내려갔다([Reuters via Investing.com](https://www.investing.com/news/stock-market-news/openai-cuts-developer-pricing-for-frontier-gpt56-sol-model-by-more-than-20-4872186)). 11월 21일까지 3개월 한정이지만, 지난달 Terra 20%·Luna 80% 인하에 이은 연속 공세다([CNBC](https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html)). Anthropic·중국 AI 모델의 추격에 개발자 이탈을 막으려는 수비적 행보로 읽힌다([Finimize](https://finimize.com/content/openai-cut-gpt-56-sol-api-prices-to-keep-developers-close)).
 
-## OpenAI: o3 퇴장까지 D-4, GPT-5.4 퇴장 D-9
+## Codex: 2,000만 사용자 돌파, 리셋 논란
 
-o3 모델이 8월 26일 ChatGPT에서 퇴장 예정이며 D-4 카운트다운에 돌입했다([OpenAI](https://openai.com/index/gpt-5-6/)). GPT-5.4와 GPT-5.4 mini는 8월 31일부로 ChatGPT 인증 Codex에서 제거되며, API 키 인증에서는 유지된다([Releasebot](https://releasebot.io/updates/openai/codex)). GPT-5.6 Sol이 권장 기본 모델("Power" 세팅)로 자리잡는 세대교체가 이번 달 안에 마무리된다.
+Codex 리드 Tibo Sottiaux가 2,000만 활성 사용자 마일스톤을 발표하며 전 사용자에게 무료 뱅크 사용량 리셋을 제공했다([explainx.ai](https://www.explainx.ai/blog/openai-codex-20-million-users-banked-reset-august-2026)). 하지만 PST 오후 8시 전달 기한이 밀리고, 리셋이 30일 후 무통보 만료되는 점이 커뮤니티에서 논란이 됐다([OpenAI Community](https://community.openai.com/t/20-million-codex-users-a-free-banked-reset-for-everyone/1391683)). o3 모델은 8월 26일 ChatGPT 퇴장까지 D-4, GPT-5.4는 8월 31일 Codex 퇴출까지 D-9에 진입했다([OpenAI](https://openai.com/index/gpt-5-6/)).
 
-## Copilot: 대규모 모델 폐기 D-10, 102주 연속 하락
+## Claude: Academy 출시, Code v2.1.239
 
-GitHub Copilot이 9월 1일 대규모 모델 폐기까지 D-10에 진입했다([GitHub Roadmap](https://github.com/github/roadmap/issues/1308)). Gemini 3.1 Pro, Claude Opus 4.5·4.6, Claude Sonnet 4.5·4.6, Raptor mini 등 6개 이상 모델이 동시 퇴장 예정이다([GitHub Changelog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). 인기도 102주 연속 하락이라는 기록은 계속 갱신되고 있으며, 사용량 기반 과금 전환으로 인한 개발자 이탈이 가속되는 모양새다([TechTimes](https://www.techtimes.com/articles/317536/20260601/github-copilot-pricing-change-drives-backlash-agentic-bills-jump-10x-50x-power-users.htm)).
+Anthropic이 Claude Academy를 출시했다([CryptoBriefing](https://cryptobriefing.com/anthropic-unveils-claude-academy-to-boost-ai-education-and-adoption/)). 26개 무료 과정으로 개발자·학생·교육자·전문가·비영리 5개 트랙을 제공하며, Claude 101부터 API·Claude Code 심화까지 커버한다([Techgenyz](https://techgenyz.com/claude-academy-free-courses/)).
+
+Claude Code v2.1.239는 비용 추정에 데이터 레지던시 워크스페이스의 1.1배 US 추론 프리미엄을 반영하고, Python SDK 0.x→1.x 마이그레이션용 `/claude-api upgrade` 명령을 추가했다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Alpine/musl 빌드 네이티브 지원과 Bedrock·Vertex·Foundry 풀스크린도 확대됐다([Gradually.ai](https://www.gradually.ai/en/changelogs/claude-code/)).
+
+## Copilot: AI 자동 수정이 보안 구멍으로
+
+Copilot Autofix가 Snowflake의 snowflake-connector-net에서 생성한 수정 코드가 셸 인젝션 취약점을 도입, 5일 만에 악용됐다([The Register](https://www.theregister.com/)). 별도로 CVE-2026-24301(CoSnitch) — Copilot URL 가져오기와 영구 메모리 포이즈닝을 연쇄한 공격 — 이 8월 18일 패치됐다. 102주 연속 인기도 하락이 이어지는 가운데, 9월 1일 대규모 모델 폐기까지 D-10이다([GitHub Roadmap](https://github.com/github/roadmap/issues/1308)).
 
 ## Cursor: 이벤트 구독형 클라우드 에이전트 정착
 
-Cursor가 8월 19일 업데이트로 클라우드 에이전트에 이벤트 구독 기능을 추가했다([Releasebot](https://releasebot.io/updates/cursor)). PR, Slack 스레드, 크론 스케줄을 트리거로 등록하면 에이전트가 자동으로 깨어나서 작업을 수행한다([explainx.ai](https://www.explainx.ai/blog/cursor-event-driven-cloud-agents-isolated-vms-august-2026)). 서브에이전트도 개별 격리 VM에서 병렬 실행이 가능해져, 동시 작업 충돌 없이 복잡한 태스크를 처리할 수 있게 됐다.
-
-## Claude Code: 비용 추정 정밀화, Alpine 지원 확대
-
-Claude Code가 비용 추정(`/cost`, 상태줄, `--max-budget-usd`)에 데이터 레지던시 워크스페이스의 1.1배 US 전용 추론 프리미엄을 반영하기 시작했다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Alpine/musl 빌드에서 이미지 붙여넣기·클립보드·오디오 캡처가 정상 동작하도록 수정됐으며, Bedrock·Vertex·Foundry 등 추가 플랫폼에서도 풀스크린 렌더러 제안이 노출된다([Gradually.ai](https://www.gradually.ai/en/changelogs/claude-code/)).
+Cursor의 8월 19일 업데이트로 클라우드 에이전트에 이벤트 구독이 추가됐다([Releasebot](https://releasebot.io/updates/cursor)). PR·Slack 스레드·크론 스케줄을 트리거로 등록하면 에이전트가 자동 기동한다([explainx.ai](https://www.explainx.ai/blog/cursor-event-driven-cloud-agents-isolated-vms-august-2026)). 8월 24일부터 Auto 가격 체계 변경이 예정돼 있다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| Claude Code | 99 | — | 비용 추정 정밀화, Alpine 지원 확대 |
+| Claude Code | 99 | — | v2.1.239 비용 정밀화, Alpine 지원 |
 | ChatGPT | 99 | — | GPT-5.6 Sol 20%+ 인하, o3 퇴장 D-4 |
-| Codex CLI | 99 | — | GPT-5.4 퇴장 D-9, Sol 가격 인하 수혜 |
-| Antigravity | 99 | — | v2.7.1 이미지 diff, 접근성 개선 |
-| Claude AI | 99 | — | Claude Academy 출시 3일차, Files API GA |
-| Cursor | 99 | — | 이벤트 구독형 클라우드 에이전트, Grok 4.6 |
-| Windsurf | 86 | — | Devin Local 실용 기능 안정화 |
+| Codex CLI | 99 | — | 2,000만 사용자, GPT-5.4 퇴장 D-9 |
+| Antigravity | 99 | — | v2.9.1 Remote Control, 26주 연속 99 |
+| Claude AI | 99 | — | Claude Academy 출시, Files API GA |
+| Cursor | 99 | — | 이벤트 구독 에이전트, 8/24 가격 변경 예정 |
+| Windsurf | 86 | — | Devin Local 안정화 지속 |
 | Aider | 68 | — | v0.86.2 이후 6개월+ 무릴리스 |
-| Copilot | 1 | — | 102주 연속 하락, 대폐기 D-10 |
+| Copilot | 1 | — | 102주 하락, Autofix 보안 사고, 대폐기 D-10 |
 | Gemini CLI | 1 | — | 폐쇄 65일째 |
 
-OpenAI의 연속 가격 인하는 AI 코딩 시장이 '기능 경쟁'에서 '가격 경쟁'으로 전환되고 있음을 보여준다. 개발자에게는 선택지가 늘어나는 좋은 시기다.
+OpenAI의 연속 가격 인하와 Codex 2,000만 돌파는 개발자 유치 경쟁이 기능에서 가격·규모로 이동했음을 보여준다. 한편 Copilot Autofix 보안 사고는 AI 코드 수정의 신뢰 문제를 새롭게 부각시켰다.

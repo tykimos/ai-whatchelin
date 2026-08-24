@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.08.23-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.08.24-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1239,6 +1239,10 @@ timeline
          : Claude Code v2.1.241 — 최신 안정 릴리스 (8/23)
          : Copilot 103주 하락, 바닥(1) — 9/1 대폐기 D-9 (8/23)
          : Gemini CLI 폐쇄 66일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/23)
+         : Cursor Auto 모델별 과금 발효 — 플랫 요금 폐지, 모델별 과금 전환, 전 모델 포함 사용량 증가 (8/24)
+         : Ox Alpha 미스터리 모델 — OpenRouter에 등장한 스텔스 프론티어급 1M 컨텍스트 코딩 모델, 무료 접근 오늘 종료, 정체 미확인 (8/24)
+         : Copilot 104주 하락, 바닥(1) — 9/1 대폐기 D-8 (8/24)
+         : Gemini CLI 폐쇄 67일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/24)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2293,12 +2297,12 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["08-10", "08-11", "08-12", "08-13", "08-14", "08-15", "08-16", "08-17", "08-18", "08-19", "08-20", "08-21", "08-22", "08-23"]
+    x-axis ["08-11", "08-12", "08-13", "08-14", "08-15", "08-16", "08-17", "08-18", "08-19", "08-20", "08-21", "08-22", "08-23", "08-24"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [97, 97, 97, 97, 97, 98, 98, 99, 99, 99, 99, 99, 99, 99]
-    line "Windsurf" [85, 85, 85, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
+    line "Cursor" [97, 97, 97, 97, 98, 98, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "Windsurf" [85, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2768,7 +2772,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-08-23)
+### 팩트 체크 로그 (2026-08-24)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 

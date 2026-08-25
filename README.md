@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-08-23</sub>
+  <sub>Last updated: 2026-08-25</sub>
 </p>
 
 <p align="center">
@@ -2914,6 +2914,8 @@ All pricing information has been directly verified from each service's official 
 | 2026/08/15 | **SpaceX officially closes $60B Cursor acquisition** — largest AI deal in history; all-stock deal finalized; Cursor workforce folded into SpaceXAI; product transitioning to Grok branding | [techcrunch.com](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/) |
 | 2026/08/15 | **Agent Plugins 1.0 released** — portable open standard for cross-client agent plugins; publishers include AWS, Anysphere, Microsoft, OpenAI, Vercel; Google joined as core maintainer | [github.blog](https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3/) |
 | 2026/08/16 | **Claude Code self-hosted environments public beta** — Team/Enterprise can run sessions on own infrastructure with internal network access and compliance controls | [blog.mean.ceo](https://blog.mean.ceo/claude-code-news-august-2026/) |
+| 2026/08/25 | **OpenAI restores 5-hour Codex/ChatGPT Work limit for Plus users** — rolling 5-hour consumption window returns alongside weekly quota effective Aug 25; Plus ($20/mo) only, Pro ($100/$200) exempt; smooths compute demand after weeks of weekly-cap-only access | [9to5mac.com](https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/) |
+| 2026/08/25 | **Anthropic IPO targets $2T valuation** — Bloomberg reports investors expect October listing at $2 trillion+, surpassing SpaceX's $1.77T record; annualized revenue projected $100-120B by year-end; Morgan Stanley and Goldman Sachs lead underwriting | [fortune.com](https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/) |
 | 2026/08/23 | **Claude Code v2.1.241** — latest stable release | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/08/22 | **Anthropic hires Google chip veteran** — recruiting senior silicon talent for custom AI hardware design, following AMD $5B investment in MI450 deployment | [techcrunch.com](https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/) |
 | 2026/08/17 | **Anthropic revenue run rate hits $65B** — up from $47B in May; on track for $100-120B by end of 2026; IPO filing potentially imminent | [fortune.com](https://fortune.com/2026/08/18/anthropic-annual-revenue-run-rate-65-billion/) |

@@ -1,43 +1,43 @@
 ---
-title: "o3 Retirement D-1 — OpenAI's Reasoning Model Exits ChatGPT Tomorrow as Copilot Pushes Into Slack"
+title: "OpenAI Restores 5-Hour Codex Limit for Plus Users — Model Retirement Week Begins With o3 Exit Tomorrow"
 date: 2026-08-25
 lang: en
 categories: [news]
-tags: [openai, o3, copilot, slack, grok, antigravity, cursor, deprecation]
-excerpt: "OpenAI o3 leaves ChatGPT's model picker tomorrow. The 90-day sunset ends August 26. Copilot launched a Slack integration but its decline streak hits 105 weeks, and four model retirements cascade over the next seven days."
+tags: [openai, codex, chatgpt, plus, usage-limit, o3, anthropic, ipo, copilot, antigravity]
+excerpt: "Starting today, ChatGPT Plus users face a rolling 5-hour Codex/Work limit again. Tomorrow o3 exits ChatGPT, kicking off the most concentrated model retirement week in AI coding tool history."
 ---
 
-Tomorrow marks the end of OpenAI o3 in ChatGPT. The 90-day sunset announced on May 28 concludes on August 26, removing the reasoning model from the model picker entirely. Meanwhile, GitHub Copilot is expanding its reach with a Slack integration, yet its popularity decline stretches to 105 consecutive weeks — and four model retirements cascade over the next seven days.
+Today OpenAI restored the 5-hour rolling consumption limit on Codex and ChatGPT Work for Plus subscribers ($20/mo), ending several weeks in which only the weekly cap applied. Tomorrow marks the official retirement of o3 from ChatGPT, and four model retirements cascade over the next seven days — the most concentrated model turnover event in AI coding history.
 
-## OpenAI: o3 Retirement D-1, Exits ChatGPT Tomorrow
+## OpenAI: Plus 5-Hour Codex/Work Limit Returns
 
-OpenAI o3 officially retires from ChatGPT on August 26 ([orcarouter.ai](https://www.orcarouter.ai/blog/o3-chatgpt-retirement-august-26)). Once the 90-day sunset period ends, the model will be fully removed from the model picker — paid subscribers will no longer be able to select it manually. The API remains unaffected; the two o3 snapshots (o3-2025-04-16 and o3-pro-2025-06-10) are scheduled for API removal on December 11 ([OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)). OpenAI stated it is *"retiring older models with limited usage to better support the newest, most capable models"* ([gHacks](https://www.ghacks.net/2026/06/03/openai-upgrades-gpt-5-5-instant-and-confirms-retirement-of-o3-and-gpt-4-5-models/)).
+OpenAI technical lead Thibault Sottiaux announced on X on August 24 that the 5-hour rolling consumption window returns for ChatGPT Plus subscribers alongside the weekly quota, effective today ([9to5Mac](https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/)). The two limits work independently — hitting either pauses included usage until that limit resets, or users can purchase additional credits. Pro plans ($100/$200) are exempt ([MacObserver](https://www.macobserver.com/news/openai-brings-back-five-hour-usage-limit-for-chatgpt-plus-users/)). OpenAI says the shorter cap "helps smooth computing demand and prevents casual users from consuming an entire week's allowance in one burst" ([NewsBytesApp](https://www.newsbytesapp.com/news/science/openai-brings-back-5-hour-codex-limit-for-chatgpt-plus/story)).
 
-## GitHub Copilot: Slack Integration Launches, But 105-Week Decline Continues
+## OpenAI: o3 Retirement D-1 — Exits ChatGPT Tomorrow
 
-GitHub Copilot launched its Slack integration in public preview ([GitHub Changelog](https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack/)). By mentioning @GitHub, teams can plan changes, investigate problems, and hand off coding tasks directly from Slack conversations. Simultaneously, Grok 4.6 is rolling out across all Copilot tiers — Pro, Pro+, Max, Business, and Enterprise ([GitHub Changelog](https://github.com/features/copilot/whats-new)). xAI's latest reasoning model is designed for agentic coding and complex multi-step workflows. Yet despite Agent Plugins 1.0 going GA, the Slack integration, and new model additions, Copilot's popularity decline hits 105 consecutive weeks, with the September 1 mass model deprecation now just six days away.
+OpenAI o3 officially retires from ChatGPT on August 26, concluding the 90-day sunset period announced May 28 ([orcarouter.ai](https://www.orcarouter.ai/blog/o3-chatgpt-retirement-august-26)). The API's two snapshots (o3-2025-04-16 and o3-pro-2025-06-10) remain until December 11 ([OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)). Following o3: DALL-E GPT retires Aug 30, GPT-5.4 exits Codex Aug 31, and Copilot's six-model mass deprecation hits Sep 1 ([GitHub Roadmap](https://github.com/github/roadmap/issues/1308)).
 
-## Antigravity: Now Included in Gemini Enterprise Subscriptions
+## Anthropic: IPO Targets $2 Trillion Valuation for October
 
-Google has expanded Antigravity into eligible Gemini Enterprise app subscriptions, complete with administrative budget caps and spend controls ([Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers)). Enterprise customers can now access Antigravity at no additional cost. The recent IDE extensions for VS Code, JetBrains, Zed, and Visual Studio also let developers use agent conversations, review inline diffs, and inspect plans without leaving their existing workflow ([The New Stack](https://thenewstack.io/google-antigravity-ide-extensions/)).
+Investors expect Anthropic to go public in October at $2 trillion or more, potentially the largest IPO in history, surpassing SpaceX's $1.77T debut ([Fortune](https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/)). Annualized revenue jumped from $47B in May to $65B, with projections of $100-120B by year-end ([Fortune](https://fortune.com/2026/08/18/anthropic-annual-revenue-run-rate-65-billion/)). Morgan Stanley and Goldman Sachs are confirmed as lead underwriters.
 
-## Countdown: Four Deadlines in Seven Days
+## Copilot: MAI-Code-1.1-Flash and Kimi K3 Rolling Out, But 105-Week Decline Continues
 
-o3 ChatGPT retirement **D-1** (tomorrow, Aug 26). DALL-E GPT retires D-5 (Aug 30). GPT-5.4 leaves Codex D-6 (Aug 31). Copilot's six-model mass deprecation hits D-7 (Sep 1) ([GitHub Roadmap](https://github.com/github/roadmap/issues/1308)). This week is shaping up to be the most concentrated model retirement event in AI coding tool history.
+GitHub Copilot is adding MAI-Code-1.1-Flash (with native image understanding) and Kimi K3 across all tiers, alongside Grok 4.6 ([GitHub Changelog](https://github.com/features/copilot/whats-new)). Yet the popularity decline reaches 105 consecutive weeks, with the September 1 mass model deprecation now six days away.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | Claude Code | 99 | — | v2.1.241, 29-week streak at 99 |
-| ChatGPT | 99 | — | o3 retirement D-1, Sol 20%+ cut ongoing |
-| Codex CLI | 99 | — | Post-MCP deprecation stability |
+| ChatGPT | 99 | — | Plus 5-hour limit restored, o3 retirement D-1 |
+| Codex CLI | 99 | — | 20M active users, 5-hour limit Plus only |
 | Antigravity | 99 | — | Enterprise subscription inclusion, 29-week streak |
-| Claude AI | 99 | — | $65B revenue run rate, IPO imminent |
-| Cursor | 99 | — | Cloud Agents strengthening, Origin beta expanding |
+| Claude AI | 99 | — | IPO targeting $2T, $65B revenue run rate |
+| Cursor | 99 | — | Origin code hosting launched, SpaceX acquisition closed |
 | Windsurf | 86 | — | Devin Local stabilizing |
 | Aider | 68 | — | No release in 6+ months since v0.86.2 |
-| Copilot | 1 | — | 105-week decline, Slack launch can't reverse trend |
+| Copilot | 1 | — | 105-week decline, Sep 1 mass deprecation D-7 |
 | Gemini CLI | 1 | — | Shutdown day 68 |
 
-The o3 retirement is more than a model swap — it symbolizes how fast AI model generations now turn over. A reasoning model retired just 16 months after launch. Starting next week, developers must accelerate their migration to GPT-5.6 Sol and the o4 family.
+The Plus 5-hour limit restoration shows the "unlimited" era of AI coding tools remains distant. Compute cost realities continue to drive pricing policy.

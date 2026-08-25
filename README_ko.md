@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-08-23</sub>
+  <sub>마지막 업데이트: 2026-08-25</sub>
 </p>
 
 <p align="center">
@@ -2873,6 +2873,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/08/15 | **SpaceX Cursor $600억 인수 공식 마감** — AI 역사상 최대 거래; 전량 주식 교환 확정; Cursor 인력 SpaceXAI 편입; Grok 브랜딩 전환 예정 | [techcrunch.com](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/) |
 | 2026/08/15 | **Agent Plugins 1.0 출시** — 크로스 클라이언트 포터블 오픈 표준; AWS·Anysphere·Microsoft·OpenAI·Vercel 게시; Google 핵심 메인테이너 합류 | [github.blog](https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3/) |
 | 2026/08/16 | **Claude Code 자체 호스팅 환경 퍼블릭 베타** — Team/Enterprise 자체 인프라에서 세션 실행, 내부 네트워크 접근·컴플라이언스 제어 | [blog.mean.ceo](https://blog.mean.ceo/claude-code-news-august-2026/) |
+| 2026/08/25 | **OpenAI, Plus 사용자 대상 5시간 Codex/ChatGPT Work 제한 복원** — 5시간 롤링 소비 윈도우가 주간 할당량과 병행 복귀 (8/25 시행); Plus($20/월)만 해당, Pro($100/$200) 면제; 주간 한도만 적용되던 수 주간의 기간 종료 후 컴퓨팅 수요 분산 목적 | [9to5mac.com](https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/) |
+| 2026/08/25 | **Anthropic IPO $2조 밸류에이션 목표** — Bloomberg 보도, 투자자들 10월 상장 시 $2조+ 예상, SpaceX의 $1.77조 기록 추월; 연말까지 연간 매출 $1,000-1,200억 전망; Morgan Stanley·Goldman Sachs 주간사 | [fortune.com](https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/) |
 | 2026/08/23 | **Claude Code v2.1.241** — 최신 안정 릴리스 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/08/22 | **Anthropic Google 칩 베테랑 영입** — 자체 AI 하드웨어 설계를 위해 시니어 실리콘 인재 채용, AMD $50억 MI450 배치 투자 후속 | [techcrunch.com](https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/) |
 | 2026/08/17 | **Anthropic 매출 런레이트 $650억** — 5월 $470억 대비 상승; 2026년 말 $1,000-1,200억 목표; IPO 제출 임박 전망 | [fortune.com](https://fortune.com/2026/08/18/anthropic-annual-revenue-run-rate-65-billion/) |

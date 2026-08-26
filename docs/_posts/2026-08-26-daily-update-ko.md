@@ -13,21 +13,21 @@ OpenAI o3가 오늘(8/26) ChatGPT에서 공식 퇴장했다. 5월 28일 시작�
 
 OpenAI o3가 ChatGPT에서 공식 제거됐다([Forkast](https://forkast.news/openai-retired-o3-from-chatgpt-today-the-real-cost-is-the-churn-it-forces-on-everyone-else/)). API의 두 스냅샷(o3-2025-04-16, o3-pro-2025-06-10)은 12월 11일까지 유지되지만, ChatGPT 사용자는 이제 GPT-5.6으로 완전 전환해야 한다([OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)). 이어서 DALL-E GPT(8/30), GPT-5.4/mini Codex 퇴출(8/31), Copilot 6개 모델 대폐기(9/1)가 예정돼 있다([GitHub Roadmap](https://github.com/github/roadmap/issues/1308)). OpenAI는 추론을 GPT-5 아키텍처로 통합하는 전략을 가속화하고 있다.
 
+## GitHub Copilot: 9/1 폐기 대상 모델 6개 확정
+
+9월 1일 Copilot에서 제거될 모델이 확정됐다 — Gemini 3.1 Pro, Claude Opus 4.5, Claude Opus 4.6, Claude Sonnet 4.5, Claude Sonnet 4.6, Raptor mini([GitHub Changelog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). Claude Sonnet 4.6는 연간 구독 개인 사용자에게만 유지된다. 9월 10일에는 MAI-Code-1-Flash도 폐기되며 MAI-Code-1.1-Flash로 대체된다([GitHub Changelog](https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash/)). 엔터프라이즈 관리자들은 대체 모델 접근 정책을 미리 설정해야 한다([C# Corner](https://www.c-sharpcorner.com/article/github-copilot-model-deprecations-testing-replacement-models-before-september/)).
+
 ## Claude Code: v2.1.245 릴리스, /design 스킬 리서치 프리뷰
 
-Claude Code가 v2.1.245를 릴리스해 Linux glibc 2.44 환경의 크래시를 수정했다([Claude Code Changelog](https://code.claude.com/docs/en/changelog)). 8월 17일 추가된 `/design` 스킬(리서치 프리뷰)은 아이디어나 스크린샷을 Claude Design에서 편집 가능한 인터페이스로 변환한다([Origami](https://origami.sa/en/blog/claude-code-august-2026/)). "Concise" 출력 스타일, 사용량 제한 초과 후 자동 연속, Auto 모드 기본 전환 등 8월 업데이트가 축적되며 개발자 경험을 빠르게 갈고 있다.
+Claude Code가 v2.1.245를 릴리스해 Linux glibc 2.44 환경의 크래시를 수정했다([Claude Code Changelog](https://www.gradually.ai/en/changelogs/claude-code/)). 전일 v2.1.243에서는 루프 작업 토큰 소비 분석 기능이 추가됐다. 8월 17일 추가된 `/design` 스킬(리서치 프리뷰)은 아이디어나 스크린샷을 Claude Design에서 편집 가능한 인터페이스로 변환한다([Origami](https://origami.sa/en/blog/claude-code-august-2026/)). "Concise" 출력 스타일, 사용량 제한 초과 후 자동 연속, Auto 모드 기본 전환 등 8월 업데이트가 축적되며 개발자 경험을 빠르게 갈고 있다.
 
 ## Anthropic: S-1 공개 제출 임박, $2조 IPO 카운트다운
 
 Anthropic의 공개 S-1 서류 제출이 8월 말로 예상된다([Forge](https://forgeglobal.com/anthropic_ipo/)). 투자자들은 10월 나스닥 상장에서 $2조 이상의 밸류에이션을 기대하고 있으며, 이는 SpaceX의 $1.77조 기록을 넘어 사상 최대 IPO가 될 전망이다([Fortune](https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/)). 연환산 매출은 $650억으로 연말 $1,000-1,200억 도달이 예상된다([Fortune](https://fortune.com/2026/08/18/anthropic-annual-revenue-run-rate-65-billion/)).
 
-## Codex CLI: codex doctor 등 8월 기능 폭탄
+## 개발자 커뮤니티: 벤치마크에서 워크플로 적합성으로 전환
 
-Codex CLI가 8월 동안 대규모 업데이트를 쏟아냈다 — `codex doctor` 진단 명령, `/export` 대화 Markdown 내보내기, `codex exec fork` 세션 포킹, Amazon Bedrock 내장 프로바이더 지원 등이 추가됐다([Gradually](https://www.gradually.ai/en/changelogs/codex-cli/)). GPT-5.4/mini는 8/31 ChatGPT 인증 사용자 대상으로 Codex에서 제거 예정이다([Releasebot](https://releasebot.io/updates/openai/codex)).
-
-## Grok Build: xAI의 신규 터미널 코딩 에이전트 등장
-
-xAI가 Grok Build CLI 에이전트를 얼리 베타로 출시했다 — SuperGrok 및 X Premium Plus 구독자 대상이다([xAI](https://x.ai/news/grok-build-cli)). Grok 4.6을 기본 모델로 사용하며 500K 컨텍스트 윈도우와 최대 8개 병렬 서브에이전트를 지원한다. 주목할 점은 Claude Code 설정과 완전 호환된다는 것 — 마켓플레이스, 플러그인, 스킬, MCP, 에이전트, 훅, 인스트럭션 파일을 자동 감지한다([CoderSera](https://codersera.com/blog/grok-build-vs-claude-code-vs-codex-cli-2026/)).
+개발자 커뮤니티에서 도구 평가 기준이 변하고 있다. 벤치마크 비교 대신 "긴 세션에서 컨텍스트를 얼마나 잘 유지하는가?"가 핵심 질문이 됐다([Developers Digest](https://www.developersdigest.tech/blog/what-hacker-news-gets-right-about-ai-coding-agents-2026)). 단일 에이전트의 완전 자율성을 추구하기보다 **여러 제한된 워크플로를 조합**하는 방식이 실제 성과를 내고 있다는 합의가 형성되고 있다([Hacker News](https://news.ycombinator.com/item?id=49318735)).
 
 ## 마켓 펄스
 

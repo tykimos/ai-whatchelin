@@ -13,21 +13,21 @@ OpenAI o3 officially retired from ChatGPT today, August 26, concluding the 90-da
 
 OpenAI o3 has been removed from ChatGPT ([Forkast](https://forkast.news/openai-retired-o3-from-chatgpt-today-the-real-cost-is-the-churn-it-forces-on-everyone-else/)). The API's two snapshots (o3-2025-04-16 and o3-pro-2025-06-10) remain until December 11, but ChatGPT users must now fully transition to GPT-5.6 ([OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)). Following o3: DALL-E GPT exits August 30, GPT-5.4/mini leaves Codex August 31, and Copilot's six-model mass deprecation hits September 1 ([GitHub Roadmap](https://github.com/github/roadmap/issues/1308)). OpenAI is accelerating its strategy to consolidate all reasoning under the GPT-5 architecture.
 
+## GitHub Copilot: Six Models Confirmed for September 1 Deprecation
+
+The full list of models being removed from Copilot on September 1 is now confirmed — Gemini 3.1 Pro, Claude Opus 4.5, Claude Opus 4.6, Claude Sonnet 4.5, Claude Sonnet 4.6, and Raptor mini ([GitHub Changelog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). Claude Sonnet 4.6 remains available only to individual subscribers on annual plans. On September 10, MAI-Code-1-Flash will also be deprecated in favor of MAI-Code-1.1-Flash ([GitHub Changelog](https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash/)). Enterprise admins need to enable replacement models through model policies before the deadline ([C# Corner](https://www.c-sharpcorner.com/article/github-copilot-model-deprecations-testing-replacement-models-before-september/)).
+
 ## Claude Code: v2.1.245 Released, /design Skill in Research Preview
 
-Claude Code released v2.1.245, fixing a crash on Linux with glibc 2.44 ([Claude Code Changelog](https://code.claude.com/docs/en/changelog)). The `/design` skill (research preview, added August 17) converts ideas or screenshots into editable interfaces in Claude Design ([Origami](https://origami.sa/en/blog/claude-code-august-2026/)). The "Concise" output style, auto-continue after usage limits, and Auto mode as the default round out a packed August of developer experience improvements.
+Claude Code released v2.1.245, fixing a crash on Linux with glibc 2.44 ([Claude Code Changelog](https://www.gradually.ai/en/changelogs/claude-code/)). The prior day's v2.1.243 added a token-consumption breakdown for loop tasks. The `/design` skill (research preview, added August 17) converts ideas or screenshots into editable interfaces in Claude Design ([Origami](https://origami.sa/en/blog/claude-code-august-2026/)). The "Concise" output style, auto-continue after usage limits, and Auto mode as the default round out a packed August of developer experience improvements.
 
 ## Anthropic: Public S-1 Filing Imminent, $2T IPO Countdown
 
 Anthropic's public S-1 filing is expected by late August ([Forge](https://forgeglobal.com/anthropic_ipo/)). Investors anticipate a $2 trillion-plus valuation for the October Nasdaq listing — surpassing SpaceX's $1.77T record as the largest IPO in history ([Fortune](https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/)). Annualized revenue has reached $65B, with projections of $100-120B by year-end ([Fortune](https://fortune.com/2026/08/18/anthropic-annual-revenue-run-rate-65-billion/)).
 
-## Codex CLI: Feature Barrage Through August
+## Developer Community: Shifting From Benchmarks to Workflow Fit
 
-Codex CLI shipped a wave of updates throughout August — `codex doctor` diagnostics, `/export` conversation export to Markdown, `codex exec fork` for session forking, and Amazon Bedrock Runtime as a built-in provider ([Gradually](https://www.gradually.ai/en/changelogs/codex-cli/)). GPT-5.4/mini will be removed from Codex for ChatGPT-authenticated users on August 31 ([Releasebot](https://releasebot.io/updates/openai/codex)).
-
-## Grok Build: xAI's New Terminal Coding Agent Enters the Arena
-
-xAI launched Grok Build CLI agent in early beta for SuperGrok and X Premium Plus subscribers ([xAI](https://x.ai/news/grok-build-cli)). It defaults to Grok 4.6 with a 500K context window and up to 8 parallel subagents. Notably, it is fully compatible with Claude Code configuration — automatically discovering marketplaces, plugins, skills, MCPs, agents, hooks, and instruction files ([CoderSera](https://codersera.com/blog/grok-build-vs-claude-code-vs-codex-cli-2026/)).
+A notable shift is underway in how developers evaluate coding agents. The key question has moved from benchmark scores to "does the tool preserve context over long sessions?" ([Developers Digest](https://www.developersdigest.tech/blog/what-hacker-news-gets-right-about-ai-coding-agents-2026)). Rather than pursuing full autonomy from a single agent, developers getting real value are **orchestrating multiple bounded workflows** — a consensus forming across Reddit and Hacker News that practical composition beats theoretical capability ([Hacker News](https://news.ycombinator.com/item?id=49318735)).
 
 ## Market Pulse
 

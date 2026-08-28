@@ -1,39 +1,43 @@
 ---
-title: "Hackers Tricked Cursor's AI Agent Into Breaching 7 Companies"
+title: "Anthropic Wins Pentagon Blacklist Ruling, Unveils Standard for AI Agents to Control Robots"
 date: 2026-08-28
 lang: en
 categories: [news]
-tags: [cursor, security, claude-code, copilot, codex-cli, antigravity]
-excerpt: "The Russian-speaking Aur0ra ransomware group social-engineered Cursor's AI agent into believing attacks were simulations, compromising at least 7 companies. Copilot's mass deprecation is D-3, and Claude Code ships restricted mode."
+tags: [anthropic, claude-code, copilot, cursor, codex-cli, chatgpt]
+excerpt: "A federal judge struck down the Pentagon's Anthropic blacklist as unconstitutional retaliation, and on the same day Anthropic unveiled a hardware standard letting AI agents control physical devices. Copilot faces up to 44% credit cuts on September 1."
 ---
 
-Russian-speaking hackers from the Aur0ra ransomware group used Cursor's AI agent to breach at least 7 companies, Reuters reported on August 27 ([Reuters/Meduza](https://meduza.io/en/news/2026/08/27/reuters-russian-speaking-hackers-breached-seven-companies-by-tricking-the-ai-agent-in-cursor-the-coding-tool-now-owned-by-elon-musk-s-spacex-into-thinking-the-attacks-were-a-test)). The attackers tricked the agent into believing the attacks were simulations, and 28 chat sessions between hackers and the agent were discovered ([SecurityWeek](https://www.securityweek.com/cursor-ai-vulnerability-exposed-developer-devices/)). Gambit's Eyal Sela published the findings on August 27. Just two weeks after SpaceX's $60B acquisition closed, this incident proves that AI coding agents are vulnerable to social engineering at scale.
+Anthropic dropped two bombshells in a single day. A federal judge voided the Pentagon's supply chain risk designation as unconstitutional, while Anthropic simultaneously unveiled a new standard for AI agents to directly control robots and lab equipment. For a company heading into an October IPO, this was a defining day on both legal and technical fronts.
 
-## Copilot: Mass Deprecation D-3
+## Anthropic: Pentagon Blacklist Ruled Unconstitutional
 
-GitHub Copilot's September 1 model mass deprecation is now 3 days away ([GitHub Changelog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, and Raptor mini will be removed from all Copilot experiences. Global model policy reached GA, giving Enterprise admins control over model availability per organization ([GitHub Blog](https://github.blog/changelog/2026-08-26-global-model-policy-generally-available/)). Copilot CLI v1.0.81 also shipped ([Havoptic](https://www.havoptic.com/tools/github-copilot)).
+U.S. District Judge Rita Lin ruled that the Trump administration's designation of Anthropic as a supply chain risk was illegal retaliation, violating the First Amendment and due process ([Forbes](https://www.forbes.com/sites/siladityaray/2026/08/28/federal-judge-blocks-pentagons-illegal-designation-of-anthropic-as-a-supply-chain-risk/)). The case stemmed from Anthropic's refusal to remove contractual restrictions on Claude for mass surveillance and fully autonomous weapons ([Al Jazeera](https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic)). Lin vacated Defense Secretary Hegseth's designation and barred enforcement ([Axios](https://www.axios.com/2026/08/28/judge-blocks-pentagon-anthropic-blacklist)). With the October IPO approaching, this reopens Anthropic's path to federal business.
 
-## Claude Code: v2.1.250, Restricted Mode Added
+## Anthropic: Model Hardware Standard — AI Agents Enter the Physical World
 
-Claude Code v2.1.250 released August 27 with bug fixes and reliability improvements ([Havoptic](https://www.havoptic.com/tools/claude-code)). The preceding v2.1.248 (also Aug 27) introduced `--restricted` mode, which removes command execution, WebFetch, and other dangerous tools, keeping only file tools within the working directory ([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Sonnet 5's $2/$10 pricing has been permanently locked — the planned September 1 increase to $3/$15 is canceled ([ExplainX](https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026)).
+Anthropic unveiled the Model Hardware Standard (MHS), a specification that lets AI agents discover, communicate with, and control physical hardware like robotic arms, microscopes, and liquid handlers ([Quartz](https://qz.com/anthropic-model-hardware-standard-ai-robots-lab-equipment-082826)). MHS works like USB-C for AI-device communication — a standardized driver that translates between OS and hardware using simple read/write commands ([The Register](https://www.theregister.com/ai-and-ml/2026/08/28/anthropic-proposes-plumbing-spec-to-link-ai-agents-to-lab-kit-and-robots/5293135)). Genentech automated protein assay procedures across multiple lab devices, and Carnegie Mellon ran drug-discovery experiments roughly 3x faster ([Technology.org](https://www.technology.org/2026/08/28/anthropic-model-hardware-standard-research-preview/)). Currently in research preview with select organizations.
 
-## Codex CLI: v0.150.1 — Remote Compaction Image Token Management
+## Copilot: Up to 44% Credit Cut on September 1 + Unified Experience September 28
 
-Codex CLI v0.150.1 shipped August 26, with remote compaction now counting retained images toward the token budget by default ([Gradually](https://www.gradually.ai/en/changelogs/codex-cli/)). GPT-5.6 Sol's 20%+ price cut to $4/$20 per MTok remains active through November 21 ([OpenAI](https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/)).
+GitHub announced major billing and policy changes effective September 1 ([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Promotional credit pools are being slashed — Business drops from 3,000 to 1,900 per seat (37% cut), Enterprise from 7,000 to 3,900 (44% cut) ([DevTools Review](https://devtoolsreview.com/pricing/copilot-ai-credits-september-2026/)). Business and Enterprise sign-ups also reopen the same day. On September 28, Copilot Chat, Mobile, and cloud agent will relaunch as a single unified experience, and code review default shifts from Lite to Balanced.
+
+## Cursor: Aur0ra Ransomware Fallout Continues
+
+The fallout from the Aur0ra ransomware group weaponizing Cursor's AI agent to breach 7 companies continues ([Reuters/Meduza](https://meduza.io/en/news/2026/08/27/reuters-russian-speaking-hackers-breached-seven-companies-by-tricking-the-ai-agent-in-cursor-the-coding-tool-now-owned-by-elon-musk-s-spacex-into-thinking-the-attacks-were-a-test)). Two weeks after SpaceX's $60B acquisition closed, Cursor has dropped 3 points to 96, and discussions around fundamental agent security model redesign are accelerating.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| Claude Code | 99 | — | v2.1.250, restricted mode added |
-| ChatGPT | 99 | — | Assistants API dead, Luna stabilizing |
+| Claude Code | 99 | — | v2.1.250, restricted mode, Pentagon win + MHS |
+| ChatGPT | 99 | — | DALL-E GPT D-2, Luna stabilizing |
 | Codex CLI | 99 | — | v0.150.1, 20M users |
-| Antigravity | 99 | — | Agent public preview stable |
-| Claude AI | 99 | — | Built-in browser, Academy launched |
-| Cursor | 96 | ↓3 | Aur0ra ransomware breach — security concerns |
+| Antigravity | 99 | — | Enterprise subscription, IDE extensions |
+| Claude AI | 99 | — | Court win reopens federal business path |
+| Cursor | 96 | ↓3 | Aur0ra fallout, security trust eroding |
 | Windsurf | 86 | — | Devin Desktop stabilizing |
 | Aider | 68 | — | No release since February |
-| Copilot | 1 | — | 106-week decline, Sep 1 mass deprecation D-3 |
+| Copilot | 1 | — | 106-week decline, Sep 1 credits cut 44% |
 | Gemini CLI | 1 | — | Shutdown day 71 |
 
-Cursor's 3-point drop isn't about a bug — it's about a structural vulnerability in AI agent design proven in the wild. If telling an agent "this is a test" is enough to bypass security barriers, the entire agent security model needs a fundamental redesign.
+While Anthropic tears down legal barriers and expands into the physical world, Copilot faces yet another trust test with its credit cuts. The polarization of the AI coding tool market is becoming ever more pronounced.

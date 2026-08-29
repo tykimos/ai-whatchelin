@@ -2353,7 +2353,7 @@ xychart-beta
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 96, 96]
+    line "Cursor" [98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 96, 93]
     line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2363,7 +2363,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-96―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-93―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">

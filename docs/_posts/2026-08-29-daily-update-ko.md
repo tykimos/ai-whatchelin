@@ -11,7 +11,7 @@ OpenAI가 오늘(8월 29일) Cursor와의 파트너십 종료를 공식 발표�
 
 ## Cursor: OpenAI 모델 11월 12일 셧오프 — "SpaceX가 약관을 지킬 것이라 확신할 수 없다"
 
-OpenAI는 "SpaceX가 우리 기술을 이용 약관 내에서 사용할 것이라 확신할 수 없다"며 결별 사유를 밝혔다([Teslarati](https://www.teslarati.com/openai-cites-distrust-of-spacex-in-decision-to-drop-cursor-partnership/)). 8월 14일 올스톡 거래로 SpaceX 인수가 완료된 지 불과 2주 만이다([TechCrunch](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/)). Cursor는 이미 xAI의 Grok 4.6을 도입해 장기 에이전트와 시각 작업을 지원하고 있으며, Origin 코드 호스팅 플랫폼으로 GitHub 대체를 시도하고 있다([TechCrunch](https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/)). 하지만 Aur0ra 랜섬웨어 사태에 이은 두 번째 신뢰 위기로, 점수는 96에서 93으로 하락했다.
+OpenAI는 "SpaceX가 우리 기술을 이용 약관 내에서 사용할 것이라 확신할 수 없다"며 결별 사유를 밝혔다([Teslarati](https://www.teslarati.com/openai-cites-distrust-of-spacex-in-decision-to-drop-cursor-partnership/)). 8월 14일 올스톡 거래로 SpaceX 인수가 완료된 지 불과 2주 만이다([TechCrunch](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/)). Cursor CEO Michael Truell은 OpenAI가 전체 사용자의 5%만 담당하고 있다며 영향을 축소했다([WCCFTech](https://wccftech.com/anthropic-pounces-as-openai-abandons-spacexs-cursor-vowing-to-increase-claude-compute-even-as-openai-cites-contract-distrust/)). Cursor는 이미 xAI의 Grok 4.6을 도입해 장기 에이전트와 시각 작업을 지원하고 있으며, Origin 코드 호스팅 플랫폼으로 GitHub 대체를 시도하고 있다([TechCrunch](https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/)). 하지만 Aur0ra 랜섬웨어 사태에 이은 두 번째 신뢰 위기로, 점수는 96에서 93으로 하락했다.
 
 ## ChatGPT: DALL-E GPT 내일 최종 퇴장, GPT-5.6 Sol 20% 할인
 
@@ -21,9 +21,9 @@ DALL-E GPT가 8월 30일자로 ChatGPT에서 영구 제거된다([Tom's Guide](h
 
 9월 1일 Copilot은 프로모션 크레딧 Business 37%, Enterprise 44% 삭감과 함께 6개 모델 일괄 폐지를 단행한다([GitHub Changelog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). 여기에 8월 28일 발표된 빌링 정책 개편까지 더해져, 9월 28일경 Copilot Chat·Mobile·Cloud Agent가 통합 경험으로 재출시될 예정이다([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). MAI-Code-1-Flash도 9월 10일 폐지, MAI-Code-1.1-Flash로 교체된다([GitHub Changelog](https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash/)).
 
-## Anthropic: Claude MHS 발표 — AI가 로봇과 실험 장비를 제어한다
+## Anthropic: Cursor에 컴퓨트 확대 약속 + Sonnet 5 프로모 8월 31일 종료
 
-Anthropic이 8월 27일 MHS(Model Hardware Standard)를 공개했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools)). Claude가 로봇과 과학·제조 장비를 직접 제어할 수 있는 소프트웨어 표준으로, AI for Science 크레딧과 과학자 대상 10,000석 무료·할인 제공이 병행된다. Claude Code는 restricted 모드, 크로스세션 메시징, Enterprise 사용량 크레딧 등을 추가하며 안정적 최상위를 유지하고 있다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)).
+Anthropic 공동창업자 Tom Brown은 OpenAI의 Cursor 모델 공급 중단 발표 직후, "Cursor 내 Claude 모델 지원을 위한 컴퓨트를 지속 확대하겠다"고 공개 선언했다([WCCFTech](https://wccftech.com/anthropic-pounces-as-openai-abandons-spacexs-cursor-vowing-to-increase-claude-compute-even-as-openai-cites-contract-distrust/)). 이는 OpenAI가 빠진 자리를 Anthropic이 적극 차지하겠다는 직접적 경쟁 행보다. 한편 Sonnet 5 API 프로모션 가격($2/$10 MTok)이 8월 31일 종료되며, 이후 $3/$15로 인상된다([Anthropic](https://www.anthropic.com/news/higher-limits-spacex)). Claude Code는 restricted 모드, 크로스세션 메시징, Enterprise 사용량 크레딧 등을 추가하며 안정적 최상위를 유지하고 있다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)).
 
 ## 마켓 펄스
 

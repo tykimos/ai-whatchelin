@@ -11,15 +11,15 @@ DALL-E GPT가 오늘(8월 30일) ChatGPT에서 영구 제거되었다([Inc](http
 
 ## Copilot: D-1 — 24시간 후 크레딧 삭감·모델 폐기·가입 재개
 
-9월 1일까지 24시간이다. Business 프로모 크레딧이 3,000에서 1,900으로 37% 삭감되고, Enterprise는 7,000에서 3,900으로 44% 삭감된다([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, Raptor mini 등 6개 모델이 일괄 폐기된다([GitHub Changelog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). 8월 28일 VS 업데이트로 조직/엔터프라이즈 관리자가 커스텀 에이전트를 레포 전체에 배포할 수 있게 되었고, Slack에서 @GitHub으로 에이전틱 코딩 기능도 공개 프리뷰 중이다([GitHub Blog](https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2/)).
+9월 1일까지 24시간이다. Business 프로모 크레딧이 3,000에서 1,900으로 37% 삭감되고, Enterprise는 7,000에서 3,900으로 44% 삭감된다([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, Raptor mini 등 6개 모델이 일괄 폐기된다([GitHub Changelog](https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot/)). 9월 28일 이후에는 github.com의 Copilot Chat, 모바일 Copilot Chat, 클라우드 에이전트가 단일 통합 Copilot 환경으로 재출시될 예정이다([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). 8월 28일 VS 업데이트로 조직/엔터프라이즈 관리자가 커스텀 에이전트를 레포 전체에 배포할 수 있게 되었고, Slack에서 @GitHub으로 에이전틱 코딩 기능도 공개 프리뷰 중이다([GitHub Blog](https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2/)).
 
 ## Cursor: 91로 이틀째 하락 — OpenAI 결별 여파 지속
 
-어제 Bloomberg가 보도한 OpenAI-Cursor 파트너십 종료 소식이 업계에 계속 파문을 일으키고 있다([The Coin Republic](https://www.thecoinrepublic.com/2026/08/30/openai-news-openai-dumps-cursor-after-spacex-deal-sets-november-cutoff/)). 11월 12일 GPT 모델 접근 차단까지 74일, Cursor는 Grok 4.6과 Anthropic Claude로 대체하고 있지만 Aur0ra 랜섬웨어에 이은 두 번째 신뢰 위기가 점수를 끌어내리고 있다. Anthropic 공동창업자 Tom Brown은 "Cursor 내 Claude 모델 컴퓨트를 지속 확대하겠다"고 즉각 선언했다([WCCFTech](https://wccftech.com/anthropic-pounces-as-openai-abandons-spacexs-cursor-vowing-to-increase-claude-compute-even-as-openai-cites-contract-distrust/)).
+어제 Bloomberg가 보도한 OpenAI-Cursor 파트너십 종료 소식이 업계에 계속 파문을 일으키고 있다([The Coin Republic](https://www.thecoinrepublic.com/2026/08/30/openai-news-openai-dumps-cursor-after-spacex-deal-sets-november-cutoff/)). 11월 12일 GPT 모델 접근 차단까지 74일, Cursor는 Grok 4.6과 Anthropic Claude로 대체하고 있지만 Aur0ra 랜섬웨어에 이은 두 번째 신뢰 위기가 점수를 끌어내리고 있다. Cursor CEO Michael Truell은 "OpenAI 모델은 Cursor 사용자 트래픽의 약 5%에 불과하다"며 영향을 최소화했지만, OpenAI 팀과 해결을 위한 대화 중이라고 밝혔다([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). Anthropic 공동창업자 Tom Brown은 "Cursor 내 Claude 모델 컴퓨트를 지속 확대하겠다"고 즉각 선언했다([WCCFTech](https://wccftech.com/anthropic-pounces-as-openai-abandons-spacexs-cursor-vowing-to-increase-claude-compute-even-as-openai-cites-contract-distrust/)).
 
-## Claude Code: 경량화·토큰 가시성 강화
+## Claude Code: 경량화·토큰 가시성 강화 + 9월 14일 한도 변경 예고
 
-Claude Code 최신 업데이트에서 CLI가 샌드박스 로드 전에 시작되도록 개선되어 체감 속도가 빨라졌다([explainx.ai](https://explainx.ai/blog/claude-code-weekly-update-faster-startup-token-visibility-august-2026)). Linux 빌드가 약 75MB로 축소되었으며, /cost와 /usage, /tasks 명령에 토큰 세부 정보가 추가되었다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Sonnet 5의 $2/$10 가격도 영구 확정되어 개발자들의 비용 부담이 안정화되었다([Enterprise DNA](https://enterprisedna.co/resources/news/anthropic-claude-sonnet-5-pricing-permanent-reversal-august-2026/)).
+Claude Code 최신 업데이트에서 CLI가 샌드박스 로드 전에 시작되도록 개선되어 체감 속도가 빨라졌다([explainx.ai](https://explainx.ai/blog/claude-code-weekly-update-faster-startup-token-visibility-august-2026)). Linux 빌드가 약 75MB로 축소되었으며, /cost와 /usage, /tasks 명령에 토큰 세부 정보가 추가되었다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Sonnet 5의 $2/$10 가격도 영구 확정되어 개발자들의 비용 부담이 안정화되었다([Enterprise DNA](https://enterprisedna.co/resources/news/anthropic-claude-sonnet-5-pricing-permanent-reversal-august-2026/)). 한편, Anthropic은 현재 적용 중인 50% 프로모션 한도 증가가 9월 14일 종료되고, 이후 영구 25% 인상으로 대체된다고 발표했다([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)). 결과적으로 현재 대비 약 17% 감소이지만, 프로모션 이전 기준으로는 25% 증가분이 영구 유지된다([Notebookcheck](https://www.notebookcheck.net/Anthropic-announces-a-25-increase-to-Claude-Code-limits-but-there-s-a-17-catch.1382735.0.html)).
 
 ## Codex: Appshots + v0.151.0 신규 기능
 
@@ -33,7 +33,7 @@ Codex가 macOS에서 Appshots 기능을 도입해 단축키로 앱 윈도우의 
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| Claude Code | 99 | — | CLI 경량화, 토큰 가시성 강화, 안정적 최상위 |
+| Claude Code | 99 | — | CLI 경량화, 9/14 한도 변경 예고, 안정적 최상위 |
 | ChatGPT | 99 | — | DALL-E GPT 오늘 퇴장, ChatGPT Images 대체 |
 | Codex CLI | 99 | — | Appshots, v0.151.0, --approve-for-me |
 | Antigravity | 99 | — | 버전 관리 개선, IDE 확장 안정 |

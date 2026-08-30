@@ -1262,6 +1262,22 @@ timeline
          : Anthropic 모델 하드웨어 표준(MHS) 공개 — AI 에이전트가 물리적 하드웨어(로봇, 실험 장비) 탐색·제어, Genentech/Carnegie Mellon 초기 결과 실험 3배 가속 (8/28)
          : Copilot 과금/정책 변경 — 프로모 크레딧 9/1 축소(Business 3,000→1,900, Enterprise 7,000→3,900), 신규 가입 재개, 통합 Copilot 경험 9/28 (8/28)
          : DALL-E GPT 8/30 은퇴 — D-2, ChatGPT Images 대체 (8/28)
+         : OpenAI Cursor 파트너십 종료 — GPT 모델 접근 11/12 차단, SpaceX 불신 이유 (8/29)
+         : Cursor 93으로 하락 — OpenAI 결별, Grok 4.6·Claude로 전환 중 (8/29)
+         : Anthropic Cursor 컴퓨트 확대 선언 — Tom Brown, OpenAI 철수 후 Claude 용량 증설 약속 (8/29)
+         : Sonnet 5 $2/$10 가격 영구 확정 (8/29)
+         : Codex CLI v0.151.0 — MCP 그레이스 기간 설정, --approve-for-me 자동 승인 (8/29)
+         : Copilot 107주 하락, 바닥(1) — 9/1 대폐기 D-2 (8/29)
+         : Gemini CLI 폐쇄 72일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/29)
+         : DALL-E GPT ChatGPT에서 공식 제거 — ChatGPT Images 대체 (8/30)
+         : Cursor 91로 하락 — OpenAI 결별 이틀째 하락 (8/30)
+         : Codex Appshots macOS 도입 — 핫키로 앱 윈도우 시각적 컨텍스트 첨부 (8/30)
+         : Claude Code 시작 속도 개선 — CLI가 샌드박스 로드 전 시작, Linux 바이너리 ~75 MB (8/30)
+         : Copilot VS 8월 업데이트 — 조직/엔터프라이즈 커스텀 에이전트 레포 전체 배포 (8/28)
+         : Copilot Slack 통합 공개 프리뷰 — @GitHub 에이전틱 기능 Slack 지원 (8/21)
+         : Grok CLI 상위 5위 CLI 에이전트 진입 — 무료 오픈소스, Git 워크플로우, MCP 서버 지원 (8/30)
+         : Copilot 108주 하락, 바닥(1) — 9/1 대폐기 D-1 (8/30)
+         : Gemini CLI 폐쇄 73일째 — 소비자 접근 차단, Antigravity 완전 대체 (8/30)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

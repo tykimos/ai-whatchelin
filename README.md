@@ -1262,6 +1262,22 @@ timeline
          : Anthropic Model Hardware Standard (MHS) unveiled — AI agents discover and control physical hardware (robots, lab equipment), Genentech/Carnegie Mellon early results 3x faster experiments (Aug 28)
          : Copilot billing/policy changes — promo credits drop Sep 1 (Business 3,000→1,900, Enterprise 7,000→3,900), sign-ups reopen, unified Copilot experience Sep 28 (Aug 28)
          : DALL-E GPT retiring Aug 30 — D-2, ChatGPT Images replacement (Aug 28)
+         : OpenAI terminates Cursor partnership — GPT model access cutoff Nov 12, cites SpaceX distrust (Aug 29)
+         : Cursor drops to 93 — OpenAI breakup, pivoting to Grok 4.6 and Claude (Aug 29)
+         : Anthropic pledges more Cursor compute — Tom Brown commits to increasing Claude capacity after OpenAI cutoff (Aug 29)
+         : Sonnet 5 $2/$10 pricing confirmed permanent (Aug 29)
+         : Codex CLI v0.151.0 — configurable MCP grace period, --approve-for-me auto-reviewed approvals (Aug 29)
+         : Copilot 107-week decline at floor (1) — Sept 1 mass deprecation D-2 (Aug 29)
+         : Gemini CLI shutdown Day 72 — consumer access closed, Antigravity full replacement (Aug 29)
+         : DALL-E GPT officially removed from ChatGPT — ChatGPT Images replacement (Aug 30)
+         : Cursor drops to 91 — second day of OpenAI breakup decline (Aug 30)
+         : Codex Appshots on macOS — visual context via hotkey attachment (Aug 30)
+         : Claude Code startup speed improved — CLI starts before sandbox loads, Linux binary ~75 MB (Aug 30)
+         : Copilot VS August update — org/enterprise custom agent publishing across repos (Aug 28)
+         : Copilot Slack integration public preview — @GitHub agentic capabilities in Slack (Aug 21)
+         : Grok CLI enters top-5 CLI agent rankings — free open-source, Git workflows, MCP server support (Aug 30)
+         : Copilot 108-week decline at floor (1) — Sept 1 mass deprecation D-1 (Aug 30)
+         : Gemini CLI shutdown Day 73 — consumer access closed, Antigravity full replacement (Aug 30)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

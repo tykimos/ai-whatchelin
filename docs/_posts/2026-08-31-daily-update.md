@@ -29,9 +29,9 @@ Google Antigravity added a built-in Guide skill for in-tool usage guidance ([Rel
 
 GPT-5.4 and GPT-5.4 mini officially retired from Codex for ChatGPT-authenticated users today ([Istar](https://istarsoft.com/guides/gpt-5-4-leaves-chatgpt-signed-codex-august-31-2026/)). The recommended replacements are gpt-5.6-terra (for GPT-5.4) and gpt-5.6-luna (for GPT-5.4 mini) ([Vellum](https://www.vellum.ai/blog/gpt-5-6-sol-terra-luna-explained)). API key users retain access, but ChatGPT-based Codex sessions have fully transitioned. Separately, ChatGPT added progressive content rendering — interactive outputs now appear while still generating — and local time zone awareness ([OpenAI Release Notes](https://openai.com/products/release-notes/)).
 
-## Claude: Claude for Teachers Launches Free for K-12
+## Claude: Infostealer Malware Hijacking Sessions
 
-Anthropic launched Claude for Teachers, a free enterprise offering for K-12 schools and districts ([Anthropic Newsroom](https://www.anthropic.com/news)). The program includes centrally managed access, SSO, role-based controls, and standards-aligned teaching tools, with back-to-school resources for lesson prep and checks for understanding.
+Anthropic warned that infostealer malware (Vidar, Lumma, StealC, RedLine, Atomic Stealer) on user PCs has been stealing active Claude session cookies, allowing attackers to drain paid usage quotas without passwords or 2FA ([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/)). Anthropic's own systems were not compromised; affected users are being signed out, payment methods wiped, and refunds issued ([SecurityWeek](https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/)). Separately, Claude for Teachers launched as a free enterprise offering for K-12 schools and districts ([Anthropic Newsroom](https://www.anthropic.com/news)).
 
 ## Market Pulse
 

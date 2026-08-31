@@ -25,6 +25,14 @@ The Codex browser extension expanded to Chrome, Edge, Brave, Opera, and Vivaldi 
 
 Google Antigravity added a built-in Guide skill for in-tool usage guidance ([Releasebot](https://releasebot.io/updates/google/antigravity)). Audio file playback (.mp3, .wav, .ogg, .m4a) is now available directly in the sidebar viewer, alongside C++/Python/Protobuf syntax highlighting and optimized file watching for improved performance ([Releasebot](https://releasebot.io/updates/google/antigravity)).
 
+## ChatGPT: GPT-5.4 Exits Codex Today — GPT-5.6 Era Begins
+
+GPT-5.4 and GPT-5.4 mini officially retired from Codex for ChatGPT-authenticated users today ([Istar](https://istarsoft.com/guides/gpt-5-4-leaves-chatgpt-signed-codex-august-31-2026/)). The recommended replacements are gpt-5.6-terra (for GPT-5.4) and gpt-5.6-luna (for GPT-5.4 mini) ([Vellum](https://www.vellum.ai/blog/gpt-5-6-sol-terra-luna-explained)). API key users retain access, but ChatGPT-based Codex sessions have fully transitioned. Separately, ChatGPT added progressive content rendering — interactive outputs now appear while still generating — and local time zone awareness ([OpenAI Release Notes](https://openai.com/products/release-notes/)).
+
+## Claude: Claude for Teachers Launches Free for K-12
+
+Anthropic launched Claude for Teachers, a free enterprise offering for K-12 schools and districts ([Anthropic Newsroom](https://www.anthropic.com/news)). The program includes centrally managed access, SSO, role-based controls, and standards-aligned teaching tools, with back-to-school resources for lesson prep and checks for understanding.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |

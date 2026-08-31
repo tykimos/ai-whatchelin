@@ -25,6 +25,14 @@ Codex 브라우저 확장이 Chrome, Edge, Brave, Opera, Vivaldi로 확대되었
 
 Google Antigravity가 내장 Guide 스킬을 추가해 사용법 안내를 도구 내에서 바로 제공한다([Releasebot](https://releasebot.io/updates/google/antigravity)). .mp3/.wav/.ogg/.m4a 오디오 파일을 사이드바에서 직접 재생할 수 있게 되었고, C++·Python·Protobuf 구문 강조와 파일 감시 최적화로 성능이 개선되었다([Releasebot](https://releasebot.io/updates/google/antigravity)).
 
+## ChatGPT: GPT-5.4 Codex 퇴출 발효 — GPT-5.6 시대 본격 개막
+
+오늘부로 GPT-5.4와 GPT-5.4 mini가 ChatGPT 인증 Codex 사용자에게서 공식 퇴출되었다([Istar](https://istarsoft.com/guides/gpt-5-4-leaves-chatgpt-signed-codex-august-31-2026/)). 대체 모델은 gpt-5.6-terra(GPT-5.4 대체)와 gpt-5.6-luna(GPT-5.4 mini 대체)다([Vellum](https://www.vellum.ai/blog/gpt-5-6-sol-terra-luna-explained)). API 키 인증 사용자는 계속 접근 가능하지만, ChatGPT를 통한 접근은 완전 종료됐다. 한편 ChatGPT에 프로그레시브 콘텐츠 렌더링(생성 중 실시간 표시)과 로컬 시간대 자동 인식 기능이 새로 추가됐다([OpenAI Release Notes](https://openai.com/products/release-notes/)).
+
+## Claude: Claude for Teachers 무료 출시
+
+Anthropic이 K-12 교육자를 위한 Claude for Teachers를 무료 엔터프라이즈 솔루션으로 출시했다([Anthropic Newsroom](https://www.anthropic.com/news)). 학교·학군 단위 중앙 관리, SSO, 역할 기반 접근 제어, 교육 표준 연계 도구를 포함하며, 개학 시즌에 맞춰 수업 준비와 이해도 점검 리소스를 함께 공개했다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |

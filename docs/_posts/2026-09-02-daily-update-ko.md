@@ -19,11 +19,11 @@ Cursor가 6일째 하락을 이어가며 85를 기록했다. 8월 28일 99에서
 
 ## GitHub Copilot: D-Day+1 — 크레딧 삭감과 6개 모델 폐기 시행 중
 
-9월 1일 D-Day가 발효되면서 Copilot Business 크레딧이 3,000→1,900(37% 삭감), Enterprise는 7,000→3,900(44% 삭감)으로 줄었다([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, Raptor mini 등 6개 모델이 일괄 폐기됐으며, 10월 1일부터는 기존 고객도 전원 선불 과금으로 전환된다([GitHub Changelog](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated/)).
+9월 1일 D-Day가 발효되면서 Copilot Business 크레딧이 3,000→1,900(37% 삭감), Enterprise는 7,000→3,900(44% 삭감)으로 줄었다([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, Raptor mini 등 6개 모델이 일괄 폐기됐으며, 10월 1일부터는 기존 고객도 전원 선불 과금으로 전환된다([GitHub Changelog](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated/)). 한편 9월 28일부터 github.com Copilot Chat, Mobile Chat, 클라우드 에이전트가 단일 통합 환경으로 재출시되며, 채팅 데이터 보존 기간이 28일에서 계정 수명 전체로 확대된다([Developers Digest](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026)).
 
-## Claude.ai: Microsoft 365 쓰기 도구 + Claudeforce
+## Claude.ai: Microsoft 365 쓰기 도구 + Claudeforce + 콘텐츠 인증
 
-Claude.ai의 Microsoft 365 커넥터에 쓰기 기능이 추가됐다. 이메일 초안·발송, 캘린더 관리, OneDrive·SharePoint 파일 생성·수정이 가능해졌다([Releasebot](https://releasebot.io/updates/anthropic/claude)). Salesforce와의 Claudeforce 파트너십도 공개돼, Claude가 Agentforce·Slack·개발자 도구의 기본 추론 모델로 탑재되며 37개 사전 구축 판매 스킬이 9월 오픈 베타를 앞두고 있다([AI Agent Store](https://aiagentstore.ai/ai-agent-news/today)).
+Claude.ai의 Microsoft 365 커넥터에 쓰기 기능이 추가됐다. 이메일 초안·발송, 캘린더 관리, OneDrive·SharePoint 파일 생성·수정이 가능해졌다([Releasebot](https://releasebot.io/updates/anthropic/claude)). Salesforce와의 Claudeforce 파트너십도 공개돼, Claude가 Agentforce·Slack·개발자 도구의 기본 추론 모델로 탑재되며 37개 사전 구축 판매 스킬이 9월 오픈 베타를 앞두고 있다([AI Agent Store](https://aiagentstore.ai/ai-agent-news/today)). Anthropic은 또한 claude.com/check-content에서 C2PA 콘텐츠 자격 증명을 읽어 파일이 Claude로 생성·편집되었는지 확인하는 무료 브라우저 도구를 출시했다([Tech Startups](https://techstartups.com/2026/09/02/top-tech-news-today-september-2-2026-anthropic-google-meta-nvidia-perplexity-openai-tencent-more/)).
 
 ## ChatGPT: 9월 기능 업데이트 물결
 

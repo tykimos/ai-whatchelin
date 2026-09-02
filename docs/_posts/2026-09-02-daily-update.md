@@ -17,13 +17,13 @@ Fable 5.1 keeps the same $10/$50/MTok input/output pricing as its predecessor, b
 
 Cursor fell for a sixth consecutive day to 85, shedding 14 points total since its 99 peak on August 27. With OpenAI's November 12 model access cutoff now D-71 away ([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)), the transition to Grok 4.6 and Anthropic's Claude models remains the central challenge.
 
-## GitHub Copilot: D-Day+1 — Credit Cuts and 6-Model Purge in Effect
+## GitHub Copilot: D-Day+1 — Credit Cuts, 6-Model Purge, and Unified Experience Incoming
 
-September 1 D-Day went live: Copilot Business credits dropped from 3,000 to 1,900 (37% cut) and Enterprise from 7,000 to 3,900 (44% cut) ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Six models were deprecated including Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, and Raptor mini. All existing customers will transition to prepaid billing on October 1 ([GitHub Changelog](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated/)).
+September 1 D-Day went live: Copilot Business credits dropped from 3,000 to 1,900 (37% cut) and Enterprise from 7,000 to 3,900 (44% cut) ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Six models were deprecated including Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, and Raptor mini. All existing customers will transition to prepaid billing on October 1 ([GitHub Changelog](https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated/)). Starting September 28, GitHub will merge Copilot Chat on github.com, Copilot Chat in GitHub Mobile, and the cloud agent into a single unified experience — and chat data retention shifts from 28 days to the lifetime of the account ([Developers Digest](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026)).
 
-## Claude.ai: Microsoft 365 Write Tools + Claudeforce
+## Claude.ai: Microsoft 365 Write Tools + Claudeforce + Content Verification
 
-Claude.ai's Microsoft 365 connector gained write capabilities — draft and send email, manage calendar events, and create or update files in OneDrive and SharePoint ([Releasebot](https://releasebot.io/updates/anthropic/claude)). The Claudeforce partnership with Salesforce embeds Claude as the default reasoning model across Agentforce, Slack, and developer tools with 37 prebuilt sales skills heading into a September open beta ([AI Agent Store](https://aiagentstore.ai/ai-agent-news/today)).
+Claude.ai's Microsoft 365 connector gained write capabilities — draft and send email, manage calendar events, and create or update files in OneDrive and SharePoint ([Releasebot](https://releasebot.io/updates/anthropic/claude)). The Claudeforce partnership with Salesforce embeds Claude as the default reasoning model across Agentforce, Slack, and developer tools with 37 prebuilt sales skills heading into a September open beta ([AI Agent Store](https://aiagentstore.ai/ai-agent-news/today)). Anthropic also launched a free browser tool at claude.com/check-content that reads C2PA content credentials to verify whether a file was created or edited with Claude ([Tech Startups](https://techstartups.com/2026/09/02/top-tech-news-today-september-2-2026-anthropic-google-meta-nvidia-perplexity-openai-tencent-more/)).
 
 ## ChatGPT: September Feature Wave
 

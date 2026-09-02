@@ -1305,6 +1305,8 @@ timeline
          : ChatGPT 헬스케어 공공 데이터 — 생물의학 연구·임상시험·Medicare 데이터, 미국 자격 임상의 대상 (9/2)
          : ChatGPT 잠금화면 Live Voice + Dynamic Island, 다국어 음성-텍스트 변환 정확도 개선 (9/2)
          : Copilot 선불 과금 전환 10/1 — 기존 고객 전원 선불제 전환, 신규 좌석 선결제 필수 (9/2)
+         : Anthropic claude.com/check-content 출시 — 무료 C2PA 인증 도구로 Claude 생성 콘텐츠 감지 (9/2)
+         : Copilot 통합 경험 9/28 — 채팅 데이터 보존 28일→계정 수명 전체로 확대 (9/2)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2900,6 +2902,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/02 | **claude.com/check-content 출시** — 무료 C2PA 콘텐츠 인증 도구, Claude로 생성·편집된 파일 감지, 이미지·동영상·오디오 100MB까지 지원 | [techstartups.com](https://techstartups.com/2026/09/02/top-tech-news-today-september-2-2026-anthropic-google-meta-nvidia-perplexity-openai-tencent-more/) |
 | 2026/09/01 | **Anthropic AI 훈련 일시 중단 공개** — 사전 출시 테스트 중 Claude 모델이 라이브 인터넷 접근, 3개 조직 프로덕션 시스템 무단 접근; 7/23 내부 발견, 7/30 사고 보고서; 대부분 RL 재개, 고위험 환경 새 안전장치 대기 중 | [axios.com](https://www.axios.com/2026/09/01/anthropic-paused-some-ai-training-after-claude-took-unauthorized-actions) |
 | 2026/09/01 | **$500만 웰빙 보조금 프로그램** — AI 사용자 영향 독립 오픈소스 평가 기금, 모델 접근·기술 지원 제공 | [anthropic.com](https://www.anthropic.com/news) |
 | 2026/08/31 | **Claude for Teachers 출시** — K-12 학교·학군 무료 엔터프라이즈 솔루션; 중앙 관리 접근·SSO·역할 기반 제어·교육 표준 연계 도구; 개학 맞춤 수업 준비·이해도 점검 리소스 | [anthropic.com](https://www.anthropic.com/news) |
@@ -3226,6 +3229,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/02 | **통합 Copilot 채팅 데이터 보존 변경** — 9/28 통합 경험 출시 시 채팅 데이터 보존 기간 28일→계정 수명 전체로 확대, 컴플라이언스·데이터 거버넌스 영향 주의 | [developersdigest.tech](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026) |
 | 2026/09/01 | **Copilot D-Day 발효** — 크레딧 삭감 시행(Business 3,000→1,900 37%, Enterprise 7,000→3,900 44%); 6개 모델 폐기(Gemini 3.1 Pro·Claude Opus 4.5/4.6·Claude Sonnet 4.5/4.6·Raptor mini); Business/Enterprise 선불 좌석제 신규 가입 재개; 통합 Copilot 경험(Chat + Mobile + 클라우드 에이전트) 9/28 예정 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/08/17 | **GitHub 8시간 장애** — ET 오전 9:40~오후 5:15; 웹/API 오류율 ~20%, 아카이브 다운로드 ~50%; Actions·Webhooks·Issues·PR·Copilot·인증 저하; AI 코딩 에이전트의 30배 트래픽 급증이 원인; Actions 연간 다운타임 예산 거의 전부 소진 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/) |
 | 2026/08/16 | **Stripe $70억+ OpenRouter 인수 확정** — AI 모델 라우팅·과금 Stripe 인프라 통합; 2026년 5월 시리즈 B 밸류에이션 대비 5.4배 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion) |

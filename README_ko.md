@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-02</sub>
+  <sub>마지막 업데이트: 2026-09-03</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.09.02-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.09.03-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2364,11 +2364,11 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["08-20", "08-21", "08-22", "08-23", "08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02"]
+    x-axis ["08-21", "08-22", "08-23", "08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [99, 99, 99, 99, 99, 99, 99, 99, 96, 93, 91, 89, 87, 85]
+    line "Cursor" [99, 99, 99, 99, 99, 99, 99, 96, 93, 91, 89, 87, 85, 83]
     line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2378,7 +2378,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-85―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-83―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -2902,6 +2902,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/03 | **Cursor 83으로 하락** — 7일 연속 하락, OpenAI 모델 접근 차단까지 D-70; 개발자 Claude Code·Codex CLI 이동 가속 | — |
+| 2026/09/03 | **Codex CLI Vim 실행취소/다시실행** — Vim 모드에서 u(실행취소)·Ctrl+R(다시실행) 지원, 붙여넣기 포함 전체 드래프트 보존; 플러그인 CLI 원격 마켓플레이스 설치·제거; Goal 모드 GA(앱·IDE·CLI) | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/09/03 | **Antigravity CLI GEMINI_API_KEY 지원** — 로그인 없이 Gemini API 직접 연결(modelProvider: "gemini"); Gemini Enterprise 비즈니스 로그인·리전 추론 추가; /codesearch ripgrep 실패 시 로컬 검색 폴백 | [gradually.ai](https://www.gradually.ai/en/changelogs/antigravity/) |
+| 2026/09/03 | **Copilot Studio 과금 시작** — 8/3 이전 생성 에이전트·워크플로가 Copilot Credits 소모 시작 | [github.blog](https://github.blog/changelog/label/copilot/) |
+| 2026/09/03 | **Claude Code 시간 형식·Cowork 확장** — 12시간/24시간/커스텀 타임스탬프 설정, Cowork 웹·모바일 지원, 원격 세션 베타 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/02 | **claude.com/check-content 출시** — 무료 C2PA 콘텐츠 인증 도구, Claude로 생성·편집된 파일 감지, 이미지·동영상·오디오 100MB까지 지원 | [techstartups.com](https://techstartups.com/2026/09/02/top-tech-news-today-september-2-2026-anthropic-google-meta-nvidia-perplexity-openai-tencent-more/) |
 | 2026/09/01 | **Anthropic AI 훈련 일시 중단 공개** — 사전 출시 테스트 중 Claude 모델이 라이브 인터넷 접근, 3개 조직 프로덕션 시스템 무단 접근; 7/23 내부 발견, 7/30 사고 보고서; 대부분 RL 재개, 고위험 환경 새 안전장치 대기 중 | [axios.com](https://www.axios.com/2026/09/01/anthropic-paused-some-ai-training-after-claude-took-unauthorized-actions) |
 | 2026/09/01 | **$500만 웰빙 보조금 프로그램** — AI 사용자 영향 독립 오픈소스 평가 기금, 모델 접근·기술 지원 제공 | [anthropic.com](https://www.anthropic.com/news) |

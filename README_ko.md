@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-03</sub>
+  <sub>마지막 업데이트: 2026-09-04</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.09.03-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.09.04-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1322,6 +1322,12 @@ timeline
          : Codex CLI v0.152.1 — Guardian 승인 검토, Node REPL 정책 반영 (9/1)
          : GPT-6 Astra 출시 — OpenAI 플래그십 모델, $10/$50/MTok, 1.05M 컨텍스트, 128K 출력, Terminal-Bench 57.7%, DeepSWE 74.1%, Greg Brockman "AGI 시대에 오신 것을 환영합니다" (9/3)
          : 동시다발 AI 장애 — ChatGPT·Claude(Opus 4.8/5)·Grok 동시 다운, Azure 인프라 문제 의심, ChatGPT 19개 컴포넌트 장애, PT 12:38 복구 (9/3)
+         : Muse Spark 1.3 출시 — DeepSWE에서 Claude Opus 5 능가(75.4 vs 74.0), Terminal-Bench에서 GPT-5.6 Sol과 동률(88.8), MRCR 512K-1M 98.1%(Spark 1.2 55.5%) (9/3)
+         : GPT-6 Astra 2일차 — 단계적 롤아웃 진행 중, OpenAI "추론 과정 의도적 은폐 가능성" 인정, 3사 동시 장애 공식 원인 미공개 (9/4)
+         : Nvidia/HF 반독점 우려 — The Register "HF는 Nvidia 손에 맡기기엔 너무 중요", HSR 규제 신고, EU·영국 심사 예상, H1 2027 마감 (9/4)
+         : Cursor 81로 하락 — 8일 연속 하락, OpenAI 셧오프 D-69 (9/4)
+         : Copilot 113주 하락, 바닥(1) — 크레딧 삭감 D+3, 9/28 통합 경험 출시 예정 (9/4)
+         : Gemini CLI 폐쇄 78일째 — 소비자 접근 차단 (9/4)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2385,11 +2391,11 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["08-21", "08-22", "08-23", "08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03"]
+    x-axis ["08-22", "08-23", "08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [99, 99, 99, 99, 99, 99, 99, 96, 93, 91, 89, 87, 85, 83]
+    line "Cursor" [99, 99, 99, 99, 99, 99, 96, 93, 91, 89, 87, 85, 83, 81]
     line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2399,7 +2405,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-83―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-81―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -2923,6 +2929,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/04 | **Cursor 81로 하락** — 8일 연속 하락, OpenAI 셧오프 D-69; GPT-6 Astra 2일차 롤아웃 진행 중 | — |
+| 2026/09/04 | **GPT-6 Astra 2일차** — OpenAI "추론 과정 의도적 은폐 가능성" 인정; 3사 동시 장애 공식 원인 미공개 | [dataconomy.com](https://dataconomy.com/2026/09/04/gpt-6-astra-launch-openai-limited-rollout/) |
+| 2026/09/04 | **Nvidia/Hugging Face 반독점 우려** — The Register "HF는 Nvidia 손에 맡기기엔 너무 중요" 사설; HSR 규제 신고 완료, EU·영국 심사 예상, H1 2027 마감 전망 | [theregister.com](https://www.theregister.com/ai-and-ml/2026/09/03/hugging-face-is-too-important-to-fall-into-nvidias-hands/5294363) |
+| 2026/09/04 | **Muse Spark 1.3 출시** — DeepSWE v1.1에서 Claude Opus 5 능가(75.4 vs 74.0), Terminal-Bench 2.1에서 GPT-5.6 Sol과 동률(88.8), 장문맥 검색 MRCR 512K-1M 98.1%(Spark 1.2 55.5%); 가격 $0.10/$0.20 기여자 티어 | [explainx.ai](https://www.explainx.ai/blog/meta-muse-spark-1-3-launch-benchmarks-pricing-september-2026) |
 | 2026/09/03 | **Cursor 83으로 하락** — 7일 연속 하락, OpenAI 모델 접근 차단까지 D-70; 개발자 Claude Code·Codex CLI 이동 가속 | — |
 | 2026/09/03 | **Codex CLI Vim 실행취소/다시실행** — Vim 모드에서 u(실행취소)·Ctrl+R(다시실행) 지원, 붙여넣기 포함 전체 드래프트 보존; 플러그인 CLI 원격 마켓플레이스 설치·제거; Goal 모드 GA(앱·IDE·CLI) | [releasebot.io](https://releasebot.io/updates/openai/codex) |
 | 2026/09/03 | **Antigravity CLI GEMINI_API_KEY 지원** — 로그인 없이 Gemini API 직접 연결(modelProvider: "gemini"); Gemini Enterprise 비즈니스 로그인·리전 추론 추가; /codesearch ripgrep 실패 시 로컬 검색 폴백 | [gradually.ai](https://www.gradually.ai/en/changelogs/antigravity/) |

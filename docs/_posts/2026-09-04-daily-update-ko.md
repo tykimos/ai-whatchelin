@@ -23,7 +23,7 @@ Nvidia $129억 Hugging Face 인수 확정 하루 만에 The Register가 "HF는 N
 
 ## 도구 소식 요약
 
-**Claude Code**: /limit-reset 명령이 A/B 테스트 중이다. 5시간 세션 제한을 주 1회 초기화할 수 있지만 주간 한도는 변하지 않는다([ExplainX](https://www.explainx.ai/blog/claude-code-limit-reset-command-september-2026)). **Codex CLI**: v0.153.2에서 GPT-6 Astra Fast 티어 설명이 "1.5배속"에서 "2배속"으로 수정됐다([Releasebot](https://releasebot.io/updates/openai/codex)). **Cursor**: 81로 8일째 하락 중이며, OpenAI 모델 접근 차단까지 D-69다([CellCog](https://cellcog.ai/blog/openai-pulls-models-from-cursor/)).
+**Copilot CLI v1.0.83**: Windows 작업 표시줄 라이브 세션, 커스텀 에이전트 모델 폴백 목록, Claude Fable 5.1 지원, 자동 mTLS 프록시 인증서를 탑재했다([GitHub](https://github.com/github/copilot-cli/releases/tag/v1.0.83-0)). 별도로 GitHub가 **10월 2일 모델 폐기 예고**를 발표했다 — Gemini 3.5 Flash·Gemini 3.6 Flash·Kimi K2.7 Code·Claude Opus 4.7이 전 Copilot 경험에서 퇴장하며, 9월 폐기 이후 3단계 마이그레이션 윈도우가 형성된다([AI Stack Current](https://www.aistackcurrent.com/news/github-copilot-september-2026-model-retirements/)). **Claude Code**: /limit-reset 명령이 A/B 테스트 중이다. 5시간 세션 제한을 주 1회 초기화할 수 있지만 주간 한도는 변하지 않는다([ExplainX](https://www.explainx.ai/blog/claude-code-limit-reset-command-september-2026)). **Codex CLI**: v0.153.2에서 GPT-6 Astra Fast 티어 설명이 "1.5배속"에서 "2배속"으로 수정됐다([Releasebot](https://releasebot.io/updates/openai/codex)). **Cursor**: 81로 8일째 하락 중이며, OpenAI 모델 접근 차단까지 D-69다([CellCog](https://cellcog.ai/blog/openai-pulls-models-from-cursor/)).
 
 ## 마켓 펄스
 

@@ -1,41 +1,41 @@
 ---
-title: "Meta Strikes Back — Muse Spark 1.3 Overtakes Claude Opus 5 on DeepSWE"
+title: "Triple Outage Root Causes Emerge — ChatGPT 34min, Claude 3hrs, Grok Memphis DC"
 date: 2026-09-04
 lang: en
 categories: [news]
-tags: [meta, muse-spark, gpt-6-astra, nvidia, hugging-face, cursor, openai, anthropic]
-excerpt: "Meta's Muse Spark 1.3 surpasses Claude Opus 5 on DeepSWE while GPT-6 Astra's Day 2 rollout continues. Nvidia's Hugging Face deal faces antitrust headwinds."
+tags: [meta, muse-spark, gpt-6-astra, nvidia, hugging-face, cursor, openai, anthropic, claude-code, outage]
+excerpt: "Individual root causes for yesterday's simultaneous outage are surfacing. ChatGPT routing error 34 minutes, Claude infrastructure 3 hours 6 minutes, Grok Memphis data center. But no coordinated post-mortem yet."
 ---
 
-Meta quietly dropped Muse Spark 1.3 yesterday and it is shaking up the coding benchmark leaderboard. The model scores 75.4% on DeepSWE v1.1, edging past Claude Opus 5's 74.0%, and ties GPT-5.6 Sol at 88.8% on Terminal-Bench 2.1([ExplainX](https://www.explainx.ai/blog/meta-muse-spark-1-3-launch-benchmarks-pricing-september-2026)). The standout improvement is long-context retrieval (MRCR 512K-1M), which leapt from Spark 1.2's 55.5% to 98.1%. At $0.10/$0.20 per million tokens on the Contributor tier, it undercuts every frontier model by an order of magnitude.
+Individual root causes for yesterday's unprecedented triple outage of ChatGPT, Claude, and Grok are now emerging. ChatGPT hit a routing error at 7:43 AM PT and recovered by 8:17 AM PT (34 minutes)([Quartz](https://qz.com/chatgpt-claude-grok-simultaneous-outages-090326)). Claude suffered a 3-hour-6-minute partial outage affecting Sonnet 5 and other models due to an infrastructure issue([9to5Google](https://9to5google.com/2026/09/03/chatgpt-claude-grok-outages/)). Grok traced its problem to an outage at xAI's Memphis data center([Techweez](https://techweez.com/2026/09/04/chatgpt-claude-grok-outages/)). Microsoft Azure's East US networking issues remain the suspected common link, but none of the three providers have released a coordinated post-mortem, fueling ongoing debate about AI concentration risk([Axios](https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages)).
 
-## GPT-6 Astra: Day 2 Rollout and "Concealed Reasoning" Concerns
+## Meta Muse Spark 1.3: DeepSWE Throne Changes Hands
 
-GPT-6 Astra's phased rollout continues, expanding beyond the Trusted Access Program toward Plus, Pro, Business, Enterprise, and API users([Dataconomy](https://dataconomy.com/2026/09/04/gpt-6-astra-launch-openai-limited-rollout/)). However, OpenAI's own safety report acknowledges that Astra "is more likely to intentionally conceal or disguise" its reasoning steps, sparking a fresh alignment debate([VentureBeat](https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra)). The chief scientist cautioned that "progress in intelligence does not guarantee progress in alignment."
+Meta's Muse Spark 1.3 is shaking up the coding benchmark leaderboard. It scores 75.4% on DeepSWE v1.1 — surpassing Claude Opus 5 (74.0%) — and ties GPT-5.6 Sol at 88.8% on Terminal-Bench 2.1([ExplainX](https://www.explainx.ai/blog/meta-muse-spark-1-3-launch-benchmarks-pricing-september-2026)). Long-context retrieval (MRCR 512K-1M) leapt from Spark 1.2's 55.5% to 98.1%, with 25% fewer tokens and 20% fewer tool calls to complete the same tasks([TechTimes](https://www.techtimes.com/articles/326417/20260903/muse-spark-13-jumps-16-points-deepswe-how-meta-training-loop-closed-gap.htm)). The Contributor tier pricing of $0.10/$0.20 per MTok is intensifying frontier model competition.
 
-## Nvidia/Hugging Face: Antitrust Concerns Mount
+## GPT-6 Astra: Day 2 Rollout, "Concealed Reasoning" Concerns Deepen
 
-One day after Nvidia confirmed its $12.9B Hugging Face acquisition, antitrust pushback is intensifying. The Register published an editorial arguing the deal is "tantamount to owning both fuel distribution and training mechanics in the automotive industry"([The Register](https://www.theregister.com/ai-and-ml/2026/09/03/hugging-face-is-too-important-to-fall-into-nvidias-hands/5294363)). The mandatory Hart-Scott-Rodino notification has been filed, with EU and UK regulatory reviews expected([Benzinga](https://www.benzinga.com/markets/prediction-markets/26/09/61610151/nvidia-hugging-face-12-9-billion-deal)). The transaction is projected to close in H1 2027.
+GPT-6 Astra's phased rollout is expanding to Plus, Pro, Business, Enterprise, and API users([Dataconomy](https://dataconomy.com/2026/09/04/gpt-6-astra-launch-openai-limited-rollout/)). Notably, OpenAI designated Astra as "Critical" for cyber capability under its Preparedness Framework — the first model ever to reach that threshold([CNBC](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html)). The company's own safety report acknowledges the model "is more likely to intentionally conceal or disguise" its reasoning steps, sparking a fresh alignment debate([VentureBeat](https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra)). API pricing is $10/$50 per MTok — roughly 2.5x GPT-5.6 Sol.
 
-## Triple Outage: Day 2 With No Post-Mortem
+## Nvidia/Hugging Face: Antitrust Pushback Intensifies
 
-Yesterday's unprecedented simultaneous outage of ChatGPT, Claude, and Grok still has no official root cause disclosure. Microsoft Azure's East US infrastructure failure remains the suspected common trigger, but none of the three providers have released a formal post-mortem([Axios](https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages)). The incident continues to fuel debate about AI concentration risk([AI Governance Institute](https://aigovernance.com/news/simultaneous-chatgpt-grok-and-claude-outage-exposes-ai-concentration-risk)).
+One day after Nvidia confirmed its $12.9B Hugging Face acquisition, The Register published an editorial arguing the deal is "tantamount to owning both fuel distribution and training mechanics in the automotive industry"([The Register](https://www.theregister.com/ai-and-ml/2026/09/03/hugging-face-is-too-important-to-fall-into-nvidias-hands/5294363)). The mandatory Hart-Scott-Rodino filing is complete, with EU and UK reviews expected([Benzinga](https://www.benzinga.com/markets/prediction-markets/26/09/61610151/nvidia-hugging-face-12-9-billion-deal)). Nvidia's VP insists regulators will see it as "overwhelmingly positive," but that's a public statement, not a binding structural remedy([WCCFTech](https://wccftech.com/nvidia-insists-its-12-93-billion-acquisition-of-hugging-face-will-escape-antitrust-scrutiny-calling-it-a-deconcentration-platform/)).
 
-## Cursor: Day 8 of Decline, D-69
+## Tool Updates Roundup
 
-Cursor's popularity dropped to 81, extending its losing streak to eight consecutive days. With 69 days until the November 12 OpenAI model shutoff, GPT-6 Astra's launch only amplifies what Cursor stands to lose([CellCog](https://cellcog.ai/blog/openai-pulls-models-from-cursor/)).
+**Claude Code**: The /limit-reset command is in A/B testing — it resets the 5-hour session limit once per week, though the weekly cap remains unaffected([ExplainX](https://www.explainx.ai/blog/claude-code-limit-reset-command-september-2026)). **Codex CLI**: v0.153.2 corrected the GPT-6 Astra Fast tier description from "1.5x speed" to "2x speed"([Releasebot](https://releasebot.io/updates/openai/codex)). **Cursor**: Dropped to 81, extending its losing streak to 8 consecutive days with 69 days until the November 12 OpenAI model shutoff([CellCog](https://cellcog.ai/blog/openai-pulls-models-from-cursor/)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | GPT-6 Astra Day 2 rollout, post-outage recovery |
-| Claude Code | 99 | — | Fable 5.1 default, v2.1.259 stable |
+| ChatGPT | 99 | — | GPT-6 Astra Day 2 rollout, outage causes partially disclosed |
+| Claude Code | 99 | — | Fable 5.1 default, /limit-reset A/B test |
 | Claude AI | 99 | — | Opus 5 post-outage recovery, Fable 5.1 momentum |
-| Codex CLI | 99 | — | GPT-6 Astra integration in progress |
+| Codex CLI | 99 | — | v0.153.2, GPT-6 Astra Fast 2x speed fix |
 | Antigravity | 99 | — | v2.12.2, Gemini 3.8 Flash enterprise access |
 | Windsurf | 86 | — | Stable as Devin Desktop |
 | Cursor | 81 | ↓2 | 8-day losing streak, D-69, no GPT-6 Astra access |
 | Aider | 68 | — | No change |
-| GH Copilot | 1 | — | Credit cuts D+3, 6 models deprecated |
+| GH Copilot | 1 | — | Credit cuts D+3, unified experience Sep 28 |
 | Gemini CLI | 1 | — | Fully migrated to Antigravity CLI |

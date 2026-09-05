@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-04</sub>
+  <sub>마지막 업데이트: 2026-09-05</sub>
 </p>
 
 <p align="center">

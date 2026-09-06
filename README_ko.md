@@ -1343,6 +1343,12 @@ timeline
          : Cursor 79로 하락 — 9일 연속 하락, OpenAI 셧오프 D-68 (9/5)
          : Copilot 114주 하락, 바닥(1) — 크레딧 삭감 D+4 (9/5)
          : Gemini CLI 폐쇄 79일째 — 소비자 접근 차단 (9/5)
+         : Cursor 77로 하락 — 10일 연속 하락(8/27 99→), OpenAI 셧오프 D-67 (9/6)
+         : Copilot 115주 하락, 바닥(1) — 크레딧 삭감 D+5, 주간 릴리스에 Fable 5.1·Gemini 3.8 Flash 투입 (9/6)
+         : Gemini CLI 폐쇄 80일째 — 소비자 접근 차단 (9/6)
+         : GPT-6 Astra 롤아웃 3일차 — Plus/Pro/Business/Enterprise/API 단계적 확대 지속, "추론 은폐" 논란 지속 (9/6)
+         : Meta AIRA3 금메달 — Nvidia Kaggle 추론 대회에서 4,000팀 중 8위, GPT-5.5+Claude 4.8 구동 멀티에이전트 시스템 (9/5)
+         : OpenCode ~19.5만 GitHub 스타 돌파 — MIT 라이선스, 기여자 950+, 75+ AI 프로바이더, Ollama 오프라인 모드 (9/4)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

@@ -1343,6 +1343,12 @@ timeline
          : Cursor drops to 79 — 9th consecutive day of decline, OpenAI shutoff D-68 (Sep 5)
          : Copilot 114-week decline at floor (1) — credit cuts D+4 (Sep 5)
          : Gemini CLI shutdown Day 79 — consumer access closed (Sep 5)
+         : Cursor drops to 77 — 10th consecutive day of decline from 99 (Aug 27), OpenAI shutoff D-67 (Sep 6)
+         : Copilot 115-week decline at floor (1) — credit cuts D+5, Fable 5.1 + Gemini 3.8 Flash in weekly release (Sep 6)
+         : Gemini CLI shutdown Day 80 — consumer access closed (Sep 6)
+         : GPT-6 Astra rollout Day 3 — phased Plus/Pro/Business/Enterprise/API access continuing, "reasoning concealment" debate ongoing (Sep 6)
+         : Meta AIRA3 gold medal — multi-agent system placed 8th among 4,000 teams in Nvidia Kaggle reasoning challenge, GPT-5.5 + Claude 4.8 powered (Sep 5)
+         : OpenCode hits ~195K GitHub stars — MIT license, 950+ contributors, 75+ AI providers with Ollama offline mode (Sep 4)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

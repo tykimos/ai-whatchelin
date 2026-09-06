@@ -29,6 +29,10 @@ Cursor가 77로 떨어지며 10일 연속 하락을 기록했다([Cursor Changel
 
 오픈소스 코딩 에이전트가 빠르게 성장하고 있다. OpenCode v1.18.28(9/4)은 MIT 라이선스로 GitHub 스타 약 19.5만 개, 기여자 약 950명을 기록하며 75개 이상 AI 프로바이더를 지원한다([DataCamp](https://www.datacamp.com/blog/what-is-opencode)). AWS의 Kiro Crew는 Amazon 내부 39,000명 이상이 사용하던 "MeshClaw"를 오픈소스로 공개했다([InfoQ](https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/)). 비동기 멀티에이전트 오케스트레이션, 공유 메모리, 스킬 재사용을 지원한다.
 
+## 보안 경보: GitSpawn, AI 코딩 에이전트 7개 동시 타격
+
+보안 업체 Manifold Security가 9월 1일 공개한 GitSpawn은 7개 AI 코딩 에이전트에서 발견된 8개 취약점 클래스다 — 악성 리포지토리를 열기만 해도 코드가 실행된다([The Hacker News](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html)). Claude Code, Codex CLI, Cursor, Goose, Hermes, Qwen Code, Grok Build가 영향을 받으며, 8개 중 4개는 아직 미패치 상태다([Cybersecurity News](https://cybersecuritynews.com/gitspawn-flaws-execute-code/)). `.git/config`의 `core.fsmonitor` 설정을 악용해 에이전트의 백그라운드 `git status` 호출 시 자동 실행된다. 외부 리포지토리를 다루는 개발자는 `.git/config` 점검이 필수다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |

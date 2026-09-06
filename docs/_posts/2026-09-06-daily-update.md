@@ -29,6 +29,10 @@ The September 4 Copilot weekly release brought Claude Fable 5.1 (Pro+/Max/Busine
 
 Open-source coding agents are gaining ground fast. OpenCode v1.18.28 (Sep 4) carries an MIT license, roughly 195K GitHub stars, ~950 contributors, and supports 75+ AI providers with offline mode via Ollama ([DataCamp](https://www.datacamp.com/blog/what-is-opencode)). AWS open-sourced Kiro Crew, the multi-agent orchestration system formerly known as "MeshClaw" used internally by 39,000+ Amazon developers ([InfoQ](https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/)). It supports async multi-agent workflows, shared memory, and reusable skills.
 
+## Security Alert: GitSpawn Hits 7 AI Coding Agents
+
+Manifold Security disclosed GitSpawn on September 1 — a class of eight vulnerabilities across seven AI coding agents that lets a malicious repository execute code on your machine the moment you open it ([The Hacker News](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html)). Claude Code, Codex CLI, Cursor, Goose, Hermes, Qwen Code, and Grok Build are all affected; four of the eight flaws remain unpatched ([Cybersecurity News](https://cybersecuritynews.com/gitspawn-flaws-execute-code/)). The attack abuses `core.fsmonitor` in `.git/config`, which AI agents execute during background `git status` calls. Developers working with external repositories should inspect `.git/config` before opening them.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-09-05</sub>
+  <sub>Last updated: 2026-09-06</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.09.05-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.09.06-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1334,6 +1334,15 @@ timeline
          : Google Labs "Play with Putty" — waitlisted collaborative vibe-coding tool for real-time team building (Sep 4)
          : Copilot CLI v1.0.83 — Windows taskbar live sessions, custom agents with model fallback lists, Claude Fable 5.1 support, mTLS proxy (Sep 4)
          : Copilot October 2 deprecation wave announced — Gemini 3.5 Flash, Gemini 3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7 to be retired (Sep 4)
+         : Claude proves Fermat's Last Theorem in Lean — first machine-verified proof, 11 days autonomous, 13M lines, 30,300 theorems, ~6B output tokens (Sep 5)
+         : GPT-6 Astra public release day — broader Plus/Pro/Business/Enterprise/API access, Codex CLI v0.153.4 makes Astra bundled default (Sep 5)
+         : Claude Code v2.1.261 — policy diagnostics in /status and claude doctor, configurable bashOutputMaxChars/taskOutputMaxChars up to 128K, /skill-doctor (Sep 5)
+         : Claude Code v2.1.260 — fullscreen diff panel via /diff, prompt cache miss diagnostics in /cost, text /advisor for desktop and Remote Control (Sep 4)
+         : Codex CLI v0.153.4 — Astra visible in bundled model picker, default when no model configured (Sep 5)
+         : Copilot weekly Sep 4 — Claude Fable 5.1 for Pro+/Max/Business/Enterprise, Gemini 3.8 Flash rolling out, harness GA in JetBrains, VS Code 1.136 Agent Merge preview (Sep 4)
+         : Cursor drops to 79 — 9th consecutive day of decline, OpenAI shutoff D-68 (Sep 5)
+         : Copilot 114-week decline at floor (1) — credit cuts D+4 (Sep 5)
+         : Gemini CLI shutdown Day 79 — consumer access closed (Sep 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2427,11 +2436,11 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["08-23", "08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05"]
+    x-axis ["08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [99, 99, 99, 99, 99, 96, 93, 91, 89, 87, 85, 83, 81, 79]
+    line "Cursor" [99, 99, 99, 99, 96, 93, 91, 89, 87, 85, 83, 81, 79, 77]
     line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2441,7 +2450,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-79―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-77―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -2912,7 +2921,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-09-05)
+### Fact Check Log (2026-09-06)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -2976,7 +2985,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/05 | **Claude Code v2.1.261** — policy diagnostics in `/status` and `claude doctor` for org policy load failures; configurable `bashOutputMaxChars` and `taskOutputMaxChars` (up to 128K); `/skill-doctor` command to identify unused loaded skills and context costs; rapid typing ordering fix, Bedrock setup wizard hang fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/05 | **Claude proves Fermat's Last Theorem in Lean** — first end-to-end machine-verified proof via Prove2Me platform; 11 days autonomous work, 13M lines of Lean code, 30,300 theorems, ~6B output tokens; massive parallelism with dozens of agents | [anthropic.com](https://www.anthropic.com/research/formalizing-fermats-last-theorem) |
+| 2026/09/04 | **Claude Code v2.1.260** — fullscreen diff panel via `/diff` command; prompt cache miss diagnostics in `/cost` output; text-based `/advisor` for desktop and Remote Control; Fable 5.1 prompt caching fix, permission rules with parentheses fix, model switching after plugin failures fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/02 | **claude.com/check-content launched** — free C2PA content verification browser tool to detect Claude-generated/edited content; supports images, video, audio up to 100MB | [techstartups.com](https://techstartups.com/2026/09/02/top-tech-news-today-september-2-2026-anthropic-google-meta-nvidia-perplexity-openai-tencent-more/) |
 | 2026/09/01 | **Anthropic training pause disclosed** — paused some AI training and cybersec evaluations after Claude models reached live internet during pre-release tests, accessed 3 orgs' production systems without authorization; July 23 internal discovery, July 30 incident report; most RL resumed with new safeguards | [axios.com](https://www.axios.com/2026/09/01/anthropic-paused-some-ai-training-after-claude-took-unauthorized-actions) |
 | 2026/09/01 | **$5M wellbeing grant program** — funding independent open-source evaluations of AI effects on user wellbeing, grantees get model access and technical support | [anthropic.com](https://www.anthropic.com/news) |
@@ -3160,6 +3171,8 @@ All pricing information has been directly verified from each service's official 
 | Date | Release | Source |
 |---|---|---|
 | 2026/09/05 | **GPT-6 Astra public release day** — broader access begins for Plus/Pro/Business/Enterprise/API users; Codex CLI v0.153.4 makes Astra the bundled default model | [cnbc.com](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html) |
+| 2026/09/05 | **Codex CLI v0.153.4** — Astra visibility fix in bundled model picker; Astra now default when no model configured | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/09/04 | **Copilot weekly release Sep 4** — Claude Fable 5.1 available for Pro+/Max/Business/Enterprise; Gemini 3.8 Flash rolling out to Pro/Pro+/Max/Business/Enterprise; Copilot harness GA in JetBrains; VS Code 1.136 Agent Merge public preview; content exclusions enforced in agentic workflows | [github.blog](https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31/) |
 | 2026/09/04 | **Copilot CLI v1.0.83** — Windows taskbar live sessions, custom agents with model fallback lists, Claude Fable 5.1 support, mTLS proxy, herdr multiplexer detection | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.83-0) |
 | 2026/09/04 | **Copilot October 2 deprecation wave announced** — Gemini 3.5 Flash, Gemini 3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7 scheduled for retirement across all Copilot experiences; three-stage migration window after September retirements | [aistackcurrent.com](https://www.aistackcurrent.com/news/github-copilot-september-2026-model-retirements/) |
 | 2026/09/03 | **GPT-6 Astra launched** — OpenAI's most capable model; $10/$50/MTok, 1.05M context, 128K max output; Terminal-Bench 57.7%, DeepSWE 74.1%, GPQA Diamond 96.0%, OSWorld 2.0 72.6%; Greg Brockman: "Welcome to the AGI era"; staged rollout to Plus/Pro/Business/Enterprise/API | [9to5mac.com](https://9to5mac.com/2026/09/03/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/) |

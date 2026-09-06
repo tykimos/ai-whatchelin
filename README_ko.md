@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-05</sub>
+  <sub>마지막 업데이트: 2026-09-06</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.09.05-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.09.06-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1334,6 +1334,15 @@ timeline
          : Google Labs "Play with Putty" — 대기자 명단 기반 협업 바이브코딩 도구, 실시간 팀 빌딩 (9/4)
          : Copilot CLI v1.0.83 — Windows 작업 표시줄 라이브 세션, 커스텀 에이전트 모델 폴백 목록, Claude Fable 5.1 지원, mTLS 프록시 (9/4)
          : Copilot 10/2 모델 폐기 예고 — Gemini 3.5 Flash, Gemini 3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7 퇴장 예정 (9/4)
+         : Claude 페르마의 마지막 정리 Lean 증명 — 최초 기계 검증 증명, 11일 자율 작업, 1,300만 줄, 30,300개 정리, ~60억 출력 토큰 (9/5)
+         : GPT-6 Astra 공개 확대일 — Plus/Pro/Business/Enterprise/API 단계적 확대, Codex CLI v0.153.4 번들 기본 모델 전환 (9/5)
+         : Claude Code v2.1.261 — /status·claude doctor 정책 진단, bashOutputMaxChars/taskOutputMaxChars 128K 설정, /skill-doctor (9/5)
+         : Claude Code v2.1.260 — /diff 전체화면 diff 패널, /cost 프롬프트 캐시 미스 진단, 데스크톱·Remote Control용 /advisor (9/4)
+         : Codex CLI v0.153.4 — 번들 모델 피커에 Astra 표시, 미설정 시 기본 모델 전환 (9/5)
+         : Copilot 주간 릴리스 9/4 — Pro+/Max/Business/Enterprise에 Claude Fable 5.1, Gemini 3.8 Flash 롤아웃, JetBrains 하네스 GA, VS Code 1.136 Agent Merge 프리뷰 (9/4)
+         : Cursor 79로 하락 — 9일 연속 하락, OpenAI 셧오프 D-68 (9/5)
+         : Copilot 114주 하락, 바닥(1) — 크레딧 삭감 D+4 (9/5)
+         : Gemini CLI 폐쇄 79일째 — 소비자 접근 차단 (9/5)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2397,11 +2406,11 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["08-23", "08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05"]
+    x-axis ["08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [99, 99, 99, 99, 99, 96, 93, 91, 89, 87, 85, 83, 81, 79]
+    line "Cursor" [99, 99, 99, 99, 96, 93, 91, 89, 87, 85, 83, 81, 79, 77]
     line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2411,7 +2420,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-79―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-77―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -2872,7 +2881,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-09-05)
+### 팩트 체크 로그 (2026-09-06)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -2935,7 +2944,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/05 | **Claude Code v2.1.261** — `/status`·`claude doctor` 조직 정책 로드 실패 진단; `bashOutputMaxChars`·`taskOutputMaxChars` 128K까지 설정 가능; `/skill-doctor` 미사용 스킬·컨텍스트 비용 식별; 빠른 타이핑 순서 수정, Bedrock 설정 마법사 행 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/05 | **Claude 페르마의 마지막 정리 Lean 증명** — Prove2Me 플랫폼을 통한 최초 완전 기계 검증 증명; 11일간 자율 작업, 1,300만 줄 Lean 코드, 30,300개 정리, ~60억 출력 토큰; 수십 개 에이전트 대규모 병렬 처리 | [anthropic.com](https://www.anthropic.com/research/formalizing-fermats-last-theorem) |
+| 2026/09/04 | **Claude Code v2.1.260** — `/diff` 전체화면 diff 패널; `/cost` 프롬프트 캐시 미스 진단; 데스크톱·Remote Control용 텍스트 `/advisor`; Fable 5.1 프롬프트 캐싱 수정, 괄호 포함 권한 규칙 수정, 플러그인 실패 후 모델 전환 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/05 | **GPT-6 Astra 공개 확대일** — Plus/Pro/Business/Enterprise/API 사용자 대상 단계적 확대; Codex CLI v0.153.4 번들 기본 모델 전환 | [cnbc.com](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html) |
 | 2026/09/05 | **Cursor 79로 9일째 하락** — OpenAI 셧오프 D-68; 개발자 이탈 지속 | — |
 | 2026/09/04 | **Cursor 81로 하락** — 8일 연속 하락, OpenAI 셧오프 D-69; GPT-6 Astra 2일차 롤아웃 진행 중 | — |
@@ -3130,6 +3141,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
 | 2026/09/05 | **GPT-6 Astra 공개 확대일** — Plus/Pro/Business/Enterprise/API 사용자 대상 단계적 확대 시작; Codex CLI v0.153.4 번들 기본 모델 전환 | [cnbc.com](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html) |
+| 2026/09/05 | **Codex CLI v0.153.4** — 번들 모델 피커 Astra 표시 수정; 미설정 시 Astra 기본 모델 전환 | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/09/04 | **Copilot 주간 릴리스 9/4** — Pro+/Max/Business/Enterprise에 Claude Fable 5.1 제공; Pro/Pro+/Max/Business/Enterprise에 Gemini 3.8 Flash 롤아웃; JetBrains 하네스 GA; VS Code 1.136 Agent Merge 퍼블릭 프리뷰; 에이전틱 워크플로에 콘텐츠 제외 적용 | [github.blog](https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31/) |
 | 2026/09/04 | **Copilot CLI v1.0.83** — Windows 작업 표시줄 라이브 세션, 커스텀 에이전트 모델 폴백 목록, Claude Fable 5.1 지원, mTLS 프록시, herdr 멀티플렉서 감지 | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.83-0) |
 | 2026/09/04 | **Copilot 10/2 모델 폐기 예고** — Gemini 3.5 Flash·Gemini 3.6 Flash·Kimi K2.7 Code·Claude Opus 4.7 전 Copilot 경험에서 퇴장 예정; 9월 폐기 이후 3단계 마이그레이션 윈도우 | [aistackcurrent.com](https://www.aistackcurrent.com/news/github-copilot-september-2026-model-retirements/) |
 | 2026/09/03 | **GPT-6 Astra 출시** — OpenAI 역대 최강 모델; $10/$50/MTok, 1.05M 컨텍스트, 128K 최대 출력; Terminal-Bench 57.7%, DeepSWE 74.1%, GPQA Diamond 96.0%, OSWorld 2.0 72.6%; Greg Brockman "AGI 시대에 오신 것을 환영합니다"; Plus/Pro/Business/Enterprise/API 단계적 롤아웃 | [9to5mac.com](https://9to5mac.com/2026/09/03/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/) |

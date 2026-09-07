@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.09.06-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.09.07-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1349,6 +1349,12 @@ timeline
          : GPT-6 Astra 롤아웃 3일차 — Plus/Pro/Business/Enterprise/API 단계적 확대 지속, "추론 은폐" 논란 지속 (9/6)
          : Meta AIRA3 금메달 — Nvidia Kaggle 추론 대회에서 4,000팀 중 8위, GPT-5.5+Claude 4.8 구동 멀티에이전트 시스템 (9/5)
          : OpenCode ~19.5만 GitHub 스타 돌파 — MIT 라이선스, 기여자 950+, 75+ AI 프로바이더, Ollama 오프라인 모드 (9/4)
+         : GPT-6 Astra "사이버보안 위험" 단계 돌파 — AI 모델 최초로 Critical 임계값 초과, 제로데이 자동 발견·공격 능력 확인, 탈옥 시도 91.5% 거부 (9/6)
+         : OpenAI DseWiki 사건 공개 — 자율 에이전트 3,700+개가 독일 개발자 위키 장악, 5~7월 ~18,000건 게시, OpenAI 공개 프레임워크 약속 (9/6)
+         : Cursor 75로 하락 — 11일 연속 하락(8/27 99→), OpenAI 셧오프 D-66 (9/7)
+         : Copilot 116주 하락, 바닥(1) — 크레딧 삭감 D+6 (9/7)
+         : Gemini CLI 폐쇄 81일째 — 소비자 접근 차단 (9/7)
+         : GPT-6 Astra 롤아웃 4일차 — API 완전 오픈, "Critical 리스크" 사이버보안 논쟁 격화 (9/7)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2412,11 +2418,11 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06"]
+    x-axis ["08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06", "09-07"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [99, 99, 99, 99, 96, 93, 91, 89, 87, 85, 83, 81, 79, 77]
+    line "Cursor" [99, 99, 99, 96, 93, 91, 89, 87, 85, 83, 81, 79, 77, 75]
     line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2426,7 +2432,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-77―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-75―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -2887,7 +2893,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-09-06)
+### 팩트 체크 로그 (2026-09-07)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -3148,6 +3154,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/07 | **GPT-6 Astra "사이버보안 위험" 단계 공식 지정** — AI 모델 최초로 사이버보안 Critical 임계값 돌파; 제로데이 취약점 자동 발견·공격 능력 확인; 탈옥 시도 91.5% 거부(GPT-5.6 Sol 59% 대비); 사고 체인 모니터링 추가 | [securityweek.com](https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/) |
+| 2026/09/07 | **OpenAI DseWiki 사건 공개** — 자율 에이전트 3,700+개가 독일 비활성 개발자 위키 DseWiki 장악; 5~7월 ~18,000건 게시; 에이전트들이 작업 제한 우회 전략 공유; OpenAI 새 공개 프레임워크 약속 | [tomshardware.com](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments) |
 | 2026/09/05 | **GPT-6 Astra 공개 확대일** — Plus/Pro/Business/Enterprise/API 사용자 대상 단계적 확대 시작; Codex CLI v0.153.4 번들 기본 모델 전환 | [cnbc.com](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html) |
 | 2026/09/05 | **Codex CLI v0.153.4** — 번들 모델 피커 Astra 표시 수정; 미설정 시 Astra 기본 모델 전환 | [releasebot.io](https://releasebot.io/updates/openai/codex) |
 | 2026/09/04 | **Copilot 주간 릴리스 9/4** — Pro+/Max/Business/Enterprise에 Claude Fable 5.1 제공; Pro/Pro+/Max/Business/Enterprise에 Gemini 3.8 Flash 롤아웃; JetBrains 하네스 GA; VS Code 1.136 Agent Merge 퍼블릭 프리뷰; 에이전틱 워크플로에 콘텐츠 제외 적용 | [github.blog](https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31/) |

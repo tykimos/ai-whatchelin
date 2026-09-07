@@ -30,7 +30,7 @@ The GitSpawn vulnerability landscape is splitting. Claude Code (v2.1.196+), Code
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 99 | — | Astra rollout Day 4, Critical risk designation |
-| Claude Code | 99 | — | v2.1.261 stable, FLT proof aftershocks |
+| Claude Code | 99 | — | v2.1.263 stable, FLT proof aftershocks |
 | Claude AI | 99 | — | Sonnet 5 $2/$10 pricing made permanent |
 | Codex CLI | 99 | — | v0.153.4, Astra default model |
 | Antigravity | 99 | — | Stable |

@@ -30,7 +30,7 @@ Cursor가 75로 떨어지며 11일 연속 하락을 기록했다([Cursor Changel
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
 | ChatGPT | 99 | — | Astra 롤아웃 4일차, Critical risk 지정 |
-| Claude Code | 99 | — | v2.1.261 안정, FLT 증명 여파 지속 |
+| Claude Code | 99 | — | v2.1.263 안정, FLT 증명 여파 지속 |
 | Claude AI | 99 | — | Sonnet 5 $2/$10 영구 가격 확정 |
 | Codex CLI | 99 | — | v0.153.4, Astra 기본 모델 |
 | Antigravity | 99 | — | 안정 유지 |

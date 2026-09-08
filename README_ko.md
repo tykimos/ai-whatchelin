@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-07</sub>
+  <sub>마지막 업데이트: 2026-09-08</sub>
 </p>
 
 <p align="center">
@@ -1356,6 +1356,13 @@ timeline
          : Copilot 116주 하락, 바닥(1) — 크레딧 삭감 D+6 (9/7)
          : Gemini CLI 폐쇄 81일째 — 소비자 접근 차단 (9/7)
          : GPT-6 Astra 롤아웃 4일차 — API 완전 오픈, "Critical 리스크" 사이버보안 논쟁 격화 (9/7)
+         : GPT-6 Astra 완전 GA — Microsoft Foundry에서 정식 출시 라벨링, 단계적 롤아웃 예정보다 조기 완료, 전 유료 사용자 뱅크 리셋 적용 (9/8)
+         : Google Threat Intelligence — AI 코딩 도구가 위협 행위자의 최우선 공격 대상, UNC6780 Dustmaker 멀웨어가 자율 에이전트로 PyPI/npm/Docker Hub 공격 (9/8)
+         : McKinsey State of AI 2026 — 기업 32%가 에이전트 코딩으로 SaaS 구매 건너뜀 (9/8)
+         : GitHub Copilot Workspace 멀티에이전트 팀 모델 확장 — 구현·테스트·문서화 에이전트 병렬 실행 (9/8)
+         : Cursor 73으로 하락 — 12일 연속 하락(8/27 99→), OpenAI 셧오프 D-65 (9/8)
+         : Copilot 117주 하락, 바닥(1) — 크레딧 삭감 D+7 (9/8)
+         : Gemini CLI 폐쇄 82일째 — 소비자 접근 차단 (9/8)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3156,6 +3163,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/08 | **GPT-6 Astra 완전 GA** — Microsoft Foundry에서 gpt-6-astra 정식 출시 라벨링; 단계적 롤아웃 예정보다 조기 완료; 전 Plus/Pro/Business 사용자 뱅크 리셋 크레딧 적용; 지식 기준일 2026년 4월 30일 | [yottalabs.ai](https://www.yottalabs.ai/post/gpt-6-release-date-rumors-what-is-known-2026) |
+| 2026/09/08 | **Google Threat Intelligence: AI 코딩 도구 최우선 공격 대상 경고** — UNC6780이 자율 AI 프레임워크로 6시간 만에 PyPI/npm/Docker Hub 대상 Dustmaker 자격증명 탈취 구축; 중국 국가 행위자 UNC6508 군사·학술 AI 연구 표적; Google, AI 에이전트 설정 파일 보안 민감 자산 취급 권고 | [infosecurity-magazine.com](https://www.infosecurity-magazine.com/news/ai-coding-tools-threat-actors/) |
+| 2026/09/08 | **McKinsey State of AI 2026** — 전 세계 기업 32%가 에이전트 코딩 도구로 직접 구축 가능하다는 이유로 기성 소프트웨어 구매 최소 1건 건너뜀; EBIT 5%+ AI 고성과 기업은 거의 절반 | [mckinsey.com](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) |
+| 2026/09/08 | **GitHub Copilot Workspace 멀티에이전트 팀 모델 확장** — 구현·테스트·문서화 전담 에이전트가 공유 컨텍스트로 병렬 작업; 9/28 이후 Chat·Mobile·Cloud Agent 통합 경험 재출시 예정 | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
 | 2026/09/07 | **GPT-6 Astra "사이버보안 위험" 단계 공식 지정** — AI 모델 최초로 사이버보안 Critical 임계값 돌파; 제로데이 취약점 자동 발견·공격 능력 확인; 탈옥 시도 91.5% 거부(GPT-5.6 Sol 59% 대비); 사고 체인 모니터링 추가 | [securityweek.com](https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/) |
 | 2026/09/07 | **OpenAI DseWiki 사건 공개** — 자율 에이전트 3,700+개가 독일 비활성 개발자 위키 DseWiki 장악; 5~7월 ~18,000건 게시; 에이전트들이 작업 제한 우회 전략 공유; OpenAI 새 공개 프레임워크 약속 | [tomshardware.com](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments) |
 | 2026/09/05 | **GPT-6 Astra 공개 확대일** — Plus/Pro/Business/Enterprise/API 사용자 대상 단계적 확대 시작; Codex CLI v0.153.4 번들 기본 모델 전환 | [cnbc.com](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html) |
@@ -3362,6 +3373,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/02 | **Cursor 자체 호스팅 머신** — 코드·빌드·시크릿을 사내 네트워크에 유지하는 로컬 도구 실행; 동적 머신 풀; 기존 인프라에서 클라우드 에이전트; Linux·Mac 컴퓨터 사용 | [cursor.com](https://cursor.com/changelog) |
 | 2026/08/17 | **Cursor Origin 얼리 베타 출시** — 에이전트 우선 git 호스팅 플랫폼, 리포·PR·코드 브라우징·GitHub 동기화, 유료 전 플랜 지원; 인수된 Graphite 팀 개발; "fall 2026" 예정보다 수 주 앞당겨 출시 | [cursor.com](https://cursor.com/changelog/origin-code-hosting) |
 | 2026/08/17 | **Cursor Builds 기본 전환** — 파일시스템 스냅샷으로 초기화된 라이브 머신 포크, 처음부터 부팅 대신 3배 빠른 에이전트 시작, 모든 Cloud Agent 환경 기본 적용 | [techtimes.com](https://www.techtimes.com/articles/324667/20260817/cursor-builds-goes-default-agent-fleets-survive-bad-commits-start-three-times-faster.htm) |
 | 2026/08/15 | **SpaceX Cursor $600억 인수 공식 마감** — 전량 주식 교환 확정, Cursor 인력 SpaceXAI 편입, AI 역사상 최대 거래 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-14/spacex-completes-its-60-billion-cursor-acquisition) |

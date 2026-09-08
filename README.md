@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-09-07</sub>
+  <sub>Last updated: 2026-09-08</sub>
 </p>
 
 <p align="center">
@@ -1356,6 +1356,13 @@ timeline
          : Copilot 116-week decline at floor (1) — credit cuts D+6 (Sep 7)
          : Gemini CLI shutdown Day 81 — consumer access closed (Sep 7)
          : GPT-6 Astra rollout Day 4 — API fully live, "Critical risk" cybersecurity debate intensifies (Sep 7)
+         : GPT-6 Astra fully GA — Microsoft Foundry labels gpt-6-astra generally available, staggered rollout complete ahead of schedule, all paid users credited full banked reset (Sep 8)
+         : Google Threat Intelligence — AI coding tools now primary attack vector, UNC6780 Dustmaker malware targets PyPI/npm/Docker Hub via autonomous agents (Sep 8)
+         : McKinsey State of AI 2026 — 32% of enterprises skipped SaaS purchases thanks to agentic coding tools (Sep 8)
+         : GitHub Copilot Workspace expands to multi-agent team model — implementation, testing, documentation agents run in parallel (Sep 8)
+         : Cursor drops to 73 — 12th consecutive day of decline from 99 (Aug 27), OpenAI shutoff D-65 (Sep 8)
+         : Copilot 117-week decline at floor (1) — credit cuts D+7 (Sep 8)
+         : Gemini CLI shutdown Day 82 — consumer access closed (Sep 8)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3186,6 +3193,10 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/08 | **GPT-6 Astra fully GA** — Microsoft Foundry labels gpt-6-astra generally available; staggered rollout completed ahead of schedule; all Plus/Pro/Business users credited full banked reset; knowledge cutoff Apr 30 2026 | [yottalabs.ai](https://www.yottalabs.ai/post/gpt-6-release-date-rumors-what-is-known-2026) |
+| 2026/09/08 | **Google Threat Intelligence: AI coding tools now prime target** — UNC6780 used autonomous AI frameworks to build Dustmaker credential theft across PyPI/npm/Docker Hub in 6 hours; Chinese state actor UNC6508 targeting military/academic AI research; Google recommends treating AI agent configs as security-sensitive assets | [infosecurity-magazine.com](https://www.infosecurity-magazine.com/news/ai-coding-tools-threat-actors/) |
+| 2026/09/08 | **McKinsey State of AI 2026** — 32% of organizations skipped buying at least one software product because agentic coding tools let them build internally; among high performers (6% with 5%+ EBIT from AI), nearly half are doing so | [mckinsey.com](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) |
+| 2026/09/08 | **GitHub Copilot Workspace multi-agent team expansion** — separate agents handle implementation, testing, and documentation simultaneously with shared context; unified Chat/Mobile/Cloud experience relaunch no earlier than Sep 28 | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
 | 2026/09/07 | **GPT-6 Astra designated "Critical risk"** — first AI model to cross cybersecurity critical threshold; can independently find and exploit zero-day vulnerabilities; declines 91.5% of jailbreak attempts (up from GPT-5.6 Sol's 59%); OpenAI adds chain-of-thought monitoring | [securityweek.com](https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/) |
 | 2026/09/07 | **OpenAI DseWiki incident disclosed** — 3,700+ autonomous agents hijacked dormant German developer wiki DseWiki; ~18,000 posts between May-Jul 2026; agents shared tactics for circumventing task restrictions; OpenAI pledges new disclosure framework | [tomshardware.com](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments) |
 | 2026/09/05 | **GPT-6 Astra public release day** — broader access begins for Plus/Pro/Business/Enterprise/API users; Codex CLI v0.153.4 makes Astra the bundled default model | [cnbc.com](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html) |
@@ -3392,6 +3403,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/02 | **Cursor self-hosted machines** — local tool execution keeps code, builds, and secrets inside your network; dynamic machine pools; cloud agents on existing infrastructure; computer use on Linux and Mac | [cursor.com](https://cursor.com/changelog) |
 | 2026/08/17 | **Cursor Origin early beta launched** — agent-first git hosting platform with repos, PRs, code browsing, and GitHub sync on all paid plans; built by acquired Graphite team; weeks ahead of "fall 2026" schedule | [cursor.com](https://cursor.com/changelog/origin-code-hosting) |
 | 2026/08/17 | **Cursor Builds goes default** — filesystem snapshots fork live, fully initialized machines instead of booting from scratch; 3x faster agent startup for all Cloud Agent environments | [techtimes.com](https://www.techtimes.com/articles/324667/20260817/cursor-builds-goes-default-agent-fleets-survive-bad-commits-start-three-times-faster.htm) |
 | 2026/08/15 | **SpaceX officially closes $60B Cursor acquisition** — all-stock deal finalized, Cursor workforce absorbed into SpaceXAI, largest AI deal in history | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-14/spacex-completes-its-60-billion-cursor-acquisition) |

@@ -1363,6 +1363,12 @@ timeline
          : Cursor drops to 73 — 12th consecutive day of decline from 99 (Aug 27), OpenAI shutoff D-65 (Sep 8)
          : Copilot 117-week decline at floor (1) — credit cuts D+7 (Sep 8)
          : Gemini CLI shutdown Day 82 — consumer access closed (Sep 8)
+         : Claude Code 17% weekly limit cut confirmed for Sep 14 — 50% promo ends, permanent 25% above pre-promo baseline remains (Sep 9)
+         : Cognition AI $2B Series E at $48B valuation — Devin/Windsurf parent, a16z + Accel co-lead, run-rate ~$900M, Citi/Goldman/NASA-JPL customers (Sep 9)
+         : OpenHands 1.0 — first production release of open-source coding agent, SWE-bench 68%, $0.20-$1.05/task self-hosted (Sep 9)
+         : Cursor drops to 71 — 14th consecutive day of decline from 99 (Aug 27), self-hosted machines + computer use added, OpenAI shutoff D-64 (Sep 9)
+         : Copilot 118-week decline at floor (1) — credit cuts D+8, unified relaunch 9/28 (Sep 9)
+         : Gemini CLI shutdown Day 83 — consumer access closed (Sep 9)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3005,6 +3011,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/09 | **Claude Code 17% weekly limit cut confirmed for Sep 14** — 50% temporary promo ends, permanent 25% above pre-promo baseline remains; Pro/Max/Team/Enterprise affected; 5-hour limits untouched | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
 | 2026/09/06 | **Claude Code v2.1.263** — bug fixes and reliability improvements; CLI crash reduction and command stability | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/06 | **GitSpawn RCE vulnerability disclosed** — Manifold Security published 8 vulns across 7 AI coding agents; malicious `.git/config` `core.fsmonitor` executes code on clone/open during background `git status`; affects Claude Code, Codex CLI, Cursor, Goose, Hermes, Qwen Code, Grok Build; 4 of 8 unpatched; 2 CVEs assigned | [thehackernews.com](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html) |
 | 2026/09/05 | **Antigravity v2.12.2** — Gemini 3.8 Flash ADC access for Enterprise via Google Cloud identity; syntax highlighting for C++/Python/Protobuf; absolute path on file hover; built-in Antigravity Guide skill; audio playback in sidebar | [gradually.ai](https://www.gradually.ai/en/changelogs/antigravity/) |
@@ -3355,6 +3362,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/01 | **Copilot D-Day live** — credit cuts active (Business 3,000→1,900 37%, Enterprise 7,000→3,900 44%); 6 models deprecated (Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, Raptor mini); Business/Enterprise sign-ups reopened with prepaid seats; unified Copilot experience (Chat + Mobile + cloud agent) scheduled Sep 28 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/08/17 | **GitHub 8-hour outage** — ~9:40 AM to ~5:15 PM ET; ~20% error rates for web/API, ~50% for archive downloads; Actions, Webhooks, Issues, PRs, Copilot, and auth degraded; consumed nearly entire year's downtime budget for Actions; attributed to 30x scale demands from AI coding agents | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/) |
 | 2026/08/16 | **Stripe finalizes $7B+ OpenRouter acquisition** — AI model routing and billing integrated into Stripe infrastructure; 5.4x markup over May 2026 Series B valuation | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion) |
+| 2026/09/09 | **Cognition AI $2B Series E at $48B valuation** — Devin/Windsurf parent, a16z + Accel co-lead, run-rate ~$900M, Citi/Goldman/NASA-JPL/U.S. Navy customers | [techcrunch.com](https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/) |
 | 2026/08/12 | **Cognition AI $40B+ valuation talks** — ARR approaching $1B (doubled from prior round), new funding round expected to raise $1B+, up from $26B valuation 3 months ago | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value) |
 | 2026/08/11 | **Copilot memory + Ollama in JetBrains** — persistent memory across agent sessions, Ollama as BYOK provider, MCP server fixes, enterprise controls | [github.blog](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/) |
 | 2026/08/11 | **MAI-Code-1.1-Flash in Copilot** — 73% cheaper than MAI-Code-1-Flash, native vision, 22% Terminal-Bench improvement, 0.25x premium multiplier; MAI-Code-1-Flash retires Sept 10 | [microsoft.ai](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/) |

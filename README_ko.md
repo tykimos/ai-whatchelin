@@ -1363,6 +1363,12 @@ timeline
          : Cursor 73으로 하락 — 12일 연속 하락(8/27 99→), OpenAI 셧오프 D-65 (9/8)
          : Copilot 117주 하락, 바닥(1) — 크레딧 삭감 D+7 (9/8)
          : Gemini CLI 폐쇄 82일째 — 소비자 접근 차단 (9/8)
+         : Claude Code 9/14 주간 한도 17% 삭감 확정 — 50% 프로모션 종료, 프로모션 전 대비 영구 25% 인상분만 유지 (9/9)
+         : Cognition AI $2B 시리즈 E, $48B 밸류에이션 — Devin/Windsurf 모회사, a16z + Accel 공동 리드, 런레이트 ~$900M, Citi/Goldman/NASA-JPL 고객 (9/9)
+         : OpenHands 1.0 — 오픈소스 코딩 에이전트 첫 프로덕션 릴리스, SWE-bench 68%, 셀프 호스팅 시 $0.20-$1.05/태스크 (9/9)
+         : Cursor 71로 하락 — 14일 연속 하락(8/27 99→), 셀프 호스팅 머신 + 컴퓨터 사용 추가, OpenAI 셧오프 D-64 (9/9)
+         : Copilot 118주 하락, 바닥(1) — 크레딧 삭감 D+8, 통합 리런치 9/28 (9/9)
+         : Gemini CLI 폐쇄 83일째 — 소비자 접근 차단 (9/9)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2964,6 +2970,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/09 | **Claude Code 9/14 주간 한도 17% 삭감 확정** — 50% 임시 프로모션 종료, 프로모션 전 대비 영구 25% 인상분만 유지; Pro/Max/Team/Enterprise 전 티어 적용; 5시간 한도는 변경 없음 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
 | 2026/09/06 | **Claude Code v2.1.263** — 버그 수정 및 안정성 개선; CLI 크래시 감소 및 명령 안정성 향상 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/06 | **GitSpawn RCE 취약점 공개** — Manifold Security가 7개 AI 코딩 에이전트에서 8개 취약점 발표; 악성 `.git/config`의 `core.fsmonitor`가 클론/열기 시 백그라운드 `git status` 중 코드 실행; Claude Code·Codex CLI·Cursor·Goose·Hermes·Qwen Code·Grok Build 영향; 8개 중 4개 미패치; CVE 2건 할당 | [thehackernews.com](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html) |
 | 2026/09/05 | **Antigravity v2.12.2** — Enterprise용 Gemini 3.8 Flash ADC 접근(Google Cloud 인증); C++/Python/Protobuf 구문 강조; 파일 호버 시 절대 경로 표시; 내장 Antigravity Guide 스킬; 사이드바 오디오 재생 | [gradually.ai](https://www.gradually.ai/en/changelogs/antigravity/) |
@@ -3325,6 +3332,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/01 | **Copilot D-Day 발효** — 크레딧 삭감 시행(Business 3,000→1,900 37%, Enterprise 7,000→3,900 44%); 6개 모델 폐기(Gemini 3.1 Pro·Claude Opus 4.5/4.6·Claude Sonnet 4.5/4.6·Raptor mini); Business/Enterprise 선불 좌석제 신규 가입 재개; 통합 Copilot 경험(Chat + Mobile + 클라우드 에이전트) 9/28 예정 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/08/17 | **GitHub 8시간 장애** — ET 오전 9:40~오후 5:15; 웹/API 오류율 ~20%, 아카이브 다운로드 ~50%; Actions·Webhooks·Issues·PR·Copilot·인증 저하; AI 코딩 에이전트의 30배 트래픽 급증이 원인; Actions 연간 다운타임 예산 거의 전부 소진 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/) |
 | 2026/08/16 | **Stripe $70억+ OpenRouter 인수 확정** — AI 모델 라우팅·과금 Stripe 인프라 통합; 2026년 5월 시리즈 B 밸류에이션 대비 5.4배 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion) |
+| 2026/09/09 | **Cognition AI $2B 시리즈 E, $48B 밸류에이션** — Devin/Windsurf 모회사, a16z + Accel 공동 리드, 런레이트 ~$900M, Citi/Goldman/NASA-JPL/미 해군 고객 | [techcrunch.com](https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/) |
 | 2026/08/12 | **Cognition AI $400억+ 밸류에이션 협상** — ARR $10억 근접(이전 라운드 대비 2배), $10억+ 추가 유치 예상, 3개월 전 $260억 대비 53% 상승 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-08-12/ai-startup-cognition-in-new-funding-talks-at-40-billion-value) |
 | 2026/08/11 | **Copilot 메모리 + Ollama JetBrains** — 에이전트 세션 간 지속 메모리, Ollama BYOK 프로바이더, MCP 서버 수정, 엔터프라이즈 제어 | [github.blog](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains/) |
 | 2026/08/11 | **MAI-Code-1.1-Flash Copilot 배포** — MAI-Code-1-Flash 대비 73% 저렴, 네이티브 비전, Terminal-Bench 22% 향상, 0.25x 프리미엄 배율; MAI-Code-1-Flash 9/10 퇴장 | [microsoft.ai](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-08</sub>
+  <sub>마지막 업데이트: 2026-09-09</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.09.08-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.09.09-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2426,12 +2426,12 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06", "09-07", "09-08"]
+    x-axis ["08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06", "09-07", "09-08", "09-09"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [99, 99, 96, 93, 91, 89, 87, 85, 83, 81, 79, 77, 75, 73]
-    line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86]
+    line "Cursor" [99, 96, 93, 91, 89, 87, 85, 83, 81, 79, 77, 75, 73, 71]
+    line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 87]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2440,9 +2440,9 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-73―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-71―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-86―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Windsurf-87―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
@@ -2901,7 +2901,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-09-08)
+### 팩트 체크 로그 (2026-09-09)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 

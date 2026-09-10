@@ -1,17 +1,21 @@
 ---
-title: "ChatGPT Images 2.5 출시, Codex CLI worktree 지원 — Cursor 69점 15일째 추락"
+title: "ChatGPT Images 2.5 출시, Claude Code v2.1.265 게이트웨이 회귀 — Cursor 69점 15일째 추락"
 date: 2026-09-10
 lang: ko
 categories: [news]
 tags: [chatgpt, codex-cli, cursor, claude-code, antigravity, gitspawn, security]
-excerpt: "OpenAI가 ChatGPT Images 2.5로 이미지 생성 시장을 다시 뒤흔든다. Codex CLI v0.154.0은 worktree 격리 실행을 실험 도입하고, Cursor는 69점으로 15일째 하락을 이어간다."
+excerpt: "OpenAI가 ChatGPT Images 2.5로 이미지 생성 시장을 다시 뒤흔든다. Claude Code v2.1.265는 텔레메트리를 추가했지만 LLM 게이트웨이 회귀가 발생했고, Cursor는 69점으로 15일째 하락을 이어간다."
 ---
 
 OpenAI가 ChatGPT Images 2.5를 출시하며 이미지 생성 경쟁에 다시 불을 붙였다([OpenAI](https://openai.com/index/introducing-chatgpt-images-2-5/)). 기존 Images 2.0 대비 지연시간을 50% 줄이면서 자연 조명과 질감 표현력을 대폭 개선했다. 특히 '스케치' 기능으로 사용자가 직접 그린 드로잉을 참조 이미지로 쓸 수 있게 됐다. API는 Flare(고속 기본)와 Sunburst(정밀 편집) 두 모델로 나뉘며, $8/$30/MTok으로 책정됐다([Simon Willison](https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/)).
 
+## Claude Code v2.1.265: 텔레메트리 추가와 게이트웨이 회귀
+
+Claude Code가 v2.1.265로 올라가며 Desktop과 Cowork에서 user.email 및 user.groups 텔레메트리를 추가했다([GitHub](https://github.com/anthropics/claude-code/releases/tag/v2.1.265)). 하지만 CLAUDE_CODE_USE_GATEWAY 환경변수가 Cloud 게이트웨이 로그인을 강제하는 회귀가 발생해, API 키나 apiKeyHelper, 커스텀 인증 헤더를 사용하는 설정에서 모든 요청이 실패하는 문제가 보고되고 있다. 한편 9/14 주간 한도 17% 삭감까지 D-4로, 50% 프로모션 종료 후 영구 25% 인상분만 남게 된다([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)).
+
 ## Codex CLI v0.154.0: Worktree 격리 실행 실험 도입
 
-Codex CLI가 v0.154.0으로 올라가며 주목할 변화가 생겼다([Releasebot](https://releasebot.io/updates/openai/codex)). GPT-6 Astra가 모델 피커와 Amazon Bedrock 카탈로그에 정식 등록됐고, 실험적 worktree 지원(`--worktree` 또는 `/worktree`)으로 격리된 체크아웃에서 에이전트를 실행할 수 있다. Vim 모드에 되돌리기(u)와 다시하기(Ctrl+R)도 추가됐다. 플러그인 CLI가 원격 마켓플레이스에서 설치·제거를 지원하며 생태계 확장에 속도가 붙고 있다.
+Codex CLI가 v0.154.0으로 올라가며 주목할 변화가 생겼다([Releasebot](https://releasebot.io/updates/openai/codex)). GPT-6 Astra가 모델 피커와 Amazon Bedrock 카탈로그에 정식 등록됐고, 실험적 worktree 지원(`--worktree` 또는 `/worktree`)으로 격리된 체크아웃에서 에이전트를 실행할 수 있다. Vim 모드에 되돌리기(u)와 다시하기(Ctrl+R)도 추가됐다. ChatGPT Voice Mode에도 GPT-6 Astra가 추가됐지만 Pro 계정 전용이다.
 
 ## Cursor: 69점, 15일째 연속 하락 — D-63
 
@@ -29,8 +33,8 @@ Antigravity에 `/boost` 슬래시 명령이 추가됐다([Antigravity Lab](https
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 99 | — | Images 2.5 출시, DevDay 19일 전 |
-| Claude Code | 99 | — | v2.1.263 안정, 9/14 한도 변경 D-4 |
+| ChatGPT | 99 | — | Images 2.5 출시, Voice에 Astra 추가 |
+| Claude Code | 99 | — | v2.1.265 게이트웨이 회귀, 9/14 한도 변경 D-4 |
 | Claude AI | 99 | — | Fable 5.1 안착, 캐시 75% 인하 유지 |
 | Codex CLI | 99 | — | v0.154.0, worktree 실험 도입 |
 | Antigravity | 99 | — | /boost 명령, GEMINI_API_KEY |
@@ -40,4 +44,4 @@ Antigravity에 `/boost` 슬래시 명령이 추가됐다([Antigravity Lab](https
 | GH Copilot | 1 | — | 바닥권, 9/28 통합 리런치 D-18 |
 | Gemini CLI | 1 | — | 폐쇄 84일째, Antigravity 대체 |
 
-ChatGPT Images 2.5와 Codex CLI worktree 지원은 OpenAI가 "코딩 + 크리에이티브" 양면 전략을 밀어붙이고 있음을 보여준다. Cursor의 30포인트 낙폭은 SpaceX 인수 후 OpenAI 결별이 시장 심리에 미치는 영향을 그대로 드러낸다 — 9/14 Claude Code 한도 조정과 9/28 Copilot 리런치가 다가오면서, 개발자들의 도구 재편은 더 가속화될 전망이다.
+Claude Code v2.1.265의 게이트웨이 회귀는 LLM 프록시 사용자에게 즉각적 영향을 미치고 있다. ChatGPT Images 2.5와 Codex CLI worktree 지원은 OpenAI가 "코딩 + 크리에이티브" 양면 전략을 밀어붙이고 있음을 보여준다. Cursor의 30포인트 낙폭은 SpaceX 인수 후 OpenAI 결별이 시장 심리에 미치는 영향을 그대로 드러낸다 — 9/14 Claude Code 한도 조정과 9/28 Copilot 리런치가 다가오면서, 개발자들의 도구 재편은 더 가속화될 전망이다.

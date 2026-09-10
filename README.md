@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-09-10</sub>
+  <sub>Last updated: 2026-09-11</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.09.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.09.11-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1374,6 +1374,12 @@ timeline
          : Cursor drops to 69 — 15th consecutive day of decline from 99 (Aug 27), OpenAI shutoff D-63 (Sep 10)
          : Copilot 119-week decline at floor (1) — credit cuts D+9, unified relaunch 9/28 D-18 (Sep 10)
          : Gemini CLI shutdown Day 84 — consumer access closed (Sep 10)
+         : Claude Code v2.1.267 — maxEffortLevel setting caps effort per provider (Bedrock/Vertex/Foundry), --system-prompt-snapshot off for fresh prompt rendering, Cowork scheduled task sandbox fix (Sep 11)
+         : Copilot Oct 2 model deprecation wave — Gemini 3.5/3.6 Flash → 3.8, Kimi K2.7 Code → K3, Claude Opus 4.7 → Opus 5; affects Chat, inline edits, agent, completions (Sep 11)
+         : Cursor drops to 67 — 16th consecutive day of decline from 99 (Aug 27), OpenAI shutoff D-62 (Sep 11)
+         : Copilot 120-week decline at floor (1) — prepaid seats Oct 1, unified relaunch 9/28 D-17 (Sep 11)
+         : Gemini CLI shutdown Day 85 — consumer access closed (Sep 11)
+         : Claude Code 9/14 weekly limit cut D-3 — 50% promo end approaching (Sep 11)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2467,12 +2473,12 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06", "09-07", "09-08", "09-09", "09-10"]
+    x-axis ["08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06", "09-07", "09-08", "09-09", "09-10", "09-11"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [96, 93, 91, 89, 87, 85, 83, 81, 79, 77, 75, 73, 71, 69]
-    line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 87, 87]
+    line "Cursor" [93, 91, 89, 87, 85, 83, 81, 79, 77, 75, 73, 71, 69, 67]
+    line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 87, 87, 87]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2481,7 +2487,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-69―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-67―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-87―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -3016,6 +3022,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/11 | **Claude Code v2.1.267** — `maxEffortLevel` setting (top-level or per model under `modelSettings`) caps effort on every provider including Bedrock/Vertex/Foundry; `--system-prompt-snapshot off` renders system prompt fresh per request; Cowork scheduled task sandbox fix for orgs requiring sandboxing; mobile client `/context` rendering fix; tmux/ssh shift+enter fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/10 | **Claude Code v2.1.265** — user.email/user.groups telemetry for Claude Desktop and Cowork; LLM-gateway regression: CLAUDE_CODE_USE_GATEWAY forcing Cloud-gateway sign-in, causing failures for API key/apiKeyHelper/custom auth header setups | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.265) |
 | 2026/09/09 | **Claude Code 17% weekly limit cut confirmed for Sep 14** — 50% temporary promo ends, permanent 25% above pre-promo baseline remains; Pro/Max/Team/Enterprise affected; 5-hour limits untouched | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
 | 2026/09/06 | **Claude Code v2.1.263** — bug fixes and reliability improvements; CLI crash reduction and command stability | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -3366,6 +3373,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/11 | **Copilot Oct 2 model deprecation wave** — Gemini 3.5 Flash and 3.6 Flash → Gemini 3.8 Flash, Kimi K2.7 Code → K3, Claude Opus 4.7 → Opus 5; affects Chat, inline edits, agent mode, code completions; no admin action required but workflow audits recommended | [dmarketertayeeb.com](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/) |
+| 2026/09/03 | **Gemini 3.8 Flash available in Copilot** — Google's latest Flash model added for Pro/Pro+/Max/Business/Enterprise users; replacement for Gemini 3.5/3.6 Flash ahead of Oct 2 deprecation | [github.blog](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/) |
 | 2026/09/02 | **Unified Copilot chat data retention change** — with Sep 28 unified experience, chat data retention shifts from 28 days to account lifetime; new compliance and data-governance considerations | [developersdigest.tech](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026) |
 | 2026/09/01 | **Copilot D-Day live** — credit cuts active (Business 3,000→1,900 37%, Enterprise 7,000→3,900 44%); 6 models deprecated (Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, Raptor mini); Business/Enterprise sign-ups reopened with prepaid seats; unified Copilot experience (Chat + Mobile + cloud agent) scheduled Sep 28 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/08/17 | **GitHub 8-hour outage** — ~9:40 AM to ~5:15 PM ET; ~20% error rates for web/API, ~50% for archive downloads; Actions, Webhooks, Issues, PRs, Copilot, and auth degraded; consumed nearly entire year's downtime budget for Actions; attributed to 30x scale demands from AI coding agents | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/) |

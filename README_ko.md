@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-10</sub>
+  <sub>마지막 업데이트: 2026-09-11</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.09.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.09.11-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1374,6 +1374,12 @@ timeline
          : Cursor 69로 하락 — 15일 연속 하락(8/27 99→), OpenAI 셧오프 D-63 (9/10)
          : Copilot 119주 하락, 바닥(1) — 크레딧 삭감 D+9, 통합 리런치 9/28 D-18 (9/10)
          : Gemini CLI 폐쇄 84일째 — 소비자 접근 차단 (9/10)
+         : Claude Code v2.1.267 — maxEffortLevel 설정으로 프로바이더별(Bedrock/Vertex/Foundry) effort 상한, --system-prompt-snapshot off 매 요청 프롬프트 재렌더링, Cowork 스케줄 태스크 샌드박스 수정 (9/11)
+         : Copilot 10/2 모델 대량 퇴장 — Gemini 3.5/3.6 Flash → 3.8, Kimi K2.7 Code → K3, Claude Opus 4.7 → Opus 5; Chat·인라인 편집·에이전트·완성 전 영역 (9/11)
+         : Cursor 67로 하락 — 16일 연속 하락(8/27 99→), OpenAI 셧오프 D-62 (9/11)
+         : Copilot 120주 하락, 바닥(1) — 선불 좌석 10/1, 통합 리런치 9/28 D-17 (9/11)
+         : Gemini CLI 폐쇄 85일째 — 소비자 접근 차단 (9/11)
+         : Claude Code 9/14 주간 한도 삭감 D-3 — 50% 프로모션 종료 임박 (9/11)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2437,12 +2443,12 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06", "09-07", "09-08", "09-09", "09-10"]
+    x-axis ["08-29", "08-30", "08-31", "09-01", "09-02", "09-03", "09-04", "09-05", "09-06", "09-07", "09-08", "09-09", "09-10", "09-11"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [96, 93, 91, 89, 87, 85, 83, 81, 79, 77, 75, 73, 71, 69]
-    line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 87, 87]
+    line "Cursor" [93, 91, 89, 87, 85, 83, 81, 79, 77, 75, 73, 71, 69, 67]
+    line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 86, 87, 87, 87]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2451,7 +2457,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-69―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-67―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-87―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -2975,7 +2981,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
-| 2026/09/10 | **Claude Code v2.1.265** — Claude Desktop·Cowork의 user.email/user.groups 텔레메트리 추가; LLM 게이트웨이 회귀: CLAUDE_CODE_USE_GATEWAY가 Cloud 게이트웨이 로그인 강제, API 키/apiKeyHelper/커스텀 인증 헤더 설정에서 요청 실패 | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.265) |
+| 2026/09/11 | **Claude Code v2.1.267** — `maxEffortLevel` 설정(최상위 또는 `modelSettings` 하위)으로 Bedrock/Vertex/Foundry 포함 전 프로바이더 effort 상한; `--system-prompt-snapshot off` 매 요청 시스템 프롬프트 재렌더링; Cowork 스케줄 태스크 샌드박스 수정; 모바일 `/context` 렌더링 수정; tmux/ssh shift+enter 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/10 | **Claude Code v2.1.265** — Claude Desktop·Cowork의 user.email/user.groups 텔레메트리 추가; LLM 게이트웨이 회귀: CLAUDE_CODE_USE_GATEWAY가 Cloud 게이트웨이 로그인 강제, API 키/apiKeyHelper/커스텀 인증 헤더 설정에서 요청 실패 | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.265) |
 | 2026/09/09 | **Claude Code 9/14 주간 한도 17% 삭감 확정** — 50% 임시 프로모션 종료, 프로모션 전 대비 영구 25% 인상분만 유지; Pro/Max/Team/Enterprise 전 티어 적용; 5시간 한도는 변경 없음 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
 | 2026/09/06 | **Claude Code v2.1.263** — 버그 수정 및 안정성 개선; CLI 크래시 감소 및 명령 안정성 향상 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
@@ -3337,6 +3343,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/11 | **Copilot 10/2 모델 대량 퇴장 예고** — Gemini 3.5/3.6 Flash → Gemini 3.8 Flash, Kimi K2.7 Code → K3, Claude Opus 4.7 → Opus 5; Chat·인라인 편집·에이전트 모드·코드 완성 전 영역 적용; 관리자 조치 불필요하나 워크플로우 점검 권장 | [dmarketertayeeb.com](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/) |
+| 2026/09/03 | **Gemini 3.8 Flash Copilot 추가** — Google 최신 Flash 모델, Pro/Pro+/Max/Business/Enterprise 사용자 대상; 10/2 Gemini 3.5/3.6 Flash 퇴장 대비 교체 모델 | [github.blog](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/) |
 | 2026/09/02 | **통합 Copilot 채팅 데이터 보존 변경** — 9/28 통합 경험 출시 시 채팅 데이터 보존 기간 28일→계정 수명 전체로 확대, 컴플라이언스·데이터 거버넌스 영향 주의 | [developersdigest.tech](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026) |
 | 2026/09/01 | **Copilot D-Day 발효** — 크레딧 삭감 시행(Business 3,000→1,900 37%, Enterprise 7,000→3,900 44%); 6개 모델 폐기(Gemini 3.1 Pro·Claude Opus 4.5/4.6·Claude Sonnet 4.5/4.6·Raptor mini); Business/Enterprise 선불 좌석제 신규 가입 재개; 통합 Copilot 경험(Chat + Mobile + 클라우드 에이전트) 9/28 예정 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/08/17 | **GitHub 8시간 장애** — ET 오전 9:40~오후 5:15; 웹/API 오류율 ~20%, 아카이브 다운로드 ~50%; Actions·Webhooks·Issues·PR·Copilot·인증 저하; AI 코딩 에이전트의 30배 트래픽 급증이 원인; Actions 연간 다운타임 예산 거의 전부 소진 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/) |

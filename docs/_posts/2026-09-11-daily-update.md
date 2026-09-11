@@ -34,7 +34,7 @@ Anthropic published its September threat intelligence report today, disclosing t
 | Claude AI | 99 | — | Enterprise Smart Reports beta |
 | Codex CLI | 99 | — | GPT-6 Astra integration, worktree experiment, Agents API beta |
 | Antigravity | 99 | — | /boost stable, GEMINI_API_KEY support |
-| Windsurf | 87 | — | Cognition $47B valuation momentum |
+| Windsurf | 87 | — | Cognition $48B valuation (Series E closed Sep 8) |
 | Cursor | 68 | ↑1 | Projects beta: first uptick in 16-day decline |
 | Aider | 68 | — | No release since v0.82.0 |
 | GH Copilot | 1 | — | Floor, October triple reset D-17 |

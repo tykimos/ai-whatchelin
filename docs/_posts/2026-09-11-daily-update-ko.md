@@ -34,7 +34,7 @@ Anthropic이 오늘 위협 정보 보고서를 발표해 Claude Code가 자율 �
 | Claude AI | 99 | — | Enterprise Smart Reports 베타 |
 | Codex CLI | 99 | — | GPT-6 Astra 통합, worktree 실험, Agents API 베타 |
 | Antigravity | 99 | — | /boost 안정, GEMINI_API_KEY 지원 |
-| Windsurf | 87 | — | Cognition $47B 밸류에이션 모멘텀 |
+| Windsurf | 87 | — | Cognition $48B 밸류에이션 (시리즈 E 9/8 마감) |
 | Cursor | 68 | ↑1 | Projects 베타로 16일 연속 하락 중 1p 반등 |
 | Aider | 68 | — | v0.82.0 이후 릴리스 없음 |
 | GH Copilot | 1 | — | 바닥권, 10월 3연타 D-17 |

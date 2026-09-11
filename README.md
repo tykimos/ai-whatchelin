@@ -1380,6 +1380,7 @@ timeline
          : Copilot 120-week decline at floor (1) — prepaid seats Oct 1, unified relaunch 9/28 D-17 (Sep 11)
          : Gemini CLI shutdown Day 85 — consumer access closed (Sep 11)
          : Claude Code 9/14 weekly limit cut D-3 — 50% promo end approaching (Sep 11)
+         : Anthropic threat intelligence report — Claude used for drone swarm kill software, bioweapons research; newer models no longer below meaningful bioweapons assistance threshold; Iran, Russia, China, Yemen actors flagged (Sep 11)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3022,6 +3023,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/11 | **Anthropic threat intelligence report** — "Countering Misuse of AI: September 2026"; Claude Code used by Russia-linked freelancers to build autonomous drone swarm with kill commands; 5 bioweapons research cases flagged; newer models no longer below meaningful bioweapons assistance threshold; Iran, Russia, China, Yemen actors identified; covers Dec 2025–Aug 2026 | [anthropic.com](https://www.anthropic.com/threat-intelligence-report-september-2026) |
 | 2026/09/11 | **Claude Code v2.1.267** — `maxEffortLevel` setting (top-level or per model under `modelSettings`) caps effort on every provider including Bedrock/Vertex/Foundry; `--system-prompt-snapshot off` renders system prompt fresh per request; Cowork scheduled task sandbox fix for orgs requiring sandboxing; mobile client `/context` rendering fix; tmux/ssh shift+enter fix | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/10 | **Claude Code v2.1.265** — user.email/user.groups telemetry for Claude Desktop and Cowork; LLM-gateway regression: CLAUDE_CODE_USE_GATEWAY forcing Cloud-gateway sign-in, causing failures for API key/apiKeyHelper/custom auth header setups | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.265) |
 | 2026/09/09 | **Claude Code 17% weekly limit cut confirmed for Sep 14** — 50% temporary promo ends, permanent 25% above pre-promo baseline remains; Pro/Max/Team/Enterprise affected; 5-hour limits untouched | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
@@ -3502,7 +3504,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.17-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.09.11-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

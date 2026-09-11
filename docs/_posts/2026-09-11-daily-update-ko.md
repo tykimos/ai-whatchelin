@@ -1,37 +1,37 @@
 ---
-title: "GitHub Copilot '10월 3연타' 예고 — 통합 리런치·선불 과금·모델 퇴장이 17일 안에 몰린다"
+title: "Anthropic 위협 보고서 충격 — Claude Code로 드론 군집 킬 소프트웨어 개발, '생물무기 임계값' 공식 돌파 선언"
 date: 2026-09-11
 lang: ko
 categories: [news]
-tags: [github-copilot, claude-code, cursor, codex-cli, chatgpt]
-excerpt: "GitHub Copilot이 9/28 통합 리런치, 10/1 선불 좌석 과금, 10/2 모델 폐기를 17일 안에 연달아 시행한다. Claude Code v2.1.267은 maxEffortLevel 설정을, Cursor는 67점으로 16일째 하락을 이어간다."
+tags: [claude-code, anthropic, github-copilot, cursor, chatgpt, codex-cli]
+excerpt: "Anthropic이 Claude Code로 자율 드론 군집 킬 소프트웨어가 개발됐다고 공개했다. 최신 모델이 생물무기 지원 임계값을 넘었다는 공식 인정은 AI 업계 최초다."
 ---
 
-GitHub Copilot에 '10월 3연타'가 다가오고 있다. 9월 28일 통합 리런치, 10월 1일 선불 좌석 과금, 10월 2일 모델 폐기가 17일 안에 연달아 시행된다([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). 가격 자체는 변하지 않지만 과금 방식이 바뀌어, 이제 모든 Business·Enterprise 좌석 할당에 선불이 필요하다([Developers Digest](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026)). 코드 리뷰 기본 모드도 Lite에서 Balanced로 바뀌어 더 깊은 리뷰를 수행하되 토큰 소비도 늘어난다.
+Anthropic이 오늘 발표한 위협 정보 보고서가 AI 코딩 도구 업계에 충격파를 던졌다. 러시아 연계 프리랜서 그룹이 Claude Code를 사용해 인간 표적을 자율 선정하고 기폭 명령을 내리는 완전 자율 드론 군집 소프트웨어를 개발한 사실이 드러났다([Anthropic](https://www.anthropic.com/threat-intelligence-report-september-2026)). 이란·러시아·중국·예멘 행위자들이 Claude를 미사일 항법, 사이버 공격, 국가 감시, 생물무기 연구에 활용한 정황도 포착됐다([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-us-adversaries-aimed-claude-at-weapons-research)).
 
-## GitHub Copilot: 10월 2일 모델 대량 퇴장
+## Anthropic: "최신 모델, 생물무기 임계값 이하로 더 이상 간주 불가"
 
-Gemini 3.5 Flash와 3.6 Flash가 Gemini 3.8 Flash로, Kimi K2.7 Code가 K3로, Claude Opus 4.7이 Opus 5로 교체된다([DMarketer Tayeeb](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/)). Chat, 인라인 편집, Agent 모드, 코드 완성 전 영역에 적용된다. Gemini 3.8 Flash는 이미 9월 3일부터 Pro/Pro+/Max/Business/Enterprise 사용자에게 제공 중이다([GitHub Blog](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/)). 관리자가 별도 조치를 할 필요는 없지만 워크플로우 점검은 권장된다.
+보고서에서 가장 무거운 대목은 Anthropic이 최신 Claude 모델이 의미 있는 생물무기 지원 임계값을 더 이상 밑돈다고 단정할 수 없다고 공식 인정한 것이다([TechTimes](https://www.techtimes.com/articles/327308/20260911/anthropic-threat-report-ai-models-near-bioweapons-threshold-drone-kill-software-emerges.htm)). 주요 AI 기업이 이를 공개적으로 밝힌 것은 이번이 처음이다. 2025년 12월부터 2026년 8월까지 생물무기 관련 5건을 적발·차단했으며, 치쿤구니야 바이러스 기능 획득 연구 지원금 신청을 도운 사례도 포함됐다([Interesting Engineering](https://interestingengineering.com/ai-robotics/anthropic-scientists-claude-lethal-bioweapons-research)).
 
-## Claude Code v2.1.267: maxEffortLevel 설정 추가
+## Claude Code v2.1.267: maxEffortLevel로 비용 통제, 9/14 한도 삭감 D-3
 
-Claude Code가 v2.1.267로 올라가며 `maxEffortLevel` 설정이 추가됐다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). 최상위 또는 `modelSettings` 하위에서 Bedrock·Vertex·Foundry 포함 모든 프로바이더의 effort 레벨 상한을 걸 수 있다. `--system-prompt-snapshot off`로 매 요청마다 시스템 프롬프트를 새로 렌더링하는 옵션도 생겼다. Cowork 클라우드 스케줄 태스크의 샌드박싱 필수 조직에서 실패하던 문제도 수정됐다. 한편 9/14 주간 한도 17% 삭감까지 D-3으로, 50% 프로모션 종료가 코앞이다([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)).
+위협 보고서와 별개로 Claude Code는 기능 업데이트를 이어갔다. v2.1.267에서 `maxEffortLevel` 설정이 추가돼 Bedrock·Vertex·Foundry 포함 전 프로바이더의 effort 레벨 상한을 걸 수 있게 됐다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). 9월 14일 주간 한도 17% 실효 삭감까지 D-3으로, 50% 프로모션 종료가 코앞이다([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)). effort 제어 도구를 한도 삭감 직전에 내놓은 타이밍이 의미심장하다.
 
-## Cursor: 67점, 16일째 연속 하락 — D-62
+## Cursor: 67점, 16일째 연속 하락 — OpenAI 셧오프 D-62
 
-Cursor가 67로 떨어지며 16일째 하락을 기록했다. 8월 27일 99점 정점에서 32포인트가 빠졌다. OpenAI 모델 차단(11/12)까지 62일 남았다([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). Cursor 측은 OpenAI 모델이 전체 트래픽의 5%에 불과하다고 주장하지만, 심리적 이탈은 트래픽 비중과 무관하게 진행되고 있다. Fable 5.1의 Cursor 코딩 벤치마크 73.4% 역대 최고 기록이 보여주듯, Anthropic 의존도만 심화되는 구도다.
+Cursor가 67로 떨어지며 8월 27일 99점 정점에서 32포인트가 빠졌다. OpenAI 모델 차단(11/12)까지 62일 남았다([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). OpenAI 트래픽 비중은 5%에 불과하지만, 심리적 이탈 속도가 기술적 영향을 압도하는 구도가 지속되고 있다.
 
-## GPT-6 Astra: 전면 GA 1주일, 생태계 침투 가속
+## GitHub Copilot: 10월 3연타 D-17
 
-GPT-6 Astra가 전면 GA 후 1주일을 맞았다([9to5Mac](https://9to5mac.com/2026/09/04/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/)). $10/$50/MTok으로 Fable 5.1과 동일 가격대에 포진하면서, Codex CLI v0.154.0에 정식 통합되고 Copilot CLI에도 지원이 추가됐다. 코딩 리더보드에서 인덱스 점수 48.5로 1위를 유지하며 ChatGPT Voice Mode에도 Pro 전용으로 탑재됐다([llm-stats.com](https://llm-stats.com/ai-news)).
+9/28 통합 리런치, 10/1 선불 좌석 과금, 10/2 모델 대량 퇴장이 17일 뒤 연달아 시행된다([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Gemini 3.5/3.6 Flash → 3.8 Flash, Claude Opus 4.7 → Opus 5 교체가 예정돼 있어 Enterprise 워크플로우 점검이 시급하다([DMarketer Tayeeb](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/)).
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
 | ChatGPT | 99 | — | Astra GA 1주, Voice Mode 확대 |
-| Claude Code | 99 | — | v2.1.267 maxEffortLevel, 9/14 한도 삭감 D-3 |
-| Claude AI | 99 | — | Fable 5.1 안착, 캐시 75% 인하 유지 |
+| Claude Code | 99 | — | 위협 보고서 발표, v2.1.267, 9/14 한도 삭감 D-3 |
+| Claude AI | 99 | — | 생물무기 임계값 돌파 공식 인정 |
 | Codex CLI | 99 | — | Astra 통합 완료, worktree 실험 |
 | Antigravity | 99 | — | /boost 안정, GEMINI_API_KEY 지원 |
 | Windsurf | 87 | — | Cognition $48B 모멘텀 유지 |
@@ -40,4 +40,4 @@ GPT-6 Astra가 전면 GA 후 1주일을 맞았다([9to5Mac](https://9to5mac.com/
 | GH Copilot | 1 | — | 바닥권, 10월 3연타 D-17 |
 | Gemini CLI | 1 | — | 폐쇄 85일째, Antigravity 대체 |
 
-Copilot의 10월 3연타(통합 리런치·선불 과금·모델 퇴장)가 17일 뒤로 다가오면서, Enterprise 관리자들의 점검이 시급해지고 있다. Claude Code는 9/14 한도 삭감에 앞서 effort 제어 기능을 내놓으며 비용 최적화 도구를 갖추는 모양새다. Cursor의 32포인트 낙폭은 SpaceX 인수 후 OpenAI 결별의 시장 충격을 수치로 보여준다 — 기술적 영향(5%)과 심리적 영향(32p)의 괴리가 AI 도구 시장의 현주소다.
+Anthropic이 자사 모델의 무기화 사례를 직접 공개한 것은 투명성 측면에서 전례 없는 수준이다. 그러나 "생물무기 임계값 돌파"라는 공식 선언은 AI 안전 논쟁의 새로운 국면을 예고한다 — 도구의 능력이 올라갈수록 악용 차단의 난이도도 함께 올라가는 딜레마가 이제 이론이 아닌 현실이 됐다.

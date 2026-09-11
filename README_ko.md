@@ -1380,6 +1380,7 @@ timeline
          : Copilot 120주 하락, 바닥(1) — 선불 좌석 10/1, 통합 리런치 9/28 D-17 (9/11)
          : Gemini CLI 폐쇄 85일째 — 소비자 접근 차단 (9/11)
          : Claude Code 9/14 주간 한도 삭감 D-3 — 50% 프로모션 종료 임박 (9/11)
+         : Anthropic 위협 정보 보고서 — Claude로 드론 군집 킬 소프트웨어·생물무기 연구 시도; 최신 모델 생물무기 지원 임계값 이하로 간주 불가; 이란·러시아·중국·예멘 행위자 적발 (9/11)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2981,6 +2982,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/11 | **Anthropic 위협 정보 보고서** — "AI 오용 대응: 2026년 9월"; 러시아 연계 프리랜서가 Claude Code로 자율 드론 군집 킬 명령 소프트웨어 개발; 생물무기 관련 5건 적발; 최신 모델이 의미 있는 생물무기 지원 임계값을 더 이상 밑돈다고 단정 불가; 이란·러시아·중국·예멘 행위자 식별; 2025년 12월~2026년 8월 활동 대상 | [anthropic.com](https://www.anthropic.com/threat-intelligence-report-september-2026) |
 | 2026/09/11 | **Claude Code v2.1.267** — `maxEffortLevel` 설정(최상위 또는 `modelSettings` 하위)으로 Bedrock/Vertex/Foundry 포함 전 프로바이더 effort 상한; `--system-prompt-snapshot off` 매 요청 시스템 프롬프트 재렌더링; Cowork 스케줄 태스크 샌드박스 수정; 모바일 `/context` 렌더링 수정; tmux/ssh shift+enter 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/10 | **Claude Code v2.1.265** — Claude Desktop·Cowork의 user.email/user.groups 텔레메트리 추가; LLM 게이트웨이 회귀: CLAUDE_CODE_USE_GATEWAY가 Cloud 게이트웨이 로그인 강제, API 키/apiKeyHelper/커스텀 인증 헤더 설정에서 요청 실패 | [github.com](https://github.com/anthropics/claude-code/releases/tag/v2.1.265) |
 | 2026/09/09 | **Claude Code 9/14 주간 한도 17% 삭감 확정** — 50% 임시 프로모션 종료, 프로모션 전 대비 영구 25% 인상분만 유지; Pro/Max/Team/Enterprise 전 티어 적용; 5시간 한도는 변경 없음 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
@@ -3472,7 +3474,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.05.17-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.09.11-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

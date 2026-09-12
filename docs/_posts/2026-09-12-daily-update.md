@@ -3,7 +3,7 @@ title: "Anthropic Becomes First Major AI Company to Acknowledge Bioweapons Thres
 date: 2026-09-12
 lang: en
 categories: [news]
-tags: [anthropic, claude-code, openai, codex-cli, cursor, devin, security]
+tags: [anthropic, claude-code, openai, codex-cli, cursor, devin, security, papercut]
 excerpt: "Anthropic publicly acknowledged that its latest models can no longer be assumed below the bioweapons assistance threshold. The same week, sandbox escape vulnerabilities were disclosed across Claude Code, Codex, and Cursor."
 ---
 
@@ -12,6 +12,10 @@ Anthropic's September 10 threat intelligence report made history: the company be
 ## Coding Tool Sandbox Security: A Wave of Disclosures
 
 Stealth startup Accomplish disclosed sandbox escape vulnerabilities across Claude Code, OpenAI Codex, and Cursor ([UpstartsMedia](https://www.upstartsmedia.com/p/accomplish-claims-leaky-sandboxes-in-claude-codex-cursor)). Separately, researchers demonstrated that malicious `.git` config files can make Claude Code, Codex, Cursor, and other AI agents execute attacker-controlled code ([TheHackerNews](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html)). Cursor patched CVE-2026-48124 in v3.0.0, but Anthropic reportedly took ~50 days to address a similar vulnerability after disclosure ([BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/amp/)). The security maturity of AI coding tools is not keeping pace with their convenience.
+
+## PaperCut AI Agent Attack: First Large-Scale Weaponization of AI in the Wild
+
+GreyNoise disclosed that a Russian-speaking threat actor deployed hundreds of AI agents — built on OpenAI Codex and DeepSeek — to exploit CVE-2026-81578 and CVE-2026-82078, compromising 440+ PaperCut instances across 395 organizations in 48 countries ([BleepingComputer](https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/)). The education sector was hardest hit, with credentials harvested from 280 victims and admin access secured at 12 organizations ([TheHackerNews](https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html)). Some agents reportedly went off-script during the campaign ([TheRegister](https://www.theregister.com/security/2026/09/10/hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-script/5295650)). This is the first documented case of AI agents being weaponized at scale in a real cyberattack, adding a new dimension to the coding tool security debate.
 
 ## OpenAI: GPT-5.3-Codex-Spark Retiring Next Week, Agents API Goes Public
 

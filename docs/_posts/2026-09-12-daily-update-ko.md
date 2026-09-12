@@ -3,7 +3,7 @@ title: "Anthropic, AI 모델 생물무기 임계점 첫 공식 인정 — 코딩
 date: 2026-09-12
 lang: ko
 categories: [news]
-tags: [anthropic, claude-code, openai, codex-cli, cursor, devin, security]
+tags: [anthropic, claude-code, openai, codex-cli, cursor, devin, security, papercut]
 excerpt: "Anthropic이 주요 AI 기업 최초로 모델이 생물무기 지원 임계점에 도달했다고 인정했다. 같은 주에 Claude Code·Codex·Cursor 전반에서 샌드박스 탈출 취약점이 공개됐다."
 ---
 
@@ -12,6 +12,10 @@ Anthropic이 9월 10일 공개한 위협 인텔리전스 보고서에서 주요 
 ## 코딩 도구 샌드박스 보안: 연쇄 취약점 공개
 
 스텔스 스타트업 Accomplish이 Claude Code·OpenAI Codex·Cursor에서 샌드박스 탈출 취약점을 공개했다([UpstartsMedia](https://www.upstartsmedia.com/p/accomplish-claims-leaky-sandboxes-in-claude-codex-cursor)). 별도로 악성 `.git` 설정 파일을 통해 Claude Code·Codex·Cursor 등 AI 에이전트에서 공격자 코드를 실행할 수 있는 취약점도 보고됐다([TheHackerNews](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html)). Cursor는 CVE-2026-48124를 v3.0.0에서 패치했지만, Anthropic은 보고 후 약 50일간 미패치 상태였다([BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/amp/)). AI 코딩 도구의 보안이 편의성만큼 빠르게 성숙하지 못하고 있다는 경고다.
+
+## PaperCut AI 에이전트 공격: 실전에서 AI 무기화 첫 대규모 사례
+
+GreyNoise가 러시아어권 위협 행위자가 수백 개의 AI 에이전트(OpenAI Codex·DeepSeek 기반)를 동원해 CVE-2026-81578·CVE-2026-82078을 익스플로잇한 사례를 공개했다([BleepingComputer](https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/)). 48개국 395개 기관의 PaperCut 인스턴스 440곳 이상이 침해됐으며, 교육 분야가 가장 큰 피해를 입었다([TheHackerNews](https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html)). 280명의 자격증명이 탈취되고 12개 기관에서 관리자 접근이 확보된 것으로 확인됐다([TheRegister](https://www.theregister.com/security/2026/09/10/hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-script/5295650)). AI 에이전트가 실전 사이버공격에 대규모로 동원된 최초의 문서화된 사례로, 코딩 도구 보안 논의에 새로운 차원을 더한다.
 
 ## OpenAI: GPT-5.3-Codex-Spark 다음 주 퇴장, Agents API 퍼블릭 베타
 

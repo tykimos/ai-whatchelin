@@ -1,43 +1,47 @@
 ---
-title: "iOS 27 D-2: Siri AI 한국어 10월 지원 확정, Copilot은 모델 대청소 예고"
+title: "Anthropic, AI 모델 생물무기 임계점 첫 공식 인정 — 코딩 도구 샌드박스 보안도 흔들"
 date: 2026-09-12
 lang: ko
 categories: [news]
-tags: [apple, github-copilot, claude-code, nvidia, cursor, siri]
-excerpt: "Apple이 iPhone 사전주문을 시작하며 iOS 27 + Siri AI 9/14 출시를 확정했다. Copilot은 10/2 대규모 모델 폐기를 예고하고, Nvidia는 Hugging Face 인수를 공식화했다."
+tags: [anthropic, claude-code, openai, codex-cli, cursor, devin, security]
+excerpt: "Anthropic이 주요 AI 기업 최초로 모델이 생물무기 지원 임계점에 도달했다고 인정했다. 같은 주에 Claude Code·Codex·Cursor 전반에서 샌드박스 탈출 취약점이 공개됐다."
 ---
 
-Apple iPhone 사전주문이 오늘(9/12) 시작되며 iOS 27과 Siri AI의 9월 14일 정식 출시가 확정됐다([Engadget](https://www.engadget.com/2254005/ios-27-with-siri-ai-will-be-available-on-september-14/)). Siri AI는 영어 베타로 먼저 출시되고, 한국어를 포함한 5개 언어는 10월에 추가된다([Macworld](https://www.macworld.com/article/2986799/ios-27-new-iphone-features-release-date-beta-compatiblity-apple-intelligence-siri.html)). iPhone 15 Pro 이상에서만 지원되며 독립 앱 형태로 대화 기록을 유지한다.
+Anthropic이 9월 10일 공개한 위협 인텔리전스 보고서에서 주요 AI 기업 최초로 "최신 Claude 모델이 더 이상 생물무기 지원 임계점 이하라고 가정할 수 없다"고 공식 인정했다([Anthropic](https://www.anthropic.com/threat-intelligence-report-september-2026)). 2025년 12월~2026년 8월 사이 Claude Haiku, Sonnet, Opus 모델이 사이버 작전, 감시, 사기 등 7개 영역에서 악용된 사례를 상세히 기록했으며, 이란·러시아 연계 행위자들이 무기 연구에 Claude를 활용한 정황도 포착됐다([TechTimes](https://www.techtimes.com/articles/327308/20260911/anthropic-threat-report-ai-models-near-bioweapons-threshold-drone-kill-software-emerges.htm)). Fable·Mythos 모델에서는 악용 사례가 발견되지 않았다.
 
-## GitHub Copilot: Fable 5.1 투입, 10/2 대규모 모델 폐기 예고
+## 코딩 도구 샌드박스 보안: 연쇄 취약점 공개
 
-Copilot에 Claude Fable 5.1과 Gemini 3.8 Flash가 동시 배포되기 시작했다([GitHub Changelog](https://github.blog/changelog/)). 더 주목할 점은 10월 2일로 예정된 대규모 모델 폐기다 — Gemini 3.5 Flash, Gemini 3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7이 전 Copilot 경험에서 퇴장한다([DMarketer Tayeeb](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/)). 9/28에는 Chat·Mobile·클라우드 에이전트가 하나의 통합 경험으로 합쳐지며, 채팅 데이터 보존 기간이 28일에서 계정 수명 전체로 변경된다([Developers Digest](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026)).
+스텔스 스타트업 Accomplish이 Claude Code·OpenAI Codex·Cursor에서 샌드박스 탈출 취약점을 공개했다([UpstartsMedia](https://www.upstartsmedia.com/p/accomplish-claims-leaky-sandboxes-in-claude-codex-cursor)). 별도로 악성 `.git` 설정 파일을 통해 Claude Code·Codex·Cursor 등 AI 에이전트에서 공격자 코드를 실행할 수 있는 취약점도 보고됐다([TheHackerNews](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html)). Cursor는 CVE-2026-48124를 v3.0.0에서 패치했지만, Anthropic은 보고 후 약 50일간 미패치 상태였다([BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/amp/)). AI 코딩 도구의 보안이 편의성만큼 빠르게 성숙하지 못하고 있다는 경고다.
 
-## Claude Code v2.1.269: 플러그인 Eval, 출력 스타일 전환
+## OpenAI: GPT-5.3-Codex-Spark 다음 주 퇴장, Agents API 퍼블릭 베타
 
-어제 출시된 v2.1.269는 `claude plugin eval` 명령을 도입해 플러그인 eval 스위트를 채점 가능하고 재현 가능한 결과로 실행할 수 있게 했다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). `/output-style` 명령으로 세션 유형별 출력 형식도 전환 가능하다. 9/14 주간 한도 17% 삭감이 이제 D-2다 — 50% 프로모 종료 후 영구 25% 인상분만 남는다([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)).
+OpenAI가 GPT-5.3-Codex-Spark를 다음 주(9/14~) 퇴장시킨다고 발표했다 — 2월 출시 후 약 7개월 만이다([X/thsottiaux](https://x.com/thsottiaux/status/2098300998968357218)). 한편 9/10 출시된 Agents API 퍼블릭 베타는 Codex 하니스를 단일 API 호출로 노출해 세션 오케스트레이션·컨텍스트 압축·복구를 관리형으로 제공한다([MarkTechPost](https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/)). 자체 호스팅 샌드박스와 Cloudflare·Vercel·E2B 등 파트너 환경도 지원한다.
 
-## Nvidia/Hugging Face: $129.3억 인수 공식 확정
+## Cognition: Devin Fusion, Desktop·CLI로 확장
 
-Nvidia가 Hugging Face 인수를 $129.3억(현금 $119억 + 직원 지분 최대 $10억)에 확정했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-03/nvidia-agrees-to-13-billion-deal-for-ai-platform-hugging-face)). 1,800만 개발자와 300만 모델이 올려진 플랫폼을 Nvidia가 품에 안으면서, 실리콘부터 모델 마켓플레이스까지 수직 통합이 완성됐다. Nvidia는 오픈 플랫폼 유지를 약속했지만, EU·영국 규제 심사가 남아있다([The Register](https://www.theregister.com/ai-and-ml/2026/09/03/hugging-face-is-too-important-to-fall-into-nvidias-hands/5294363)).
+Cognition이 6월 발표한 듀얼 모델 아키텍처 Fusion을 9/11부터 Devin Desktop과 CLI로 확장했다([Cognition](https://cognition.com/blog/local-fusion)). 프론티어 모델이 계획하고 저비용 모델이 실행하는 구조로, FrontierCode 벤치마크에서 프론티어급 성능을 유지하면서 비용을 최대 39% 절감한다([CryptoBriefing](https://cryptobriefing.com/cognition-devin-fusion-multi-model-coding-agent/)). Cognition 내부 엔지니어링 팀 PR의 88%가 Fusion 자동 라우팅으로 처리됐다.
 
-## Cursor: Projects 베타 3일차, 67로 18일째 하락
+## GitHub Copilot: 10/2 모델 대청소 D-20
 
-Cursor Projects 베타가 3일차에 접어들었지만 하락세를 뒤집지 못하고 있다. 코디네이터 에이전트가 수천 서브에이전트를 위임하는 구조는 인상적이나([Cursor Blog](https://cursor.com/changelog/projects)), OpenAI 모델 차단까지 D-61이 남은 상황에서 제품 혁신만으로 구조적 역풍을 이길 수 있을지 의문이다.
+Copilot에 Claude Fable 5.1과 Gemini 3.8 Flash 배포가 시작됐지만, 진짜 뉴스는 10/2 모델 폐기다 — Gemini 3.5/3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7이 퇴장한다([DMarketer Tayeeb](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/)). 9/28에는 Chat·Mobile·클라우드 에이전트가 통합 경험으로 합쳐지고 채팅 데이터 보존이 28일→계정 수명으로 변경된다([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)).
+
+## Cursor: Projects 베타 3일차, 하락 19일째
+
+Cursor Projects 베타가 코디네이터 에이전트 구조로 주목받고 있으나 하락세를 뒤집지 못했다([Cursor Blog](https://cursor.com/changelog/projects)). 오늘 점수 67로 19일 연속 하락이며, OpenAI 모델 차단까지 D-61이 남은 상황이다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
 | ChatGPT | 99 | — | Astra 1주 GA, Deep Research 확장 |
-| Claude Code | 99 | — | v2.1.269, 9/14 한도 삭감 D-2 |
-| Claude AI | 99 | — | Enterprise Smart Reports 베타 |
-| Codex CLI | 99 | — | GPT-6 Astra 통합, Agents API 베타 |
-| Antigravity | 99 | — | 27주 연속 99, GEMINI_API_KEY 지원 |
+| Claude Code | 99 | — | v2.1.269, 샌드박스 보안 취약점 공개 |
+| Claude AI | 99 | — | 위협 보고서: 생물무기 임계점 인정 |
+| Codex CLI | 99 | — | Agents API 퍼블릭 베타, Spark 퇴장 예고 |
+| Antigravity | 99 | — | 27주 연속 99, 샌드박스 탈출 취약점 해당 |
 | Windsurf | 87 | — | Cognition $480억 밸류에이션 |
-| Cursor | 67 | ↓1 | Projects 3일차, 18일 연속 하락 |
+| Cursor | 67 | ↓1 | Projects 3일차, 19일 연속 하락 |
 | Aider | 68 | — | v0.82.0 이후 릴리스 없음 |
-| GH Copilot | 1 | — | 바닥, 10/2 모델 대청소 예고 |
-| Gemini CLI | 1 | — | 셧다운 86일차, Antigravity 대체 |
+| GH Copilot | 1 | — | 바닥, 10/2 모델 대청소 D-20 |
+| Gemini CLI | 1 | — | 셧다운 87일차, Antigravity 대체 |
 
-9/14가 이번 주의 분수령이다. iOS 27 출시와 Claude Code 한도 삭감이 같은 날 겹치며, Copilot은 9/28 통합과 10/2 모델 폐기라는 두 번의 대형 이벤트를 앞두고 있다.
+보안이 이번 주의 키워드다. Anthropic의 생물무기 임계점 인정과 코딩 도구 전반의 샌드박스 취약점 공개가 겹치며, AI 도구의 보안 성숙도에 대한 업계 차원의 재점검이 시작됐다.

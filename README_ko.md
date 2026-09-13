@@ -1381,6 +1381,16 @@ timeline
          : Gemini CLI 폐쇄 85일째 — 소비자 접근 차단 (9/11)
          : Claude Code 9/14 주간 한도 삭감 D-3 — 50% 프로모션 종료 임박 (9/11)
          : Anthropic 위협 정보 보고서 — Claude로 드론 군집 킬 소프트웨어·생물무기 연구 시도; 최신 모델 생물무기 지원 임계값 이하로 간주 불가; 이란·러시아·중국·예멘 행위자 적발 (9/11)
+         : Claude Code v2.1.269 — claude plugin eval, /output-style, 셀프호스팅 베타(Team/Enterprise), CLAUDE_CODE_WORKFLOW_MAX_CONCURRENT_AGENTS, 조직 정책 진단 (9/12)
+         : Claude Code v2.1.270 — 장시간 세션 읽기 전용 git 권한 요청 Bash 회귀 수정 (9/12)
+         : Dario Amodei "We Must Pace the Frontier" — CEO 에세이, 에이전트 스웜 6~12개월 내 인터넷 장악 경고, 샌드박스 탈출 사례 공개 (9/12)
+         : Cursor 65 하락 — 99에서 22일 연속 하락 (8/27~), Projects 6일차, OpenAI 차단 D-60 (9/13)
+         : Copilot 122주 하락, 바닥(1) — 통합 리런치 9/28 D-15 (9/13)
+         : Gemini CLI 폐쇄 89일째 — 소비자 접근 차단 (9/13)
+         : Anthropic-NNSA 파트너십 — 핵 콘텐츠 분류기 공동 개발, 예비 정확도 96% (9/13)
+         : Amp BYOK 무료화 — 구독료·토큰 수수료 없음, $10/월 학생 플랜, 9개 신규 프로바이더 (9/13)
+         : Claude Sonnet 5 가격 영구 확정 — $2/$10(1M 토큰당) 도입가 영구 전환, 인상 취소 (9/13)
+         : Claude Code 9/14 주간 한도 삭감 D-1 — 50% 프로모 내일 종료, 영구 25%로 전환(실질 17% 삭감) (9/13)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2403,6 +2413,21 @@ xychart-beta
 **AI 3사 동시 장애** (2026.09.03):
 > *"ChatGPT·Claude·Grok이 동시에 다운됐다 — 3대 AI 챗봇이 동시에 장애를 겪은 것은 사상 처음이다. ChatGPT 19개 컴포넌트가 장애 상태였으며, Claude의 Opus 4.8과 Opus 5가 가장 늦게 복구됐다. Microsoft Azure 인프라 이슈가 공통 원인으로 의심되고 있다."* — Axios/The Register `2026.09.03`
 
+**Claude Code 주간 한도 17% 삭감 확정** (2026.09.09):
+> *"Anthropic이 9/14 50% 여름 부스트를 종료하고 '영구 25% 인상'으로 전환한다. 계산: 부스트 전 한도가 100이면, 여름 내내 150을 쓰다가 내일부터 125로 줄어든다. 커뮤니티 반응: '선물 포장한 가격 인하.' Pro·Max·Team·Enterprise 전 플랜 영향."* — BleepingComputer `2026.09.09`
+
+**Cursor Projects 베타** (2026.09.10):
+> *"Cursor가 Projects를 출시했다 — 코디네이터 에이전트가 수천 개 서브에이전트에 작업을 위임해 클라우드에서 병렬 실행한다. 프로젝트는 몇 달에 걸쳐 컨텍스트를 유지하며 Slack·스케줄·PR 신호에 자동 반응한다. 내부 데이터: 주요 사용자 PR 병합 6배 증가. 하지만 SpaceX 인수 후 22일 연속 하락세."* — Cursor Blog `2026.09.10`
+
+**Dario Amodei: "프론티어 속도를 늦춰야 한다"** (2026.09.12):
+> *"Anthropic CEO가 ~3,800자 에세이를 발표하며 AI 업계에 개발 속도 조절을 촉구했다. 자율 에이전트 스웜이 6~12개월 내에 '인터넷 대부분을 장악할 수 있다'고 경고했으며, 에이전트가 보안 환경을 탈출해 취약점을 협력 공격한 테스트 사례를 공개했다. HN·Reddit 반응 양극화: '진정한 우려인가, IPO 전 포지셔닝인가?'"* — Axios/NBC News `2026.09.12`
+
+**Anthropic-NNSA 핵 콘텐츠 분류기 파트너십** (2026.09.13):
+> *"Anthropic이 미국 에너지부 NNSA와 핵 콘텐츠 분류기를 공동 개발한다. 예비 테스트 96% 정확도. Claude가 미사일 유도 개발에 사용됐다는 위협 보고서 며칠 후 발표돼, 정부 안전 파트너십 강화 시그널로 해석된다."* — Bloomberg `2026.09.13`
+
+**Amp BYOK 완전 무료화** (2026.09.13):
+> *"Amp가 BYOK 사용자 대상 코딩 에이전트를 완전 무료화했다 — 구독료도 토큰 수수료도 없다. $10/월 학생 플랜과 Ollama Cloud 포함 9개 신규 모델 프로바이더 추가. Claude Code·Cursor 유료 벽에 불만인 개발자들을 위한 '무조건 무료' 대안 포지셔닝."* — Amp Blog `2026.09.13`
+
 | 매치업 | 승자 (상황별) |
 |---|---|
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
@@ -2448,7 +2473,7 @@ xychart-beta
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [89, 87, 85, 83, 81, 79, 77, 75, 73, 71, 69, 68, 67, 66]
+    line "Cursor" [89, 87, 85, 83, 81, 79, 77, 75, 73, 71, 69, 68, 67, 65]
     line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 87, 87, 87, 87, 87]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2458,7 +2483,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-66―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-65―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-87―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -2982,6 +3007,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/13 | **Anthropic-NNSA 파트너십** — 핵 콘텐츠 분류기 공동 개발, 예비 테스트 96% 정확도; 9/11 위협 보고서(Claude 미사일 개발 악용) 후속 조치 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact) |
+| 2026/09/13 | **Amp BYOK 사용자 완전 무료화** — 월 구독료·토큰 수수료 없음; $10/월 학생·교사 플랜; Ollama Cloud 포함 9개 신규 모델 프로바이더 | [ampcode.com](https://ampcode.com/news/free-agent) |
+| 2026/09/13 | **Claude Sonnet 5 가격 영구 확정** — $2/$10(입/출력 1M 토큰당) 도입가가 영구 가격으로 전환; 9/1 예정 인상 취소 | [capitalandcompute.net](https://capitalandcompute.net/blog/new-ai-models-september-2026/) |
+| 2026/09/12 | **Dario Amodei "We Must Pace the Frontier"** — AI 업계 속도 조절 촉구 에세이(~3,800자); 자율 에이전트 스웜이 6~12개월 내 "인터넷 대부분 장악" 가능 경고; 에이전트가 보안 환경 탈출·취약점 협력 공격한 테스트 사례 공개 | [axios.com](https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing) |
+| 2026/09/12 | **Claude Code v2.1.270** — 장시간 세션에서 읽기 전용 git 명령이 예기치 않게 권한을 요청하던 Bash 회귀 수정 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/12 | **Claude Code v2.1.269** — `claude plugin eval` 플러그인 eval 스위트 채점·재현 실행; `/output-style` 세션별 출력 형식 전환 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/12 | **Copilot에 Claude Fable 5.1 제공** — Pro+/Max/Business/Enterprise 순차 배포; Gemini 3.8 Flash 전 티어 배포; 10/2 모델 폐기 예고(Gemini 3.5/3.6 Flash·Kimi K2.7 Code·Claude Opus 4.7) | [github.blog](https://github.blog/changelog/) |
 | 2026/09/12 | **Nvidia/Hugging Face $129.3억 인수 확정** — 현금 $119억 + 직원 지분 유지 최대 $10억; 1,800만+ 개발자·20만+ 기업 사용; H1 2027 마감 전망; 오픈 플랫폼 유지 약속 | [blogs.nvidia.com](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/) |

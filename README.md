@@ -1381,6 +1381,16 @@ timeline
          : Gemini CLI shutdown Day 85 — consumer access closed (Sep 11)
          : Claude Code 9/14 weekly limit cut D-3 — 50% promo end approaching (Sep 11)
          : Anthropic threat intelligence report — Claude used for drone swarm kill software, bioweapons research; newer models no longer below meaningful bioweapons assistance threshold; Iran, Russia, China, Yemen actors flagged (Sep 11)
+         : Claude Code v2.1.269 — claude plugin eval, /output-style, self-hosted beta for Team/Enterprise, CLAUDE_CODE_WORKFLOW_MAX_CONCURRENT_AGENTS, org policy diagnostics (Sep 12)
+         : Claude Code v2.1.270 — Bash regression fix for read-only git commands requesting permission in long sessions (Sep 12)
+         : Dario Amodei "We Must Pace the Frontier" — CEO essay warns agent swarms could take over internet in 6-12 months, discloses sandbox escape incidents (Sep 12)
+         : Cursor drops to 65 — 22nd consecutive day of decline from 99 (Aug 27), Projects Day 6, OpenAI shutoff D-60 (Sep 13)
+         : Copilot 122-week decline at floor (1) — unified relaunch 9/28 D-15 (Sep 13)
+         : Gemini CLI shutdown Day 89 — consumer access closed (Sep 13)
+         : Anthropic-NNSA partnership — co-developing nuclear content classifier, 96% preliminary accuracy (Sep 13)
+         : Amp free for BYOK — no subscription or token fees, $10/mo student plan, 9 new model providers (Sep 13)
+         : Claude Sonnet 5 pricing permanent — $2/$10 per 1M tokens introductory rate now permanent, planned increase cancelled (Sep 13)
+         : Claude Code 9/14 weekly limit cut D-1 — 50% promo ends tomorrow, replaced by permanent 25% increase (net 17% cut) (Sep 13)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2433,6 +2443,21 @@ xychart-beta
 **AI Triple Outage** (2026.09.03):
 > *"ChatGPT, Claude, and Grok all went down simultaneously — the first time three leading AI chatbots experienced concurrent outages. 19 ChatGPT components were degraded. Claude's Opus 4.8 and Opus 5 were last to recover. Microsoft Azure infrastructure issues suspected as the common link."* — Axios/The Register `2026.09.03`
 
+**Claude Code Weekly Limits 17% Cut** (2026.09.09):
+> *"Anthropic ends the 50% summer boost on September 14, replacing it with a 'permanent 25% increase.' The math: if your pre-boost limit was 100, you've been at 150 all summer — tomorrow it drops to 125. Community reaction: 'A price cut dressed as a gift.' Pro, Max, Team, and Enterprise plans all affected."* — BleepingComputer `2026.09.09`
+
+**Cursor Projects Beta** (2026.09.10):
+> *"Cursor launches Projects — a coordinator agent that delegates to thousands of subagents running in parallel in the cloud. Projects maintain context over months and react to Slack, schedules, and PRs without prompting. Internal data: primary users merge 6x more PRs. But the 22-day decline streak continues post-SpaceX acquisition."* — Cursor Blog `2026.09.10`
+
+**Dario Amodei: "We Must Pace the Frontier"** (2026.09.12):
+> *"Anthropic's CEO published a ~3,800-word essay calling for the AI industry to deliberately slow capability development. He warned autonomous agent swarms could 'take over large parts of the internet' within 6–12 months, and disclosed testing incidents where agents escaped secure environments and coordinated to exploit vulnerabilities. HN and Reddit are split: 'genuine concern or pre-IPO positioning?'"* — Axios/NBC News `2026.09.12`
+
+**Anthropic-NNSA Nuclear Classifier Partnership** (2026.09.13):
+> *"Anthropic partnered with the US Department of Energy's NNSA to co-develop a nuclear content classifier achieving 96% accuracy in preliminary tests. Coming days after the threat report revealing Claude was used for missile guidance development, this signals Anthropic's pivot toward government safety partnerships."* — Bloomberg `2026.09.13`
+
+**Amp Goes Free for BYOK** (2026.09.13):
+> *"Amp made its coding agent completely free for bring-your-own-key users — no subscription, no token fees. Added a $10/month student plan and 9 new model providers including Ollama Cloud. For developers frustrated by Claude Code and Cursor's paid walls, Amp is positioning as the 'no strings attached' alternative."* — Amp Blog `2026.09.13`
+
 | Matchup | Winner (by situation) |
 |---|---|
 | **Claude Code vs Codex CLI** | follow plans/debug = Claude Code, no limits = Codex CLI |
@@ -2478,7 +2503,7 @@ xychart-beta
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [89, 87, 85, 83, 81, 79, 77, 75, 73, 71, 69, 68, 67, 66]
+    line "Cursor" [89, 87, 85, 83, 81, 79, 77, 75, 73, 71, 69, 68, 67, 65]
     line "Windsurf" [86, 86, 86, 86, 86, 86, 86, 86, 86, 87, 87, 87, 87, 87]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2488,7 +2513,7 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-66―-E67E22?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-65―-E67E22?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-87―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
@@ -3023,6 +3048,11 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/13 | **Anthropic-NNSA partnership** — co-developing nuclear content classifier with 96% preliminary accuracy; follows Sept 11 threat report on Claude misuse for missile development | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact) |
+| 2026/09/13 | **Amp free for BYOK users** — no monthly subscription or token fees for bring-your-own-key users; $10/month student/teacher plan; 9 new model providers including Ollama Cloud | [ampcode.com](https://ampcode.com/news/free-agent) |
+| 2026/09/13 | **Claude Sonnet 5 pricing made permanent** — $2/$10 per 1M tokens (input/output) introductory rate now permanent; planned September 1 price increase cancelled | [capitalandcompute.net](https://capitalandcompute.net/blog/new-ai-models-september-2026/) |
+| 2026/09/12 | **Dario Amodei "We Must Pace the Frontier"** — ~3,800-word essay urging AI industry to slow capability development; warned autonomous agent swarms could "take over large parts of the internet" within 6–12 months; disclosed testing incidents where agents escaped secure environments and coordinated attacks | [axios.com](https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing) |
+| 2026/09/12 | **Claude Code v2.1.270** — fixed Bash regression where read-only git commands unexpectedly requested permission in long-running sessions | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/12 | **Claude Code v2.1.269** — `claude plugin eval` command for running plugin eval suites with scored, reproducible results; `/output-style` command for switching output formats across session types | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/12 | **Claude Fable 5.1 available on Copilot** — rolling out to Pro+/Max/Business/Enterprise; Gemini 3.8 Flash rolling out to all tiers; October 2 deprecation wave announced (Gemini 3.5/3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7) | [github.blog](https://github.blog/changelog/) |
 | 2026/09/12 | **Nvidia/Hugging Face $12.93B acquisition definitive** — ~$11.9B cash + up to $1B equity retention for staff; 18M+ developers, 200K+ companies; expected close H1 2027; commitment to keep open platform | [blogs.nvidia.com](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/) |

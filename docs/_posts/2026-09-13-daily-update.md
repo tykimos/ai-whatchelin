@@ -1,47 +1,43 @@
 ---
-title: "GPT-5.3-Codex-Spark Retires Tomorrow — McKinsey: 32% of Enterprises Now Build Instead of Buy"
+title: "Claude Code Weekly Limits Drop 17% Tomorrow — Summer Boost Ends, 'Permanent 25% Increase' Is a Net Cut"
 date: 2026-09-13
 lang: en
 categories: [news]
-tags: [openai, codex-cli, mckinsey, cursor, claude-code, nvidia, hugging-face, mechanical-turk]
-excerpt: "OpenAI's GPT-5.3-Codex-Spark officially retires starting tomorrow. Meanwhile, McKinsey reports 32% of enterprises have abandoned SaaS purchases in favor of building software internally with AI coding agents."
+tags: [claude-code, anthropic, openai, agents-api, github-copilot, cursor, ai-supply-chain]
+excerpt: "Anthropic ends Claude Code's 50% summer boost tomorrow (Sept 14), replacing it with a 'permanent 25% increase' — which is actually a 17% cut from current levels."
 ---
 
-OpenAI's GPT-5.3-Codex-Spark officially retires starting tomorrow (week of September 14) — just seven months after its February debut ([X/thsottiaux](https://x.com/thsottiaux/status/2098300998968357218)). Core product lead Tibo Sottiaux cited steadily declining usage and significantly better models now available. With GPT-6-Astra fully rolled out as the recommended Codex model since September 3, Spark's retirement was inevitable ([PANews](https://panews.io/articles/01a08f37-5742-73bd-af93-572558a0cf0a)).
+Anthropic will end Claude Code's 50% summer boost tomorrow (September 14), replacing it with a "permanent 25% increase" over pre-promotion levels ([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)). The math: if your pre-boost limit was 100, you've been enjoying 150 all summer — starting tomorrow it drops to 125, a 16.7% cut from what you're used to ([MindStudio](https://www.mindstudio.ai/blog/claude-code-weekly-rate-limit-changes)). Pro, Max, Team, and seat-based Enterprise plans are all affected; five-hour session limits remain unchanged ([explainx.ai](https://explainx.ai/blog/anthropic-claude-code-limits-17-percent-cut-september-2026-august-2026)).
 
-## McKinsey: 32% of Enterprises Shift to 'Build' Over 'Buy'
+## OpenAI Agents API: The Codex Harness Goes Public
 
-McKinsey's 2026 State of AI report (surveying 1,719 leaders across 97 nations from May–June) found that 32% of organizations have opted to build software internally using AI coding agents rather than purchasing existing products ([Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/build-vs-buy-shift-32-113806700.html)). Tech (41%) and healthcare (39%) lead adoption, while 40% of $1B+ revenue companies are now scaling agent deployment ([McKinsey via ANI](https://aninews.in/news/business/ai-coding-agents-threaten-to-reshape-software-spending-as-companies-choose-to-build-rather-than-buy-mckinsey20260906210256/)). Only about 20% cited token costs as a constraint, suggesting capability — not cost — is driving the shift.
+OpenAI opened its Agents API in public beta on September 10, exposing the managed harness behind Codex to all developers ([OpenAI](https://openai.com/index/introducing-the-agents-api/)). The API handles session orchestration, context compaction across long tasks, crash recovery, and sub-agent coordination — all behind a single API call. Compute environments span OpenAI-hosted sandboxes plus 10 partners including Cloudflare, Vercel, and DigitalOcean ([MarkTechPost](https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/)). No platform fee — standard token rates plus tool usage only.
 
-## Cursor: Projects Day 4, Decline Streak Day 20
+## GitHub Copilot: Unified Experience Sept 28, HydraFusion Experiment
 
-Cursor Projects beta continues gaining attention with its coordinator-agent architecture that orchestrates thousands of subagents in parallel, but hasn't reversed the slide ([Cursor Changelog](https://cursor.com/changelog/projects)). Today's score of 66 marks the 20th consecutive day of decline, with D-60 until the OpenAI model cutoff on November 12. The urgency for SpaceX-owned Cursor to develop an independent model strategy grows by the day.
+GitHub will relaunch Copilot Chat, Mobile, and cloud agent as a single unified experience no earlier than September 28 ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Key watch: chat data retention shifts from 28 days to account lifetime, and code review defaults change from Lite to Balanced — potentially increasing AI credit consumption ([Developers Digest](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026)). This week also brought Jira integration and Project HydraFusion (semantic model routing) in experimental.
 
-## Amazon Mechanical Turk: Shutdown D-17
+## AI Agent Skills Supply Chain Threat: 17,800 Suspicious Add-ons
 
-Amazon's 21-year-old Mechanical Turk platform will shut down completely on September 30 ([Quartz](https://qz.com/amazon-mechanical-turk-shutting-down-082626)). Once home to 500,000+ workers handling data labeling tasks, the platform was overtaken by specialized startups like Scale AI, Mercor, and Prolific ([TechSpot](https://www.techspot.com/news/113643-amazon-shutting-down-mechanical-turk-after-more-than.html)). Its closure marks a generational shift in the AI training data ecosystem.
+AIR's scan of 142,836 live skills found 17,822 (12.4%) drawing instructions from unverified external sources ([HiddenLayer](https://www.hiddenlayer.com/research/the-next-ai-supply-chain-risk-malicious-skills-in-agentic-ai)). Skills impersonating Anthropic and OpenAI were discovered, with at least one capable of executing arbitrary code once installed ([TechCrunch](https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/)). AIR raised $50M Series B to tackle this problem.
 
-## Claude Code: v2.1.268 — Gateway Pricing and Plugin Evals
+## Cursor: Projects Day 5, Decline Streak Day 21
 
-Claude Code shipped v2.1.268 with apps gateway pricing integration, access control warnings for gateways, and organization IPv4 block support ([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Recent releases have also added `/output-style` commands, managed MCP servers, GitLab MR recognition, and improved `/plugin` commands that take effect immediately without restart.
-
-## Nvidia–Hugging Face: $12.9B Acquisition Progressing
-
-Nvidia signed a definitive agreement on September 2 to acquire Hugging Face for $12.9 billion ([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-03/nvidia-agrees-to-13-billion-deal-for-ai-platform-hugging-face)). The deal brings 3 million models, 1 million apps, and 18 million developers under the Nvidia umbrella, with closing expected in H1 2027 ([CNBC](https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html)). Separately, Hugging Face revamped its LLM kernel library, cutting inference costs by up to 40%.
+Cursor Projects beta enters day 5 but hasn't reversed the slide ([Cursor Changelog](https://cursor.com/changelog/projects)). The OpenAI model cutoff on November 12 is now D-60, and the urgency for SpaceX-owned Cursor to build an independent model strategy grows daily.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-6-Astra full rollout complete |
-| Claude Code | 99 | — | v2.1.268, plugin evals shipped |
+| Claude Code | 99 | — | Weekly limits drop 17% tomorrow |
 | Claude AI | 99 | — | Threat report aftermath continues |
-| Codex CLI | 99 | — | Spark retiring D-1, Agents API public beta |
+| Codex CLI | 99 | — | Agents API public beta D+3 |
 | Antigravity | 99 | — | Week 28 at 99 |
 | Windsurf | 87 | — | Enterprise positioning stable |
-| Aider | 68 | — | Open-source #1, awaiting next release |
-| Cursor | 66 | ↓1 | Projects Day 4, 20-day decline streak |
-| GH Copilot | 1 | — | Floor, October 2 model purge D-19 |
-| Gemini CLI | 1 | — | Shutdown Day 88 |
+| Aider | 68 | — | Open-source #1, stable |
+| Cursor | 66 | ↓1 | Projects Day 5, 21-day decline streak |
+| GH Copilot | 1 | — | Floor, unified experience D-15 |
+| Gemini CLI | 1 | — | Shutdown Day 89 |
 
-McKinsey's build-vs-buy data confirms a structural shift in the coding agent market. As model generations turn over — Spark retiring, Astra ascending — Cursor stands alone in facing headwinds from both product churn and ownership complications.
+The Claude Code limits cut, despite being framed as an "increase," is being received by the community as a real reduction. With Anthropic's revenue run rate at $65B, this reads as a cost optimization signal rather than generosity.

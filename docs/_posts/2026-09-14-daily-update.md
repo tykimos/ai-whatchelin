@@ -1,39 +1,43 @@
 ---
-title: "Claude Code Limit Cut D-Day — Summer Boost Ends, 'Permanent 25%' Era Begins"
+title: "Anthropic Pulls Limit-Cut Post After Backlash, Rewrites With Explicit Admission"
 date: 2026-09-14
 lang: en
 categories: [news]
-tags: [claude-code, anthropic, cursor, antigravity, github-copilot, amp]
-excerpt: "Claude Code's 50% summer boost officially ends today, replaced by a permanent 25% increase — a 16.7% cut from current levels. As users brace for the impact, Cursor posts its 23rd consecutive day of decline."
+tags: [claude-code, anthropic, cursor, antigravity, github-copilot, openai, meta]
+excerpt: "On the day Claude Code's summer boost officially ends, Anthropic deleted their original announcement and republished with a clearer admission of the 17% reduction. Meanwhile, Claude Code climbs to #1 in LogRocket's power rankings."
 ---
 
-Today (September 14) marks the official end of Claude Code's 50% summer boost, replaced by a "permanent 25% increase" over pre-promotion levels ([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)). While Anthropic frames it as a permanent upgrade from the May baseline, users who've enjoyed the 50% boost for four months will experience an effective 16.7% reduction in weekly limits ([MindStudio](https://www.mindstudio.ai/blog/claude-code-weekly-rate-limit-changes)). All Pro, Max, Team, and Enterprise plans are affected; the 5-hour session cap remains unchanged. Community reaction is split between "this is a downgrade dressed as an upgrade" and "it's still higher than the original baseline" ([AI Catchup](https://aicatchup.com/news/claude-code-weekly-limits-permanent-25-percent-september-2026)).
+Today (September 14) marks the official end of Claude Code's 50% summer boost, replaced by a "permanent 25% increase" over the original May baseline ([BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)). For users who've enjoyed the boosted limits for four months, this translates to an effective 16.7% reduction ([MindStudio](https://www.mindstudio.ai/blog/claude-code-weekly-rate-limit-changes)). The real story, though, is Anthropic's messaging fumble — the initial announcement emphasized "+25%" without acknowledging the net cut, sparking backlash so fierce that Anthropic pulled the post entirely and republished with an explicit admission of the reduction ([X Trending](https://x.com/i/trending/2093741457970528413)). Employees reportedly acknowledged the messaging "could have been clearer."
 
-## Cursor: Projects Day 7, Decline Streak Day 23
+## Claude Code: Rises to #1 in LogRocket Power Rankings
 
-Cursor's popularity score dropped to 63, extending its post-SpaceX decline to 23 consecutive days ([Cursor Changelog](https://cursor.com/changelog/projects)). Projects beta enters day 7 with its impressive coordinator-agent architecture delegating to thousands of parallel cloud subagents, but the OpenAI model cutoff (November 12, D-59) continues to loom large without an independent model strategy ([Technobezz](https://www.technobezz.com/news/cursor-projects-cloud-agents-beta)).
+Despite the limit controversy, Claude Code's market position is strengthening. In the September LogRocket AI Dev Tool Power Rankings, Claude Code overtook OpenCode to claim the #1 spot, powered by Fable 5.1's 1762 Elo — the highest score of any model in any tool ([LogRocket Blog](https://blog.logrocket.com/ai-dev-tool-power-rankings/)). The 75% reduction in cache read costs has materially lowered per-task agentic costs, giving it a widening edge.
 
-## Antigravity: v2.13.0 — Documents Section & UX Polish
+## Cursor: Projects Day 7, Decline Streak Day 24
 
-Antigravity shipped v2.13.0 with a new Documents section, C++/Python/Protobuf syntax highlighting, file pill hover tooltips, and a built-in Antigravity Guide skill — 16 improvements and 16 bug fixes in total ([Releasebot](https://releasebot.io/updates/google/antigravity)). Google's developer tool consolidation strategy continues to pay dividends, with Antigravity maintaining 99 for its 29th consecutive week.
+Cursor's popularity score sits at 63, extending its post-SpaceX-acquisition decline ([Cursor Changelog](https://cursor.com/changelog/projects)). Despite shipping Grok 4.6 integration and the impressive Projects beta with coordinator-agent architecture, the OpenAI model cutoff (November 12, D-59) continues to cast a long shadow over the platform's future ([Gizmodo](https://gizmodo.com/grok-gets-cursor-driven-upgrade-claims-to-be-competitive-with-top-models-2000797884)).
 
-## GitHub Copilot: Unified Experience D-14
+## GitHub Copilot: Unified Experience D-14, Model Deprecations Underway
 
-GitHub Copilot's unified experience — merging Chat, Mobile, and cloud agents into one — is now just 14 days away (September 28) ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). The merge brings a policy shift: chat data retention moves from 28 days to account lifetime, and prepaid seats become mandatory for Business/Enterprise starting October 1 ([Developers Digest](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026)). After 85 weeks at floor level, all eyes are on whether the unified launch can spark a recovery.
+GitHub Copilot's unified experience is now 14 days away (September 28), and the model cleanup has begun — MAI-Code-1-Flash was deprecated on September 10 ([GitHub Changelog](https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/)). A larger wave hits October 2: Gemini 3.5/3.6 Flash replaced by 3.8 Flash, Kimi K2.7 Code by K3, and Claude Opus 4.7 by Opus 5 ([DMarketer](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/)). Prepaid seats become mandatory for Business/Enterprise on October 1.
+
+## Meta Muse Spark 1.1: Budget Multimodal Agent
+
+Meta launched Muse Spark 1.1 with the public Meta Model API at $1.25/$4.25 per million tokens — roughly 25% of OpenAI/Anthropic pricing ([AI Weekly](https://aiweekly.co/ai-news-today)). The multimodal agentic model could draw cost-sensitive teams looking for alternatives.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | GPT-6 Astra day 11, Agents API stabilizing |
-| Claude Code | 99 | — | Limit cut live today, community split |
-| Claude AI | 99 | — | NNSA partnership follow-up, Sonnet 5 price locked |
-| Codex CLI | 99 | — | Agents API D+4, v0.154.0 |
+| ChatGPT | 99 | — | GPT-6 Astra day 11, Agents API public beta |
+| Claude Code | 99 | — | LogRocket #1, limit cut live, messaging backlash |
+| Claude AI | 99 | — | Fable 5.1 at 1762 Elo, Sonnet 5 pricing locked |
+| Codex CLI | 99 | — | Agents API D+4 public beta |
 | Antigravity | 99 | — | v2.13.0, week 29 at 99 |
-| Windsurf | 87 | — | Devin Desktop stable phase |
+| Windsurf | 87 | — | Stable phase continues |
 | Aider | 68 | — | Open-source #1, 44K GitHub stars |
-| Cursor | 63 | ↓2 | Projects Day 7, 23-day decline streak |
-| GH Copilot | 1 | — | Floor, unified experience D-14 |
+| Cursor | 63 | ↓2 | Projects Day 7, 24-day decline streak |
+| GH Copilot | 1 | — | Floor, unified D-14, mass model swap coming |
 | Gemini CLI | 1 | — | Shutdown day 88 |
 
-With the Claude Code limit cut going live today, the dual narrative of "Amodei's safety essay + cost optimization" becomes sharper. Cursor continues to bleed popularity despite shipping an innovative Projects feature — a stark market signal that technical excellence alone cannot offset platform uncertainty.
+The paradox of the day: Anthropic had to delete and rewrite their own announcement, yet Claude Code still climbed to #1 in power rankings. The lesson is clear — tool dominance in 2026 rests on model performance (Fable 5.1's 1762 Elo) and cost efficiency, not generous rate limits.

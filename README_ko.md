@@ -126,7 +126,7 @@ timeline
             : Claude Code 에이전트 확립
             : Codex CLI 오픈소스
     2026 : Cursor $50B 협상, Composer 2 Kimi K2.5 논란
-         : Windsurf LogRocket 1위
+         : Claude Code LogRocket 1위 (9월), Windsurf 1위 (2월)
          : Antigravity 쿼터 논란
          : Sora 셧다운 (3/24)
          : Claude Code Auto Mode + Computer Use (3/24)
@@ -1397,6 +1397,8 @@ timeline
          : Copilot 123주 하락, 바닥(1) — 통합 경험 D-14 (9/14)
          : Gemini CLI 폐쇄 90일째 — 소비자 접근 차단 (9/14)
          : iOS 27 + Siri AI 정식 출시 — iPhone 15 Pro+, 영어 베타 우선, 10월 다국어 추가 (9/14)
+         : Claude Code LogRocket 1위 — OpenCode 제치고 9월 파워랭킹 1위, Fable 5.1(1762 Elo), 캐시 읽기 75% 저렴 (9/14)
+         : Anthropic 한도 삭감 공지 철회·재작성 — "+25%" 강조에 커뮤니티 반발, 삭제 후 17% 삭감 명시한 새 글 게시 (9/14)
          : GitHub Copilot HydraFusion 리서치 프리뷰 — CLI에서 멀티 모델 오케스트레이션, TerminalBench 2.1에서 Opus 5 대비 67% 비용 절감 (9/5)
 ```
 
@@ -1465,7 +1467,7 @@ flowchart TD
 | 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (88.6%), Fable 5, 코드 품질 최강 |
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B 밸류 협상 중, $2B+ ARR, 탭 자동완성 최강 |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE, $10/월 최저가 |
-| 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 1위, Cascade 메모리, 대규모 코드베이스 강점 |
+| 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 2월 1위 (현재 3위), Cascade 메모리, 대규모 코드베이스 강점 |
 | 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | 코딩 에이전트 | 출시 1개월 100만 바이브코더, 안전한 샌드박스, 240+ tok/s |
 
 ### 바이브코더 전체 지도
@@ -3014,6 +3016,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/14 | **Anthropic 한도 삭감 공지 철회·재작성** — "+25%" 강조에 커뮤니티 반발, 원래 글 삭제 후 17% 삭감을 명시한 새 글 게시; 직원들도 "메시징이 더 명확했어야 했다" 인정 | [x.com](https://x.com/i/trending/2093741457970528413) |
+| 2026/09/14 | **Claude Code LogRocket 1위** — 9월 파워랭킹에서 Fable 5.1(1762 Elo, 전 도구 최고)로 OpenCode 제치고 1위; 캐시 읽기 75% 저렴해져 에이전틱 작업 비용 대폭 절감; SpaceX-Cursor 인수도 상위 3위 재편에 영향 | [blog.logrocket.com](https://blog.logrocket.com/ai-dev-tool-power-rankings/) |
 | 2026/09/14 | **Claude Code 17% 한도 삭감 발효** — 50% 여름 부스트 종료, 프로모 전 대비 영구 25% 인상으로 전환; Pro/Max/Team/Enterprise 적용; 5시간 세션 한도 유지; "사실상 다운그레이드" vs "원래보다 높으니 감사" 커뮤니티 반응 양극화 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
 | 2026/09/13 | **Anthropic-NNSA 파트너십** — 핵 콘텐츠 분류기 공동 개발, 예비 테스트 96% 정확도; 9/11 위협 보고서(Claude 미사일 개발 악용) 후속 조치 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact) |
 | 2026/09/13 | **Amp BYOK 사용자 완전 무료화** — 월 구독료·토큰 수수료 없음; $10/월 학생·교사 플랜; Ollama Cloud 포함 9개 신규 모델 프로바이더 | [ampcode.com](https://ampcode.com/news/free-agent) |

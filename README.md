@@ -126,7 +126,7 @@ timeline
             : Claude Code establishes agentic standard
             : Codex CLI goes open source
     2026 : Cursor $50B talks, Composer 2 Kimi K2.5 scandal
-         : Windsurf #1 on LogRocket
+         : Claude Code #1 on LogRocket (Sep), Windsurf #1 (Feb)
          : Antigravity quota controversy
          : Sora shutdown (Mar 24)
          : Claude Code Auto Mode + Computer Use (Mar 24)
@@ -1397,6 +1397,8 @@ timeline
          : Copilot 123-week decline at floor (1) — unified experience D-14 (Sep 14)
          : Gemini CLI shutdown Day 90 — consumer access closed (Sep 14)
          : iOS 27 + Siri AI released — iPhone 15 Pro+, English beta first, multi-language October (Sep 14)
+         : Claude Code #1 on LogRocket — overtakes OpenCode with Fable 5.1 (1762 Elo), 75% cheaper cache reads (Sep 14)
+         : Anthropic pulls/rewrites limit-cut post — community backlash over framing, republished with explicit 17% reduction admission (Sep 14)
          : GitHub Copilot HydraFusion research preview — multi-model orchestration in CLI, 67% cost reduction vs Opus 5 on TerminalBench 2.1 (Sep 5)
 ```
 
@@ -1465,7 +1467,7 @@ flowchart TD
 | 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (88.6%), Fable 5, best code quality |
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B valuation talks, $2B+ ARR, best tab autocomplete |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/Plugin | Most widely adopted AI dev tool, 9+ IDEs, $10/mo lowest price |
-| 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 #1, Cascade memory, strong on large codebases |
+| 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 Feb #1 (now #3), Cascade memory, strong on large codebases |
 | 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | Coding Agent | 1M Vibe Coders in first month, safe sandbox, 240+ tok/s |
 
 ### Vibe Coder Full Map
@@ -3055,6 +3057,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/14 | **Anthropic pulls/rewrites limit-cut post** — original "+25%" announcement drew backlash for hiding net 17% reduction; deleted and republished with explicit admission; employees acknowledged messaging "could have been clearer" | [x.com](https://x.com/i/trending/2093741457970528413) |
+| 2026/09/14 | **Claude Code #1 on LogRocket** — overtakes OpenCode in September power rankings with Fable 5.1 (1762 Elo, highest in any tool); 75% cheaper cache reads lower agentic per-task cost; SpaceX-Cursor acquisition also reshuffled top 3 | [blog.logrocket.com](https://blog.logrocket.com/ai-dev-tool-power-rankings/) |
 | 2026/09/14 | **Claude Code 17% limit cut effective** — 50% summer boost ends, replaced by permanent 25% increase from pre-promo baseline; Pro/Max/Team/Enterprise affected; 5-hour session cap unchanged; community split between "downgrade dressed as upgrade" and "still above original baseline" | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
 | 2026/09/13 | **Anthropic-NNSA partnership** — co-developing nuclear content classifier with 96% preliminary accuracy; follows Sept 11 threat report on Claude misuse for missile development | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact) |
 | 2026/09/13 | **Amp free for BYOK users** — no monthly subscription or token fees for bring-your-own-key users; $10/month student/teacher plan; 9 new model providers including Ollama Cloud | [ampcode.com](https://ampcode.com/news/free-agent) |

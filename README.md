@@ -1391,6 +1391,13 @@ timeline
          : Amp free for BYOK — no subscription or token fees, $10/mo student plan, 9 new model providers (Sep 13)
          : Claude Sonnet 5 pricing permanent — $2/$10 per 1M tokens introductory rate now permanent, planned increase cancelled (Sep 13)
          : Claude Code 9/14 weekly limit cut D-1 — 50% promo ends tomorrow, replaced by permanent 25% increase (net 17% cut) (Sep 13)
+         : Claude Code 17% limit cut effective — 50% summer boost ends, permanent 25% increase from pre-promo baseline kicks in; Pro/Max/Team/Enterprise affected (Sep 14)
+         : Antigravity v2.13.0 — Documents section, C++/Python/Protobuf highlighting, file pill hover tooltips, Antigravity Guide skill, 16 improvements + 16 fixes (Sep 14)
+         : Cursor drops to 63 — 23rd consecutive day of decline from 99 (Aug 27), Projects Day 7, OpenAI shutoff D-59 (Sep 14)
+         : Copilot 123-week decline at floor (1) — unified experience D-14 (Sep 14)
+         : Gemini CLI shutdown Day 90 — consumer access closed (Sep 14)
+         : iOS 27 + Siri AI released — iPhone 15 Pro+, English beta first, multi-language October (Sep 14)
+         : GitHub Copilot HydraFusion research preview — multi-model orchestration in CLI, 67% cost reduction vs Opus 5 on TerminalBench 2.1 (Sep 5)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3048,6 +3055,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/14 | **Claude Code 17% limit cut effective** — 50% summer boost ends, replaced by permanent 25% increase from pre-promo baseline; Pro/Max/Team/Enterprise affected; 5-hour session cap unchanged; community split between "downgrade dressed as upgrade" and "still above original baseline" | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
 | 2026/09/13 | **Anthropic-NNSA partnership** — co-developing nuclear content classifier with 96% preliminary accuracy; follows Sept 11 threat report on Claude misuse for missile development | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact) |
 | 2026/09/13 | **Amp free for BYOK users** — no monthly subscription or token fees for bring-your-own-key users; $10/month student/teacher plan; 9 new model providers including Ollama Cloud | [ampcode.com](https://ampcode.com/news/free-agent) |
 | 2026/09/13 | **Claude Sonnet 5 pricing made permanent** — $2/$10 per 1M tokens (input/output) introductory rate now permanent; planned September 1 price increase cancelled | [capitalandcompute.net](https://capitalandcompute.net/blog/new-ai-models-september-2026/) |
@@ -3415,6 +3423,8 @@ All pricing information has been directly verified from each service's official 
 | Date | Release | Source |
 |---|---|---|
 | 2026/09/11 | **Copilot Oct 2 model deprecation wave** — Gemini 3.5 Flash and 3.6 Flash → Gemini 3.8 Flash, Kimi K2.7 Code → K3, Claude Opus 4.7 → Opus 5; affects Chat, inline edits, agent mode, code completions; no admin action required but workflow audits recommended | [dmarketertayeeb.com](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/) |
+| 2026/09/10 | **MAI-Code-1-Flash deprecated** — removed from all Copilot experiences (Chat, inline edits, agent mode, code completions); replacement: MAI-Code-1.1-Flash; Enterprise admins may need to enable alternative in model policies | [github.blog](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated/) |
+| 2026/09/05 | **Project HydraFusion research preview** — multi-model orchestration in Copilot CLI; routes tasks across single-model, cascade, and critique workflows; 67% cost reduction vs Claude Opus 5 on TerminalBench 2.1 with 4.9pp more tasks correct; VS Code/Copilot app targeting September fast-follow | [github.blog](https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/) |
 | 2026/09/03 | **Gemini 3.8 Flash available in Copilot** — Google's latest Flash model added for Pro/Pro+/Max/Business/Enterprise users; replacement for Gemini 3.5/3.6 Flash ahead of Oct 2 deprecation | [github.blog](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/) |
 | 2026/09/02 | **Unified Copilot chat data retention change** — with Sep 28 unified experience, chat data retention shifts from 28 days to account lifetime; new compliance and data-governance considerations | [developersdigest.tech](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026) |
 | 2026/09/01 | **Copilot D-Day live** — credit cuts active (Business 3,000→1,900 37%, Enterprise 7,000→3,900 44%); 6 models deprecated (Gemini 3.1 Pro, Claude Opus 4.5/4.6, Claude Sonnet 4.5/4.6, Raptor mini); Business/Enterprise sign-ups reopened with prepaid seats; unified Copilot experience (Chat + Mobile + cloud agent) scheduled Sep 28 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |

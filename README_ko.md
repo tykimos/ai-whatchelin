@@ -1391,6 +1391,13 @@ timeline
          : Amp BYOK 무료화 — 구독료·토큰 수수료 없음, $10/월 학생 플랜, 9개 신규 프로바이더 (9/13)
          : Claude Sonnet 5 가격 영구 확정 — $2/$10(1M 토큰당) 도입가 영구 전환, 인상 취소 (9/13)
          : Claude Code 9/14 주간 한도 삭감 D-1 — 50% 프로모 내일 종료, 영구 25%로 전환(실질 17% 삭감) (9/13)
+         : Claude Code 17% 한도 삭감 발효 — 50% 여름 부스트 종료, 프로모 전 대비 영구 25% 인상으로 전환; Pro/Max/Team/Enterprise 전 플랜 적용 (9/14)
+         : Antigravity v2.13.0 — Documents 섹션, C++/Python/Protobuf 구문 강조, 파일 필 호버 툴팁, Antigravity Guide 스킬, 16가지 개선 + 16가지 수정 (9/14)
+         : Cursor 63으로 하락 — 99에서 23일 연속 하락(8/27~), Projects 7일차, OpenAI 셧오프 D-59 (9/14)
+         : Copilot 123주 하락, 바닥(1) — 통합 경험 D-14 (9/14)
+         : Gemini CLI 폐쇄 90일째 — 소비자 접근 차단 (9/14)
+         : iOS 27 + Siri AI 정식 출시 — iPhone 15 Pro+, 영어 베타 우선, 10월 다국어 추가 (9/14)
+         : GitHub Copilot HydraFusion 리서치 프리뷰 — CLI에서 멀티 모델 오케스트레이션, TerminalBench 2.1에서 Opus 5 대비 67% 비용 절감 (9/5)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3007,6 +3014,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/14 | **Claude Code 17% 한도 삭감 발효** — 50% 여름 부스트 종료, 프로모 전 대비 영구 25% 인상으로 전환; Pro/Max/Team/Enterprise 적용; 5시간 세션 한도 유지; "사실상 다운그레이드" vs "원래보다 높으니 감사" 커뮤니티 반응 양극화 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
 | 2026/09/13 | **Anthropic-NNSA 파트너십** — 핵 콘텐츠 분류기 공동 개발, 예비 테스트 96% 정확도; 9/11 위협 보고서(Claude 미사일 개발 악용) 후속 조치 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact) |
 | 2026/09/13 | **Amp BYOK 사용자 완전 무료화** — 월 구독료·토큰 수수료 없음; $10/월 학생·교사 플랜; Ollama Cloud 포함 9개 신규 모델 프로바이더 | [ampcode.com](https://ampcode.com/news/free-agent) |
 | 2026/09/13 | **Claude Sonnet 5 가격 영구 확정** — $2/$10(입/출력 1M 토큰당) 도입가가 영구 가격으로 전환; 9/1 예정 인상 취소 | [capitalandcompute.net](https://capitalandcompute.net/blog/new-ai-models-september-2026/) |
@@ -3385,6 +3393,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
 | 2026/09/11 | **Copilot 10/2 모델 대량 퇴장 예고** — Gemini 3.5/3.6 Flash → Gemini 3.8 Flash, Kimi K2.7 Code → K3, Claude Opus 4.7 → Opus 5; Chat·인라인 편집·에이전트 모드·코드 완성 전 영역 적용; 관리자 조치 불필요하나 워크플로우 점검 권장 | [dmarketertayeeb.com](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/) |
+| 2026/09/10 | **MAI-Code-1-Flash 폐기** — 모든 Copilot 경험(Chat·인라인 편집·에이전트 모드·코드 완성)에서 제거; 대체 모델: MAI-Code-1.1-Flash; Enterprise 관리자 모델 정책에서 대안 모델 활성화 필요 가능 | [github.blog](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated/) |
+| 2026/09/05 | **Project HydraFusion 리서치 프리뷰** — Copilot CLI 멀티 모델 오케스트레이션; 단일 모델·캐스케이드·비평 워크플로우 자동 라우팅; TerminalBench 2.1에서 Claude Opus 5 대비 67% 비용 절감 + 정답률 4.9pp 향상; VS Code/Copilot 앱 9월 내 후속 배포 예정 | [github.blog](https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/) |
 | 2026/09/03 | **Gemini 3.8 Flash Copilot 추가** — Google 최신 Flash 모델, Pro/Pro+/Max/Business/Enterprise 사용자 대상; 10/2 Gemini 3.5/3.6 Flash 퇴장 대비 교체 모델 | [github.blog](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/) |
 | 2026/09/02 | **통합 Copilot 채팅 데이터 보존 변경** — 9/28 통합 경험 출시 시 채팅 데이터 보존 기간 28일→계정 수명 전체로 확대, 컴플라이언스·데이터 거버넌스 영향 주의 | [developersdigest.tech](https://www.developersdigest.tech/blog/github-copilot-september-policy-billing-reset-2026) |
 | 2026/09/01 | **Copilot D-Day 발효** — 크레딧 삭감 시행(Business 3,000→1,900 37%, Enterprise 7,000→3,900 44%); 6개 모델 폐기(Gemini 3.1 Pro·Claude Opus 4.5/4.6·Claude Sonnet 4.5/4.6·Raptor mini); Business/Enterprise 선불 좌석제 신규 가입 재개; 통합 Copilot 경험(Chat + Mobile + 클라우드 에이전트) 9/28 예정 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-09-14</sub>
+  <sub>Last updated: 2026-09-15</sub>
 </p>
 
 <p align="center">
@@ -3057,6 +3057,11 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/15 | **Claude Code v2.1.271** — Fast mode now works in Remote sessions (cloud + self-hosted); mouse support in /config fullscreen; per-command `allowed_domains` for Bash/PowerShell/Monitor in auto mode sandboxing; `multiplier` up to 10 in managed modelPricing; `--accept-command` flag for plugin install/update | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/09/15 | **Houthi AI weapons attempt sparks national security debate** — Anthropic threat report disclosure of Yemen-based cell using Claude Code for missile GNC software drew 84 comments on HN; community split on whether guardrails are sufficient; AI coding tool access control elevated from product to national security concern | [news.ycombinator.com](https://news.ycombinator.com/item?id=42813948) |
+| 2026/09/15 | **Copilot weekly release** — enforceable agent policies GA; Jira integration; Project HydraFusion research preview in CLI routes tasks across single-model, cascade, and critique workflows with 67% cost reduction vs Opus 5 on TerminalBench | [github.blog](https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/) |
+| 2026/09/15 | **Codex Handoff demo** — feature-flagged workflow moves live coding tasks between cloud and Mac with file continuity; Agents API public beta exposes managed harness to third-party developers | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
+| 2026/09/15 | **GitLab AI Paradox trending on HN** — 78% of devs code faster with AI but end-to-end delivery speed unchanged; 43% cannot distinguish AI-generated from human code; 82% say AI code creates new tech debt organizations aren't prepared for | [ir.gitlab.com](https://ir.gitlab.com/news/news-details/2026/GitLab-Research-Reveals-Organizations-Are-Generating-AI-Code-Faster-Than-They-Can-Control-It/) |
 | 2026/09/14 | **Anthropic pulls/rewrites limit-cut post** — original "+25%" announcement drew backlash for hiding net 17% reduction; deleted and republished with explicit admission; employees acknowledged messaging "could have been clearer" | [x.com](https://x.com/i/trending/2093741457970528413) |
 | 2026/09/14 | **Claude Code #1 on LogRocket** — overtakes OpenCode in September power rankings with Fable 5.1 (1762 Elo, highest in any tool); 75% cheaper cache reads lower agentic per-task cost; SpaceX-Cursor acquisition also reshuffled top 3 | [blog.logrocket.com](https://blog.logrocket.com/ai-dev-tool-power-rankings/) |
 | 2026/09/14 | **Claude Code 17% limit cut effective** — 50% summer boost ends, replaced by permanent 25% increase from pre-promo baseline; Pro/Max/Team/Enterprise affected; 5-hour session cap unchanged; community split between "downgrade dressed as upgrade" and "still above original baseline" | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
@@ -3266,6 +3271,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/15 | **Codex Handoff demo** — feature-flagged workflow moves live coding tasks between cloud and Mac with full file continuity; Agents API public beta exposes managed Codex harness (sessions, orchestration, context compaction, recovery) to third-party developers | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
+| 2026/09/10 | **Codex CLI major update** — GPT-6 Astra in model picker + Amazon Bedrock; experimental worktree sessions (`--worktree`/`/worktree`) for isolated checkouts; inline Q&A while Codex works; Windows background server management; improved Vim editing, MCP OAuth, session resume | [gradually.ai](https://www.gradually.ai/en/changelogs/codex-cli/) |
+| 2026/09/10 | **Agents API public beta** — exposes managed Codex harness: sessions, orchestration, context compaction, recovery; developers supply tools and pick execution environments | [releasebot.io](https://releasebot.io/updates/openai) |
 | 2026/09/09 | **Codex CLI v0.154.0** — GPT-6 Astra available in model picker and Amazon Bedrock catalogs; experimental worktree support (--worktree or /worktree); vim undo (u) and redo (Ctrl+R); plugin CLI remote marketplace management; configurable auto recaps (tui.auto_recap) | [releasebot.io](https://releasebot.io/updates/openai/codex) |
 | 2026/09/08 | **ChatGPT Images 2.5** — new SOTA image model with natural lighting, richer textures, better subject preservation; 50% latency reduction vs Images 2.0; Sketch feature for drawing references; Templates (Poster, Merch); two API models: Flare (fast default) and Sunburst (precise editing) at $8/$30/MTok | [openai.com](https://openai.com/index/introducing-chatgpt-images-2-5/) |
 | 2026/09/08 | **GPT-6 Astra fully GA** — Microsoft Foundry labels gpt-6-astra generally available; staggered rollout completed ahead of schedule; all Plus/Pro/Business users credited full banked reset; knowledge cutoff Apr 30 2026 | [yottalabs.ai](https://www.yottalabs.ai/post/gpt-6-release-date-rumors-what-is-known-2026) |
@@ -3426,6 +3434,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/15 | **Copilot weekly release** — enforceable agent policies GA; Jira integration; unified experience (Sep 28) and Oct 2 deprecation wave approaching | [github.blog](https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/) |
 | 2026/09/11 | **Copilot Oct 2 model deprecation wave** — Gemini 3.5 Flash and 3.6 Flash → Gemini 3.8 Flash, Kimi K2.7 Code → K3, Claude Opus 4.7 → Opus 5; affects Chat, inline edits, agent mode, code completions; no admin action required but workflow audits recommended | [dmarketertayeeb.com](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/) |
 | 2026/09/10 | **MAI-Code-1-Flash deprecated** — removed from all Copilot experiences (Chat, inline edits, agent mode, code completions); replacement: MAI-Code-1.1-Flash; Enterprise admins may need to enable alternative in model policies | [github.blog](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated/) |
 | 2026/09/05 | **Project HydraFusion research preview** — multi-model orchestration in Copilot CLI; routes tasks across single-model, cascade, and critique workflows; 67% cost reduction vs Claude Opus 5 on TerminalBench 2.1 with 4.9pp more tasks correct; VS Code/Copilot app targeting September fast-follow | [github.blog](https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-14</sub>
+  <sub>마지막 업데이트: 2026-09-15</sub>
 </p>
 
 <p align="center">
@@ -3016,6 +3016,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/15 | **Claude Code v2.1.271** — Remote 세션(클라우드+셀프 호스팅)에서 Fast 모드 지원; /config 풀스크린 마우스 지원; Auto 모드 샌드박싱 Bash/PowerShell/Monitor per-command `allowed_domains`; managed modelPricing `multiplier` 최대 10; 플러그인 설치/업데이트 `--accept-command` 플래그 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/09/15 | **후티 반군 AI 무기화 시도, 국가 안보 논쟁 촉발** — Anthropic 위협 보고서의 예멘 기반 셀 Claude Code 미사일 GNC 소프트웨어 개발 시도 공개로 HN 84개 댓글; 가드레일 충분성 논란; AI 코딩 도구 접근 통제가 제품 이슈에서 국가 안보 영역으로 격상 | [news.ycombinator.com](https://news.ycombinator.com/item?id=42813948) |
+| 2026/09/15 | **Copilot 주간 릴리스** — 강제 에이전트 정책 GA; Jira 연동; Project HydraFusion CLI 리서치 프리뷰, 단일모델·캐스케이드·비평 워크플로 자동 라우팅, TerminalBench에서 Opus 5 대비 67% 비용 절감 | [github.blog](https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/) |
+| 2026/09/15 | **Codex Handoff 데모** — 라이브 코딩 작업을 클라우드↔Mac 간 파일 유지한 채 이동하는 피처 플래그 워크플로; Agents API 퍼블릭 베타로 관리형 하네스 개발자 개방 | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
+| 2026/09/15 | **GitLab AI 패러독스 HN 화제** — 개발자 78%가 AI로 코딩 속도 향상됐지만 종합 딜리버리 속도는 변화 없음; 43%가 AI 생성 코드와 사람 코드 구분 불가; 82%가 AI 코드가 조직이 대비하지 못한 새로운 기술 부채 유발한다고 응답 | [ir.gitlab.com](https://ir.gitlab.com/news/news-details/2026/GitLab-Research-Reveals-Organizations-Are-Generating-AI-Code-Faster-Than-They-Can-Control-It/) |
 | 2026/09/14 | **Anthropic 한도 삭감 공지 철회·재작성** — "+25%" 강조에 커뮤니티 반발, 원래 글 삭제 후 17% 삭감을 명시한 새 글 게시; 직원들도 "메시징이 더 명확했어야 했다" 인정 | [x.com](https://x.com/i/trending/2093741457970528413) |
 | 2026/09/14 | **Claude Code LogRocket 1위** — 9월 파워랭킹에서 Fable 5.1(1762 Elo, 전 도구 최고)로 OpenCode 제치고 1위; 캐시 읽기 75% 저렴해져 에이전틱 작업 비용 대폭 절감; SpaceX-Cursor 인수도 상위 3위 재편에 영향 | [blog.logrocket.com](https://blog.logrocket.com/ai-dev-tool-power-rankings/) |
 | 2026/09/14 | **Claude Code 17% 한도 삭감 발효** — 50% 여름 부스트 종료, 프로모 전 대비 영구 25% 인상으로 전환; Pro/Max/Team/Enterprise 적용; 5시간 세션 한도 유지; "사실상 다운그레이드" vs "원래보다 높으니 감사" 커뮤니티 반응 양극화 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) |
@@ -3236,6 +3241,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/15 | **Codex Handoff 데모** — 라이브 코딩 작업을 클라우드↔Mac 간 파일 유지한 채 이동하는 피처 플래그 워크플로; Agents API 퍼블릭 베타로 관리형 Codex 하네스(세션·오케스트레이션·컨텍스트 압축·복구)를 개발자에게 개방 | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
+| 2026/09/10 | **Codex CLI 대형 업데이트** — GPT-6 Astra 모델 피커+Amazon Bedrock; 실험적 worktree 세션(`--worktree`/`/worktree`) 격리 체크아웃; 인라인 질문 응답; Windows 백그라운드 서버 관리; Vim 편집 개선, MCP OAuth, 세션 resume | [gradually.ai](https://www.gradually.ai/en/changelogs/codex-cli/) |
+| 2026/09/10 | **Agents API 퍼블릭 베타** — 관리형 Codex 하네스의 세션·오케스트레이션·컨텍스트 압축·복구를 개발자에게 개방; 도구·실행 환경 선택 가능 | [releasebot.io](https://releasebot.io/updates/openai) |
 | 2026/09/09 | **Codex CLI v0.154.0** — GPT-6 Astra 모델 피커 및 Amazon Bedrock 카탈로그 추가; 실험적 worktree 지원(--worktree 또는 /worktree); vim 되돌리기(u)·다시하기(Ctrl+R); 플러그인 CLI 원격 마켓플레이스 관리; 자동 요약 설정(tui.auto_recap) | [releasebot.io](https://releasebot.io/updates/openai/codex) |
 | 2026/09/08 | **ChatGPT Images 2.5** — 자연 조명·풍부한 질감·피사체 보존 강화 SOTA 이미지 모델; Images 2.0 대비 50% 지연시간 감소; Sketch 드로잉 참조 기능; 템플릿(Poster, Merch); API 모델 Flare(고속 기본)/Sunburst(정밀 편집) $8/$30/MTok | [openai.com](https://openai.com/index/introducing-chatgpt-images-2-5/) |
 | 2026/09/08 | **GPT-6 Astra 완전 GA** — Microsoft Foundry에서 gpt-6-astra 정식 출시 라벨링; 단계적 롤아웃 예정보다 조기 완료; 전 Plus/Pro/Business 사용자 뱅크 리셋 크레딧 적용; 지식 기준일 2026년 4월 30일 | [yottalabs.ai](https://www.yottalabs.ai/post/gpt-6-release-date-rumors-what-is-known-2026) |
@@ -3396,6 +3404,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/15 | **Copilot 주간 릴리스** — 강제 에이전트 정책 GA; Jira 연동; 통합 경험(9/28)과 10/2 모델 폐기 임박 | [github.blog](https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7/) |
 | 2026/09/11 | **Copilot 10/2 모델 대량 퇴장 예고** — Gemini 3.5/3.6 Flash → Gemini 3.8 Flash, Kimi K2.7 Code → K3, Claude Opus 4.7 → Opus 5; Chat·인라인 편집·에이전트 모드·코드 완성 전 영역 적용; 관리자 조치 불필요하나 워크플로우 점검 권장 | [dmarketertayeeb.com](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/) |
 | 2026/09/10 | **MAI-Code-1-Flash 폐기** — 모든 Copilot 경험(Chat·인라인 편집·에이전트 모드·코드 완성)에서 제거; 대체 모델: MAI-Code-1.1-Flash; Enterprise 관리자 모델 정책에서 대안 모델 활성화 필요 가능 | [github.blog](https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated/) |
 | 2026/09/05 | **Project HydraFusion 리서치 프리뷰** — Copilot CLI 멀티 모델 오케스트레이션; 단일 모델·캐스케이드·비평 워크플로우 자동 라우팅; TerminalBench 2.1에서 Claude Opus 5 대비 67% 비용 절감 + 정답률 4.9pp 향상; VS Code/Copilot 앱 9월 내 후속 배포 예정 | [github.blog](https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/) |

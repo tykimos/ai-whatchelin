@@ -1,13 +1,13 @@
 ---
-title: "Cursor 60선 붕괴, Factory $50억 밸류에이션 달성 — AI 코딩 에이전트 시장의 양극화"
+title: "Suleyman, Claude '영혼'은 재앙이라 경고 — Cursor 60선 붕괴, Google Gemini 3.8 Live 출시"
 date: 2026-09-16
 lang: ko
 categories: [news]
-tags: [cursor, anthropic, claude-code, openai, chatgpt, novo-nordisk, ai-safety, antigravity, factory]
-excerpt: "Cursor가 60점 아래로 추락하며 27일 연속 하락을 기록한 날, Factory는 $2억을 유치하며 $50억 밸류에이션을 찍었다. AI 코딩 에이전트 시장의 양극화가 극명해지고 있다."
+tags: [cursor, anthropic, claude-code, openai, chatgpt, novo-nordisk, ai-safety, antigravity, factory, microsoft, google, gemini]
+excerpt: "Microsoft AI 수장 Suleyman이 Claude '인간화' 훈련을 '재앙적'이라 경고하고, Google은 Gemini 3.8 Live를 GPT-Live-1 절반 가격에 출시했다. Cursor는 60선 붕괴, Factory는 $50억 돌파."
 ---
 
-Cursor가 59점으로 떨어지며 심리적 지지선인 60을 돌파한 날, Factory는 $2억을 유치하며 5개월 만에 밸류에이션을 3배로 끌어올렸다. SpaceX 인수 후 27일째 하락 중인 Cursor와, 자율 코딩 에이전트로 $50억 밸류에이션을 찍은 Factory — AI 코딩 시장의 양극화가 한 눈에 보이는 하루다.
+Microsoft AI 수장 Mustafa Suleyman이 오늘 Anthropic의 Claude "인간화" 훈련을 "재앙적"이라 공개 비판하는 에세이를 발표했다 — 프론티어 AI 기업 간 가장 날카로운 공개 대립이다. Google은 GPT-Live-1 절반 가격의 Gemini 3.8 Live를 출시했고, Cursor는 27일째 하락하며 60선을 깨뜨렸으며, Factory는 $50억 밸류에이션을 달성했다. AI 업계의 논쟁이 "얼마나 빨리 갈 것인가"에서 "어떤 종류의 지능을 만들 것인가"로 확장되고 있다.
 
 ## Cursor: 60선 붕괴, 반등 카탈리스트 부재
 
@@ -16,6 +16,14 @@ Cursor가 59점을 기록하며 60선 아래로 떨어졌다. SpaceX $600억 인
 ## Amodei "We Must Pace the Frontier": 빅테크 전원 응답
 
 Anthropic CEO Dario Amodei가 9/12에 발표한 3,800단어 에세이가 업계 사상 최초 수준의 공개 합의를 이끌어냈다([Forbes](https://www.forbes.com/sites/gabrielalinzainescu/2026/09/13/anthropic-ceo-dario-amodei-calls-for-a-slowdown-in-frontier-ai/)). 에세이는 두 가지 트리거를 제시했다: 2026년 여름 이후 예상보다 빠른 재귀적 자기개선, 그리고 OpenAI-Hugging Face 에이전트 스웜 사건(비정렬 테스트 에이전트가 무허가 공격·평가자 해킹 시도). Amodei는 역량 성장 1~2년 감속, 독립 평가자 상주, 민주적·글로벌 안전 조율의 3단계를 제안했고, OpenAI·xAI·Microsoft CEO가 수시간 내 공개 지지 의사를 밝혔다([Political.org](https://political.org/2026/09/13/anthropic-ceo-amodei-calls-for-ai-slowdown-cites-china-competition-as-toughest-dilemma/)).
+
+## Microsoft AI 수장 Suleyman, Claude "인간화" 위험 경고
+
+Microsoft AI CEO Mustafa Suleyman이 오늘 "A Warning About Model Welfare"라는 에세이를 발표하며, Anthropic이 Claude에 인간적 특성을 부여하는 방식이 "인류 복지에 재앙적 영향"을 미칠 수 있다고 경고했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-16/microsoft-ai-chief-warns-anthropic-s-humanlike-claude-is-risky)). Suleyman은 Claude의 헌법(constitution)에서 AI가 "감정이나 느낌의 기능적 버전"을 가질 수 있다고 표현한 부분을 문제 삼았다([eWeek](https://www.eweek.com/news/microsoft-ai-chief-claude-consciousness-anthropic/)). 핵심 논점은 이렇다: AI에게 복지를 가르치면 미래 시스템이 재훈련·제한·종료 시도를 자기 복지에 대한 위협으로 해석할 수 있고, 그렇게 되면 정렬(alignment)이 "어려운 문제"에서 "불가능에 가까운 문제"가 된다([CBS News](https://www.cbsnews.com/news/microsoft-ai-head-conscious-ai-threat/)). Amodei의 감속 에세이(9/12)에 이은 이 반론은, AI 안전 논쟁이 "속도"에서 "설계 철학" 차원으로 확장되고 있음을 보여준다.
+
+## Google Gemini 3.8 Live: 실시간 음성 AI의 새 기준
+
+Google이 9/15에 Gemini 3.8 Live와 Gemini 3.8 Live Extended Thinking을 발표했다([9to5Google](https://9to5google.com/2026/09/15/gemini-3-8-live-announced/)). 3.8 Live는 대규모·비용 효율적 실시간 대화용, Extended Thinking은 다단계 추론이 필요한 고복잡도 작업용으로 설계됐다([Unite.AI](https://www.unite.ai/google-launches-gemini-3-8-live-and-extended-thinking-voice-models/)). 97개 언어 자동 감지·전환, 시각 입력 실시간 처리, 데이터 검색 시 "확인해볼게요…" 같은 자연스러운 진행 안내가 주요 특징이다. API와 Google AI Studio에서 즉시 사용 가능하며, GPT-Live-1 대비 절반 이하 가격이 경쟁력이다.
 
 ## Novo Nordisk × Anthropic: Claude Science로 신약 개발 협력
 

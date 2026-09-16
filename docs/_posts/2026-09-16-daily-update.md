@@ -1,13 +1,13 @@
 ---
-title: "Cursor Breaks Below 60 as Amodei's Slowdown Call Draws Rare Industry Consensus"
+title: "Cursor Breaks Below 60 While Factory Hits $5B — AI Coding Market Polarizes"
 date: 2026-09-16
 lang: en
 categories: [news]
-tags: [cursor, anthropic, claude-code, openai, chatgpt, novo-nordisk, ai-safety, antigravity]
-excerpt: "Cursor drops to 59, breaking the psychological 60-point floor on its 27th consecutive day of decline. Meanwhile, Dario Amodei's AI slowdown essay draws public responses from every major frontier lab CEO, and Novo Nordisk partners with Anthropic on drug discovery."
+tags: [cursor, anthropic, claude-code, openai, chatgpt, novo-nordisk, ai-safety, antigravity, factory]
+excerpt: "Cursor drops to 59 on its 27th consecutive day of decline — the same day Factory raises $200M at a $5B valuation. The AI coding agent market is booming, but winners and losers are diverging fast."
 ---
 
-Cursor dropped to 59 today, breaking below the psychological 60-point floor. The slide has now lasted 27 consecutive days since the SpaceX acquisition, with the OpenAI model cutoff (November 12) at D-57. Meanwhile, Dario Amodei's "We Must Pace the Frontier" essay continues to reshape industry discourse, and Novo Nordisk announced a drug discovery partnership with Anthropic.
+Cursor dropped to 59 today, breaking below the psychological 60-point floor on its 27th consecutive day of post-acquisition decline. On the same day, Factory raised $200M at a $5B valuation — tripling in five months. The juxtaposition says everything about the current AI coding market: the pie is growing fast, but its distribution is becoming radically unequal.
 
 ## Cursor: The 60-Floor Breaks, No Catalyst in Sight
 
@@ -21,16 +21,20 @@ Anthropic CEO Dario Amodei's 3,800-word essay published September 12 triggered w
 
 Novo Nordisk and Anthropic today announced a collaboration to accelerate drug discovery using Claude and Claude Science ([GlobeNewsWire](https://www.globenewswire.com/news-release/2026/09/16/3363106/0/en/novo-and-anthropic-will-collaborate-to-advance-drug-discovery-with-claude.html)). The partnership will develop targeted solutions for biological reasoning and scientific workflows. This marks Claude Science's first formal partnership with a major pharmaceutical company since its July 3 launch.
 
-## Claude Code: Limit Cut Fallout Continues
+## Factory: $200M at $5B Valuation Signals Agent Boom
 
-Claude Code's temporary 50% usage boost expired September 13, replaced by a permanent 25% increase that nets out to a 17% reduction from previous levels ([MindStudio](https://www.mindstudio.ai/blog/claude-code-weekly-rate-limit-changes)). Separately, The Information reported Anthropic has signed compute contracts worth up to $517 billion since October 2025 — 14.8 GW across 12+ providers ([The AI Career Lab](https://theaicareerlab.com/blog/anthropic-517-billion-compute-what-it-means-for-claude-2026)). Release v2.1.271 continues steady iteration with Remote Fast mode and per-command allowed_domains.
+Factory raised $200M from Blackstone, Khosla Ventures, and Sequoia at a $5B valuation — tripling in five months from its July $4B Series C-2 ([WOWTALE](https://en.wowtale.net/2026/09/16/235137/)). The company's autonomous "Droids" handle the full software development lifecycle for enterprises ([TechFundingNews](https://techfundingnews.com/factory-jumps-to-5b-in-5-months-with-200m-for-its-ai-droids/)). Alongside Claude Code, Codex CLI, and Devin, Factory's trajectory confirms that the AI coding agent segment is entering hypergrowth territory.
+
+## Claude Code: Limit Cut Fallout + v2.1.273
+
+Claude Code's temporary 50% usage boost expired September 13, replaced by a permanent 25% increase that nets out to a 17% reduction from previous levels ([MindStudio](https://www.mindstudio.ai/blog/claude-code-weekly-rate-limit-changes)). Separately, The Information reported Anthropic has signed compute contracts worth up to $517 billion since October 2025 — 14.8 GW across 12+ providers ([The AI Career Lab](https://theaicareerlab.com/blog/anthropic-517-billion-compute-what-it-means-for-claude-2026)). Release v2.1.273 ships gateway hint headers, improved MCP disconnect handling, and enhanced artifact publishing reliability ([Releasebot](https://releasebot.io/updates/anthropic/claude-code)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-6 Astra day 13, Deep Research expansion |
-| Claude Code | 99 | — | 17% limit cut live, v2.1.271 stable |
+| Claude Code | 99 | — | 17% limit cut live, v2.1.273 |
 | Claude AI | 99 | — | Novo partnership, Amodei slowdown essay |
 | Codex CLI | 99 | — | Agents API public beta steady |
 | Antigravity | 99 | — | v2.13.0 Documents, managed agent preview |
@@ -40,4 +44,4 @@ Claude Code's temporary 50% usage boost expired September 13, replaced by a perm
 | GH Copilot | 1 | — | HydraFusion preview, Oct 2 model deprecations |
 | Gemini CLI | 1 | — | Shutdown day 90, migrated to Antigravity CLI |
 
-Cursor's break below 60 and Amodei's slowdown call reveal two simultaneous tensions in the AI coding market: the winner-take-all dynamics between tools, and the industry's first collective self-examination on capability development speed.
+Cursor's break below 60 and Factory's $5B raise on the same day crystallize the AI coding market's current state: the overall market is booming, but winners and losers are diverging faster than ever.

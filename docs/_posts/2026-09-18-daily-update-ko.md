@@ -3,7 +3,7 @@ title: "Claude가 자기 후속 모델을 만든다 — Anthropic, R&D 26% 자�
 date: 2026-09-18
 lang: ko
 categories: [news]
-tags: [anthropic, claude, openai, astra-for-law, chatgpt, claude-code, cursor, microsoft-word]
+tags: [anthropic, claude, openai, astra-for-law, chatgpt, claude-code, cursor, microsoft-word, factory]
 excerpt: "Anthropic이 Claude가 차세대 모델 개발의 26%를 주도하고 있으며, 약 3만 개 에이전트가 연구·엔지니어링을 수행 중이라고 공식 발표했다."
 ---
 
@@ -24,6 +24,10 @@ ChatGPT가 Microsoft Word에 애드인 사이드바로 진입했다([The Win Cen
 ## Claude Code: v2.1.276 프록시 핫픽스
 
 Anthropic이 Claude Code v2.1.276을 긴급 배포했다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). 전날 v2.1.275에서 프록시/게이트웨이 환경의 모든 요청이 실패하는 회귀 버그가 발생해 엔터프라이즈 사용자에게 치명적이었다.
+
+## Factory: $200M 투자 유치, 기업가치 $5B — AI 코딩 에이전트 시장의 새 거물
+
+AI 코딩 에이전트 스타트업 Factory가 $200M 투자를 유치하며 기업가치 $5B를 달성했다([SiliconANGLE](https://siliconangle.com/2026/09/15/factory-raises-200m-for-its-self-improving-software-development-platform/)). 불과 5개월 전 $1.5B에서 3배 이상 뛴 수치로, Blackstone·Khosla·Sequoia·Insight가 참여했다([Reuters](https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4571DR:0-ai-coding-agent-startup-factory-triples-valuation-to-5-billion-in-latest-funding-round/)). 엔터프라이즈 소프트웨어 엔지니어링 팀을 위한 자율 '드로이드(Droids)' 에이전트를 구축 중이며, AI 코딩 에이전트 시장의 투자 규모가 빠르게 확대되고 있음을 보여준다.
 
 ## Cursor: 55점, 30일 연속 하락 임박
 

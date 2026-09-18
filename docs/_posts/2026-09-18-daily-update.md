@@ -3,7 +3,7 @@ title: "Claude Is Building Its Own Successor — Anthropic Reveals AI Leads 26% 
 date: 2026-09-18
 lang: en
 categories: [news]
-tags: [anthropic, claude, openai, astra-for-law, chatgpt, claude-code, cursor, microsoft-word]
+tags: [anthropic, claude, openai, astra-for-law, chatgpt, claude-code, cursor, microsoft-word, factory]
 excerpt: "Anthropic announced that Claude leads 26% of its model R&D and has roughly 30,000 agents doing research and engineering work — the clearest sign yet of recursive AI self-improvement."
 ---
 
@@ -24,6 +24,10 @@ ChatGPT entered Microsoft Word as a sidebar add-in, enabling drafting, revising,
 ## Claude Code: v2.1.276 Emergency Proxy Hotfix
 
 Anthropic shipped Claude Code v2.1.276 to fix a critical proxy/gateway regression from v2.1.275 that caused every request to fail when `ANTHROPIC_BASE_URL` pointed at a proxy ([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). A common enterprise setup, the bug was critical for organizations running behind gateways.
+
+## Factory: $200M Raise at $5B Valuation — AI Coding Agent Market's New Heavyweight
+
+AI coding agent startup Factory raised $200M, tripling its valuation to $5B from $1.5B just five months ago ([SiliconANGLE](https://siliconangle.com/2026/09/15/factory-raises-200m-for-its-self-improving-software-development-platform/)). Backed by Blackstone, Khosla, Sequoia, and Insight, Factory is building autonomous "Droids" agents for enterprise software engineering teams ([Reuters](https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4571DR:0-ai-coding-agent-startup-factory-triples-valuation-to-5-billion-in-latest-funding-round/)). The scale of investment underscores how rapidly the AI coding agent market is expanding beyond individual developer tools.
 
 ## Cursor: 55 Points, Nearing 30-Day Decline
 

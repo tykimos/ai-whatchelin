@@ -1418,6 +1418,16 @@ timeline
          : Claude Code v2.1.276 — 프록시/게이트웨이 400 오류 회귀 핫픽스(v2.1.275 advisor_20260301 태그) (9/18)
          : Cursor 55로 29일 연속 하락 — 99에서 하락(8/27~), OpenAI 셧오프 D-55 (9/18)
          : Gemini CLI 폐쇄 93일째 — 소비자 접근 차단 (9/18)
+         : Plugin4Shell 제로클릭 RCE — Claude Code·Codex·Copilot·Gemini CLI SHA-피닝 우회; Claude Code v2.1.179·Codex v0.146.0 패치; Copilot·Gemini CLI 미패치 (9/18)
+         : Copilot 주간 릴리스 9/14 — Sentry 캔버스, 자동 모델 선택 티어(efficiency/balance/intelligence), 예산 요청 기능, 사용 메트릭 GA (9/18)
+         : Claude Code v2.1.277 — AGENTS.md 지원(CLAUDE.md 없으면 자동 읽기), API/Enterprise 서버사이드 분류기 기본 전환, 게이트웨이 프록시 설정 (9/19)
+         : Codex CLI — /import로 Cursor·Claude Code 설정/MCP/플러그인 마이그레이션, 멀티에이전트 V2 안정화, MCP 서버 바이너리 제거 (9/19)
+         : Cursor 53으로 30일 연속 하락 — Projects 10일차 반전 실패 (9/19)
+         : Gemini CLI 폐쇄 94일째 — 소비자 접근 차단 (9/19)
+         : Claude Code v2.1.278 — API/Enterprise/Bedrock/Vertex/Foundry/게이트웨이 전체 서버사이드 분류기 기본 전환 (9/20)
+         : Cursor 51로 31일 연속 하락 — 50선 심리적 지지선 돌파 임박 (9/20)
+         : Copilot 통합 경험 D-8 — 선불 좌석 10/1, 모델 퇴출 10/2 (9/20)
+         : Gemini CLI 폐쇄 95일째 — 소비자 접근 차단 (9/20)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2971,7 +2981,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-09-19)
+### 팩트 체크 로그 (2026-09-20)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -3038,6 +3048,14 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/17 | **Claude 앱 통합 리디자인** — Cowork·채팅을 하나의 앱으로 통합; Docs·Slides 도구 추가; Claude Design 대화 내 직접 작동; Pro/Max 플랜 우선 롤아웃 | [releasebot.io](https://releasebot.io/updates/anthropic/claude) |
 | 2026/09/17 | **Claude Sonnet 5 가격 인상 취소 확정** — $2/$10 per MTok 인트로 가격 영구 확정; 당초 $3/$15 인상 미적용 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **대화 중 도구 변경 베타** — 대화 턴 간 도구 추가/제거, 프롬프트 캐시 유지; Fable 5·Mythos 5·Opus 4.8·Opus 5 지원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
+| 2026/09/20 | **Claude Code v2.1.278** — API/Enterprise/Bedrock/Vertex/Foundry/게이트웨이 전체 사용자 자동 모드 서버사이드 분류기 기본 전환; 분류기 오버헤드 과금 제거; `/status`에 "Auto mode server" 행 추가 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/09/20 | **Cursor 51점으로 31일 연속 하락** — SpaceX 인수 후 하락세 지속; 50선 심리적 지지선 돌파 하루 앞; OpenAI 셧오프 D-53 | [cursor.com](https://cursor.com) |
+| 2026/09/20 | **Copilot 통합 경험 D-8** — 9/28 github.com 채팅·모바일·클라우드 에이전트 통합 리런치; 데이터 보관 28일→계정 수명 전체로 확대; 코드 리뷰 기본값 Balanced(AI 소비량 증가 가능) | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/19 | **Claude Code v2.1.277** — AGENTS.md 지원(CLAUDE.md 없으면 자동 읽기); API/Enterprise 서버사이드 분류기 기본 전환; 게이트웨이 프록시용 `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY`; 업스트림 헤더 맵 옵션 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/09/19 | **Codex CLI 업데이트** — `/import`로 Cursor·Claude Code 설정·MCP·플러그인·세션 마이그레이션; 멀티에이전트 V2 안정화(서브에이전트 모델·동시성 설정 가능); `codex mcp-server` 바이너리 제거(8/24 지원 종료) | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/09/19 | **Cursor 53점으로 30일 연속 하락** — Projects 베타 10일차 반전 실패; OpenAI 셧오프 D-54 | [cursor.com](https://cursor.com) |
+| 2026/09/18 | **Plugin4Shell 제로클릭 RCE** — AIR Security가 Claude Code·Codex·Copilot·Gemini CLI 플러그인 로더의 SHA-피닝 우회 취약점 공개; Claude Code v2.1.179·Codex v0.146.0 패치 완료; Copilot 미패치, Gemini CLI 패치 불가(지원 종료) | [cybersecuritynews.com](https://cybersecuritynews.com/plugin4shell-zero-click-rce/) |
+| 2026/09/18 | **Copilot 주간 릴리스 9/14** — Sentry 캔버스(크래시→수정 워크플로); 자동 모델 선택 티어(efficiency/balance/intelligence); 조직 AI 크레딧 예산 요청 기능; VS Code Agents 사용 메트릭 GA | [github.blog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/) |
 | 2026/09/18 | **Anthropic: Claude가 자체 후속 모델 개발 중** — Claude가 Anthropic R&D의 26%를 '주도'(2월 0%에서 상승); 전체 R&D의 90%가 Claude '협업'으로 수행; 8월 기준 ~30,000개 에이전트가 연구·엔지니어링 작업 수행 중; AP 통신 글로벌 배포 | [ksat.com](https://www.ksat.com/business/2026/09/18/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself/) |
 | 2026/09/18 | **Claude Code v2.1.276** — v2.1.275 프록시/게이트웨이 회귀 핫픽스: `ANTHROPIC_BASE_URL`이 프록시/게이트웨이를 가리킬 때 `400 Input tag 'advisor_20260301'` 오류로 모든 요청 실패 수정; 엔터프라이즈 프록시 환경에 치명적 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/18 | **Claude Code v2.1.275** — Ctrl+Enter 즉시 전송 키(턴 중단), claude.ai 스킬·플러그인 터미널 동기화, 게이트웨이 로그인에 계정 추가, 풀스크린/vim/세션 resume 수정, 아티팩트 발행 개선 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |

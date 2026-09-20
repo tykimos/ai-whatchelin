@@ -1418,6 +1418,16 @@ timeline
          : Claude Code v2.1.276 — hotfix for proxy/gateway 400 error regression (advisor_20260301 tag) from v2.1.275 (Sep 18)
          : Cursor drops to 55 — 29th consecutive day of decline from 99 (Aug 27), OpenAI shutoff D-55 (Sep 18)
          : Gemini CLI shutdown Day 93 — consumer access closed (Sep 18)
+         : Plugin4Shell zero-click RCE — bypasses SHA-pinning in Claude Code, Codex, Copilot, Gemini CLI; Claude Code v2.1.179 and Codex v0.146.0 patched; Copilot and Gemini CLI remain unpatched (Sep 18)
+         : Copilot weekly release Sep 14 — Sentry canvas, auto model selection tiers (efficiency/balance/intelligence), budget request feature, usage metrics GA (Sep 18)
+         : Claude Code v2.1.277 — AGENTS.md support (reads when no CLAUDE.md), server-side classifier default for API/Enterprise, gateway proxy config (Sep 19)
+         : Codex CLI — /import migrates Cursor and Claude Code settings/MCP/plugins, multi-agent V2 stabilized, MCP server binary removed (Sep 19)
+         : Cursor drops to 53 — 30th consecutive day of decline, Projects Day 10 failing to reverse slide (Sep 19)
+         : Gemini CLI shutdown Day 94 — consumer access closed (Sep 19)
+         : Claude Code v2.1.278 — server-side classifier default for all API/Enterprise/Bedrock/Vertex/Foundry/gateway users (Sep 20)
+         : Cursor drops to 51 — 31st consecutive day of decline, 50-floor psychological threshold imminent (Sep 20)
+         : Copilot unified experience D-8 — prepaid seats Oct 1, model retirements Oct 2 (Sep 20)
+         : Gemini CLI shutdown Day 95 — consumer access closed (Sep 20)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3011,7 +3021,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-09-19)
+### Fact Check Log (2026-09-20)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -3079,6 +3089,14 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/17 | **Claude app unification redesign** — Cowork and chat merged into single app; new Docs and Slides tools; Claude Design works inside conversations; Pro/Max plans first rollout | [releasebot.io](https://releasebot.io/updates/anthropic/claude) |
 | 2026/09/17 | **Claude Sonnet 5 price increase cancelled** — $2/$10 per MTok introductory pricing confirmed as permanent standard price; planned $3/$15 increase never applied | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **Mid-conversation tool changes beta** — add or remove tools between turns while preserving prompt cache; available on Fable 5, Mythos 5, Opus 4.8, and Opus 5 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
+| 2026/09/20 | **Claude Code v2.1.278** — auto mode server-side classifier default for all API/Enterprise/Bedrock/Vertex/Foundry/gateway users; eliminates classifier overhead charges; new "Auto mode server" row in `/status` shows classifier location | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/09/20 | **Cursor drops to 51** — 31st consecutive day of decline post-SpaceX acquisition; 50-floor psychological threshold now one day away; OpenAI shutoff D-53 | [cursor.com](https://cursor.com) |
+| 2026/09/20 | **Copilot unified experience D-8** — Sep 28 relaunch consolidating Chat on github.com, mobile, and cloud agent; data retention extends from 28 days to account lifetime; code review defaults to Balanced (higher AI consumption) | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/19 | **Claude Code v2.1.277** — AGENTS.md support (auto-reads when no CLAUDE.md present); server-side classifier default for API/Enterprise users; `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY` for gateway proxies; optional upstream headers map | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/09/19 | **Codex CLI updates** — `/import` migrates Cursor and Claude Code settings, MCP servers, plugins, sessions; multi-agent V2 stabilized with configurable sub-agent models; `codex mcp-server` binary removed (deprecated Aug 24) | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/09/19 | **Cursor drops to 53** — 30th consecutive day of decline; Projects beta Day 10 failing to reverse slide; OpenAI shutoff D-54 | [cursor.com](https://cursor.com) |
+| 2026/09/18 | **Plugin4Shell zero-click RCE** — AIR Security discloses vulnerability bypassing SHA-pinning in Claude Code, Codex, Copilot, and Gemini CLI plugin loaders; Claude Code patched in v2.1.179, Codex in v0.146.0; Copilot unpatched, Gemini CLI will not patch (deprecated) | [cybersecuritynews.com](https://cybersecuritynews.com/plugin4shell-zero-click-rce/) |
+| 2026/09/18 | **Copilot weekly release Sep 14** — Sentry canvas for crash-to-fix workflow; auto model selection tiers (efficiency/balance/intelligence); AI credit budget request from org owners; usage metrics GA in VS Code Agents window | [github.blog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/) |
 | 2026/09/18 | **Anthropic: Claude is building its own successor** — Claude leads 26% of Anthropic's model R&D (up from 0% in Feb); 90% of R&D done in "collaboration" with Claude; ~30,000 agents doing research and engineering work as of Aug; AP wire story went wide globally | [ksat.com](https://www.ksat.com/business/2026/09/18/anthropic-says-its-model-claude-is-helping-to-build-the-next-version-of-itself/) |
 | 2026/09/18 | **Claude Code v2.1.276** — hotfix for proxy/gateway regression from v2.1.275: every request failing with `400 Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway; critical for enterprise proxy setups | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/18 | **Claude Code v2.1.275** — Ctrl+Enter send-now key for interrupting turns; claude.ai skills and plugins synced to terminal sessions; signed-in account added to gateway sign-in; fullscreen/vim/session resume fixes; artifact publishing improvements | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |

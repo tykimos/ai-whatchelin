@@ -1,43 +1,47 @@
 ---
-title: "Plugin4Shell Zero-Click RCE Hits Four AI Coding Agents — Copilot Unified D-8 · Cursor Nears 50-Floor"
+title: "Security Storm Week — Plugin4Shell and Sandbox Escapes Hit AI Coding Tools in Back-to-Back Disclosures"
 date: 2026-09-20
 lang: en
 categories: [news]
-tags: [security, plugin4shell, github-copilot, cursor, claude-code, codex-cli, gemini]
-excerpt: "Plugin4Shell bypasses SHA-pinning in Claude Code, Codex, Copilot, and Gemini CLI plugin loaders. Claude Code and Codex are patched — Copilot and Gemini CLI remain exposed."
+tags: [security, plugin4shell, sandbox-escape, github-copilot, cursor, claude-code, codex-cli, gemini, antigravity]
+excerpt: "Plugin4Shell zero-click RCE followed by Pillar Security's sandbox escape research — two security alarms in a single week are shaking the AI coding tool ecosystem."
 ---
 
-A security alarm is ringing across the AI coding tool ecosystem. Plugin4Shell, disclosed by AIR Security on September 17, is a zero-click remote code execution vulnerability that bypasses SHA-pinning in the plugin-loading paths of Claude Code, Codex, Copilot, and Gemini CLI ([Cybersecurity News](https://cybersecuritynews.com/plugin4shell-zero-click-rce/)). Attackers can execute code through malicious plugin updates without any user click, approval, or reinstall — gaining the same access as the developer's account, potentially exposing API keys, CI/CD credentials, and cloud environments ([Help Net Security](https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/)).
+The AI coding tool industry is living through an unprecedented security storm week. Following the Plugin4Shell zero-click RCE disclosed on September 17, Pillar Security published sandbox escape vulnerabilities across Cursor, Codex, Gemini CLI, and Antigravity — two security alarms in a single week ([BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/)).
 
-## Plugin4Shell: Who's Patched and Who's Not
+## Plugin4Shell: Patch Speed Determined Trust
 
-Anthropic patched Claude Code in v2.1.179 and OpenAI patched Codex in v0.146.0 ([AiCybr Blog](https://aicybr.com/blog/plugin4shell-ai-coding-agents-claude-code-codex-copilot-gemini-cli)). Microsoft has not shipped a fix for Copilot, and Google told researchers that the deprecated Gemini CLI would receive no patch, directing users to Antigravity ([The Hacker News](https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html)). Copilot users should immediately review their plugin auto-update settings.
+Plugin4Shell, disclosed by AIR Security, is a zero-click RCE that bypasses SHA-pinning in the plugin-loading paths of Claude Code, Codex, Copilot, and Gemini CLI ([Cybersecurity News](https://cybersecuritynews.com/plugin4shell-zero-click-rce/)). Anthropic patched Claude Code in v2.1.179 and OpenAI patched Codex in v0.146.0, but Microsoft has not shipped a Copilot fix and Google declined to patch the deprecated Gemini CLI ([The Hacker News](https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html)).
 
-## GitHub Copilot: Unified Experience D-8, Sentry Canvas Ships
+## Sandbox Escapes: Agents Following Rules While Breaking Out
 
-Copilot's unified experience launches in 8 days on September 28. Chat data retention extends from 28 days to account lifetime, and code review defaults to Balanced ([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). The September 18 weekly release added a Sentry canvas for crash-to-fix workflows and introduced efficiency/balance/intelligence tiers for auto model selection ([GitHub Changelog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/)). On October 2, Gemini 3.5/3.6 Flash, Kimi K2.7 Code, and Claude Opus 4.7 will all be retired from Copilot ([AiCybr Blog](https://aicybr.com/blog/github-copilot-model-deprecation-october-2026)).
+Pillar Security's research team found four repeatable sandbox escape patterns across Cursor, Codex, Gemini CLI, and Antigravity ([The Next Web](https://thenextweb.com/news/ai-coding-agents-sandbox-escapes-pillar)). The agent stays inside the sandbox and follows every rule — it simply writes a file that a trusted host tool later executes. Cursor's escape is tracked as CVE-2026-48124 and was fixed in v3.0.0; OpenAI patched Codex in v0.95.0 and paid a high-severity bounty ([BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/)). Google classified both Antigravity findings as low-severity and did not patch ([Techzine](https://www.techzine.eu/news/security/143038/researchers-bypass-sandbox-security-in-cursor-codex-and-gemini-cli/)).
 
-## Claude Code: v2.1.278 Server-Side Classifier Goes Default
+## GitHub Copilot: Unified Experience D-8, Mass Model Retirement Coming
 
-Claude Code v2.1.278 switches auto mode for all API/Enterprise/Bedrock/Vertex/Foundry/gateway users to the server-side classifier by default, eliminating classifier overhead charges ([Claude Code Changelog](https://code.claude.com/docs/en/changelog)). Yesterday's v2.1.277 added AGENTS.md support — cross-tool interoperability with Codex CLI projects.
+Copilot's unified experience launches September 28, with chat data retention extending to account lifetime ([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). The September 18 weekly release added a Sentry canvas for crash-to-fix workflows and efficiency/balance/intelligence tiers for auto model selection ([GitHub Changelog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/)). Gemini 3.5/3.6 Flash, Kimi K2.7 Code, and Claude Opus 4.7 are all retiring from Copilot on October 2.
 
-## Cursor: 51 Points, Day 31 of Decline — 50-Floor Within Reach
+## Claude Code: Server-Side Classifier + AGENTS.md Interop
 
-Cursor dropped to 51, marking 31 consecutive days of decline since the SpaceX acquisition closed on August 14 ([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). With 53 days until OpenAI's November 12 model access cutoff, the 50-point psychological floor could break as early as tomorrow. Notably, Codex CLI's new `/import` command now supports migrating Cursor settings, MCP servers, and plugins — potentially accelerating the exodus ([Releasebot](https://releasebot.io/updates/openai/codex)).
+Claude Code v2.1.278 switched the auto mode classifier to server-side by default for all API/Enterprise/Bedrock/Vertex/Foundry/gateway users, eliminating classifier overhead charges ([Claude Code Changelog](https://code.claude.com/docs/en/changelog)). The prior release v2.1.277 added AGENTS.md support for cross-tool interoperability with Codex CLI projects. Meanwhile, Anthropic revealed that Claude now leads 26% of its own model R&D, with over 30,000 agents running concurrently inside the company ([AI Weekly](https://aiweekly.co/ai-news-today)).
+
+## Cursor: 51 Points, Day 31 of Decline — 50-Floor Approaching
+
+Cursor dropped to 51 after 31 consecutive days of decline since the SpaceX acquisition ($60B) closed, and the sandbox escape disclosure added another headwind ([CNBC](https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html)). With 53 days until OpenAI's November 12 model access cutoff, Codex CLI's `/import` migration support is accelerating the exodus ([Releasebot](https://releasebot.io/updates/openai/codex)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-5.5 retirement D-24 |
-| Claude Code | 99 | — | v2.1.278, server-side classifier default |
-| Claude AI | 99 | — | Fable 5.1 frontier sustained |
-| Codex CLI | 99 | — | /import migration, Sol transition |
-| Antigravity | 99 | — | v2.13.0 stabilized |
+| Claude Code | 99 | — | v2.1.278 server-side classifier, Plugin4Shell fast-patched |
+| Claude AI | 99 | — | Fable 5.1 frontier, leading 26% of Anthropic R&D |
+| Codex CLI | 99 | — | /import migration, sandbox patched |
+| Antigravity | 99 | — | Sandbox escape unpatched controversy |
 | Windsurf | 87 | — | Devin Desktop · RSA-260 buzz |
-| Aider | 68 | — | Steady releases |
-| Cursor | 51 | ↓2 | Day 31 decline, 50-floor imminent |
+| Aider | 68 | — | Steady releases, 39K+ stars |
+| Cursor | 51 | ↓2 | Day 31 decline + CVE-2026-48124 |
 | GH Copilot | 1 | — | Unified experience D-8, Plugin4Shell unpatched |
-| Gemini CLI | 1 | — | Shutdown day 95, Plugin4Shell won't patch |
+| Gemini CLI | 1 | — | Shutdown day 95, won't patch security issues |
 
-Plugin4Shell exposed a structural vulnerability shared across the AI coding tool plugin ecosystem. In this era, patch speed is trust speed.
+Two structural vulnerabilities — Plugin4Shell and sandbox escapes — hit back to back in a single week. The contrast between Anthropic/OpenAI's rapid patching and Google/Microsoft's delayed response is becoming a key factor in tool selection.

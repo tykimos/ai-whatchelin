@@ -1428,6 +1428,10 @@ timeline
          : Cursor 51로 31일 연속 하락 — 50선 심리적 지지선 돌파 임박 (9/20)
          : Copilot 통합 경험 D-8 — 선불 좌석 10/1, 모델 퇴출 10/2 (9/20)
          : Gemini CLI 폐쇄 95일째 — 소비자 접근 차단 (9/20)
+         : Cursor 49로 32일 연속 하락 — 사상 첫 50선 붕괴 (9/21)
+         : Copilot CLI v1.0.87 — Up 키 프롬프트 리콜, Ctrl+C 턴 중단, MCP 안정성 개선 (9/21)
+         : Copilot 통합 경험 D-7 — 코드 리뷰 기본값 Lite→Balanced 9/28 전환 (9/21)
+         : Gemini CLI 폐쇄 96일째 — 소비자 접근 차단 (9/21)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3048,6 +3052,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/17 | **Claude 앱 통합 리디자인** — Cowork·채팅을 하나의 앱으로 통합; Docs·Slides 도구 추가; Claude Design 대화 내 직접 작동; Pro/Max 플랜 우선 롤아웃 | [releasebot.io](https://releasebot.io/updates/anthropic/claude) |
 | 2026/09/17 | **Claude Sonnet 5 가격 인상 취소 확정** — $2/$10 per MTok 인트로 가격 영구 확정; 당초 $3/$15 인상 미적용 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **대화 중 도구 변경 베타** — 대화 턴 간 도구 추가/제거, 프롬프트 캐시 유지; Fable 5·Mythos 5·Opus 4.8·Opus 5 지원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
+| 2026/09/21 | **Cursor 49점으로 32일 연속 하락** — SpaceX 인수 후 사상 첫 50선 붕괴; OpenAI 셧오프 D-52 | [cursor.com](https://cursor.com) |
+| 2026/09/21 | **Copilot CLI v1.0.87** — Up 키로 마지막 프롬프트 리콜/편집; Ctrl+C로 실행 중 턴 중단; list-change 지원 MCP 서버 연결 실패 수정; 워크트리 경로 커스텀; 시크릿 디버그 로그 기록 방지 | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.87-0) |
+| 2026/09/21 | **Copilot 통합 경험 D-7** — 9/28 코드 리뷰 기본값 Lite→Balanced 전환(토큰 소비량 증가); 사전에 Lite 선택하지 않으면 자동 전환 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/20 | **Claude Code v2.1.278** — API/Enterprise/Bedrock/Vertex/Foundry/게이트웨이 전체 사용자 자동 모드 서버사이드 분류기 기본 전환; 분류기 오버헤드 과금 제거; `/status`에 "Auto mode server" 행 추가 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/09/20 | **Cursor 51점으로 31일 연속 하락** — SpaceX 인수 후 하락세 지속; 50선 심리적 지지선 돌파 하루 앞; OpenAI 셧오프 D-53 | [cursor.com](https://cursor.com) |
 | 2026/09/20 | **Copilot 통합 경험 D-8** — 9/28 github.com 채팅·모바일·클라우드 에이전트 통합 리런치; 데이터 보관 28일→계정 수명 전체로 확대; 코드 리뷰 기본값 Balanced(AI 소비량 증가 가능) | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |

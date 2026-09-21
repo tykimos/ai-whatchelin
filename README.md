@@ -1428,6 +1428,10 @@ timeline
          : Cursor drops to 51 — 31st consecutive day of decline, 50-floor psychological threshold imminent (Sep 20)
          : Copilot unified experience D-8 — prepaid seats Oct 1, model retirements Oct 2 (Sep 20)
          : Gemini CLI shutdown Day 95 — consumer access closed (Sep 20)
+         : Cursor drops to 49 — 32nd consecutive day of decline, first break below 50 (Sep 21)
+         : Copilot CLI v1.0.87 — prompt recall with Up key, Ctrl+C stops turn, MCP reliability (Sep 21)
+         : Copilot unified experience D-7 — code review default Lite→Balanced Sep 28 (Sep 21)
+         : Gemini CLI shutdown Day 96 — consumer access closed (Sep 21)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3089,6 +3093,9 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/17 | **Claude app unification redesign** — Cowork and chat merged into single app; new Docs and Slides tools; Claude Design works inside conversations; Pro/Max plans first rollout | [releasebot.io](https://releasebot.io/updates/anthropic/claude) |
 | 2026/09/17 | **Claude Sonnet 5 price increase cancelled** — $2/$10 per MTok introductory pricing confirmed as permanent standard price; planned $3/$15 increase never applied | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **Mid-conversation tool changes beta** — add or remove tools between turns while preserving prompt cache; available on Fable 5, Mythos 5, Opus 4.8, and Opus 5 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
+| 2026/09/21 | **Cursor drops to 49** — 32nd consecutive day of decline post-SpaceX acquisition; first break below 50; OpenAI shutoff D-52 | [cursor.com](https://cursor.com) |
+| 2026/09/21 | **Copilot CLI v1.0.87** — Up key recalls last prompt for editing; Ctrl+C stops running turn; MCP servers with list-change capabilities connect instead of failing; worktree path customization; secrets no longer written to debug logs | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.87-0) |
+| 2026/09/21 | **Copilot unified experience D-7** — Sep 28 code review default switches from Lite to Balanced (higher token consumption); organizations must explicitly select Lite before that date to keep cheaper reviews | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/20 | **Claude Code v2.1.278** — auto mode server-side classifier default for all API/Enterprise/Bedrock/Vertex/Foundry/gateway users; eliminates classifier overhead charges; new "Auto mode server" row in `/status` shows classifier location | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/09/20 | **Cursor drops to 51** — 31st consecutive day of decline post-SpaceX acquisition; 50-floor psychological threshold now one day away; OpenAI shutoff D-53 | [cursor.com](https://cursor.com) |
 | 2026/09/20 | **Copilot unified experience D-8** — Sep 28 relaunch consolidating Chat on github.com, mobile, and cloud agent; data retention extends from 28 days to account lifetime; code review defaults to Balanced (higher AI consumption) | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |

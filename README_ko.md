@@ -3052,6 +3052,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/17 | **Claude 앱 통합 리디자인** — Cowork·채팅을 하나의 앱으로 통합; Docs·Slides 도구 추가; Claude Design 대화 내 직접 작동; Pro/Max 플랜 우선 롤아웃 | [releasebot.io](https://releasebot.io/updates/anthropic/claude) |
 | 2026/09/17 | **Claude Sonnet 5 가격 인상 취소 확정** — $2/$10 per MTok 인트로 가격 영구 확정; 당초 $3/$15 인상 미적용 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **대화 중 도구 변경 베타** — 대화 턴 간 도구 추가/제거, 프롬프트 캐시 유지; Fable 5·Mythos 5·Opus 4.8·Opus 5 지원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
+| 2026/09/21 | **Grok 4.7 출시** — xAI 최강 코딩 모델, 2.1조 파라미터(4.6 대비 40% 증가), DeepSWE v1.1 71.0%, Terminal-Bench 4.0 38.0%(전작 2배), CursorBench 4.0 46.3%; $2/$6/MTok 가격 유지; Cursor·Grok Build·xAI API 대기 없이 사용 가능 | [datacamp.com](https://www.datacamp.com/blog/grok-4-7) |
 | 2026/09/21 | **Cursor 49점으로 32일 연속 하락** — SpaceX 인수 후 사상 첫 50선 붕괴; OpenAI 셧오프 D-52 | [cursor.com](https://cursor.com) |
 | 2026/09/21 | **Copilot CLI v1.0.87** — Up 키로 마지막 프롬프트 리콜/편집; Ctrl+C로 실행 중 턴 중단; list-change 지원 MCP 서버 연결 실패 수정; 워크트리 경로 커스텀; 시크릿 디버그 로그 기록 방지 | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.87-0) |
 | 2026/09/21 | **Copilot 통합 경험 D-7** — 9/28 코드 리뷰 기본값 Lite→Balanced 전환(토큰 소비량 증가); 사전에 Lite 선택하지 않으면 자동 전환 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
@@ -3555,6 +3556,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/21 | **Grok 4.7 출시** — 2.1조 파라미터(4.6의 1.5조 대비 40% 증가), $2/$6/MTok 가격 유지; DeepSWE v1.1 71.0%(전작 65.2%); Terminal-Bench 4.0 38.0%(전작 20.3%); CursorBench 4.0 46.3%; xAI API·Grok Build·Cursor에서 대기 없이 사용 가능 | [datacamp.com](https://www.datacamp.com/blog/grok-4-7) |
 | 2026/08/12 | **Grok 4.6 출시** — 500K 컨텍스트, $2/$6/MTok, xhigh 추론 레벨; Artificial Analysis 지능 지수 61(GPT-5.6 Sol Max와 동률); DeepSWE v1.1 65.9%; xAI API·Grok Build·Cursor·OpenRouter·Vercel·Cloudflare에서 사용 가능 | [x.ai](https://x.ai/news/grok-4-6) |
 | 2026/07/16 | **Grok Build 오픈소스 전환** Apache 2.0 — Rust 844K 라인 GitHub 공개, 유출 코드 바이너리 잔존, 서버 측 플래그만으로 제어 | [techtimes.com](https://www.techtimes.com/articles/320671/20260716/grok-build-open-sourced-after-covert-upload-code-exfiltrate-repos-stays.htm) |
 | 2026/07/14 | **Grok Build 개인정보 스캔들** — 전체 Git 레포 GCS에 업로드, 프라이버시 토글 무효, Musk 데이터 삭제 약속 | [thehackernews.com](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html) |
@@ -3596,7 +3598,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.09.19-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.09.22-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

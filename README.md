@@ -3093,6 +3093,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/17 | **Claude app unification redesign** — Cowork and chat merged into single app; new Docs and Slides tools; Claude Design works inside conversations; Pro/Max plans first rollout | [releasebot.io](https://releasebot.io/updates/anthropic/claude) |
 | 2026/09/17 | **Claude Sonnet 5 price increase cancelled** — $2/$10 per MTok introductory pricing confirmed as permanent standard price; planned $3/$15 increase never applied | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **Mid-conversation tool changes beta** — add or remove tools between turns while preserving prompt cache; available on Fable 5, Mythos 5, Opus 4.8, and Opus 5 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
+| 2026/09/21 | **Grok 4.7 launched** — xAI's most capable coding model, 2.1T parameters (40% over 4.6), DeepSWE v1.1 71.0%, Terminal-Bench 4.0 38.0% (nearly 2x predecessor), CursorBench 4.0 46.3%; $2/$6 per MTok unchanged; no waitlist on Cursor, Grok Build, xAI API | [datacamp.com](https://www.datacamp.com/blog/grok-4-7) |
 | 2026/09/21 | **Cursor drops to 49** — 32nd consecutive day of decline post-SpaceX acquisition; first break below 50; OpenAI shutoff D-52 | [cursor.com](https://cursor.com) |
 | 2026/09/21 | **Copilot CLI v1.0.87** — Up key recalls last prompt for editing; Ctrl+C stops running turn; MCP servers with list-change capabilities connect instead of failing; worktree path customization; secrets no longer written to debug logs | [github.com](https://github.com/github/copilot-cli/releases/tag/v1.0.87-0) |
 | 2026/09/21 | **Copilot unified experience D-7** — Sep 28 code review default switches from Lite to Balanced (higher token consumption); organizations must explicitly select Lite before that date to keep cheaper reviews | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
@@ -3585,6 +3586,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/21 | **Grok 4.7 launched** — 2.1T parameters (40% increase over 4.6's 1.5T), $2/$6 per MTok unchanged; DeepSWE v1.1 71.0% (up from 65.2%); Terminal-Bench 4.0 38.0% (up from 20.3%); CursorBench 4.0 46.3%; available via xAI API, Grok Build, Cursor, no waitlist | [datacamp.com](https://www.datacamp.com/blog/grok-4-7) |
 | 2026/08/12 | **Grok 4.6 launched** — 500K context, $2/$6 per MTok, xhigh reasoning level; 61 on Artificial Analysis Intelligence Index (matching GPT-5.6 Sol Max); DeepSWE v1.1 65.9%; available via xAI API, Grok Build, Cursor, OpenRouter, Vercel, Cloudflare | [x.ai](https://x.ai/news/grok-4-6) |
 | 2026/07/16 | **Grok Build open-sourced** under Apache 2.0 — 844K lines Rust on GitHub, exfiltration code remains in binary, server-side flag only | [techtimes.com](https://www.techtimes.com/articles/320671/20260716/grok-build-open-sourced-after-covert-upload-code-exfiltrate-repos-stays.htm) |
 | 2026/07/14 | **Grok Build privacy scandal** — entire Git repos uploaded to GCS, privacy toggle non-functional, Musk promises data deletion | [thehackernews.com](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html) |
@@ -3626,7 +3628,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.09.19-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.09.22-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

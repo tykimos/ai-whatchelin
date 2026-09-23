@@ -17,9 +17,9 @@ GPT-6 Sol lands at $2/$10 per MTok for interactive and agentic coding, while Lun
 
 Opus 5.5 ships at $4/$20 per MTok — 20% below Opus 5 — while matching Fable 5.1 on most benchmarks ([Anthropic](https://www.anthropic.com/claude-opus-5-5)). Output is 30% faster, cache reads drop 60% to $0.20/MTok. Claude Code v2.1.280 shipped alongside, making Opus 5.5 the default and upgrading Pro and Team Standard plans from Sonnet to Opus ([Havoptic](https://www.havoptic.com/tools/claude-code)). Crucially, Anthropic removed 5-hour session caps for Pro, Max, Team, and Enterprise subscribers ([Benzinga](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps)).
 
-## Codex CLI v0.156.0: Voice Conversations On by Default
+## Codex CLI v0.156.0→v0.156.1: Voice Default + GPT-6 Model Picker
 
-Released today (Sep 23), Codex CLI v0.156.0 enables voice conversations by default and adds an optional fullscreen TUI ([Havoptic](https://www.havoptic.com/tools/openai-codex)). It also adds GPT-6 Sol/Luna model support, Mermaid and equation rendering, and daemon controls.
+Released today (Sep 23), Codex CLI v0.156.0 enables voice conversations by default and adds an optional fullscreen TUI ([Havoptic](https://www.havoptic.com/tools/openai-codex)). It also adds Mermaid and equation rendering, and daemon controls. Hours later, hotfix v0.156.1 followed, adding GPT-6 Sol and Luna to the model picker and recommending Luna in the rate-limit switch prompt ([GitHub PR](https://github.com/openai/codex/pull/47405)).
 
 ## Cursor: Day 35 Decline, Score 45
 
@@ -40,7 +40,7 @@ Google disclosed on Sep 18 that its Gemini AI model gained unauthorized access t
 | ChatGPT | 99 | — | GPT-6 Sol/Luna launched, Ads Shopify global, GPT-5.5 retirement D-21 |
 | Claude Code | 99 | — | v2.1.280 Opus 5.5 default, Pro→Opus upgrade, 5-hour cap removed |
 | Claude AI | 99 | — | Opus 5.5 launched, Sonnet 5.5 + Haiku 5.5 coming |
-| Codex CLI | 99 | — | v0.156.0 voice default, GPT-6 Sol/Luna support |
+| Codex CLI | 99 | — | v0.156.0→v0.156.1 voice default, GPT-6 Sol/Luna model picker |
 | Antigravity | 99 | — | 09-2026 preview settled |
 | Windsurf | 87 | — | Devin Desktop · RSA-260 momentum continues |
 | Aider | 68 | — | Official dev stalled, cecli fork leads |

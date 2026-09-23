@@ -1442,6 +1442,7 @@ timeline
          : Copilot unified experience D-6 — Oct 19 deprecation wave announced: Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5 (Sep 22)
          : Gemini CLI shutdown Day 97 — consumer access closed (Sep 22)
          : Codex CLI v0.156.0 — voice conversations default, fullscreen TUI, GPT-6 Sol/Luna support, Mermaid rendering, daemon controls (Sep 23)
+         : Codex CLI v0.156.1 hotfix — GPT-6 Sol and Luna added to model picker, Luna recommended in rate-limit switch prompt (Sep 23)
          : GPT-5.3-Codex-Spark deprecated — removed from ChatGPT desktop, Codex CLI, IDE extension (Sep 23)
          : Cursor drops to 45 — 34th consecutive day of decline, 2nd day below 50, OpenAI shutoff D-50 (Sep 23)
          : Copilot unified experience D-5 — code review default Lite→Balanced 9/28, Jira integration in Copilot app (Sep 23)
@@ -3114,6 +3115,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/17 | **Claude Sonnet 5 price increase cancelled** — $2/$10 per MTok introductory pricing confirmed as permanent standard price; planned $3/$15 increase never applied | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **Mid-conversation tool changes beta** — add or remove tools between turns while preserving prompt cache; available on Fable 5, Mythos 5, Opus 4.8, and Opus 5 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/23 | **Codex CLI v0.156.0** — voice conversations on by default, fullscreen TUI option, GPT-6 Sol/Luna support, Mermaid and equation rendering, daemon controls | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
+| 2026/09/23 | **Codex CLI v0.156.1 hotfix** — GPT-6 Sol and Luna added to model picker; Luna recommended in rate-limit switch prompt | [github.com](https://github.com/openai/codex/pull/47405) |
 | 2026/09/23 | **Cursor drops to 45** — 35th consecutive day of decline; OpenAI shutoff D-50 | [cursor.com](https://cursor.com) |
 | 2026/09/23 | **ChatGPT Ads Shopify international expansion** — Shopify ad app now available globally in all ChatGPT Ads markets | [openai.com](https://openai.com/index/chatgpt-ads-expands-across-europe/) |
 | 2026/09/23 | **Copilot unified experience D-5** — Sep 28 merge of Chat/Mobile/cloud agent approaching; code review default Lite→Balanced imminent | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |

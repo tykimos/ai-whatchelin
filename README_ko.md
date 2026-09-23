@@ -1442,6 +1442,7 @@ timeline
          : Copilot 통합 경험 D-6 — 10/19 모델 퇴출 예고: Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5 (9/22)
          : Gemini CLI 폐쇄 97일째 — 소비자 접근 차단 (9/22)
          : Codex CLI v0.156.0 — 음성 대화 기본, 전체 화면 TUI, GPT-6 Sol/Luna 지원, Mermaid 렌더링, 데몬 제어 (9/23)
+         : Codex CLI v0.156.1 핫픽스 — GPT-6 Sol·Luna 모델 피커 추가, 속도 제한 전환 시 Luna 추천 (9/23)
          : GPT-5.3-Codex-Spark 퇴출 — ChatGPT 데스크톱·Codex CLI·IDE 확장 제거 (9/23)
          : Cursor 45로 34일 연속 하락, 50선 붕괴 2일째, OpenAI 셧오프 D-50 (9/23)
          : Copilot 통합 경험 D-5 — 코드 리뷰 기본값 Lite→Balanced 9/28, Jira 연동 추가 (9/23)
@@ -3073,6 +3074,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/17 | **Claude Sonnet 5 가격 인상 취소 확정** — $2/$10 per MTok 인트로 가격 영구 확정; 당초 $3/$15 인상 미적용 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **대화 중 도구 변경 베타** — 대화 턴 간 도구 추가/제거, 프롬프트 캐시 유지; Fable 5·Mythos 5·Opus 4.8·Opus 5 지원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/23 | **Codex CLI v0.156.0** — 음성 대화 기본 활성화, 전체 화면 TUI, GPT-6 Sol/Luna 지원, Mermaid·수식 렌더링, 데몬 제어 | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
+| 2026/09/23 | **Codex CLI v0.156.1 핫픽스** — GPT-6 Sol·Luna 모델 피커 추가; 속도 제한 전환 시 Luna 추천 | [github.com](https://github.com/openai/codex/pull/47405) |
 | 2026/09/23 | **Cursor 45점으로 35일 연속 하락** — OpenAI 셧오프 D-50 | [cursor.com](https://cursor.com) |
 | 2026/09/23 | **ChatGPT Ads Shopify 글로벌 확장** — Shopify 광고 앱 전 세계 ChatGPT Ads 시장 개방 | [openai.com](https://openai.com/index/chatgpt-ads-expands-across-europe/) |
 | 2026/09/23 | **Copilot 통합 경험 D-5** — 9/28 Chat/Mobile/클라우드 에이전트 합병 임박; 코드 리뷰 기본값 Lite→Balanced 전환 직전 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |

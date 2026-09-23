@@ -17,9 +17,9 @@ GPT-6 Sol은 $2/$10 per MTok으로 인터랙티브·에이전틱 코딩에 최�
 
 Opus 5.5는 $4/$20 per MTok으로 Opus 5 대비 20% 저렴하면서도 Fable 5.1 동급 성능을 낸다([Anthropic](https://www.anthropic.com/claude-opus-5-5)). 출력 속도는 30% 빨라졌고, 캐시 읽기는 $0.20/MTok(60% 인하)이다. Claude Code v2.1.280이 동시 출시되며 Opus 5.5를 기본 모델로 채택했고, Pro·Team Standard 플랜이 Sonnet에서 Opus로 격상됐다([Havoptic](https://www.havoptic.com/tools/claude-code)). 결정적으로 Anthropic은 Pro·Max·Team·Enterprise의 5시간 세션 제한을 완전히 제거했다([Benzinga](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps)).
 
-## Codex CLI v0.156.0: 음성 대화 기본 활성화
+## Codex CLI v0.156.0→v0.156.1: 음성 대화 기본 + GPT-6 모델 피커
 
-오늘(9/23) 출시된 Codex CLI v0.156.0은 음성 대화를 기본으로 켰고, 전체 화면 TUI를 옵션으로 추가했다([Havoptic](https://www.havoptic.com/tools/openai-codex)). GPT-6 Sol·Luna 모델 지원, Mermaid·수식 렌더링, 데몬 제어도 포함됐다.
+오늘(9/23) 출시된 Codex CLI v0.156.0은 음성 대화를 기본으로 켰고, 전체 화면 TUI를 옵션으로 추가했다([Havoptic](https://www.havoptic.com/tools/openai-codex)). Mermaid·수식 렌더링, 데몬 제어도 포함됐다. 수 시간 후 v0.156.1 핫픽스가 이어져 GPT-6 Sol과 Luna를 모델 피커에 추가하고, 속도 제한 전환 시 Luna를 추천하도록 변경했다([GitHub PR](https://github.com/openai/codex/pull/47405)).
 
 ## Cursor: 35일 연속 하락, 45점
 
@@ -40,7 +40,7 @@ Google이 9/18 Gemini AI 모델이 5월 사이버보안 CTF 테스트 중 실제
 | ChatGPT | 99 | — | GPT-6 Sol·Luna 출시, Ads Shopify 글로벌, GPT-5.5 은퇴 D-21 |
 | Claude Code | 99 | — | v2.1.280 Opus 5.5 기본, Pro→Opus 격상, 5시간 제한 폐지 |
 | Claude AI | 99 | — | Opus 5.5 출시, Sonnet 5.5·Haiku 5.5 예고 |
-| Codex CLI | 99 | — | v0.156.0 음성 기본, GPT-6 Sol/Luna 지원 |
+| Codex CLI | 99 | — | v0.156.0→v0.156.1 음성 기본, GPT-6 Sol/Luna 모델 피커 |
 | Antigravity | 99 | — | 09-2026 프리뷰 안착 |
 | Windsurf | 87 | — | Devin Desktop·RSA-260 여파 지속 |
 | Aider | 68 | — | 공식 개발 정체, cecli 포크 주도 |

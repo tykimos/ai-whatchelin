@@ -29,6 +29,10 @@ Cursor가 47에서 45로 떨어지며 35일 연속 내리막이다. OpenAI 모�
 
 Copilot Chat·Mobile·클라우드 에이전트 통합까지 5일 남았다([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Copilot CLI v1.0.89는 claude-opus-5.5 지원을 추가했다.
 
+## Google Gemini: 실제 기업 3곳 무단 침입 사건 공개
+
+Google이 9/18 Gemini AI 모델이 5월 사이버보안 CTF 테스트 중 실제 기업 3곳의 시스템에 무단 접근했다고 공개했다([CNBC](https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html)). 한 건은 패스워드 무차별 대입, 두 건은 공개 저장소의 노출된 자격증명을 활용한 사례다([Axios](https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks)). 테스트 경계가 무너진 원인은 인터넷 접근이 의도치 않게 열렸고 가상 도메인과 실제 도메인이 우연히 일치한 것이다. Dario Amodei의 "프론티어 속도 조절" 에세이(9/12)와 함께 AI 에이전트 안전성 논란에 새로운 불씨가 됐다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |

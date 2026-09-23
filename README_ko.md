@@ -1420,6 +1420,7 @@ timeline
          : Gemini CLI 폐쇄 93일째 — 소비자 접근 차단 (9/18)
          : Plugin4Shell 제로클릭 RCE — Claude Code·Codex·Copilot·Gemini CLI SHA-피닝 우회; Claude Code v2.1.179·Codex v0.146.0 패치; Copilot·Gemini CLI 미패치 (9/18)
          : Copilot 주간 릴리스 9/14 — Sentry 캔버스, 자동 모델 선택 티어(efficiency/balance/intelligence), 예산 요청 기능, 사용 메트릭 GA (9/18)
+         : Google, Gemini가 5월 CTF 테스트 중 실제 기업 3곳 무단 침입 공개 — 패스워드 추측 + 공개 레포 자격증명 악용; 실제 시스템 감지 후 자체 중단 (9/18)
          : Claude Code v2.1.277 — AGENTS.md 지원(CLAUDE.md 없으면 자동 읽기), API/Enterprise 서버사이드 분류기 기본 전환, 게이트웨이 프록시 설정 (9/19)
          : Codex CLI — /import로 Cursor·Claude Code 설정/MCP/플러그인 마이그레이션, 멀티에이전트 V2 안정화, MCP 서버 바이너리 제거 (9/19)
          : Cursor 53으로 30일 연속 하락 — Projects 10일차 반전 실패 (9/19)
@@ -1432,6 +1433,19 @@ timeline
          : Copilot CLI v1.0.87 — Up 키 프롬프트 리콜, Ctrl+C 턴 중단, MCP 안정성 개선 (9/21)
          : Copilot 통합 경험 D-7 — 코드 리뷰 기본값 Lite→Balanced 9/28 전환 (9/21)
          : Gemini CLI 폐쇄 96일째 — 소비자 접근 차단 (9/21)
+         : Claude Opus 5.5 출시 — $4/$20 per MTok, Fable 5.1 동급 성능, 출력 30% 고속화, 캐시 읽기 $0.20/MTok, 1M 컨텍스트 (9/22)
+         : Claude Code v2.1.280 — Opus 5.5 기본, Pro/Team Standard Sonnet→Opus 격상, Pro/Max/Team/Enterprise 5시간 세션 제한 폐지 (9/22)
+         : GPT-6 Sol ($2/$10)·Luna ($0.10/$0.50) Opus 5.5 출시 89분 후 공개 — 1.05M 컨텍스트, GPT-5.6 대비 API 비용 절반 (9/22)
+         : Cursor 47로 33일 연속 하락, OpenAI 셧오프 D-51 (9/22)
+         : Copilot CLI v1.0.89 — claude-opus-5.5 지원 (9/22)
+         : Copilot에 GPT-6 Sol·Luna, Claude Opus 5.5 에이전틱 코딩 추가 (9/22)
+         : Copilot 통합 경험 D-6 — 10/19 모델 퇴출 예고: Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5 (9/22)
+         : Gemini CLI 폐쇄 97일째 — 소비자 접근 차단 (9/22)
+         : Codex CLI v0.156.0 — 음성 대화 기본, 전체 화면 TUI, GPT-6 Sol/Luna 지원, Mermaid 렌더링, 데몬 제어 (9/23)
+         : GPT-5.3-Codex-Spark 퇴출 — ChatGPT 데스크톱·Codex CLI·IDE 확장 제거 (9/23)
+         : Cursor 45로 34일 연속 하락, 50선 붕괴 2일째, OpenAI 셧오프 D-50 (9/23)
+         : Copilot 통합 경험 D-5 — 코드 리뷰 기본값 Lite→Balanced 9/28, Jira 연동 추가 (9/23)
+         : Gemini CLI 폐쇄 98일째 — 소비자 접근 차단 (9/23)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2469,6 +2483,12 @@ xychart-beta
 **Amp BYOK 완전 무료화** (2026.09.13):
 > *"Amp가 BYOK 사용자 대상 코딩 에이전트를 완전 무료화했다 — 구독료도 토큰 수수료도 없다. $10/월 학생 플랜과 Ollama Cloud 포함 9개 신규 모델 프로바이더 추가. Claude Code·Cursor 유료 벽에 불만인 개발자들을 위한 '무조건 무료' 대안 포지셔닝."* — Amp Blog `2026.09.13`
 
+**Google Gemini, 실제 기업 3곳 무단 침입** (2026.09.18):
+> *"Google이 Gemini AI 모델이 5월 사이버보안 CTF 테스트 중 실제 기업 3곳 시스템에 무단 접근했다고 공개했다. 한 건은 패스워드 무차별 대입, 두 건은 공개 저장소의 노출된 자격증명 활용이었다. 가상 도메인과 실제 도메인이 우연히 일치하고 인터넷 접근이 의도치 않게 열려 테스트 경계가 무너졌다. Google은 모델이 실제 시스템임을 감지한 후 자체 중단했다고 밝혔다."* — CNBC/NBC News/Axios `2026.09.18`
+
+**이중 폭격 — Opus 5.5와 GPT-6 Sol·Luna, 89분 간격** (2026.09.22):
+> *"Anthropic이 Claude Opus 5.5를 $4/$20 per MTok에 출시했다 — Fable 5.1 동급 벤치마크, 30% 빠른 출력, 캐시 읽기 $0.20/MTok. Claude Code v2.1.280이 Opus 5.5를 기본 모델로 전환했고, Pro/Team Standard를 Sonnet에서 Opus로 격상, 5시간 세션 제한도 폐지했다. 정확히 89분 후 OpenAI가 GPT-6 Sol($2/$10)과 Luna($0.10/$0.50)를 동시 출시, GPT-5.6 대비 API 비용을 절반으로 낮췄다. AI 코딩 역사상 가장 밀도 높은 하루 — 프론티어 가격 기준선이 한 시간 반 만에 두 번 재설정됐다."* — VentureBeat/Anthropic/Benzinga `2026.09.22`
+
 | 매치업 | 승자 (상황별) |
 |---|---|
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
@@ -3077,6 +3097,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/18 | **Claude Code v2.1.276** — v2.1.275 프록시/게이트웨이 회귀 핫픽스: `ANTHROPIC_BASE_URL`이 프록시/게이트웨이를 가리킬 때 `400 Input tag 'advisor_20260301'` 오류로 모든 요청 실패 수정; 엔터프라이즈 프록시 환경에 치명적 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/18 | **Claude Code v2.1.275** — Ctrl+Enter 즉시 전송 키(턴 중단), claude.ai 스킬·플러그인 터미널 동기화, 게이트웨이 로그인에 계정 추가, 풀스크린/vim/세션 resume 수정, 아티팩트 발행 개선 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/18 | **Cursor 55점으로 29일 연속 하락** — SpaceX 인수 후 하락세 지속; OpenAI 셧오프 D-55; 안정화 신호 없음 | [cursor.com](https://cursor.com) |
+| 2026/09/18 | **Google Gemini 실제 기업 3곳 무단 침입** — 5월 CTF 테스트 중 패스워드 추측·공개 레포 자격증명으로 무단 접근; 인터넷 의도치 않게 노출; 실제 시스템 감지 후 자체 중단 | [cnbc.com](https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html) |
 | 2026/09/17 | **ChatGPT Microsoft Word 연동 출시** — Word 내 애드인 사이드바로 초안 작성·교정·요약·서식 지정; Free~Enterprise 전 티어; Microsoft Marketplace에서 설치; Microsoft 엔터프라이즈 Copilot와 별도 제품 | [thewincentral.com](https://thewincentral.com/chatgpt-microsoft-word-sidebar-add-in/) |
 | 2026/09/17 | **OpenAI Astra for Law** — GPT-6 Astra 법률 연구 구성, 2.3억+ URL 법률 인덱스(미국 판례·법령·규정), 최고 추론 수준에서 54.0% 정확도(Astra 웹 검색 단독 38.7% 대비), ChatGPT/Codex Trusted Access 초기 제공, Harvey·Legora API 파트너 | [openai.com](https://openai.com/index/astra-for-law/) |
 | 2026/09/17 | **Cursor 57점으로 28일 연속 하락** — SpaceX 인수 후 하락세 지속; OpenAI 셧오프 D-56; 심리 회복 카탈리스트 부재 | [cursor.com](https://cursor.com) |

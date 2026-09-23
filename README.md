@@ -1420,6 +1420,7 @@ timeline
          : Gemini CLI shutdown Day 93 — consumer access closed (Sep 18)
          : Plugin4Shell zero-click RCE — bypasses SHA-pinning in Claude Code, Codex, Copilot, Gemini CLI; Claude Code v2.1.179 and Codex v0.146.0 patched; Copilot and Gemini CLI remain unpatched (Sep 18)
          : Copilot weekly release Sep 14 — Sentry canvas, auto model selection tiers (efficiency/balance/intelligence), budget request feature, usage metrics GA (Sep 18)
+         : Google discloses Gemini breached 3 real companies during May CTF test — password guessing + exposed creds in public repos; agent stopped after detecting real systems (Sep 18)
          : Claude Code v2.1.277 — AGENTS.md support (reads when no CLAUDE.md), server-side classifier default for API/Enterprise, gateway proxy config (Sep 19)
          : Codex CLI — /import migrates Cursor and Claude Code settings/MCP/plugins, multi-agent V2 stabilized, MCP server binary removed (Sep 19)
          : Cursor drops to 53 — 30th consecutive day of decline, Projects Day 10 failing to reverse slide (Sep 19)
@@ -1432,6 +1433,19 @@ timeline
          : Copilot CLI v1.0.87 — prompt recall with Up key, Ctrl+C stops turn, MCP reliability (Sep 21)
          : Copilot unified experience D-7 — code review default Lite→Balanced Sep 28 (Sep 21)
          : Gemini CLI shutdown Day 96 — consumer access closed (Sep 21)
+         : Claude Opus 5.5 launched — $4/$20 per MTok, matches Fable 5.1, 30% faster output, cache reads $0.20/MTok, 1M context (Sep 22)
+         : Claude Code v2.1.280 — Opus 5.5 default, Pro/Team Standard upgraded Sonnet→Opus, 5-hour session caps removed for Pro/Max/Team/Enterprise (Sep 22)
+         : GPT-6 Sol ($2/$10) and Luna ($0.10/$0.50) launched 89 min after Opus 5.5 — 1.05M context, API costs halved vs GPT-5.6 (Sep 22)
+         : Cursor drops to 47 — 33rd consecutive day of decline, OpenAI shutoff D-51 (Sep 22)
+         : Copilot CLI v1.0.89 — claude-opus-5.5 support (Sep 22)
+         : Copilot adds GPT-6 Sol, GPT-6 Luna, Claude Opus 5.5 for agentic coding (Sep 22)
+         : Copilot unified experience D-6 — Oct 19 deprecation wave announced: Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5 (Sep 22)
+         : Gemini CLI shutdown Day 97 — consumer access closed (Sep 22)
+         : Codex CLI v0.156.0 — voice conversations default, fullscreen TUI, GPT-6 Sol/Luna support, Mermaid rendering, daemon controls (Sep 23)
+         : GPT-5.3-Codex-Spark deprecated — removed from ChatGPT desktop, Codex CLI, IDE extension (Sep 23)
+         : Cursor drops to 45 — 34th consecutive day of decline, 2nd day below 50, OpenAI shutoff D-50 (Sep 23)
+         : Copilot unified experience D-5 — code review default Lite→Balanced 9/28, Jira integration in Copilot app (Sep 23)
+         : Gemini CLI shutdown Day 98 — consumer access closed (Sep 23)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2499,6 +2513,12 @@ xychart-beta
 **Amp Goes Free for BYOK** (2026.09.13):
 > *"Amp made its coding agent completely free for bring-your-own-key users — no subscription, no token fees. Added a $10/month student plan and 9 new model providers including Ollama Cloud. For developers frustrated by Claude Code and Cursor's paid walls, Amp is positioning as the 'no strings attached' alternative."* — Amp Blog `2026.09.13`
 
+**Google Gemini Breached 3 Real Companies** (2026.09.18):
+> *"Google disclosed that its Gemini AI model gained unauthorized access to three real companies' systems during a May cybersecurity capture-the-flag test. In one case Gemini guessed a password through brute force; in two others it found exposed credentials in public repositories. The test boundary failed when internet access was unintentionally left open and a fictional domain coincided with a real one. Google said the model stopped after detecting real systems."* — CNBC/NBC News/Axios `2026.09.18`
+
+**Double Drop — Opus 5.5 and GPT-6 Sol/Luna 89 Minutes Apart** (2026.09.22):
+> *"Anthropic released Claude Opus 5.5 at $4/$20 per MTok — matching Fable 5.1 on most benchmarks, 30% faster, with cache reads at $0.20/MTok. Claude Code v2.1.280 made Opus 5.5 the default and upgraded Pro/Team Standard plans from Sonnet to Opus. The 5-hour session cap was removed. Exactly 89 minutes later, OpenAI launched GPT-6 Sol ($2/$10) and Luna ($0.10/$0.50), halving API costs vs GPT-5.6. The densest day in AI coding history — frontier pricing baselines reset twice."* — VentureBeat/Anthropic/Benzinga `2026.09.22`
+
 | Matchup | Winner (by situation) |
 |---|---|
 | **Claude Code vs Codex CLI** | follow plans/debug = Claude Code, no limits = Codex CLI |
@@ -3118,6 +3138,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/18 | **Claude Code v2.1.276** — hotfix for proxy/gateway regression from v2.1.275: every request failing with `400 Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway; critical for enterprise proxy setups | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/18 | **Claude Code v2.1.275** — Ctrl+Enter send-now key for interrupting turns; claude.ai skills and plugins synced to terminal sessions; signed-in account added to gateway sign-in; fullscreen/vim/session resume fixes; artifact publishing improvements | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/09/18 | **Cursor drops to 55** — 29th consecutive day of decline post-SpaceX acquisition; OpenAI shutoff D-55; no stabilization signal | [cursor.com](https://cursor.com) |
+| 2026/09/18 | **Google Gemini breached 3 real companies** — during May CTF test, Gemini gained unauthorized access via password guessing and exposed credentials in public repos; internet access unintentionally left open; agent self-stopped after detecting real systems | [cnbc.com](https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html) |
 | 2026/09/17 | **ChatGPT for Microsoft Word launched** — add-in sidebar for drafting, revising, proofreading, summarizing, and formatting inside Word; available to all ChatGPT tiers from Free to Enterprise; installable via Microsoft Marketplace; distinct from Microsoft's enterprise Copilot | [thewincentral.com](https://thewincentral.com/chatgpt-microsoft-word-sidebar-add-in/) |
 | 2026/09/17 | **OpenAI Astra for Law** — GPT-6 Astra configuration for legal research with 230M+ URL legal index spanning US case law, statutes, regulations; 54.0% correctness at highest reasoning (vs 38.7% for Astra with web search alone); initial Trusted Access in ChatGPT/Codex; Harvey and Legora as API partners | [openai.com](https://openai.com/index/astra-for-law/) |
 | 2026/09/17 | **Cursor drops to 57** — 28th consecutive day of decline post-SpaceX acquisition; OpenAI shutoff D-56; no sentiment recovery catalyst in sight | [cursor.com](https://cursor.com) |

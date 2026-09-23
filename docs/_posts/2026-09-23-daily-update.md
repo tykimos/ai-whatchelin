@@ -1,43 +1,47 @@
 ---
-title: "Opus 5.5 Drops With Fable-Level Performance at 40% Lower Cost — Claude Code Makes It Default"
+title: "Double Drop — GPT-6 Sol and Luna Launch 89 Minutes After Opus 5.5"
 date: 2026-09-23
 lang: en
 categories: [news]
-tags: [claude, anthropic, opus-5-5, claude-code, cursor, chatgpt, github-copilot, grok]
-excerpt: "Anthropic launches Opus 5.5 at $4/$20 per MTok — matching Fable 5.1 on most tasks while cutting costs 40% from Opus 5. Claude Code v2.1.280 makes it the default, and Pro/Team Standard users jump from Sonnet to Opus."
+tags: [claude, anthropic, opus-5-5, openai, gpt-6-sol, gpt-6-luna, claude-code, codex-cli, cursor, chatgpt, github-copilot]
+excerpt: "Anthropic released Opus 5.5, and OpenAI answered with GPT-6 Sol and Luna just 89 minutes later. API pricing baselines reset twice in a single day."
 ---
 
-Anthropic launched Claude Opus 5.5 yesterday (Sep 22). Priced at $4/$20 per MTok — a 20% cut from Opus 5's $5/$25 — it matches Fable 5.1 on most tasks while generating output 30% faster than its predecessor ([Anthropic](https://www.anthropic.com/claude-opus-5-5)). Cache reads drop 60% to $0.20/MTok, and Anthropic says it scored highest on their internal alignment audit, their most extensive behavioral safety test suite ([TechCrunch](https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/)). The price-performance bar for AI coding just shifted again.
+September 22 delivered two seismic model launches in under two hours. Anthropic released Claude Opus 5.5, and exactly 89 minutes later OpenAI countered with GPT-6 Sol and Luna ([VentureBeat](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more)). The frontier model price war played out in real time.
 
-## Claude Code v2.1.280: Opus 5.5 Default, Pro Plans Get Opus
+## GPT-6 Sol and Luna: API Costs Halved, 89-Minute Counterpunch
 
-Claude Code v2.1.280 shipped alongside the model launch, making Opus 5.5 the default ([Havoptic](https://www.havoptic.com/tools/claude-code)). The headline change: Pro and Team Standard plans now start on Opus instead of Sonnet. Previously, Opus-class models were exclusive to Max/Team Premium tiers. Now $20/month Pro users get Opus 5.5's 1M context and agentic coding capabilities out of the box. The new "Responsive" mode outputs a sentence before engaging reasoning or tools, noticeably improving perceived responsiveness ([WindowsForum](https://windowsforum.com/news/claude-opus-5-5-launches-with-20-lower-rates-60-cache-read-cut.445446/)). Sonnet 5.5 and Haiku 5.5 are expected within weeks.
+GPT-6 Sol lands at $2/$10 per MTok for interactive and agentic coding, while Luna comes in at $0.10/$0.50 per MTok for high-volume lightweight tasks ([CellCog](https://cellcog.ai/blog/gpt-6-sol-release-date/)). Both offer 1.05M context with 90% cache read discounts. API costs are halved compared to GPT-5.6. Astra remains the flagship, but Sol and Luna are positioned to become the workhorses for agent workflows in practice.
 
-## Cursor: Day 35 Decline, 45 — OpenAI Cutoff D-50
+## Opus 5.5: Fable-Level Performance, 40% Cheaper, Usage Caps Gone
 
-Cursor fell from 47 to 45, marking 35 consecutive days of decline. The OpenAI model cutoff is now 50 days away on November 12, and Cursor has been below the psychological 50-point floor for two days. No reversal signal is visible until the Grok 4.7 + Anthropic pivot shows results.
+Opus 5.5 ships at $4/$20 per MTok — 20% below Opus 5 — while matching Fable 5.1 on most benchmarks ([Anthropic](https://www.anthropic.com/claude-opus-5-5)). Output is 30% faster, cache reads drop 60% to $0.20/MTok. Claude Code v2.1.280 shipped alongside, making Opus 5.5 the default and upgrading Pro and Team Standard plans from Sonnet to Opus ([Havoptic](https://www.havoptic.com/tools/claude-code)). Crucially, Anthropic removed 5-hour session caps for Pro, Max, Team, and Enterprise subscribers ([Benzinga](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps)).
 
-## Copilot Unified Experience D-5 — This Sunday (Sep 28)
+## Codex CLI v0.156.0: Voice Conversations On by Default
 
-Five days remain until GitHub merges Copilot Chat, Mobile, and cloud agent into a single unified experience ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Code review defaults switch from Lite to Balanced, increasing token consumption — organizations need to explicitly select Lite before Sunday to keep costs unchanged.
+Released today (Sep 23), Codex CLI v0.156.0 enables voice conversations by default and adds an optional fullscreen TUI ([Havoptic](https://www.havoptic.com/tools/openai-codex)). It also adds GPT-6 Sol/Luna model support, Mermaid and equation rendering, and daemon controls.
 
-## ChatGPT Ads Shopify Goes Global
+## Cursor: Day 35 Decline, Score 45
 
-The ChatGPT Ads Shopify app expanded internationally today (Sep 23), available in all markets where ChatGPT Ads operates ([Common Thread Collective](https://commonthreadco.com/blogs/coachs-corner/chatgpt-ads-september-2026-product-feeds-now-required-platform-expands-globally-and-the-new-tools-ecommerce-brands-need-right-now)). It launched US-only on Sep 16 and went global in just one week. ChatGPT Ads annualized revenue already surpassed $1 billion.
+Cursor fell from 47 to 45, marking 35 consecutive days of decline. The OpenAI model cutoff (Nov 12) is 50 days away, and Cursor has been below the 50-point floor for two days.
+
+## Copilot: Unified Experience D-5, CLI v1.0.89
+
+Five days remain until GitHub merges Copilot Chat, Mobile, and cloud agent into a single experience ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Copilot CLI v1.0.89 added claude-opus-5.5 support.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | Ads Shopify global expansion, GPT-5.5 retirement D-21 |
-| Claude Code | 99 | — | v2.1.280 Opus 5.5 default, Pro→Opus upgrade |
+| ChatGPT | 99 | — | GPT-6 Sol/Luna launched, Ads Shopify global, GPT-5.5 retirement D-21 |
+| Claude Code | 99 | — | v2.1.280 Opus 5.5 default, Pro→Opus upgrade, 5-hour cap removed |
 | Claude AI | 99 | — | Opus 5.5 launched, Sonnet 5.5 + Haiku 5.5 coming |
-| Codex CLI | 99 | — | v0.155.1 stable, experimental voice chat |
+| Codex CLI | 99 | — | v0.156.0 voice default, GPT-6 Sol/Luna support |
 | Antigravity | 99 | — | 09-2026 preview settled |
 | Windsurf | 87 | — | Devin Desktop · RSA-260 momentum continues |
 | Aider | 68 | — | Official dev stalled, cecli fork leads |
 | Cursor | 45 | ↓2 | Day 35 decline, OpenAI cutoff D-50 |
-| GH Copilot | 1 | — | Unified experience D-5 countdown |
+| GH Copilot | 1 | — | Unified experience D-5, CLI v1.0.89 Opus 5.5 support |
 | Gemini CLI | 1 | — | Shutdown day 98 |
 
-Opus 5.5's launch tightens Anthropic's model lineup. Delivering Fable 5.1-level performance at 40% lower cost breaks the assumption that top-tier performance demands top-tier pricing. With Sonnet 5.5 and Haiku 5.5 announced as coming soon, the second half model race is accelerating in earnest.
+September 22 was the densest day in AI coding history. Both camps released frontier-class models 89 minutes apart, resetting API pricing baselines twice in a single day. For developers, it doesn't get better than this — more options, lower costs.

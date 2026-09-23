@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-09-21</sub>
+  <sub>Last updated: 2026-09-23</sub>
 </p>
 
 <p align="center">
@@ -3093,9 +3093,13 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/17 | **Claude app unification redesign** — Cowork and chat merged into single app; new Docs and Slides tools; Claude Design works inside conversations; Pro/Max plans first rollout | [releasebot.io](https://releasebot.io/updates/anthropic/claude) |
 | 2026/09/17 | **Claude Sonnet 5 price increase cancelled** — $2/$10 per MTok introductory pricing confirmed as permanent standard price; planned $3/$15 increase never applied | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **Mid-conversation tool changes beta** — add or remove tools between turns while preserving prompt cache; available on Fable 5, Mythos 5, Opus 4.8, and Opus 5 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
+| 2026/09/23 | **Codex CLI v0.156.0** — voice conversations on by default, fullscreen TUI option, GPT-6 Sol/Luna support, Mermaid and equation rendering, daemon controls | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
 | 2026/09/23 | **Cursor drops to 45** — 35th consecutive day of decline; OpenAI shutoff D-50 | [cursor.com](https://cursor.com) |
 | 2026/09/23 | **ChatGPT Ads Shopify international expansion** — Shopify ad app now available globally in all ChatGPT Ads markets | [openai.com](https://openai.com/index/chatgpt-ads-expands-across-europe/) |
 | 2026/09/23 | **Copilot unified experience D-5** — Sep 28 merge of Chat/Mobile/cloud agent approaching; code review default Lite→Balanced imminent | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/22 | **GPT-6 Sol and Luna launched** — Sol $2/$10/MTok (balanced interactive/agentic coding), Luna $0.10/$0.50/MTok (high-volume lightweight tasks); both 1.05M context; 90% cache discount; API costs halved vs GPT-5.6; released 89 minutes after Opus 5.5 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
+| 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 support added; managed Connector consent progress with copyable authorization URL | [github.com](https://github.com/github/copilot-cli/releases) |
+| 2026/09/22 | **Anthropic removes 5-hour usage caps** — Pro, Max, Team, and seat-based Enterprise subscribers no longer have 5-hour session caps; rate-limit reset feature added | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |
 | 2026/09/22 | **Claude Opus 5.5 launched** — $4/$20/MTok (20% cheaper than Opus 5), cache reads $0.20/MTok (60% cut), 1M context, matches Fable 5.1 performance, 30%+ faster output, new "Responsive" mode, best-scoring model on Anthropic alignment audit; Sonnet 5.5 and Haiku 5.5 expected within weeks | [anthropic.com](https://www.anthropic.com/claude-opus-5-5) |
 | 2026/09/22 | **Claude Code v2.1.280** — Opus 5.5 now default model; Pro and Team Standard plans start on Opus instead of Sonnet; Console sign-in error improvements; SDK session start-up improvements | [havoptic.com](https://www.havoptic.com/tools/claude-code) |
 | 2026/09/21 | **Grok 4.7 launched** — xAI's most capable coding model, 2.1T parameters (40% over 4.6), DeepSWE v1.1 71.0%, Terminal-Bench 4.0 38.0% (nearly 2x predecessor), CursorBench 4.0 46.3%; $2/$6 per MTok unchanged; no waitlist on Cursor, Grok Build, xAI API | [datacamp.com](https://www.datacamp.com/blog/grok-4-7) |
@@ -3337,6 +3341,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/23 | **Codex CLI v0.156.0** — voice conversations on by default with easy toggle; fullscreen TUI option; GPT-6 Sol/Luna model support; Mermaid and equation rendering; daemon controls; improved session recovery, clipboard handling, login reliability, sandbox security | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
+| 2026/09/22 | **GPT-6 Sol and Luna launched** — Sol $2/$10/MTok for interactive and agentic coding; Luna $0.10/$0.50/MTok for high-volume lightweight tasks; both 1.05M context (922K input cap); 90% cache read discount; API costs halved vs GPT-5.6 promotional rates; launched 89 minutes after Anthropic's Opus 5.5 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
+| 2026/09/16 | **GPT-5.5 retiring from ChatGPT and Codex Oct 14** — scheduled removal across all plans (consumer, Business, Enterprise, Edu); API Platform and API-key Codex access unaffected; users directed to GPT-5.6 Sol or GPT-6 Astra | [gizmochina.com](https://www.gizmochina.com/2026/09/16/openai-retiring-gpt-5-5-on-october-14-you-may-need-to-update-your-workflow/) |
 | 2026/09/15 | **Codex Handoff demo** — feature-flagged workflow moves live coding tasks between cloud and Mac with full file continuity; Agents API public beta exposes managed Codex harness (sessions, orchestration, context compaction, recovery) to third-party developers | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
 | 2026/09/10 | **Codex CLI major update** — GPT-6 Astra in model picker + Amazon Bedrock; experimental worktree sessions (`--worktree`/`/worktree`) for isolated checkouts; inline Q&A while Codex works; Windows background server management; improved Vim editing, MCP OAuth, session resume | [gradually.ai](https://www.gradually.ai/en/changelogs/codex-cli/) |
 | 2026/09/10 | **Agents API public beta** — exposes managed Codex harness: sessions, orchestration, context compaction, recovery; developers supply tools and pick execution environments | [releasebot.io](https://releasebot.io/updates/openai) |

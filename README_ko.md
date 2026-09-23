@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-21</sub>
+  <sub>마지막 업데이트: 2026-09-23</sub>
 </p>
 
 <p align="center">
@@ -3052,9 +3052,13 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/17 | **Claude 앱 통합 리디자인** — Cowork·채팅을 하나의 앱으로 통합; Docs·Slides 도구 추가; Claude Design 대화 내 직접 작동; Pro/Max 플랜 우선 롤아웃 | [releasebot.io](https://releasebot.io/updates/anthropic/claude) |
 | 2026/09/17 | **Claude Sonnet 5 가격 인상 취소 확정** — $2/$10 per MTok 인트로 가격 영구 확정; 당초 $3/$15 인상 미적용 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/17 | **대화 중 도구 변경 베타** — 대화 턴 간 도구 추가/제거, 프롬프트 캐시 유지; Fable 5·Mythos 5·Opus 4.8·Opus 5 지원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
+| 2026/09/23 | **Codex CLI v0.156.0** — 음성 대화 기본 활성화, 전체 화면 TUI, GPT-6 Sol/Luna 지원, Mermaid·수식 렌더링, 데몬 제어 | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
 | 2026/09/23 | **Cursor 45점으로 35일 연속 하락** — OpenAI 셧오프 D-50 | [cursor.com](https://cursor.com) |
 | 2026/09/23 | **ChatGPT Ads Shopify 글로벌 확장** — Shopify 광고 앱 전 세계 ChatGPT Ads 시장 개방 | [openai.com](https://openai.com/index/chatgpt-ads-expands-across-europe/) |
 | 2026/09/23 | **Copilot 통합 경험 D-5** — 9/28 Chat/Mobile/클라우드 에이전트 합병 임박; 코드 리뷰 기본값 Lite→Balanced 전환 직전 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩), Luna $0.10/$0.50/MTok(대량 경량 작업); 1.05M 컨텍스트; 캐시 90% 할인; GPT-5.6 대비 API 비용 절반; Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
+| 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 지원 추가; 관리형 Connector 동의 진행률 복사 가능 URL 표시 | [github.com](https://github.com/github/copilot-cli/releases) |
+| 2026/09/22 | **Anthropic 5시간 사용 제한 폐지** — Pro·Max·Team·좌석제 Enterprise 구독자의 5시간 세션 제한 제거; 속도 제한 리셋 기능 추가 | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |
 | 2026/09/22 | **Claude Opus 5.5 출시** — $4/$20/MTok(Opus 5 대비 20% 인하), 캐시 읽기 $0.20/MTok(60% 인하), 1M 컨텍스트, Fable 5.1 동급 성능, Opus 5 대비 30%+ 빠른 출력, 새 "Responsive" 모드, Anthropic 내부 정렬 감사 최고 점수; Sonnet 5.5·Haiku 5.5 수주 내 출시 예정 | [anthropic.com](https://www.anthropic.com/claude-opus-5-5) |
 | 2026/09/22 | **Claude Code v2.1.280** — Opus 5.5 기본 모델 전환; Pro·Team Standard 플랜 Sonnet→Opus 시작; Console 로그인 개선; SDK 세션 시작 개선 | [havoptic.com](https://www.havoptic.com/tools/claude-code) |
 | 2026/09/21 | **Grok 4.7 출시** — xAI 최강 코딩 모델, 2.1조 파라미터(4.6 대비 40% 증가), DeepSWE v1.1 71.0%, Terminal-Bench 4.0 38.0%(전작 2배), CursorBench 4.0 46.3%; $2/$6/MTok 가격 유지; Cursor·Grok Build·xAI API 대기 없이 사용 가능 | [datacamp.com](https://www.datacamp.com/blog/grok-4-7) |
@@ -3307,6 +3311,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/23 | **Codex CLI v0.156.0** — 음성 대화 기본 활성화 및 간편 토글; 전체 화면 TUI; GPT-6 Sol/Luna 모델 지원; Mermaid·수식 렌더링; 데몬 제어; 세션 복구·클립보드·로그인·샌드박스 보안 개선 | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
+| 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩용), Luna $0.10/$0.50/MTok(대량 경량 작업용); 1.05M 컨텍스트(입력 922K 제한); 캐시 읽기 90% 할인; GPT-5.6 대비 API 비용 절반; Anthropic Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
+| 2026/09/16 | **GPT-5.5 ChatGPT·Codex에서 10/14 은퇴** — 전 플랜(소비자·Business·Enterprise·Edu) 대상 제거 예정; API 플랫폼 및 API키 Codex 접근은 유지; GPT-5.6 Sol 또는 GPT-6 Astra 이전 권고 | [gizmochina.com](https://www.gizmochina.com/2026/09/16/openai-retiring-gpt-5-5-on-october-14-you-may-need-to-update-your-workflow/) |
 | 2026/09/15 | **Codex Handoff 데모** — 라이브 코딩 작업을 클라우드↔Mac 간 파일 유지한 채 이동하는 피처 플래그 워크플로; Agents API 퍼블릭 베타로 관리형 Codex 하네스(세션·오케스트레이션·컨텍스트 압축·복구)를 개발자에게 개방 | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
 | 2026/09/10 | **Codex CLI 대형 업데이트** — GPT-6 Astra 모델 피커+Amazon Bedrock; 실험적 worktree 세션(`--worktree`/`/worktree`) 격리 체크아웃; 인라인 질문 응답; Windows 백그라운드 서버 관리; Vim 편집 개선, MCP OAuth, 세션 resume | [gradually.ai](https://www.gradually.ai/en/changelogs/codex-cli/) |
 | 2026/09/10 | **Agents API 퍼블릭 베타** — 관리형 Codex 하네스의 세션·오케스트레이션·컨텍스트 압축·복구를 개발자에게 개방; 도구·실행 환경 선택 가능 | [releasebot.io](https://releasebot.io/updates/openai) |

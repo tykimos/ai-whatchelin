@@ -1,17 +1,21 @@
 ---
-title: "Model Picker Scramble — Copilot CLI Adds Opus 5.5, Sol, and Luna in One Day"
+title: "Copilot Opens Code Review Settings to All Plans — The Battleground Shifts from Model Pickers to Review Control"
 date: 2026-09-24
 lang: en
 categories: [news]
 tags: [github-copilot, claude-code, codex-cli, cursor, openai, anthropic, opus-5-5, gpt-6-sol]
-excerpt: "Within 24 hours of the Opus 5.5 and GPT-6 double launch, Copilot CLI v1.0.89 added all three new models to its picker. Cursor sank to 43, marking 36 straight days of decline."
+excerpt: "As the shockwave from the Sep 22 double model launch continues, GitHub Copilot opens code review personal settings to all plans and enters the D-4 countdown to its unified experience."
 ---
 
-The shockwave from September 22's double model launch is rippling across the entire ecosystem. Within 24 hours, GitHub Copilot CLI, OpenAI Codex CLI, and Claude Code all shipped updates integrating the new models. The days when adding a model to a picker took a week are over.
+The shockwave from September 22's double model launch is still reverberating across the ecosystem. With every major terminal agent now carrying Opus 5.5, Sol, and Luna in their pickers, the battleground has shifted beyond model selection into **code review governance**.
+
+## Copilot Code Review: Personal Settings GA Across All Plans
+
+GitHub expanded Copilot code review personal settings to all Copilot plans ([GitHub Changelog](https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews/)). Users can now configure automatic review triggers on PR creation, push, and draft state changes, and set a default review effort (Lite or Balanced) from a dedicated settings page. Enterprise admins can set organization-wide default review effort, with repositories and organizations able to override. With the Sep 28 unified experience switching the default from Lite to Balanced ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)), teams wanting to keep costs down must explicitly select Lite this week.
 
 ## Copilot CLI v1.0.89: Three Models in One Day
 
-Copilot CLI v1.0.89-0 added claude-opus-5.5, and hours later v1.0.89-1 followed with GPT-6 Sol and Luna in the model picker ([GitHub Release](https://github.com/github/copilot-cli/releases/tag/v1.0.89-1)). Copilot CLI users can now switch between Anthropic's and OpenAI's latest models in a single tool. Combined with the auto model selection tiers (efficiency, balance, intelligence) announced on Sep 18, cost-quality routing is now automated ([GitHub Blog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/)).
+Copilot CLI v1.0.89-0 added claude-opus-5.5, and hours later v1.0.89-1 followed with GPT-6 Sol and Luna in the model picker ([GitHub Release](https://github.com/github/copilot-cli/releases/tag/v1.0.89-1)). Combined with the auto model selection tiers (efficiency, balance, intelligence) announced on Sep 18, cost-quality routing is now automated ([GitHub Blog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/)).
 
 ## Claude Code v2.1.281: Stability-First Patch
 
@@ -25,9 +29,9 @@ Following v0.156.0's voice and TUI additions, v0.156.1 added GPT-6 Sol and Luna 
 
 Cursor dropped from 45 to 43, marking 36 consecutive days of decline. The OpenAI model cutoff (Nov 12) is 49 days away. Grok 4.7 integration (Sep 21) hasn't slowed the bleed. The developer exodus since the SpaceX acquisition appears structural.
 
-## Copilot Unified Experience D-4
+## Copilot Unified Experience D-4: Prepaid Seats and Balanced Default
 
-Four days remain until GitHub merges Copilot Chat, Mobile, and cloud agent into a single experience ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Chat data retention shifts from 28 days to account lifetime with the transition.
+Four days remain until GitHub merges Copilot Chat, Mobile, and cloud agent into a single experience ([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Starting Oct 1, all new Business and Enterprise seat assignments will require prepaid seats. Chat data retention shifts from 28 days to account lifetime, and code review defaults shift to Balanced.
 
 ## Market Pulse
 
@@ -41,7 +45,7 @@ Four days remain until GitHub merges Copilot Chat, Mobile, and cloud agent into 
 | Windsurf | 87 | — | Devin Desktop holding steady |
 | Aider | 68 | — | No official release in 13 months |
 | Cursor | 43 | ↓2 | Day 36 decline, OpenAI cutoff D-49 |
-| GH Copilot | 1 | — | CLI v1.0.89 Opus 5.5/Sol/Luna, unified D-4 |
+| GH Copilot | 1 | — | Code review all-plan GA, unified D-4 |
 | Gemini CLI | 1 | — | Shutdown day 99 |
 
-Yesterday's double drop reshaped every major terminal agent's model picker within 24 hours. Copilot simultaneously integrating Anthropic's and OpenAI's latest models signals the "model-neutral tool" era is here for real.
+With the model picker scramble settling, the battleground has moved to review settings governance. Copilot opening code review to all plans while pushing the Balanced default on Sep 28 signals that "AI reviewing your PRs by default" is now the new normal.

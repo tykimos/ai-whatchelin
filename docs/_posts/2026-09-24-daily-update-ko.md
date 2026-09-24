@@ -1,33 +1,37 @@
 ---
-title: "모델 피커 쟁탈전 — Copilot CLI에 Opus 5.5·Sol·Luna 동시 편입, Cursor 43점"
+title: "Copilot 코드 리뷰 전면 개방 — 모델 피커 쟁탈전 이후, 리뷰 설정 전쟁 시작"
 date: 2026-09-24
 lang: ko
 categories: [news]
 tags: [github-copilot, claude-code, codex-cli, cursor, openai, anthropic, opus-5-5, gpt-6-sol]
-excerpt: "9/22 이중 폭격 하루 만에 Copilot CLI v1.0.89가 Opus 5.5·GPT-6 Sol·Luna를 한꺼번에 모델 피커에 편입했다. Cursor는 36일째 하락하며 43점에 도달했다."
+excerpt: "9/22 이중 모델 폭격의 여진이 이어지는 가운데, GitHub Copilot이 코드 리뷰 개인 설정을 전 플랜에 개방하며 통합 경험 D-4 카운트다운에 돌입했다."
 ---
 
-9/22 이중 모델 출시의 충격파가 생태계 전체로 퍼지고 있다. 24시간 만에 GitHub Copilot CLI, OpenAI Codex CLI, Claude Code 모두 신모델 지원을 완료했다. 모델 피커에 이름 하나 올리는 데 보통 며칠 걸리던 시대가 아니다.
+9/22 모델 이중 폭격의 충격파가 여전히 생태계 전체를 뒤흔들고 있다. 모든 주요 터미널 에이전트가 Opus 5.5·Sol·Luna를 피커에 편입한 상황에서, 이제 전쟁터는 모델 피커를 넘어 **코드 리뷰 설정 주도권**으로 이동했다.
 
-## Copilot CLI v1.0.89: 세 모델 동시 편입
+## Copilot 코드 리뷰: 전 플랜 개인 설정 GA
 
-Copilot CLI v1.0.89-0이 claude-opus-5.5를 추가했고, 수 시간 후 v1.0.89-1이 GPT-6 Sol과 Luna를 모델 피커에 추가했다([GitHub Release](https://github.com/github/copilot-cli/releases/tag/v1.0.89-1)). 이제 Copilot CLI 사용자는 Anthropic과 OpenAI의 최신 모델을 한 도구 안에서 전환할 수 있다. 9/18에 발표된 자동 모델 선택 3단계(효율·균형·인텔리전스) 티어와 결합하면, 비용과 품질 사이의 자동 라우팅까지 가능해졌다([GitHub Blog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/)).
+GitHub이 Copilot 코드 리뷰 개인 설정을 모든 Copilot 플랜에 확대 적용했다([GitHub Changelog](https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews/)). PR 생성·푸시·드래프트 해제 시 자동 리뷰 트리거를 개별 설정할 수 있고, 기본 리뷰 강도(Lite/Balanced)를 프로필 내 전용 설정 페이지에서 관리할 수 있다. 엔터프라이즈 관리자는 조직 전체 기본 리뷰 수준을 지정할 수 있으며, 하위 조직·리포지토리가 개별 오버라이드 가능하다. 9/28 통합 경험 전환 시 기본값이 Lite에서 Balanced로 바뀌므로([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)), 비용을 줄이려는 팀은 이번 주 안에 명시적으로 Lite를 선택해야 한다.
+
+## Copilot CLI v1.0.89: Opus 5.5·Sol·Luna 동시 편입
+
+Copilot CLI v1.0.89-0이 claude-opus-5.5를, 수 시간 후 v1.0.89-1이 GPT-6 Sol·Luna를 모델 피커에 추가했다([GitHub Release](https://github.com/github/copilot-cli/releases/tag/v1.0.89-1)). 9/18 발표된 자동 모델 선택 3단계(효율·균형·인텔리전스) 티어와 결합하면, 비용-품질 자동 라우팅이 현실이 됐다([GitHub Blog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/)).
 
 ## Claude Code v2.1.281: 안정성 중심 패치
 
 v2.1.281은 Claude apps 게이트웨이 지원을 강화하고, Bedrock 업스트림 assume_role, MCP URL 모드 엘리시테이션을 추가했다([GitHub Release](https://github.com/anthropics/claude-code/releases/tag/v2.1.281)). 가장 중요한 수정은 API 재시도 중 세션이 종료되는 크래시 버그 패치다. Opus 5.5 출시 직후의 안정화 작업으로 보인다.
 
-## Codex CLI v0.156.1: Sol·Luna 모델 피커 핫픽스
+## Codex CLI v0.156.1: Sol·Luna 핫픽스
 
-v0.156.0에서 음성 대화와 TUI를 추가한 데 이어, v0.156.1이 GPT-6 Sol과 Luna를 모델 피커에 추가하고 속도 제한 전환 시 Luna를 추천하도록 변경했다([GitHub PR](https://github.com/openai/codex/pull/47405)).
+v0.156.0의 음성·TUI 추가에 이어, v0.156.1이 GPT-6 Sol·Luna를 모델 피커에 추가하고 속도 제한 시 Luna를 추천하도록 변경했다([GitHub PR](https://github.com/openai/codex/pull/47405)).
 
 ## Cursor: 36일 연속 하락, 43점
 
-Cursor가 45에서 43으로 떨어지며 36일 연속 내리막이다. OpenAI 모델 차단(11/12)까지 49일. Grok 4.7(9/21)이 편입됐지만 하락세를 멈추지 못하고 있다. SpaceX 인수 이후 개발자 이탈이 구조적이라는 평가가 우세하다.
+Cursor가 45에서 43으로 떨어지며 36일 연속 내리막이다. OpenAI 모델 차단(11/12)까지 49일. Grok 4.7(9/21) 편입에도 하락세가 멈추지 않고 있다. SpaceX 인수 이후 개발자 이탈이 구조적이라는 평가가 우세하다.
 
-## Copilot 통합 경험 D-4
+## Copilot 통합 경험 D-4: 선불 좌석·Balanced 기본값
 
-Copilot Chat·Mobile·클라우드 에이전트 통합까지 4일 남았다([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). 통합과 함께 채팅 데이터 보존이 28일에서 계정 전체 수명으로 변경된다.
+통합 경험까지 4일. 9/28에 Chat·Mobile·클라우드 에이전트가 단일 경험으로 합쳐지고, 10/1부터는 신규 Business·Enterprise 좌석이 선불제로 전환된다([GitHub Blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). 채팅 데이터 보존이 28일에서 계정 전체 수명으로 변경되며, 코드 리뷰 기본값이 Balanced로 올라간다.
 
 ## 마켓 펄스
 
@@ -36,12 +40,12 @@ Copilot Chat·Mobile·클라우드 에이전트 통합까지 4일 남았다([Git
 | ChatGPT | 99 | — | GPT-6 Sol·Luna 롤아웃 지속, GPT-5.5 은퇴 D-20 |
 | Claude Code | 99 | — | v2.1.281 게이트웨이 강화, 5시간 제한 폐지 2일차 |
 | Claude AI | 99 | — | Opus 5.5 생태계 편입 진행 |
-| Codex CLI | 99 | — | v0.156.1 Sol/Luna 모델 피커 핫픽스 |
+| Codex CLI | 99 | — | v0.156.1 Sol/Luna 핫픽스 |
 | Antigravity | 99 | — | 09-2026 프리뷰 안착, v2.13.0 안정 |
 | Windsurf | 87 | — | Devin Desktop 현상 유지 |
 | Aider | 68 | — | 공식 릴리스 13개월째 없음 |
 | Cursor | 43 | ↓2 | 36일 연속 하락, OpenAI 차단 D-49 |
-| GH Copilot | 1 | — | CLI v1.0.89 Opus 5.5·Sol·Luna, 통합 D-4 |
+| GH Copilot | 1 | — | 코드 리뷰 전 플랜 GA, 통합 D-4 |
 | Gemini CLI | 1 | — | 폐쇄 99일째 |
 
-어제의 이중 폭격이 하루 만에 모든 주요 터미널 에이전트의 모델 피커를 재편했다. Copilot이 Anthropic과 OpenAI 최신 모델을 동시에 편입한 것은 "모델 중립 도구"의 시대가 본격적으로 열렸다는 신호다.
+모델 피커 쟁탈전이 일단락되자 전쟁터가 리뷰 설정 주도권으로 이동했다. Copilot이 코드 리뷰를 전 플랜에 개방하며 9/28 Balanced 기본 전환을 밀어붙이는 것은, "AI가 PR을 리뷰하는 게 당연한 시대"의 신호다.

@@ -1445,11 +1445,13 @@ timeline
          : Codex CLI v0.156.1 핫픽스 — GPT-6 Sol·Luna 모델 피커 추가, 속도 제한 전환 시 Luna 추천 (9/23)
          : GPT-5.3-Codex-Spark 퇴출 — ChatGPT 데스크톱·Codex CLI·IDE 확장 제거 (9/23)
          : Cursor 45로 34일 연속 하락, 50선 붕괴 2일째, OpenAI 셧오프 D-50 (9/23)
+         : Cursor Rollouts·Security Review 봇 GA — Rollouts 배포 건강도 환경별 추적, Security Review PR 취약점 자동 스캔; Teams/Enterprise 전용, 10일 무료 크레딧 (9/23)
          : Copilot 통합 경험 D-5 — 코드 리뷰 기본값 Lite→Balanced 9/28, Jira 연동 추가 (9/23)
          : Gemini CLI 폐쇄 98일째 — 소비자 접근 차단 (9/23)
          : Claude Code v2.1.281 — Claude apps 게이트웨이 지원, Bedrock assume_role, MCP URL 모드 엘리시테이션, API 재시도 크래시 수정 (9/24)
          : Copilot 코드 리뷰 개인 설정 전 플랜 GA — 엔터프라이즈 기본 리뷰 수준 제어, 자동 리뷰 트리거 설정 가능 (9/24)
          : Cursor 43으로 36일 연속 하락, OpenAI 셧오프 D-49 (9/24)
+         : Codex CLI 0.158 알파 연속 빌드 — 24시간 동안 alpha.2~alpha.6 릴리스, Windows 샌드박스 안정화, GPT-6 모델 티어 통합 (9/24)
          : Copilot 통합 경험 D-4 — 선불 좌석 10/1 시행, 코드 리뷰 기본값 9/28 Balanced 전환 (9/24)
          : Gemini CLI 폐쇄 99일째 — 소비자 접근 차단 (9/24)
 ```
@@ -3080,11 +3082,13 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/17 | **대화 중 도구 변경 베타** — 대화 턴 간 도구 추가/제거, 프롬프트 캐시 유지; Fable 5·Mythos 5·Opus 4.8·Opus 5 지원 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/23 | **Codex CLI v0.156.0** — 음성 대화 기본 활성화, 전체 화면 TUI, GPT-6 Sol/Luna 지원, Mermaid·수식 렌더링, 데몬 제어 | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
 | 2026/09/23 | **Codex CLI v0.156.1 핫픽스** — GPT-6 Sol·Luna 모델 피커 추가; 속도 제한 전환 시 Luna 추천 | [github.com](https://github.com/openai/codex/pull/47405) |
+| 2026/09/23 | **Cursor Rollouts·Security Review 봇 GA** — Rollouts 배포 건강도 환경별 추적(정상/회귀/미정); Security Review PR마다 인젝션·인증 우회·시크릿 노출 자동 스캔; Teams/Enterprise 전용; 10일 무료 크레딧(Teams 50건, Enterprise 500건) | [cursor.com](https://cursor.com/blog/rollouts-and-security-reviewer) |
 | 2026/09/23 | **Cursor 45점으로 35일 연속 하락** — OpenAI 셧오프 D-50 | [cursor.com](https://cursor.com) |
 | 2026/09/23 | **ChatGPT Ads Shopify 글로벌 확장** — Shopify 광고 앱 전 세계 ChatGPT Ads 시장 개방 | [openai.com](https://openai.com/index/chatgpt-ads-expands-across-europe/) |
 | 2026/09/23 | **Copilot 통합 경험 D-5** — 9/28 Chat/Mobile/클라우드 에이전트 합병 임박; 코드 리뷰 기본값 Lite→Balanced 전환 직전 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/24 | **Copilot 코드 리뷰 개인 설정 전 플랜 GA** — Business/Enterprise/Pro+ 전 플랜 적용; 엔터프라이즈 기본 리뷰 수준 제어; PR 생성·푸시·드래프트 변경 시 자동 리뷰 트리거 설정 가능 | [github.blog](https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews/) |
 | 2026/09/24 | **Cursor 43으로 36일 연속 하락** — OpenAI 셧오프 D-49 | [cursor.com](https://cursor.com) |
+| 2026/09/24 | **Codex CLI 0.158 알파 연속 빌드** — 24시간 동안 alpha.2~alpha.6 6개 빌드 릴리스; Windows 샌드박스 안정화, TUI 폴리시, GPT-6 모델 티어 통합 | [github.com](https://github.com/openai/codex/releases) |
 | 2026/09/24 | **Copilot 통합 경험 D-4** — 9/28 합병 임박; 선불 좌석 10/1; 코드 리뷰 기본값 Balanced 전환 직전 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩), Luna $0.10/$0.50/MTok(대량 경량 작업); 1.05M 컨텍스트; 캐시 90% 할인; GPT-5.6 대비 API 비용 절반; Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 지원 추가; 관리형 Connector 동의 진행률 복사 가능 URL 표시 | [github.com](https://github.com/github/copilot-cli/releases) |
@@ -3342,6 +3346,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/09/24 | **Codex CLI 0.158 알파 연속 빌드** — 24시간 동안 0.158.0-alpha.2~alpha.6 6개 빌드; Windows 샌드박스 안정화(헬퍼 장애·자격 증명·WSL2 마운트); TUI 폴리시; GPT-6 모델 티어 통합; RPC 인프라 업데이트 | [github.com](https://github.com/openai/codex/releases) |
 | 2026/09/23 | **Codex CLI v0.156.0** — 음성 대화 기본 활성화 및 간편 토글; 전체 화면 TUI; GPT-6 Sol/Luna 모델 지원; Mermaid·수식 렌더링; 데몬 제어; 세션 복구·클립보드·로그인·샌드박스 보안 개선 | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
 | 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩용), Luna $0.10/$0.50/MTok(대량 경량 작업용); 1.05M 컨텍스트(입력 922K 제한); 캐시 읽기 90% 할인; GPT-5.6 대비 API 비용 절반; Anthropic Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/16 | **GPT-5.5 ChatGPT·Codex에서 10/14 은퇴** — 전 플랜(소비자·Business·Enterprise·Edu) 대상 제거 예정; API 플랫폼 및 API키 Codex 접근은 유지; GPT-5.6 Sol 또는 GPT-6 Astra 이전 권고 | [gizmochina.com](https://www.gizmochina.com/2026/09/16/openai-retiring-gpt-5-5-on-october-14-you-may-need-to-update-your-workflow/) |

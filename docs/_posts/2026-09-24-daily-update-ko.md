@@ -25,9 +25,13 @@ v2.1.281은 Claude apps 게이트웨이 지원을 강화하고, Bedrock 업스�
 
 v0.156.0의 음성·TUI 추가에 이어, v0.156.1이 GPT-6 Sol·Luna를 모델 피커에 추가하고 속도 제한 시 Luna를 추천하도록 변경했다([GitHub PR](https://github.com/openai/codex/pull/47405)).
 
-## Cursor: 36일 연속 하락, 43점
+## Cursor: Rollouts·Security Review 봇 출시, 하지만 하락세는 36일째
 
-Cursor가 45에서 43으로 떨어지며 36일 연속 내리막이다. OpenAI 모델 차단(11/12)까지 49일. Grok 4.7(9/21) 편입에도 하락세가 멈추지 않고 있다. SpaceX 인수 이후 개발자 이탈이 구조적이라는 평가가 우세하다.
+Cursor가 9/23 Teams·Enterprise 전용으로 두 가지 새 봇을 출시했다([Cursor Blog](https://cursor.com/blog/rollouts-and-security-reviewer)). **Rollouts**는 PR 머지 후 배포 건강도를 환경별로 추적해 회귀를 감지하고, **Security Review**는 PR마다 인젝션·인증 우회·시크릿 노출 등 취약점을 자동 스캔한다. 10일간 무료 크레딧이 제공된다(Teams 약 50건, Enterprise 약 500건). 하지만 점수는 45→43으로 36일 연속 하락세를 멈추지 못했다. OpenAI 모델 차단(11/12)까지 49일, SpaceX 인수 이후 개발자 이탈이 구조적이라는 평가가 우세하다.
+
+## Codex CLI: 0.158 알파 연속 릴리스
+
+Codex 팀이 지난 24시간 동안 0.158.0-alpha.2부터 alpha.6까지 6개 알파 빌드를 연속 릴리스했다([GitHub Releases](https://github.com/openai/codex/releases)). Windows 샌드박스 안정화(헬퍼 장애·자격 증명·WSL2 마운트 문제)와 TUI 폴리시, GPT-6 계열 모델 티어 통합이 핵심이다.
 
 ## Copilot 통합 경험 D-4: 선불 좌석·Balanced 기본값
 
@@ -40,11 +44,11 @@ Cursor가 45에서 43으로 떨어지며 36일 연속 내리막이다. OpenAI �
 | ChatGPT | 99 | — | GPT-6 Sol·Luna 롤아웃 지속, GPT-5.5 은퇴 D-20 |
 | Claude Code | 99 | — | v2.1.281 게이트웨이 강화, 5시간 제한 폐지 2일차 |
 | Claude AI | 99 | — | Opus 5.5 생태계 편입 진행 |
-| Codex CLI | 99 | — | v0.156.1 Sol/Luna 핫픽스 |
+| Codex CLI | 99 | — | 0.158 알파 연속 릴리스, Sol/Luna 안정화 |
 | Antigravity | 99 | — | 09-2026 프리뷰 안착, v2.13.0 안정 |
 | Windsurf | 87 | — | Devin Desktop 현상 유지 |
 | Aider | 68 | — | 공식 릴리스 13개월째 없음 |
-| Cursor | 43 | ↓2 | 36일 연속 하락, OpenAI 차단 D-49 |
+| Cursor | 43 | ↓2 | Rollouts·Security Review 출시에도 36일 연속 하락 |
 | GH Copilot | 1 | — | 코드 리뷰 전 플랜 GA, 통합 D-4 |
 | Gemini CLI | 1 | — | 폐쇄 99일째 |
 

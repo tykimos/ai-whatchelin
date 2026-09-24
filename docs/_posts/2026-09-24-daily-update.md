@@ -25,9 +25,13 @@ v2.1.281 strengthened Claude apps gateway support, added assume_role on Bedrock 
 
 Following v0.156.0's voice and TUI additions, v0.156.1 added GPT-6 Sol and Luna to the model picker and now recommends Luna when hitting rate limits ([GitHub PR](https://github.com/openai/codex/pull/47405)).
 
-## Cursor: Day 36 Decline, Score 43
+## Cursor: Rollouts & Security Review Bots Launch, but Decline Hits Day 36
 
-Cursor dropped from 45 to 43, marking 36 consecutive days of decline. The OpenAI model cutoff (Nov 12) is 49 days away. Grok 4.7 integration (Sep 21) hasn't slowed the bleed. The developer exodus since the SpaceX acquisition appears structural.
+Cursor shipped two new bots on Sep 23 for Teams and Enterprise plans ([Cursor Blog](https://cursor.com/blog/rollouts-and-security-reviewer)). **Rollouts** monitors every PR as it deploys, reporting change health per environment — verified healthy, regression detected, or inconclusive. **Security Review** scans every PR for exploitable bugs: injection, auth bypasses, and leaked secrets. Cursor is offering free credits for 10 days (roughly 50 changes for Teams, 500 for Enterprise). Despite the product push, the score dropped from 45 to 43, extending the streak to 36 consecutive days of decline. The developer exodus since the SpaceX acquisition remains structural — the OpenAI model cutoff (Nov 12) is 49 days out.
+
+## Codex CLI: Rapid 0.158 Alpha Release Cycle
+
+The Codex team shipped six alpha builds (0.158.0-alpha.2 through alpha.6) in the past 24 hours ([GitHub Releases](https://github.com/openai/codex/releases)), signaling an aggressive stabilization push. Key focus areas include Windows sandbox reliability (helper failures, credential issues, WSL2 mount problems), TUI polish, and GPT-6 family model tier integration.
 
 ## Copilot Unified Experience D-4: Prepaid Seats and Balanced Default
 
@@ -40,11 +44,11 @@ Four days remain until GitHub merges Copilot Chat, Mobile, and cloud agent into 
 | ChatGPT | 99 | — | GPT-6 Sol/Luna rollout continues, GPT-5.5 retirement D-20 |
 | Claude Code | 99 | — | v2.1.281 gateway fixes, 5-hour cap removal day 2 |
 | Claude AI | 99 | — | Opus 5.5 ecosystem adoption underway |
-| Codex CLI | 99 | — | v0.156.1 Sol/Luna model picker hotfix |
+| Codex CLI | 99 | — | 0.158 alpha blitz, Sol/Luna stabilization |
 | Antigravity | 99 | — | 09-2026 preview stable, v2.13.0 settled |
 | Windsurf | 87 | — | Devin Desktop holding steady |
 | Aider | 68 | — | No official release in 13 months |
-| Cursor | 43 | ↓2 | Day 36 decline, OpenAI cutoff D-49 |
+| Cursor | 43 | ↓2 | Rollouts/Security Review launch can't stop day-36 slide |
 | GH Copilot | 1 | — | Code review all-plan GA, unified D-4 |
 | Gemini CLI | 1 | — | Shutdown day 99 |
 

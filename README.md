@@ -1445,11 +1445,13 @@ timeline
          : Codex CLI v0.156.1 hotfix — GPT-6 Sol and Luna added to model picker, Luna recommended in rate-limit switch prompt (Sep 23)
          : GPT-5.3-Codex-Spark deprecated — removed from ChatGPT desktop, Codex CLI, IDE extension (Sep 23)
          : Cursor drops to 45 — 34th consecutive day of decline, 2nd day below 50, OpenAI shutoff D-50 (Sep 23)
+         : Cursor Rollouts & Security Review bots launch — Rollouts monitors deploy health per environment, Security Review scans PRs for exploitable bugs; Teams/Enterprise only, 10-day free credits (Sep 23)
          : Copilot unified experience D-5 — code review default Lite→Balanced 9/28, Jira integration in Copilot app (Sep 23)
          : Gemini CLI shutdown Day 98 — consumer access closed (Sep 23)
          : Claude Code v2.1.281 — Claude apps gateway support, Bedrock assume_role, MCP URL-mode elicitation, API retry crash fix (Sep 24)
          : Copilot code review personal settings GA across all plans — enterprise default effort control, automatic review triggers configurable (Sep 24)
          : Cursor drops to 43 — 36th consecutive day of decline, OpenAI shutoff D-49 (Sep 24)
+         : Codex CLI 0.158 alpha blitz — six alpha builds (alpha.2–alpha.6) in 24 hours, Windows sandbox stabilization, GPT-6 tier integration (Sep 24)
          : Copilot unified experience D-4 — prepaid seats Oct 1, code review default Lite→Balanced on Sep 28 (Sep 24)
          : Gemini CLI shutdown Day 99 — consumer access closed (Sep 24)
 ```
@@ -3121,11 +3123,13 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/17 | **Mid-conversation tool changes beta** — add or remove tools between turns while preserving prompt cache; available on Fable 5, Mythos 5, Opus 4.8, and Opus 5 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-developer-platform) |
 | 2026/09/23 | **Codex CLI v0.156.0** — voice conversations on by default, fullscreen TUI option, GPT-6 Sol/Luna support, Mermaid and equation rendering, daemon controls | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
 | 2026/09/23 | **Codex CLI v0.156.1 hotfix** — GPT-6 Sol and Luna added to model picker; Luna recommended in rate-limit switch prompt | [github.com](https://github.com/openai/codex/pull/47405) |
+| 2026/09/23 | **Cursor Rollouts & Security Review bots GA** — Rollouts monitors deploy health per environment (verified/regression/inconclusive); Security Review scans every PR for injection, auth bypass, leaked secrets; Teams/Enterprise plans; 10-day free credits (50 changes Teams, 500 Enterprise) | [cursor.com](https://cursor.com/blog/rollouts-and-security-reviewer) |
 | 2026/09/23 | **Cursor drops to 45** — 35th consecutive day of decline; OpenAI shutoff D-50 | [cursor.com](https://cursor.com) |
 | 2026/09/23 | **ChatGPT Ads Shopify international expansion** — Shopify ad app now available globally in all ChatGPT Ads markets | [openai.com](https://openai.com/index/chatgpt-ads-expands-across-europe/) |
 | 2026/09/23 | **Copilot unified experience D-5** — Sep 28 merge of Chat/Mobile/cloud agent approaching; code review default Lite→Balanced imminent | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/24 | **Copilot code review personal settings GA** — configurable across all Copilot plans (Business/Enterprise/Pro+); enterprise default effort control; automatic review triggers on PR create, push, and draft state changes | [github.blog](https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews/) |
 | 2026/09/24 | **Cursor drops to 43** — 36th consecutive day of decline; OpenAI shutoff D-49 | [cursor.com](https://cursor.com) |
+| 2026/09/24 | **Codex CLI 0.158 alpha blitz** — six alpha builds in 24 hours targeting Windows sandbox stability, TUI polish, and GPT-6 model tier integration | [github.com](https://github.com/openai/codex/releases) |
 | 2026/09/24 | **Copilot unified experience D-4** — Sep 28 merge approaching; prepaid seats Oct 1; code review default Balanced imminent | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/22 | **GPT-6 Sol and Luna launched** — Sol $2/$10/MTok (balanced interactive/agentic coding), Luna $0.10/$0.50/MTok (high-volume lightweight tasks); both 1.05M context; 90% cache discount; API costs halved vs GPT-5.6; released 89 minutes after Opus 5.5 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 support added; managed Connector consent progress with copyable authorization URL | [github.com](https://github.com/github/copilot-cli/releases) |
@@ -3372,6 +3376,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/09/24 | **Codex CLI 0.158 alpha blitz** — six alpha builds (0.158.0-alpha.2 through alpha.6) in 24 hours; Windows sandbox stabilization (helper failures, credential issues, WSL2 mount problems); TUI polish; GPT-6 family model tier integration; deep infrastructural RPC updates | [github.com](https://github.com/openai/codex/releases) |
 | 2026/09/23 | **Codex CLI v0.156.0** — voice conversations on by default with easy toggle; fullscreen TUI option; GPT-6 Sol/Luna model support; Mermaid and equation rendering; daemon controls; improved session recovery, clipboard handling, login reliability, sandbox security | [havoptic.com](https://www.havoptic.com/tools/openai-codex) |
 | 2026/09/22 | **GPT-6 Sol and Luna launched** — Sol $2/$10/MTok for interactive and agentic coding; Luna $0.10/$0.50/MTok for high-volume lightweight tasks; both 1.05M context (922K input cap); 90% cache read discount; API costs halved vs GPT-5.6 promotional rates; launched 89 minutes after Anthropic's Opus 5.5 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/16 | **GPT-5.5 retiring from ChatGPT and Codex Oct 14** — scheduled removal across all plans (consumer, Business, Enterprise, Edu); API Platform and API-key Codex access unaffected; users directed to GPT-5.6 Sol or GPT-6 Astra | [gizmochina.com](https://www.gizmochina.com/2026/09/16/openai-retiring-gpt-5-5-on-october-14-you-may-need-to-update-your-workflow/) |

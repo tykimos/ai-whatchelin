@@ -1,47 +1,47 @@
 ---
-title: "Copilot Unified D-3 Countdown — Claude Code v2.1.282, ChatGPT Voice for Plugins GA, Cursor Day 37"
+title: "Cognition AI Hits $1B ARR — OpenAI Pro Max $500 Leaked, Claude Cracks RSA-896"
 date: 2026-09-25
 lang: en
 categories: [news]
-tags: [claude-code, github-copilot, chatgpt, cursor, codex-cli, gemini-cli]
-excerpt: "Copilot unified experience is 3 days out with Oct 2 model deprecations confirmed. Claude Code polishes terminal UX, ChatGPT opens Voice for plugins to all plans, and Cursor hits day 37 of its decline."
+tags: [cognition, devin, windsurf, openai, chatgpt, claude-code, claude-ai, github-copilot, cursor]
+excerpt: "Bloomberg reports Cognition AI reached $1 billion in annualized revenue on the back of Devin. OpenAI's $500 Pro Max tier surfaces in code, and an Anthropic engineer factors RSA-896 with Claude."
 ---
 
-Three days until the Copilot unified experience. After the model picker scramble and the code review settings battle, the competition has shifted to **how deeply each tool embeds into developers' daily workflows**. Today's theme: terminal UX, voice interfaces, and productivity integrations.
+The AI coding market just got a new billion-dollar signal. Bloomberg reported today that Cognition AI — the company behind Devin — has hit **$1 billion in annualized revenue**, doubling its run rate in four months. Combine that with a leaked OpenAI $500 tier and Claude cracking RSA-896, and the landscape is shifting fast on multiple fronts.
 
-## Claude Code v2.1.282: Terminal Readability Upgrade
+## Cognition AI: $1B ARR — Doubled in Four Months
 
-v2.1.282 introduces a maxProseWidth setting that caps prose width in wide terminals while tables and code blocks retain full width ([Claude Code Changelog](https://code.claude.com/docs/en/changelog)). Telemetry settings are now surfaced in startup notices, /status, and doctor. The release also adds allowClaudeInChromeWithManagedMcp for running Chrome alongside managed MCP, and store.readiness_grace_seconds for Claude apps gateway Postgres failover resilience. The most impactful fix: conversations with undecryptable web search results no longer fail every request with a 400 error.
+Cognition AI reached $1 billion in annualized revenue based on September performance, roughly doubling from $492 million in May ([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue)). Enterprise customers include Nvidia, Citigroup, and Mercedes-Benz. Earlier this month, the company closed a $2 billion round at a $48 billion valuation, nearly doubling from $26 billion just three months prior ([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value)). Devin Desktop (the rebranded Windsurf) is the engine behind this enterprise adoption surge.
 
-## ChatGPT: Voice for Plugins Goes GA
+## OpenAI: Pro Max $500 Tier Found in Code
 
-ChatGPT expanded Voice support to plugins and connected apps across web, iOS, and Android ([ChatGPT Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)). Even Free and Go users can now use Voice in Chat with supported plugins. Separately, GPT-6 Sol and Luna arrived in ChatGPT Work and Codex with plan-based model and reasoning options, and U.S. Plus/Pro users gained credit score tracking via Experian integration.
+A $500/month "Pro Max" plan surfaced in the ChatGPT web app code and OpenAI's open-source Codex repository ([TestingCatalog](https://www.testingcatalog.com/openai-prepares-new-500-month-pro-max-plan-for-chatgpt/)). Positioned above the current $200 Pro tier, it appears to feature "Fastest Work and Codex" with possible Cerebras integration for ultra-low latency inference. An official announcement may come at DevDay on September 29. The pricing page has not yet been updated.
 
-## Copilot Unified Experience D-3: Oct 2 Model Deprecations Confirmed
+## Claude AI: RSA-896 Factored — Record Broken in 16 Days
 
-Three days remain until GitHub merges Chat, Mobile, and cloud agent into a single unified experience ([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)). Starting Oct 1, new Business and Enterprise seats go prepaid. On Oct 2, a wave of model deprecations hits: Gemini 3.5/3.6 Flash to Gemini 3.8 Flash, Kimi K2.7 Code to Kimi K3, and Claude Opus 4.7 to Claude Opus 5 ([DMarketer](https://dmarketertayeeb.com/blog/github-copilot-september-2026-model-budget-review-changes/)). The code review default shifts to Balanced — teams wanting lower costs must explicitly select Lite now.
+Anthropic engineer Steve Weis used Claude to factor RSA-896, a 270-digit semiprime, running GPU-adapted CADO-NFS across 2,048 GPUs for 10 days (~30 GPU-years) ([TechTimes](https://www.techtimes.com/articles/327789/20260920/rsa-896-cracked-claude-ai-second-factoring-record-sixteen-days.htm)). This broke Cognition's RSA-260 (862-bit) record set just 16 days earlier with Devin ([Cognition Blog](https://cognition.com/blog/factoring-rsa-260)). RSA-2048 remains secure, but the pace of AI-assisted cryptographic breakthroughs is raising eyebrows across the industry.
 
-## Cursor: Day 37, Score Drops to 41
+## Copilot Unified D-3: September 28 Launch Confirmed
 
-Cursor fell from 43 to 41, extending its decline streak to 37 consecutive days. Projects beta (thousands of subagents), Rollouts and Security Review bots, Grok 4.7 integration — none of the feature launches have slowed the structural exodus. The OpenAI model cutoff (Nov 12) is 48 days away. Community sentiment increasingly views a drop below 40 as inevitable.
+The GitHub Copilot unified experience launches no earlier than September 28, merging Chat, Mobile, and cloud agent into one ([C# Corner](https://www.c-sharpcorner.com/article/preparing-for-the-github-copilot-unified-experience-coming-september-28)). Opting out means losing access to Copilot on github.com and Mobile. October 1 brings prepaid Business/Enterprise seats, and October 2 triggers model deprecations — Gemini 3.5/3.6 to 3.8 Flash, Claude Opus 4.7 to Opus 5 ([GitHub Changelog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/)).
 
-## Gemini CLI: Shutdown Day 100
+## Cursor: Day 37, SpaceX Hangover Continues
 
-One hundred days since Gemini CLI consumer access was cut. With the migration to Antigravity CLI effectively complete, this milestone confirms Google's strategic pivot — from standalone CLI to integrated Antigravity platform — is on an irreversible trajectory.
+Cursor dropped from 43 to 41, extending its decline streak to 37 consecutive days. Despite feature launches — Projects beta, Rollouts, Security Review bots, Grok 4.7 — the structural exodus following SpaceX's $60B acquisition (August 14) continues unabated. The OpenAI model access cutoff (November 12) is now 48 days away.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | Plugin Voice GA, Word expanding, credit score |
-| Claude Code | 99 | — | v2.1.282 maxProseWidth, terminal UX polish |
-| Claude AI | 99 | — | Opus 5.5 ecosystem adoption continues |
-| Codex CLI | 99 | — | 0.158 alpha stabilization, Sol/Luna settled |
-| Antigravity | 99 | — | 09-2026 preview stable, 05-2026 retiring Oct 5 |
-| Windsurf | 87 | — | Devin Desktop holding steady |
+| ChatGPT | 99 | — | Pro Max $500 leaked, DevDay D-4 |
+| Claude Code | 99 | — | v2.1.282 polish, RSA-896 boosts Claude brand |
+| Claude AI | 99 | — | Opus 5.5 ecosystem, cryptographic showcase |
+| Codex CLI | 99 | — | Sol/Luna settled, Pro Max tie-in possible |
+| Antigravity | 99 | — | 09-2026 preview stable |
+| Windsurf | 88 | ↑1 | Cognition $1B ARR, $48B valuation |
 | Aider | 68 | — | No official release in 13 months |
-| Cursor | 41 | ↓2 | Day 37 decline, OpenAI shutoff D-48 |
-| GH Copilot | 1 | — | Unified D-3, Oct 2 model deprecation confirmed |
+| Cursor | 41 | ↓2 | Day 37 decline, SpaceX hangover |
+| GH Copilot | 1 | — | Unified D-3, Oct 2 model deprecations |
 | Gemini CLI | 1 | — | Shutdown day 100 |
 
-The battleground is migrating from model pickers to code review to everyday integration. Terminal readability (Claude Code), voice interfaces (ChatGPT), and productivity app integration (Word) thread through today's updates. The next front isn't "better models" — it's "more natural workflows."
+Cognition's $1B milestone declares that AI coding tools have crossed from experiment to business. While OpenAI pushes the price ceiling with a $500 tier, Claude flexes model capability through cryptographic breakthroughs. Revenue, models, workflows — war is being waged on all three fronts simultaneously.

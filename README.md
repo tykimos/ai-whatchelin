@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-09-24</sub>
+  <sub>Last updated: 2026-09-25</sub>
 </p>
 
 <p align="center">
@@ -1461,6 +1461,10 @@ timeline
          : Cursor drops to 41 — 37th consecutive day of decline, OpenAI shutoff D-48 (Sep 25)
          : Codex CLI 0.158 alpha stabilization continues — Windows sandbox, TUI polish, GPT-6 tier alignment (Sep 25)
          : Gemini CLI shutdown Day 100 — consumer access closed (Sep 25)
+         : Cognition AI hits $1B ARR — doubled from $492M in May, Nvidia/Citigroup/Mercedes-Benz customers, $48B valuation (Sep 25)
+         : OpenAI Pro Max $500/mo tier found in ChatGPT web code and Codex repo — Cerebras integration, possible DevDay Sep 29 reveal (Sep 25)
+         : Claude AI factors RSA-896 (270-digit) — 2,048 GPUs, 10 days, broke Cognition's RSA-260 record set 16 days prior (Sep 25)
+         : Windsurf rises to 88 — Cognition $1B ARR milestone boosts Devin Desktop brand (Sep 25)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2534,6 +2538,15 @@ xychart-beta
 **Double Drop — Opus 5.5 and GPT-6 Sol/Luna 89 Minutes Apart** (2026.09.22):
 > *"Anthropic released Claude Opus 5.5 at $4/$20 per MTok — matching Fable 5.1 on most benchmarks, 30% faster, with cache reads at $0.20/MTok. Claude Code v2.1.280 made Opus 5.5 the default and upgraded Pro/Team Standard plans from Sonnet to Opus. The 5-hour session cap was removed. Exactly 89 minutes later, OpenAI launched GPT-6 Sol ($2/$10) and Luna ($0.10/$0.50), halving API costs vs GPT-5.6. The densest day in AI coding history — frontier pricing baselines reset twice."* — VentureBeat/Anthropic/Benzinga `2026.09.22`
 
+**Cognition AI Hits $1B ARR — Devin Becomes a Business** (2026.09.25):
+> *"Bloomberg reported Cognition AI reached $1 billion in annualized revenue based on September performance, roughly doubling from $492 million in May. Nvidia, Citigroup, and Mercedes-Benz are enterprise customers. Earlier this month, Cognition closed a $2 billion round at $48 billion valuation. Devin Desktop (the rebranded Windsurf) is driving the enterprise adoption surge. AI coding tools have officially crossed from experiment to business."* — Bloomberg `2026.09.25`
+
+**OpenAI Pro Max $500 Tier Found in Code** (2026.09.25):
+> *"A $500/month 'Pro Max' plan surfaced in the ChatGPT web app code and OpenAI's Codex repository. Positioned above the current $200 Pro tier, it appears to feature 'Fastest Work and Codex' with possible Cerebras integration for ultra-low latency inference. An official announcement may come at DevDay on September 29. While OpenAI pushes the price ceiling, Anthropic and Google are racing to lower API costs."* — TestingCatalog `2026.09.25`
+
+**Claude Cracks RSA-896 — AI Cryptographic Arms Race Escalates** (2026.09.25):
+> *"Anthropic engineer Steve Weis used Claude to factor RSA-896, a 270-digit semiprime, running GPU-adapted CADO-NFS across 2,048 GPUs for 10 days (~30 GPU-years). This broke Cognition's RSA-260 record set just 16 days earlier with Devin. RSA-2048 remains secure, but the pace of AI-assisted cryptographic breakthroughs is raising eyebrows across the industry."* — TechTimes `2026.09.25`
+
 | Matchup | Winner (by situation) |
 |---|---|
 | **Claude Code vs Codex CLI** | follow plans/debug = Claude Code, no limits = Codex CLI |
@@ -3138,6 +3151,12 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/24 | **Cursor drops to 43** — 36th consecutive day of decline; OpenAI shutoff D-49 | [cursor.com](https://cursor.com) |
 | 2026/09/24 | **Codex CLI 0.158 alpha blitz** — six alpha builds in 24 hours targeting Windows sandbox stability, TUI polish, and GPT-6 model tier integration | [github.com](https://github.com/openai/codex/releases) |
 | 2026/09/24 | **Copilot unified experience D-4** — Sep 28 merge approaching; prepaid seats Oct 1; code review default Balanced imminent | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/25 | **Cognition AI hits $1B ARR** — annualized revenue doubled from $492M in May; Nvidia, Citigroup, Mercedes-Benz customers; $48B valuation; Devin Desktop driving enterprise adoption | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue) |
+| 2026/09/25 | **OpenAI Pro Max $500/mo tier found in code** — discovered in ChatGPT web app and Codex repo; "Fastest Work and Codex" with possible Cerebras integration; DevDay Sep 29 reveal expected | [testingcatalog.com](https://www.testingcatalog.com/openai-prepares-new-500-month-pro-max-plan-for-chatgpt/) |
+| 2026/09/25 | **Claude AI factors RSA-896** — Anthropic engineer Steve Weis used Claude to factor 270-digit semiprime; 2,048 GPUs, 10 days (~30 GPU-years); broke Cognition's RSA-260 record set 16 days prior | [techtimes.com](https://www.techtimes.com/articles/327789/20260920/rsa-896-cracked-claude-ai-second-factoring-record-sixteen-days.htm) |
+| 2026/09/25 | **Claude Code v2.1.282** — maxProseWidth setting, managed Chrome MCP, telemetry visibility, cloud-session GitHub updates, web-search history 400 fix | [havoptic.com](https://www.havoptic.com/tools/claude-code) |
+| 2026/09/25 | **Cursor drops to 41** — 37th consecutive day of decline; OpenAI shutoff D-48 | [cursor.com](https://cursor.com) |
+| 2026/09/25 | **Copilot unified experience D-3** — Oct 2 model deprecation wave confirmed | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/22 | **GPT-6 Sol and Luna launched** — Sol $2/$10/MTok (balanced interactive/agentic coding), Luna $0.10/$0.50/MTok (high-volume lightweight tasks); both 1.05M context; 90% cache discount; API costs halved vs GPT-5.6; released 89 minutes after Opus 5.5 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 support added; managed Connector consent progress with copyable authorization URL | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/09/22 | **Anthropic removes 5-hour usage caps** — Pro, Max, Team, and seat-based Enterprise subscribers no longer have 5-hour session caps; rate-limit reset feature added | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |

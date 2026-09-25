@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-24</sub>
+  <sub>마지막 업데이트: 2026-09-25</sub>
 </p>
 
 <p align="center">
@@ -1461,6 +1461,10 @@ timeline
          : Cursor 41로 37일 연속 하락, OpenAI 셧오프 D-48 (9/25)
          : Codex CLI 0.158 알파 안정화 계속 — Windows 샌드박스, TUI 다듬기, GPT-6 티어 정렬 (9/25)
          : Gemini CLI 폐쇄 100일째 — 소비자 접근 차단 (9/25)
+         : Cognition AI 연매출 $10억 달성 — 5월 $4.92억에서 두 배, Nvidia·Citigroup·Mercedes-Benz 고객사, $48B 밸류에이션 (9/25)
+         : OpenAI Pro Max $500/월 요금제 ChatGPT 코드에서 발견 — Cerebras 연동, 9/29 DevDay 발표 가능성 (9/25)
+         : Claude AI RSA-896(270자리) 해독 — GPU 2,048개 투입 10일 소요, Cognition RSA-260 기록 16일 만에 경신 (9/25)
+         : Windsurf 88로 상승 — Cognition $1B ARR 이정표로 Devin Desktop 브랜드 강화 (9/25)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2504,6 +2508,15 @@ xychart-beta
 **이중 폭격 — Opus 5.5와 GPT-6 Sol·Luna, 89분 간격** (2026.09.22):
 > *"Anthropic이 Claude Opus 5.5를 $4/$20 per MTok에 출시했다 — Fable 5.1 동급 벤치마크, 30% 빠른 출력, 캐시 읽기 $0.20/MTok. Claude Code v2.1.280이 Opus 5.5를 기본 모델로 전환했고, Pro/Team Standard를 Sonnet에서 Opus로 격상, 5시간 세션 제한도 폐지했다. 정확히 89분 후 OpenAI가 GPT-6 Sol($2/$10)과 Luna($0.10/$0.50)를 동시 출시, GPT-5.6 대비 API 비용을 절반으로 낮췄다. AI 코딩 역사상 가장 밀도 높은 하루 — 프론티어 가격 기준선이 한 시간 반 만에 두 번 재설정됐다."* — VentureBeat/Anthropic/Benzinga `2026.09.22`
 
+**Cognition AI 연매출 $10억 — Devin이 사업이 되다** (2026.09.25):
+> *"Bloomberg에 따르면 Cognition AI가 9월 실적 기준 연매출 $10억(ARR)을 달성했다. 5월 $4.92억에서 불과 4개월 만에 두 배로 뛴 수치다. Nvidia, Citigroup, Mercedes-Benz가 엔터프라이즈 고객이며, 이달 초 $48B 밸류에이션에 $20억 라운드를 마감했다. Devin Desktop(구 Windsurf)이 엔터프라이즈 채택을 주도하고 있다. AI 코딩 도구가 공식적으로 '실험'에서 '사업'으로 전환됐다."* — Bloomberg `2026.09.25`
+
+**OpenAI Pro Max $500 요금제 코드에서 발견** (2026.09.25):
+> *"ChatGPT 웹 앱 코드와 OpenAI Codex 리포에서 $500/월 'Pro Max' 요금제가 발견됐다. 현재 $200 Pro 위에 위치하며, 'Fastest Work and Codex'와 Cerebras 연동을 통한 초저지연 추론이 특징으로 보인다. 9월 29일 DevDay에서 공식 발표될 가능성이 있다. OpenAI가 가격 상한을 높이는 동안, Anthropic과 Google은 API 비용을 낮추는 데 집중하고 있다."* — TestingCatalog `2026.09.25`
+
+**Claude로 RSA-896 해독 — AI 암호 해독 군비경쟁 가속** (2026.09.25):
+> *"Anthropic 엔지니어 Steve Weis가 Claude를 활용해 RSA-896(270자리 반소수)을 해독했다. GPU 최적화 CADO-NFS를 2,048개 GPU에서 10일간(~30 GPU-year) 가동한 결과다. Cognition이 Devin으로 RSA-260을 해독한 지 불과 16일 만의 기록 경신이다. RSA-2048은 여전히 안전하지만, AI 보조 암호 해독의 속도에 업계가 경종을 울리고 있다."* — TechTimes `2026.09.25`
+
 | 매치업 | 승자 (상황별) |
 |---|---|
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
@@ -3097,6 +3110,12 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/24 | **Cursor 43으로 36일 연속 하락** — OpenAI 셧오프 D-49 | [cursor.com](https://cursor.com) |
 | 2026/09/24 | **Codex CLI 0.158 알파 연속 빌드** — 24시간 동안 alpha.2~alpha.6 6개 빌드 릴리스; Windows 샌드박스 안정화, TUI 폴리시, GPT-6 모델 티어 통합 | [github.com](https://github.com/openai/codex/releases) |
 | 2026/09/24 | **Copilot 통합 경험 D-4** — 9/28 합병 임박; 선불 좌석 10/1; 코드 리뷰 기본값 Balanced 전환 직전 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/25 | **Cognition AI 연매출 $10억 달성** — 5월 $4.92억에서 4개월 만에 두 배; Nvidia·Citigroup·Mercedes-Benz 고객사; $48B 밸류에이션; Devin Desktop 엔터프라이즈 채택 급증 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue) |
+| 2026/09/25 | **OpenAI Pro Max $500/월 요금제 코드에서 발견** — ChatGPT 웹 앱·Codex 리포에서 발견; 'Fastest Work and Codex' Cerebras 연동; 9/29 DevDay 발표 예상 | [testingcatalog.com](https://www.testingcatalog.com/openai-prepares-new-500-month-pro-max-plan-for-chatgpt/) |
+| 2026/09/25 | **Claude AI RSA-896 해독** — Anthropic 엔지니어 Steve Weis가 Claude로 270자리 소인수분해; GPU 2,048개 10일(~30 GPU-year); Cognition RSA-260 기록 16일 만에 경신 | [techtimes.com](https://www.techtimes.com/articles/327789/20260920/rsa-896-cracked-claude-ai-second-factoring-record-sixteen-days.htm) |
+| 2026/09/25 | **Claude Code v2.1.282** — maxProseWidth 설정, 관리형 Chrome MCP, 텔레메트리 가시성, 클라우드 세션 GitHub 업데이트, 웹 검색 기록 400 에러 수정 | [havoptic.com](https://www.havoptic.com/tools/claude-code) |
+| 2026/09/25 | **Cursor 41점으로 37일 연속 하락** — OpenAI 셧오프 D-48 | [cursor.com](https://cursor.com) |
+| 2026/09/25 | **Copilot 통합 경험 D-3** — 10/2 모델 폐기 확정 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩), Luna $0.10/$0.50/MTok(대량 경량 작업); 1.05M 컨텍스트; 캐시 90% 할인; GPT-5.6 대비 API 비용 절반; Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 지원 추가; 관리형 Connector 동의 진행률 복사 가능 URL 표시 | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/09/22 | **Anthropic 5시간 사용 제한 폐지** — Pro·Max·Team·좌석제 Enterprise 구독자의 5시간 세션 제한 제거; 속도 제한 리셋 기능 추가 | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |

@@ -1469,6 +1469,12 @@ timeline
          : Copilot 통합 경험 D-2 — 9/28 Chat/Mobile/클라우드 에이전트 합병 임박 (9/26)
          : OpenAI DevDay D-3 — Pro Max $500/월 발표 유력, Cerebras 초고속 추론 데모 예상 (9/26)
          : Gemini CLI 폐쇄 101일째 — 소비자 접근 차단 (9/26)
+         : Claude Code v2.1.283 — AGENTS.md 지원, 풀스크린 마우스, MCP 제어, VS Code 세션 아카이빙 (9/27)
+         : Claude Code /buddy 삭제 논란 — Issue #45596, 댓글 270개, 업보트 1,184개 (9/27)
+         : Cursor 37로 39일 연속 하락, OpenAI 셧오프 D-46 (9/27)
+         : Copilot 통합 경험 D-1 — 9/28 Chat/Mobile/클라우드 에이전트 합병 내일 (9/27)
+         : OpenAI DevDay D-2 — "o" 에이전트, GPT-6 Cyber 프리뷰, Pro Max $500/월 (9/27)
+         : Gemini CLI 폐쇄 102일째 — 소비자 접근 차단 (9/27)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3123,6 +3129,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/26 | **Cursor 39점으로 38일 연속 하락** — OpenAI 셧오프 D-47 | [cursor.com](https://cursor.com) |
 | 2026/09/26 | **Copilot 통합 경험 D-2** — 9/28 Chat/Mobile/클라우드 에이전트 합병 임박; 선불 좌석 10/1 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/26 | **OpenAI DevDay D-3** — 9/29 Fort Mason SF; Pro Max $500/월 발표 유력; Cerebras 초고속 추론 데모 예상 | [devday.openai.com](https://devday.openai.com/) |
+| 2026/09/27 | **Claude Code v2.1.283** — AGENTS.md 프로젝트 설정 지원, 풀스크린 마우스, MCP 강화, VS Code 세션 아카이빙, Opus 5.5 기본 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/09/27 | **Claude Code /buddy 삭제 논란** — Issue #45596에 댓글 270개, 업보트 1,184개; 프로젝트 역사상 가장 뜨거운 이슈 중 하나 | [github.com](https://github.com/anthropics/claude-code/issues/45596) |
+| 2026/09/27 | **Cursor 37점으로 39일 연속 하락** — OpenAI 셧오프 D-46; 에이전트 하네스 토큰 비용 7% 절감 | [cursor.com](https://cursor.com/changelog) |
+| 2026/09/27 | **Copilot 통합 경험 D-1** — 9/28 Chat/Mobile/클라우드 에이전트 합병 내일 출시; 선불 좌석 10/1 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/27 | **OpenAI DevDay D-2** — 9/29 Fort Mason SF; "o" 상시 에이전트, GPT-6 Cyber 보안 모델, Pro Max $500/월 발표 유력 | [devday.openai.com](https://devday.openai.com/) |
 | 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩), Luna $0.10/$0.50/MTok(대량 경량 작업); 1.05M 컨텍스트; 캐시 90% 할인; GPT-5.6 대비 API 비용 절반; Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 지원 추가; 관리형 Connector 동의 진행률 복사 가능 URL 표시 | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/09/22 | **Anthropic 5시간 사용 제한 폐지** — Pro·Max·Team·좌석제 Enterprise 구독자의 5시간 세션 제한 제거; 속도 제한 리셋 기능 추가 | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |

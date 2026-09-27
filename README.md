@@ -1469,6 +1469,12 @@ timeline
          : Copilot unified experience D-2 — Sep 28 merge of Chat/Mobile/cloud agent imminent (Sep 26)
          : OpenAI DevDay D-3 — Pro Max $500/mo expected, Cerebras ultra-fast inference demo (Sep 26)
          : Gemini CLI shutdown Day 101 — consumer access closed (Sep 26)
+         : Claude Code v2.1.283 — AGENTS.md support, fullscreen mouse, MCP controls, VS Code session archiving (Sep 27)
+         : Claude Code /buddy removal backlash — Issue #45596, 270 comments, 1,184 upvotes (Sep 27)
+         : Cursor drops to 37 — 39th consecutive day of decline, OpenAI shutoff D-46 (Sep 27)
+         : Copilot unified experience D-1 — Sep 28 Chat/Mobile/cloud agent merge tomorrow (Sep 27)
+         : OpenAI DevDay D-2 — "o" agent, GPT-6 Cyber preview, Pro Max $500/mo (Sep 27)
+         : Gemini CLI shutdown Day 102 — consumer access closed (Sep 27)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3164,6 +3170,11 @@ All pricing information has been directly verified from each service's official 
 | 2026/09/26 | **Cursor drops to 39** — 38th consecutive day of decline; OpenAI shutoff D-47 | [cursor.com](https://cursor.com) |
 | 2026/09/26 | **Copilot unified experience D-2** — Sep 28 merge of Chat/Mobile/cloud agent imminent; prepaid seats Oct 1 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/26 | **OpenAI DevDay D-3** — Sep 29 at Fort Mason SF; Pro Max $500/mo expected; Cerebras ultra-fast inference demo anticipated | [devday.openai.com](https://devday.openai.com/) |
+| 2026/09/27 | **Claude Code v2.1.283** — AGENTS.md project instructions fallback, fullscreen mouse support, stronger MCP controls, VS Code session archiving, Opus 5.5 default | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
+| 2026/09/27 | **Claude Code /buddy removal backlash** — Issue #45596 draws 270 comments and 1,184 upvotes; one of the most heated discussions in project history | [github.com](https://github.com/anthropics/claude-code/issues/45596) |
+| 2026/09/27 | **Cursor drops to 37** — 39th consecutive day of decline; OpenAI shutoff D-46; agent harness token cost cut 7% | [cursor.com](https://cursor.com/changelog) |
+| 2026/09/27 | **Copilot unified experience D-1** — Sep 28 merge of Chat/Mobile/cloud agent launching tomorrow; prepaid seats Oct 1 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/27 | **OpenAI DevDay D-2** — Sep 29 at Fort Mason SF; "o" always-on agent, GPT-6 Cyber security model, Pro Max $500/mo expected | [devday.openai.com](https://devday.openai.com/) |
 | 2026/09/22 | **GPT-6 Sol and Luna launched** — Sol $2/$10/MTok (balanced interactive/agentic coding), Luna $0.10/$0.50/MTok (high-volume lightweight tasks); both 1.05M context; 90% cache discount; API costs halved vs GPT-5.6; released 89 minutes after Opus 5.5 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 support added; managed Connector consent progress with copyable authorization URL | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/09/22 | **Anthropic removes 5-hour usage caps** — Pro, Max, Team, and seat-based Enterprise subscribers no longer have 5-hour session caps; rate-limit reset feature added | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |

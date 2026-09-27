@@ -29,6 +29,10 @@ Claude Code holds the #1 spot in LogRocket's AI dev tool rankings, with Fable 5.
 
 Cursor fell to 37, marking its 39th consecutive day of decline. Since the SpaceX acquisition closed on August 14, Cursor has shed 62 points from its 99 peak, with OpenAI model access termination (Nov 12) now D-46 away ([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). Agent harness optimizations cut token costs by 7% ([Cursor Changelog](https://cursor.com/changelog)), but the exodus shows no sign of reversing.
 
+## Codex CLI: v0.157.0 Stable Release Adds Conversation Forking
+
+Codex CLI shipped v0.157.0 stable on Sep 25 ([GitHub](https://github.com/openai/codex/releases)). Key additions include GPT-6 Sol/Luna Amazon Bedrock support, fullscreen transcripts enabled by default, and automatic background-server startup for eligible sessions. The standout feature is conversation forking (f shortcut), which lets developers clone an active conversation from another app and continue it seamlessly. A Windows stability patch (v0.157.1) followed on Sep 26.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |

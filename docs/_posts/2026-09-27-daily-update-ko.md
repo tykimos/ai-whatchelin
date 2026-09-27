@@ -29,6 +29,10 @@ Claude Code가 LogRocket AI 개발 도구 랭킹에서 1위를 유지하며 Fabl
 
 Cursor가 37점을 기록하며 39일 연속 하락세를 이어가고 있다. SpaceX 인수(8/14) 이후 99에서 62점이 빠졌으며, OpenAI 모델 접근 종료(11/12)까지 D-46이다([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). 에이전트 하네스 최적화로 토큰 비용 7%를 절감했지만([Cursor Changelog](https://cursor.com/changelog)), 하락 반전 조짐은 보이지 않는다.
 
+## Codex CLI: v0.157.0 안정 릴리스, 대화 포킹 도입
+
+Codex CLI가 v0.157.0 안정 빌드를 9/25 출시했다([GitHub](https://github.com/openai/codex/releases)). GPT-6 Sol/Luna의 Amazon Bedrock 지원, 풀스크린 트랜스크립트 기본 활성화, 자동 백그라운드 서버 시작이 핵심 기능이다. 특히 대화 포킹(f 단축키)으로 다른 앱에서 열린 대화를 그대로 복사해 이어갈 수 있게 됐다. 9/26에는 Windows 안정성 패치(v0.157.1)가 뒤따랐다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |

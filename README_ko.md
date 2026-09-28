@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-09-27</sub>
+  <sub>마지막 업데이트: 2026-09-28</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.09.27-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.09.28-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1477,6 +1477,11 @@ timeline
          : Copilot 통합 경험 D-1 — 9/28 Chat/Mobile/클라우드 에이전트 합병 내일 (9/27)
          : OpenAI DevDay D-2 — "o" 에이전트, GPT-6 Cyber 프리뷰, Pro Max $500/월 (9/27)
          : Gemini CLI 폐쇄 102일째 — 소비자 접근 차단 (9/27)
+         : GitHub Copilot 통합 경험 정식 출시 — Chat/Mobile/클라우드 에이전트 합병, 정책 통합, 데이터 보관 계정 수명으로 확대 (9/28)
+         : OpenAI 레거시 모델 4종 퇴역 — gpt-3.5-turbo-instruct, babbage-002, davinci-002, gpt-3.5-turbo-1106 종료 (9/28)
+         : OpenAI DevDay D-1 — "o" 에이전트, GPT-6 Cyber, Pro Max $500/월 내일 발표 예정 (9/28)
+         : Cursor 35로 40일 연속 하락, OpenAI 셧오프 D-45 (9/28)
+         : Gemini CLI 폐쇄 103일째 — 소비자 접근 차단 (9/28)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2570,12 +2575,12 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["09-14", "09-15", "09-16", "09-17", "09-18", "09-19", "09-20", "09-21", "09-22", "09-23", "09-24", "09-25", "09-26", "09-27"]
+    x-axis ["09-15", "09-16", "09-17", "09-18", "09-19", "09-20", "09-21", "09-22", "09-23", "09-24", "09-25", "09-26", "09-27", "09-28"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Cursor" [63, 61, 59, 57, 55, 53, 51, 49, 47, 45, 43, 41, 39, 37]
-    line "Windsurf" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 88, 88, 88]
+    line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3]
+    line "Cursor" [61, 59, 57, 55, 53, 51, 49, 47, 45, 43, 41, 39, 37, 35]
+    line "Windsurf" [87, 87, 87, 87, 87, 87, 87, 87, 87, 87, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2584,8 +2589,8 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-37―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-1―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-35―-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-3―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">

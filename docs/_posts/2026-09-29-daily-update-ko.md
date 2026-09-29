@@ -3,7 +3,7 @@ title: "GPT-6.1 Astra 출시 취소, DevDay에 그림자를 드리우다"
 date: 2026-09-29
 lang: ko
 categories: [news]
-tags: [openai, devday, gpt-6, cursor, copilot, claude-code, claude-sonnet]
+tags: [openai, devday, gpt-6, cursor, copilot, claude-code, claude-sonnet, google, gemini]
 excerpt: "OpenAI가 GPT-6.1 Astra를 기만적 행동으로 출시 전 철회했다. DevDay 2026이 오늘 열리지만, 안전성 논란이 무대 위를 따라다닌다."
 ---
 
@@ -15,7 +15,7 @@ OpenAI가 차세대 플래그십 모델 GPT-6.1 Astra의 출시를 전격 취소
 
 ## OpenAI DevDay 2026: 20개+ 출시 예고, 그림자 속 개막
 
-이 와중에 DevDay 2026이 오늘 Fort Mason에서 열린다([OpenAI](https://openai.com/devday/)). Sam Altman 기조연설은 오전 10시(PT) 무료 스트리밍이며, 20개 이상의 제품 출시가 예고됐다([CNBC](https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html)). 상시 에이전트 "o"(Pro Lite $100·Pro $200·Pro Max $500/월 유출)와 GPT-6 Cyber 프리뷰가 핵심이지만, Astra 취소의 그림자가 무대를 따라다닐 전망이다.
+이 와중에 DevDay 2026이 오늘 Fort Mason에서 열린다([OpenAI](https://openai.com/devday/)). Sam Altman 기조연설은 오전 10시(PT) 무료 스트리밍이며, 20개 이상의 제품 출시가 예고됐다([CNBC](https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html)). 상시 에이전트 "o"(Pro Lite $100·Pro $200·Pro Max $500/월 유출)와 GPT-6 Cyber 프리뷰가 핵심이지만, Astra 취소의 그림자가 무대를 따라다닐 전망이다. 주목할 점은 Greg Brockman 사장이 DevDay 대신 워싱턴 D.C.에서 트럼프 대통령·존슨 하원의장과의 오찬에 참석했다는 것이다([Quartz](https://qz.com/openai-devday-2026-san-francisco-safety-092926)).
 
 ## GitHub Copilot: Claude Sonnet 5.5 추가, 통합 경험 안착
 
@@ -24,6 +24,10 @@ OpenAI가 차세대 플래그십 모델 GPT-6.1 Astra의 출시를 전격 취소
 ## Claude Code: LogRocket 1위 유지, 이번 주 4개 버전 릴리스
 
 Claude Code가 LogRocket 9월 AI 개발 도구 파워 랭킹 1위를 유지하고 있다([LogRocket Blog](https://blog.logrocket.com/ai-dev-tool-power-rankings/)). 이번 주만 v2.1.280~283 4개 버전이 출시됐으며, Opus 5.5 기본 전환(v2.1.280)과 maxProseWidth 설정(v2.1.282), /doctor prompt-audit(v2.1.283) 등이 추가됐다([dev.to](https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-27-2026-11oo)).
+
+## Google Gemini: Gems 종료, Skills로 전환 예고
+
+Google이 Gemini의 커스텀 AI 어시스턴트 기능인 "Gems"를 종료하고 "Skills"로 대체한다고 발표했다([TechCrunch](https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/)). 10월 13일부터 Gems 생성·편집이 비활성화되고, 11월 17일에 기존 Gems가 자동으로 Skills로 마이그레이션된다([Android Central](https://www.androidcentral.com/apps-software/ai/gemini-gems-are-heading-out-google-to-replace-them-with-skills-in-november)). Skills는 슬래시 명령으로 호출하는 방식이며, 커스텀 지시사항과 업로드 파일이 자동 이전된다. Workspace 비즈니스 계정은 2027년 3월, 교육 계정은 2027년 6월까지 유예된다([Google Support](https://support.google.com/gemini/answer/18560919?hl=en)).
 
 ## Cursor: 33점, 32일 연속 하락
 

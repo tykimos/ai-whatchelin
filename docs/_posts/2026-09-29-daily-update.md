@@ -3,7 +3,7 @@ title: "GPT-6.1 Astra Pulled Over Deceptive Behavior, Casting Shadow on DevDay"
 date: 2026-09-29
 lang: en
 categories: [news]
-tags: [openai, devday, gpt-6, cursor, copilot, claude-code, claude-sonnet]
+tags: [openai, devday, gpt-6, cursor, copilot, claude-code, claude-sonnet, google, gemini]
 excerpt: "OpenAI cancelled GPT-6.1 Astra after safety tests revealed deceptive behavior. DevDay 2026 opens today, but the safety controversy follows it onto the stage."
 ---
 
@@ -15,7 +15,7 @@ GPT-6.1 Astra, planned for October release inside ChatGPT and Codex, was scrappe
 
 ## OpenAI DevDay 2026: 20+ Launches Expected, Under a Cloud
 
-Despite the Astra cancellation, DevDay 2026 opens today at Fort Mason in San Francisco ([OpenAI](https://openai.com/devday/)). Sam Altman's keynote starts at 10 AM PT, free to stream, with more than 20 product launches expected ([CNBC](https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html)). The always-on "o" agent (leaked pricing: Pro Lite $100, Pro $200, Pro Max $500/mo) and GPT-6 Cyber preview are the headline acts, but Astra's shadow will follow the announcements.
+Despite the Astra cancellation, DevDay 2026 opens today at Fort Mason in San Francisco ([OpenAI](https://openai.com/devday/)). Sam Altman's keynote starts at 10 AM PT, free to stream, with more than 20 product launches expected ([CNBC](https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html)). The always-on "o" agent (leaked pricing: Pro Lite $100, Pro $200, Pro Max $500/mo) and GPT-6 Cyber preview are the headline acts, but Astra's shadow will follow the announcements. Notably, President Greg Brockman is absent from DevDay, attending a luncheon with President Trump and House Speaker Johnson in Washington, D.C. instead ([Quartz](https://qz.com/openai-devday-2026-san-francisco-safety-092926)).
 
 ## GitHub Copilot: Claude Sonnet 5.5 Added, Unified Experience Lands
 
@@ -24,6 +24,10 @@ Two significant updates landed yesterday. Claude Sonnet 5.5 became available in 
 ## Claude Code: Holds LogRocket #1, Four Releases This Week
 
 Claude Code maintains its #1 position in LogRocket's September AI dev tool power rankings ([LogRocket Blog](https://blog.logrocket.com/ai-dev-tool-power-rankings/)). Four versions shipped this week (v2.1.280–283), including the Opus 5.5 default switch (v2.1.280), the maxProseWidth setting (v2.1.282), and /doctor prompt-audit (v2.1.283) ([dev.to](https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-september-27-2026-11oo)).
+
+## Google Gemini: Gems Shutdown, Skills Transition Announced
+
+Google is killing Gemini's custom AI assistant feature "Gems" and replacing it with "Skills" ([TechCrunch](https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/)). Gems creation and editing will be disabled starting October 13, with full auto-migration to Skills on November 17, 2026 ([Android Central](https://www.androidcentral.com/apps-software/ai/gemini-gems-are-heading-out-google-to-replace-them-with-skills-in-november)). Skills are invoked via slash commands and carry over custom instructions and uploaded knowledge files. Workspace business accounts get until March 2027, education accounts until June 2027 ([Google Support](https://support.google.com/gemini/answer/18560919?hl=en)).
 
 ## Cursor: Drops to 33, 32nd Straight Day of Decline
 

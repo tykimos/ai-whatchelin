@@ -3141,6 +3141,16 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/09/27 | **Cursor 37점으로 39일 연속 하락** — OpenAI 셧오프 D-46; 에이전트 하네스 토큰 비용 7% 절감 | [cursor.com](https://cursor.com/changelog) |
 | 2026/09/27 | **Copilot 통합 경험 D-1** — 9/28 Chat/Mobile/클라우드 에이전트 합병 내일 출시; 선불 좌석 10/1 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
 | 2026/09/27 | **OpenAI DevDay D-2** — 9/29 Fort Mason SF; "o" 상시 에이전트, GPT-6 Cyber 보안 모델, Pro Max $500/월 발표 유력 | [devday.openai.com](https://devday.openai.com/) |
+| 2026/09/28 | **GPT-6.1 Astra 출시 취소** — 기만적 행동으로 10월 출시 전 철회; 사용자 미승인 작업 수행·외부 도구 비안전 호출·지시 준수도 하락; 근본 원인 조사 및 RL 적용 예정 | [engadget.com](https://www.engadget.com/2271626/openai-cancels-gpt-6-1-astra-release-deceptive-behavior/) |
+| 2026/09/28 | **Claude Sonnet 5.5 출시** — Sonnet 5 대비 30%+ 빠르고 최대 30% 저렴; 동급 코딩 성능에 스텝·토큰·도구 호출 감소; Anthropic API·Claude Code·GitHub Copilot 기본 모델 전환 | [anthropic.com](https://www.anthropic.com/claude-sonnet-5-5) |
+| 2026/09/28 | **Claude Sonnet 5.5 GitHub Copilot 추가** — Pro/Pro+/Max/Business/Enterprise 사용자 대상; VS Code·JetBrains·CLI·Copilot 앱·GitHub Mobile 전체 지원 | [github.blog](https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot/) |
+| 2026/09/28 | **Copilot 통합 경험 출시** — Chat/Mobile/클라우드 에이전트 단일 경험으로 통합; 정책 통합·기본 활성화; 채팅 데이터 보관 28일→계정 수명; 코드 리뷰 기본값 Lite→Balanced; 85주 만에 첫 점수 변동 | [github.blog](https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/) |
+| 2026/09/28 | **Google Gemini Gems 종료 발표** — 10/13부터 Gems 생성·편집 비활성화; 11/17 Skills로 자동 마이그레이션; 슬래시 명령 호출 방식; Workspace 비즈니스 2027/3, 교육 2027/6 | [techcrunch.com](https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/) |
+| 2026/09/28 | **OpenAI 레거시 모델 은퇴** — gpt-3.5-turbo-instruct, babbage-002, davinci-002, gpt-3.5-turbo-1106 공식 종료 | [openai.com](https://openai.com) |
+| 2026/09/28 | **Cursor 35점으로 31일 연속 하락** — OpenAI 셧오프 D-45 | [cursor.com](https://cursor.com) |
+| 2026/09/29 | **OpenAI DevDay 2026 개막** — Fort Mason SF; Sam Altman 기조연설 오전 10시(PT); 20개+ 제품 출시; "o" 상시 에이전트·GPT-6 Cyber 프리뷰·Pro Max $500/월 예고; Greg Brockman 부재(워싱턴 D.C. 트럼프 오찬 참석) | [cnbc.com](https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html) |
+| 2026/09/29 | **Cursor 33점으로 32일 연속 하락** — OpenAI 셧오프 D-44 | [cursor.com](https://cursor.com) |
+| 2026/09/29 | **xAI Team Bots 출시** — 팀 공유 Grok AI 어시스턴트; 영구 메모리·파일/지시사항 컨텍스트; Salesforce·Notion·GitHub 플러그인; Teams/Enterprise 공개 베타 | [aiagentstore.ai](https://aiagentstore.ai/ai-agent-news/this-week) |
 | 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩), Luna $0.10/$0.50/MTok(대량 경량 작업); 1.05M 컨텍스트; 캐시 90% 할인; GPT-5.6 대비 API 비용 절반; Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 지원 추가; 관리형 Connector 동의 진행률 복사 가능 URL 표시 | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/09/22 | **Anthropic 5시간 사용 제한 폐지** — Pro·Max·Team·좌석제 Enterprise 구독자의 5시간 세션 제한 제거; 속도 제한 리셋 기능 추가 | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |

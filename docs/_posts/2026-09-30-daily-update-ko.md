@@ -1,41 +1,41 @@
 ---
-title: "Claude 전면 장애 2시간, DevDay 후폭풍 속 Sonnet 5.5 기본 전환"
+title: "OpenAI Dots 라이브 데모 무대 위에서 멈춤 — 오디오 차단 논란까지"
 date: 2026-09-30
 lang: ko
 categories: [news]
-tags: [claude, anthropic, openai, devday, dots, cursor, codex-cli, gemini-cli, github-copilot]
-excerpt: "DevDay 열기가 채 식기도 전에 Claude가 2시간 전면 장애를 겪었다. 그 와중에도 Anthropic은 Sonnet 5.5를 기본 모델로 밀어넣었고, OpenAI는 Codex 클라우드 환경을 공개했다."
+tags: [openai, dots, devday, spacexai, cursor, grok, claude-code, codex-cli, github-copilot]
+excerpt: "DevDay 2026 라이브 데모에서 Dots가 무대 위에서 응답을 멈췄고, 공식 스트림 오디오가 정확히 그 순간 잘렸다. 한편 Bloomberg은 SpaceXAI의 Grok-X 4단계 요금제를 보도했고, Claude Code는 v2.1.285를 출시했다."
 ---
 
-DevDay 2026의 여진이 아직 가시지 않은 9월 29일, Anthropic의 전 서비스가 약 2시간 동안 먹통이 됐다. Downdetector에 18,000건 이상의 보고가 쏟아졌고, claude.ai부터 Claude Code, API, 로그인 시스템까지 전부 다운됐다([TechRadar](https://www.techradar.com/news/live/claude-down-september-29-2026)). SSO와 Apple 로그인이 불가했고, 장애 중 전송된 메시지 일부가 저장되지 않았을 가능성도 있다([Unite.AI](https://www.unite.ai/anthropic-reports-service-disruption-across-claude-ai-code-cowork-and-api/)). 14:36 UTC에 완화됐지만, OpenAI가 20개 이상의 신제품을 쏟아낸 바로 그 날에 터진 장애라 타이밍이 뼈아프다.
+DevDay 2026의 열기가 채 식기도 전에 OpenAI에 민망한 순간이 찾아왔다. 9월 30일 라이브 스트림에서 발표자 Holly Li가 Dots에 사용자 테스트 데이터를 요청하자 에이전트가 응답을 멈췄고, Romain Huet가 음성으로 Dots를 지시하려 하자 "음성 채팅을 시작할 수 없습니다"라는 메시지가 메인 스크린에 떴다([SoapCentral](https://www.soapcentral.com/entertainment/openai-live-demonstration-dots-allegedly-fails-voice-feature-faces-technical-glitch)). 더 논란이 된 것은 공식 스트림 오디오가 데모 실패 시점에 정확히 잘린 뒤 복구됐다는 점이다 — X 사용자 @ns123abc가 자신의 현장 녹화와 공식 스트림을 비교한 영상을 올리며 의도적 차단이라고 주장했고, OpenAI는 아직 해명하지 않았다([AGTP/X](https://x.com/AGTPinsights/status/2105171668725608906)). OpenAI의 Thibault Sottiaux는 "모든 업데이트를 동시에 배포한 탓"이라고만 인정했다([HuggingNews](https://huggingnews.com/ai/update-openai-blames-dots-demo-failures-on-simultaneous-updates-53c443c1)).
 
-## Claude Code: Sonnet 5.5 기본 전환 + 정상 종료
+## SpaceXAI: Bloomberg, Grok-X 4단계 요금제 보도
 
-장애 하루 전인 9월 28일, Anthropic은 Claude Code v2.1.284에서 기본 모델을 Sonnet 5.5로 전환했다([Claude Code Changelog](https://code.claude.com/docs/en/changelog)). 1M 컨텍스트 윈도우에 Sonnet 5 대비 30%+ 빠른 출력, 더 적은 스텝·토큰·도구 호출로 동일한 코딩 결과를 달성한다([SiliconANGLE](https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/)). 5시간 세션 제한에 도달하면 주간 한도에서 소량을 끌어와 진행 중인 작업을 정리하는 '정상 종료' 기능도 추가됐다.
+Bloomberg이 SpaceXAI의 Grok와 X 구독 통합 계획을 보도했다([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-30/musk-s-spacexai-considers-overhaul-of-pricing-for-grok-x-users)). 무료(사용량 제한), $8 Lite(Grok + 인증 + 광고 감소), 미공개 중간 티어, $100 Ultra(Grok Bot 에이전트 포함) 4단계 구조다. SpaceXAI는 9월 14일 Grok과 Cursor 구독 모델 통합을 예고한 바 있어([TheNextWeb](https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite)), Cursor의 미래 요금 체계가 이 구조에 흡수될 가능성이 높아졌다.
 
-## Codex CLI: 재사용 가능 클라우드 환경 + v0.159.0
+## Claude Code: v2.1.285 — 데스크톱·플러그인·MCP 확장
 
-DevDay에서 가장 실용적인 발표 중 하나는 Codex의 재사용 가능 클라우드 환경이다([TechCrunch](https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/)). GitHub 레포를 연결하면 의존성을 자동 감지하고 설치 스크립트를 작성하며, 각 작업마다 별도 VM을 제공한다 — 개발자 PC를 꺼도 계속 돌아간다. 오늘 v0.159.0도 출시됐는데, 응답 중간에 입력으로 방향을 틀 수 있는 '즉시 인터럽트' 기능이 옵트인으로 추가됐다([Gradually.ai](https://www.gradually.ai/en/changelogs/codex-cli/)).
+Anthropic이 Claude Code v2.1.285를 출시했다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). 새 데스크톱, 플러그인, MCP, 환경 제어 기능이 추가됐고, VSCode와 웹 경험이 개선됐다. 모델·태스크·아티팩트 워크플로우가 강화됐으며, 세션·권한·원격 제어·플랫폼 관련 다수 버그가 수정됐다. 전날 장애에도 불구하고 현재 모든 Claude 시스템은 정상 운영 중이다([Benzinga](https://www.benzinga.com/markets/tech/26/09/62056363/claude-back-online-after-widespread-outage-hits-anthropics-ai-chatbot)).
 
-## Gemini CLI v0.62.0: 유지보수 릴리스
+## Codex CLI: v0.159.2 — Windows 수정 + 풀스크린 UI
 
-Gemini CLI가 v0.62.0을 출시하며 Gemini 3.8 Flash와 3.5 Flash Lite 모델 지원을 추가했다([Releasebot](https://releasebot.io/updates/google/gemini-cli)). 인증, PTY/터미널 처리, UI 레이아웃 수정 등 유지보수 중심이다. Antigravity CLI로의 전환이 진행 중인 가운데, 레거시 유지보수는 계속되고 있다.
+Codex CLI가 v0.159.2를 출시해 Windows에서 백그라운드 프로세스 실행 시 콘솔 창이 깜빡이는 문제를 수정했다([GIGAZINE](https://gigazine.net/gsc_news/en/20260930-openai-codex-cli-cloud/)). DevDay에서 공개된 풀스크린 인터페이스, /voice 음성 지시, /usage 분석, 테마 지원, 접이식 diff 등이 v0.159.0에서 정식 탑재된 상태다.
 
-## Cursor: 31점, 34일 연속 하락
+## GitHub Copilot: GPT-6.1 Sol + Sonnet 5.5 모델 추가
 
-Cursor가 31점을 기록하며 34일 연속 하락했다. OpenAI 모델 접근 종료(11/12)까지 D-43이다. SpaceX 인수 후 인력 유출과 xAI 통합 과정의 혼란이 이어지고 있다.
+GitHub Copilot에 GPT-6.1 Sol과 Claude Sonnet 5.5 모델이 추가됐다([GitHub Changelog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/)). 효율성·균형·지능 3단계 자동 모델 선택 기능과 Jira 통합, Project HydraFusion 적응형 모델 오케스트레이션이 함께 출시됐다. 느리지만 꾸준한 회복세다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 99 | — | DevDay 후속 보도, Dots 안전성 논의 지속 |
-| Claude Code | 99 | — | Sonnet 5.5 기본 전환, 장애 후 빠른 복구 |
-| Codex CLI | 99 | — | 클라우드 환경 + v0.159.0, DevDay 모멘텀 |
+| ChatGPT | 99 | — | Dots 데모 실패에도 DevDay 모멘텀 유지 |
+| Claude Code | 99 | — | v2.1.285, 장애 완전 복구 |
+| Codex CLI | 99 | — | v0.159.2, 클라우드 환경 출시 |
 | Antigravity | 99 | — | 30주 연속 최고점 |
-| Claude AI | 99 | — | Sonnet 5.5 출시, 장애에도 점수 유지 |
+| Claude AI | 99 | — | Sonnet 5.5 기본 전환 완료 |
 | Windsurf | 88 | — | Devin Desktop 안정세 |
-| Aider | 68 | — | v0.86.0 유지보수 릴리스 |
-| Cursor | 31 | ↓2 | 34일 연속 하락, D-43 |
-| GH Copilot | 7 | ↑2 | Sonnet 5.5 추가, 느린 회복 |
+| Aider | 68 | — | 사실상 개발 중단 |
+| Cursor | 31 | ↓2 | 34일 연속 하락, Grok-X 통합 임박 |
+| GH Copilot | 7 | ↑2 | GPT-6.1 Sol + Sonnet 5.5 추가 |
 | Gemini CLI | 1 | — | 폐쇄 105일째 |

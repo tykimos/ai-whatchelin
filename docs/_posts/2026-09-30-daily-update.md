@@ -1,41 +1,41 @@
 ---
-title: "Claude Goes Down for 2 Hours as DevDay Dust Settles and Sonnet 5.5 Takes Over"
+title: "OpenAI's Dots Demo Freezes on Live Stage — Audio Cutout Sparks Controversy"
 date: 2026-09-30
 lang: en
 categories: [news]
-tags: [claude, anthropic, openai, devday, dots, cursor, codex-cli, gemini-cli, github-copilot]
-excerpt: "On the same day OpenAI unveiled 20+ products at DevDay, Claude suffered a full 2-hour outage across all services. Meanwhile, Anthropic quietly made Sonnet 5.5 the default and OpenAI shipped reusable cloud environments for Codex."
+tags: [openai, dots, devday, spacexai, cursor, grok, claude-code, codex-cli, github-copilot]
+excerpt: "Dots stopped responding during the DevDay 2026 live demo and the official stream's audio cut out at that exact moment. Meanwhile, Bloomberg reports SpaceXAI's four-tier Grok-X pricing plan, and Claude Code ships v2.1.285."
 ---
 
-The timing couldn't have been worse. On September 29, the same day OpenAI flooded the zone with 20+ DevDay announcements, Anthropic's entire service stack went dark for roughly two hours. Over 18,000 reports hit Downdetector — versus a baseline of about 10 — as claude.ai, Claude Code, Claude Cowork, the API, Console, and sign-in systems all dropped simultaneously around 10 AM ET ([TechRadar](https://www.techradar.com/news/live/claude-down-september-29-2026)). SSO and Sign in with Apple were unavailable, and some messages sent during the window may not have been saved ([Unite.AI](https://www.unite.ai/anthropic-reports-service-disruption-across-claude-ai-code-cowork-and-api/)). Service was mitigated by 14:36 UTC ([9to5Google](https://9to5google.com/2026/09/29/claude-confirmed-outage-sept-29/)).
+The afterglow of DevDay 2026 hit an awkward note today. During the September 30 live stream, presenter Holly Li asked Dots for user testing data and the agent went silent. When Romain Huet tried directing Dots by voice, the main screen showed "voice chat couldn't start" ([SoapCentral](https://www.soapcentral.com/entertainment/openai-live-demonstration-dots-allegedly-fails-voice-feature-faces-technical-glitch)). What made it worse: the official stream's audio cut out at exactly that moment and came back after. X user @ns123abc posted side-by-side recordings of the muted official stream versus his own phone capture, calling the cut deliberate — OpenAI has not responded ([AGTP/X](https://x.com/AGTPinsights/status/2105171668725608906)). OpenAI's Thibault Sottiaux blamed "rolling out all the updates at the same time" ([HuggingNews](https://huggingnews.com/ai/update-openai-blames-dots-demo-failures-on-simultaneous-updates-53c443c1)).
 
-## Claude Code: Sonnet 5.5 Becomes the Default + Graceful Shutdown
+## SpaceXAI: Bloomberg Reports Four-Tier Grok-X Pricing
 
-One day before the outage, Anthropic shipped Claude Code v2.1.284 with Sonnet 5.5 as the new default model ([Claude Code Changelog](https://code.claude.com/docs/en/changelog)). With a 1M context window, Sonnet 5.5 is 30%+ faster than Sonnet 5 and achieves the same coding results with fewer steps, tokens, and tool calls ([SiliconANGLE](https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/)). A new graceful shutdown feature pulls a small allowance from the weekly limit to let in-progress work wrap up cleanly when hitting the 5-hour session cap.
+Bloomberg broke that SpaceXAI is planning to unify Grok and X subscriptions into four tiers: free with strict limits, $8 Lite with verification and fewer ads, an undisclosed middle tier, and $100 Ultra with Grok Bot agent access ([Bloomberg](https://www.bloomberg.com/news/articles/2026-09-30/musk-s-spacexai-considers-overhaul-of-pricing-for-grok-x-users)). SpaceXAI announced on September 14 that Grok and Cursor subscriptions would merge ([TheNextWeb](https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite)), making it increasingly likely that Cursor's pricing will be absorbed into this structure.
 
-## Codex CLI: Reusable Cloud Environments + v0.159.0
+## Claude Code: v2.1.285 — Desktop, Plugin, and MCP Expansion
 
-The most practical DevDay announcement may be Codex's reusable cloud environments ([TechCrunch](https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/)). Connect a GitHub repo, and Codex auto-detects dependencies and drafts install scripts. Each task gets its own VM that keeps running while your laptop sleeps. Today's v0.159.0 release adds opt-in instant interrupt — new input can steer Codex mid-response or during long-running code-mode calls ([Gradually.ai](https://www.gradually.ai/en/changelogs/codex-cli/)).
+Anthropic shipped Claude Code v2.1.285 with new desktop, plugin, MCP, and environment controls, plus improved VSCode and web experiences ([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Model, task, and artifact workflows were strengthened, with many session, permissions, remote control, and platform fixes. All Claude systems are fully operational following yesterday's outage ([Benzinga](https://www.benzinga.com/markets/tech/26/09/62056363/claude-back-online-after-widespread-outage-hits-anthropics-ai-chatbot)).
 
-## Gemini CLI v0.62.0: Maintenance Release
+## Codex CLI: v0.159.2 — Windows Fix + Full-Screen UI
 
-Gemini CLI shipped v0.62.0 with Gemini 3.8 Flash and 3.5 Flash Lite model support, plus auth, PTY/terminal handling, and UI layout fixes ([Releasebot](https://releasebot.io/updates/google/gemini-cli)). As the transition to Antigravity CLI continues, legacy maintenance carries on.
+Codex CLI shipped v0.159.2 fixing Windows console window flashing during background process launches ([GIGAZINE](https://gigazine.net/gsc_news/en/20260930-openai-codex-cli-cloud/)). The full-screen interface, /voice commands, /usage analytics, theme support, and collapsible diffs announced at DevDay are all live as of v0.159.0.
 
-## Cursor: 31, Day 34 of the Slide
+## GitHub Copilot: GPT-6.1 Sol + Sonnet 5.5 Models Added
 
-Cursor dropped to 31, marking 34 consecutive days of decline. The OpenAI model termination (Nov 12) is now D-43 away. Staff exodus and the SpaceX/xAI integration grind continue.
+GitHub Copilot now offers GPT-6.1 Sol and Claude Sonnet 5.5 as selectable models ([GitHub Changelog](https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14/)). New features include three-tier auto model selection (efficiency, balance, intelligence), Jira integration, and Project HydraFusion adaptive model orchestration. A slow but steady recovery.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | Post-DevDay coverage wave, Dots safety debate |
-| Claude Code | 99 | — | Sonnet 5.5 default, rapid recovery from outage |
-| Codex CLI | 99 | — | Cloud environments + v0.159.0, DevDay momentum |
+| ChatGPT | 99 | — | Dots demo failed but DevDay momentum holds |
+| Claude Code | 99 | — | v2.1.285, full recovery from outage |
+| Codex CLI | 99 | — | v0.159.2, cloud environments launched |
 | Antigravity | 99 | — | 30-week high streak |
-| Claude AI | 99 | — | Sonnet 5.5 launched, score held despite outage |
+| Claude AI | 99 | — | Sonnet 5.5 default transition complete |
 | Windsurf | 88 | — | Stable as Devin Desktop |
-| Aider | 68 | — | v0.86.0 maintenance release |
-| Cursor | 31 | ↓2 | 34th straight decline, D-43 |
-| GH Copilot | 7 | ↑2 | Sonnet 5.5 added, slow recovery |
+| Aider | 68 | — | Effectively dormant |
+| Cursor | 31 | ↓2 | 34th straight decline, Grok-X merge looming |
+| GH Copilot | 7 | ↑2 | GPT-6.1 Sol + Sonnet 5.5 added |
 | Gemini CLI | 1 | — | Shutdown day 105 |

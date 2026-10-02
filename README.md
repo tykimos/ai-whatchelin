@@ -1505,6 +1505,8 @@ timeline
          : Copilot default feature policy — Oct 22 global default takes effect for unconfigured features (Oct 2)
          : Codex CLI v0.160.0 — agent command center history, projectless sessions, X11 middle-click paste (Oct 2)
          : Cursor drops to 27 — 36th consecutive day of decline, OpenAI shutoff D-41 (Oct 2)
+         : Earendil Pi 1.0 — open-source coding agent GA, MCP reversal, 15+ providers, Pi Durable for long-running tasks (Oct 2)
+         : Apple tightens macOS Full Disk Access for AI agents — new consent controls (Oct 2)
          : Gemini CLI shutdown Day 107 — consumer access closed (Oct 2)
 ```
 
@@ -3243,6 +3245,8 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/02 | **GitHub Copilot Oct 2 deprecation wave** — Gemini 3.5 Flash, Gemini 3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7 removed; replacements: Gemini 3.8 Flash, Kimi K3, Claude Opus 5 | [github.blog](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models/) |
 | 2026/10/02 | **Copilot computer use GA** — agents can interact with desktop apps; launched Oct 1 | [github.blog](https://github.blog/changelog/) |
 | 2026/10/02 | **Copilot default feature policy Oct 22** — unconfigured GA features follow global default (enabled/disabled/org decides) | [github.blog](https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise/) |
+| 2026/10/02 | **Earendil Pi 1.0 GA** — open-source coding agent ships stable release; reverses MCP rejection, now core feature; 15+ providers (Anthropic, OpenAI, Google, etc.); deferred tool loading, virtual-model extensions; Pi Durable for long-running async tasks | [gigazine.net](https://gigazine.net/gsc_news/en/20261002-pi-1-0/) |
+| 2026/10/02 | **Apple tightens macOS Full Disk Access for AI agents** — new consent controls; warning that AI agents will amplify risks of unconsented system access | [aiweekly.co](https://aiweekly.co/ai-news-today) |
 | 2026/10/02 | **Cursor drops to 27** — 36th consecutive day of decline; OpenAI shutoff D-41 | [cursor.com](https://cursor.com) |
 | 2026/09/22 | **GPT-6 Sol and Luna launched** — Sol $2/$10/MTok (balanced interactive/agentic coding), Luna $0.10/$0.50/MTok (high-volume lightweight tasks); both 1.05M context; 90% cache discount; API costs halved vs GPT-5.6; released 89 minutes after Opus 5.5 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 support added; managed Connector consent progress with copyable authorization URL | [github.com](https://github.com/github/copilot-cli/releases) |

@@ -1505,6 +1505,8 @@ timeline
          : Copilot 기본 기능 정책 — 10/22 미구성 기능에 글로벌 기본값 적용 (10/2)
          : Codex CLI v0.160.0 — 에이전트 커맨드 센터 히스토리, 프로젝트리스 세션, X11 미들 클릭 붙여넣기 (10/2)
          : Cursor 27로 36일 연속 하락, OpenAI 셧오프 D-41 (10/2)
+         : Earendil Pi 1.0 정식 출시 — 오픈소스 코딩 에이전트, MCP 전향, 15개+ 프로바이더, Pi Durable 장시간 작업 (10/2)
+         : Apple macOS 전체 디스크 접근 AI 에이전트 보안 강화 — 새 동의 제어 (10/2)
          : Gemini CLI 폐쇄 107일째 — 소비자 접근 차단 (10/2)
 ```
 
@@ -3200,6 +3202,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/02 | **Claude for Government GA** — FedRAMP High 인증 코딩·에이전틱 작업; 거버넌스 제어·감사 로그·데스크톱 파일 지원; Claude Code CLI·Microsoft 365 얼리 액세스 | [releasebot.io](https://releasebot.io/updates/anthropic) |
 | 2026/10/02 | **Codex CLI v0.160.0** — 에이전트 커맨드 센터 히스토리 탐색; 프로젝트리스 세션(워크스페이스 기본값); X11 미들 클릭 붙여넣기; 불안정 연결 이중 전송 수정 | [releasebot.io](https://releasebot.io/updates/openai/codex) |
 | 2026/10/02 | **GitHub Copilot 10/2 모델 폐기 실행** — Gemini 3.5 Flash·Gemini 3.6 Flash·Kimi K2.7 Code·Claude Opus 4.7 제거; 대체: Gemini 3.8 Flash·Kimi K3·Claude Opus 5 | [github.blog](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models/) |
+| 2026/10/02 | **Earendil Pi 1.0 정식 출시** — 오픈소스 코딩 에이전트 안정 버전; MCP 거부에서 전향해 핵심 기능으로 탑재; 15개+ 프로바이더(Anthropic·OpenAI·Google 등); 지연 도구 로딩·가상 모델 확장; Pi Durable 장시간 비동기 작업 | [gigazine.net](https://gigazine.net/gsc_news/en/20261002-pi-1-0/) |
+| 2026/10/02 | **Apple macOS 전체 디스크 접근 AI 에이전트 보안 강화** — 새 동의 제어; AI 에이전트가 동의 없는 시스템 접근 위험을 증폭시킬 것이라 경고 | [aiweekly.co](https://aiweekly.co/ai-news-today) |
 | 2026/10/02 | **Cursor 27점으로 36일 연속 하락** — OpenAI 셧오프 D-41 | [cursor.com](https://cursor.com) |
 | 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩), Luna $0.10/$0.50/MTok(대량 경량 작업); 1.05M 컨텍스트; 캐시 90% 할인; GPT-5.6 대비 API 비용 절반; Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 지원 추가; 관리형 Connector 동의 진행률 복사 가능 URL 표시 | [github.com](https://github.com/github/copilot-cli/releases) |

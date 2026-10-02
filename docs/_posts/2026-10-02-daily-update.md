@@ -3,8 +3,8 @@ title: "Claude Code Mods Turn the Agent Into a Platform"
 date: 2026-10-02
 lang: en
 categories: [news]
-tags: [claude-code, anthropic, github-copilot, openai, codex-cli, mods]
-excerpt: "Anthropic ships TypeScript-based 'mods' that let developers rewrite Claude Code's behavior from the inside. GitHub Copilot drops 4 models today, and Codex CLI v0.160.0 lands."
+tags: [claude-code, anthropic, github-copilot, openai, codex-cli, mods, pi, apple]
+excerpt: "Anthropic ships TypeScript-based 'mods' that let developers rewrite Claude Code's behavior from the inside. Earendil's Pi 1.0 reverses course on MCP. GitHub Copilot drops 4 models, and Apple tightens macOS security for AI agents."
 ---
 
 Anthropic officially introduced mods to Claude Code — TypeScript functions that hook into the agent's internal events and let developers rewrite prompts, replace UI, add features, and intercept tool calls ([Anthropic Blog](https://claude.com/blog/claude-code-mods)). Shipping in v2.1.287, mods install via the `/plugin` command and hot-reload in the running session ([The New Stack](https://thenewstack.io/anthropic-claude-code-mods-plugins/)). The catch: mods aren't sandboxed, running with full system access — install only from trusted sources ([Nerdschalk](https://nerdschalk.com/are-claude-code-mods-sandboxed-what-they-can-access/)). Team and Enterprise plans ship a built-in `sec-default` mod that blocks risky actions by default.
@@ -20,6 +20,14 @@ OpenAI shipped Codex CLI v0.160.0 today with browsable history in the agent comm
 ## Claude for Government Goes GA
 
 Claude for Government is now generally available with FedRAMP High authorization, providing coding and agentic workflows with governance controls, audit logs, and desktop file support ([Releasebot](https://releasebot.io/updates/anthropic)). Claude Code CLI and Claude for Microsoft 365 are rolling out in early access.
+
+## Earendil Pi 1.0: The Open-Source Agent That Changed Its Mind on MCP
+
+Earendil shipped Pi 1.0, the stable release of its open-source coding agent, with a notable reversal: Pi previously rejected MCP support but now makes it a core feature ([GIGAZINE](https://gigazine.net/gsc_news/en/20261002-pi-1-0/)). The tool supports 15+ providers including Anthropic, OpenAI, and Google, and introduces deferred tool loading, virtual-model extensions, and mid-conversation system messages ([The Register](https://www.theregister.com/ai-and-ml/2026/10/02/pi-coding-agent-pulls-a-180-and-adds-mcp-support/5300678)). Alongside it, Earendil released Pi Durable for long-running asynchronous agentic tasks ([hyper.ai](https://hyper.ai/en/stories/11ad6e13661a4d8c1d359d9d40a534e5)). With hundreds of thousands of weekly users, Pi is carving out its niche in the CLI agent ecosystem.
+
+## Apple Tightens macOS Security for AI Agents
+
+Apple is adding new controls around macOS Full Disk Access, warning that some developers have been exposing users' entire systems without proper consent ([AI News Today](https://aiweekly.co/ai-news-today)). The company says risks will grow substantially as AI agents become more capable and autonomous — a direct signal to coding agent developers.
 
 ## Market Pulse
 

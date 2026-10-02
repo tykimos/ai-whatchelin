@@ -9,9 +9,9 @@ excerpt: "Anthropic이 Claude Code에 TypeScript 기반 '모드' 시스템을 �
 
 Anthropic이 Claude Code에 '모드(Mods)'를 공식 도입했다([Anthropic Blog](https://claude.com/blog/claude-code-mods)). 모드는 TypeScript 함수로 Claude Code의 내부 이벤트에 훅을 걸어 프롬프트 재작성, UI 교체, 기능 추가, 도구 호출 차단·수정까지 가능하게 한다. v2.1.287에 포함되어 배포됐으며, `/plugin` 명령으로 설치하고 핫 리로드된다([The New Stack](https://thenewstack.io/anthropic-claude-code-mods-plugins/)). 다만 모드는 샌드박스 처리되지 않아 Claude Code와 동일한 시스템 접근 권한을 가진다 — 신뢰할 수 있는 소스에서만 설치해야 한다([Nerdschalk](https://nerdschalk.com/are-claude-code-mods-sandboxed-what-they-can-access/)). Team/Enterprise 플랜에는 위험 행동을 차단하는 `sec-default` 빌트인 모드가 기본 탑재된다.
 
-## GitHub Copilot: 오늘 4개 모델 공식 퇴장
+## GitHub Copilot: 오늘 4개 모델 퇴장 + 컴퓨터 사용 GA
 
-GitHub Copilot이 오늘 예고된 대로 4개 모델을 전 경험에서 제거했다 — Gemini 3.5 Flash, Gemini 3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7([GitHub Changelog](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models/)). 대체 모델은 Gemini 3.8 Flash, Kimi K3, Claude Opus 5다. 10월 19일에는 GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5까지 추가 폐기된다([GitHub Changelog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/)). Business·Enterprise 관리자는 대체 모델 접근을 모델 정책에서 사전 활성화해야 한다.
+GitHub Copilot이 오늘 예고된 대로 4개 모델을 전 경험에서 제거했다 — Gemini 3.5 Flash, Gemini 3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7([GitHub Changelog](https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models/)). 대체 모델은 Gemini 3.8 Flash, Kimi K3, Claude Opus 5다. 10월 19일에는 GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5까지 추가 폐기된다([GitHub Changelog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/)). 한편 10월 1일부터 Copilot 에이전트가 데스크톱 앱과 상호작용하는 컴퓨터 사용 기능이 GA됐고([GitHub Changelog](https://github.blog/changelog/)), 10월 22일에는 미구성 기능에 글로벌 기본 정책이 자동 적용된다([GitHub Changelog](https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise/)). Business·Enterprise 관리자는 대체 모델 접근과 기능 정책을 사전 점검해야 한다.
 
 ## Codex CLI v0.160.0: 에이전트 커맨드 센터 개선
 

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-10-02</sub>
+  <sub>마지막 업데이트: 2026-10-03</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.10.02-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.10.03-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1508,6 +1508,11 @@ timeline
          : Earendil Pi 1.0 정식 출시 — 오픈소스 코딩 에이전트, MCP 전향, 15개+ 프로바이더, Pi Durable 장시간 작업 (10/2)
          : Apple macOS 전체 디스크 접근 AI 에이전트 보안 강화 — 새 동의 제어 (10/2)
          : Gemini CLI 폐쇄 107일째 — 소비자 접근 차단 (10/2)
+         : Antigravity에 Claude Opus 5.5·Sonnet 5.5 추가 — Pro/Ultra 구독자 모델 피커, 체인지로그 미공개 (10/3)
+         : Copilot 코드 리뷰 API GA — REST/GraphQL 지원, 기본 노력 Lite→Balanced (10/3)
+         : HydraFusion VS Code·Copilot 앱 확장 — CLI 전용에서 IDE로, 캐스케이드+크리틱 패턴 (10/3)
+         : Cursor 25로 37일 연속 하락, OpenAI 셧오프 D-40 (10/3)
+         : Gemini CLI 폐쇄 108일째 — 소비자 접근 차단 (10/3)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2607,12 +2612,12 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["09-19", "09-20", "09-21", "09-22", "09-23", "09-24", "09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02"]
+    x-axis ["09-20", "09-21", "09-22", "09-23", "09-24", "09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 5, 7, 9, 11]
-    line "Cursor" [53, 51, 49, 47, 45, 43, 41, 39, 37, 35, 33, 31, 29, 27]
-    line "Windsurf" [87, 87, 87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88]
+    line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 3, 5, 7, 9, 11, 13]
+    line "Cursor" [51, 49, 47, 45, 43, 41, 39, 37, 35, 33, 31, 29, 27, 25]
+    line "Windsurf" [87, 87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2621,8 +2626,8 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-27―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-11―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-25―-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-13―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3205,6 +3210,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/02 | **Earendil Pi 1.0 정식 출시** — 오픈소스 코딩 에이전트 안정 버전; MCP 거부에서 전향해 핵심 기능으로 탑재; 15개+ 프로바이더(Anthropic·OpenAI·Google 등); 지연 도구 로딩·가상 모델 확장; Pi Durable 장시간 비동기 작업 | [gigazine.net](https://gigazine.net/gsc_news/en/20261002-pi-1-0/) |
 | 2026/10/02 | **Apple macOS 전체 디스크 접근 AI 에이전트 보안 강화** — 새 동의 제어; AI 에이전트가 동의 없는 시스템 접근 위험을 증폭시킬 것이라 경고 | [aiweekly.co](https://aiweekly.co/ai-news-today) |
 | 2026/10/02 | **Cursor 27점으로 36일 연속 하락** — OpenAI 셧오프 D-41 | [cursor.com](https://cursor.com) |
+| 2026/10/03 | **Antigravity에 Claude Opus 5.5·Sonnet 5.5 추가** — Pro($19.99/월)·Ultra 5x($99.99/월)·Ultra 20x($199.99/월) 구독자 모델 피커; 체인지로그 미공개; 멀티 프로바이더 전략 | [startupfortune.com](https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/) |
+| 2026/10/03 | **Copilot 코드 리뷰 API GA** — REST·GraphQL API 지원; 기본 노력 수준 Lite→Balanced; 엔터프라이즈/조직/저장소/개인 수준 설정 가능; 전 유료 플랜 | [github.blog](https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/) |
+| 2026/10/03 | **HydraFusion VS Code·Copilot 앱 확장** — 멀티 모델 오케스트레이션 CLI 전용→IDE 확장; 캐스케이드·크리틱 패턴 | [itbrief.co.uk](https://itbrief.co.uk/story/github-launches-hydrafusion-preview-for-copilot-coding) |
+| 2026/10/03 | **Cursor 25점으로 37일 연속 하락** — OpenAI 셧오프 D-40 | [cursor.com](https://cursor.com) |
 | 2026/09/22 | **GPT-6 Sol·Luna 출시** — Sol $2/$10/MTok(인터랙티브·에이전틱 코딩), Luna $0.10/$0.50/MTok(대량 경량 작업); 1.05M 컨텍스트; 캐시 90% 할인; GPT-5.6 대비 API 비용 절반; Opus 5.5 출시 89분 후 공개 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 지원 추가; 관리형 Connector 동의 진행률 복사 가능 URL 표시 | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/09/22 | **Anthropic 5시간 사용 제한 폐지** — Pro·Max·Team·좌석제 Enterprise 구독자의 5시간 세션 제한 제거; 속도 제한 리셋 기능 추가 | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |

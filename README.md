@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-10-02</sub>
+  <sub>Last updated: 2026-10-03</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.10.02-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.10.03-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1508,6 +1508,11 @@ timeline
          : Earendil Pi 1.0 — open-source coding agent GA, MCP reversal, 15+ providers, Pi Durable for long-running tasks (Oct 2)
          : Apple tightens macOS Full Disk Access for AI agents — new consent controls (Oct 2)
          : Gemini CLI shutdown Day 107 — consumer access closed (Oct 2)
+         : Antigravity adds Claude Opus 5.5 & Sonnet 5.5 — model picker for Pro/Ultra subscribers, changelog silent (Oct 3)
+         : Copilot code review API GA — REST/GraphQL support, default effort Lite→Balanced (Oct 3)
+         : HydraFusion in VS Code & Copilot app — expanded from CLI-only, cascade + critique patterns (Oct 3)
+         : Cursor drops to 25 — 37th consecutive day of decline, OpenAI shutoff D-40 (Oct 3)
+         : Gemini CLI shutdown Day 108 — consumer access closed (Oct 3)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2637,12 +2642,12 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["09-19", "09-20", "09-21", "09-22", "09-23", "09-24", "09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02"]
+    x-axis ["09-20", "09-21", "09-22", "09-23", "09-24", "09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 5, 7, 9, 11]
-    line "Cursor" [53, 51, 49, 47, 45, 43, 41, 39, 37, 35, 33, 31, 29, 27]
-    line "Windsurf" [87, 87, 87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88]
+    line "GH Copilot" [1, 1, 1, 1, 1, 1, 1, 1, 3, 5, 7, 9, 11, 13]
+    line "Cursor" [51, 49, 47, 45, 43, 41, 39, 37, 35, 33, 31, 29, 27, 25]
+    line "Windsurf" [87, 87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2651,8 +2656,8 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-27―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-11―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-25―-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-13―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3248,6 +3253,10 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/02 | **Earendil Pi 1.0 GA** — open-source coding agent ships stable release; reverses MCP rejection, now core feature; 15+ providers (Anthropic, OpenAI, Google, etc.); deferred tool loading, virtual-model extensions; Pi Durable for long-running async tasks | [gigazine.net](https://gigazine.net/gsc_news/en/20261002-pi-1-0/) |
 | 2026/10/02 | **Apple tightens macOS Full Disk Access for AI agents** — new consent controls; warning that AI agents will amplify risks of unconsented system access | [aiweekly.co](https://aiweekly.co/ai-news-today) |
 | 2026/10/02 | **Cursor drops to 27** — 36th consecutive day of decline; OpenAI shutoff D-41 | [cursor.com](https://cursor.com) |
+| 2026/10/03 | **Antigravity adds Claude Opus 5.5 & Sonnet 5.5** — model picker for Pro ($19.99/mo), Ultra 5x ($99.99/mo), Ultra 20x ($199.99/mo); changelog silent; multi-provider strategy signal | [startupfortune.com](https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/) |
+| 2026/10/03 | **Copilot code review API GA** — REST and GraphQL API support; default effort level Lite→Balanced; configurable at enterprise/org/repo/personal level; all paid plans | [github.blog](https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/) |
+| 2026/10/03 | **HydraFusion expands to VS Code & Copilot app** — multi-model orchestration no longer CLI-only; cascade and critique patterns available in IDE | [itbrief.co.uk](https://itbrief.co.uk/story/github-launches-hydrafusion-preview-for-copilot-coding) |
+| 2026/10/03 | **Cursor drops to 25** — 37th consecutive day of decline; OpenAI shutoff D-40 | [cursor.com](https://cursor.com) |
 | 2026/09/22 | **GPT-6 Sol and Luna launched** — Sol $2/$10/MTok (balanced interactive/agentic coding), Luna $0.10/$0.50/MTok (high-volume lightweight tasks); both 1.05M context; 90% cache discount; API costs halved vs GPT-5.6; released 89 minutes after Opus 5.5 | [venturebeat.com](https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more) |
 | 2026/09/22 | **Copilot CLI v1.0.89** — claude-opus-5.5 support added; managed Connector consent progress with copyable authorization URL | [github.com](https://github.com/github/copilot-cli/releases) |
 | 2026/09/22 | **Anthropic removes 5-hour usage caps** — Pro, Max, Team, and seat-based Enterprise subscribers no longer have 5-hour session caps; rate-limit reset feature added | [benzinga.com](https://www.benzinga.com/markets/private-markets/26/09/61933271/anthropic-launches-claude-opus-5-5-cuts-costs-40-and-scraps-5-hour-usage-caps) |

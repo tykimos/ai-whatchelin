@@ -1,21 +1,33 @@
 ---
-title: "Antigravity Quietly Adds Claude Opus 5.5 and Sonnet 5.5 — Google Embraces Anthropic"
+title: "PixelLeak Fallout — AI Coding Agents Exposed 13,000 Internal Screenshots from 300+ Organizations"
 date: 2026-10-03
 lang: en
 categories: [news]
-tags: [antigravity, google, anthropic, github-copilot, hydrafusion, cursor, openai]
-excerpt: "Google Antigravity integrates Claude Opus 5.5 and Sonnet 5.5 into its model picker, doubling down on multi-provider strategy. GitHub Copilot fires back with a code review API and HydraFusion expansion to VS Code."
+tags: [pixelleak, security, antigravity, github-copilot, hydrafusion, jetbrains, cursor, qodo]
+excerpt: "AI coding agents inadvertently published 13,000+ internal screenshots from 300+ organizations to public GitHub repos in the PixelLeak incident. Meanwhile, JetBrains Air EAP launches and Antigravity integrates Claude models."
 ---
 
-Google Antigravity quietly added Claude Opus 5.5 and Sonnet 5.5 to its model picker for paying subscribers ([Startup Fortune](https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/)). The two models, released by Anthropic on September 22 and 28 respectively, are now available to Google AI Pro ($19.99/mo), Ultra 5x ($99.99/mo), and Ultra 20x ($199.99/mo) subscribers. Google's model page confirms the addition, though the changelog has yet to formally acknowledge it — earning this a "quiet integration" label. Bundling a competitor's frontier models inside its own coding platform signals that Google sees Antigravity as a multi-provider agent platform, not just a Gemini showcase.
+A security blind spot in AI coding agents has led to the largest inadvertent corporate data exposure of its kind. In what researchers at Glow Labs dubbed 'PixelLeak,' AI coding agents published over 13,000 internal screenshots from more than 300 organizations to public GitHub repositories ([Bitdefender](https://www.bitdefender.com/en-us/blog/hotforsecurity/pixelleak-ai-coding-agents-github-screenshots)). The root cause: a gap in GitHub CLI's image attachment support forced agents to create public repos or use unvetted tools to host images. Billing records, treasury consoles, and unreleased features were exposed across 900+ repos, with 93% originating from employees' personal accounts — making detection difficult ([eSecurity Planet](https://www.esecurityplanet.com/news/news-ai-coding-agent-github-image-leak/)).
+
+## JetBrains Air: A New Challenger in IDE Agentic Development
+
+JetBrains launched the Early Access Program for Air in JetBrains IDEs ([JetBrains Blog](https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/)). Available as both a plugin and native integration in 2026.3 EAP builds, Air gives agents access to built-in IDE skills — debugging, profiling, database exploration, and semantic code search. Junie Lite is free for everyday tasks, and the open system welcomes third-party agents. This marks JetBrains' full entry into the IDE agent market dominated by GitHub Copilot and Claude Code.
+
+## Antigravity: Quietly Adds Claude Opus 5.5 and Sonnet 5.5
+
+Google Antigravity quietly added Claude Opus 5.5 and Sonnet 5.5 to its model picker for paying subscribers ([Startup Fortune](https://startupfortune.com/google-antigravity-adds-anthropics-claude-opus-55-and-sonnet-55/)). Available to Pro ($19.99/mo), Ultra 5x ($99.99/mo), and Ultra 20x ($199.99/mo) subscribers, the integration went live without a changelog mention. Bundling a competitor's frontier models signals that Google views Antigravity as a multi-provider agent platform, not just a Gemini showcase.
 
 ## GitHub Copilot: Code Review API GA + HydraFusion Hits VS Code
 
-GitHub Copilot's code review feature is now accessible via REST and GraphQL APIs, letting teams script and automate review requests ([GitHub Blog](https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/)). The default review effort level has shifted from "Lite" to "Balanced" for all users who hadn't explicitly chosen a setting. Available across Pro, Pro+, Max, Business, and Enterprise plans. Meanwhile, Project HydraFusion has expanded from CLI-only to VS Code and the GitHub Copilot app ([IT Brief](https://itbrief.co.uk/story/github-launches-hydrafusion-preview-for-copilot-coding)). The multi-model orchestration system now works in the IDE, automatically selecting between cascade (low-cost draft then high-performance verification) and critique (draft-review-revise) patterns at runtime.
+Copilot's code review feature is now accessible via REST and GraphQL APIs, with the default review effort level shifting from Lite to Balanced ([GitHub Blog](https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/)). Meanwhile, Project HydraFusion expanded from CLI-only to VS Code and the Copilot app, bringing multi-model orchestration — cascade and critique patterns — into the IDE ([IT Brief](https://itbrief.co.uk/story/github-launches-hydrafusion-preview-for-copilot-coding)).
 
-## Cursor: Down to 25 — 37th Straight Day of Decline, OpenAI Shutoff D-40
+## Qodo 3.0: Enterprise Governance for Agentic Development
 
-Cursor's popularity score dropped to 25, extending its losing streak to 37 consecutive days. With the OpenAI shutoff 40 days away, the Compile 2026 announcements — Origin (GitHub-rival hosting), mobile app, in-house frontier model — remain its turnaround cards, but none have stemmed the bleeding yet.
+Qodo launched 3.0 with enterprise-grade governance for agentic software development ([Qodo Blog](https://www.qodo.ai/blog/introducing-qodo-3-0/)). The release includes PR Triage, Agentic Toolbox (works with Claude Code and Codex), Software Map, and an analytics dashboard.
+
+## Cursor: Down to 25 — 37th Straight Day of Decline
+
+Cursor's popularity score dropped to 25, extending its losing streak to 37 consecutive days. The OpenAI model shutoff is now 40 days away.
 
 ## Market Pulse
 
@@ -31,3 +43,5 @@ Cursor's popularity score dropped to 25, extending its losing streak to 37 conse
 | Cursor | 25 | ↓2 | 37th straight decline, OpenAI shutoff D-40 |
 | GH Copilot | 13 | ↑2 | Code review API GA, HydraFusion expansion |
 | Gemini CLI | 1 | — | Shutdown day 108 |
+
+The PixelLeak incident underscores how urgently the industry needs security governance for AI coding agents. With JetBrains and Qodo entering the fray, the agentic development ecosystem is getting more competitive by the day.

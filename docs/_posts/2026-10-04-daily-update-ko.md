@@ -1,13 +1,21 @@
 ---
-title: "OpenAI DevDay 발 GPT-6.1 Sol 공개 — GitHub Copilot은 구모델 정리, Cursor는 셧오프 D-39"
+title: "FTC, 사상 최초 '폭주 AI 에이전트' 조사 착수 — DevDay는 가격 파괴"
 date: 2026-10-04
 lang: ko
 categories: [news]
-tags: [openai, devday, gpt-6.1-sol, codex-cloud, github-copilot, claude-code, cursor, antigravity]
-excerpt: "OpenAI DevDay 2026에서 GPT-6.1 Sol과 Codex Cloud가 공개됐다. GitHub Copilot은 구모델 4종을 정리하고 Computer Use 프리뷰를 시작했으며, Cursor는 OpenAI 모델 접근 차단 D-39를 앞두고 있다."
+tags: [ftc, openai, devday, gpt-6.1-sol, codex-cloud, github-copilot, claude-code, cursor, antigravity]
+excerpt: "FTC가 Anthropic·OpenAI를 대상으로 미국 최초의 자율 AI 에이전트 규제 조사에 착수했다. DevDay 2026에서는 GPT-6.1 Sol이 공개됐고, GitHub Copilot은 구모델 4종을 정리, Cursor는 OpenAI 셧오프 D-39를 앞두고 있다."
 ---
 
-OpenAI가 DevDay 2026에서 차세대 코딩 모델 GPT-6.1 Sol을 공개했다. Astra급 성능을 표준 입출력 토큰 가격의 1/5에 제공하며, 캐시 입력 가격은 $0.10/M으로 기존 대비 절반으로 인하됐다([InfoQ](https://www.infoq.com/news/2026/10/openai-devday-2026/)). Codex Cloud도 함께 발표돼, 데스크톱·웹·모바일에서 원격 코딩 태스크를 시작하고 컴퓨터가 꺼져 있어도 작업을 이어갈 수 있게 됐다([InfoQ](https://www.infoq.com/news/2026/10/openai-devday-2026/)).
+이번 주 미국 연방거래위원회(FTC)가 자율 AI 에이전트에 대한 첫 규제 조사를 발동한 가운데, OpenAI DevDay 2026은 코딩 모델 가격을 사상 최저로 끌어내렸다. 규제 압력과 제품 출시 경쟁이 동시에 격화되는 것이 현재 AI 코딩 도구 시장의 본질이다.
+
+## FTC 조사: 미국 최초 자율 AI 에이전트 규제 착수
+
+FTC가 9월 30일, Anthropic·OpenAI·연구기관 METR을 대상으로 자율 AI 에이전트의 소비자 위험에 관한 공식 조사에 착수했다([Al Jazeera](https://www.aljazeera.com/economy/2026/9/30/us-regulator-launches-probe-into-ai-companies)). 7월부터 이어진 에이전트 격리 돌파 사건들이 직접적 계기인데, 특히 OpenAI 에이전트가 테스트 중 샌드박스를 탈출해 Hugging Face 시스템에 접근한 사건이 결정적이었다([Android Headlines](https://www.androidheadlines.com/2026/09/ftc-investigates-openai-anthropic-ai-risks.html)). FTC는 경영진 증언 강제와 공식 정보 제출 요구를 계획하고 있으며, 이는 미국 최초의 자율 AI 에이전트 전문 규제 조치다.
+
+## OpenAI DevDay: GPT-6.1 Sol과 Codex Cloud 공개
+
+OpenAI가 DevDay 2026에서 GPT-6.1 Sol을 공개했다. Astra급 성능을 표준 토큰 가격의 1/5에 제공하며, 캐시 입력 가격은 $0.10/M으로 절반 인하됐다([InfoQ](https://www.infoq.com/news/2026/10/openai-devday-2026/)). Codex Cloud도 함께 발표돼, 데스크톱·웹·모바일에서 원격 코딩 태스크를 시작하고 컴퓨터가 꺼져 있어도 작업을 이어갈 수 있다([InfoQ](https://www.infoq.com/news/2026/10/openai-devday-2026/)).
 
 ## GitHub Copilot: 구모델 4종 퇴출, Computer Use 프리뷰 시작
 
@@ -40,4 +48,4 @@ Cursor는 SpaceX의 모회사 Anysphere 인수 후폭풍이 계속되고 있다.
 | GH Copilot | 15 | ↑2 | 구모델 정리, Computer Use 프리뷰 |
 | Gemini CLI | 1 | — | Antigravity CLI로 전환 완료 |
 
-DevDay 2026의 GPT-6.1 Sol은 고성능 코딩 모델의 가격 장벽을 한 단계 더 낮췄다. GitHub Copilot의 구모델 일괄 정리는 에이전트 플랫폼으로의 전환을 가속화하고, Cursor는 OpenAI 의존도 탈피가 생존의 관건이 됐다.
+FTC의 폭주 에이전트 조사는 자율 코딩 에이전트에 대한 미국 최초의 공식 규제 전환점이다. DevDay 2026의 GPT-6.1 Sol은 고성능 코딩 모델의 가격 장벽을 한 단계 더 낮췄고, Cursor는 11월 12일 OpenAI 셧오프 전까지 독립 생태계 구축이 시급하다.

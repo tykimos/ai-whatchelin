@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-10-05</sub>
+  <sub>Last updated: 2026-10-07</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.10.06-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.10.07-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1524,6 +1524,16 @@ timeline
          : Anthropic pre-IPO investor day Oct 14 confirmed — mid-November listing at up to $2T valuation (Oct 5)
          : Cursor drops to 21 — 39th consecutive day of decline, OpenAI shutoff D-38 (Oct 5)
          : Gemini CLI shutdown Day 110 — consumer access closed (Oct 5)
+         : Claude Code v2.1.291 — permission prompt and session persistence regression fixes (Oct 6)
+         : Meta and Microsoft scale back Claude usage — Meta to ~30K employees, MS spending forecast cut by 1/3 (Oct 6)
+         : Codex daily sprint Day 8 — daily improvement sprint continues (Oct 6)
+         : Cursor drops to 19 — 40th consecutive day of decline, tied with Copilot, OpenAI shutoff D-37 (Oct 6)
+         : GH Copilot rises to 19 — tied with Cursor for the first time since its 85-week floor (Oct 6)
+         : Gemini CLI shutdown Day 111 — consumer access closed (Oct 6)
+         : Copilot overtakes Cursor — Copilot 21 vs Cursor 17, first time Copilot leads since 2025 (Oct 7)
+         : Cursor drops to 17 — 41st consecutive day of decline, OpenAI shutoff D-36 (Oct 7)
+         : Anthropic IPO D-7 — pre-IPO investor day Oct 14 one week away, $2T valuation projections (Oct 7)
+         : Gemini CLI shutdown Day 112 — consumer access closed (Oct 7)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2656,12 +2666,12 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["09-23", "09-24", "09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06"]
+    x-axis ["09-24", "09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [1, 1, 1, 1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
-    line "Cursor" [45, 43, 41, 39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19]
-    line "Windsurf" [87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+    line "GH Copilot" [1, 1, 1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21]
+    line "Cursor" [43, 41, 39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17]
+    line "Windsurf" [87, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2670,8 +2680,8 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-19―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-19―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-17―-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-21―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3141,7 +3151,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-10-06)
+### Fact Check Log (2026-10-07)
 
 All pricing information has been directly verified from each service's official website.
 

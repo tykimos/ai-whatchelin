@@ -1,45 +1,43 @@
 ---
-title: "HydraFusion Beats Claude Opus 5 at 67% Lower Cost — Copilot's Multi-Model Gambit Pays Off"
+title: "Claude Haiku 5.5 Completes the 5.5 Family in 16 Days — Copilot Overtakes Cursor"
 date: 2026-10-07
 lang: en
 categories: [news]
-tags: [copilot, hydrafusion, cursor, anthropic, codex-cli, chatgpt]
-excerpt: "GitHub's HydraFusion achieves 67% cost reduction and 4.9-point edge over Claude Opus 5 on TerminalBench 2.1. As Copilot overtakes Cursor, the AI coding war shifts from single-model performance to multi-model orchestration."
+tags: [anthropic, haiku, copilot, cursor, chatgpt, codex-cli]
+excerpt: "Anthropic launches Claude Haiku 5.5, completing the Opus-Sonnet-Haiku '5.5 family' in just 16 days. Meanwhile, Copilot overtakes Cursor for the first time since 2025."
 ---
 
-GitHub is letting the numbers do the talking. Since HydraFusion's multi-model orchestration expanded from Copilot CLI to VS Code and the Copilot app([GitHub Changelog](https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app)), benchmark results show a 67% cost reduction and 4.9-point advantage over Claude Opus 5 on TerminalBench 2.1([Gigazine](https://www.gigazine.net/gsc_news/en/20260907-github-copilot-hydrafusion)). The battlefield is shifting from single-model performance to multi-model orchestration.
+Anthropic launched Claude Haiku 5.5 today([support.claude.com](https://support.claude.com/en/articles/12138966-release-notes)). Following Opus 5.5 on September 22 and Sonnet 5.5 on September 28, Haiku 5.5 completes the entire '5.5 family' lineup in just 16 days. Anthropic describes it as "the cheapest, fastest, and most capable small model" it has released, targeting high-volume, cost-sensitive workloads.
 
-## GitHub Copilot: HydraFusion's Three Strategies
+## Anthropic: 5.5 Family Complete, IPO D-7
 
-HydraFusion runs on three workflows: Single (one model solves the task directly), Cascade (a lightweight model drafts, a quality gate decides whether to escalate to a stronger model), and Critique (a drafting model and an independent critic from a different model family cross-check each other)([RuntimeWire](https://runtimewire.com/article/github-hydrafusion-multi-model-copilot-orchestration)). Cascade is the cost-saving engine — most tasks stay on lightweight models, with high-cost models invoked only when complexity demands it.
+The positioning is clear. Opus 5.5 ($4/$20/MTok) handles the frontier, Sonnet 5.5 covers the balanced middle, and Haiku 5.5 takes on high-volume processing. With the pre-IPO investor day on October 14 just one week away([PYMNTS](https://pymnts.com/news/artificial-intelligence/2026/anthropic-could-seek-2-trillion-valuation-in-record-ipo)), the complete lineup serves as another pillar supporting the $2T valuation projection.
 
-The model pool is also expanding: Gemini 3.8 Flash joined Copilot([GitHub Changelog](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot)), replacing the deprecated Gemini 3.5/3.6 Flash. A second deprecation wave on October 19 will retire GPT-5.5, GPT-5.4, Gemini 3.7 Flash, and Grok 4.5([GitHub Changelog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/)).
+## GitHub Copilot: Overtakes Cursor
 
-## Cursor: D-36, Market Trust Still Missing
+Copilot (21) has overtaken Cursor (17) — the first time Copilot has led since 2025. HydraFusion's expansion from CLI to VS Code and the Copilot app([GitHub Changelog](https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app)) and the Computer Use public preview are driving the recovery. A second model deprecation wave on October 19 will retire GPT-5.5, GPT-5.4, Gemini 3.7 Flash, and Grok 4.5([GitHub Changelog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/)).
 
-Cursor hit 17, its lowest score this year, marking 41 consecutive days of decline. The OpenAI model access cutoff on November 12 is 36 days away([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). Cursor claims OpenAI models account for only 5% of its traffic([AICatchUp](https://aicatchup.com/news/openai-ending-cursor-partnership-november-2026)), but the frontier model and Origin platform announced at Compile 2026 haven't restored confidence([DevOps.com](https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/)).
+## Cursor: 41 Consecutive Days of Decline, D-36
 
-## ChatGPT Pro: What the $200 Subscription Pause Signals
+Cursor hit 17, its lowest score this year, extending its streak to 41 consecutive days of decline. The OpenAI model access cutoff on November 12 is 36 days away([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). The frontier model and Origin platform announced at Compile 2026 have not restored market confidence([DevOps.com](https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/)).
 
-OpenAI paused new purchases and upgrades to the $200 ChatGPT Pro plan on September 10([YesPress](https://yespress.io/chatgpt-pro-closes-door-new-power-users.md)). With GPT-6 Astra rolling out to select organizations and Codex CLI's Pro 500 plan ($500/month) offering 300 tokens/second Ultrafast mode([Nerdschalk](https://nerdschalk.com/gpt-6-1-sol-price-availability/)), the move looks like a pricing restructure — channeling power users toward Codex CLI rather than ChatGPT.
+## ChatGPT: Virtual Try-on and Financial Services Expansion
 
-## Anthropic: IPO D-7, Three Questions from Investors
-
-Anthropic's pre-IPO investor day is October 14, one week away. The gap between the $965B post-money valuation and $2T IPO projections is enormous([PYMNTS](https://pymnts.com/news/artificial-intelligence/2026/anthropic-could-seek-2-trillion-valuation-in-record-ipo)). Three risks dominate investor Q&A: intensifying competition from lower-cost AI systems, regulatory tensions with the Trump administration, and local opposition to data center construction([KuCoin](https://www.kucoin.com/blog/anthropic-ipo-2026-plans-september-or-early-otcober-listing-amid-965-billion-valuation-talks)). Claude Code's 54% share of the enterprise coding market remains the valuation's load-bearing argument.
+ChatGPT added a virtual try-on feature for clothing and accessories([help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)), letting users see items on themselves via selfie. The Finances feature expanded to Free and Go users in the U.S. Codex CLI v0.159.0 introduced instant-interrupt for response steering and richer Mermaid diagram rendering([developers.openai.com](https://developers.openai.com/codex/changelog)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | Pro $200 paused, GPT-6 Astra limited rollout |
-| Claude Code | 99 | — | IPO D-7, 54% enterprise coding share |
-| Codex CLI | 99 | — | Daily sprint Day 8, Pro 500 Ultrafast expanding |
-| Antigravity | 99 | — | Antigravity 2.0 running steady |
-| Claude AI | 99 | — | $965B→$2T valuation gap, investor day focus |
+| ChatGPT | 99 | — | Virtual try-on, Finances for Free/Go |
+| Claude Code | 99 | — | Haiku 5.5 completes 5.5 family, IPO D-7 |
+| Codex CLI | 99 | — | v0.159.0 instant-interrupt, daily sprint continues |
+| Antigravity | 99 | — | Stable operations |
+| Claude AI | 99 | — | $965B→$2T valuation, investor day focus |
 | Windsurf | 88 | — | Devin Desktop stable |
 | Aider | 68 | — | Steady open-source, no new releases |
-| GH Copilot | 21 | ↑2 | HydraFusion 67% cost cut, overtook Cursor |
+| GH Copilot | 21 | ↑2 | Overtook Cursor, HydraFusion expanding |
 | Cursor | 17 | ↓2 | 41-day decline, OpenAI shutoff D-36 |
 | Gemini CLI | 1 | — | Retired, transitioned to Antigravity |
 
-What HydraFusion reveals isn't just a benchmark win — it's a signal that the competitive axis in AI coding tools is shifting from "which model you use" to "how you orchestrate multiple models together."
+The Haiku 5.5 launch isn't just a small model refresh. Anthropic replaced the entire frontier-balanced-volume lineup with the 5.5 generation in 16 days — execution speed is the real message here.

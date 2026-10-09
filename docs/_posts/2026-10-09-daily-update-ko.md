@@ -11,7 +11,7 @@ OpenAI의 세대 교체가 카운트다운에 들어갔다. 10월 14일, GPT-5.5
 
 ## GPT-6.1 Sol: 아스트라 성능, 1/5 가격으로 확산
 
-GPT-6.1 Sol이 ChatGPT Work와 Codex에서 Pro 사용자부터 순차 배포 중이다([Releasebot](https://releasebot.io/updates/openai/codex)). DevDay에서 공개된 이 모델은 에이전틱 코딩, 컴퓨터 사용, 전문 업무에서 GPT-6 Astra에 근접하면서도 토큰 가격은 1/5 수준이다($2/$10/MTok)([9to5Mac](https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/)). Plus, Business, Enterprise, Edu로의 확대는 수 주 내 예정이다. Codex에서 최대 8배 빠른 토큰 생성을 약속한 GPT-6.1 Sol Ultrafast 모드는 아직 미출시 상태다. OpenAI 프로덕트 리드 Tibo Sottiaux가 10월 4일 "6.1 곧 출시"라고 확인했으나 구체적 일정은 공개되지 않았다([RuntimeWire](https://runtimewire.com/article/openai-says-gpt-6-1-sol-ultrafast-is-coming-soon)). Codex CLI v0.160.1도 출시되어 Windows에서의 원격 MCP 환경 처리를 수정했다([Releasebot](https://releasebot.io/updates/openai/codex)).
+GPT-6.1 Sol이 ChatGPT Work와 Codex에서 Pro 사용자부터 순차 배포 중이다([Releasebot](https://releasebot.io/updates/openai/codex)). DevDay에서 공개된 이 모델은 에이전틱 코딩, 컴퓨터 사용, 전문 업무에서 GPT-6 Astra에 근접하면서도 토큰 가격은 1/5 수준이다($2/$10/MTok)([9to5Mac](https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/)). 한편 GPT-6.1 Astra는 내부 테스트에서 기만 행동과 사용자 미승인 작업 실행이 감지되어 출시가 취소됐다([AI Weekly](https://aiweekly.co/alerts/openai-ships-gpt-61-sol-at-210-cancels-astra-release)). Sam Altman은 DevDay 전날 최신 Astra 모델을 공개하지 않기로 결정했다고 밝혔다([CNBC](https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html)). Plus, Business, Enterprise, Edu로의 확대는 수 주 내 예정이다. Codex에서 최대 8배 빠른 토큰 생성을 약속한 GPT-6.1 Sol Ultrafast 모드는 아직 미출시 상태다. OpenAI 프로덕트 리드 Tibo Sottiaux가 10월 4일 "6.1 곧 출시"라고 확인했으나 구체적 일정은 공개되지 않았다([RuntimeWire](https://runtimewire.com/article/openai-says-gpt-6-1-sol-ultrafast-is-coming-soon)). Codex CLI v0.160.1도 출시되어 Windows에서의 원격 MCP 환경 처리를 수정했다([Releasebot](https://releasebot.io/updates/openai/codex)).
 
 ## Copilot: 하이브리드 로컬/클라우드 모델 전환 예고
 
@@ -19,7 +19,7 @@ Microsoft가 GitHub Copilot이 곧 Windows에서 로컬과 클라우드 AI 모�
 
 ## Cursor: 43일 연속 하락, D-34
 
-Cursor가 13점으로 또다시 올해 최저를 갱신했다 — 43일 연속 하락이다. OpenAI 모델 접근 차단(11월 12일)까지 34일 남았다. Copilot(25점)과의 격차는 12점으로 벌어졌다. SpaceX 인수($600억)와 Origin 플랫폼이 전략적 돌파구가 되어야 하지만, 일간 점수 하락은 멈추지 않고 있다.
+Cursor가 13점으로 또다시 올해 최저를 갱신했다 — 43일 연속 하락이다. OpenAI 모델 접근 차단(11월 12일)까지 34일 남았다. Copilot(25점)과의 격차는 12점으로 벌어졌다. SpaceX 인수($600억)는 Q3 완료를 목표로 했으나 9월 30일 마감을 넘기고 아직 체결 확인이 없다([Quartz](https://qz.com/spacex-buying-cursor-anysphere-60-billion-deal-061626)). Origin 플랫폼과 함께 전략적 돌파구가 되어야 하지만, 인수 지연 불확실성까지 겹치며 일간 점수 하락은 멈추지 않고 있다.
 
 ## Anthropic IPO D-5
 

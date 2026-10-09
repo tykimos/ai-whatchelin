@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-10-07</sub>
+  <sub>Last updated: 2026-10-09</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.10.08-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.10.09-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1539,6 +1539,22 @@ timeline
          : ChatGPT Finances for Free/Go — U.S. web/iOS/Android (Oct 2)
          : Codex CLI v0.159.0 — instant-interrupt for response steering, Mermaid rendering, follow-up prompts removed (Oct 3)
          : Copilot agent activity undercounting fix — VS Code 1.139.0+, billing unaffected (Oct 6)
+         : Copilot local sandboxing GA — restricted filesystem/network/credentials for Copilot-initiated tools (Oct 7)
+         : Claude Haiku 5.5 added to Copilot — Pro/Pro+/Max/Business/Enterprise model lineup (Oct 7)
+         : Copilot hybrid local/cloud AI switching announced for Windows (Oct 8)
+         : Harness acquires Augment Code assets — Cosmos Software Factory, AI agents in CI/CD (Oct 8)
+         : Cursor drops to 15 — 42nd consecutive day of decline, OpenAI shutoff D-35 (Oct 8)
+         : GH Copilot rises to 23 — overtakes Cursor, recovery streak continues (Oct 8)
+         : Anthropic IPO D-6 — pre-IPO investor day Oct 14, $2T valuation (Oct 8)
+         : Gemini CLI shutdown Day 113 — consumer access closed (Oct 8)
+         : GPT-5.5 retirement D-5 — removed from ChatGPT/Work/Codex Oct 14, API unaffected (Oct 9)
+         : GPT-6.1 Sol expanding — rolling out in ChatGPT Work and Codex, Pro users first (Oct 9)
+         : Codex CLI v0.160.1 — remote MCP environment fix for Windows-hosted launches (Oct 9)
+         : ChatGPT iOS v1.2026.272 — inline page previews, Codex task links (Oct 7)
+         : Cursor drops to 13 — 43rd consecutive day of decline, OpenAI shutoff D-34 (Oct 9)
+         : GH Copilot rises to 25 — 12-point lead over Cursor (Oct 9)
+         : Anthropic IPO D-5 — pre-IPO investor day Oct 14, $2T valuation (Oct 9)
+         : Gemini CLI shutdown Day 114 — consumer access closed (Oct 9)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2671,11 +2687,11 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08"]
+    x-axis ["09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08", "10-09"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [1, 1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23]
-    line "Cursor" [41, 39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15]
+    line "GH Copilot" [1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+    line "Cursor" [39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 13]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2685,8 +2701,8 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-15―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-23―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-13―-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-25―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3156,7 +3172,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-10-08)
+### Fact Check Log (2026-10-09)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -3290,6 +3306,22 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/04 | **FTC launches first rogue AI agent probe** — sweeping investigation into Anthropic, OpenAI, and METR over consumer dangers posed by autonomous AI agents; triggered by sandbox containment breaches since July; FTC plans executive testimony and formal information demands | [aljazeera.com](https://www.aljazeera.com/economy/2026/9/30/us-regulator-launches-probe-into-ai-companies) |
 | 2026/10/04 | **Claude Code v2.1.288** — broad reliability and UX update: smarter session resume and recovery, stronger plugin and MCP handling, improved permission behavior; built-in "You should know" mod runs side agent flagging issues in real time | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/10/04 | **Cursor drops to 23** — 38th consecutive day of decline; OpenAI shutoff D-39 | [cursor.com](https://cursor.com) |
+| 2026/10/05 | **Claude Code v2.1.289** — deny-rule bypass via env var prefix patched; symlink Read deny fix; agent.spawn for teammates | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/10/05 | **Anthropic pre-IPO investor day Oct 14 confirmed** — mid-November listing at up to $2T valuation | [cryptobriefing.com](https://cryptobriefing.com/anthropic-pre-ipo-investor-day-october-14/) |
+| 2026/10/06 | **Claude Code v2.1.291** — permission prompt and session persistence regression fixes | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/10/06 | **Meta and Microsoft scale back Claude usage** — Meta limits to ~30K employees, Microsoft spending forecast cut by 1/3 | [anthropic.com](https://www.anthropic.com) |
+| 2026/10/07 | **Claude Haiku 5.5 launched** — cheapest, fastest, most capable small model for high-volume cost-sensitive tasks; completes 5.5 family | [anthropic.com](https://www.anthropic.com) |
+| 2026/10/07 | **Claude Haiku 5.5 added to GitHub Copilot** — available to Pro, Pro+, Max, Business, Enterprise users | [github.blog](https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot) |
+| 2026/10/07 | **Copilot local sandboxing GA** — restricted filesystem, network, credentials access for Copilot-initiated tools and commands | [github.blog](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available) |
+| 2026/10/07 | **ChatGPT iOS v1.2026.272** — inline page previews in responses; Codex task links open directly on iOS | [releasebot.io](https://releasebot.io/updates/openai/chatgpt) |
+| 2026/10/08 | **Copilot hybrid local/cloud AI switching announced** — automatic switching between local and cloud models on Windows coming soon | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
+| 2026/10/08 | **Adversa AI discloses CCI attack on Copilot CLI** — encrypted prompt injection exfiltrates local files; GitHub disputes severity | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
+| 2026/10/08 | **Harness acquires Augment Code assets** — launches Cosmos Software Factory; AI coding agents integrated into CI/CD pipelines | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |
+| 2026/10/09 | **GPT-5.5 retirement D-5** — removed from ChatGPT, Work, Codex on Oct 14; API access unaffected; Codex users on ChatGPT login must migrate to GPT-5.6 Sol | [letsdatascience.com](https://letsdatascience.com/news/openai-retires-gpt-55-from-chatgpt-and-codex-1a6f69be) |
+| 2026/10/09 | **GPT-6.1 Sol expanding** — rolling out in ChatGPT Work and Codex; Pro users first; Plus/Business/Enterprise/Edu expansion within weeks | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/10/09 | **Codex CLI v0.160.1** — remote MCP environment handling fix for Windows-hosted launches; preserves SYSTEMROOT, TEMP, TMP | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/10/09 | **Cursor drops to 13** — 43rd consecutive day of decline; OpenAI shutoff D-34; 12-point gap behind Copilot | [cursor.com](https://cursor.com) |
+| 2026/10/09 | **Claude Code market share 29.4%** — First Page Sage analysis puts Claude Code first, Copilot 22.7%, Cursor 13.1% | [firstpagesage.com](https://firstpagesage.com/seo-blog/ai-coding-assistant-market-share) |
 | 2026/10/01 | **JetBrains Air EAP launched** — agentic development plugin + native IDE integration in 2026.3 EAP; built-in IDE skills (debugging, profiling, DB exploration, semantic search); Junie Lite free for everyday tasks; open system for third-party agents | [blog.jetbrains.com](https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/) |
 | 2026/10/01 | **Qodo 3.0** — enterprise governance for agentic software development; PR Triage, Agentic Toolbox (works with Claude Code and Codex), Software Map, analytics dashboard | [qodo.ai](https://www.qodo.ai/blog/introducing-qodo-3-0/) |
 | 2026/10/01-02 | **PixelLeak** — AI coding agents inadvertently published 13,000+ internal screenshots from 300+ organizations to public GitHub repos; billing records, treasury consoles, unreleased features exposed across 900+ repos; 93% from employee personal accounts | [bitdefender.com](https://www.bitdefender.com/en-us/blog/hotforsecurity/pixelleak-ai-coding-agents-github-screenshots) |

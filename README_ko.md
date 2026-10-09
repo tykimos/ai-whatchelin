@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-10-07</sub>
+  <sub>마지막 업데이트: 2026-10-09</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.10.08-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.10.09-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1539,6 +1539,22 @@ timeline
          : ChatGPT Finances Free/Go 확대 — 미국 웹/iOS/Android (10/2)
          : Codex CLI v0.159.0 — 응답 즉시 중단, Mermaid 렌더링, 후속 프롬프트 제거 (10/3)
          : Copilot 에이전트 활동 과소 집계 수정 — VS Code 1.139.0+, 과금 영향 없음 (10/6)
+         : Copilot 로컬 샌드박싱 GA — 파일시스템/네트워크/자격증명 제한 적용 (10/7)
+         : Claude Haiku 5.5 Copilot 추가 — Pro/Pro+/Max/Business/Enterprise 모델 라인업 (10/7)
+         : Copilot 하이브리드 로컬/클라우드 AI 자동 전환 Windows 예고 (10/8)
+         : Harness, Augment Code 자산 인수 — Cosmos Software Factory, CI/CD에 AI 에이전트 통합 (10/8)
+         : Cursor 15로 42일 연속 하락, OpenAI 셧오프 D-35 (10/8)
+         : GH Copilot 23으로 상승 — Cursor 역전, 회복세 지속 (10/8)
+         : Anthropic IPO D-6 — 프리IPO 투자자 데이 10/14, $2조 밸류에이션 (10/8)
+         : Gemini CLI 폐쇄 113일째 — 소비자 접근 차단 (10/8)
+         : GPT-5.5 퇴역 D-5 — 10/14 ChatGPT/Work/Codex에서 제거, API 접근 유지 (10/9)
+         : GPT-6.1 Sol 확산 — ChatGPT Work·Codex에서 Pro 사용자부터 순차 배포 (10/9)
+         : Codex CLI v0.160.1 — Windows 원격 MCP 환경 처리 수정 (10/9)
+         : ChatGPT iOS v1.2026.272 — 인라인 페이지 프리뷰, Codex 작업 링크 (10/7)
+         : Cursor 13으로 43일 연속 하락, OpenAI 셧오프 D-34 (10/9)
+         : GH Copilot 25로 상승 — Cursor에 12점 리드 (10/9)
+         : Anthropic IPO D-5 — 프리IPO 투자자 데이 10/14, $2조 밸류에이션 (10/9)
+         : Gemini CLI 폐쇄 114일째 — 소비자 접근 차단 (10/9)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2641,11 +2657,11 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08"]
+    x-axis ["09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08", "10-09"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [1, 1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23]
-    line "Cursor" [41, 39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15]
+    line "GH Copilot" [1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]
+    line "Cursor" [39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 13]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2655,8 +2671,8 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-15―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-23―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-13―-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-25―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3116,7 +3132,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-10-08)
+### 팩트 체크 로그 (2026-10-09)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -3247,6 +3263,22 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/04 | **FTC 사상 최초 자율 AI 에이전트 규제 조사** — Anthropic·OpenAI·METR 대상, 자율 AI 에이전트의 소비자 위험 조사; 7월 이후 샌드박스 격리 돌파 사건 계기; 경영진 증언 강제·정보 제출 요구 계획 | [aljazeera.com](https://www.aljazeera.com/economy/2026/9/30/us-regulator-launches-probe-into-ai-companies) |
 | 2026/10/04 | **Claude Code v2.1.288** — 안정성·UX 대규모 업데이트: 스마트 세션 복구, 플러그인/MCP 안정성 강화, 권한 동작 개선; 빌트인 "You should know" 모드가 사이드 에이전트로 실시간 문제 경고 | [releasebot.io](https://releasebot.io/updates/anthropic/claude-code) |
 | 2026/10/04 | **Cursor 23점으로 38일 연속 하락** — OpenAI 셧오프 D-39 | [cursor.com](https://cursor.com) |
+| 2026/10/05 | **Claude Code v2.1.289** — 환경변수 프리픽스 경유 deny 규칙 우회 패치; 심링크 Read deny 수정; agent.spawn 팀메이트 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/10/05 | **Anthropic 프리IPO 투자자 데이 10/14 확정** — 11월 중순 상장, 최대 $2조 밸류에이션 | [cryptobriefing.com](https://cryptobriefing.com/anthropic-pre-ipo-investor-day-october-14/) |
+| 2026/10/06 | **Claude Code v2.1.291** — 권한 프롬프트·세션 지속성 회귀 버그 수정 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/10/06 | **Meta·Microsoft Claude 사용 축소** — Meta 3만 명 수준, Microsoft 지출 전망 1/3 삭감 | [anthropic.com](https://www.anthropic.com) |
+| 2026/10/07 | **Claude Haiku 5.5 출시** — 가장 저렴·빠른·유능한 소형 모델; 5.5 패밀리 완성 | [anthropic.com](https://www.anthropic.com) |
+| 2026/10/07 | **Claude Haiku 5.5 GitHub Copilot 추가** — Pro/Pro+/Max/Business/Enterprise 사용자 이용 가능 | [github.blog](https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot) |
+| 2026/10/07 | **Copilot 로컬 샌드박싱 GA** — 파일시스템·네트워크·자격증명 접근 제한 적용 | [github.blog](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available) |
+| 2026/10/07 | **ChatGPT iOS v1.2026.272** — 응답 내 인라인 페이지 프리뷰; iOS에서 Codex 작업 링크 직접 열기 | [releasebot.io](https://releasebot.io/updates/openai/chatgpt) |
+| 2026/10/08 | **Copilot 하이브리드 로컬/클라우드 AI 전환 예고** — Windows에서 로컬·클라우드 모델 자동 전환 기능 곧 출시 | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
+| 2026/10/08 | **Adversa AI, Copilot CLI CCI 공격 공개** — 암호화된 프롬프트 인젝션으로 로컬 파일 탈취; GitHub은 심각도 부인 | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
+| 2026/10/08 | **Harness, Augment Code 자산 인수** — Cosmos Software Factory 출시; AI 코딩 에이전트 CI/CD 파이프라인 통합 | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |
+| 2026/10/09 | **GPT-5.5 퇴역 D-5** — 10/14 ChatGPT·Work·Codex에서 제거; API 접근 유지; ChatGPT 로그인 Codex 사용자는 GPT-5.6 Sol로 마이그레이션 필요 | [letsdatascience.com](https://letsdatascience.com/news/openai-retires-gpt-55-from-chatgpt-and-codex-1a6f69be) |
+| 2026/10/09 | **GPT-6.1 Sol 확산** — ChatGPT Work·Codex에서 Pro 사용자부터 순차 배포; Plus/Business/Enterprise/Edu 수 주 내 확대 | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/10/09 | **Codex CLI v0.160.1** — Windows 원격 MCP 환경 처리 수정; SYSTEMROOT·TEMP·TMP 보존 | [releasebot.io](https://releasebot.io/updates/openai/codex) |
+| 2026/10/09 | **Cursor 13점으로 43일 연속 하락** — OpenAI 셧오프 D-34; Copilot에 12점 격차 | [cursor.com](https://cursor.com) |
+| 2026/10/09 | **Claude Code 시장점유율 29.4%** — First Page Sage 분석, Copilot 22.7%, Cursor 13.1% | [firstpagesage.com](https://firstpagesage.com/seo-blog/ai-coding-assistant-market-share) |
 | 2026/10/01 | **JetBrains Air EAP 출시** — 에이전틱 개발 플러그인 + 2026.3 EAP 네이티브 IDE 통합; 디버깅·프로파일링·DB 탐색·시맨틱 검색 내장 스킬; Junie Lite 무료; 서드파티 에이전트 오픈 시스템 | [blog.jetbrains.com](https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/) |
 | 2026/10/01 | **Qodo 3.0** — 에이전틱 소프트웨어 개발 엔터프라이즈 거버넌스; PR Triage, Agentic Toolbox(Claude Code·Codex 연동), Software Map, 분석 대시보드 | [qodo.ai](https://www.qodo.ai/blog/introducing-qodo-3-0/) |
 | 2026/10/01-02 | **PixelLeak** — AI 코딩 에이전트가 300개+ 조직의 내부 스크린샷 13,000건+ 공개 GitHub 저장소에 유출; 결제 기록·재무 콘솔·미공개 기능이 900개+ 저장소에 노출; 93%가 직원 개인 계정에서 발생 | [bitdefender.com](https://www.bitdefender.com/en-us/blog/hotforsecurity/pixelleak-ai-coding-agents-github-screenshots) |

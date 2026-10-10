@@ -1543,6 +1543,8 @@ timeline
          : Claude Haiku 5.5 Copilot 추가 — Pro/Pro+/Max/Business/Enterprise 모델 라인업 (10/7)
          : Copilot 하이브리드 로컬/클라우드 AI 자동 전환 Windows 예고 (10/8)
          : Harness, Augment Code 자산 인수 — Cosmos Software Factory, CI/CD에 AI 에이전트 통합 (10/8)
+         : Anthropic 반학대 정책 — Claude에 대한 "지속적·불필요한 학대" 금지, 11/12 발효; 대화 종료가 주요 집행 수단 (10/8)
+         : Cursor iOS 원격 에이전트 제어 — 클라우드 에이전트 없이 폰에서 실행 중인 에이전트 확인·응답 (10/6)
          : Cursor 15로 42일 연속 하락, OpenAI 셧오프 D-35 (10/8)
          : GH Copilot 23으로 상승 — Cursor 역전, 회복세 지속 (10/8)
          : Anthropic IPO D-6 — 프리IPO 투자자 데이 10/14, $2조 밸류에이션 (10/8)
@@ -3279,6 +3281,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/08 | **Copilot 하이브리드 로컬/클라우드 AI 전환 예고** — Windows에서 로컬·클라우드 모델 자동 전환 기능 곧 출시 | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI, Copilot CLI CCI 공격 공개** — 암호화된 프롬프트 인젝션으로 로컬 파일 탈취; GitHub은 심각도 부인 | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness, Augment Code 자산 인수** — Cosmos Software Factory 출시; AI 코딩 에이전트 CI/CD 파이프라인 통합 | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |
+| 2026/10/08 | **Anthropic 반학대 정책** — "지속적·불필요한 학대적 또는 잔인한 행동" 금지하는 이용약관 업데이트; 11/12 발효; 대화 종료가 주요 집행 수단; 일반적 불만·반박·창작은 명시적 제외 | [macrumors.com](https://macrumors.com/2026/10/08/anthropic-user-guideline-update/) |
+| 2026/10/06 | **Cursor iOS 원격 에이전트 제어** — 폰에서 실행 중인 에이전트 확인·응답; 클라우드 에이전트 불필요; Enterprise 제외 대부분 사용자 기본 활성화 | [cursor.com](https://cursor.com/changelog) |
 | 2026/10/09 | **GPT-5.5 퇴역 D-5** — 10/14 ChatGPT·Work·Codex에서 제거; API 접근 유지; ChatGPT 로그인 Codex 사용자는 GPT-5.6 Sol로 마이그레이션 필요 | [letsdatascience.com](https://letsdatascience.com/news/openai-retires-gpt-55-from-chatgpt-and-codex-1a6f69be) |
 | 2026/10/09 | **GPT-6.1 Sol 확산** — ChatGPT Work·Codex에서 Pro 사용자부터 순차 배포; Plus/Business/Enterprise/Edu 수 주 내 확대 | [releasebot.io](https://releasebot.io/updates/openai/codex) |
 | 2026/10/09 | **Codex CLI v0.160.1** — Windows 원격 MCP 환경 처리 수정; SYSTEMROOT·TEMP·TMP 보존 | [releasebot.io](https://releasebot.io/updates/openai/codex) |

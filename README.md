@@ -1543,6 +1543,8 @@ timeline
          : Claude Haiku 5.5 added to Copilot — Pro/Pro+/Max/Business/Enterprise model lineup (Oct 7)
          : Copilot hybrid local/cloud AI switching announced for Windows (Oct 8)
          : Harness acquires Augment Code assets — Cosmos Software Factory, AI agents in CI/CD (Oct 8)
+         : Anthropic anti-cruelty policy — bans "sustained needless abuse" of Claude, effective Nov 12; ending chat is primary enforcement (Oct 8)
+         : Cursor iOS remote agent control — see and reply to running agents from phone without cloud agents (Oct 6)
          : Cursor drops to 15 — 42nd consecutive day of decline, OpenAI shutoff D-35 (Oct 8)
          : GH Copilot rises to 23 — overtakes Cursor, recovery streak continues (Oct 8)
          : Anthropic IPO D-6 — pre-IPO investor day Oct 14, $2T valuation (Oct 8)
@@ -3322,6 +3324,8 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/08 | **Copilot hybrid local/cloud AI switching announced** — automatic switching between local and cloud models on Windows coming soon | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI discloses CCI attack on Copilot CLI** — encrypted prompt injection exfiltrates local files; GitHub disputes severity | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness acquires Augment Code assets** — launches Cosmos Software Factory; AI coding agents integrated into CI/CD pipelines | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |
+| 2026/10/08 | **Anthropic anti-cruelty policy** — usage policy updated to ban "sustained and needless abusive or cruel behavior" toward Claude; effective Nov 12; ending the conversation is primary enforcement; brief frustration and pushback explicitly excluded | [macrumors.com](https://macrumors.com/2026/10/08/anthropic-user-guideline-update/) |
+| 2026/10/06 | **Cursor iOS remote agent control** — see and reply to running agents from phone; works without cloud agents; on by default for most users except Enterprise | [cursor.com](https://cursor.com/changelog) |
 | 2026/10/09 | **GPT-5.5 retirement D-5** — removed from ChatGPT, Work, Codex on Oct 14; API access unaffected; Codex users on ChatGPT login must migrate to GPT-5.6 Sol | [letsdatascience.com](https://letsdatascience.com/news/openai-retires-gpt-55-from-chatgpt-and-codex-1a6f69be) |
 | 2026/10/09 | **GPT-6.1 Sol expanding** — rolling out in ChatGPT Work and Codex; Pro users first; Plus/Business/Enterprise/Edu expansion within weeks | [releasebot.io](https://releasebot.io/updates/openai/codex) |
 | 2026/10/09 | **Codex CLI v0.160.1** — remote MCP environment handling fix for Windows-hosted launches; preserves SYSTEMROOT, TEMP, TMP | [releasebot.io](https://releasebot.io/updates/openai/codex) |

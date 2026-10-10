@@ -1557,10 +1557,12 @@ timeline
          : GH Copilot rises to 25 — 12-point lead over Cursor (Oct 9)
          : Anthropic IPO D-5 — pre-IPO investor day Oct 14, $2T valuation (Oct 9)
          : Gemini CLI shutdown Day 114 — consumer access closed (Oct 9)
+         : Codex CLI rust-v0.161.0 — GPT-6.1 Sol default, /mcp login from terminal, voice mic/speaker customization, Daybreak opt-in (Oct 7)
          : GPT-5.5 retirement D-4 — ChatGPT/Work/Codex removal Oct 14 (Oct 10)
-         : Anthropic IPO D-4 — pre-IPO investor day Oct 14, $2T valuation (Oct 10)
+         : Anthropic IPO D-4 — pre-IPO investor day Oct 14, $965B→$2T valuation, $65B Series H, SEC filed Jun 1 (Oct 10)
          : Cursor drops to 11 — 44th consecutive day of decline, OpenAI shutoff D-33 (Oct 10)
          : GH Copilot rises to 27 — 16-point lead over Cursor, Oct 19 deprecation D-9 (Oct 10)
+         : Copilot CLI v1.0.93 — universal sandboxing, environment picker, certificate management (Oct 7)
          : Gemini CLI shutdown Day 115 — consumer access closed (Oct 10)
 ```
 

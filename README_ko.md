@@ -1557,10 +1557,12 @@ timeline
          : GH Copilot 25로 상승 — Cursor에 12점 리드 (10/9)
          : Anthropic IPO D-5 — 프리IPO 투자자 데이 10/14, $2조 밸류에이션 (10/9)
          : Gemini CLI 폐쇄 114일째 — 소비자 접근 차단 (10/9)
+         : Codex CLI rust-v0.161.0 — GPT-6.1 Sol 기본, /mcp login 터미널 인증, 음성 마이크·스피커 커스텀, Daybreak 옵트인 (10/7)
          : GPT-5.5 퇴역 D-4 — ChatGPT/Work/Codex 10/14 제거 (10/10)
-         : Anthropic IPO D-4 — 프리IPO 투자자 데이 10/14, $2조 밸류에이션 (10/10)
+         : Anthropic IPO D-4 — 프리IPO 투자자 데이 10/14, $965B→$2T 밸류에이션, $65B Series H, SEC 6/1 제출 (10/10)
          : Cursor 11로 44일 연속 하락, OpenAI 셧오프 D-33 (10/10)
          : GH Copilot 27로 상승 — Cursor에 16점 리드, 10/19 퇴역 웨이브 D-9 (10/10)
+         : Copilot CLI v1.0.93 — 전면 샌드박싱, 환경 피커, 인증서 관리 (10/7)
          : Gemini CLI 폐쇄 115일째 — 소비자 접근 차단 (10/10)
 ```
 

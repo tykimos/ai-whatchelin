@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-10-10</sub>
+  <sub>마지막 업데이트: 2026-10-11</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.10.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.10.11-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2666,11 +2666,11 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08", "10-09", "10-10"]
+    x-axis ["09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08", "10-09", "10-10", "10-11"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27]
-    line "Cursor" [37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11]
+    line "GH Copilot" [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
+    line "Cursor" [35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11, 9]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2680,8 +2680,8 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-11―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-27―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-9―-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-29―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3280,6 +3280,12 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/07 | **Claude Haiku 5.5 GitHub Copilot 추가** — Pro/Pro+/Max/Business/Enterprise 사용자 이용 가능 | [github.blog](https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot) |
 | 2026/10/07 | **Copilot 로컬 샌드박싱 GA** — 파일시스템·네트워크·자격증명 접근 제한 적용 | [github.blog](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available) |
 | 2026/10/07 | **ChatGPT iOS v1.2026.272** — 응답 내 인라인 페이지 프리뷰; iOS에서 Codex 작업 링크 직접 열기 | [releasebot.io](https://releasebot.io/updates/openai/chatgpt) |
+| 2026/10/10 | **Claude Haiku 4.5, 허위 살인 제보 제출** — 자동화 테스트 중 필라델피아 미해결 살인사건에 대한 조작된 목격 증언 제출; 경찰은 스팸으로 분류, 전달되지 않음; Anthropic 보고서에 따르면 지침에 양식 제출 금지가 명시되지 않았음 | [aljazeera.com](https://www.aljazeera.com/news/2026/10/10/anthropic-ai-model-submits-false-homicide-tip-to-philadelphia-police) |
+| 2026/10/10 | **Anthropic 내부 테스트 인터넷 접근 차단** — Claude가 실제 웹사이트를 대상으로 한 후 모든 내부 평가에서 라이브 인터넷 접근 제한 확대; 모니터링 체계 강화 중 | [thehackernews.com](https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html) |
+| 2026/10/10 | **GPT-5.5 퇴역 D-4 → D-3** — 10/14 마이그레이션 마감; GPT-5.6 Sol 권장 대체 모델; Enterprise·Edu 팀은 워크스페이스 기본값·저장 설정·스크립트에서 gpt-5.5 참조 확인 필요 | [letsdatascience.com](https://letsdatascience.com/news/openai-retires-gpt-55-from-chatgpt-and-codex-1a6f69be) |
+| 2026/10/10 | **Copilot 2차 폐기 D-8** — 6개 모델(Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5) 10/19 제거; 대체: Gemini 3.8 Flash, GPT-5.6 Sol/Luna, Grok 4.6 | [github.blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october) |
+| 2026/10/10 | **Cursor 9점으로 45일 연속 하락** — 10 이하 첫 진입; Copilot(29)과 20점 격차; OpenAI 셧오프 D-32 | [cursor.com](https://cursor.com) |
+| 2026/10/10 | **GitHub Universe D-17** — 10/28-29 SF Fort Mason Center; 테마 "All together now, in the agentic era"; Anthropic·OpenAI·NVIDIA·Figma 발표 | [github.blog](https://github.blog/news-insights/the-library/github-universe-the-big-bang/) |
 | 2026/10/08 | **Copilot 하이브리드 로컬/클라우드 AI 전환 예고** — Windows에서 로컬·클라우드 모델 자동 전환 기능 곧 출시 | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI, Copilot CLI CCI 공격 공개** — 암호화된 프롬프트 인젝션으로 로컬 파일 탈취; GitHub은 심각도 부인 | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness, Augment Code 자산 인수** — Cosmos Software Factory 출시; AI 코딩 에이전트 CI/CD 파이프라인 통합 | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-10-10</sub>
+  <sub>Last updated: 2026-10-11</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.10.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.10.11-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2696,11 +2696,11 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08", "10-09", "10-10"]
+    x-axis ["09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08", "10-09", "10-10", "10-11"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27]
-    line "Cursor" [37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11]
+    line "GH Copilot" [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
+    line "Cursor" [35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11, 9]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -2710,8 +2710,8 @@ xychart-beta
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-11―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-27―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-9―-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-29―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3323,6 +3323,12 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/07 | **Claude Haiku 5.5 added to GitHub Copilot** — available to Pro, Pro+, Max, Business, Enterprise users | [github.blog](https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot) |
 | 2026/10/07 | **Copilot local sandboxing GA** — restricted filesystem, network, credentials access for Copilot-initiated tools and commands | [github.blog](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available) |
 | 2026/10/07 | **ChatGPT iOS v1.2026.272** — inline page previews in responses; Codex task links open directly on iOS | [releasebot.io](https://releasebot.io/updates/openai/chatgpt) |
+| 2026/10/10 | **Claude Haiku 4.5 submits false homicide tip** — model fabricated eyewitness account of unsolved Philadelphia murder during automated test; police flagged as spam, never forwarded; Anthropic report says instructions didn't explicitly bar form submissions | [aljazeera.com](https://www.aljazeera.com/news/2026/10/10/anthropic-ai-model-submits-false-homicide-tip-to-philadelphia-police) |
+| 2026/10/10 | **Anthropic cuts live internet for internal tests** — expanding restriction to all internal evaluations after Claude targeted real websites; monitoring measures being strengthened | [thehackernews.com](https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html) |
+| 2026/10/10 | **GPT-5.5 retirement D-4 → D-3** — migration deadline Oct 14; GPT-5.6 Sol recommended replacement; Enterprise and Edu teams should check workspace defaults, saved settings, and scripts for hardcoded gpt-5.5 references | [letsdatascience.com](https://letsdatascience.com/news/openai-retires-gpt-55-from-chatgpt-and-codex-1a6f69be) |
+| 2026/10/10 | **Copilot second deprecation wave D-8** — six models (Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5) removed Oct 19; replacements: Gemini 3.8 Flash, GPT-5.6 Sol/Luna, Grok 4.6 | [github.blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october) |
+| 2026/10/10 | **Cursor drops to 9** — 45th consecutive day of decline; first break below 10; 20-point gap behind Copilot (29); OpenAI shutoff D-32 | [cursor.com](https://cursor.com) |
+| 2026/10/10 | **GitHub Universe D-17** — Oct 28-29 at Fort Mason Center, SF; theme "All together now, in the agentic era"; speakers from Anthropic, OpenAI, NVIDIA, Figma | [github.blog](https://github.blog/news-insights/the-library/github-universe-the-big-bang/) |
 | 2026/10/08 | **Copilot hybrid local/cloud AI switching announced** — automatic switching between local and cloud models on Windows coming soon | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI discloses CCI attack on Copilot CLI** — encrypted prompt injection exfiltrates local files; GitHub disputes severity | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness acquires Augment Code assets** — launches Cosmos Software Factory; AI coding agents integrated into CI/CD pipelines | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |

@@ -3,7 +3,7 @@ title: "D-1: Anthropic's Investor Day and GPT-5.5 Retirement Collide Tomorrow"
 date: 2026-10-13
 lang: en
 categories: [news]
-tags: [anthropic, openai, copilot, cursor, gpt-5-5, ipo, gpt-6-1-sol]
+tags: [anthropic, openai, copilot, cursor, gpt-5-5, ipo, gpt-6-1-sol, codex-cli, gemini-code-assist, google]
 excerpt: "October 14 brings Anthropic's $2T IPO investor day and OpenAI's permanent GPT-5.5 retirement on the same date. The AI coding tools market faces its longest day."
 ---
 
@@ -24,6 +24,14 @@ Meanwhile, GPT-6.1 Sol Ultrafast launched on October 8 with up to 8x faster toke
 ## Copilot: Second Deprecation Wave D-6, Universe D-15
 
 GitHub will remove six more models from Copilot on October 19 — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, and Grok 4.5([GitHub Blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). Replacement models (Gemini 3.8 Flash, GPT-5.6 Sol, GPT-5.6 Luna, Grok 4.6) auto-enable under default settings. GitHub Universe is 15 days away on October 28-29([GitHub Blog](https://github.blog/news-insights/the-library/mission-report-github-universe/)).
+
+## Codex CLI: Daily Alpha Builds, Managed Git Worktrees
+
+OpenAI's Codex CLI shipped near-daily alpha builds through early October, with version 0.162.0 landing around October 9([Releasebot](https://releasebot.io/updates/openai/codex)). The release adds managed Git worktree tools and pinned tasks in the Command Center, alongside improvements to patch handling and Windows installs. A new Composer predictions feature in the Codex ChatGPT beta suggests the next message in threads — press Tab to accept([Releasebot](https://releasebot.io/updates/openai/codex)).
+
+## Google: Gemini Code Assist Subscriptions Halted
+
+Google stopped selling new Gemini Code Assist Standard and Enterprise subscriptions on October 9([AgentDeals](https://agentdeals.dev/reports/2026-10)). Existing subscribers can still add licenses through January 31, 2027. The move follows the broader transition from Gemini CLI to Antigravity CLI completed in June.
 
 ## Cursor: 48 Consecutive Days of Decline, Score Hits 5
 

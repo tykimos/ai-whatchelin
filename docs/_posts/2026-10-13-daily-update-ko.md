@@ -3,7 +3,7 @@ title: "D-1: 내일 Anthropic 투자자 데이와 GPT-5.5 퇴역이 동시에 �
 date: 2026-10-13
 lang: ko
 categories: [news]
-tags: [anthropic, openai, copilot, cursor, gpt-5-5, ipo, gpt-6-1-sol]
+tags: [anthropic, openai, copilot, cursor, gpt-5-5, ipo, gpt-6-1-sol, codex-cli, gemini-code-assist, google]
 excerpt: "10월 14일, Anthropic은 2조 달러 IPO를 위해 투자자를 만나고, OpenAI는 GPT-5.5를 영구 퇴역시킨다. AI 코딩 도구 시장의 가장 긴 하루가 시작된다."
 ---
 
@@ -24,6 +24,14 @@ GPT-5.5가 내일 ChatGPT, ChatGPT Work, Codex에서 완전히 제거된다([Let
 ## Copilot: 2차 모델 정리 D-6, Universe D-15
 
 GitHub은 10월 19일에 6개 모델을 추가로 Copilot에서 제거한다 — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5([GitHub Blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). 대체 모델(Gemini 3.8 Flash, GPT-5.6 Sol, GPT-5.6 Luna, Grok 4.6)은 기본 설정에서 자동 활성화된다. GitHub Universe는 10월 28-29일, 15일 남았다([GitHub Blog](https://github.blog/news-insights/the-library/mission-report-github-universe/)).
+
+## Codex CLI: 일일 알파 빌드, 관리형 Git 워크트리 추가
+
+OpenAI의 Codex CLI가 10월 초 거의 매일 알파 빌드를 출시하며, 0.162.0 버전이 10월 9일경 랜딩했다([Releasebot](https://releasebot.io/updates/openai/codex)). 관리형 Git 워크트리 도구, Command Center 고정 작업, 패치 처리 및 Windows 설치 개선이 포함됐다. Codex ChatGPT 베타에서는 Composer 예측 기능이 스레드의 다음 메시지를 제안하며, Tab 키로 수락할 수 있다([Releasebot](https://releasebot.io/updates/openai/codex)).
+
+## Google: Gemini Code Assist 신규 구독 중단
+
+Google이 10월 9일부터 Gemini Code Assist Standard 및 Enterprise 신규 구독 판매를 중단했다([AgentDeals](https://agentdeals.dev/reports/2026-10)). 기존 구독자는 2027년 1월 31일까지 라이선스를 추가할 수 있다. 이는 6월에 완료된 Gemini CLI에서 Antigravity CLI로의 전환에 이어진 조치다.
 
 ## Cursor: 48일 연속 하락, 점수 5
 

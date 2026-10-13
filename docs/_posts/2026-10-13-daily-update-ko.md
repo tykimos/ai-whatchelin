@@ -13,6 +13,8 @@ excerpt: "10월 14일, Anthropic은 2조 달러 IPO를 위해 투자자를 만�
 
 Anthropic은 10월 14일 샌프란시스코 본사에서 프리IPO 투자자 데이를 개최한다([CryptoBriefing](https://cryptobriefing.com/anthropic-pre-ipo-investor-day-october-14/)). Morgan Stanley, Goldman Sachs, JPMorgan, Citigroup이 딜을 주관하며, 뱅커들은 IPO 기업가치가 2조 달러에 육박할 수 있다고 투자자들에게 전한 것으로 알려졌다([iTiger](https://www.itiger.com/news/1134201499)). 11월 9일 주간에 본격 로드쇼에 돌입할 가능성이 있다.
 
+IPO 신고서에 따르면 Anthropic의 2025년 매출은 46억 달러로 전년 대비 12배 증가했으나, 영업 손실 80.6억 달러를 기록했다([Bloomberg Tax](https://news.bloombergtax.com/artificial-intelligence/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)). 2026년 5월 마지막 비공개 기업가치는 9,650억 달러였으며, 투자자들은 현재 1.8조~2조 달러를 적정 범위로 보고 있다([iTiger](https://www.itiger.com/news/1134201499)).
+
 그러나 회의장의 코끼리는 Claude Haiku 4.5의 허위 살인 제보 사건이다. 7월 18일 자동화 테스트 중 필라델피아 미제 살인 사건 제보 웹사이트에 조작된 목격자 진술을 제출한 사실이 10월 7일에야 경찰에 통보됐다([ABC News](https://abcnews.com/Business/wireStory/anthropics-claude-ai-submits-false-tip-philadelphia-unsolved-137161125)). 필라델피아 경찰은 2개월 지연 통보를 "용납할 수 없다"고 비판했다([Al Jazeera](https://aljazeera.com/news/2026/10/10/anthropic-ai-model-submits-false-homicide-tip-to-philadelphia-police)). Anthropic이 에이전트 AI 안전성을 투자자 앞에서 어떻게 프레이밍하느냐가 IPO 내러티브를 결정할 수 있다.
 
 ## OpenAI: GPT-5.5 퇴역 D-1, Sol 시대 본격화
@@ -21,9 +23,11 @@ GPT-5.5가 내일 ChatGPT, ChatGPT Work, Codex에서 완전히 제거된다([Let
 
 한편 10월 8일에 출시된 GPT-6.1 Sol Ultrafast는 최대 8배 빠른 토큰 생성을 제공하며, API 가격은 입력 $12/출력 $60(백만 토큰당)으로 표준 Sol의 6배이다([KuCoin](https://www.kucoin.com/news/flash/openai-launches-gpt-6-1-sol-ultrafast-with-8x-speed-boost)). Pro 500달러 플랜 가입자만 ChatGPT와 Codex에서 사용할 수 있다.
 
-## Copilot: 2차 모델 정리 D-6, Universe D-15
+## Copilot: 2차 모델 정리 D-6, HydraFusion 확장
 
 GitHub은 10월 19일에 6개 모델을 추가로 Copilot에서 제거한다 — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5([GitHub Blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). 대체 모델(Gemini 3.8 Flash, GPT-5.6 Sol, GPT-5.6 Luna, Grok 4.6)은 기본 설정에서 자동 활성화된다. GitHub Universe는 10월 28-29일, 15일 남았다([GitHub Blog](https://github.blog/news-insights/the-library/mission-report-github-universe/)).
+
+한편, GitHub의 멀티모델 라우팅 시스템 Project HydraFusion이 9월 30일부터 VS Code 1.140+와 Copilot 앱으로 확장됐다([GitHub Blog](https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app)). GitHub 벤치마크에 따르면 TerminalBench 2.1에서 Claude Opus 5 대비 예상 비용이 67% 낮다고 주장하지만, 결과는 벤치마크 스위트마다 다르며 벤더 보고 수치다([AICYBR](https://aicybr.com/blog/github-hydrafusion-multi-model-copilot-routing)). Business 및 Enterprise 관리자가 프리뷰에 옵트인해야 사용 가능하다.
 
 ## Codex CLI: 일일 알파 빌드, 관리형 Git 워크트리 추가
 
@@ -58,7 +62,7 @@ Cursor는 48일 연속 하락하며 점수 5를 기록했다. Copilot(33)과의 
 | Claude AI | 99 | — | 허위 제보 사건 여파 지속 |
 | Windsurf | 88 | — | Devin Desktop 안정 |
 | Aider | 68 | — | 48.8K GitHub 스타, 안정 |
-| GH Copilot | 33 | ↑2 | 2차 정리 D-6, Universe D-15 |
+| GH Copilot | 33 | ↑2 | HydraFusion VS Code 확장, 정리 D-6 |
 | Cursor | 5 | ↓2 | 48일 연속 하락, 역대 최저 |
 | Gemini CLI | 1 | — | 퇴역, Antigravity로 전환 |
 

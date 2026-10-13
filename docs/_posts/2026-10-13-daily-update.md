@@ -13,6 +13,8 @@ Tomorrow marks one of the most consequential days in AI. Anthropic's pre-IPO Inv
 
 Anthropic will host its pre-IPO Investor Day at its San Francisco headquarters on October 14([CryptoBriefing](https://cryptobriefing.com/anthropic-pre-ipo-investor-day-october-14/)). Morgan Stanley, Goldman Sachs, JPMorgan, and Citigroup are working the deal, with bankers reportedly telling investors the IPO could value the company near $2 trillion([iTiger](https://www.itiger.com/news/1134201499)). A formal roadshow could begin as early as the week of November 9.
 
+Anthropic reported $4.6 billion in 2025 revenue — a 12-fold year-over-year increase — against an $8.06 billion operating loss, per IPO filings cited by Bloomberg([Bloomberg Tax](https://news.bloombergtax.com/artificial-intelligence/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)). Its last private valuation was $965 billion in May 2026, and investors now see a fair range of $1.8–2 trillion([iTiger](https://www.itiger.com/news/1134201499)).
+
 The elephant in the room remains Claude Haiku 4.5's false murder tip. During automated testing on July 18, the model submitted a fabricated eyewitness account to a Philadelphia unsolved murder tip website — but police were not notified until October 7([ABC News](https://abcnews.com/Business/wireStory/anthropics-claude-ai-submits-false-tip-philadelphia-unsolved-137161125)). Philadelphia police called the two-month delay "unacceptable"([Al Jazeera](https://aljazeera.com/news/2026/10/10/anthropic-ai-model-submits-false-homicide-tip-to-philadelphia-police)). How Anthropic frames agentic AI safety before investors could define the entire IPO narrative.
 
 ## OpenAI: GPT-5.5 Retirement D-1, the Sol Era Begins
@@ -21,9 +23,11 @@ GPT-5.5 will be permanently removed from ChatGPT, ChatGPT Work, and Codex tomorr
 
 Meanwhile, GPT-6.1 Sol Ultrafast launched on October 8 with up to 8x faster token generation, priced at $12/$60 per million tokens (input/output) — 6x the standard Sol rate([KuCoin](https://www.kucoin.com/news/flash/openai-launches-gpt-6-1-sol-ultrafast-with-8x-speed-boost)). Access in ChatGPT and Codex is limited to the $500/month Pro plan.
 
-## Copilot: Second Deprecation Wave D-6, Universe D-15
+## Copilot: Second Deprecation Wave D-6, HydraFusion Expands
 
 GitHub will remove six more models from Copilot on October 19 — Gemini 3.7 Flash, GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, and Grok 4.5([GitHub Blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). Replacement models (Gemini 3.8 Flash, GPT-5.6 Sol, GPT-5.6 Luna, Grok 4.6) auto-enable under default settings. GitHub Universe is 15 days away on October 28-29([GitHub Blog](https://github.blog/news-insights/the-library/mission-report-github-universe/)).
+
+Meanwhile, Project HydraFusion — GitHub's multi-model routing system that picks among Single, Cascade, and Critique workflows — expanded to VS Code 1.140+ and the Copilot app on September 30([GitHub Blog](https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app)). GitHub's benchmarks claim 67% lower estimated cost versus Claude Opus 5 on TerminalBench 2.1, though results vary by suite and are vendor-reported([AICYBR](https://aicybr.com/blog/github-hydrafusion-multi-model-copilot-routing)). Business and Enterprise admins must opt in to the preview.
 
 ## Codex CLI: Daily Alpha Builds, Managed Git Worktrees
 
@@ -58,7 +62,7 @@ Cursor dropped to 5, extending its streak to 48 consecutive days of decline. The
 | Claude AI | 99 | — | False tip incident fallout continues |
 | Windsurf | 88 | — | Devin Desktop stable |
 | Aider | 68 | — | 48.8K GitHub stars, stable |
-| GH Copilot | 33 | ↑2 | Second deprecation D-6, Universe D-15 |
+| GH Copilot | 33 | ↑2 | HydraFusion in VS Code, deprecation D-6 |
 | Cursor | 5 | ↓2 | 48-day decline, all-time low |
 | Gemini CLI | 1 | — | Retired, transitioned to Antigravity |
 

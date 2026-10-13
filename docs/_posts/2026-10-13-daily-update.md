@@ -29,9 +29,19 @@ GitHub will remove six more models from Copilot on October 19 — Gemini 3.7 Fla
 
 OpenAI's Codex CLI shipped near-daily alpha builds through early October, with version 0.162.0 landing around October 9([Releasebot](https://releasebot.io/updates/openai/codex)). The release adds managed Git worktree tools and pinned tasks in the Command Center, alongside improvements to patch handling and Windows installs. A new Composer predictions feature in the Codex ChatGPT beta suggests the next message in threads — press Tab to accept([Releasebot](https://releasebot.io/updates/openai/codex)).
 
-## Google: Gemini Code Assist Subscriptions Halted
+## Google: Gemini Code Assist Subscriptions Halted, Gems Disabled Today
 
 Google stopped selling new Gemini Code Assist Standard and Enterprise subscriptions on October 9([AgentDeals](https://agentdeals.dev/reports/2026-10)). Existing subscribers can still add licenses through January 31, 2027. The move follows the broader transition from Gemini CLI to Antigravity CLI completed in June.
+
+Separately, Gemini Gems creation and editing was disabled today, October 13([TechCrunch](https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/)). Auto-migration to Skills happens November 17, switching to slash-command invocation.
+
+## ChatGPT: GPT-6 Intelligent UI Fully Deployed
+
+The GPT-6 Intelligent UI rollout that began October 7 is now fully deployed across all ChatGPT tiers — paid plans run on GPT-6 Sol, Free and Go on GPT-6 Luna([Let's Data Science](https://letsdatascience.com/news/openai-brings-gpt-6-and-intelligent-ui-to-chatgpt-4f0d797c)). Responses can now include interactive charts, forms, calculators, and side-by-side comparisons alongside text([VKTR](https://www.vktr.com/ai-platforms/openai-brings-gpt6-to-all-chatgpt-users-with-interactive-intelligent-ui/)).
+
+## Claude Code: v2.1.294, Haiku 5.5 Now Default
+
+Claude Code v2.1.293 (Oct 7) switched to Claude Haiku 5.5 with a 1M context window as the default model([Havoptic](https://www.havoptic.com/releases/claude-code/2026/10)). v2.1.292 (Oct 6) added direct plugin marketplace installs and sub-agent effort controls. v2.1.294 (Oct 8) fixed instruction-based hook blocking rules.
 
 ## Cursor: 48 Consecutive Days of Decline, Score Hits 5
 

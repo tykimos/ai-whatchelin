@@ -1571,6 +1571,23 @@ timeline
          : Cursor 9로 46일 연속 하락, 한 자릿수 첫 진입, OpenAI 셧오프 D-32 (10/11)
          : GH Copilot 29로 상승 — Cursor에 20점 리드, 10/19 퇴역 웨이브 D-8 (10/11)
          : Gemini CLI 폐쇄 116일째 — 소비자 접근 차단 (10/11)
+         : GPT-6 Intelligent UI 롤아웃 — GPT-6 Sol(유료) / Luna(Free/Go) ChatGPT 기본 모델 전환, 인터랙티브 차트·폼·계산기 응답 (10/7)
+         : Claude Code v2.1.293 — Claude Haiku 5.5(1M 컨텍스트) 기본값 전환 (10/7)
+         : GPT-6 Intelligent UI Free/Go 확대 — 주간 12억 ChatGPT 사용자 대상 (10/8)
+         : Claude Code v2.1.294 — 인스트럭션 기반 훅 차단 규칙 수정 (10/8)
+         : Gemini Code Assist 신규 구독 중단 — Standard/Enterprise 신규 판매 중지, 기존 고객 2027/1/31까지 라이선스 추가 가능 (10/9)
+         : Codex CLI v0.162.0 — 관리형 Git 워크트리, Command Center 고정 작업, Composer 예측 (10/9)
+         : GPT-5.5 퇴역 D-2 — ChatGPT/Work/Codex 10/14 제거 (10/12)
+         : Anthropic IPO D-2 — 투자자 데이 10/14, 허위 제보 여파 심화 (10/12)
+         : Cursor 7로 47일 연속 하락 (10/12)
+         : GH Copilot 31로 상승 — Cursor에 24점 리드 (10/12)
+         : Gemini CLI 폐쇄 117일째 — 소비자 접근 차단 (10/12)
+         : GPT-5.5 퇴역 D-1 — 마지막 날, 내일 ChatGPT/Work/Codex에서 제거 (10/13)
+         : Anthropic IPO D-1 — 내일 투자자 데이, $2조 밸류에이션, 허위 제보 그림자 (10/13)
+         : Cursor 5로 48일 연속 하락, 역대 최저 (10/13)
+         : GH Copilot 33으로 상승 — Cursor에 28점 리드, 추세선 교차 (10/13)
+         : Google Gemini Gems 비활성화 — 생성/편집 중단, 11/17 Skills로 자동 마이그레이션 (10/13)
+         : Gemini CLI 폐쇄 118일째 — 소비자 접근 차단 (10/13)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

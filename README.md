@@ -1571,6 +1571,23 @@ timeline
          : Cursor drops to 9 — 46th consecutive day of decline, first single-digit score, OpenAI shutoff D-32 (Oct 11)
          : GH Copilot rises to 29 — 20-point lead over Cursor, Oct 19 deprecation D-8 (Oct 11)
          : Gemini CLI shutdown Day 116 — consumer access closed (Oct 11)
+         : GPT-6 Intelligent UI rollout — GPT-6 Sol (paid) / Luna (Free/Go) become ChatGPT defaults, interactive charts, forms, calculators in responses (Oct 7)
+         : Claude Code v2.1.293 — defaults to Claude Haiku 5.5 with 1M context window (Oct 7)
+         : GPT-6 Intelligent UI reaches Free/Go tiers — 1.2B weekly ChatGPT users (Oct 8)
+         : Claude Code v2.1.294 — instruction-based hook blocking rules fix (Oct 8)
+         : Gemini Code Assist subscriptions halted — new Standard/Enterprise sales stopped, existing customers add licenses through Jan 31 2027 (Oct 9)
+         : Codex CLI v0.162.0 — managed Git worktrees, pinned Command Center tasks, Composer predictions (Oct 9)
+         : GPT-5.5 retirement D-2 — ChatGPT/Work/Codex removal Oct 14 (Oct 12)
+         : Anthropic IPO D-2 — investor day Oct 14, false tip fallout deepens (Oct 12)
+         : Cursor drops to 7 — 47th consecutive day of decline (Oct 12)
+         : GH Copilot rises to 31 — 24-point lead over Cursor (Oct 12)
+         : Gemini CLI shutdown Day 117 — consumer access closed (Oct 12)
+         : GPT-5.5 retirement D-1 — final day, removal from ChatGPT/Work/Codex tomorrow (Oct 13)
+         : Anthropic IPO D-1 — investor day tomorrow, $2T valuation, false tip shadow looms (Oct 13)
+         : Cursor drops to 5 — 48th consecutive day of decline, all-time low (Oct 13)
+         : GH Copilot rises to 33 — 28-point lead over Cursor, trendlines crossed (Oct 13)
+         : Google Gemini Gems disabled — creation/editing suspended, auto-migration to Skills Nov 17 (Oct 13)
+         : Gemini CLI shutdown Day 118 — consumer access closed (Oct 13)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

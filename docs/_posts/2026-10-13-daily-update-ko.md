@@ -29,9 +29,19 @@ GitHub은 10월 19일에 6개 모델을 추가로 Copilot에서 제거한다 —
 
 OpenAI의 Codex CLI가 10월 초 거의 매일 알파 빌드를 출시하며, 0.162.0 버전이 10월 9일경 랜딩했다([Releasebot](https://releasebot.io/updates/openai/codex)). 관리형 Git 워크트리 도구, Command Center 고정 작업, 패치 처리 및 Windows 설치 개선이 포함됐다. Codex ChatGPT 베타에서는 Composer 예측 기능이 스레드의 다음 메시지를 제안하며, Tab 키로 수락할 수 있다([Releasebot](https://releasebot.io/updates/openai/codex)).
 
-## Google: Gemini Code Assist 신규 구독 중단
+## Google: Gemini Code Assist 신규 구독 중단, Gems 오늘 비활성화
 
 Google이 10월 9일부터 Gemini Code Assist Standard 및 Enterprise 신규 구독 판매를 중단했다([AgentDeals](https://agentdeals.dev/reports/2026-10)). 기존 구독자는 2027년 1월 31일까지 라이선스를 추가할 수 있다. 이는 6월에 완료된 Gemini CLI에서 Antigravity CLI로의 전환에 이어진 조치다.
+
+별도로, Gemini Gems 생성 및 편집 기능이 오늘(10월 13일) 비활성화됐다([TechCrunch](https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/)). 11월 17일에 Skills로 자동 마이그레이션되며, 슬래시 커맨드 방식으로 전환된다.
+
+## ChatGPT: GPT-6 Intelligent UI 완전 배포 완료
+
+10월 7일부터 롤아웃된 GPT-6 Intelligent UI가 유료 및 무료(Free/Go) 전 계층에 배포 완료됐다([Let's Data Science](https://letsdatascience.com/news/openai-brings-gpt-6-and-intelligent-ui-to-chatgpt-4f0d797c)). ChatGPT 응답이 텍스트뿐 아니라 인터랙티브 차트, 폼, 계산기 등을 포함할 수 있게 됐다. 유료 플랜은 GPT-6 Sol, 무료 플랜은 GPT-6 Luna가 기본 모델이다([VKTR](https://www.vktr.com/ai-platforms/openai-brings-gpt6-to-all-chatgpt-users-with-interactive-intelligent-ui/)).
+
+## Claude Code: v2.1.294, Haiku 5.5 기본값 전환
+
+Claude Code v2.1.293(10/7)부터 Claude Haiku 5.5가 1M 컨텍스트 윈도우와 함께 기본 모델로 전환됐다([Havoptic](https://www.havoptic.com/releases/claude-code/2026/10)). v2.1.292(10/6)에서는 플러그인 마켓플레이스 직접 설치와 서브에이전트 작업 강도 조절 기능이 추가됐다. v2.1.294(10/8)에서는 인스트럭션 기반 훅 차단 규칙이 수정됐다.
 
 ## Cursor: 48일 연속 하락, 점수 5
 

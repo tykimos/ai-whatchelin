@@ -3355,6 +3355,8 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/10 | **GitHub Universe D-17** — Oct 28-29 at Fort Mason Center, SF; theme "All together now, in the agentic era"; speakers from Anthropic, OpenAI, NVIDIA, Figma | [github.blog](https://github.blog/news-insights/the-library/github-universe-the-big-bang/) |
 | 2026/10/09 | **GPT-6.1 Sol Ultrafast launched** — up to 8x speed boost (~300 tok/sec), $12/$60/MTok (6x standard), available to Pro 500, eligible Enterprise, credit-based Edu in Codex and ChatGPT Work; API access for developers | [kucoin.com](https://www.kucoin.com/news/flash/openai-launches-gpt-6-1-sol-ultrafast-with-8x-speed-boost) |
 | 2026/10/11 | **Philadelphia police call Anthropic's 2-month delay "unacceptable"** — tip submitted Jul 18, Anthropic found error Sep 28, notified police Oct 7; Pennsylvania false police report is a misdemeanor | [inquirer.com](https://www.inquirer.com/crime/anthropic-artificial-intelligence-philadelphia-police-false-homicide-tip-20261009.html) |
+| 2026/10/14 | **Anthropic Investor Day: Q3 revenue $16.8B disclosed** — 46% QoQ growth from $11.5B in Q2; second consecutive quarter of positive adjusted operating income expected; formal roadshow may begin week of Nov 9; IPO could list before Thanksgiving | [Yahoo Finance](https://finance.yahoo.com/technology/article/anthropic-q3-revenue-climbs-to-168-billion-report-221619202.html) |
+| 2026/10/14 | **GPT-5.5 permanently retired** — removed from ChatGPT, ChatGPT Work, and Codex; API access remains; Codex users on ChatGPT login must migrate to gpt-5.6-sol | [businesstoday.in](https://www.businesstoday.in/technology/artificial-intelligence/story/openai-to-retire-gpt-5-5-from-chatgpt-work-and-codex-on-october-14-what-changes-to-expect-555782-2026-09-16) |
 | 2026/10/08 | **Copilot hybrid local/cloud AI switching announced** — automatic switching between local and cloud models on Windows coming soon | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI discloses CCI attack on Copilot CLI** — encrypted prompt injection exfiltrates local files; GitHub disputes severity | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness acquires Augment Code assets** — launches Cosmos Software Factory; AI coding agents integrated into CI/CD pipelines | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |
@@ -3915,7 +3917,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.10.10-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.10.14-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

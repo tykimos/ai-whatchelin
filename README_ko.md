@@ -3312,6 +3312,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/10 | **GitHub Universe D-17** — 10/28-29 SF Fort Mason Center; 테마 "All together now, in the agentic era"; Anthropic·OpenAI·NVIDIA·Figma 발표 | [github.blog](https://github.blog/news-insights/the-library/github-universe-the-big-bang/) |
 | 2026/10/09 | **GPT-6.1 Sol Ultrafast 출시** — 최대 8배 속도(~300 tok/sec), $12/$60/MTok(표준의 6배), Pro 500·Enterprise·크레딧 Edu 대상 Codex·ChatGPT Work 제공; 개발자 API 접근 가능 | [kucoin.com](https://www.kucoin.com/news/flash/openai-launches-gpt-6-1-sol-ultrafast-with-8x-speed-boost) |
 | 2026/10/11 | **필라델피아 경찰, Anthropic 2개월 지연 "용납 불가"** — 7/18 제보 제출, Anthropic 9/28 오류 발견, 10/7 경찰 통보; 펜실베이니아주 허위 경찰 신고는 경범죄 | [inquirer.com](https://www.inquirer.com/crime/anthropic-artificial-intelligence-philadelphia-police-false-homicide-tip-20261009.html) |
+| 2026/10/14 | **Anthropic 투자자 데이: Q3 매출 $168억 공개** — Q2 $115억 대비 46% QoQ 성장; 2분기 연속 조정 영업이익 흑자 전환 예상; 공식 로드쇼 11/9 주간 시작 가능; 상장은 추수감사절 전까지 | [Yahoo Finance](https://finance.yahoo.com/technology/article/anthropic-q3-revenue-climbs-to-168-billion-report-221619202.html) |
+| 2026/10/14 | **GPT-5.5 완전 퇴역** — ChatGPT·ChatGPT Work·Codex에서 영구 제거; API 접근 유지; ChatGPT 로그인 Codex 사용자는 gpt-5.6-sol로 마이그레이션 필요 | [businesstoday.in](https://www.businesstoday.in/technology/artificial-intelligence/story/openai-to-retire-gpt-5-5-from-chatgpt-work-and-codex-on-october-14-what-changes-to-expect-555782-2026-09-16) |
 | 2026/10/08 | **Copilot 하이브리드 로컬/클라우드 AI 전환 예고** — Windows에서 로컬·클라우드 모델 자동 전환 기능 곧 출시 | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI, Copilot CLI CCI 공격 공개** — 암호화된 프롬프트 인젝션으로 로컬 파일 탈취; GitHub은 심각도 부인 | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness, Augment Code 자산 인수** — Cosmos Software Factory 출시; AI 코딩 에이전트 CI/CD 파이프라인 통합 | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |
@@ -3883,7 +3885,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.10.10-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.10.14-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

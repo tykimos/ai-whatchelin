@@ -21,9 +21,9 @@ Cursor hit 1, the absolute floor, on its 51st consecutive day of decline. The fr
 
 Anthropic hosted institutional investors at its SF headquarters on October 14 for a pre-IPO investor day([Crypto Briefing](https://cryptobriefing.com/anthropic-targets-november-ipo-delay/)). Morgan Stanley, Goldman Sachs, JPMorgan, and Citi are leading the underwriting, and the formal roadshow is expected to begin the week of November 9([Implicator](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/)). The target valuation is $1.8–2 trillion, roughly double the $965B Series H round from May. A pre-Thanksgiving debut is the goal, though the timeline remains fluid.
 
-## Codex CLI: Daily Improvement Sprint Day 12
+## Codex CLI: GPT-6.1 Sol Stabilizing, But Three Outages This Month
 
-Codex CLI's daily improvement sprint enters day 12([Havoptic](https://www.havoptic.com/releases/openai-codex/2026/10)). Since v0.161.0 (Oct 7) switched to GPT-6.1 Sol as the default model, patches through v0.162.1 (Oct 9) have fixed TUI crashes and startup failures. UX improvements include clickable URLs, task pinning, and git worktree management.
+Codex CLI's daily improvement sprint enters day 12([Havoptic](https://www.havoptic.com/releases/openai-codex/2026/10)). Since v0.161.0 (Oct 7) switched to GPT-6.1 Sol as the default model, patches through v0.162.1 (Oct 9) have fixed TUI crashes and startup failures. However, GPT-6.1 Sol-based Codex and Work mode experienced ~8.5 hours of degraded performance on October 13([IsDown](https://isdown.app/status/openai/incidents/669200-degraded-performance-in-gpt-6-1-sol-work-mode)), followed by ~3 hours of elevated error rates on October 14([IsDown](https://isdown.app/status/openai/incidents/669750-degraded-performance-in-codex-and-chatgpt-work)). Including the Oct 7 thread-creation outage, that makes three incidents this month alone. Post-GPT-6.1-Sol stability is emerging as a key concern.
 
 ## Claude Code: Haiku 5.5 Default Stabilizing
 
@@ -35,7 +35,7 @@ Claude Code v2.1.296 (Oct 9) is the latest release, adding Desktop-gateway setti
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-Live-1.1 stable |
 | Claude Code | 99 | — | Haiku 5.5 default stabilizing |
-| Codex CLI | 99 | — | Daily improvement sprint day 12 |
+| Codex CLI | 99 | — | 3 outages post-GPT-6.1 Sol switch |
 | Antigravity | 99 | — | 28-week streak at 99 |
 | Claude AI | 99 | — | Post-investor day, roadshow ahead |
 | Windsurf | 88 | — | Devin Desktop stable |
@@ -44,4 +44,4 @@ Claude Code v2.1.296 (Oct 9) is the latest release, adding Desktop-gateway setti
 | Cursor | 1 | ↓1 | 51-day decline, rock bottom |
 | Gemini CLI | 1 | — | Retired, transitioned to Antigravity |
 
-Copilot accelerates its recovery to 39 ahead of the Oct 19 model purge, while Cursor's 51-day slide ends at the absolute floor. The power shift in AI coding tools is the defining narrative of late October.
+Copilot accelerates its recovery to 39 ahead of the Oct 19 model purge, while Cursor's 51-day slide ends at the absolute floor. Codex's three outages this month since the GPT-6.1 Sol switch are raising stability concerns amid otherwise strong momentum.

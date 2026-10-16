@@ -21,9 +21,9 @@ Cursor가 51일 연속 하락하며 1점을 기록, 사실상 바닥에 도달�
 
 Anthropic이 10월 14일 SF 본사에서 기관 투자자 대상 프리IPO 투자자 데이를 개최했다([Crypto Briefing](https://cryptobriefing.com/anthropic-targets-november-ipo-delay/)). Morgan Stanley, Goldman Sachs, JPMorgan, Citi가 주관사로 참여하며, 11월 9일 주간 공식 로드쇼 시작이 유력하다([Implicator](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/)). 밸류에이션 목표는 1.8조~2조 달러로, 5월 시리즈 H의 $9,650억 대비 약 2배 수준이다. 추수감사절 전 상장이 목표지만 일정은 유동적이다.
 
-## Codex CLI: 매일 개선 스프린트 12일차
+## Codex CLI: GPT-6.1 Sol 안정화 중이나 잇따른 장애 그림자
 
-Codex CLI 매일 개선 스프린트가 12일차에 접어들었다([Havoptic](https://www.havoptic.com/releases/openai-codex/2026/10)). v0.161.0(10/7)에서 GPT-6.1 Sol이 기본 모델로 전환된 이후 v0.162.1(10/9)까지 TUI 크래시, 시작 오류 등이 꾸준히 수정되고 있다. URL 클릭, 태스크 고정, Git 워크트리 관리 등 UX 개선도 병행 중이다.
+Codex CLI 매일 개선 스프린트가 12일차에 접어들었다([Havoptic](https://www.havoptic.com/releases/openai-codex/2026/10)). v0.161.0(10/7)에서 GPT-6.1 Sol이 기본 모델로 전환된 이후 v0.162.1(10/9)까지 TUI 크래시, 시작 오류 등이 꾸준히 수정되고 있다. 그러나 GPT-6.1 Sol 기반 Codex와 Work 모드에서 10월 13일 약 8.5시간 동안 성능 저하가 발생했고([IsDown](https://isdown.app/status/openai/incidents/669200-degraded-performance-in-gpt-6-1-sol-work-mode)), 14일에도 약 3시간 동안 오류율이 상승하는 사고가 이어졌다([IsDown](https://isdown.app/status/openai/incidents/669750-degraded-performance-in-codex-and-chatgpt-work)). 10월 7일의 신규 스레드 생성 차단 장애까지 포함하면 이달에만 세 건의 사고가 발생한 셈이다. GPT-6.1 Sol 전환 후 안정성 확보가 당면 과제로 떠오르고 있다.
 
 ## Claude Code: Haiku 5.5 기본 전환 안정화
 
@@ -35,7 +35,7 @@ Claude Code v2.1.296(10/9)이 최신 릴리스로, Desktop-게이트웨이 간 �
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-Live-1.1 안정 운영 |
 | Claude Code | 99 | — | Haiku 5.5 기본 전환 안정화 |
-| Codex CLI | 99 | — | 매일 개선 스프린트 12일차 |
+| Codex CLI | 99 | — | GPT-6.1 Sol 전환 후 장애 3건 |
 | Antigravity | 99 | — | 28주 연속 99 |
 | Claude AI | 99 | — | IPO 투자자 데이 완료 |
 | Windsurf | 88 | — | Devin Desktop 안정 |
@@ -44,4 +44,4 @@ Claude Code v2.1.296(10/9)이 최신 릴리스로, Desktop-게이트웨이 간 �
 | Cursor | 1 | ↓1 | 51일 연속 하락, 바닥 |
 | Gemini CLI | 1 | — | 퇴역, Antigravity로 전환 완료 |
 
-Copilot이 모델 대폐기를 3일 앞두고 39점까지 상승하며 회복 속도를 높이고, Cursor는 1점 바닥을 찍어 양극화가 극에 달했다. AI 코딩 툴 시장의 권력 이동이 10월 하반기를 관통하는 핵심 서사다.
+Copilot이 모델 대폐기를 3일 앞두고 39점까지 상승하며 회복 속도를 높이고, Cursor는 1점 바닥을 찍어 양극화가 극에 달했다. Codex는 GPT-6.1 Sol 전환 후 이달 세 번째 장애가 발생하며 안정성 리스크가 주목받고 있다.

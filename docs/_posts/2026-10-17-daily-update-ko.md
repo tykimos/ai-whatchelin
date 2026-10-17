@@ -19,7 +19,7 @@ SpaceX가 10월 13일 'The X Subscription'을 출시, Grok·Cursor·Grok Bot·X 
 
 ## Codex CLI: Composer 예측 베타, 다음 메시지를 미리 안다
 
-Codex CLI에 Composer 예측 베타가 추가됐다([OpenAI Community](https://community.openai.com/t/codex-can-now-suggest-your-next-message-composer-predictions-beta/1404842)). Codex가 응답을 완료하면 다음 메시지를 자동 제안하고, Tab으로 즉시 수락할 수 있다. GPT-6 Astra와 GPT-6.1 Sol을 사용하며, 베타 기간 중 추가 사용량이나 크레딧 소비가 없다. 매일 개선 스프린트 14일차에 접어든 Codex는 안정성 문제(이달 4건 장애)에도 불구하고 기능 추가 속도를 늦추지 않고 있다.
+Codex CLI에 Composer 예측 베타가 추가됐다([OpenAI Community](https://community.openai.com/t/codex-can-now-suggest-your-next-message-composer-predictions-beta/1404842)). Codex가 응답을 완료하면 다음 메시지를 자동 제안하고, Tab으로 즉시 수락할 수 있다. GPT-6 Astra와 GPT-6.1 Sol을 사용하며, 베타 기간 중 추가 사용량이나 크레딧 소비가 없다. 매일 개선 스프린트 14일차에 접어든 Codex는 안정성 문제(이달 6건 장애: 10/5, 10/7×3, 10/13, 10/14)([SessionWatcher](https://sessionwatcher.com/news/codex-chatgpt-desktop-work-errors-october-14-2026))에도 불구하고 기능 추가 속도를 늦추지 않고 있다.
 
 ## Anthropic: IPO 로드쇼 11월 9일 주간 유력
 
@@ -35,8 +35,8 @@ GitHub Universe 2026이 10월 28-29일 샌프란시스코 Fort Mason Center에�
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-Live-1.1 안정 운영 |
 | Claude Code | 99 | — | Haiku 5.5 기본 안정화 |
-| Codex CLI | 99 | — | Composer 예측 베타, 이달 장애 4건 |
-| Antigravity | 99 | — | 29주 연속 99 |
+| Codex CLI | 99 | — | Composer 예측 베타, 이달 장애 6건 |
+| Antigravity | 99 | — | v2.21.1(10/7), 무료 Claude Opus 4.6 11/2 종료 |
 | Claude AI | 99 | — | IPO 로드쇼 11/9 주간 유력 |
 | Windsurf | 88 | — | Devin Desktop 안정 |
 | Aider | 68 | — | 안정, 5월 이후 커밋 없음 |

@@ -19,7 +19,7 @@ SpaceX launched "The X Subscription" on October 13, bundling Grok, Cursor, Grok 
 
 ## Codex CLI: Composer Predictions Beta — It Knows Your Next Message
 
-Codex CLI added Composer predictions in beta([OpenAI Community](https://community.openai.com/t/codex-can-now-suggest-your-next-message-composer-predictions-beta/1404842)). After Codex finishes responding, it suggests your next message — hit Tab to accept. Works with GPT-6 Astra and GPT-6.1 Sol, and during beta, predictions don't count toward usage limits or credits. Day 14 of the daily improvement sprint, and despite four incidents this month, Codex isn't slowing down on feature velocity.
+Codex CLI added Composer predictions in beta([OpenAI Community](https://community.openai.com/t/codex-can-now-suggest-your-next-message-composer-predictions-beta/1404842)). After Codex finishes responding, it suggests your next message — hit Tab to accept. Works with GPT-6 Astra and GPT-6.1 Sol, and during beta, predictions don't count toward usage limits or credits. Day 14 of the daily improvement sprint, and despite six incidents this month (Oct 5, 7, 7, 7, 13, 14)([SessionWatcher](https://sessionwatcher.com/news/codex-chatgpt-desktop-work-errors-october-14-2026)), Codex isn't slowing down on feature velocity.
 
 ## Anthropic: IPO Roadshow Likely Week of November 9
 
@@ -35,8 +35,8 @@ GitHub Universe 2026 runs October 28-29 at Fort Mason Center in San Francisco([G
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-Live-1.1 stable |
 | Claude Code | 99 | — | Haiku 5.5 default stabilizing |
-| Codex CLI | 99 | — | Composer predictions beta, 4 incidents this month |
-| Antigravity | 99 | — | 29-week streak at 99 |
+| Codex CLI | 99 | — | Composer predictions beta, 6 incidents this month |
+| Antigravity | 99 | — | v2.21.1 (Oct 7), free Claude Opus 4.6 ends Nov 2 |
 | Claude AI | 99 | — | IPO roadshow likely week of Nov 9 |
 | Windsurf | 88 | — | Devin Desktop stable |
 | Aider | 68 | — | Stable, no commits since May |

@@ -25,6 +25,10 @@ Codex CLI에 Composer 예측 베타가 추가됐다([OpenAI Community](https://c
 
 Anthropic의 IPO 로드쇼가 11월 9일 주간에 시작될 것으로 보인다([Implicator](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/)). 10월 14일 SF 본사에서 열린 기관 투자자 데이에는 Morgan Stanley, Goldman Sachs, JPMorgan, Citi가 주관사로 참여했으며, 밸류에이션 목표는 $1.8조~$2조로 5월 시리즈 H($9,650억) 대비 약 2배 수준이다([Crypto Briefing](https://cryptobriefing.com/anthropic-targets-november-ipo-delay/)). 추수감사절 전 상장이 목표지만, 허위 살인 제보 사건의 여파가 내러티브에 그림자를 드리우고 있다.
 
+## GitHub Universe D-11: 스케줄 확정, Anthropic·OpenAI 연사 포진
+
+GitHub Universe 2026이 10월 28-29일 샌프란시스코 Fort Mason Center에서 개최된다([GitHub Blog](https://github.blog/news-insights/the-library/github-universe-the-big-bang/)). 테마는 "All together now, in the agentic era"이며, Anthropic·OpenAI·NVIDIA·AMD·Figma·Coinbase에서 연사가 확정됐다. Copilot에 실제 업무 위임, MCP 서버 보안, 엔터프라이즈 AI 측정 등이 주요 세션으로 포함된다. 2차 모델 퇴역(10/19)과 기본 기능 정책(10/22) 직후 열리는 만큼, 대규모 신규 발표가 예상된다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |

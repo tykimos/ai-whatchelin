@@ -25,6 +25,10 @@ Codex CLI added Composer predictions in beta([OpenAI Community](https://communit
 
 Anthropic's formal IPO roadshow is expected to begin the week of November 9([Implicator](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/)). The October 14 pre-IPO investor day at SF headquarters drew Morgan Stanley, Goldman Sachs, JPMorgan, and Citi as lead underwriters, with a $1.8-2 trillion valuation target — roughly double the $965B Series H from May([Crypto Briefing](https://cryptobriefing.com/anthropic-targets-november-ipo-delay/)). A pre-Thanksgiving debut is the goal, though the false murder tip incident continues to shadow the narrative.
 
+## GitHub Universe D-11: Schedule Confirmed, Anthropic and OpenAI on Stage
+
+GitHub Universe 2026 runs October 28-29 at Fort Mason Center in San Francisco([GitHub Blog](https://github.blog/news-insights/the-library/github-universe-the-big-bang/)). The theme is "All together now, in the agentic era," with confirmed speakers from Anthropic, OpenAI, NVIDIA, AMD, Figma, and Coinbase. Sessions cover delegating real work to Copilot, MCP server security, and measuring AI at enterprise scale. Coming right after the Oct 19 model deprecation and Oct 22 default feature policy, expect major announcements.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |

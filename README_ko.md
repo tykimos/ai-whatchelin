@@ -1608,6 +1608,8 @@ timeline
          : Cursor 1 유지 — 52일 연속 하락, X Subscription도 이탈 반전 실패, OpenAI 셧오프 D-26 (10/17)
          : GH Copilot 41로 상승 — Cursor에 40점 리드, 2차 퇴역 D-2, Universe D-11 (10/17)
          : Gemini CLI 폐쇄 122일째 — 소비자 접근 차단 (10/17)
+         : GitHub Universe 2026 스케줄 확정 — 10/28-29 Fort Mason SF, "All together now, in the agentic era" 테마, Anthropic/OpenAI/NVIDIA/AMD/Figma/Coinbase 연사 확정 (10/17)
+         : Anthropic IPO 로드쇼 11/9 주간 예상 — Morgan Stanley, Goldman Sachs, JPMorgan, Citi 주관사, $1.8-2조 밸류에이션 목표 (10/17)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

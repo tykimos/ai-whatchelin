@@ -1608,6 +1608,8 @@ timeline
          : Cursor flat at 1 — 52nd day of decline, X Subscription hasn't reversed exodus, OpenAI shutoff D-26 (Oct 17)
          : GH Copilot rises to 41 — 40-point lead over Cursor, 2nd deprecation D-2, Universe D-11 (Oct 17)
          : Gemini CLI shutdown Day 122 — consumer access closed (Oct 17)
+         : GitHub Universe 2026 schedule confirmed — Oct 28-29 Fort Mason SF, "All together now, in the agentic era", speakers from Anthropic/OpenAI/NVIDIA/AMD/Figma/Coinbase (Oct 17)
+         : Anthropic IPO roadshow expected week of Nov 9 — Morgan Stanley, Goldman Sachs, JPMorgan, Citi lead underwriters, $1.8-2T valuation target (Oct 17)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

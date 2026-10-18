@@ -11,7 +11,7 @@ GitHub Copilot의 10월 19일 6개 모델 대폐기가 내일이다. 43점까지
 
 ## Copilot: 모델 대폐기 D-1, 43점 돌파
 
-내일 10월 19일, GPT-5.5·GPT-5.4·GPT-5.4 mini·GPT-5 mini·Gemini 3.7 Flash·Grok 4.5 등 6개 모델이 모든 Copilot 경험에서 제거된다([GitHub Changelog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). 대체 모델은 GPT-5.6 Sol/Luna, Gemini 3.8 Flash, Grok 4.6으로 자동 전환되며, Business/Enterprise 고객은 관리자가 명시적으로 비활성화하지 않은 이상 자동 적용된다. 10월 2일 1차 웨이브에 이은 대규모 정리로, Copilot은 43점까지 상승하며 10일 뒤 Universe를 향한 모멘텀을 쌓고 있다. 에이전틱 자동수정(Agentic autofix)도 10월 15일 GA 전환 완료, 코드 스캐닝 알림을 자동 수정하고 드래프트 PR까지 생성한다([GitHub Blog](https://github.blog/changelog/label/copilot/)).
+내일 10월 19일, GPT-5.5·GPT-5.4·GPT-5.4 mini·GPT-5 mini·Gemini 3.7 Flash·Grok 4.5 등 6개 모델이 모든 Copilot 경험에서 제거된다([GitHub Changelog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). 대체 모델은 GPT-5.6 Sol/Luna, Gemini 3.8 Flash, Grok 4.6으로 자동 전환되며, Business/Enterprise 고객은 관리자가 명시적으로 비활성화하지 않은 이상 자동 적용된다. 10월 2일 1차 웨이브에 이은 대규모 정리로, Copilot은 43점까지 상승하며 10일 뒤 Universe를 향한 모멘텀을 쌓고 있다. 에이전틱 자동수정(Agentic autofix)도 10월 15일 GA 전환 완료, 코드 스캐닝 알림을 자동 수정하고 드래프트 PR까지 생성한다([GitHub Blog](https://github.blog/changelog/label/copilot/)). 한편 [GitHub Universe 2026 공식 일정](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)이 공개됐다. AMD·Figma·NVIDIA·Coinbase·Anthropic·OpenAI 등이 참여하며, Copilot 에이전트 위임·엔터프라이즈 AI 측정·MCP 서버 보안 등 세션이 편성됐다.
 
 ## Antigravity: Gemini 4 Argon 본격 투입
 

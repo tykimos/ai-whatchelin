@@ -2489,14 +2489,16 @@ xychart-beta
 | **~$10** | [Trae Lite](https://www.trae.ai) | $3/월 | $5 상당 사용량 |
 | | [GitHub Copilot Pro](https://github.com/features/copilot) | $10/월 | 무제한 자동완성 + 에이전트 |
 | | [Trae Pro](https://www.trae.ai) | $10/월 | 무제한 자동완성 + $20 상당 |
+| | [Cursor Plus (X Sub)](https://cursor.com) | $8/월 | Grok 모델만 |
 | **$20** | [Claude Pro](https://claude.com) | $20/월 | Claude Code + Cowork 포함 |
-| | [Cursor Pro](https://cursor.com) | $20/월 | 자동완성 + Cloud Agent |
-| | [Windsurf Pro](https://windsurf.com) | $15/월 | Cascade + SWE-1.5 |
+| | [Cursor Premium (X Sub)](https://cursor.com) | $30/월 | Grok 풀 + 확장 사용량 |
+| | [Devin Desktop Pro](https://windsurf.com) | $15/월 | Devin Local + SWE-1.5 |
 | | [Kiro Pro](https://kiro.dev) | $20/월 | 1,000 크레딧 |
 | | [Devin Core](https://devin.ai) | $20/월 | ACU 기반 에이전트 |
 | **$100+** | [Claude Max](https://claude.com) | $100~200/월 | 5x~20x Pro |
-| | [Cursor Ultra](https://cursor.com) | $200/월 | 20x 사용량 |
-| | [Windsurf Max](https://windsurf.com) | $200/월 | 대용량 할당 |
+| | [Cursor Super (X Sub)](https://cursor.com) | $100/월 | 상위 사용량 풀 |
+| | [Cursor Ultra (X Sub)](https://cursor.com) | $200/월 | 최대 사용량 |
+| | [Devin Desktop Max](https://windsurf.com) | $200/월 | 대용량 할당 |
 | | [Antigravity Ultra](https://antigravity.google) | $100/월 | Pro 대비 5배 AI 한도 |
 
 ### 바이브코더 커뮤니티 반응 (비교 중심)

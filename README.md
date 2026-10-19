@@ -2513,14 +2513,16 @@ xychart-beta
 | **~$10** | [Trae Lite](https://www.trae.ai) | $3/mo | $5 worth usage |
 | | [GitHub Copilot Pro](https://github.com/features/copilot) | $10/mo | unlimited autocomplete + agent |
 | | [Trae Pro](https://www.trae.ai) | $10/mo | unlimited autocomplete + $20 worth |
+| | [Cursor Plus (X Sub)](https://cursor.com) | $8/mo | Grok models only |
 | **$20** | [Claude Pro](https://claude.com) | $20/mo | Claude Code + Cowork included |
-| | [Cursor Pro](https://cursor.com) | $20/mo | autocomplete + Cloud Agent |
-| | [Windsurf Pro](https://windsurf.com) | $15/mo | Cascade + SWE-1.5 |
+| | [Cursor Premium (X Sub)](https://cursor.com) | $30/mo | Grok pool + extended usage |
+| | [Devin Desktop Pro](https://windsurf.com) | $15/mo | Devin Local + SWE-1.5 |
 | | [Kiro Pro](https://kiro.dev) | $20/mo | 1,000 credits |
 | | [Devin Core](https://devin.ai) | $20/mo | ACU-based agent |
 | **$100+** | [Claude Max](https://claude.com) | $100~200/mo | 5x~20x Pro |
-| | [Cursor Ultra](https://cursor.com) | $200/mo | 20x usage |
-| | [Windsurf Max](https://windsurf.com) | $200/mo | large allocation |
+| | [Cursor Super (X Sub)](https://cursor.com) | $100/mo | higher usage pool |
+| | [Cursor Ultra (X Sub)](https://cursor.com) | $200/mo | maximum usage |
+| | [Devin Desktop Max](https://windsurf.com) | $200/mo | large allocation |
 | | [Antigravity Ultra](https://antigravity.google) | $100/mo | 5x Pro AI limits |
 
 ### Vibe Coder Community Reactions (Comparison)

@@ -23,11 +23,11 @@ Copilot은 47점까지 상승하며 2일 연속 +2 상승세를 유지하고 있
 
 ## Antigravity: Gemini 4 Argon, Pro 접근 확대 중
 
-Google이 10월 13일부터 Antigravity 데스크톱 앱과 CLI에서 Gemini 4 Argon 롤아웃을 시작했다([Antigravity Blog](https://antigravity.google/blog/gemini-4-argon-in-google-antigravity)). AI Ultra 구독자 우선이며, 10월 15일부터 AI Pro 티어로도 접근이 확대되고 있다는 보도가 있다([pasqualepillitteri](https://pasqualepillitteri.it/ja/news/24648/gemini-4-argon-antigravity-ai-pro-shuukan-waku)). API 소개 가격은 입력 $2/출력 $10(MTok), 11월 30일까지 유효한 것으로 전해진다. 한편 11월 2일 Claude Sonnet 4.6·Opus 4.6·GPT-OSS-120B의 Antigravity 내 퇴역이 예고되어 있다([Layer3 Labs](https://www.layer3labs.io/guides/google-antigravity-cli)).
+Google이 10월 13일부터 Antigravity 데스크톱 앱과 CLI에서 Gemini 4 Argon 롤아웃을 시작했다([Antigravity Blog](https://antigravity.google/blog/gemini-4-argon-in-google-antigravity)). 10월 15일부로 유료 AI Pro 구독자에게도 접근이 확대됐으며, Pro 티어에는 기존 Gemini 3.8 Flash 쿼터와 별도인 주간 전용(weekly-only) Argon 쿼터가 부여된다([pasqualepillitteri](https://pasqualepillitteri.it/en/news/24640/gemini-4-argon-antigravity-ai-pro-separate-weekly-quota)). 다만 무료 체험판·AI Plus 사용자는 여전히 제외된다. API 소개 가격은 입력 $2/출력 $10(MTok), 11월 30일까지 유효한 것으로 전해진다. 한편 11월 2일 Claude Sonnet 4.6·Opus 4.6·GPT-OSS-120B의 Antigravity 내 퇴역이 예고되어 있다([Layer3 Labs](https://www.layer3labs.io/guides/google-antigravity-cli)).
 
 ## Cursor: 55일째 바닥, OpenAI 차단 D-23
 
-Cursor는 55일째 바닥권(1점)에 머물고 있다. X Subscription 번들 출시 7일차이나 반등 신호가 전무하다([Trending Topics](https://www.trendingtopics.eu/x-subscription-grok-cursor-x-bundle/)). 개발자들의 핵심 불만은 Grok 모델만 공유 풀에 포함되고 타사 모델은 별도 결제가 필요한 구조에 집중되어 있다([DevOps.com](https://devops.com/one-bill-for-grok-cursor-and-x-what-spacexs-bundle-means-for-dev)). 11월 12일 OpenAI 모델 접근 차단까지 23일.
+Cursor는 55일째 바닥권(1점)에 머물고 있다. X Subscription 번들 출시 7일차이나 반등 신호가 전무하다([Trending Topics](https://www.trendingtopics.eu/x-subscription-grok-cursor-x-bundle/)). 개발자들의 핵심 불만은 Grok 모델만 공유 풀에 포함되고 타사 모델은 별도 결제가 필요한 구조에 집중되어 있다([DevOps.com](https://devops.com/one-bill-for-grok-cursor-and-x-what-spacexs-bundle-means-for-dev)). Cursor 포럼에서는 장기 Ultra 구독자가 *"자충수(self-sabotage)"*라며 *"Cursor의 매력은 모델 중립성이었는데, 같은 이름의 새 Ultra와 구 Ultra는 완전히 다른 상품"*이라고 비판했다([Cursor Forum](https://forum.cursor.com/t/introducing-the-x-subscription/174450/27)). 11월 12일 OpenAI 모델 접근 차단까지 23일.
 
 ## 마켓 펄스
 

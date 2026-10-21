@@ -11,11 +11,11 @@ GitHub Copilot executed its second model deprecation wave on October 19, right o
 
 ## Copilot: Climbs to 49, Universe D-7
 
-Copilot rises to 49, sustaining its +2/day streak for eight consecutive days. The gap over Cursor is now 48 points (49 vs 1), a record. Replacement models for the Oct 19 wave are GPT-5.6 Sol, GPT-5.6 Luna, Gemini 3.8 Flash, and Grok 4.6 — automatically enabled for Enterprise and Business customers unless an admin has opted out([qcode.cc](https://qcode.cc/en/github-copilot-model-retirement-2026-10-19)). Tomorrow (Oct 22), the default feature policy takes effect, automatically applying global defaults to any unconfigured GA features. [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/) (Oct 28–29, Fort Mason) is now just 7 days away.
+Copilot rises to 49, sustaining its +2/day streak for eight consecutive days. The gap over Cursor is now 48 points (49 vs 1), a record. Replacement models for the Oct 19 wave are GPT-5.6 Sol, GPT-5.6 Luna, Gemini 3.8 Flash, and Grok 4.6 — automatically enabled for Enterprise and Business customers unless an admin has opted out([qcode.cc](https://qcode.cc/en/github-copilot-model-retirement-2026-10-19)). Tomorrow (Oct 22), the default enablement policy takes effect — all unconfigured GA features, including MCP servers in Copilot, will be switched on unless an admin explicitly disables them([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/) (Oct 28–29, Fort Mason) is now just 7 days away.
 
-## Legacy API Shutdown D-2: o1, o3-mini, GPT-3.5, GPT-4
+## Legacy API Shutdown D-2: 11+ Models Going Dark
 
-In two days — October 23 — the o1, o3-mini, GPT-3.5, and GPT-4 API endpoints will be permanently shut down([OpenAI Blog](https://openai.com/index/codex-for-almost-everything/)). Announced on August 10, this deadline has been public for months, but services still calling legacy endpoints may be caught off guard. Given the week-long "gpt-5.5 model is not supported" fallout after that model's October 14 retirement, similar disruption is likely after the 23rd.
+In two days — October 23 — at least 11 legacy model endpoints, including o1, o1-pro, o3-mini, o4-mini, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, and gpt-4.1-nano, will be permanently shut down with no grace period([OpenAI API Shutdown Dates](https://geeks.it.com/?p=976)). Announced on August 10, this deadline has been public for months, but services still calling legacy endpoints may be caught off guard. Given the week-long "gpt-5.5 model is not supported" fallout after that model's October 14 retirement, similar disruption is likely after the 23rd.
 
 ## Cursor: Day 56 at Rock Bottom, OpenAI Shutoff D-22
 

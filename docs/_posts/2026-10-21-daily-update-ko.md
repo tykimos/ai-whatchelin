@@ -11,11 +11,11 @@ GitHub Copilot이 10월 19일자로 두 번째 모델 퇴역 웨이브를 예정
 
 ## Copilot: 49점, Universe D-7
 
-Copilot은 49점까지 상승하며 +2/일 추세를 8일째 유지하고 있다. Cursor와의 격차는 48점(49 vs 1)으로 사상 최대를 경신 중이다. 10월 19일 퇴역 웨이브의 대체 모델은 GPT-5.6 Sol, GPT-5.6 Luna, Gemini 3.8 Flash, Grok 4.6이며, Enterprise·Business 고객은 관리자가 별도 비활성화하지 않는 한 자동 전환된다([qcode.cc](https://qcode.cc/en/github-copilot-model-retirement-2026-10-19)). 내일(10/22)에는 미구성 GA 기능에 글로벌 기본값이 자동 적용되는 기본 기능 정책도 발효된다. [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)(10/28~29, Fort Mason)이 7일 앞으로 다가왔다.
+Copilot은 49점까지 상승하며 +2/일 추세를 8일째 유지하고 있다. Cursor와의 격차는 48점(49 vs 1)으로 사상 최대를 경신 중이다. 10월 19일 퇴역 웨이브의 대체 모델은 GPT-5.6 Sol, GPT-5.6 Luna, Gemini 3.8 Flash, Grok 4.6이며, Enterprise·Business 고객은 관리자가 별도 비활성화하지 않는 한 자동 전환된다([qcode.cc](https://qcode.cc/en/github-copilot-model-retirement-2026-10-19)). 내일(10/22)에는 기본 활성화 정책이 발효되어, 관리자가 명시적으로 비활성화하지 않은 모든 미구성 GA 기능(MCP 서버 포함)이 자동으로 켜진다([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)(10/28~29, Fort Mason)이 7일 앞으로 다가왔다.
 
-## 레거시 API 종말 D-2: o1, o3-mini, GPT-3.5, GPT-4
+## 레거시 API 종말 D-2: 11개+ 모델 최종 종료
 
-10월 23일 — 이틀 뒤 — o1, o3-mini, GPT-3.5, GPT-4 API 엔드포인트가 최종 폐쇄된다([OpenAI Blog](https://openai.com/index/codex-for-almost-everything/)). 8월 10일 예고된 일정이지만, 여전히 레거시 엔드포인트를 호출하는 서비스가 남아 있을 수 있다. GPT-5.5 퇴역 후 "model not supported" 오류가 일주일간 이어진 전례를 감안하면, 23일 이후에도 유사한 혼란이 예상된다.
+10월 23일 — 이틀 뒤 — o1, o1-pro, o3-mini, o4-mini, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, gpt-4.1-nano 등 최소 11개 레거시 모델 엔드포인트가 유예 기간 없이 최종 폐쇄된다([OpenAI API Shutdown Dates](https://geeks.it.com/?p=976)). 8월 10일 예고된 일정이지만, 여전히 레거시 엔드포인트를 호출하는 서비스가 남아 있을 수 있다. GPT-5.5 퇴역 후 "model not supported" 오류가 일주일간 이어진 전례를 감안하면, 23일 이후에도 유사한 혼란이 예상된다.
 
 ## Cursor: 56일째 바닥, OpenAI 차단 D-22
 

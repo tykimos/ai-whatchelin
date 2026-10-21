@@ -1,10 +1,10 @@
 ---
-title: "Copilot 10월 2차 모델 대청소 완료 — 6개 모델 퇴역, Universe D-7"
+title: "Copilot 10월 2차 모델 대청소 완료 — Universe D-7, 레거시 API 종말 D-2"
 date: 2026-10-21
 lang: ko
 categories: [news]
-tags: [copilot, cursor, codex-cli, chatgpt, antigravity]
-excerpt: "GitHub Copilot이 10월 19일 예고대로 GPT-5.5를 포함한 6개 모델을 전면 제거했다. Copilot은 49점까지 상승하며 Cursor와의 격차를 48점으로 벌렸고, Universe까지 7일 남았다."
+tags: [copilot, cursor, codex-cli, chatgpt, antigravity, claude-code]
+excerpt: "GitHub Copilot이 10월 19일 GPT-5.5 포함 6개 모델을 퇴역시키고 49점까지 상승했다. 레거시 API 종료까지 이틀, Universe까지 일주일 — 이번 주가 10월의 분수령이다."
 ---
 
 GitHub Copilot이 10월 19일자로 두 번째 모델 퇴역 웨이브를 예정대로 실행했다. GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Gemini 3.7 Flash, Grok 4.5 등 6개 모델이 채팅·인라인 편집·에이전트 모드·코드 완성 전 영역에서 일괄 제거됐다([GitHub Blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). 10월 2일 1차 웨이브(Gemini 3.5/3.6 Flash, Kimi K2.7 Code, Claude Opus 4.7)에 이은 두 번째 정리로, Copilot 모델 라인업이 최신 세대로 완전히 전환됐다.
@@ -15,23 +15,31 @@ Copilot은 49점까지 상승하며 +2/일 추세를 8일째 유지하고 있다
 
 ## 레거시 API 종말 D-2: 11개+ 모델 최종 종료
 
-10월 23일 — 이틀 뒤 — o1, o1-pro, o3-mini, o4-mini, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, gpt-4.1-nano 등 최소 11개 레거시 모델 엔드포인트가 유예 기간 없이 최종 폐쇄된다([OpenAI API Shutdown Dates](https://geeks.it.com/?p=976)). 8월 10일 예고된 일정이지만, 여전히 레거시 엔드포인트를 호출하는 서비스가 남아 있을 수 있다. GPT-5.5 퇴역 후 "model not supported" 오류가 일주일간 이어진 전례를 감안하면, 23일 이후에도 유사한 혼란이 예상된다.
+10월 23일 — 이틀 뒤 — o1, o1-pro, o3-mini, o4-mini, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, gpt-4.1-nano 등 최소 11개 레거시 모델 엔드포인트가 유예 기간 없이 최종 폐쇄된다([Geeks IT](https://geeks.it.com/?p=976)). 8월 10일 예고된 일정이지만, GPT-5.5 퇴역 후 "model not supported" 오류가 일주일간 이어진 전례를 감안하면 23일 이후에도 유사한 혼란이 예상된다. GPT-5.6 Sol이 GPT-4 계열의 공식 대체 모델로 지정됐다([Layer3 Labs](https://www.layer3labs.io/guides/openai-deprecated-models)).
+
+## ChatGPT: 잠금 채팅·슬라이드 연달아 출시
+
+ChatGPT가 10월 20일 잠금 채팅(Locked Chats) 기능을 출시했다. PIN 또는 기기 인증으로 특정 대화를 사이드바·기록·검색에서 숨길 수 있다([Android Authority](https://androidauthority.com/chatgpt-locked-chats-private-conversations-3701687)). 10월 16일에는 Pro·Business·Enterprise 사용자 대상으로 슬라이드 기능이 롤아웃됐고, 사이트(Sites) 생성 제한도 해제됐다([Releasebot](https://releasebot.io/updates/openai/chatgpt)).
 
 ## Cursor: 56일째 바닥, OpenAI 차단 D-22
 
 Cursor는 56일째 바닥(1점)에 머물고 있다. X Subscription 번들 출시 8일차이나 반등 신호가 전무하다. 11월 12일 OpenAI 모델 접근 차단까지 22일. Copilot의 모델 대청소가 "최신 모델만 남긴다"는 메시지를 시장에 보내는 사이, Cursor는 Grok 전용 풀 구조로 모델 선택 폭이 오히려 좁아지고 있다는 비판이 이어지고 있다([Cursor Forum](https://forum.cursor.com/t/introducing-the-x-subscription/174450/27)).
 
+## Claude Code: v2.1.302 자동 모드 변경, IPO 임박
+
+Claude Code v2.1.302(10/16)가 헤드리스 모드(`claude -p`, Agent SDK)를 서드파티 프로바이더에서 수동 모드로 전환했다([Developers Digest](https://www.developersdigest.tech/blog/claude-code-auto-mode-default)). 자동 모드는 v2.1.284(9/28) 이후 모든 인터랙티브 세션의 기본값이며, 서버사이드 분류기 이전도 진행 중이다. 한편 Anthropic은 6월 1일 SEC에 S-1 초안을 비공개 제출했으며, 10~11월 중 나스닥 상장이 유력하다([Storyboard18](https://www.storyboard18.com/amp/digital/anthropic-plans-october-ipo-may-exceed-60-billion-as-it-rivals-openai-ws-l-93408.htm)). 밸류에이션은 $965B 수준으로 OpenAI($852B)를 앞지른 상태다.
+
 ## Antigravity: Gemini 4 Argon 안정 확산
 
-Antigravity v2.24.0(10/13)의 리디자인된 사이드 패널과 /compact 명령이 안정화되고 있다([Antigravity Blog](https://antigravity.google/blog/gemini-4-argon-in-google-antigravity)). Gemini 4 Argon은 AI Ultra·Pro 구독자 대상 롤아웃이 계속되며, 11월 2일에는 Claude Sonnet 4.6·Opus 4.6·GPT-OSS-120B가 Antigravity 내에서 퇴역 예정이다([Layer3 Labs](https://www.layer3labs.io/guides/google-antigravity-cli)).
+Antigravity v2.24.0(10/13)의 리디자인된 사이드 패널과 /compact 명령이 안정화되고 있다([Antigravity Blog](https://antigravity.google/blog/gemini-4-argon-in-google-antigravity)). 11월 2일에는 Claude Sonnet 4.6·Opus 4.6·GPT-OSS-120B가 Antigravity 내에서 퇴역 예정이다([Layer3 Labs](https://www.layer3labs.io/guides/google-antigravity-cli)).
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 99 | — | 레거시 API D-2, GPT-Live-1.1 안정 |
-| Claude Code | 99 | — | v2.1.296 안정, IPO 로드쇼 11월 예상 |
-| Codex CLI | 99 | — | v0.163.0 안정, Daybreak 기본 활성화 |
+| ChatGPT | 99 | — | 잠금 채팅 출시, 레거시 API D-2 |
+| Claude Code | 99 | — | v2.1.302 안정, IPO 임박 |
+| Codex CLI | 99 | — | v0.163.0 Daybreak 활성화 |
 | Antigravity | 99 | — | Argon 롤아웃 확대, v2.24.0 안정화 |
 | Claude AI | 99 | — | 5.5 패밀리 완성, IPO 10~11월 |
 | Windsurf | 88 | — | Devin Desktop 안정 |
@@ -40,4 +48,4 @@ Antigravity v2.24.0(10/13)의 리디자인된 사이드 패널과 /compact 명�
 | Cursor | 1 | — | 56일째 바닥, X Sub 무반응 |
 | Gemini CLI | 1 | — | 퇴역 완료 |
 
-Copilot의 10월 2차 모델 대청소가 완료되며 모델 라인업 현대화가 마무리됐다. 10/23 레거시 API 종료와 10/28 Universe가 이번 주 최대 관전 포인트다.
+이번 주는 10월의 분수령이다. 10/23 레거시 API 종료, 10/22 Copilot 기본 활성화, 10/28 Universe — 세 가지 이벤트가 AI 코딩 도구 생태계의 다음 국면을 결정짓는다.

@@ -11,7 +11,7 @@ excerpt: "오늘 GPT-4·GPT-3.5 Turbo·o1 등 11개 레거시 모델이 영구 �
 
 ## Copilot: 53점, Universe D-5
 
-Copilot은 53점까지 상승하며 +2/일 추세를 11일째 유지하고 있다([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). 어제 발효된 기본 활성화 정책으로 MCP 서버·코드 리뷰·에이전트 기능이 미구성 조직에서 자동 활성화되면서, 실사용 지표가 추가 상승하고 있다. [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)(10/28~29, Fort Mason)까지 5일 — Anthropic·OpenAI·GitHub 참여 패널, Copilot 에이전트 위임, MCP 서버 보안이 핵심 세션이다([Blockchain News](https://blockchain.news/news/github-universe-2026-schedule-ai-focus)).
+Copilot은 53점까지 상승하며 +2/일 추세를 11일째 유지하고 있다([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). 어제 발효된 기본 활성화 정책으로 MCP 서버·코드 리뷰·에이전트 기능이 미구성 조직에서 자동 활성화되면서, 실사용 지표가 추가 상승하고 있다. 10월 7일에는 로컬 샌드박싱이 GA로 전환됐다 — Microsoft MXC(eXecution Container)를 기반으로 Copilot CLI·Copilot 앱·VS Code Agent Host에서 파일 접근·네트워크·Git 자격 증명을 제한할 수 있게 됐다([GitHub Blog](https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available)). [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)(10/28~29, Fort Mason)까지 5일 — Anthropic·OpenAI·GitHub 참여 패널, Copilot 에이전트 위임, MCP 서버 보안이 핵심 세션이다([Blockchain News](https://blockchain.news/news/github-universe-2026-schedule-ai-focus)).
 
 ## Codex CLI: GPT-6.1 Sol 기본 모델 전환
 

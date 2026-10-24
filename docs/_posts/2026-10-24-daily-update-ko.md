@@ -13,9 +13,9 @@ excerpt: "어제 GPT-4 레거시 API가 영구 폐쇄된 뒤 첫 영업일이다
 
 ChatGPT Slides가 10월 16일부터 Pro·Business·Enterprise(Space 접근 권한 보유) 사용자에게 순차 롤아웃 중이다([Digital Applied](https://www.digitalapplied.com/blog/chatgpt-slides-plans-export-what-teams-get)). 대화·업로드 파일·아웃라인·템플릿에서 슬라이드 덱을 생성할 수 있고, 실시간 공동 편집과 PowerPoint/PDF/Google Slides 내보내기를 지원한다([Android Authority](https://androidauthority.com/chatgpt-slides-files-presentations-3725324)). Plus 구독자는 현재 제외 — Space가 9월 29일 DevDay에서 공개된 직후라 모든 유자격 계정에 아직 도달하지 못한 상태다.
 
-## Copilot: 55점, Universe D-4
+## Copilot: 55점, 모델 정리 완료 후 Universe D-4
 
-Copilot은 55점까지 상승하며 +2/일 추세를 12일째 이어가고 있다([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). 10월 22일 발효된 기본 활성화 정책이 MCP 서버·코드 리뷰·에이전트 기능을 미구성 조직에서 자동으로 켜면서, 실사용 지표에 확실한 부스트를 주고 있다([Digital Applied](https://www.digitalapplied.com/blog/github-copilot-default-on-october-22-admin-checklist)). [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)(10/28~29, Fort Mason)까지 4일 — Anthropic·OpenAI·GitHub 패널, Copilot 에이전트 위임, MCP 서버 보안 세션이 핵심이다([Blockchain News](https://blockchain.news/news/github-universe-2026-schedule-ai-focus)).
+Copilot은 55점까지 상승하며 9월 28일 이후 27일째 +2/일 추세를 이어가고 있다([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). 10월 22일 발효된 기본 활성화 정책이 MCP 서버·코드 리뷰·에이전트 기능을 미구성 조직에서 자동으로 켜면서, 실사용 지표에 확실한 부스트를 주고 있다([Digital Applied](https://www.digitalapplied.com/blog/github-copilot-default-on-october-22-admin-checklist)). 한편, 10월 19일에 GPT-5.5·GPT-5.4·GPT-5.4 mini·GPT-5 mini·Grok 4.5·Gemini 3.7 Flash 등 6개 모델이 일괄 퇴역했고, 대체 모델은 GPT-6.1 Sol·GPT-6 Luna·Grok 4.7·Gemini 3.8 Flash로 확정됐다([GitHub Blog](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026)). Enterprise 관리자는 모델 정책에서 대체 모델 접근 권한을 수동으로 활성화해야 한다. [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)(10/28~29, Fort Mason)까지 4일 — Anthropic·OpenAI·GitHub 패널, Copilot 에이전트 위임, MCP 서버 보안 세션이 핵심이다([Blockchain News](https://blockchain.news/news/github-universe-2026-schedule-ai-focus)).
 
 ## Cursor: 59일째 바닥, OpenAI 차단 D-19
 
@@ -36,7 +36,7 @@ Claude Code v2.1.310이 10월 23일 릴리스됐다([ClaudeUpdates](https://www.
 | Claude AI | 99 | — | 5.5 패밀리 완성 |
 | Windsurf | 88 | — | Devin Desktop 안정 |
 | Aider | 68 | — | 안정, GitHub Stars 48.8K |
-| GH Copilot | 55 | ↑2 | 기본 활성화 3일차, Universe D-4 |
+| GH Copilot | 55 | ↑2 | 27일 연속 상승, 10/19 모델 6개 퇴역, Universe D-4 |
 | Cursor | 1 | — | 59일째 바닥, OpenAI 차단 D-19 |
 | Gemini CLI | 1 | — | 퇴역 완료 |
 

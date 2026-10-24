@@ -13,9 +13,9 @@ Yesterday (Oct 23) at least 11 legacy models — GPT-4, GPT-4 Turbo, GPT-3.5 Tur
 
 ChatGPT Slides has been rolling out since October 16 to Pro, Business, and Enterprise users with Space access([Digital Applied](https://www.digitalapplied.com/blog/chatgpt-slides-plans-export-what-teams-get)). Users can generate slide decks from conversations, uploaded files, outlines, or templates, with real-time co-editing and export to PowerPoint, PDF, or Google Slides([Android Authority](https://androidauthority.com/chatgpt-slides-files-presentations-3725324)). Plus subscribers are currently excluded — Space only launched at DevDay on September 29, so not all eligible accounts have access yet.
 
-## Copilot: Hits 55, Universe D-4
+## Copilot: Hits 55, Model Cleanup Done, Universe D-4
 
-Copilot rises to 55, sustaining its +2/day streak for the 12th consecutive day([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). The Default Enablement policy that went live October 22 is auto-activating MCP servers, code review, and agent capabilities across unconfigured organizations, providing a clear usage boost([Digital Applied](https://www.digitalapplied.com/blog/github-copilot-default-on-october-22-admin-checklist)). [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/) (Oct 28–29, Fort Mason) is 4 days away — panels feature Anthropic, OpenAI, and GitHub on AI-assisted development, Copilot agent delegation, and MCP server security([Blockchain News](https://blockchain.news/news/github-universe-2026-schedule-ai-focus)).
+Copilot rises to 55, sustaining its +2/day streak for 27 consecutive days since September 28([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). The Default Enablement policy that went live October 22 is auto-activating MCP servers, code review, and agent capabilities across unconfigured organizations, providing a clear usage boost([Digital Applied](https://www.digitalapplied.com/blog/github-copilot-default-on-october-22-admin-checklist)). Meanwhile, the October 19 model deprecation wave removed six models — GPT-5.5, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5, and Gemini 3.7 Flash — replacing them with GPT-6.1 Sol, GPT-6 Luna, Grok 4.7, and Gemini 3.8 Flash([GitHub Blog](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026)). Enterprise admins must manually enable alternative model access in Copilot settings. [GitHub Universe 2026](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/) (Oct 28–29, Fort Mason) is 4 days away — panels feature Anthropic, OpenAI, and GitHub on AI-assisted development, Copilot agent delegation, and MCP server security([Blockchain News](https://blockchain.news/news/github-universe-2026-schedule-ai-focus)).
 
 ## Cursor: Day 59 at Rock Bottom, OpenAI Shutoff D-19
 
@@ -36,7 +36,7 @@ Claude Code v2.1.310 shipped on October 23 with 26 changes([ClaudeUpdates](https
 | Claude AI | 99 | — | 5.5 family complete |
 | Windsurf | 88 | — | Devin Desktop stable |
 | Aider | 68 | — | Stable, 48.8K GitHub stars |
-| GH Copilot | 55 | ↑2 | Default enablement day 3, Universe D-4 |
+| GH Copilot | 55 | ↑2 | 27-day streak, 6 models retired Oct 19, Universe D-4 |
 | Cursor | 1 | — | Day 59 at bottom, OpenAI shutoff D-19 |
 | Gemini CLI | 1 | — | Retired |
 

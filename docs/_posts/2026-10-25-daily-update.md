@@ -21,6 +21,10 @@ Cursor remains at 1 for the 60th consecutive day. The OpenAI model access cutoff
 
 Google's Gemini 4 Argon has been rolling out to Pro users since October 15, following AI Ultra access([Havoptic](https://www.havoptic.com/releases/github-copilot/2026/10)). Introductory pricing sits at $2/$10/MTok with a 95% cached input discount, a 1M output token limit (up from 64K), and a DeepSWE v1.1 score of 77.9% — top of the benchmark charts. Antigravity v2.24.0 (Oct 13) added a redesigned side panel and a /teamwork-preview multi-subagent coordination preview.
 
+## Codex: 28-Day Improvement Pledge, Day 21
+
+On October 4, OpenAI's Codex product lead Thibault Sottiaux pledged on X to ship "one clearly useful improvement each day for 28 days — or a full usage reset"([Nerdschalk](https://nerdschalk.com/openai-codex-28-day-reset-pledge/)). The cycle runs October 5 through November 2, and we're now on day 21. The pledge comes against a backdrop of developer frustration after the Pro 200 plan's Codex allowance was cut from 20× Plus to 10×, with existing users grandfathered only until October 29([ToolNavs](https://toolnavs.com/en/article/2317)). GPT-6.1 Sol Ultrafast going live on October 8 for Pro 500, Enterprise, and Edu appears to be one of the shipped improvements([SessionWatcher](https://sessionwatcher.com/news/codex-gpt-6-1-sol-ultrafast-pro-500-enterprise-edu)).
+
 ## Weekly Trend: Migration Fatigue and Universe Anticipation
 
 Two themes define this week. First, **migration fatigue**. OpenAI's successive model retirements and GitHub Copilot's October 2 and October 19 mass deprecation waves have significantly disrupted developer workflows. TrueFoundry and others are recommending virtual model alias strategies over hard-coded model IDs([TrueFoundry](https://www.truefoundry.com/blog/model-deprecations-virtual-models-staged-cutovers)). Second, **Universe anticipation**. Copilot agent delegation, MCP server security sessions, and HydraFusion expansion are likely announcements, concentrating developer community attention on Fort Mason.

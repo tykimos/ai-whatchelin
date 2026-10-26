@@ -1,47 +1,47 @@
 ---
-title: "Universe D-2 — Copilot Hits 59, OpenAI Scraps GPT-6.1 Astra Over Safety"
+title: "Replit Drops Anthropic for OpenAI — ZCode Privacy Scandal Rattles Developer Trust"
 date: 2026-10-26
 lang: en
 categories: [news]
-tags: [copilot, codex-cli, github-universe, openai, gpt-6.1, claude-code, antigravity]
-excerpt: "Two days until GitHub Universe. Copilot's 30-day streak reaches 59, while OpenAI reportedly cancelled GPT-6.1 Astra over safety concerns raised during internal testing."
+tags: [replit, anthropic, openai, zcode, copilot, codex-cli, github-universe, cognition, claude-code]
+excerpt: "Replit's CEO declared the company is no longer working with Anthropic at TechCrunch Disrupt. ZCode's unauthorized code uploads to Alibaba Cloud add to growing AI agent trust concerns as Universe approaches."
 ---
 
-GitHub Universe 2026 (Oct 28-29, Fort Mason) is two days away. Copilot just hit 59 on a 30-day winning streak, while two contrasting developments emerged from OpenAI — GPT-6.1 Sol has settled in as Codex CLI's default model, but the higher-end GPT-6.1 Astra was reportedly scrapped over safety concerns.
+Replit has switched its default AI model provider from Anthropic to OpenAI. CEO Amjad Masad made the announcement at TechCrunch Disrupt, citing cost, performance, and partnership — a move that reshapes the competitive dynamics of the AI coding ecosystem just two days before GitHub Universe.
 
-## OpenAI: GPT-6.1 Astra Cancelled, Sol Takes the Spotlight
+## Replit: "No Longer Working with Anthropic"
 
-According to the Wall Street Journal, OpenAI scrapped the GPT-6.1 Astra release after researchers raised safety concerns during internal testing ([DeepLearning.AI](https://www.deeplearning.ai/the-batch/sol-nearly-eclipses-astra)). GPT-6.1 Sol, launched at DevDay on September 29, delivers near-Astra-level agentic coding performance at one-fifth the cost — $2 input and $10 output per million tokens ([ProPakistani](https://propakistani.pk/2026/09/30/gpt-6-1-sol-brings-astra-level-performance-at-5x-lower-cost/)). Codex CLI adopted Sol as its default model starting v0.161.0 ([SessionWatcher](https://sessionwatcher.com/news/codex-cli-0-161-0-gpt-6-1-sol-default-model)), though a degradation incident on October 13 affected Codex Web, the API, CLI, and VS Code extension ([SessionWatcher](https://sessionwatcher.com/news/codex-gpt-6-1-sol-work-degradation-october-13-2026)).
+Replit CEO Amjad Masad declared at TechCrunch Disrupt that the company is "no longer working with Anthropic"([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)). Until recently a top-five Anthropic customer, Replit relied on Claude models as its platform backbone([Unite.AI](https://www.unite.ai/replit-ceo-masad-says-company-no-longer-works-with-anthropic/)). Masad said OpenAI's Sol and Astra consistently outperform on vibe-coded app generation. Since the August OpenAI partnership, Free Mode runs on GPT-5.6 Luna. Anthropic models remain selectable, but with most users sticking to defaults, the revenue impact is substantial.
+
+## ZCode: Unauthorized Code Uploads to Alibaba Cloud
+
+Chinese AI coding tool ZCode (Z.ai, formerly Zhipu AI) was caught uploading entire user repositories — Git history included — encrypted to Alibaba Cloud storage([CSO Online](https://www.csoonline.com/article/4225037/z-ai-disables-coding-assistant-feature-after-flaw-exposed-enterprise-code-upload-risk-2.html)). Developer Ferstar discovered it on September 18 while freeing disk space; Git data accounted for 86.6% of a 313 MB archive. There was no opt-out and no mention in the privacy policy. Z.ai apologized three days later, disabled the feature, and had data deletion certified by CAICT and NSFOCUS([Silicon UK](https://www.silicon.co.uk/cloud/ai/z-ai-programming-trust-631667)). With Universe's security panel approaching, AI agent trust boundaries are back in the spotlight.
 
 ## Copilot: 59, 30-Day Streak — Universe D-2
 
-Copilot's 30 consecutive days of gains is the longest streak in AI coding tool history. After the October 19 mass deprecation of GPT-5.5, Gemini 3.7 Flash, and four other models, GPT-6.1 Sol and Gemini 4 Argon have settled in as replacements ([GitHub Blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). Billing changes took effect October 1 for existing customers, requiring pre-payment before new seat assignments ([Technobezz](https://www.technobezz.com/news/github-reopens-copilot-signups)). The Universe keynote promises sessions on agent delegation and MCP server security, with a joint Anthropic-OpenAI-GitHub panel.
+Copilot's 30 consecutive days of gains is the longest streak in AI coding tool history. After the October 19 mass deprecation of GPT-5.5, Gemini 3.7 Flash, and four other models, GPT-6.1 Sol and Gemini 4 Argon have settled in as replacements([GitHub Blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). The Universe keynote (Oct 28) will feature sessions on agent delegation, MCP server security, and HydraFusion expansion([Blockchain News](https://blockchain.news/news/github-universe-2026-schedule-ai-focus)).
 
-## Codex CLI: 28-Day Pledge D-22, v0.164.0 Presets
+## Cognition: Robinhood Ventures Invests $10M
 
-OpenAI product lead Thibault Sottiaux's 28-day improvement pledge (Oct 5 - Nov 2) is on day 22 ([Nerdschalk](https://nerdschalk.com/openai-codex-28-day-reset-pledge/)). The pledge followed user complaints about tighter Codex and ChatGPT Work allowances after DevDay; Sottiaux issued a global quota reset for paid ChatGPT accounts on October 3, one day before announcing the pledge ([ToolNavs](https://toolnavs.com/en/article/2317)). The v0.164.0 release (Oct 23) adds ten numbered preset slots, inline arguments for /model and /permissions, and Windows proxy authentication — the most substantial update of the pledge period so far.
+Robinhood Ventures invested $10 million in Cognition, maker of Devin and Devin Desktop (formerly Windsurf)([Fortune](https://fortune.com/2026/10/23/exclusive-robinhood-bets-10-million-ai-coding-tool-maker-cognition/)). Robinhood previously invested $75M in OpenAI, signaling a clear fintech-to-AI-tooling investment thesis.
 
-## Cursor: Day 61 at Rock Bottom, OpenAI Shutoff D-17
+## Codex CLI: 28-Day Pledge D-22, v0.164.0
 
-Cursor remains at 1 for the 61st consecutive day. The OpenAI model access cutoff is 17 days away (Nov 12). The X Subscription bundle (Grok + Cursor + X Premium, launched Oct 13) is 13 days old with zero developer return signals. The new pricing tiers (Free/$8/$30/$100/$200) effectively raised the old $20 Pro to $30 Premium, which remains the core friction point.
-
-## Anthropic: Claude 5.5 Family Complete, IPO Pending
-
-Claude Haiku 5.5, launched October 7, completes the Claude 5.5 family (Opus, Sonnet, Haiku) ([Anthropic Newsroom](https://www.anthropic.com/news)). Claude Code holds steady at 99, reinforcing its market dominance. The confidential S-1 filed in June remains under SEC review.
+OpenAI's Thibault Sottiaux's 28-day improvement pledge is on day 22([Nerdschalk](https://nerdschalk.com/openai-codex-28-day-reset-pledge/)). The v0.164.0 release (Oct 23) adds ten preset slots, inline /model arguments, and Windows proxy auth — the most substantial update of the pledge period. Meanwhile, GPT-6.1 Astra was scrapped over safety concerns, leaving Sol as the sole next-gen model([DeepLearning.AI](https://www.deeplearning.ai/the-batch/sol-nearly-eclipses-astra)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | GPT-6.1 Sol now default model |
-| Claude Code | 99 | — | 5.5 family complete, IPO pending |
+| ChatGPT | 99 | — | Adopted as Replit default |
+| Claude Code | 99 | — | 5.5 family complete, watching Replit fallout |
 | Codex CLI | 99 | — | v0.164.0, 28-day pledge D-22 |
 | Antigravity | 99 | — | Gemini 4 Argon Pro rollout |
 | Claude AI | 99 | — | Haiku 5.5 settling in |
-| Windsurf | 88 | — | Devin Desktop stable |
+| Windsurf | 88 | — | Cognition raises $10M from Robinhood |
 | Aider | 68 | — | Open source, stable |
 | GH Copilot | 59 | ↑2 | 30-day streak, Universe D-2 |
 | Cursor | 1 | — | Day 61 at bottom, OpenAI shutoff D-17 |
 | Gemini CLI | 1 | — | Retired |
 
-Monday's Universe keynote — whether Copilot breaks into the 60s is this week's top storyline.
+Replit's defection from Anthropic and whether Copilot breaks into the 60s at Monday's Universe keynote are this week's top storylines.

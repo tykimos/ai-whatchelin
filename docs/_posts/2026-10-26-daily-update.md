@@ -1,41 +1,41 @@
 ---
-title: "Universe D-2 — Copilot Hits 59, Codex CLI v0.164 Ships Reusable Presets"
+title: "Universe D-2 — Copilot Hits 59, OpenAI Scraps GPT-6.1 Astra Over Safety"
 date: 2026-10-26
 lang: en
 categories: [news]
-tags: [copilot, codex-cli, github-universe, cursor, claude-code, antigravity]
-excerpt: "Two days until GitHub Universe. Copilot extends its 30-day winning streak to 59, while Codex CLI v0.164.0 introduces reusable prompt presets."
+tags: [copilot, codex-cli, github-universe, openai, gpt-6.1, claude-code, antigravity]
+excerpt: "Two days until GitHub Universe. Copilot's 30-day streak reaches 59, while OpenAI reportedly cancelled GPT-6.1 Astra over safety concerns raised during internal testing."
 ---
 
-GitHub Universe 2026 (Oct 28-29, Fort Mason) is two days away, and Copilot just hit 59. The +2/day streak that started September 28 is now 30 days long, sustained by the Default Enablement policy that went live October 22 and auto-activates MCP servers, code review, and agent capabilities across unconfigured organizations ([GitHub Blog](https://github.blog/changelog/2026-09-25-default-enablement-of-copilot-features-for-copilot-business-and-enterprise)). Meanwhile, Codex CLI shipped v0.164.0 with reusable prompt presets — a meaningful quality-of-life upgrade.
+GitHub Universe 2026 (Oct 28-29, Fort Mason) is two days away. Copilot just hit 59 on a 30-day winning streak, while two contrasting developments emerged from OpenAI — GPT-6.1 Sol has settled in as Codex CLI's default model, but the higher-end GPT-6.1 Astra was reportedly scrapped over safety concerns.
 
-## Copilot: 59, Universe D-2
+## OpenAI: GPT-6.1 Astra Cancelled, Sol Takes the Spotlight
 
-Copilot's 30-day consecutive rise is the longest streak in AI coding tool history. After the October 19 mass deprecation of GPT-5.5, Gemini 3.7 Flash, and four other models, GPT-6.1 Sol and Gemini 4 Argon have settled in as replacements ([GitHub Blog](https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026)). Universe's keynote promises sessions on "Stop prompting, start delegating" — Copilot agent delegation and MCP server security — with Anthropic, OpenAI, and GitHub sharing "The view from the labs" panel ([GitHub Blog](https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/)). The gap against Cursor widens to 58 points (59 vs 1), setting a new all-time daily record.
+According to the Wall Street Journal, OpenAI scrapped the GPT-6.1 Astra release after researchers raised safety concerns during internal testing ([DeepLearning.AI](https://www.deeplearning.ai/the-batch/sol-nearly-eclipses-astra)). GPT-6.1 Sol, launched at DevDay on September 29, delivers near-Astra-level agentic coding performance at one-fifth the cost — $2 input and $10 output per million tokens ([ProPakistani](https://propakistani.pk/2026/09/30/gpt-6-1-sol-brings-astra-level-performance-at-5x-lower-cost/)). Codex CLI adopted Sol as its default model starting v0.161.0 ([SessionWatcher](https://sessionwatcher.com/news/codex-cli-0-161-0-gpt-6-1-sol-default-model)), though a degradation incident on October 13 affected Codex Web, the API, CLI, and VS Code extension ([SessionWatcher](https://sessionwatcher.com/news/codex-gpt-6-1-sol-work-degradation-october-13-2026)).
 
-## Codex CLI: v0.164.0 — Preset Slots and Session Improvements
+## Copilot: 59, 30-Day Streak — Universe D-2
 
-Released October 23, Codex CLI v0.164.0 adds ten numbered /presets slots for saving and reusing common prompts ([ChatGPT & Codex Changelog](https://learn.chatgpt.com/docs/changelog)). It also brings inline arguments for /model and /permissions, Windows proxy-auth handling, and restored session settings on resume. Combined with v0.163.0's mid-response steering becoming the default on October 15, this is the most substantial update in the 28-day improvement pledge cycle (now D-22) ([Tech Insider](https://tech-insider.org/codex-cli-0-163-ai-coding-agents-2026/)).
+Copilot's 30 consecutive days of gains is the longest streak in AI coding tool history. After the October 19 mass deprecation of GPT-5.5, Gemini 3.7 Flash, and four other models, GPT-6.1 Sol and Gemini 4 Argon have settled in as replacements ([GitHub Blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october)). Billing changes took effect October 1 for existing customers, requiring pre-payment before new seat assignments ([Technobezz](https://www.technobezz.com/news/github-reopens-copilot-signups)). The Universe keynote promises sessions on agent delegation and MCP server security, with a joint Anthropic-OpenAI-GitHub panel.
+
+## Codex CLI: 28-Day Pledge D-22, v0.164.0 Presets
+
+OpenAI product lead Thibault Sottiaux's 28-day improvement pledge (Oct 5 - Nov 2) is on day 22 ([Nerdschalk](https://nerdschalk.com/openai-codex-28-day-reset-pledge/)). The pledge followed user complaints about tighter Codex and ChatGPT Work allowances after DevDay; Sottiaux issued a global quota reset for paid ChatGPT accounts on October 3, one day before announcing the pledge ([ToolNavs](https://toolnavs.com/en/article/2317)). The v0.164.0 release (Oct 23) adds ten numbered preset slots, inline arguments for /model and /permissions, and Windows proxy authentication — the most substantial update of the pledge period so far.
 
 ## Cursor: Day 61 at Rock Bottom, OpenAI Shutoff D-17
 
-Cursor remains at 1 for the 61st consecutive day. The OpenAI model access cutoff is now 17 days away (Nov 12). The X Subscription bundle (Grok + Cursor + X Premium, launched Oct 13) is 13 days old with zero developer return signals. The new pricing tiers (Free/$8/$30/$100/$200) effectively raised the old $20 Pro to $30 Premium, which remains a key friction point ([JetAdmin](https://www.jetadmin.io/blog/cursor-pricing-explained-plans-credit-system-and-real-costs-in-2026/)).
+Cursor remains at 1 for the 61st consecutive day. The OpenAI model access cutoff is 17 days away (Nov 12). The X Subscription bundle (Grok + Cursor + X Premium, launched Oct 13) is 13 days old with zero developer return signals. The new pricing tiers (Free/$8/$30/$100/$200) effectively raised the old $20 Pro to $30 Premium, which remains the core friction point.
 
-## Anthropic: Haiku 5.5 Settling In, IPO in Progress
+## Anthropic: Claude 5.5 Family Complete, IPO Pending
 
-Claude Haiku 5.5, launched October 7, is establishing itself as the go-to small model for high-volume tasks ([Anthropic Newsroom](https://www.anthropic.com/news)). With the full Claude 5.5 family (Opus, Sonnet, Haiku) now complete, Claude Code's 99 score is more anchored than ever. The confidential S-1 filed in June remains under SEC review, with some outlets projecting an October listing, though no official confirmation exists ([NPR](https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large)).
-
-## Weekend Context: Universe Countdown
-
-The main tension this weekend is the Universe countdown. If Copilot delivers agent delegation, HydraFusion expansion, or surprise announcements at the keynote, a break into the 60s is likely. If it underwhelms, the 30-day momentum could stall. Claude Code, Codex CLI, and Antigravity remain locked at 99, while Cursor and Gemini CLI show no recovery signals from the bottom.
+Claude Haiku 5.5, launched October 7, completes the Claude 5.5 family (Opus, Sonnet, Haiku) ([Anthropic Newsroom](https://www.anthropic.com/news)). Claude Code holds steady at 99, reinforcing its market dominance. The confidential S-1 filed in June remains under SEC review.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | Legacy API migration ongoing |
+| ChatGPT | 99 | — | GPT-6.1 Sol now default model |
 | Claude Code | 99 | — | 5.5 family complete, IPO pending |
-| Codex CLI | 99 | — | v0.164.0, preset feature added |
+| Codex CLI | 99 | — | v0.164.0, 28-day pledge D-22 |
 | Antigravity | 99 | — | Gemini 4 Argon Pro rollout |
 | Claude AI | 99 | — | Haiku 5.5 settling in |
 | Windsurf | 88 | — | Devin Desktop stable |

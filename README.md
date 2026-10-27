@@ -1610,6 +1610,21 @@ timeline
          : Gemini CLI shutdown Day 122 — consumer access closed (Oct 17)
          : GitHub Universe 2026 schedule confirmed — Oct 28-29 Fort Mason SF, "All together now, in the agentic era", speakers from Anthropic/OpenAI/NVIDIA/AMD/Figma/Coinbase (Oct 17)
          : Anthropic IPO roadshow expected week of Nov 9 — Morgan Stanley, Goldman Sachs, JPMorgan, Citi lead underwriters, $1.8-2T valuation target (Oct 17)
+         : Cursor pricing overhaul — Free/Plus($8 Grok-only)/Premium($30)/Super($100)/Ultra($200), legacy plans phased out (Oct 18)
+         : GH Copilot rises to 43 — 42-point lead over Cursor, Universe D-10 (Oct 18)
+         : Copilot 2nd deprecation wave — GPT-5.5, Gemini 3.7 Flash, GPT-5.4/mini, GPT-5 mini, Grok 4.5 removed (Oct 19)
+         : GH Copilot rises to 45 — post-deprecation momentum (Oct 19)
+         : Replit CEO drops Anthropic — "no longer working with Anthropic" at TechCrunch Disrupt, insiders dispute clean break (Oct 20)
+         : GH Copilot rises to 49 — 48-point lead over Cursor, Universe D-7 (Oct 21)
+         : Codex CLI v0.164.0 — 10-slot saved prompts, inline /model args, Windows proxy auth fix (Oct 22)
+         : GH Copilot rises to 51 — default enablement policy live, Universe D-6 (Oct 22)
+         : ChatGPT Pro 500 tier launched — $500/mo, Oct 29 grandfathering change (Oct 23)
+         : Robinhood Ventures $10M in Cognition — Devin/Devin Desktop maker (Oct 23)
+         : GH Copilot rises to 55 — Universe D-3 (Oct 24)
+         : GH Copilot rises to 57 — 30-day recovery streak, Universe D-3 (Oct 25)
+         : ZCode unauthorized code upload — repos sent to Alibaba Cloud, no opt-out, Z.ai apologized (Oct 26)
+         : GH Copilot rises to 59 — 30-day streak, Universe D-2 (Oct 26)
+         : GH Copilot rises to 61 — 32-day recovery streak, Universe D-1 (Oct 27)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3393,6 +3408,14 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/15 | **GH Copilot rises to 37** — 35-point lead over Cursor; 2nd deprecation D-4; Universe D-13 | [github.com](https://github.com/features/copilot) |
 | 2026/10/16 | **Cursor drops to 1** — 51st consecutive day of decline, rock bottom; OpenAI shutoff D-27; Copilot leads by 38 points | [cursor.com](https://cursor.com) |
 | 2026/10/16 | **GH Copilot rises to 39** — 38-point lead over Cursor; 2nd deprecation D-3; Universe D-12 | [github.com](https://github.com/features/copilot) |
+| 2026/10/17 | **Replit CEO: "no longer working with Anthropic"** — Amjad Masad at TechCrunch Disrupt says OpenAI's Sol/Astra outperform for vibe-coded apps; Replit was top-5 Anthropic customer; insiders dispute clean break, Claude models still selectable | [techcrunch.com](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/) |
+| 2026/10/18 | **Cursor pricing overhaul** — Free, Plus ($8/mo, Grok only), Premium ($30), Super ($100), Ultra ($200); legacy Hobby/Pro/Pro+/Teams phased out; Grok-only shared pool backlash continues | [agentdeals.dev](https://agentdeals.dev/digest/2026-w42) |
+| 2026/10/19 | **Copilot 2nd deprecation wave executed** — GPT-5.5, Gemini 3.7 Flash, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5 removed; GPT-5.6 Sol/Luna, Gemini 3.8 Flash, Grok 4.6 as replacements | [github.blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october) |
+| 2026/10/22 | **Codex CLI v0.164.0** — 10-slot saved prompts (/1–/10 quick-recall); inline /model and /permissions arguments; Windows proxy auth fix; image preview in terminal | [havoptic.com](https://www.havoptic.com/r/openai-codex-rust-v0.164.0) |
+| 2026/10/23 | **Robinhood Ventures invests $10M in Cognition** — maker of Devin/Devin Desktop (formerly Windsurf); follows Robinhood's earlier $75M OpenAI investment | [fortune.com](https://fortune.com/2026/10/23/exclusive-robinhood-bets-10-million-ai-coding-tool-maker-cognition/) |
+| 2026/10/23 | **ChatGPT Pro 500 tier launched** — $500/mo; Oct 29 grandfathering change reduces $200 Pro usage allowance | [dev.to](https://dev.to/edzon_perez_937ae1c10f9c5/what-18-ai-coding-agents-actually-cost-october-2026-16gg) |
+| 2026/10/26 | **ZCode unauthorized code upload scandal** — Chinese AI tool ZCode caught uploading entire repos (Git history included) to Alibaba Cloud; 313 MB encrypted archives; no opt-out; Z.ai apologized and disabled feature | [csoonline.com](https://www.csoonline.com/article/4225037/z-ai-disables-coding-assistant-feature-after-flaw-exposed-enterprise-code-upload-risk-2.html) |
+| 2026/10/27 | **GH Copilot rises to 61** — 60-point lead over Cursor; Universe D-1; 32-day recovery streak | [github.com](https://github.com/features/copilot) |
 | 2026/10/08 | **Copilot hybrid local/cloud AI switching announced** — automatic switching between local and cloud models on Windows coming soon | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI discloses CCI attack on Copilot CLI** — encrypted prompt injection exfiltrates local files; GitHub disputes severity | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness acquires Augment Code assets** — launches Cosmos Software Factory; AI coding agents integrated into CI/CD pipelines | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |

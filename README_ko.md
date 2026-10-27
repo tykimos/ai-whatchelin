@@ -1610,6 +1610,21 @@ timeline
          : Gemini CLI 폐쇄 122일째 — 소비자 접근 차단 (10/17)
          : GitHub Universe 2026 스케줄 확정 — 10/28-29 Fort Mason SF, "All together now, in the agentic era" 테마, Anthropic/OpenAI/NVIDIA/AMD/Figma/Coinbase 연사 확정 (10/17)
          : Anthropic IPO 로드쇼 11/9 주간 예상 — Morgan Stanley, Goldman Sachs, JPMorgan, Citi 주관사, $1.8-2조 밸류에이션 목표 (10/17)
+         : Cursor 가격 체계 개편 — Free/Plus($8 Grok 전용)/Premium($30)/Super($100)/Ultra($200), 레거시 플랜 단계적 폐지 (10/18)
+         : GH Copilot 43으로 상승 — Cursor에 42점 리드, Universe D-10 (10/18)
+         : Copilot 2차 퇴역 — GPT-5.5, Gemini 3.7 Flash, GPT-5.4/mini, GPT-5 mini, Grok 4.5 제거 (10/19)
+         : GH Copilot 45로 상승 — 퇴역 후 모멘텀 (10/19)
+         : Replit CEO Anthropic 결별 선언 — TechCrunch Disrupt에서 "더 이상 협력하지 않는다", 내부자는 완전 결별 부인 (10/20)
+         : GH Copilot 49로 상승 — Cursor에 48점 리드, Universe D-7 (10/21)
+         : Codex CLI v0.164.0 — 10슬롯 저장 프롬프트, 인라인 /model 인자, Windows 프록시 인증 수정 (10/22)
+         : GH Copilot 51로 상승 — 디폴트 인에이블먼트 정책 적용, Universe D-6 (10/22)
+         : ChatGPT Pro 500 티어 신설 — 월 $500, 10/29 그랜드파더링 변경 (10/23)
+         : Robinhood Ventures, Cognition에 $10M 투자 — Devin/Devin Desktop 개발사 (10/23)
+         : GH Copilot 55로 상승 — Universe D-3 (10/24)
+         : GH Copilot 57로 상승 — 30일 회복 연속, Universe D-3 (10/25)
+         : ZCode 무단 코드 업로드 — 저장소를 Alibaba Cloud에 전송, 옵트아웃 없음, Z.ai 사과 (10/26)
+         : GH Copilot 59로 상승 — 30일 연속 회복, Universe D-2 (10/26)
+         : GH Copilot 61로 상승 — 32일 연속 회복, Universe D-1 (10/27)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3350,6 +3365,14 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/15 | **GH Copilot 37로 상승** — Cursor에 35점 리드; 2차 퇴역 D-4; Universe D-13 | [github.com](https://github.com/features/copilot) |
 | 2026/10/16 | **Cursor 1점으로 51일 연속 하락, 바닥** — OpenAI 셧오프 D-27; Copilot에 38점 리드 | [cursor.com](https://cursor.com) |
 | 2026/10/16 | **GH Copilot 39로 상승** — Cursor에 38점 리드; 2차 퇴역 D-3; Universe D-12 | [github.com](https://github.com/features/copilot) |
+| 2026/10/17 | **Replit CEO "Anthropic과 더 이상 협력하지 않는다"** — TechCrunch Disrupt에서 Amjad Masad가 OpenAI의 Sol/Astra가 바이브 코딩 앱 생성에서 우수하다고 발표; Replit은 Anthropic 상위 5대 고객이었음; 내부자는 완전 결별 부인, Claude 모델 여전히 선택 가능 | [techcrunch.com](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/) |
+| 2026/10/18 | **Cursor 가격 체계 개편** — Free, Plus($8/월, Grok 전용), Premium($30), Super($100), Ultra($200); 기존 Hobby/Pro/Pro+/Teams 레거시 전환; Grok 전용 공유 풀 반발 지속 | [agentdeals.dev](https://agentdeals.dev/digest/2026-w42) |
+| 2026/10/19 | **Copilot 2차 모델 퇴역 실행** — GPT-5.5, Gemini 3.7 Flash, GPT-5.4, GPT-5.4 mini, GPT-5 mini, Grok 4.5 제거; GPT-5.6 Sol/Luna, Gemini 3.8 Flash, Grok 4.6으로 대체 | [github.blog](https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october) |
+| 2026/10/22 | **Codex CLI v0.164.0** — 10슬롯 저장 프롬프트(/1~/10 즉시 호출); 인라인 /model·/permissions 인자; Windows 프록시 인증 수정; 터미널 이미지 프리뷰 | [havoptic.com](https://www.havoptic.com/r/openai-codex-rust-v0.164.0) |
+| 2026/10/23 | **Robinhood Ventures, Cognition에 $10M 투자** — Devin/Devin Desktop(구 Windsurf) 개발사; 앞서 OpenAI에 $75M 투자한 바 있음 | [fortune.com](https://fortune.com/2026/10/23/exclusive-robinhood-bets-10-million-ai-coding-tool-maker-cognition/) |
+| 2026/10/23 | **ChatGPT Pro 500 티어 신설** — 월 $500; 10/29 기존 Pro $200 그랜드파더링 구독자 사용량 한도 하향 예정 | [dev.to](https://dev.to/edzon_perez_937ae1c10f9c5/what-18-ai-coding-agents-actually-cost-october-2026-16gg) |
+| 2026/10/26 | **ZCode 무단 코드 업로드 스캔들** — 중국 AI 코딩 도구 ZCode가 전체 저장소(Git 이력 포함)를 Alibaba Cloud에 암호화 업로드; 313MB 아카이브; 옵트아웃 없음; Z.ai 사과 후 기능 비활성화 | [csoonline.com](https://www.csoonline.com/article/4225037/z-ai-disables-coding-assistant-feature-after-flaw-exposed-enterprise-code-upload-risk-2.html) |
+| 2026/10/27 | **GH Copilot 61로 상승** — Cursor에 60점 리드; Universe D-1; 32일 연속 회복 | [github.com](https://github.com/features/copilot) |
 | 2026/10/08 | **Copilot 하이브리드 로컬/클라우드 AI 전환 예고** — Windows에서 로컬·클라우드 모델 자동 전환 기능 곧 출시 | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI, Copilot CLI CCI 공격 공개** — 암호화된 프롬프트 인젝션으로 로컬 파일 탈취; GitHub은 심각도 부인 | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness, Augment Code 자산 인수** — Cosmos Software Factory 출시; AI 코딩 에이전트 CI/CD 파이프라인 통합 | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-10-29</sub>
+  <sub>마지막 업데이트: 2026-10-30</sub>
 </p>
 
 <p align="center">
@@ -1628,6 +1628,10 @@ timeline
          : GitHub Universe 2026 Day 1 — Copilot 앱, Copilot Fusion 멀티 모델, Copilot 프로젝트, 코드 리뷰 Max, 오토메이션, Enterprise AI 크레딧 (10/28)
          : GH Copilot 63으로 상승 — Cursor에 62점 리드, Universe Day 1, 33일 연속 회복 (10/28)
          : ChatGPT Pro 200 그랜드파더링 D-1 — 10/29 레거시 구독자 사용량 한도 하향 (10/28)
+         : GitHub Universe 2026 Day 2 — 폐막 키노트, Copilot 하네스 최적화·스택드 PR·멀티 에이전트 (10/29)
+         : ChatGPT Pro 200 그랜드파더링 종료 — 레거시 $200/월 구독자 사용량 한도 하향 (10/29)
+         : GH Copilot 65로 상승 — Cursor에 64점 리드, Universe Day 2, 34일 연속 회복 (10/29)
+         : GH Copilot 67로 상승 — Cursor에 66점 리드, Universe 후폭풍 Copilot Fusion GA, 35일 연속 회복 (10/30)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3381,6 +3385,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/29 | **ChatGPT Pro 200 그랜드파더링 종료** — 기존 $200/월 구독자 높은 사용량 허용치 종료; 새 제한으로 축소; Pro 500만 Ultrafast 접근 | [help.openai.com](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers) |
 | 2026/10/29 | **GitHub Universe 2026 Day 2** — 폐막 키노트 PT 오후 2시; Copilot 하네스 최적화·스택드 PR·멀티 에이전트 세션 | [githubuniverse.com](https://githubuniverse.com/) |
 | 2026/10/29 | **GH Copilot 65으로 상승** — Cursor에 64점 리드; Universe Day 2; 34일 연속 회복 | [github.com](https://github.com/features/copilot) |
+| 2026/10/30 | **Copilot Fusion GA** — 멀티 모델 오케스트레이션 전 Copilot 플랜에서 사용 가능; VS Code·GitHub Copilot 앱·CLI·JetBrains IDE 지원; HydraFusion 리서치 프리뷰에서 발전 | [unite.ai](https://www.unite.ai/github-makes-copilot-fusion-generally-available-at-universe-2026/) |
+| 2026/10/30 | **GH Copilot 67로 상승** — Cursor에 66점 리드; Universe 후폭풍 Copilot Fusion GA; 35일 연속 회복 | [github.com](https://github.com/features/copilot) |
 | 2026/10/08 | **Copilot 하이브리드 로컬/클라우드 AI 전환 예고** — Windows에서 로컬·클라우드 모델 자동 전환 기능 곧 출시 | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI, Copilot CLI CCI 공격 공개** — 암호화된 프롬프트 인젝션으로 로컬 파일 탈취; GitHub은 심각도 부인 | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness, Augment Code 자산 인수** — Cosmos Software Factory 출시; AI 코딩 에이전트 CI/CD 파이프라인 통합 | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |

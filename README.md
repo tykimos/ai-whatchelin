@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-10-29</sub>
+  <sub>Last updated: 2026-10-30</sub>
 </p>
 
 <p align="center">
@@ -1628,6 +1628,10 @@ timeline
          : GitHub Universe 2026 Day 1 — Copilot app, Copilot Fusion multi-model, Copilot projects, code review Max, automations, Enterprise AI credits (Oct 28)
          : GH Copilot rises to 63 — 62-point lead over Cursor, Universe Day 1, 33-day recovery streak (Oct 28)
          : ChatGPT Pro 200 grandfathering D-1 — Oct 29 allowance reduction for legacy subscribers (Oct 28)
+         : GitHub Universe 2026 Day 2 — closing keynote, Copilot harness optimization, stacked PRs, multi-agent orchestration (Oct 29)
+         : ChatGPT Pro 200 grandfathering ends — legacy $200/mo subscribers lose higher allowance (Oct 29)
+         : GH Copilot rises to 65 — 64-point lead over Cursor, Universe Day 2, 34-day recovery streak (Oct 29)
+         : GH Copilot rises to 67 — 66-point lead over Cursor, post-Universe Copilot Fusion GA momentum, 35-day streak (Oct 30)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3424,6 +3428,8 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/29 | **ChatGPT Pro 200 grandfathering ends** — existing $200/mo subscribers lose higher usage allowance; reduced to new lower limits; Pro 500 ($500/mo) remains only tier with Ultrafast access | [help.openai.com](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers) |
 | 2026/10/29 | **GitHub Universe 2026 Day 2** — closing keynote at 2 PM PT; breakout sessions on Copilot harness optimization, stacked PRs, multi-agent orchestration | [githubuniverse.com](https://githubuniverse.com/) |
 | 2026/10/29 | **GH Copilot rises to 65** — 64-point lead over Cursor; Universe Day 2; 34-day recovery streak | [github.com](https://github.com/features/copilot) |
+| 2026/10/30 | **Copilot Fusion GA** — multi-model orchestration available on all Copilot plans in VS Code, GitHub Copilot app, CLI, and JetBrains IDEs; evolved from HydraFusion research preview | [unite.ai](https://www.unite.ai/github-makes-copilot-fusion-generally-available-at-universe-2026/) |
+| 2026/10/30 | **GH Copilot rises to 67** — 66-point lead over Cursor; post-Universe Copilot Fusion GA momentum; 35-day recovery streak | [github.com](https://github.com/features/copilot) |
 | 2026/10/08 | **Copilot hybrid local/cloud AI switching announced** — automatic switching between local and cloud models on Windows coming soon | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI discloses CCI attack on Copilot CLI** — encrypted prompt injection exfiltrates local files; GitHub disputes severity | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness acquires Augment Code assets** — launches Cosmos Software Factory; AI coding agents integrated into CI/CD pipelines | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |

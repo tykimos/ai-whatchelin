@@ -11,7 +11,7 @@ One day after GitHub Universe 2026 wrapped, the industry is digesting yesterday'
 
 ## GitHub Copilot: Universe Aftershock, 35-Day Streak
 
-Developer reactions to Copilot Fusion GA are flooding in. Yesterday's Universe Day 2 featured a main-stage panel with leaders from Anthropic, OpenAI, and Google Cloud discussing the multi-model era's direction([githubuniverse.com](https://githubuniverse.com/)). Copilot Projects, the multi-repo parallel agent system, also went GA, significantly expanding use cases for large-scale projects([GitHub Blog](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/)). At 67, Copilot's popularity gap over Cursor widens to 66 points, accelerating its recovery momentum.
+Developer reactions to Copilot Fusion GA are flooding in. Copilot Fusion — the multi-model orchestration system evolved from the HydraFusion research preview — is now available on all Copilot plans across VS Code, the GitHub Copilot app, CLI, and JetBrains IDEs([unite.ai](https://www.unite.ai/github-makes-copilot-fusion-generally-available-at-universe-2026/)). Copilot Projects (multi-repo parallel agents), Code Review Max (highest F1 score on ReviewBench for high-severity issues), and Agentic Workflows also went GA simultaneously([GitHub Blog](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/)). GitHub Enterprise now includes Copilot access for every licensed user, signaling a major enterprise expansion push([Global AI Community](https://globalai.community/blog/github-universe-2026-day-1)). At 67, Copilot's popularity gap over Cursor widens to 66 points, accelerating its recovery momentum.
 
 ## Anthropic: IPO Roadshow Eyed for Week of November 9
 

@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.10.30-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.10.31-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1632,6 +1632,9 @@ timeline
          : ChatGPT Pro 200 그랜드파더링 종료 — 레거시 $200/월 구독자 사용량 한도 하향 (10/29)
          : GH Copilot 65로 상승 — Cursor에 64점 리드, Universe Day 2, 34일 연속 회복 (10/29)
          : GH Copilot 67로 상승 — Cursor에 66점 리드, Universe 후폭풍 Copilot Fusion GA, 35일 연속 회복 (10/30)
+         : GitHub Copilot SDK → Microsoft Copilot SDK 리브랜딩 — 단계적 마이그레이션, 기존 사용자 즉시 조치 불필요 (10/28)
+         : Codex CLI v0.165.0 출시 (10/27)
+         : GH Copilot 69로 상승 — Cursor에 68점 리드, Universe 후폭풍 지속, 36일 연속 회복 (10/31)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -2742,10 +2745,10 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["10-17", "10-18", "10-19", "10-20", "10-21", "10-22", "10-23", "10-24", "10-25", "10-26", "10-27", "10-28", "10-29", "10-30"]
+    x-axis ["10-18", "10-19", "10-20", "10-21", "10-22", "10-23", "10-24", "10-25", "10-26", "10-27", "10-28", "10-29", "10-30", "10-31"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67]
+    line "GH Copilot" [43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2757,7 +2760,7 @@ xychart-beta
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-1―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-67―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-69―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3217,7 +3220,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-10-30)
+### 팩트 체크 로그 (2026-10-31)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -3387,6 +3390,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/10/29 | **GH Copilot 65으로 상승** — Cursor에 64점 리드; Universe Day 2; 34일 연속 회복 | [github.com](https://github.com/features/copilot) |
 | 2026/10/30 | **Copilot Fusion GA** — 멀티 모델 오케스트레이션 전 Copilot 플랜에서 사용 가능; VS Code·GitHub Copilot 앱·CLI·JetBrains IDE 지원; HydraFusion 리서치 프리뷰에서 발전 | [unite.ai](https://www.unite.ai/github-makes-copilot-fusion-generally-available-at-universe-2026/) |
 | 2026/10/30 | **GH Copilot 67로 상승** — Cursor에 66점 리드; Universe 후폭풍 Copilot Fusion GA; 35일 연속 회복 | [github.com](https://github.com/features/copilot) |
+| 2026/10/28 | **GitHub Copilot SDK → Microsoft Copilot SDK** — 리브랜딩 발표; 단계적 마이그레이션; 기존 사용자 즉시 조치 불필요 | [github.blog](https://github.blog/changelog/2026-10-28-github-copilot-sdk-is-becoming-microsoft-copilot-sdk/) |
+| 2026/10/27 | **Codex CLI v0.165.0** 출시 | [github.com](https://github.com/openai/codex/releases) |
+| 2026/10/31 | **GH Copilot 69로 상승** — Cursor에 68점 리드; Universe 후폭풍 지속; 36일 연속 회복 | [github.com](https://github.com/features/copilot) |
 | 2026/10/08 | **Copilot 하이브리드 로컬/클라우드 AI 전환 예고** — Windows에서 로컬·클라우드 모델 자동 전환 기능 곧 출시 | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI, Copilot CLI CCI 공격 공개** — 암호화된 프롬프트 인젝션으로 로컬 파일 탈취; GitHub은 심각도 부인 | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness, Augment Code 자산 인수** — Cosmos Software Factory 출시; AI 코딩 에이전트 CI/CD 파이프라인 통합 | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |

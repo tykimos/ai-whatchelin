@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.10.30-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.10.31-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -1632,6 +1632,9 @@ timeline
          : ChatGPT Pro 200 grandfathering ends — legacy $200/mo subscribers lose higher allowance (Oct 29)
          : GH Copilot rises to 65 — 64-point lead over Cursor, Universe Day 2, 34-day recovery streak (Oct 29)
          : GH Copilot rises to 67 — 66-point lead over Cursor, post-Universe Copilot Fusion GA momentum, 35-day streak (Oct 30)
+         : GitHub Copilot SDK renamed to Microsoft Copilot SDK — phased migration, no immediate user action required (Oct 28)
+         : Codex CLI v0.165.0 released (Oct 27)
+         : GH Copilot rises to 69 — 68-point lead over Cursor, post-Universe momentum continues, 36-day streak (Oct 31)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -2772,10 +2775,10 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["10-17", "10-18", "10-19", "10-20", "10-21", "10-22", "10-23", "10-24", "10-25", "10-26", "10-27", "10-28", "10-29", "10-30"]
+    x-axis ["10-18", "10-19", "10-20", "10-21", "10-22", "10-23", "10-24", "10-25", "10-26", "10-27", "10-28", "10-29", "10-30", "10-31"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67]
+    line "GH Copilot" [43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2787,7 +2790,7 @@ xychart-beta
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-1―-E74C3C?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-67―-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-69―-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
@@ -3257,7 +3260,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-10-30)
+### Fact Check Log (2026-10-31)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -3430,6 +3433,9 @@ All pricing information has been directly verified from each service's official 
 | 2026/10/29 | **GH Copilot rises to 65** — 64-point lead over Cursor; Universe Day 2; 34-day recovery streak | [github.com](https://github.com/features/copilot) |
 | 2026/10/30 | **Copilot Fusion GA** — multi-model orchestration available on all Copilot plans in VS Code, GitHub Copilot app, CLI, and JetBrains IDEs; evolved from HydraFusion research preview | [unite.ai](https://www.unite.ai/github-makes-copilot-fusion-generally-available-at-universe-2026/) |
 | 2026/10/30 | **GH Copilot rises to 67** — 66-point lead over Cursor; post-Universe Copilot Fusion GA momentum; 35-day recovery streak | [github.com](https://github.com/features/copilot) |
+| 2026/10/28 | **GitHub Copilot SDK → Microsoft Copilot SDK** — rebrand announced; phased migration; no immediate changes required for existing users | [github.blog](https://github.blog/changelog/2026-10-28-github-copilot-sdk-is-becoming-microsoft-copilot-sdk/) |
+| 2026/10/27 | **Codex CLI v0.165.0** released | [github.com](https://github.com/openai/codex/releases) |
+| 2026/10/31 | **GH Copilot rises to 69** — 68-point lead over Cursor; post-Universe momentum continues; 36-day recovery streak | [github.com](https://github.com/features/copilot) |
 | 2026/10/08 | **Copilot hybrid local/cloud AI switching announced** — automatic switching between local and cloud models on Windows coming soon | [windowsreport.com](https://windowsreport.com/github-copilot-will-soon-switch-between-local-and-cloud-ai) |
 | 2026/10/08 | **Adversa AI discloses CCI attack on Copilot CLI** — encrypted prompt injection exfiltrates local files; GitHub disputes severity | [cybersecuritynews.com](https://cybersecuritynews.com/github-copilot-cli-vulnerability) |
 | 2026/10/08 | **Harness acquires Augment Code assets** — launches Cosmos Software Factory; AI coding agents integrated into CI/CD pipelines | [devops.com](https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/) |

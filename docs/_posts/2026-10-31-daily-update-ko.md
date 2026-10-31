@@ -1,41 +1,41 @@
 ---
-title: "Copilot SDK, Microsoft 품으로 — GitHub이 브랜드를 넘긴 이유"
+title: "Anthropic S-1 공개 — $197억 매출, $1,097억 적자, 나스닥 'ANT' 임박"
 date: 2026-10-31
 lang: ko
 categories: [news]
-tags: [github-copilot, microsoft, codex-cli, anthropic, openai]
-excerpt: "GitHub Universe 2026 직후 Copilot SDK가 Microsoft Copilot SDK로 리브랜딩됐다. Fusion GA 3일째, Copilot 인기도는 36일 연속 상승해 69에 도달했다. Anthropic IPO 로드쇼는 11월 9일 주간 시작 관측."
+tags: [anthropic, ipo, github-copilot, codex-cli, microsoft]
+excerpt: "Anthropic이 10월 26일 SEC에 S-1을 공개 제출했다. 12개월 매출 $197억, 순손실 $1,097억. Copilot Fusion GA 3일째, 30% 할인 프로모션과 함께 인기도 69까지 회복."
 ---
 
-Universe 2026이 끝난 지 사흘째, GitHub은 조용히 개발자 생태계의 지형을 바꾸는 움직임을 보였다. Copilot SDK의 이름이 Microsoft Copilot SDK로 바뀌었고, 이는 단순한 리브랜딩이 아니라 Microsoft의 AI 전략이 GitHub이라는 브랜드 경계를 넘어 확장되고 있다는 신호다.
+Anthropic의 IPO가 마침내 숫자를 드러냈다. 10월 26일 SEC에 공개 제출된 S-1 등록 신청서는 나스닥 "ANT" 티커를 제안하며, 2026년 6월 30일 마감 12개월 매출 $197억, 순손실 $1,097억을 공개했다([IPOScoop](https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/)). 6월 1일 비밀 제출 이후 5개월 만에 실체가 드러난 것이다.
 
-## GitHub Copilot: SDK 리브랜딩과 Fusion GA 3일째
+## Anthropic: S-1 공개와 11월 로드쇼 카운트다운
 
-GitHub은 10월 28일 Copilot SDK를 Microsoft Copilot SDK로 리브랜딩한다고 발표했다([GitHub Blog](https://github.blog/changelog/2026-10-28-github-copilot-sdk-is-becoming-microsoft-copilot-sdk/)). 리포지토리가 Microsoft 조직으로 이전되며, 기존 패키지 이름과 네임스페이스는 단계적으로 변경될 예정이다. GitHub은 "기존 사용자에게 즉시 조치가 필요하지 않다"고 밝혔지만, 이 움직임은 Copilot의 에이전틱 인프라가 GitHub만의 것이 아니라 Microsoft 전사 플랫폼의 핵심이 되었음을 보여준다.
+등록은 아직 발효되지 않았지만, Bloomberg에 따르면 Morgan Stanley·Goldman Sachs 주관의 로드쇼가 11월 9일 주간에 시작될 수 있다([ShareSansar](https://www.sharesansar.com/newsdetail/anthropics-ipo-could-become-worlds-largest-ipo-surpassing-spacexs-record-breaking-ipo-2026-10-28)). 시장은 $1.5~2조 밸류에이션을 예상하고 있으며, 추수감사절 전 상장이 목표다([CryptoBriefing](https://cryptobriefing.com/anthropic-nasdaq-ipo-listing-2026/)). 10월 14일 투자자 데이에서 공개한 Q3 매출 $168억(QoQ 46% 성장)이 S-1의 연간 수치와 맞물리며 성장 궤적을 확인시켜 준다.
 
-한편 Copilot Fusion GA 3일째, 인기도는 69로 올라 36일 연속 상승세를 이어가고 있다. Cursor와의 격차는 68포인트로 확대됐다. Artificial Analysis 벤치마크에 따르면 Fusion은 Claude Code(Opus 5.5) 대비 약 2점 차이 성능에 태스크당 비용은 절반 수준이다([Artificial Analysis](https://artificialanalysis.ai/articles/github-copilot-fusion-orchestrates-anthropic-and-openai-models-to-balance-performance-and-cost)). 10월 28일부터 Enterprise 고객은 별도 구독 없이 AI Credits 기반으로 Copilot 전 기능을 사용할 수 있게 됐다.
+## GitHub Copilot: Fusion GA 3일째, 30% 할인 돌입
 
-## Codex CLI: v0.165.0 출시
+Universe 2026 직후 Copilot SDK가 Microsoft Copilot SDK로 리브랜딩된 데 이어([GitHub Blog](https://github.blog/changelog/2026-10-28-github-copilot-sdk-is-becoming-microsoft-copilot-sdk/)), Copilot Fusion이 GA 3일째를 맞았다. Artificial Analysis 벤치마크에 따르면 Fusion은 Terminal-Bench 4.0에서 71점, 태스크당 비용 $5.59로 Claude Code(Opus 5.5)의 $11.42 대비 절반 수준이다([Artificial Analysis](https://artificialanalysis.ai/articles/github-copilot-fusion-orchestrates-anthropic-and-openai-models-to-balance-performance-and-cost)). 유료 구독자를 위한 30% 모델 비용 할인이 11월 30일까지 적용되며, Copilot CLI v1.0.105는 /model 선택기에 Fusion High와 Fusion Max를 추가했다([Havoptic](https://www.havoptic.com/releases/github-copilot/2026/10)).
 
-Codex CLI가 10월 27일 v0.165.0을 출시했다([GitHub Releases](https://github.com/openai/codex/releases)). v0.164.0(10월 22일)에서 추가된 10슬롯 프리셋과 인라인 /model 인자에 이어지는 릴리스다. GPT-6.1 Sol의 기본 컨텍스트 창이 500K 토큰으로 확대된 이후 안정적인 릴리스 주기를 유지하고 있으며, GPT-6.1 Terra도 유료 플랜에서 사용 가능하다고 보고됐다.
+인기도는 69로 36일 연속 상승 중이며, Cursor와의 격차는 68포인트로 확대됐다.
 
-## Anthropic: IPO 로드쇼 11월 9일 주간 관측
+## Codex CLI: v0.165.0 릴리스 지속
 
-Anthropic의 'ANT' 티커 나스닥 상장이 구체화되고 있다. Bloomberg에 따르면 로드쇼는 11월 9일 주간에 시작되어 추수감사절 전 상장을 목표로 하고 있다([ShareSansar](https://www.sharesansar.com/newsdetail/anthropics-ipo-could-become-worlds-largest-ipo-surpassing-spacexs-record-breaking-ipo-2026-10-28)). 예상 밸류에이션 $1.5~2조, 조달 규모 $75~100B으로 SpaceX IPO($86B)를 넘어설 가능성이 있다([CryptoBriefing](https://cryptobriefing.com/anthropic-nasdaq-ipo-listing-2026/)). S-1에 공개된 H1 매출 $16.3B(전년 대비 14배)이 투자자 신뢰의 기반이 되고 있다.
+Codex CLI가 10월 27일 v0.165.0을 출시했다([GitHub Releases](https://github.com/openai/codex/releases)). GPT-6.1 Sol의 기본 컨텍스트 창이 500K 토큰으로 확대된 이후 안정적인 릴리스 주기를 유지하고 있으며, GPT-6.1 Terra도 유료 플랜에서 사용 가능하다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 99 | — | Pro 3-tier 체제 2일째 안정 |
-| Claude Code | 99 | — | IPO 로드쇼 11/9 관측 |
+| ChatGPT | 99 | — | Pro 3-tier 체제 안정 |
+| Claude Code | 99 | — | S-1 공개, ANT 티커 |
 | Codex CLI | 99 | — | v0.165.0 출시 |
 | Antigravity | 99 | — | Gemini 4 Argon Pro 안정 |
-| Claude AI | 99 | — | 'ANT' 티커, $1.5~2T 밸류에이션 |
+| Claude AI | 99 | — | $197억 매출, $1.5~2조 밸류에이션 |
 | Windsurf | 88 | — | Devin Desktop 안정 |
-| GH Copilot | 69 | ↑2 | 36일 연속 회복, SDK 리브랜딩 |
-| Aider | 68 | — | 안정, 주요 업데이트 없음 |
+| GH Copilot | 69 | ↑2 | 36일 연속 회복, Fusion 30% 할인 |
+| Aider | 68 | — | 유지보수 모드, 주요 업데이트 없음 |
 | Cursor | 1 | — | 67일째 바닥 |
 | Gemini CLI | 1 | — | 은퇴, Antigravity 전환 완료 |
 
-Copilot SDK의 Microsoft 이관은 GitHub Universe의 가장 조용하지만 가장 의미심장한 발표일 수 있다. GitHub이 Copilot의 에이전틱 레이어를 Microsoft에 넘겼다는 것은, 앞으로 Copilot이 VS Code와 GitHub을 넘어 Office·Azure·Windows 전반에 걸친 Microsoft AI 플랫폼의 SDK가 된다는 뜻이다.
+$197억 매출에 $1,097억 적자 — Anthropic의 S-1이 드러낸 숫자는 AI 프론티어 경쟁의 규모를 적나라하게 보여준다. 매출의 5.6배에 달하는 적자는 컴퓨팅 인프라 투자(SpaceX Colossus 월 $12.5억 포함)의 무게를 반영한다. 11월 로드쇼가 시작되면, 시장은 이 적자를 '성장 투자'로 볼지 '지속 불가'로 볼지 판단해야 한다.

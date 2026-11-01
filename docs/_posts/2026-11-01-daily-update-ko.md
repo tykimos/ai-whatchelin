@@ -1,43 +1,51 @@
 ---
-title: "Codex CLI 0.166 출시, Copilot에서 Claude Opus·GPT-5.6 모델 퇴장 임박"
+title: "Cursor 마켓플레이스에서 악성 Claude Code 확장 발견, EMBRACE 연구로 AI 코딩 도구 보안 비상"
 date: 2026-11-01
 lang: ko
 categories: [news]
-tags: [codex-cli, github-copilot, deepseek, anthropic]
-excerpt: "Codex CLI 0.166.0이 키보드 기반 트랜스크립트 검색과 queue --resume을 추가했다. GitHub Copilot은 11월 16일부로 Claude Opus 4.8·5.0, GPT-5.6 Terra를 전면 퇴장시킨다."
+tags: [security, claude-code, cursor, github-copilot, codex-cli, chatgpt, deepseek]
+excerpt: "Cursor 마켓플레이스에 등록된 악성 Claude Code VS Code 확장이 SSH 백도어를 심었다. Forever Security의 EMBRACE 연구는 AI 코딩 도구 5종의 내장 브라우저 취약점을 공개하며 약 4,500만 설치에 영향을 줄 수 있다고 경고했다."
 ---
 
-11월의 첫날, AI 코딩 도구 시장은 작은 변화들이 겹치며 새 흐름을 예고하고 있다. Codex CLI가 주간 릴리스를 이어가고, Copilot은 모델 정리에 나섰으며, DeepSeek는 오픈소스 에이전트 하네스 프리뷰를 공개했다.
+11월의 첫날, AI 코딩 도구 생태계에 보안 경고등이 켜졌다. Cursor 마켓플레이스에서 악성 Claude Code 확장이 발견됐고, Forever Security의 EMBRACE 연구는 주요 AI 코딩 도구 5종의 내장 브라우저 취약점을 공개했다. 보안이 이번 주의 최대 화두다.
 
-## Codex CLI: v0.166.0 — 트랜스크립트 검색과 큐 재개
+## 악성 Claude Code 확장: Cursor 마켓플레이스에서 약 5천 명 노출
 
-OpenAI가 10월 29일 Codex CLI v0.166.0을 출시했다([DEV Community](https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-november-1-2026-15pn)). 이번 업데이트의 핵심은 키보드 기반 트랜스크립트 선택 및 검색 기능으로, 긴 세션 히스토리를 빠르게 탐색할 수 있다. `codex queue --resume`으로 중단된 큐를 이어서 실행할 수 있게 됐고, `codex doctor --network-only`가 네트워크 진단만 빠르게 수행하도록 분리됐다. 직전 v0.165.0에서 Vertex AI 프로바이더와 memories 기본 활성화가 추가된 데 이어 안정적인 주간 릴리스 케이던스를 유지하고 있다.
+10월 29일 09:27~20:35 UTC, Cursor 마켓플레이스에 공식 anthropic.claude-code 확장의 악성 버전(2.1.313)이 등록됐다([AI Weekly](https://aiweekly.co/ai-news-today)). 이 확장은 공격자가 제어하는 SSH 키를 추가하고, 리버스 SSH 터널을 열며, Windows와 macOS에 지속성을 확보했다. Cursor 측은 피해 범위를 "최대 5,000명"으로 추산하며, 해당 버전을 설치한 사용자는 머신이 침해된 것으로 간주하라고 경고했다([AI Weekly](https://aiweekly.co/ai-news-today)). Anthropic은 10월 30일 정상 버전 2.1.314를 배포했고, C2 서버는 차단됐다.
 
-## GitHub Copilot: 11월 16일 모델 대규모 퇴장
+## EMBRACE: AI 코딩 도구 5종 내장 브라우저 취약점 공개
 
-GitHub Copilot이 11월 16일부로 Claude Opus 4.8, Claude Opus 5, GPT-5.6 Terra를 모든 Copilot 서피스에서 제거한다([DevShot](https://devshot.co/blog/ai-coding-tool-changes-tracker)). Fusion GA 이후 자체 오케스트레이션 레이어로 전환하면서, 외부 모델 의존도를 줄이려는 전략으로 읽힌다. 한편 30% 모델 비용 할인 프로모션은 11월 30일까지 계속되며, 인기도는 71로 38일 연속 상승을 기록했다.
+Forever Security의 Gal Weizman 연구원이 10월 29일 EMBRACE 연구를 발표했다([AI Weekly](https://aiweekly.co/alerts/forever-security-embrace-research-breaks-five-ai-coding-browsers)). Cursor, GitHub Copilot, OpenAI Codex, VS Code, Claude Desktop 등 5종의 AI 코딩 도구에 내장된 브라우저가 독립 브라우저의 보안 규칙을 우회하는 취약점이 존재한다. Cursor에서는 악성 웹페이지가 에이전트의 샌드박스를 비활성화하고 임의 명령을 실행할 수 있었고, Copilot(v1.1.29 이전)에서는 URL 스푸핑으로 가짜 로그인 폼을 띄울 수 있었다([AI Weekly](https://aiweekly.co/alerts/forever-security-embrace-research-breaks-five-ai-coding-browsers)). Codex·VS Code·Claude Desktop에서는 로컬 HTML 파일의 웹 워커가 SSH 키, .env 파일, npm 토큰을 탈취할 수 있었다. Cursor(10/1 패치)와 Copilot(10/13, v1.1.29)은 패치됐지만, Codex와 VS Code는 발표 시점 기준 미패치 상태로, 약 4,500만 설치에 영향을 줄 수 있다.
 
-## DeepSeek: 오픈소스 에이전트 하네스 공개
+## Claude Code: 기존 게임 재현 차단 논란
 
-DeepSeek가 10월 31일 dsh-superagent의 MIT 라이선스 프로토타입을 공개했으며, 하루 만에 GitHub 스타 4,100개를 넘겼다([Pasquale Pillitteri](https://pasqualepillitteri.it/en/news/29029/deepseek-super-agent-open-source-prototype)). Anthropic의 Claude Cowork에 대항하는 오픈소스 에이전트 하네스로, 단일 레포지토리 대상 에이전트 실행에 초점을 맞추고 있다. 아직 초기 프리뷰 단계로 호환성 변경이 잦을 수 있다고 경고하고 있다.
+Anthropic이 Claude Code의 Claude Opus 5.5 시스템 프롬프트에 기존 게임 재현을 거부하는 지시를 추가했다([AI Weekly](https://aiweekly.co/ai-news-today)). 내부 플래그명 "tengu_heron_brook"이며, Anthropic 스태프 엔지니어 Addy Osmani가 10월 30일 X에서 IP 침해 방지 목적이라고 확인했다. 서버 측 조정으로 로컬 토글은 없으며, 일부 개발자들은 합법적인 리버스 엔지니어링 작업까지 차단된다고 보고하고 있다.
 
-## Anthropic: 11월 로드쇼 카운트다운
+## ChatGPT + Codex: 12월부터 사용량 풀 통합
 
-어제 S-1 공개($197억 매출, $1,097억 적자)에 이어, Bloomberg에 따르면 Morgan Stanley·Goldman Sachs 주관 로드쇼가 11월 9일 주간 시작 예정이다([ShareSansar](https://www.sharesansar.com/newsdetail/anthropics-ipo-could-become-worlds-largest-ipo-surpassing-spacexs-record-breaking-ipo-2026-10-28)). 추수감사절 전 나스닥 'ANT' 상장이 목표이며, 시장은 $1.5~2조 밸류에이션을 예상하고 있다.
+12월부터 ChatGPT와 Codex가 Plus, Pro, Business 구독자에 대해 단일 토큰 기반 사용량 풀을 공유한다([AI Weekly](https://aiweekly.co/ai-news-today)). 무거운 Codex 세션이 ChatGPT 대화와 같은 예산에서 차감되므로, 헤비 유저에게는 주의가 필요하다. Pro 플랜은 기존 5시간 제한 면제를 유지한다.
+
+## DeepSeek: 오픈소스 슈퍼 에이전트 공개
+
+DeepSeek가 10월 31일 dsh-superagent의 MIT 라이선스 프로토타입을 공개하며, 24시간 내 GitHub 스타 4,100개를 넘겼다([SCMP](https://www.scmp.com/tech/article/3372884/deepseek-unveils-ai-super-agent-coding-race-openai-anthropic)). GitHub 레포를 모니터링하고 Feishu 그룹 채팅도 수신하며, 병렬 Worker 세션으로 PR을 생성하는 구조다. Claude Cowork에 대항하는 오픈소스 에이전트 하네스로, 아직 초기 프리뷰 단계다.
+
+## Codex CLI v0.166.0: 트랜스크립트 검색과 큐 재개
+
+OpenAI가 10월 29일 Codex CLI v0.166.0을 출시했다([DEV Community](https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-november-1-2026-15pn)). 키보드 기반 트랜스크립트 검색, `codex queue --resume`, `codex doctor --network-only`가 추가됐다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 99 | — | Pro 3-tier 체제 안정 |
-| Claude Code | 99 | — | IPO 로드쇼 D-8 |
-| Codex CLI | 99 | — | v0.166.0 출시, 큐 재개 기능 |
+| ChatGPT | 99 | — | 12월 Codex 사용량 풀 통합 예고 |
+| Claude Code | 99 | — | 게임 재현 차단 논란, IPO D-8 |
+| Codex CLI | 99 | — | v0.166.0, EMBRACE 미패치 주의 |
 | Antigravity | 99 | — | Gemini 4 Argon Pro 안정 |
 | Claude AI | 99 | — | ANT 상장 카운트다운 |
 | Windsurf | 88 | — | 주요 업데이트 없음 |
-| GH Copilot | 71 | ↑2 | 38일 연속 회복, 11/16 모델 퇴장 예고 |
+| GH Copilot | 71 | ↑2 | 38일 연속 회복, 11/16 모델 퇴장 |
 | Aider | 68 | — | 유지보수 모드 |
-| Cursor | 1 | — | 68일째 바닥 |
+| Cursor | 1 | — | 악성 확장 유통 사태, 68일째 바닥 |
 | Gemini CLI | 1 | — | 은퇴, Antigravity 전환 완료 |
 
-Copilot의 모델 퇴장은 Fusion 자체 오케스트레이션으로의 전환을 의미한다. 외부 프론티어 모델에 의존하던 시대가 끝나고, 각 도구가 자체 스택을 구축하는 흐름이 가속화되고 있다. DeepSeek의 에이전트 하네스 공개는 이 경쟁에 오픈소스 대안이라는 새로운 축을 추가한다.
+보안이 11월 첫 주의 화두다. EMBRACE 취약점과 악성 확장 사건은 AI 코딩 도구의 공급망 보안과 내장 브라우저 보안 감사가 얼마나 중요한지를 다시 한번 상기시킨다. 특히 미패치 상태인 Codex와 VS Code의 4,500만 사용자에게는 프로젝트 내 HTML 파일 점검이 시급하다.

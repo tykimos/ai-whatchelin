@@ -19,7 +19,7 @@ DeepSeek released its coding agent framework "Harness" under MIT license on Octo
 
 ## Claude: Mythos 5.5 Reference Spotted, Game Recreation Controversy
 
-TestingCatalog reported on November 1 that a Mythos 5.5 reference appeared on Anthropic's Mythos page, with a possible launch "next week" — still unconfirmed ([TestingCatalog](https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/)). Separately, since around October 27 Claude Code has been enforcing a server-side rule ('tengu_heron_brook') blocking recreation of specific existing video games ([Game Developer](https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games)). Anthropic confirmed it added two sentences to Claude Code's prompt on Opus 5.5 to prevent IP infringement ([VideoCardz](https://videocardz.com/newz/anthropic-restricts-claude-code-from-recreating-existing-games-developers-report-blocked-projects)).
+TestingCatalog reported on November 1 that a Mythos 5.5 reference appeared on Anthropic's Mythos page, with a possible launch "next week" — still unconfirmed ([TestingCatalog](https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/)). Separately, since around October 27 Claude Code has been enforcing a server-side rule ('tengu_heron_brook') blocking recreation of specific existing video games ([Game Developer](https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games)). Anthropic confirmed it added two sentences to Claude Code's prompt on Opus 5.5 to prevent IP infringement ([VideoCardz](https://videocardz.com/newz/anthropic-restricts-claude-code-from-recreating-existing-games-developers-report-blocked-projects)). Notably, this rule is not part of Anthropic's broader usage policy update effective November 12 ([Crypto Briefing](https://cryptobriefing.com/anthropic-claude-code-blocks-video-game-clones/)). Original games and genre games are allowed; recreations of specific existing games are blocked even if renamed.
 
 ## Cursor: OpenAI Cutoff D-10, Day 69 at Rock Bottom
 
@@ -31,7 +31,7 @@ Momentum from Universe 2026's Copilot Fusion GA continues, with 38 consecutive d
 
 ## Anthropic: IPO Roadshow One Week Away
 
-Anthropic's S-1 was filed with the SEC on October 26, with the roadshow expected the week of November 9. Nasdaq ticker "ANT," 12-month revenue $19.7B, net loss $109.7B ([IPO Scoop](https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/)). The potential overlap between a Mythos 5.5 launch and the roadshow has drawn strategic timing speculation.
+Anthropic's S-1 was filed with the SEC on October 26, with the roadshow expected to begin the week of November 9 ([XTB](https://www.xtb.com/en/market-analysis/anthropic-files-prospectus-ahead-of-ipo-with-ant-ticker-on-nasdaq-the-launch-date-and-price-remain-a-mystery)). Under the 15-day rule, the earliest legal start date is November 10 ([Leverage Shares](https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/)), with a debut targeted before Thanksgiving on November 26 ([Bloomberg via Implicator](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/)). Nasdaq ticker "ANT"; price range and share count remain undetermined. The potential overlap between a Mythos 5.5 launch and the roadshow has drawn strategic timing speculation.
 
 ## Market Pulse
 
@@ -48,4 +48,4 @@ Anthropic's S-1 was filed with the SEC on October 26, with the roadshow expected
 | Cursor | 1 | — | OpenAI cutoff D-10, day 69 at bottom |
 | Gemini CLI | 1 | — | Retired, Antigravity transition complete |
 
-Goldman's restriction introduces "enterprise governance" as a new variable in the AI coding tool race. Beyond raw capability competition, the question of *who* gets to use *which* tools inside organizations is now front and center. DeepSeek Harness's arrival signals the open-source counteroffensive has begun.
+Goldman's restriction introduces "enterprise governance" as a new variable in the AI coding tool race ([Seeking Alpha](https://seekingalpha.com/news/4662812-goldman-sachs-bans-traders-and-bankers-from-using-some-ai-tools-report)). As recently as July, CIO Marco Argenti publicly praised "vibe coding" by non-technical staff — making the reversal all the more striking ([The Decoder](https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/)). Beyond raw capability competition, the question of *who* gets to use *which* tools inside organizations is now front and center. DeepSeek Harness's arrival signals the open-source counteroffensive has begun.

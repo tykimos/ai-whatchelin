@@ -19,7 +19,7 @@ DeepSeek가 10월 31일 자체 코딩 에이전트 프레임워크 'Harness'를 
 
 ## Claude: Mythos 5.5 레퍼런스 포착, 게임 복제 제한 논란
 
-TestingCatalog이 11월 1일 Anthropic Mythos 페이지에서 Mythos 5.5 레퍼런스를 발견했다([TestingCatalog](https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/)). "다음 주" 출시 가능성이 거론되지만 확정은 아니다. 한편, 10월 27일경부터 Claude Code가 기존 게임 복제를 차단하는 서버사이드 규칙('tengu_heron_brook')을 적용하고 있다는 보고가 잇따르고 있다([Game Developer](https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games)). Anthropic은 Opus 5.5에 IP 침해 방지를 위한 프롬프트 2문장을 추가했다고 확인했다([VideoCardz](https://videocardz.com/newz/anthropic-restricts-claude-code-from-recreating-existing-games-developers-report-blocked-projects)).
+TestingCatalog이 11월 1일 Anthropic Mythos 페이지에서 Mythos 5.5 레퍼런스를 발견했다([TestingCatalog](https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/)). "다음 주" 출시 가능성이 거론되지만 확정은 아니다. 한편, 10월 27일경부터 Claude Code가 기존 게임 복제를 차단하는 서버사이드 규칙('tengu_heron_brook')을 적용하고 있다([Game Developer](https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games)). Anthropic은 Opus 5.5에 IP 침해 방지를 위한 프롬프트 2문장을 추가했다고 확인했으며([VideoCardz](https://videocardz.com/newz/anthropic-restricts-claude-code-from-recreating-existing-games-developers-report-blocked-projects)), 이 규칙은 11월 12일 발효되는 업데이트된 이용 정책에는 포함되지 않은 것으로 알려졌다([Crypto Briefing](https://cryptobriefing.com/anthropic-claude-code-blocks-video-game-clones/)). 오리지널 게임이나 장르 게임 개발은 허용되지만, 기존 게임의 복제는 이름을 바꾸더라도 차단된다.
 
 ## Cursor: OpenAI 차단 D-10, 69일째 바닥
 
@@ -31,7 +31,7 @@ Universe 2026 Fusion GA 이후 모멘텀이 지속되며 38일 연속 상승 중
 
 ## Anthropic: IPO 로드쇼 1주 전
 
-S-1이 10월 26일 SEC에 제출됐고, 로드쇼는 11월 9일 주로 예상된다. Nasdaq 티커 "ANT", 12개월 매출 $19.7B, 순손실 $109.7B([IPO Scoop](https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/)). Mythos 5.5와 로드쇼 타이밍이 겹칠 가능성에 시장의 이목이 집중되고 있다.
+S-1이 10월 26일 SEC에 제출됐고, 로드쇼는 11월 9일 주에 시작될 전망이다([XTB](https://www.xtb.com/en/market-analysis/anthropic-files-prospectus-ahead-of-ipo-with-ant-ticker-on-nasdaq-the-launch-date-and-price-remain-a-mystery)). 공개 제출 후 15일 규정에 따라 로드쇼는 법적으로 11월 10일 이후 가능하며([Leverage Shares](https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/)), 추수감사절(11월 26일) 전 데뷔를 목표로 하고 있다([Bloomberg via Implicator](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/)). Nasdaq 티커 "ANT", 가격 범위와 주식 수는 아직 미정이다. Mythos 5.5와 로드쇼 타이밍이 겹칠 가능성에 시장의 이목이 집중되고 있다.
 
 ## 마켓 펄스
 
@@ -48,4 +48,4 @@ S-1이 10월 26일 SEC에 제출됐고, 로드쇼는 11월 9일 주로 예상된
 | Cursor | 1 | — | OpenAI 차단 D-10, 69일째 바닥 |
 | Gemini CLI | 1 | — | 은퇴, Antigravity 전환 완료 |
 
-골드만삭스의 제한 조치는 AI 코딩 도구 시장에 "엔터프라이즈 거버넌스"라는 새 변수를 던졌다. 도구 자체의 성능 경쟁과 별개로, 기업 내 누가 어떤 도구를 쓸 수 있는지의 문제가 부상하고 있다. DeepSeek Harness의 등장은 오픈소스 진영의 반격 신호탄이다.
+골드만삭스의 제한 조치는 AI 코딩 도구 시장에 "엔터프라이즈 거버넌스"라는 새 변수를 던졌다([Seeking Alpha](https://seekingalpha.com/news/4662812-goldman-sachs-bans-traders-and-bankers-from-using-some-ai-tools-report)). 7월까지만 해도 CIO 마르코 아르젠티가 비기술직의 "바이브 코딩"을 공개적으로 칭찬했던 터라 반전이 크다([The Decoder](https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/)). 도구 자체의 성능 경쟁과 별개로, 기업 내 누가 어떤 도구를 쓸 수 있는지의 문제가 부상하고 있다. DeepSeek Harness의 등장은 오픈소스 진영의 반격 신호탄이다.

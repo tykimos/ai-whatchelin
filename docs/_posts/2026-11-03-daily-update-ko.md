@@ -25,6 +25,14 @@ Codex CLI v0.166.0이 10월 29일 출시되어 키보드 기반 트랜스크립�
 
 GitHub Copilot이 39일 연속 상승하며 75점을 기록했다. Copilot CLI가 네이티브 Rust 엔진으로 전환되어 성능이 개선되었고([GitHub Blog](https://github.blog/changelog/)), 11월 16일에는 모델 라인업 새로고침(Opus 5.5, GPT-6.1 Sol)이 예정되어 있다. 12월 1일부터는 AI 크레딧 기반 과금 체계로 전면 전환된다([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)).
 
+## Anthropic: IPO S-1 공개, 로드쇼 카운트다운
+
+Anthropic이 10월 26일 SEC에 S-1 등록신고서를 공식 제출했다([CryptoBriefing](https://cryptobriefing.com/anthropic-nasdaq-ipo-listing-2026/)). 티커는 ANT, 상장 거래소는 Nasdaq Global Select Market이다. 다만 주당 가격 범위는 아직 공란으로, 수정 S-1 제출과 함께 확정될 예정이다. 기밀 제출 이후 공개까지 최소 15일이 필요하므로, 로드쇼는 이르면 11월 10일 시작이 가능하다([Leverage Shares](https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/)). Bloomberg는 11월 9일 주간 마케팅 개시를 보도했으며, 상장은 추수감사절 이전 11월 중순이 유력하다([Parameter](https://parameter.io/claude-creator-prepares-100-billion-public-offering-ahead-of-thanksgiving/)).
+
+## GitHub Copilot: 11월 16일 모델 교체 세부사항 확정
+
+GitHub가 11월 16일부로 Claude Opus 4.8, Claude Opus 5, GPT-5.6 Terra를 Copilot 전 환경에서 제거한다고 공식 발표했다([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)). 대체 모델은 Claude Opus 5.5와 GPT-6.1 Sol이며, Enterprise·Business 고객은 기본 설정으로 자동 전환된다. 연간 구독 개인 사용자의 Opus 4.8은 예외 적용된다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
@@ -33,9 +41,9 @@ GitHub Copilot이 39일 연속 상승하며 75점을 기록했다. Copilot CLI�
 | Claude Code | 99 | — | 공급망 공격은 Cursor 측 문제, 본체 무영향 |
 | Codex CLI | 99 | — | v0.166.0 안정 운영 |
 | Antigravity | 99 | — | Gemini 4 Argon Pro 롤아웃 |
-| Claude AI | 99 | — | ANT 로드쇼 D-6 |
+| Claude AI | 99 | — | ANT S-1 공개, 로드쇼 D-7 최소 |
 | Windsurf | 88 | — | Devin Desktop 안정 |
-| GH Copilot | 75 | ↑2 | 39일 연속 상승, Rust CLI 전환 |
+| GH Copilot | 75 | ↑2 | 39일 연속 상승, 11/16 모델 교체 확정 |
 | Aider | 68 | — | 유지보수 모드 |
 | Cursor | 1 | — | 공급망 공격 + OpenAI 차단 D-9, 70일째 바닥 |
 | Gemini CLI | 1 | — | 서비스 종료, Antigravity 전환 완료 |

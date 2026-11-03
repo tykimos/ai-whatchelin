@@ -25,6 +25,14 @@ Codex CLI v0.166.0 shipped October 29 with keyboard-driven transcript selection,
 
 GitHub Copilot extended its recovery streak to 39 consecutive days, reaching a score of 75. Copilot CLI's migration to a native Rust engine is delivering improved performance ([GitHub Blog](https://github.blog/changelog/)), and a November 16 model lineup refresh (Opus 5.5, GPT-6.1 Sol) is on the calendar. The full transition to AI credit-based billing takes effect December 1 ([GitHub Blog](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)).
 
+## Anthropic: IPO S-1 Goes Public, Roadshow Countdown Begins
+
+Anthropic filed its S-1 registration statement with the SEC on October 26 ([CryptoBriefing](https://cryptobriefing.com/anthropic-nasdaq-ipo-listing-2026/)). The ticker is ANT, the listing venue is the Nasdaq Global Select Market, but the per-share price range remains blank — it will be set in an amended filing. Since the confidential-to-public filing requires at least 15 days before the roadshow can begin, the earliest possible start is November 10 ([Leverage Shares](https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/)). Bloomberg has reported marketing could begin the week of November 9, with a listing expected in mid-November before Thanksgiving ([Parameter](https://parameter.io/claude-creator-prepares-100-billion-public-offering-ahead-of-thanksgiving/)).
+
+## GitHub Copilot: November 16 Model Swap Details Confirmed
+
+GitHub officially announced it will remove Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Terra across all Copilot experiences on November 16 ([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)). Replacements are Claude Opus 5.5 and GPT-6.1 Sol, with auto-enablement for Enterprise and Business customers under default settings. Annual individual subscribers get an exception for Opus 4.8.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
@@ -33,9 +41,9 @@ GitHub Copilot extended its recovery streak to 39 consecutive days, reaching a s
 | Claude Code | 99 | — | Supply chain attack was Cursor-side, core unaffected |
 | Codex CLI | 99 | — | v0.166.0 stable |
 | Antigravity | 99 | — | Gemini 4 Argon Pro rollout |
-| Claude AI | 99 | — | ANT roadshow D-6 |
+| Claude AI | 99 | — | ANT S-1 public, roadshow D-7 earliest |
 | Windsurf | 88 | — | Devin Desktop stable |
-| GH Copilot | 75 | ↑2 | 39-day streak, Rust CLI migration |
+| GH Copilot | 75 | ↑2 | 39-day streak, 11/16 model swap confirmed |
 | Aider | 68 | — | Maintenance mode |
 | Cursor | 1 | — | Supply chain attack + OpenAI cutoff D-9, day 70 at bottom |
 | Gemini CLI | 1 | — | Retired, Antigravity transition complete |

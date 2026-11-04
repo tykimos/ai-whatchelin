@@ -1648,6 +1648,13 @@ timeline
          : ChatGPT/Codex 사용량 풀 통합 — 12월부터 Plus/Pro/Business 단일 토큰 예산 (11/1)
          : Claude Mythos 5.5 레퍼런스 Anthropic Mythos 페이지에서 포착 — 다음 주 출시 가능, 미확인 (11/1)
          : GH Copilot 73으로 상승 — Cursor에 72점 리드, 38일 연속 회복, Fusion GA 효과 지속 (11/2)
+         : Anthropic 수정 S-1 — $895B 컴퓨팅 계약, Q3 매출 $17B, 영업손실 $567M, ipo.anthropic.com 리테일 접근 (11/2)
+         : 투자자, Anthropic IPO 밸류에이션 하향 압박 — $2T 목표 대비 $1.5-1.6T, AI 시장 변동성 (11/3)
+         : Xcode 27.3 베타 1 — Apple, GitHub Copilot을 빌트인 코딩 어시스턴트로 탑재, Xcode 최초 서드파티 AI 네이티브 통합 (11/3)
+         : GH Copilot 75로 상승 — Cursor에 74점 리드, 39일 연속 회복, Xcode 통합 (11/3)
+         : Revolut, 56대 B200 GPU에 GLM-5.3 자체 호스팅 — 메터드 API 대비 AI 코딩 비용 90% 절감, 2천 명 엔지니어 이전 (11/4)
+         : OpenAI Pro/Business Premium Codex+Work 사용량 2배 인상, 12월 통합 풀 확정 (11/3)
+         : GH Copilot 77로 상승 — Cursor에 76점 리드, 40일 연속 회복, 모델 교체 D-12 (11/4)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

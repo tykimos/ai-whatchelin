@@ -1648,6 +1648,13 @@ timeline
          : ChatGPT/Codex usage pool merge — single token budget for Plus/Pro/Business starting December (Nov 1)
          : Claude Mythos 5.5 reference spotted on Anthropic Mythos page — possible release next week, unconfirmed (Nov 1)
          : GH Copilot rises to 73 — 72-point lead over Cursor, 38-day streak, Fusion GA momentum (Nov 2)
+         : Anthropic amended S-1 — $895B compute commitments, Q3 $17B revenue, $567M operating loss, ipo.anthropic.com retail access (Nov 2)
+         : Investors push for Anthropic IPO valuation cut — $1.5-1.6T vs $2T target, AI market volatility cited (Nov 3)
+         : Xcode 27.3 beta 1 — Apple adds GitHub Copilot as built-in coding assistant, first native third-party AI in Xcode (Nov 3)
+         : GH Copilot rises to 75 — 74-point lead over Cursor, 39-day streak, Xcode integration (Nov 3)
+         : Revolut self-hosts GLM-5.3 on 56 B200 GPUs — 90% AI coding cost cut from metered APIs, 2K engineers migrated (Nov 4)
+         : OpenAI doubles Pro/Business Premium Codex+Work allowances, December combined usage pool confirmed (Nov 3)
+         : GH Copilot rises to 77 — 76-point lead over Cursor, 40-day streak, model swap D-12 (Nov 4)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

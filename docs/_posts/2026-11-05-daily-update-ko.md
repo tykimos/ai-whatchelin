@@ -15,7 +15,11 @@ Meta가 다중 AI 코딩 에이전트를 병렬 실행하는 스타트업 Conduc
 
 ## Anthropic IPO: 로드쇼 D-4, 가격대 미정
 
-Anthropic의 IPO 로드쇼가 이르면 11월 9일 주간에 시작될 수 있다([Leverage Shares](https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/)). 10월 26일 공개된 S-1 이후 15일 최소 대기 기간이 11월 10일에 만료되지만, 가격대가 포함된 수정 S-1은 아직 제출되지 않았다([Admiral Markets](https://admiralmarkets.com/education/articles/shares/anthropic-ipo)). 일부 투자자들은 $2T 목표 대비 $1.5~1.6T으로 밸류에이션 하향을 요구하고 있으며([Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/anthropic-updates-ipo-filing-investors-034041239.html)), 상장은 추수감사절(11/27) 전으로 예상된다([Bloomberg](https://news.bgov.com/banking-law/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday)).
+Anthropic의 IPO 로드쇼가 이르면 11월 9일 주간에 시작될 수 있다([Leverage Shares](https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/)). 10월 26일 공개된 S-1 이후 15일 최소 대기 기간이 11월 10일에 만료되지만, 가격대가 포함된 수정 S-1은 아직 제출되지 않았다([Admiral Markets](https://admiralmarkets.com/education/articles/shares/anthropic-ipo)). SEC가 11월 11일(재향군인의 날) 휴무인 점을 감안하면, 최초 가격 책정은 이르면 11월 13일, 첫 거래는 11월 16일경이 될 것으로 보인다([Leverage Shares](https://leverageshares.com/us/insights/anthropic-ipo-price/)). 일부 투자자들은 $2T 목표 대비 $1.5~1.6T으로 밸류에이션 하향을 요구하고 있으며([Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/anthropic-updates-ipo-filing-investors-034041239.html)), 상장은 추수감사절(11/27) 전으로 예상된다([Bloomberg](https://news.bgov.com/banking-law/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday)). Class A 주식은 Nasdaq에 티커 ANT로 상장 예정이며, Goldman Sachs와 Morgan Stanley가 주관한다.
+
+## Anthropic: Mythos 5.5 유출, 새 모델 출시 임박설
+
+11월 1일 Anthropic 공식 Mythos 페이지 소스 코드에 Claude Mythos 5.5에 대한 참조가 잠깐 노출됐다가 수 시간 내에 삭제되었다([TestingCatalog](https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/)). 현재 공개 페이지에는 여전히 Mythos 5.1이 표시되어 있다. 별도로, Anthropic이 일부 사용자를 대상으로 업데이트된 Fable 5.5 체크포인트를 A/B 테스트 중이라는 다수의 보고가 있다. 공식 발표는 없지만, 9~10월 Opus 5.5 / Sonnet 5.5 / Haiku 5.5 동시 출시 패턴을 고려하면 Mythos 5.5와 Fable 5.5의 동시 런칭 가능성이 있다. IPO 로드쇼 시점에 맞춰 모델을 출시하는 것은 버즈를 극대화하는 전형적인 전략이다.
 
 ## Cursor: OpenAI 차단 D-7, 72일째 바닥
 
@@ -24,6 +28,10 @@ Anthropic의 IPO 로드쇼가 이르면 11월 9일 주간에 시작될 수 있�
 ## GitHub Copilot: 79점, 41일 연속 상승
 
 GitHub Copilot이 41일 연속 상승하며 79점을 기록했다. Xcode 27.3 베타 1에 빌트인 통합된 것이 모멘텀을 유지하고 있으며([9to5Mac](https://9to5mac.com/2026/11/03/xcode-27-3-adds-github-copilot-to-its-built-in-coding-assistant)), 11월 16일 모델 교체(Opus 4.8/5 → Opus 5.5, GPT-5.6 Terra → GPT-6.1 Sol)까지 11일 남았다([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)). Fusion GA의 30% 할인 프로모션(11/30까지)도 상승세에 기여하고 있다.
+
+## 도구 업데이트: Claude Code v2.1.318, Codex CLI v0.166.0
+
+Claude Code v2.1.318이 출시되어 인증 상태 세부 정보, 클라우드 세션 옵션, 세션 안정성 및 백그라운드 에이전트 수정 사항이 포함되었다([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Codex CLI v0.166.0(10월 29일 출시)은 키보드 기반 트랜스크립트 선택/검색, GPT-6.1 Terra 지원, 대기열 스레드 재개를 위한 `codex queue --resume`, 네트워크 진단 전용 `codex doctor --network-only`를 추가했다([Releasebot](https://releasebot.io/updates/openai)). 또한 Anthropic은 11월 2일 Messages API의 메시지 스레드 기능을 퍼블릭 베타로 출시해, 장기 실행 에이전트 세션에서 턴 간 새 메시지만 전송하여 지연 시간을 줄일 수 있게 했다.
 
 ## 11월 둘째 주 관전 포인트
 

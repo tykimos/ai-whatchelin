@@ -15,7 +15,11 @@ Meta acquired Conductor, a startup that runs multiple AI coding agents in parall
 
 ## Anthropic IPO: Roadshow D-4, Price Range Still Missing
 
-Anthropic's IPO roadshow could begin as early as the week of November 9 ([Leverage Shares](https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/)). The 15-day minimum waiting period after the October 26 public S-1 filing expires November 10, but no amended S-1 with a price range has been filed yet ([Admiral Markets](https://admiralmarkets.com/education/articles/shares/anthropic-ipo)). Some investors are pushing for a $1.5–1.6 trillion valuation, down from the $2 trillion target ([Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/anthropic-updates-ipo-filing-investors-034041239.html)). The listing is expected before Thanksgiving on November 27 ([Bloomberg](https://news.bgov.com/banking-law/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday)).
+Anthropic's IPO roadshow could begin as early as the week of November 9 ([Leverage Shares](https://leverageshares.com/us/insights/when-is-the-anthropic-ipo/)). The 15-day minimum waiting period after the October 26 public S-1 filing expires November 10, but no amended S-1 with a price range has been filed yet ([Admiral Markets](https://admiralmarkets.com/education/articles/shares/anthropic-ipo)). With the SEC closed on November 11 (Veterans Day), the earliest possible pricing date is November 13, with a potential first trade around November 16 ([Leverage Shares](https://leverageshares.com/us/insights/anthropic-ipo-price/)). Some investors are pushing for a $1.5–1.6 trillion valuation, down from the $2 trillion target ([Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/anthropic-updates-ipo-filing-investors-034041239.html)). The listing is expected before Thanksgiving on November 27 ([Bloomberg](https://news.bgov.com/banking-law/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday)). Class A shares are planned for Nasdaq under ticker ANT, with Goldman Sachs and Morgan Stanley leading the deal.
+
+## Anthropic: Mythos 5.5 Leak Fuels Speculation
+
+A reference to Claude Mythos 5.5 briefly appeared in the source code of Anthropic's official Mythos page on November 1, then was removed within hours ([TestingCatalog](https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/)). The visible page still shows Mythos 5.1 as the current version. Separately, multiple reports suggest Anthropic has been A/B testing updated Fable 5.5 checkpoints with selected users. No official announcement has been made, but a simultaneous launch of both models — similar to the Opus 5.5 / Sonnet 5.5 / Haiku 5.5 rollout in September–October — remains plausible. Timing a model launch alongside the IPO roadshow would be a classic move to generate buzz.
 
 ## Cursor: OpenAI Cutoff D-7, Day 72 at Bottom
 
@@ -24,6 +28,10 @@ Just 7 days remain until Cursor's access to OpenAI models is fully terminated on
 ## GitHub Copilot: Hits 79, 41-Day Streak
 
 GitHub Copilot extended its recovery to 41 consecutive days at a score of 79. Momentum continues from its native Xcode 27.3 integration ([9to5Mac](https://9to5mac.com/2026/11/03/xcode-27-3-adds-github-copilot-to-its-built-in-coding-assistant)), with 11 days until the November 16 model swap (Opus 4.8/5 to Opus 5.5, GPT-5.6 Terra to GPT-6.1 Sol) ([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)). The Fusion GA 30% discount promotion running through November 30 is also contributing to the upward trend.
+
+## Tool Updates: Claude Code v2.1.318, Codex CLI v0.166.0
+
+Claude Code shipped v2.1.318 with authentication status details, cloud-session options, and fixes for session reliability and background agents ([Releasebot](https://releasebot.io/updates/anthropic/claude-code)). Meanwhile, Codex CLI v0.166.0 (October 29) added keyboard-driven transcript selection and search, GPT-6.1 Terra support, a `codex queue --resume` option for resuming queued threads, and `codex doctor --network-only` for connectivity diagnostics ([Releasebot](https://releasebot.io/updates/openai)). Anthropic also launched Messages API message threads in public beta on November 2, letting agents send only new messages between turns to reduce latency in long-running sessions.
 
 ## Week 2 of November: The Densest Week Yet
 

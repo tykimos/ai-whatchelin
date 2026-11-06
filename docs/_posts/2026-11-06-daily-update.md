@@ -1,13 +1,17 @@
 ---
-title: "Anthropic Launches Enterprise Security Center, OpenAI Dots Goes GA — Copilot 42-Day Streak, Cursor D-6"
+title: "Goldman Sachs Restricts AI Coding Tools to Engineers — Anthropic Security Center, Copilot 42-Day Streak"
 date: 2026-11-06
 lang: en
 categories: [news]
-tags: [anthropic, claude-code, openai, dots, chatgpt, images, github-copilot, jetbrains, cursor, postman, watermark]
-excerpt: "Anthropic ships a security center for Claude Enterprise and rolls out model watermarking. OpenAI Dots goes GA for enterprise users, while Copilot hits a 42-day winning streak on JetBrains Air integration."
+tags: [anthropic, claude-code, openai, dots, chatgpt, images, github-copilot, jetbrains, cursor, goldman-sachs, watermark]
+excerpt: "Goldman Sachs pulls Claude Code and GitHub from traders and bankers, limiting access to engineers. Anthropic ships an enterprise security center ahead of its IPO, while Copilot extends its 42-day winning streak."
 ---
 
-Anthropic delivered two heavyweight updates back-to-back this week: an enterprise security tool and invisible watermarking across Claude models. OpenAI also joined the agent war in earnest, opening its personal agent Dots to enterprise customers.
+Goldman Sachs has restricted trader and banker access to advanced AI coding tools, bringing enterprise AI governance front and center this week. Meanwhile, Anthropic is doubling down on enterprise trust ahead of its IPO.
+
+## Goldman Sachs: Claude Code and GitHub Restricted to Engineers
+
+Bloomberg reported that Goldman Sachs updated its internal guidance in October, pulling Anthropic's Claude Code and Microsoft's GitHub tools from traders and bankers and limiting access to roughly 12,000 software engineers and quantitative strategists ([Newsquawk](https://www.newsquawk.com/headlines/goldman-sachs-gs-reportedly-restricts-access-to-advanced-ai-coding-tools-including-anthropics-claude-code-and-microsofts-msft-github-to-engineers-only-bloomberg-reports)). CIO Marco Argenti had praised trader vibe coding in July, but a productivity and risk review led to the reversal ([AI Weekly](https://aiweekly.co/alerts/goldman-sachs-pulls-claude-code-and-github-copilot-from-traders-and-bankers)). Replit CEO Amjad Masad linked the move to a trojanized Claude Code extension discovered in the Cursor marketplace ([The New Stack](https://thenewstack.io/ai-coding-agents-security/)).
 
 ## Anthropic: Claude Enterprise Security Center Launches
 
@@ -37,6 +41,10 @@ GitHub Copilot became available in JetBrains Air on November 3 ([GitHub Changelo
 
 Six days remain until Cursor's OpenAI model access is fully terminated on November 12 ([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). OpenAI cited concerns about SpaceX's compliance with its terms after the $60B acquisition ([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). Cursor's CEO said OpenAI models account for about 5% of total traffic, and the pivot to Grok 4.7 and Anthropic models continues.
 
+## Meta: Acquires AI Coding Startup Conductor
+
+Meta acquired Conductor, a multi-agent coding orchestration startup, on November 4 ([TechCrunch](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor)). Conductor's platform runs multiple AI coding agents in parallel. Its cloud service will shut down on November 20, after which user data will be deleted. Meta launched its own coding agent, Muse Code, in August — this acquisition further strengthens its AI coding capabilities.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
@@ -52,4 +60,4 @@ Six days remain until Cursor's OpenAI model access is fully terminated on Novemb
 | Cursor | 1 | — | OpenAI cutoff D-6, day 73 at bottom |
 | Gemini CLI | 1 | — | Retired, Antigravity transition complete |
 
-Both Anthropic and OpenAI are racing to ship enterprise security and agent features simultaneously — the AI coding tool war is expanding from code generation into full enterprise infrastructure integration.
+Goldman Sachs pulling AI coding tools from non-engineers signals that enterprise governance is becoming the next battleground — alongside the ongoing race for features and models.

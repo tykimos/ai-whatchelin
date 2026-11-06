@@ -1,13 +1,17 @@
 ---
-title: "Anthropic 기업 보안센터 출시, OpenAI Dots 정식 개방 — Copilot 42일 연속 상승, Cursor 차단 D-6"
+title: "골드만삭스, AI 코딩 도구 접근 엔지니어로 제한 — Anthropic 보안센터 출시, Copilot 42일 연속 상승"
 date: 2026-11-06
 lang: ko
 categories: [news]
-tags: [anthropic, claude-code, openai, dots, chatgpt, images, github-copilot, jetbrains, cursor, postman, watermark]
-excerpt: "Anthropic이 Claude Enterprise 보안센터를 출시하고 Claude 모델에 워터마킹을 적용했다. OpenAI Dots가 기업 사용자에게 정식 개방되며, Copilot은 JetBrains Air 통합으로 42일 연속 상승 중이다."
+tags: [anthropic, claude-code, openai, dots, chatgpt, images, github-copilot, jetbrains, cursor, goldman-sachs, watermark]
+excerpt: "골드만삭스가 Claude Code와 GitHub 등 AI 코딩 도구 접근을 엔지니어로 제한했다. Anthropic은 기업 보안센터를 출시하고, Copilot은 42일 연속 상승 중이다."
 ---
 
-Anthropic이 기업 보안 도구와 모델 워터마킹이라는 두 가지 굵직한 업데이트를 이번 주 연달아 내놓았다. OpenAI도 개인 에이전트 Dots를 기업 고객에게 정식 개방하며 에이전트 전쟁에 본격 참전했다.
+골드만삭스가 트레이더와 뱅커들의 AI 코딩 도구 사용을 전격 제한하면서, 기업 환경에서 AI 코딩 도구의 거버넌스 문제가 본격적으로 수면 위로 떠올랐다. 한편 Anthropic은 IPO를 앞두고 기업 보안 기능을 강화하고 있다.
+
+## 골드만삭스: Claude Code·GitHub 접근 엔지니어로 제한
+
+Bloomberg에 따르면, 골드만삭스가 10월 내부 지침 업데이트를 통해 Anthropic Claude Code와 Microsoft GitHub 등 고급 AI 코딩 도구 접근을 약 12,000명의 소프트웨어 엔지니어와 퀀트 전략가로 제한했다([Newsquawk](https://www.newsquawk.com/headlines/goldman-sachs-gs-reportedly-restricts-access-to-advanced-ai-coding-tools-including-anthropics-claude-code-and-microsofts-msft-github-to-engineers-only-bloomberg-reports)). 7월에는 CIO 마르코 아르젠티가 트레이더들의 바이브 코딩 사용을 긍정적으로 언급했으나, 생산성과 리스크 관리 재평가 끝에 방향을 전환한 것이다([AI Weekly](https://aiweekly.co/alerts/goldman-sachs-pulls-claude-code-and-github-copilot-from-traders-and-bankers)). Replit CEO는 이 조치를 Cursor 마켓플레이스에서 발견된 트로이 목마 Claude Code 확장 프로그램 사건과 연결지었다([The New Stack](https://thenewstack.io/ai-coding-agents-security/)).
 
 ## Anthropic: Claude Enterprise 보안센터 출시
 
@@ -37,6 +41,10 @@ GitHub Copilot이 11월 3일 JetBrains Air에서 사용 가능해졌다([GitHub 
 
 11월 12일 OpenAI 모델 접근 완전 차단까지 6일 남았다([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). OpenAI는 SpaceX 인수 후 이용약관 준수에 대한 확신이 없다는 이유를 들었다([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). Cursor CEO는 OpenAI 모델이 전체 트래픽의 약 5%에 불과하다고 밝혔으며, Grok 4.7과 Anthropic 모델로 전환을 진행 중이다.
 
+## Meta: AI 코딩 스타트업 Conductor 인수
+
+Meta가 11월 4일 멀티에이전트 코딩 오케스트레이션 스타트업 Conductor를 인수했다([TechCrunch](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor)). Conductor는 여러 AI 코딩 에이전트를 병렬로 실행하는 플랫폼으로, 클라우드 서비스는 11월 20일 종료 후 사용자 데이터가 삭제된다. Meta는 8월 자체 코딩 에이전트 Muse Code를 출시한 바 있으며, 이번 인수로 AI 코딩 역량을 한층 강화하게 된다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
@@ -52,4 +60,4 @@ GitHub Copilot이 11월 3일 JetBrains Air에서 사용 가능해졌다([GitHub 
 | Cursor | 1 | — | OpenAI 차단 D-6, 73일째 바닥 |
 | Gemini CLI | 1 | — | 서비스 종료, Antigravity 전환 완료 |
 
-Anthropic과 OpenAI가 동시에 기업 보안·에이전트 기능을 강화하면서, AI 코딩 도구 경쟁의 전선이 '코드 생성'에서 '기업 인프라 통합'으로 확대되고 있다.
+골드만삭스의 AI 코딩 도구 비엔지니어 접근 차단은, 기업 거버넌스가 기능·모델 경쟁과 함께 새로운 전선으로 부상하고 있음을 보여준다.

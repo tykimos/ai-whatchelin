@@ -1655,6 +1655,15 @@ timeline
          : Revolut self-hosts GLM-5.3 on 56 B200 GPUs — 90% AI coding cost cut from metered APIs, 2K engineers migrated (Nov 4)
          : OpenAI doubles Pro/Business Premium Codex+Work allowances, December combined usage pool confirmed (Nov 3)
          : GH Copilot rises to 77 — 76-point lead over Cursor, 40-day streak, model swap D-12 (Nov 4)
+         : ChatGPT Images 2.6 — GIF creation, saved reference images, Flare/Sunburst API models, 4B images/week (Nov 4)
+         : ChatGPT iOS v1.2026.300 — full-screen composer with attachment management (Nov 2)
+         : GH Copilot rises to 79 — 78-point lead over Cursor, 41-day streak, model swap D-11 (Nov 5)
+         : GH Copilot rises to 81 — 80-point lead over Cursor, 42-day streak, model swap D-10 (Nov 6)
+         : Devin Desktop CLI agent — new local CLI agent for existing Windsurf subscribers (Nov 6)
+         : GH Copilot rises to 83 — 82-point lead over Cursor, 43-day streak, model swap D-9 (Nov 7)
+         : Cursor OpenAI cutoff D-5 — November 12 model termination approaches (Nov 7)
+         : Anthropic IPO roadshow D-2 — expected to begin week of Nov 9, Nasdaq ANT (Nov 7)
+         : OpenAI Dots default activation D-11 — Enterprise/Edu/Healthcare auto-enable Nov 18 (Nov 7)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3459,6 +3468,22 @@ All pricing information has been directly verified from each service's official 
 | 2026/11/01 | **GH Copilot rises to 71** — 70-point lead over Cursor; 37-day recovery streak | [github.com](https://github.com/features/copilot) |
 | 2026/11/01 | **Claude Mythos 5.5 reference spotted** — TestingCatalog reports Mythos 5.5 reference on Anthropic's Mythos page; possible release "next week"; Fable 5.5 A/B testing reported; unconfirmed | [testingcatalog.com](https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/) |
 | 2026/11/02 | **GH Copilot rises to 73** — 72-point lead over Cursor; 38-day recovery streak; Fusion GA momentum | [github.com](https://github.com/features/copilot) |
+| 2026/11/02 | **Anthropic amended S-1** — $895B compute commitments disclosed; Q3 revenue $17B; operating loss $567M; ipo.anthropic.com retail investor access launched | [sec.gov](https://www.sec.gov/cgi-bin/browse-edgar?company=anthropic&CIK=&type=S-1&dateb=&owner=include&count=40&search_text=&action=getcompany) |
+| 2026/11/02 | **ChatGPT iOS v1.2026.300** — full-screen composer with inline attachment add/preview/remove; no need to leave composer | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/11/03 | **Investors push Anthropic IPO valuation cut** — institutional investors targeting $1.5-1.6T vs management's $2T target; AI market volatility cited | [cryptobriefing.com](https://cryptobriefing.com/anthropic-targets-november-ipo-delay/) |
+| 2026/11/03 | **Xcode 27.3 beta 1** — Apple adds GitHub Copilot as built-in coding assistant; first native third-party AI integration in Xcode | [developer.apple.com](https://developer.apple.com/xcode/) |
+| 2026/11/03 | **GH Copilot rises to 75** — 74-point lead over Cursor; 39-day recovery streak; Xcode integration momentum | [github.com](https://github.com/features/copilot) |
+| 2026/11/03 | **OpenAI doubles Pro/Business Premium allowances** — Codex+Work usage doubled; December combined usage pool confirmed | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/11/04 | **ChatGPT Images 2.6** — GIF creation and editing; saved reference images for reuse; playback speed control and per-frame revision; Flare (speed) and Sunburst (quality) API models; ~4B images/week across ChatGPT/Codex/API | [unite.ai](https://www.unite.ai/chatgpt-adds-animated-gif-creation-and-editing-with-images-2-6/) |
+| 2026/11/04 | **Revolut self-hosts GLM-5.3** — 56 B200 GPUs; 90% AI coding cost cut from metered APIs; 2K engineers migrated off SaaS tools | [revolut.com](https://www.revolut.com/blog/) |
+| 2026/11/04 | **GH Copilot rises to 77** — 76-point lead over Cursor; 40-day recovery streak; model swap D-12 | [github.com](https://github.com/features/copilot) |
+| 2026/11/04 | **OpenAI Dots GA preview** — always-on agents rolling out to Enterprise, Edu, Healthcare; admin preview until Nov 18 default activation | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/11/05 | **GH Copilot rises to 79** — 78-point lead over Cursor; 41-day recovery streak; model swap D-11 | [github.com](https://github.com/features/copilot) |
+| 2026/11/06 | **GH Copilot rises to 81** — 80-point lead over Cursor; 42-day recovery streak; model swap D-10 | [github.com](https://github.com/features/copilot) |
+| 2026/11/06 | **Devin Desktop CLI agent** — new local CLI agent launched for existing Windsurf subscribers; runs on user's machine | [windsurf.com](https://windsurf.com/changelog) |
+| 2026/11/07 | **GH Copilot rises to 83** — 82-point lead over Cursor; 43-day recovery streak; model swap D-9 | [github.com](https://github.com/features/copilot) |
+| 2026/11/07 | **Cursor OpenAI cutoff D-5** — November 12 model termination approaches; ~5% of Cursor traffic affected; BYOK workaround available but limited | [openai.com](https://openai.com/blog/our-decision-on-cursor-following-its-acquisition-by-spacex) |
+| 2026/11/07 | **Anthropic IPO roadshow D-2** — expected to begin week of Nov 9; Nasdaq ANT; earliest pricing Nov 13 | [implicator.ai](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/) |
 | 2026/10/26 | **Anthropic S-1 public filing** — registration statement filed with SEC; proposed Nasdaq listing under "ANT"; disclosed $19.7B revenue (12 months ended Jun 30, 2026), $109.7B net loss; registration not yet effective; roadshow expected week of Nov 9 | [iposcoop.com](https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/) |
 | 2026/10/28 | **Copilot Fusion 30% discount** — temporary 30% model-cost discount for paid subscribers through Nov 30, 2026; Fusion GA scores 71 on Terminal-Bench 4.0, $5.59/task vs $11.42 for Claude Code Opus 5.5 per Artificial Analysis | [artificialanalysis.ai](https://artificialanalysis.ai/articles/github-copilot-fusion-orchestrates-anthropic-and-openai-models-to-balance-performance-and-cost) |
 | 2026/10/28 | **Copilot CLI v1.0.105** — /model picker adds Fusion High and Fusion Max for long-context sessions | [havoptic.com](https://www.havoptic.com/releases/github-copilot/2026/10) |

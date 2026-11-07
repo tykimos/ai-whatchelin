@@ -1655,6 +1655,15 @@ timeline
          : Revolut, 56대 B200 GPU에 GLM-5.3 자체 호스팅 — 메터드 API 대비 AI 코딩 비용 90% 절감, 2천 명 엔지니어 이전 (11/4)
          : OpenAI Pro/Business Premium Codex+Work 사용량 2배 인상, 12월 통합 풀 확정 (11/3)
          : GH Copilot 77로 상승 — Cursor에 76점 리드, 40일 연속 회복, 모델 교체 D-12 (11/4)
+         : ChatGPT Images 2.6 — GIF 생성, 참조 이미지 저장, Flare/Sunburst API 모델, 주간 40억 장 이미지 생성 (11/4)
+         : ChatGPT iOS v1.2026.300 — 풀스크린 컴포저 첨부 파일 관리 (11/2)
+         : GH Copilot 79로 상승 — Cursor에 78점 리드, 41일 연속 회복, 모델 교체 D-11 (11/5)
+         : GH Copilot 81로 상승 — Cursor에 80점 리드, 42일 연속 회복, 모델 교체 D-10 (11/6)
+         : Devin Desktop CLI 에이전트 — 기존 Windsurf 구독자용 로컬 CLI 에이전트 출시 (11/6)
+         : GH Copilot 83으로 상승 — Cursor에 82점 리드, 43일 연속 회복, 모델 교체 D-9 (11/7)
+         : Cursor OpenAI 차단 D-5 — 11월 12일 모델 접근 종료 임박 (11/7)
+         : Anthropic IPO 로드쇼 D-2 — 11/9 주간 개시 전망, 나스닥 ANT (11/7)
+         : OpenAI Dots 기본 활성화 D-11 — Enterprise/Edu/Healthcare 11/18 자동 활성화 (11/7)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3416,6 +3425,22 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/11/01 | **GH Copilot 71로 상승** — Cursor에 70점 리드; 37일 연속 회복 | [github.com](https://github.com/features/copilot) |
 | 2026/11/01 | **Claude Mythos 5.5 레퍼런스 포착** — TestingCatalog이 Anthropic Mythos 페이지에서 Mythos 5.5 레퍼런스 발견 보도; "다음 주" 출시 가능; Fable 5.5 A/B 테스트 보고; 미확인 | [testingcatalog.com](https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/) |
 | 2026/11/02 | **GH Copilot 73으로 상승** — Cursor에 72점 리드; 38일 연속 회복; Fusion GA 효과 지속 | [github.com](https://github.com/features/copilot) |
+| 2026/11/02 | **Anthropic 수정 S-1** — 컴퓨팅 계약 $8,950억 공개; Q3 매출 $170억; 영업손실 $5.67억; ipo.anthropic.com 리테일 투자자 접근 개시 | [sec.gov](https://www.sec.gov/cgi-bin/browse-edgar?company=anthropic&CIK=&type=S-1&dateb=&owner=include&count=40&search_text=&action=getcompany) |
+| 2026/11/02 | **ChatGPT iOS v1.2026.300** — 풀스크린 컴포저에서 인라인 첨부 파일 추가/미리보기/삭제; 컴포저 이탈 불필요 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/11/03 | **투자자, Anthropic IPO 밸류에이션 하향 압박** — 경영진 목표 $2조 대비 기관투자자 $1.5-1.6조 제시; AI 시장 변동성 우려 | [cryptobriefing.com](https://cryptobriefing.com/anthropic-targets-november-ipo-delay/) |
+| 2026/11/03 | **Xcode 27.3 베타 1** — Apple이 GitHub Copilot을 빌트인 코딩 어시스턴트로 탑재; Xcode 최초 네이티브 서드파티 AI 통합 | [developer.apple.com](https://developer.apple.com/xcode/) |
+| 2026/11/03 | **GH Copilot 75로 상승** — Cursor에 74점 리드; 39일 연속 회복; Xcode 통합 효과 | [github.com](https://github.com/features/copilot) |
+| 2026/11/03 | **OpenAI Pro/Business Premium 사용량 2배 인상** — Codex+Work 사용량 배로 증가; 12월 통합 사용량 풀 확정 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/11/04 | **ChatGPT Images 2.6** — GIF 생성·편집; 참조 이미지 저장 재사용; 재생 속도 조절·프레임별 수정; Flare(속도)·Sunburst(품질) API 모델; ChatGPT/Codex/API 합산 주간 ~40억 장 생성 | [unite.ai](https://www.unite.ai/chatgpt-adds-animated-gif-creation-and-editing-with-images-2-6/) |
+| 2026/11/04 | **Revolut GLM-5.3 자체 호스팅** — 56대 B200 GPU; 메터드 API 대비 AI 코딩 비용 90% 절감; 2천 명 엔지니어 SaaS 도구에서 이전 | [revolut.com](https://www.revolut.com/blog/) |
+| 2026/11/04 | **GH Copilot 77로 상승** — Cursor에 76점 리드; 40일 연속 회복; 모델 교체 D-12 | [github.com](https://github.com/features/copilot) |
+| 2026/11/04 | **OpenAI Dots GA 프리뷰** — 상시 에이전트 Enterprise·Edu·Healthcare 순차 출시; 11/18 기본 활성화까지 관리자 프리뷰 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/11/05 | **GH Copilot 79로 상승** — Cursor에 78점 리드; 41일 연속 회복; 모델 교체 D-11 | [github.com](https://github.com/features/copilot) |
+| 2026/11/06 | **GH Copilot 81로 상승** — Cursor에 80점 리드; 42일 연속 회복; 모델 교체 D-10 | [github.com](https://github.com/features/copilot) |
+| 2026/11/06 | **Devin Desktop CLI 에이전트** — 기존 Windsurf 구독자용 새 로컬 CLI 에이전트 출시; 사용자 로컬 머신에서 실행 | [windsurf.com](https://windsurf.com/changelog) |
+| 2026/11/07 | **GH Copilot 83으로 상승** — Cursor에 82점 리드; 43일 연속 회복; 모델 교체 D-9 | [github.com](https://github.com/features/copilot) |
+| 2026/11/07 | **Cursor OpenAI 차단 D-5** — 11월 12일 모델 접근 종료 임박; Cursor 트래픽 ~5% 영향; BYOK 가능하나 제한적 | [openai.com](https://openai.com/blog/our-decision-on-cursor-following-its-acquisition-by-spacex) |
+| 2026/11/07 | **Anthropic IPO 로드쇼 D-2** — 11/9 주간 개시 전망; 나스닥 ANT; 최빠른 가격 결정 11/13 | [implicator.ai](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/) |
 | 2026/10/26 | **Anthropic S-1 공개 제출** — SEC에 등록 신청서 제출; 나스닥 "ANT" 티커 제안; 12개월 매출 $197억(2026년 6월 30일 마감), 순손실 $1,097억 공개; 등록 미발효; 11/9 주간 로드쇼 예상 | [iposcoop.com](https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/) |
 | 2026/10/28 | **Copilot Fusion 30% 할인** — 유료 구독자 대상 11/30까지 모델 비용 30% 임시 할인; Fusion GA Terminal-Bench 4.0 71점, 태스크당 $5.59(Claude Code Opus 5.5 $11.42의 절반); Artificial Analysis 분석 | [artificialanalysis.ai](https://artificialanalysis.ai/articles/github-copilot-fusion-orchestrates-anthropic-and-openai-models-to-balance-performance-and-cost) |
 | 2026/10/28 | **Copilot CLI v1.0.105** — /model 선택기에 Fusion High·Fusion Max 추가 | [havoptic.com](https://www.havoptic.com/releases/github-copilot/2026/10) |

@@ -1,47 +1,51 @@
 ---
-title: "Anthropic IPO 로드쇼 내일 시작 가능 — Cursor 차단 D-4, Copilot 85점 돌파"
+title: "Nvidia 이사회 황젠슨 겨냥 첩보 조사 착수 — Anthropic METR 감사서 '모델 진보 속도 2배' 경고"
 date: 2026-11-08
 lang: ko
 categories: [news]
-tags: [anthropic, ipo, cursor, github-copilot, xcode, chatgpt, devin-desktop, claude-code, usage-policy]
-excerpt: "Anthropic IPO 로드쇼가 이르면 내일(11월 9일 주간) 시작될 수 있다. Cursor OpenAI 차단까지 4일, GitHub Copilot은 Xcode 통합 모멘텀으로 85점을 돌파했다."
+tags: [nvidia, anthropic, ipo, metr, cursor, github-copilot, meta, conductor, apple, openai, usage-policy]
+excerpt: "Nvidia 이사회가 황젠슨 CEO를 겨냥한 외국 정보기관 활동에 대한 독립 조사를 개시했다. Anthropic 수정 S-1에는 METR 감사에서 '모델 진보 속도가 AI 연구 활용으로 2배 가속'이라는 경고가 담겼다."
 ---
 
-Anthropic IPO의 결정적 주간이 시작된다. 로드쇼가 이르면 내일 시작될 수 있고, Cursor의 OpenAI 모델 접근 차단까지는 4일만 남았다. 이 가운데 GitHub Copilot은 Xcode 네이티브 통합이라는 새 무기를 장착하며 44일 연속 상승 행진을 이어가고 있다.
+AI 산업의 결정적 주간 전야에 두 건의 대형 뉴스가 터졌다. Nvidia 이사회가 CEO 겨냥 첩보 활동 조사를 시작했고, Anthropic IPO 서류에서는 자사 모델의 재귀적 자기개선 속도가 급격히 빨라지고 있다는 METR 감사 결과가 공개되었다.
 
-## Anthropic: 수정 S-1 제출, 가격대만 비워놓다
+## Nvidia: 이사회, 황젠슨 겨냥 외국 정보기관 활동 독립 조사 착수
 
-Anthropic이 11월 2일 SEC에 수정 S-1을 제출했다([SEC EDGAR](https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm)). 이번 수정안에는 2026년 9월 30일 기준 3분기 재무제표(분기 매출 약 $17B)가 포함되었지만, 공모가 범위와 주식 수는 여전히 공란이다([Sacra](https://sacra.com/chat/h/a2d43b74-19f7-450e-a230-cb99d77e4a15/)). 로드쇼 개시 직전 가격대를 포함한 최종 수정 S-1이 제출될 것으로 예상되며, SEC 15일 규정상 가장 빠른 가격 결정일은 11월 13일, 첫 거래일은 11월 16일이다([SmartScope](https://smartscope.blog/en/blog/anthropic-ipo-s1-filing-nasdaq-ant-2026/)). 기관투자자들의 $1.5-1.6T 밸류에이션 압박과 경영진의 $2T 목표 간 줄다리기가 다음 주의 핵심 관전 포인트다([CryptoBriefing](https://cryptobriefing.com/anthropic-targets-november-ipo-delay/)).
+Nvidia 이사회가 11월 8일 황젠슨 CEO를 겨냥한 외국 정보기관의 활동에 대한 독립 조사를 개시했다([AI Weekly](https://aiweekly.co/alerts/nvidia-board-opens-independent-probe-into-huang-targeting)). 독립 이사로 구성된 위원회가 외부 독립 법률 자문과 함께 조사를 진행하며, 황 CEO는 전면 협조를 약속했다. 이사회는 현재까지 기밀 유출 정황은 없다고 밝혔지만, GPU 패권을 쥔 Nvidia의 거버넌스 리스크가 수면 위로 떠오른 형국이다.
+
+## Anthropic: METR 감사 "모델 진보 속도 2배 가속" — IPO 전야의 경고
+
+Anthropic 수정 S-1에 포함된 METR(Model Evaluation & Threat Research) 감사 결과가 주목받고 있다([Mind and Machine Weekly](https://mindandmachineweekly.substack.com/p/mind-and-machine-weekly-8-november)). 감사에 따르면 Anthropic의 모델 진보 속도가 대략 2배로 빨라졌으며, 그 주된 원인은 자사 연구에 AI를 활용한 것이다. 핵심 증거 일부는 편집 처리(redacted)되었다. 이르면 11월 9일 주간에 로드쇼가 시작될 수 있으며([Bloomberg](https://www.bloomberg.com)), Goldman Sachs와 Morgan Stanley가 공동 주관사다. 기관투자자의 $1.5-1.6T 밸류에이션 압박 vs 경영진의 $2T 목표 사이 줄다리기가 다음 주 핵심 관전 포인트다.
+
+## Meta, AI 코딩 스타트업 Conductor 인수 — 클라우드 서비스 11/20 종료
+
+Meta가 AI 코딩 스타트업 Conductor를 인수했다([AI Agents Directory](https://aiagentsdirectory.com/news/ai-agents-news-brief-november-8-2026)). Conductor의 클라우드 서비스는 11월 20일에 종료되며, 해당 팀과 기술은 Meta의 내부 개발 도구 조직에 흡수될 것으로 보인다. AI 코딩 도구 시장의 인수합병이 계속되는 가운데, Conductor 사용자들은 2주 내 마이그레이션을 완료해야 한다.
 
 ## Cursor: OpenAI 차단 D-4, 75일째 바닥
 
-11월 12일 OpenAI 모델 접근 완전 차단까지 4일 남았다([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). SpaceX의 600억 달러 Anysphere 인수 이후 촉발된 이 사태는 Cursor 점수를 75일 연속 바닥(1점)에 묶어두고 있다. CEO Michael Truell이 OpenAI 트래픽 비중이 5%에 불과하다고 밝혔지만([Engadget](https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/)), 차단 당일 심리적 충격은 피할 수 없을 전망이다. Grok 4.7과 Anthropic 모델 전환이 계속되고 있으며, X Subscription 번들(Plus $8/mo~Ultra $200/mo) 출시 이후에도 개발자 이탈 흐름은 멈추지 않았다.
+11월 12일 OpenAI 모델 접근 완전 차단까지 4일 남았다([CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)). SpaceX의 600억 달러 Anysphere 인수 이후 촉발된 이 사태는 Cursor 점수를 75일 연속 바닥(1점)에 묶어두고 있다. 사용자는 자체 OpenAI API 키를 가져오거나 Codex IDE 확장을 통해 우회할 수 있지만([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)), 상징적 충격은 피할 수 없을 전망이다.
 
-## GitHub Copilot: Xcode 네이티브 통합, 85점 돌파
+## GitHub Copilot: Xcode 네이티브 통합, 85점 — 44일 연속 상승
 
-GitHub Copilot이 44일 연속 상승하며 85점을 기록했다. 11월 4일 출시된 Xcode 27.3 베타 1에서 빌트인 코딩 어시스턴트로 탑재된 것이 가장 큰 모멘텀이다([MacObserver](https://www.macobserver.com/?p=495156)). Free 플랜을 포함한 모든 플랜에서 이용 가능하며, macOS Tahoe 26.6 이상이 필요하다([9to5Mac](https://9to5mac.com/?p=1077328)). 기존 Copilot for Xcode 확장도 병행 지원된다. 11월 16일 모델 대교체(Claude Opus 4.8/5 → Opus 5.5, GPT-5.6 Terra → GPT-6.1 Sol)까지 8일 남은 가운데, Copilot과 Cursor의 점수 격차는 84포인트(85 vs 1)로 벌어졌다([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)).
+GitHub Copilot이 44일 연속 상승하며 85점을 기록했다([MacObserver](https://www.macobserver.com/?p=495156)). Xcode 27.3 베타 1에서 빌트인 코딩 어시스턴트로 탑재된 것이 최대 모멘텀이며, Free 플랜 포함 모든 플랜에서 이용 가능하다([9to5Mac](https://9to5mac.com/?p=1077328)). 11월 16일 모델 대교체(Claude Opus 4.8/5 → Opus 5.5, GPT-5.6 Terra → GPT-6.1 Sol)까지 8일 남았다([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)).
 
-## OpenAI Dots: 기본 활성화까지 10일
+## Apple, 엔지니어 일일 AI 도구 예산 $300→$200 삭감
 
-OpenAI의 상시 에이전트 Dots가 11월 18일 Enterprise, Edu, Healthcare 워크스페이스에서 기본 활성화된다([OpenAI Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)). 관리자 옵트아웃 기한이 10일 앞으로 다가오면서, 엔터프라이즈 AI 에이전트 거버넌스 논의가 가속화되고 있다.
-
-## Anthropic: 사용 정책 업데이트, 11월 12일 시행
-
-Anthropic이 10월 8일 발표한 개정 사용 정책이 11월 12일 발효된다([PCWorld](https://www.pcworld.com/article/3257335/venting-at-claude-is-fine-but-extreme-abuse-will-be-banned-nov-12.html)). 핵심 변경 사항은 Claude에 대한 "지속적이고 불필요한 학대 또는 잔인한 행위"를 금지하는 것이다([Notebookcheck](https://www.notebookcheck.net/Anthropic-bans-abusive-behavior-toward-Claude-starting-November-12.1420910.0.html)). 일반적인 불만 표출, 다크 크리에이티브 테마, 모델 테스트·연구 목적의 사용은 제외된다. 11월 12일이라는 날짜가 Cursor OpenAI 차단 시행일과 겹치는 것이 공교롭다 — AI 업계의 정책 전환이 한날에 집중되는 셈이다.
+Apple이 내부 엔지니어의 일일 AI 도구 사용 예산을 $300에서 $200으로 삭감한 것으로 알려졌다([FourWeekMBA](https://fourweekmba.com/ai-four-ai-giants-8-governance-events-in-4-days-5-via-press/)). 자체 AI 모델 개발을 가속하면서 외부 도구 의존도를 줄이려는 신호로 해석된다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
 | ChatGPT | 99 | — | Images 2.6 GIF 생성, Dots 기본 활성화 D-10 |
-| Claude Code | 99 | — | IPO 로드쇼 내일 시작 가능, 보안센터 운영 중 |
+| Claude Code | 99 | — | IPO 로드쇼 내일 시작 가능, METR 감사 경고 |
 | Codex CLI | 99 | — | v0.166.0 안정, GPT-6.1 Terra 지원 |
 | Antigravity | 99 | — | 플러그인 마켓플레이스 안정 |
-| Claude AI | 99 | — | IPO D-8, 수정 S-1 제출 완료 |
+| Claude AI | 99 | — | IPO D-8, 수정 S-1 METR 감사 포함 |
 | Windsurf | 88 | — | Devin Desktop CLI 에이전트 안정화 중 |
-| GH Copilot | 85 | ↑2 | 44일 연속 상승, Xcode 네이티브 통합, 모델 교체 D-8 |
+| GH Copilot | 85 | ↑2 | 44일 연속 상승, Xcode 네이티브 통합 |
 | Aider | 68 | — | 유지보수 모드 |
 | Cursor | 1 | — | OpenAI 차단 D-4, 75일째 바닥 |
 | Gemini CLI | 1 | — | 서비스 종료, Antigravity 전환 완료 |
 
-다음 주 월요일부터 금요일까지가 2026년 AI 산업의 가장 중요한 한 주다. Anthropic 로드쇼 개시, Cursor OpenAI 차단 시행, GitHub Copilot 모델 교체가 연속으로 터진다.
+Nvidia 거버넌스 리스크와 Anthropic의 재귀적 자기개선 경고가 겹치면서, 다음 주는 AI 산업의 기술적 역량뿐 아니라 신뢰와 안전의 축도 함께 시험대에 오른다.

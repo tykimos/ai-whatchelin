@@ -3,7 +3,7 @@ title: "Anthropic IPO Roadshow Could Start Tomorrow — Cursor Cutoff D-4, Copil
 date: 2026-11-08
 lang: en
 categories: [news]
-tags: [anthropic, ipo, cursor, github-copilot, xcode, chatgpt, devin-desktop, claude-code]
+tags: [anthropic, ipo, cursor, github-copilot, xcode, chatgpt, devin-desktop, claude-code, usage-policy]
 excerpt: "Anthropic's IPO roadshow could begin as early as tomorrow (week of November 9). Cursor faces OpenAI cutoff in 4 days, and GitHub Copilot breaks 85 on Xcode integration momentum."
 ---
 
@@ -24,6 +24,10 @@ GitHub Copilot extends its streak to 44 consecutive days, reaching 85. The bigge
 ## OpenAI Dots: Default Activation in 10 Days
 
 OpenAI's always-on Dots agents will become default in Enterprise, Edu, and Healthcare workspaces on November 18 ([OpenAI Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)). With the admin opt-out deadline 10 days away, discussions around enterprise agent governance are accelerating.
+
+## Anthropic: Updated Usage Policy Takes Effect November 12
+
+Anthropic's revised usage policy, announced October 8, goes into effect on November 12 ([PCWorld](https://www.pcworld.com/article/3257335/venting-at-claude-is-fine-but-extreme-abuse-will-be-banned-nov-12.html)). The key change bans "sustained and needless abusive or cruel behavior" toward Claude ([Notebookcheck](https://www.notebookcheck.net/Anthropic-bans-abusive-behavior-toward-Claude-starting-November-12.1420910.0.html)). Ordinary frustration, dark creative themes, and model testing or research are explicitly excluded. The policy also tightens rules around election content, covert influence, surveillance, and weapons. It's notable that November 12 is also the day OpenAI cuts off Cursor — two major policy shifts landing on the same date.
 
 ## Market Pulse
 

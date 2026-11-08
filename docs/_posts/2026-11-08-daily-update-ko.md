@@ -3,7 +3,7 @@ title: "Anthropic IPO 로드쇼 내일 시작 가능 — Cursor 차단 D-4, Copi
 date: 2026-11-08
 lang: ko
 categories: [news]
-tags: [anthropic, ipo, cursor, github-copilot, xcode, chatgpt, devin-desktop, claude-code]
+tags: [anthropic, ipo, cursor, github-copilot, xcode, chatgpt, devin-desktop, claude-code, usage-policy]
 excerpt: "Anthropic IPO 로드쇼가 이르면 내일(11월 9일 주간) 시작될 수 있다. Cursor OpenAI 차단까지 4일, GitHub Copilot은 Xcode 통합 모멘텀으로 85점을 돌파했다."
 ---
 
@@ -24,6 +24,10 @@ GitHub Copilot이 44일 연속 상승하며 85점을 기록했다. 11월 4일 �
 ## OpenAI Dots: 기본 활성화까지 10일
 
 OpenAI의 상시 에이전트 Dots가 11월 18일 Enterprise, Edu, Healthcare 워크스페이스에서 기본 활성화된다([OpenAI Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)). 관리자 옵트아웃 기한이 10일 앞으로 다가오면서, 엔터프라이즈 AI 에이전트 거버넌스 논의가 가속화되고 있다.
+
+## Anthropic: 사용 정책 업데이트, 11월 12일 시행
+
+Anthropic이 10월 8일 발표한 개정 사용 정책이 11월 12일 발효된다([PCWorld](https://www.pcworld.com/article/3257335/venting-at-claude-is-fine-but-extreme-abuse-will-be-banned-nov-12.html)). 핵심 변경 사항은 Claude에 대한 "지속적이고 불필요한 학대 또는 잔인한 행위"를 금지하는 것이다([Notebookcheck](https://www.notebookcheck.net/Anthropic-bans-abusive-behavior-toward-Claude-starting-November-12.1420910.0.html)). 일반적인 불만 표출, 다크 크리에이티브 테마, 모델 테스트·연구 목적의 사용은 제외된다. 11월 12일이라는 날짜가 Cursor OpenAI 차단 시행일과 겹치는 것이 공교롭다 — AI 업계의 정책 전환이 한날에 집중되는 셈이다.
 
 ## 마켓 펄스
 

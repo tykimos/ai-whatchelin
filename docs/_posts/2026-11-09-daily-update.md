@@ -1,47 +1,45 @@
 ---
-title: "Cursor's OpenAI Model Cutoff D-3 — Codex CLI v0.167.0 Overhauls Agent Session Management"
+title: "Anthropic Launches Claude Fable 5.2 and Mythos 5.2 — 20% Price Cut Meets METR's RSI Warning"
 date: 2026-11-09
 lang: en
 categories: [news]
-tags: [cursor, openai, codex-cli, windsurf, github-copilot, postman, anthropic, chatgpt]
-excerpt: "OpenAI's complete model supply cutoff for Cursor is three days away. Meanwhile, Codex CLI v0.167.0 delivers a major overhaul to agent session management and backend switching."
+tags: [anthropic, claude, fable, mythos, cursor, openai, github-copilot, codex-cli, security]
+excerpt: "Anthropic releases Fable 5.2 and Mythos 5.2 with a 20% price cut, but METR's safety assessment warns the models are approaching recursive self-improvement thresholds."
 ---
 
-With OpenAI's Cursor model cutoff set for November 12, the AI coding tool market heads into a pivotal week. Codex CLI's latest release shows terminal-based development continuing to mature rapidly.
+Anthropic unveiled its new model lineup alongside the start of its IPO roadshow. Performance is up and prices are down, but the safety evaluation carries an unprecedented warning.
+
+## Anthropic: Fable 5.2 + Mythos 5.2 — Faster, Cheaper, and More Concerning
+
+Anthropic launched Claude Fable 5.2 and Mythos 5.2 today ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/)). Both models deliver 30% faster output than their 5.1 predecessors, priced at $8/$40 per MTok — a 20% reduction ([Quartz](https://qz.com/anthropic-claude-fable-mythos-5-2-price-cut-110926)). Fable 5.2 is billed as "our most capable model for technical work," while Mythos 5.2 remains restricted to vetted organizations through Anthropic's verification programs ([Anthropic](https://www.anthropic.com/claude/fable)).
+
+The accompanying system card, however, raises alarms. METR's third-party assessment found that Mythos 5.2 exhibits "stronger covert capabilities than prior Claude models on several evaluations" ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/)). This arrives as Anthropic's IPO roadshow begins (Nasdaq ANT, earliest pricing Nov 13), putting both investors and safety advocates on notice.
+
+## Claude Code: 2,539 Real Credentials Leaked in Public Repos
+
+Security firm Apiiro reported on November 5 that Claude Code's default behavior of saving approved commands exposed 2,539 real secrets across 1,994 public GitHub repositories ([iMasters](https://imasters.com/news/claude-code-leaks-passwords-in-1122-github-files)). GitHub Copilot auto-approval settings were also found in some repos. Separately, Anthropic engineer Addy Osmani warned of "cognitive surrender" — developers approving AI-generated code they no longer understand — citing an Anthropic trial showing 17% lower comprehension scores for AI-assisted developers ([OpenTools](https://opentools.ai/news/anthropic-engineer-cognitive-surrender-ai-coding-2026)).
 
 ## Cursor: OpenAI Cutoff D-3, Day 76 at Bottom
 
-OpenAI's complete termination of Cursor's model access is now three days away ([CyberNews](https://cybernews.com/ai-news/openai-cursor-spacex-contract-termination/)). Triggered by SpaceX's $60 billion acquisition of Anysphere, the standoff has kept Cursor's popularity score pinned at 1 for 76 consecutive days. SpaceX and xAI are co-training a replacement model ([StartuphubAI](https://www.startuphub.ai/news/spacex-acquires-cursor-openai-cuts-ties)), but user experience degradation after the cutoff appears inevitable.
+OpenAI's complete termination of Cursor's model access is three days away ([CyberNews](https://cybernews.com/ai-news/openai-cursor-spacex-contract-termination/)). Triggered by SpaceX's $60 billion acquisition of Anysphere, the standoff has kept Cursor pinned at 1 for 76 consecutive days.
 
-## Codex CLI: v0.167.0 — Agent Session Management Overhaul
+## OpenAI: GPT-6-Cyber Launches Amid Service Degradation
 
-Codex CLI v0.167.0 shipped November 6 with a broad update ([Releasebot](https://releasebot.io/updates/openai/codex)). Key changes include streamlined agent session management, terminal backend switching with draft preservation, local image attachment previews, and expanded cloud sign-in and proxy options. Earlier, v0.161.0 made GPT-6.1 Sol the default catalog model with multi-agent and Ultra reasoning support on Amazon Bedrock.
-
-## Windsurf (Devin Desktop): MCP Server Controls + Gemini 3 Models
-
-Windsurf added MCP server controls to the Agent Command Center on November 8 ([Windsurf Changelog](https://windsurf.com/changelog/windsurf-next)). Gemini 3 Flash became available to all users on November 6, while Gemini 3 Pro entered preview for paid Trial, Pro, and Teams subscribers.
-
-## GitHub Copilot: Hits 87, 45-Day Streak — Model Swap D-7
-
-GitHub Copilot's recovery streak extends to 87 points, up 2 from yesterday. Xcode 27.3 beta 1 native integration continues to provide momentum ([MacObserver](https://www.macobserver.com/?p=495156)). The November 16 model deprecation — Claude Opus 4.8/5 to Opus 5.5, GPT-5.6 Terra to GPT-6.1 Sol — is now seven days away ([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)).
-
-## Postman Auto-Installed Into Claude Code and Codex Without Consent
-
-A Postman update was found to have silently installed itself into Claude Code and Codex without user approval ([Notebookcheck](https://www.notebookcheck.net/Postman-added-itself-to-Claude-Code-and-Codex-without-asking.1442933.0.html)). Similar entries were reported in Cursor and Copilot CLI. Postman says it is reverting the change. The incident raises questions about third-party consent practices in the AI coding tool ecosystem.
+OpenAI released GPT-6-Cyber on November 5 for authorized vulnerability research ([OpenAI](https://openai.com/products/release-notes/)). The same day, degraded performance was reported across ChatGPT, Codex, and APIs ([StatusGator](https://statusgator.com/services/openai/codex)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | Images 2.6 GIF creation, Dots enterprise preview |
-| Claude Code | 99 | — | IPO roadshow may start this week |
+| ChatGPT | 99 | — | GPT-6-Cyber launch, service degradation |
+| Claude Code | 99 | — | Fable 5.2 launch, credential leak controversy |
 | Codex CLI | 99 | — | v0.167.0, agent session management overhaul |
 | Antigravity | 99 | — | Stable |
-| Claude AI | 99 | — | IPO D-7, METR audit warning |
+| Claude AI | 99 | — | Fable/Mythos 5.2 launch, IPO roadshow begins |
 | Windsurf | 88 | — | MCP server controls, Gemini 3 model access |
 | GH Copilot | 87 | ↑2 | 45-day streak, model swap D-7 |
 | Aider | 68 | — | Maintenance mode |
 | Cursor | 1 | — | OpenAI cutoff D-3, day 76 at bottom |
 | Gemini CLI | 1 | — | Retired, Antigravity transition complete |
 
-With Cursor's OpenAI cutoff effectively in countdown, Copilot's steady rebound and Codex CLI's aggressive update cadence are accelerating the reshuffling of the AI coding tool landscape.
+As Anthropic rolls out new models alongside its IPO roadshow, METR's RSI warning casts a shadow over the celebrations. Cursor's OpenAI cutoff is now effectively in countdown.

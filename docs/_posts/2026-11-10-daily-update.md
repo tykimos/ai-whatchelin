@@ -1,21 +1,23 @@
 ---
-title: "Cursor's OpenAI Cutoff D-2 — Copilot CLI Ships GPT-6.1 Terra"
+title: "Cursor's OpenAI Cutoff D-2 — Copilot Lands in JetBrains Air and Xcode"
 date: 2026-11-10
 lang: en
 categories: [news]
 tags: [cursor, openai, github-copilot, claude-code, anthropic, gemini-cli]
-excerpt: "OpenAI's model access cutoff for Cursor is two days away, while GitHub Copilot CLI adds GPT-6.1 Terra and extends its 46-day winning streak."
+excerpt: "OpenAI's model cutoff for Cursor is two days away. Meanwhile, Copilot expands into JetBrains Air, Xcode, and ships GPT-6.1 Terra."
 ---
 
-Cursor's reckoning is nearly here. With OpenAI's model cutoff confirmed for November 12, GitHub Copilot is quietly absorbing the vacuum with a new model in tow.
+Cursor's reckoning is nearly here. With OpenAI's model cutoff confirmed for November 12, GitHub Copilot isn't just absorbing the vacuum — it's expanding aggressively into JetBrains Air and Xcode while adding GPT-6.1 Terra to its arsenal.
 
 ## Cursor: OpenAI Cutoff D-2, Day 77 at Bottom
 
 OpenAI's complete termination of Cursor's model access is now just two days away, set for November 12 ([InfoWorld](https://www.infoworld.com/article/4216503/cursor-customers-will-lose-access-to-openai-coding-models-in-november.html)). The contract clause was triggered by SpaceX's $60 billion acquisition of Anysphere. Cursor's co-founder noted that OpenAI models account for only about 5% of total traffic ([The New Stack](https://thenewstack.io/openai-cuts-cursor-spacex/)), but the psychological impact runs deeper — the tool has been pinned at a popularity score of 1 for 77 consecutive days.
 
-## GitHub Copilot: CLI v1.0.106 Adds GPT-6.1 Terra
+## GitHub Copilot: JetBrains Air, Xcode, and GPT-6.1 Terra
 
-GitHub released Copilot CLI v1.0.106 with GPT-6.1 Terra now selectable in the model picker ([GitHub Blog](https://github.blog/changelog/2026-10-26-gpt-6.1-terra-in-github-copilot)). Terra is OpenAI's latest model optimized for everyday agentic coding at lower cost than GPT-6.1 Sol, available to Pro, Pro+, Max, Business, and Enterprise plans ([Visual Studio Magazine](https://visualstudiomagazine.com/articles/2026/10/28/github-copilot-adds-gpt-6-1-terra-for-lower-cost-agentic-coding.aspx)). Copilot's popularity has now risen for 46 consecutive days, effectively absorbing Cursor's lost market share.
+A big week for Copilot's reach. On November 3, GitHub shipped Copilot as a selectable agent inside JetBrains Air, using the Agent Client Protocol (ACP) to run tasks locally or in the cloud ([GitHub Blog](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air)). The next day, Copilot landed in Xcode's native coding assistant as a public preview, with GA expected alongside Xcode 27.3 in December ([GitHub Blog](https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2)). The weekly release also introduced Agent Merge, letting Copilot auto-merge PRs once all required checks pass.
+
+On the model front, Copilot CLI v1.0.106 added GPT-6.1 Terra to the model picker ([GitHub Blog](https://github.blog/changelog/2026-10-26-gpt-6.1-terra-in-github-copilot)). Terra is optimized for everyday agentic coding at lower cost than Sol, available on Pro, Pro+, Max, Business, and Enterprise plans ([Visual Studio Magazine](https://visualstudiomagazine.com/articles/2026/10/28/github-copilot-adds-gpt-6-1-terra-for-lower-cost-agentic-coding.aspx)). Copilot's popularity has now risen for 46 consecutive days, absorbing Cursor's lost market share.
 
 ## Claude Code: v2.1.319 Brings Auto Mode
 
@@ -34,10 +36,10 @@ Anthropic's Nasdaq (ANT) IPO pricing is expected on November 13. The simultaneou
 | Codex CLI | 99 | — | Stable |
 | Antigravity | 99 | — | Stable |
 | Claude AI | 99 | — | IPO pricing D-3 |
-| GH Copilot | 89 | ↑2 | 46-day streak, GPT-6.1 Terra in CLI |
+| GH Copilot | 89 | ↑2 | 46-day streak; JetBrains Air, Xcode, Terra |
 | Windsurf | 88 | — | Stable |
 | Aider | 68 | — | Maintenance mode |
 | Cursor | 1 | — | OpenAI cutoff D-2, day 77 at bottom |
 | Gemini CLI | 1 | — | Retired, Antigravity transition complete |
 
-With Cursor's OpenAI cutoff just 48 hours away, the AI coding tool landscape is approaching a decisive inflection point. Copilot climbs steadily armed with the Terra model, while Claude Code pushes security improvements even as last week's credential leak controversy lingers.
+With Cursor's OpenAI cutoff just 48 hours away, the AI coding tool landscape is at an inflection point. Copilot's triple expansion — JetBrains Air, Xcode, and Terra — signals Microsoft's play for the post-Cursor vacuum, while Claude Code pushes security improvements amid last week's credential leak fallout.

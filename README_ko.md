@@ -1670,6 +1670,11 @@ timeline
          : GPT-6-Cyber 출시 — 승인된 취약점 연구 전용 모델 (11/5)
          : Claude Code 자격증명 유출 — Apiiro, Claude Code 승인 명령으로 공개 GitHub 리포 1,994개에서 실제 비밀 2,539건 발견 (11/5)
          : Cursor OpenAI 차단 D-3 — 11월 12일 모델 접근 종료 임박 (11/9)
+         : GH Copilot 89로 상승 — Cursor에 88점 리드, 46일 연속 회복, 모델 교체 D-6 (11/10)
+         : Claude Code v2.1.319 — Auto Mode, MCP 태스크 지원, 게이트웨이 관리, 보안 강화 (11/10)
+         : Cursor OpenAI 차단 D-2 — 11월 12일 모델 접근 종료 48시간 전, 77일째 바닥 (11/10)
+         : Anthropic IPO 가격 결정 D-3 — Fable 5.2 + Mythos 5.2 출시 및 METR RSI 배경 (11/10)
+         : GitHub Enterprise에 Copilot 포함 — Enterprise Cloud 시트 무료, Copilot Standalone $10/mo, 사용량 기반 과금 (10/28)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3446,6 +3451,10 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/11/06 | **Devin Desktop CLI 에이전트** — 기존 Windsurf 구독자용 새 로컬 CLI 에이전트 출시; 사용자 로컬 머신에서 실행 | [windsurf.com](https://windsurf.com/changelog) |
 | 2026/11/07 | **GH Copilot 83으로 상승** — Cursor에 82점 리드; 43일 연속 회복; 모델 교체 D-9 | [github.com](https://github.com/features/copilot) |
 | 2026/11/07 | **Cursor OpenAI 차단 D-5** — 11월 12일 모델 접근 종료 임박; Cursor 트래픽 ~5% 영향; BYOK 가능하나 제한적 | [openai.com](https://openai.com/blog/our-decision-on-cursor-following-its-acquisition-by-spacex) |
+| 2026/11/10 | **GH Copilot 89로 상승** — Cursor에 88점 리드; 46일 연속 회복; Cursor OpenAI 차단 D-2; 모델 교체 D-6 | [github.com](https://github.com/features/copilot) |
+| 2026/11/10 | **Claude Code v2.1.319** — Auto Mode 도입; 터미널 MCP 태스크 지원; 게이트웨이 관리 기능; 자격증명 유출 사태 후 보안 강화 | [claudekit](https://claudekit.io/en/updates/claude-code-2-1-319/) |
+| 2026/11/10 | **Cursor OpenAI 차단 D-2** — 11월 12일 모델 접근 종료 48시간 전; 77일 연속 1점 유지 | [cnbc.com](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html) |
+| 2026/10/28 | **GitHub Enterprise에 Copilot 포함** — Enterprise Cloud 시트 무료 Copilot 접근 제공; 비-Enterprise 사용자용 Copilot Standalone $10/mo 신규 플랜; 첫 사용부터 AI 크레딧 사용량 기반 과금 | [github.blog](https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot) |
 | 2026/11/09 | **Claude Fable 5.2 + Mythos 5.2 출시** — 30% 빠른 출력, 20% 가격 인하 $8/$40/MTok; Fable 5.2 "기술 작업에 가장 유능한 모델"; Mythos 5.2 승인 조직 전용; METR "더 강한 은밀 역량" RSI 임계값 근접 경고 | [techcrunch.com](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/) |
 | 2026/11/09 | **Anthropic IPO 로드쇼 개시** — 11/9 주간 시작 예상; 나스닥 ANT; Morgan Stanley·Goldman Sachs·JPMorgan·Citi 주관; 최빠른 가격 결정 11/13 | [qz.com](https://qz.com/anthropic-claude-fable-mythos-5-2-price-cut-110926) |
 | 2026/11/05 | **Claude Code 자격증명 유출** — Apiiro, Claude Code 승인 명령 기본 동작으로 공개 GitHub 리포 1,994개에서 실제 비밀 2,539건 발견 | [imasters.com](https://imasters.com/news/claude-code-leaks-passwords-in-1122-github-files) |

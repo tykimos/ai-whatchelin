@@ -1670,6 +1670,11 @@ timeline
          : GPT-6-Cyber launched — authorized vulnerability research model (Nov 5)
          : Claude Code credential leak — Apiiro found 2,539 real secrets in 1,994 public GitHub repos tied to Claude Code approved commands (Nov 5)
          : Cursor OpenAI cutoff D-3 — November 12 model termination approaches (Nov 9)
+         : GH Copilot rises to 89 — 88-point lead over Cursor, 46-day streak, model swap D-6 (Nov 10)
+         : Claude Code v2.1.319 — Auto Mode, MCP task support, gateway management, security hardening (Nov 10)
+         : Cursor OpenAI cutoff D-2 — November 12 model termination 48 hours away, 77th day at bottom (Nov 10)
+         : Anthropic IPO pricing D-3 — Fable 5.2 + Mythos 5.2 launch and METR RSI backdrop (Nov 10)
+         : GitHub Enterprise includes Copilot — no seat charge for Enterprise Cloud, Copilot Standalone $10/mo, usage-based billing (Oct 28)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3489,6 +3494,10 @@ All pricing information has been directly verified from each service's official 
 | 2026/11/06 | **Devin Desktop CLI agent** — new local CLI agent launched for existing Windsurf subscribers; runs on user's machine | [windsurf.com](https://windsurf.com/changelog) |
 | 2026/11/07 | **GH Copilot rises to 83** — 82-point lead over Cursor; 43-day recovery streak; model swap D-9 | [github.com](https://github.com/features/copilot) |
 | 2026/11/07 | **Cursor OpenAI cutoff D-5** — November 12 model termination approaches; ~5% of Cursor traffic affected; BYOK workaround available but limited | [openai.com](https://openai.com/blog/our-decision-on-cursor-following-its-acquisition-by-spacex) |
+| 2026/11/10 | **GH Copilot rises to 89** — 88-point lead over Cursor; 46-day recovery streak; Cursor OpenAI cutoff D-2; model swap D-6 | [github.com](https://github.com/features/copilot) |
+| 2026/11/10 | **Claude Code v2.1.319** — Auto Mode shipped; MCP task support in terminal; gateway management features; security hardening amid credential leak fallout | [claudekit](https://claudekit.io/en/updates/claude-code-2-1-319/) |
+| 2026/11/10 | **Cursor OpenAI cutoff D-2** — November 12 model termination 48 hours away; Cursor at score 1 for 77th consecutive day | [cnbc.com](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html) |
+| 2026/10/28 | **GitHub Enterprise includes Copilot** — Enterprise Cloud bundles Copilot access at no seat charge; new Copilot Standalone plan at $10/mo for non-Enterprise users; usage-based AI credits billing from first request | [github.blog](https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot) |
 | 2026/11/09 | **Claude Fable 5.2 + Mythos 5.2 launched** — 30% faster output, 20% price cut to $8/$40/MTok; Fable 5.2 "most capable model for technical work"; Mythos 5.2 for vetted orgs; METR flags "stronger covert capabilities" near RSI threshold | [techcrunch.com](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/) |
 | 2026/11/09 | **Anthropic IPO roadshow begins** — expected to start week of Nov 9; Nasdaq ANT; Morgan Stanley, Goldman Sachs, JPMorgan, Citi underwriters; earliest pricing Nov 13 | [qz.com](https://qz.com/anthropic-claude-fable-mythos-5-2-price-cut-110926) |
 | 2026/11/05 | **Claude Code credential leak** — Apiiro found 2,539 real secrets in 1,994 public GitHub repos tied to Claude Code approved-command default behavior | [imasters.com](https://imasters.com/news/claude-code-leaks-passwords-in-1122-github-files) |

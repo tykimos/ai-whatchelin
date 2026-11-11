@@ -1,47 +1,47 @@
 ---
-title: "Cursor's OpenAI Cutoff Is Tomorrow — The 78-Day Countdown Ends"
+title: "Claude Code Ships Fable 5.2 as Default — Copilot CLI Adds GPT-6.1 Terra"
 date: 2026-11-11
 lang: en
 categories: [news]
-tags: [cursor, openai, codex-cli, antigravity, apple, goldman-sachs, anthropic]
-excerpt: "OpenAI's model cutoff for Cursor hits tomorrow. Meanwhile, Codex CLI 0.167.0 and Antigravity 2.29 ship major updates as Apple and Goldman Sachs tighten enterprise AI limits."
+tags: [claude-code, anthropic, github-copilot, cursor, openai, codex-cli, antigravity]
+excerpt: "One day after Anthropic launched Fable 5.2, Claude Code v2.1.321 made it the default model. GitHub Copilot CLI also added GPT-6.1 Terra as the model race heats up."
 ---
 
-Tomorrow, OpenAI models disappear from Cursor for good. The 78-day freefall since SpaceX's acquisition reaches its terminus, while the rest of the market races to fill the gap with blockbuster releases.
+Anthropic launched Fable 5.2 on Saturday and Claude Code adopted it as the default model by Sunday. GitHub Copilot CLI also shipped GPT-6.1 Terra support, while tomorrow marks the day Cursor loses OpenAI model access for good.
+
+## Claude Code v2.1.321: Fable 5.2 Goes Default, Security Fix Included
+
+Claude Code v2.1.321 shipped November 10, making Claude Fable 5.2 the default Fable model ([ai-tldr.dev](https://ai-tldr.dev/releases/anthropic-claude-code-2-1-321/)). Fable 5.2, launched November 9, delivers 30% faster output and a 20% price cut from $10/$50 to $8/$40 per million tokens ([9to5mac.com](https://9to5mac.com/2026/11/09/anthropic-upgrades-claude-with-new-fable-5-2-model-details-here/)). Existing Fable 5.1 selections automatically migrate to the `fable` alias, and users can switch back with `/model claude-fable-5-1`. The release also patched an MCP OAuth vulnerability where refresh tokens were being sent to another host after redirect ([labmemo.com](https://labmemo.com/claude-code-v2-1-321-fable-5-2-default-security-fixes-2026-11/)).
+
+## GitHub Copilot CLI v1.0.106: GPT-6.1 Terra in Model Picker
+
+Copilot CLI v1.0.106 shipped November 6, adding GPT-6.1 Terra to the model picker ([newreleases.io](https://newreleases.io/project/npm/@github/copilot/release/1.0.106)). Terra is positioned as a lower-cost alternative to GPT-6.1 Sol for everyday agentic coding, available across all paid plans ([github.blog](https://github.blog/changelog/2026-10-26-gpt-6.1-terra-in-github-copilot)). The release also added a `/code` command to open sessions in VS Code, a unified `/settings` dashboard, and opt-in session `@mentions` ([havoptic.com](https://www.havoptic.com/r/github-copilot-v1.0.106)).
 
 ## Cursor: OpenAI Cutoff D-1, Day 78 at Bottom
 
-OpenAI's complete termination of Cursor's model access arrives tomorrow, November 12 ([CyberNews](https://cybernews.com/ai-news/openai-cursor-spacex-contract-termination/)). Triggered by SpaceX's $60 billion acquisition of Anysphere, OpenAI stated it "cannot trust SpaceX-affiliated entities to comply with terms of service" ([RuntimeWire](https://runtimewire.com/article/openai-cuts-cursor-model-access-spacex-acquisition)). Cursor's team claims OpenAI models represent only 5% of traffic, but with the popularity score pinned at 1 for 78 consecutive days, market confidence remains shattered.
+Tomorrow, OpenAI models disappear from Cursor permanently ([CyberNews](https://cybernews.com/ai-news/openai-cursor-spacex-contract-termination/)). The 78-day freefall since SpaceX's $60B Anysphere acquisition reaches its terminus, with the popularity score pinned at 1 and no sign of recovery ([RuntimeWire](https://runtimewire.com/article/openai-cuts-cursor-model-access-spacex-acquisition)).
 
-## Codex CLI: 0.167.0 — Agent Command Center
+## Antigravity 2.29: Knowledge Work Mode Unveiled
 
-Codex CLI 0.167.0 shipped November 6 with a comprehensive overhaul of agent session management ([OpenAI Changelog](https://developers.openai.com/codex/changelog)). Key additions include the `codex agents --no-daemon` command center, backend switching from the session picker, and local image attachment previews on supported terminals. Chat recovery, network approvals, transcript history, and context handling also received improvements ([Gradually.ai](https://www.gradually.ai/en/changelogs/codex-cli/)).
+Google's Antigravity unveiled a Knowledge Work office mode on November 10 ([ChainCatcher](https://www.chaincatcher.com/en/article/2303352)). The mode hides terminal and Git views for research and document tasks, complementing the Remote Agents and Voice Mode features shipped earlier in 2.29. Separately, Gemini 4 Carbon Low/Medium/High variants were spotted in an Antigravity build, though this remains unconfirmed ([TestingCatalog](https://pasqualepillitteri.it/en/news/31811/gemini-4-carbon-antigravity-build-low-medium-high)).
 
-## Antigravity: 2.29 — Remote Agents, Voice Mode, Knowledge Work
+## Enterprise AI Caps: Apple and Goldman Tighten Spending
 
-Google's Antigravity 2.29 dropped November 3 with three headline features ([9to5Google](https://9to5google.com/2026/11/06/google-antigravity-remote-agents-voice-mode/)). Cloud-based Remote Agents are rolling out to paid AI Pro and Ultra subscribers, and a Gemini Live-powered Voice Mode enables voice-driven coding. On November 10, a Knowledge Work office mode was unveiled that hides terminals and Git views for research and document tasks ([ChainCatcher](https://www.chaincatcher.com/en/article/2303352)). Separately, Gemini 4 Carbon Low/Medium/High variants were spotted in an Antigravity build, though this remains unconfirmed ([TestingCatalog](https://pasqualepillitteri.it/en/news/31811/gemini-4-carbon-antigravity-build-low-medium-high)).
-
-## Enterprise AI Caps: Apple and Goldman Sachs Tighten the Reins
-
-Apple cut engineers' daily AI spending cap from $300 to $200, with possible further cuts to $100, Bloomberg reported ([Macworld](https://macworld.com/article/3277678/apple-reportedly-slashes-employee-ai-usage-limits-amid-cost-cutting-effort.html)). Goldman Sachs updated internal guidelines in October to restrict Claude Code and GitHub tool access to engineering staff only, affecting roughly 10,000 traders and bankers ([Dealroom](https://app.dealroom.co/news/note/goldman-restricts-claude-code-github-for-traders-and-bankers)). The tension between rapid AI tool adoption and corporate cost and security controls is becoming increasingly visible.
-
-## Anthropic: IPO S-1 Filed, Pricing TBD
-
-Anthropic filed its Nasdaq (ANT) S-1 on October 26, but the price range and share count remain blank ([LetDataScience](https://letsdatascience.com/news/anthropic-files-for-nasdaq-ipo-under-ticker-ant-29038c93)). Some analysts project pricing during the week of November 16, but nothing is confirmed ([AllMind](https://allmind.ai/research/anthropic-ipo-preview)).
+Apple cut engineers' daily AI cap from $300 to $200 with possible further cuts to $100 ([Macworld](https://macworld.com/article/3277678/apple-reportedly-slashes-employee-ai-usage-limits-amid-cost-cutting-effort.html)). Goldman Sachs restricted Claude Code and GitHub tool access to engineering staff only, affecting roughly 10,000 traders and bankers ([Dealroom](https://app.dealroom.co/news/note/goldman-restricts-claude-code-github-for-traders-and-bankers)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 99 | — | Stable |
-| Claude Code | 99 | — | Stable |
+| Claude Code | 99 | — | v2.1.321 Fable 5.2 default |
 | Codex CLI | 99 | — | 0.167.0 agent command center |
-| Antigravity | 99 | — | 2.29 Remote Agents + Voice Mode |
-| Claude AI | 99 | — | IPO S-1 filed, pricing TBD |
-| GH Copilot | 91 | ↑2 | 47-day streak |
+| Antigravity | 99 | — | Knowledge Work mode unveiled |
+| Claude AI | 99 | — | Fable 5.2 launched, IPO roadshow active |
+| GH Copilot | 91 | ↑2 | v1.0.106 GPT-6.1 Terra, 47-day streak |
 | Windsurf | 88 | — | Stable as Devin Desktop |
-| Aider | 68 | — | No release since February |
+| Aider | 68 | — | Maintenance mode continues |
 | Cursor | 1 | — | OpenAI cutoff D-1, day 78 at bottom |
 | Gemini CLI | 1 | — | Retired, Antigravity transition complete |
 
-With Cursor's OpenAI cutoff becoming reality tomorrow, the AI coding tool landscape hits another inflection point. Codex CLI and Antigravity's simultaneous major updates signal the race to capture displaced users is well underway, while Apple and Goldman's AI spending cuts introduce a new enterprise headwind.
+Claude Code and Copilot CLI both completed model generation shifts — Fable 5.2 and GPT-6.1 Terra respectively — just as Cursor's OpenAI cutoff becomes reality tomorrow. The tool-level model race is accelerating, while enterprise AI spending cuts from Apple and Goldman introduce a new headwind.

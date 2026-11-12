@@ -3,7 +3,7 @@ title: "Cursor Loses OpenAI Models Today — Day 79 at the Bottom Meets D-Day"
 date: 2026-11-12
 lang: en
 categories: [news]
-tags: [cursor, openai, claude-code, github-copilot, antigravity, gemini-cli]
+tags: [cursor, openai, claude-code, github-copilot, codex-cli, antigravity]
 excerpt: "OpenAI officially cuts Cursor's model access today. After 79 days pinned at rock bottom following the SpaceX acquisition, Cursor's last lifeline is severed."
 ---
 
@@ -11,33 +11,33 @@ Today marks the end of an era in AI coding tools. OpenAI's proposed transition p
 
 ## Cursor: OpenAI Model Cutoff D-Day
 
-OpenAI's model access for Cursor officially ends today, the proposed transition deadline ([InfoWorld](https://www.infoworld.com/article/4216503/cursor-customers-will-lose-access-to-openai-coding-models-in-november.html)). OpenAI cited concerns that SpaceX could use Cursor's access to train competing AI systems through model distillation ([The New Stack](https://thenewstack.io/openai-cuts-cursor-spacex/)). Users can still configure their own OpenAI API keys for some features, but Tab autocomplete, auto model selection, Cloud Agents, and CLI are not covered ([OpenAI Help](https://help.openai.com/en/articles/20001506)). IDC called it "the first real case of supply chain risk materializing in the AI tools market" ([IDC](https://www.idc.com/?p=119917)).
+OpenAI's model access for Cursor officially ends today, the proposed transition deadline ([The Decoder](https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/)). OpenAI cited SpaceX's "history of breaking contracts" and concerns about model distillation for competing AI systems, giving roughly two and a half months of transition notice ([Forklog](https://forklog.com/en/openai-to-end-partnership-with-cursor-following-spacex-acquisition/)). Users can still configure their own OpenAI API keys for some features, but Tab autocomplete, auto model selection, Cloud Agents, and CLI are not covered ([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). Tom's Guide published three options for affected users, and notably GPT-6 Astra will never be supplied to Cursor at all ([Channel Insider](https://www.channelinsider.com/ai/news-openai-cursor-model-access-spacex-acquisition/)).
 
-## Claude Code v2.1.319: Auto Mode Hardened
+## Claude Code v2.1.319: Auto Mode and MCP Tasks
 
-Claude Code v2.1.319 shipped November 6 with auto mode as the headline change ([claudekit.io](https://claudekit.io/en/updates/claude-code-2-1-319/)). In environments with telemetry or feature flags disabled, or behind an LLM gateway, calls the server cannot verify are now surfaced for user approval rather than classified automatically. MCP task support was added to the terminal, and gateway management was improved ([labmemo.com](https://labmemo.com/claude-code-v2-1-319-auto-mode-gateway-mcp-task-2026-11/)). Meanwhile, fast mode on Opus 4.8 is being deprecated on November 30 — users should plan migration.
+Claude Code v2.1.319 shipped November 6 with auto mode as the headline change ([claudekit.io](https://claudekit.io/en/updates/claude-code-2-1-319/)). In environments with telemetry or feature flags disabled, or behind an LLM gateway, calls the server cannot verify are now surfaced for user approval rather than classified automatically. MCP task support was added to the terminal, along with a new `permissions.denyInsteadOfPrompting` setting and `/claude-api latency-optimize` command ([labmemo.com](https://labmemo.com/?p=62838)). Fast mode on Opus 4.8 is being deprecated November 30.
 
-## GitHub Copilot: Agent Merge and Cron Tasks
+## GitHub Copilot: Fusion GA Discount Running, Agent Merge Ships
 
-Copilot's November 6 weekly release added Agent Merge pull request automation and scheduled cron tasks in VS Code 1.145 ([GitHub Blog](https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2)). Native support for JetBrains Air and Xcode 27.3 beta was also included. Copilot's popularity score hit 93 today, up for 48 consecutive days, putting it on track to rejoin the top tier by year-end.
+GitHub Copilot Fusion went GA at Universe 2026 (Oct 28) and the 30% model-cost discount for paid plans runs through November 30 ([Artificial Analysis](https://artificialanalysis.ai/articles/github-copilot-fusion-orchestrates-anthropic-and-openai-models-to-balance-performance-and-cost)). Enterprise users get Fusion at no extra cost, with no additional fixed fee for the feature itself ([Phemex](https://phemex.com/news/article/github-makes-copilot-fusion-generally-available-to-all-enterprise-users-at-no-extra-cost-101577)). The November 6 weekly release added Agent Merge PR automation and scheduled cron tasks in VS Code 1.145, plus native JetBrains Air and Xcode 27.3 beta support ([GitHub Blog](https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2)). Copilot's popularity streak extends to 49 consecutive days of gains.
 
-## Gemini CLI v0.67.0: Model Listing Command
+## Codex CLI 0.167.0: Agent Command Center
 
-Gemini CLI v0.67.0 shipped November 4 with a model listing command and container sandbox IDE companion support ([havoptic.com](https://www.havoptic.com/releases/gemini-cli/2026/11)). Development is gradually transitioning to Antigravity CLI, so standalone Gemini CLI releases are expected to slow down ([labmemo.com](https://labmemo.com/?p=62719)).
+Codex CLI 0.167.0 shipped with an agent command center accessible via `codex agents --no-daemon` ([learn.chatgpt.com](https://learn.chatgpt.com/ja-JP/docs/changelog)). Unread results are marked in the command center and session picker, improving multi-agent workflow management. Starting in December, the ChatGPT/Codex usage pools merge into a single token budget for Plus/Pro/Business subscribers.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | Stable |
-| Claude Code | 99 | — | v2.1.319 auto mode hardened |
+| ChatGPT | 99 | — | GPT-6 Astra expanding access |
+| Claude Code | 99 | — | v2.1.319 auto mode + MCP tasks |
 | Codex CLI | 99 | — | 0.167.0 agent command center |
-| Antigravity | 99 | — | Knowledge Work mode live |
-| Claude AI | 99 | — | IPO S-1 filed, Fable 5.2 stable |
-| GH Copilot | 93 | ↑2 | 48-day streak, Agent Merge added |
-| Windsurf | 88 | — | Stable as Devin Desktop |
+| Antigravity | 99 | — | Knowledge Work mode stable |
+| Claude AI | 99 | — | IPO roadshow underway, ANT ticker |
+| GH Copilot | 93 | ↑2 | 49-day streak, Fusion 30% discount live |
+| Windsurf | 88 | — | Devin Desktop session sharing controls added |
 | Aider | 68 | — | Maintenance mode continues |
 | Cursor | 1 | — | OpenAI cutoff D-Day, day 79 at bottom |
 | Gemini CLI | 1 | — | Antigravity transition underway |
 
-OpenAI's Cursor cutoff turns supply chain dependency risk from theory into reality. As Copilot climbs for the 48th straight day, the vertical integration strategy of Claude Code and Antigravity — owning both the tool and the model — looks increasingly prescient.
+OpenAI's Cursor cutoff turns supply chain dependency risk from theory into reality. As vertically integrated players like Claude Code and Antigravity benefit from owning both tool and model, Copilot keeps climbing — now 49 straight days — powered by Fusion GA and its 30% discount promotion.

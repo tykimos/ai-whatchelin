@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-11-11</sub>
+  <sub>Last updated: 2026-11-12</sub>
 </p>
 
 <p align="center">
@@ -1680,6 +1680,9 @@ timeline
          : Cursor OpenAI cutoff D-1 — November 12 model termination tomorrow, 78th day at bottom (Nov 11)
          : Antigravity Knowledge Work mode — hides terminal/Git for research and document tasks (Nov 10)
          : GitHub Enterprise includes Copilot — no seat charge for Enterprise Cloud, Copilot Standalone $10/mo, usage-based billing (Oct 28)
+         : Cursor OpenAI cutoff D-Day — model access officially terminated, 79th day at bottom (Nov 12)
+         : GH Copilot rises to 93 — 92-point lead over Cursor, 49-day streak, Fusion 30% discount live (Nov 12)
+         : Anthropic IPO pricing expected Nov 18 — roadshow continues, $70-$78/share for 825M Class A shares, Nasdaq ANT (Nov 12)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -3499,6 +3502,9 @@ All pricing information has been directly verified from each service's official 
 | 2026/11/06 | **Devin Desktop CLI agent** — new local CLI agent launched for existing Windsurf subscribers; runs on user's machine | [windsurf.com](https://windsurf.com/changelog) |
 | 2026/11/07 | **GH Copilot rises to 83** — 82-point lead over Cursor; 43-day recovery streak; model swap D-9 | [github.com](https://github.com/features/copilot) |
 | 2026/11/07 | **Cursor OpenAI cutoff D-5** — November 12 model termination approaches; ~5% of Cursor traffic affected; BYOK workaround available but limited | [openai.com](https://openai.com/blog/our-decision-on-cursor-following-its-acquisition-by-spacex) |
+| 2026/11/12 | **Cursor OpenAI cutoff D-Day** — model access officially terminated; 79th consecutive day at bottom; users can still use personal API keys but Tab autocomplete, Auto, Cloud Agents, CLI not covered | [tomsguide.com](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options) |
+| 2026/11/12 | **GH Copilot rises to 93** — 92-point lead over Cursor; 49-day recovery streak; Fusion 30% discount live through Nov 30 | [github.com](https://github.com/features/copilot) |
+| 2026/11/12 | **Anthropic IPO pricing $70-$78/share** — roadshow launched Nov 10; 825M Class A shares; base deal $57.75B-$64.35B; pricing expected Nov 18; Nasdaq ANT | [rttnews.com](https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx) |
 | 2026/11/10 | **GH Copilot rises to 89** — 88-point lead over Cursor; 46-day recovery streak; Cursor OpenAI cutoff D-2; model swap D-6 | [github.com](https://github.com/features/copilot) |
 | 2026/11/10 | **Claude Code v2.1.321** — Fable 5.2 as default Fable model ($8/$40/MTok, 1M context, cache reads $0.20/MTok); MCP OAuth refresh token redirect to wrong host fix; remote-control settings sync | [ai-tldr.dev](https://ai-tldr.dev/releases/anthropic-claude-code-2-1-321/) |
 | 2026/11/10 | **Claude Code v2.1.319** — Auto Mode shipped; MCP task support in terminal; gateway management features; security hardening amid credential leak fallout | [claudekit](https://claudekit.io/en/updates/claude-code-2-1-319/) |

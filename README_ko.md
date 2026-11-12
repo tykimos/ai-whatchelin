@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-11-11</sub>
+  <sub>마지막 업데이트: 2026-11-12</sub>
 </p>
 
 <p align="center">
@@ -1680,6 +1680,9 @@ timeline
          : Cursor OpenAI 차단 D-1 — 11월 12일 모델 접근 종료 내일, 78일째 바닥 (11/11)
          : Antigravity Knowledge Work 모드 — 터미널·Git 숨기고 리서치·문서 작업 집중 (11/10)
          : GitHub Enterprise에 Copilot 포함 — Enterprise Cloud 시트 무료, Copilot Standalone $10/mo, 사용량 기반 과금 (10/28)
+         : Cursor OpenAI 차단 D-Day — 모델 접근 공식 종료, 79일째 바닥 (11/12)
+         : GH Copilot 93으로 상승 — Cursor에 92점 리드, 49일 연속 회복, Fusion 30% 할인 중 (11/12)
+         : Anthropic IPO 가격 결정 11/18 예정 — 로드쇼 진행 중, $70-$78/주 8.25억주 Class A, 나스닥 ANT (11/12)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -3456,6 +3459,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/11/06 | **Devin Desktop CLI 에이전트** — 기존 Windsurf 구독자용 새 로컬 CLI 에이전트 출시; 사용자 로컬 머신에서 실행 | [windsurf.com](https://windsurf.com/changelog) |
 | 2026/11/07 | **GH Copilot 83으로 상승** — Cursor에 82점 리드; 43일 연속 회복; 모델 교체 D-9 | [github.com](https://github.com/features/copilot) |
 | 2026/11/07 | **Cursor OpenAI 차단 D-5** — 11월 12일 모델 접근 종료 임박; Cursor 트래픽 ~5% 영향; BYOK 가능하나 제한적 | [openai.com](https://openai.com/blog/our-decision-on-cursor-following-its-acquisition-by-spacex) |
+| 2026/11/12 | **Cursor OpenAI 차단 D-Day** — 모델 접근 공식 종료; 79일째 바닥; 개인 API 키로 일부 기능 유지 가능하나 Tab 자동완성·자동 모드·클라우드 에이전트·CLI 미지원 | [tomsguide.com](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options) |
+| 2026/11/12 | **GH Copilot 93으로 상승** — Cursor에 92점 리드; 49일 연속 회복; Fusion 30% 할인 11월 30일까지 | [github.com](https://github.com/features/copilot) |
+| 2026/11/12 | **Anthropic IPO 가격 $70-$78/주 확정** — 11/10 로드쇼 개시; 8.25억주 Class A; 기본 공모 $577.5억-$643.5억; 가격 결정 11/18 예상; 나스닥 ANT | [rttnews.com](https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx) |
 | 2026/11/10 | **GH Copilot 89로 상승** — Cursor에 88점 리드; 46일 연속 회복; Cursor OpenAI 차단 D-2; 모델 교체 D-6 | [github.com](https://github.com/features/copilot) |
 | 2026/11/10 | **Claude Code v2.1.321** — Fable 5.2 기본 Fable 모델 전환($8/$40/MTok, 1M 컨텍스트, 캐시 읽기 $0.20/MTok); MCP OAuth 리프레시 토큰 리다이렉트 수정; 리모트 컨트롤 설정 동기화 | [ai-tldr.dev](https://ai-tldr.dev/releases/anthropic-claude-code-2-1-321/) |
 | 2026/11/10 | **Claude Code v2.1.319** — Auto Mode 도입; 터미널 MCP 태스크 지원; 게이트웨이 관리 기능; 자격증명 유출 사태 후 보안 강화 | [claudekit](https://claudekit.io/en/updates/claude-code-2-1-319/) |

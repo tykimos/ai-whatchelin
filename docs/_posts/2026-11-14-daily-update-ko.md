@@ -21,9 +21,13 @@ Anthropic IPO 로드쇼 4일차, 기관투자가 수요가 SpaceX 초기 로드�
 
 OpenAI 모델 접근 차단 후 3일째, Tab 자동완성·자동 모델 선택·클라우드 에이전트 등 핵심 기능이 여전히 동작하지 않는다([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). SpaceX 인수 후 OpenAI가 "계약 위반 전력"을 이유로 차단을 단행했으며([OpenAI](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)), CEO Michael Truell은 전체 트래픽의 5%에 불과하다고 주장하지만 실질적 영향은 그보다 크다([CryptoBriefing](https://cryptobriefing.com/cursor-openai-5-percent-traffic/)). 83일째 바닥(점수 1)이다.
 
-## Codex CLI: 11월 연타 업데이트
+## Codex CLI: 11월 4연속 릴리스
 
-Codex CLI가 11월 들어 0.165~0.167 버전을 연달아 릴리스했다([ChatGPT Changelog](https://learn.chatgpt.com/docs/changelog)). 0.165.0에서 Google Cloud Vertex AI 프로바이더가 내장되었고, 0.167.0에서는 `codex agents --no-daemon`으로 에이전트 커맨드 센터를 열 수 있게 되었다([WindowsReport](https://windowsreport.com/openai-gives-codex-a-major-upgrade-with-cloud-environments-voice-cli-code-review/)). ChatGPT 데스크톱 앱과 통합이 강화되고 있다.
+Codex CLI가 11월 들어 0.165~0.168 버전을 연달아 릴리스했다([ChatGPT Changelog](https://learn.chatgpt.com/docs/changelog)). 0.165.0에서 Google Cloud Vertex AI 프로바이더가 내장되었고, 0.167.0에서는 `codex agents --no-daemon`으로 에이전트 커맨드 센터를 열 수 있게 되었다([WindowsReport](https://windowsreport.com/openai-gives-codex-a-major-upgrade-with-cloud-environments-voice-cli-code-review/)). 어제 출시된 0.168.0에서는 프로바이더 설정 후 모델 선택 버그가 수정되고, TUI 컴포저에 로컬 이미지 썸네일이 추가되었다([havoptic](https://www.havoptic.com/releases/claude-code/2026/11)). ChatGPT 데스크톱 앱과 통합이 지속적으로 강화되고 있다.
+
+## Claude AI: 로그인 장애 발생 후 복구
+
+11월 13일 Anthropic 플랫폼에서 인증 관련 장애가 발생해 claude.ai와 Claude Code 사용자들이 접속 불가를 경험했다([BusinessToday](https://businesstoday.in/technology/news/story/claude-ai-outage-anthropic-investigates-login-failures-as-ai-chatbot-and-coding-tools-face-outage-567403-2026-11-13)). IPO 로드쇼 한복판에서 터진 장애라 타이밍이 좋지 않았으나, 같은 날 복구된 것으로 확인된다.
 
 ## 마켓 펄스
 
@@ -31,13 +35,13 @@ Codex CLI가 11월 들어 0.165~0.167 버전을 연달아 릴리스했다([ChatG
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-6.1 Terra 롤아웃 확대 |
 | Claude Code | 99 | — | Fable 5.2 기본 모델 전환 5일째 |
-| Codex CLI | 99 | — | 11월 3연속 릴리스, Vertex AI 통합 |
+| Codex CLI | 99 | — | 11월 4연속 릴리스, 0.168.0 출시 |
 | Antigravity | 99 | — | Gemini 4 Carbon 합류, 도입 할인 D-16 |
-| Claude AI | 99 | — | IPO 수배 초과 청약, 가격 결정 D-5 |
+| Claude AI | 99 | — | IPO 수배 초과 청약, 11/13 장애 복구 |
 | GH Copilot | 97 | ↑2 | 52일 연속 상승, 모델 퇴출 D-2 |
 | Windsurf | 88 | — | Devin Desktop 안정 운영 |
 | Aider | 68 | — | 메인터넌스 모드 지속 |
 | Cursor | 1 | — | OpenAI 차단 3일째, 83일째 바닥 |
 | Gemini CLI | 1 | — | Antigravity 전환 완료 임박 |
 
-Anthropic IPO 수요 과열과 GitHub 모델 퇴출이 동시에 진행되면서, 시장은 기업 단위 구조 재편의 절정 주간에 돌입했다. Cursor는 OpenAI 차단 3일째에도 대안 전략을 내놓지 못하고 있어 탈출구가 보이지 않는다.
+Anthropic IPO 수요 과열과 GitHub 모델 퇴출이 동시에 진행되면서, 시장은 기업 단위 구조 재편의 절정 주간에 돌입했다. 어제 IPO 로드쇼 중 터진 Claude 장애는 짧게 끝났지만, Cursor는 OpenAI 차단 3일째에도 대안 전략을 내놓지 못하고 있어 탈출구가 보이지 않는다.

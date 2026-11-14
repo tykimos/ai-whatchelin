@@ -21,9 +21,13 @@ Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Terra will be fully removed from Cop
 
 Three days after OpenAI's model access cutoff, Tab autocomplete, auto model selection, and Cloud Agents remain non-functional([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). OpenAI cut access citing SpaceX's "history of breaking contracts" following the acquisition([OpenAI](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)). CEO Michael Truell claims OpenAI models accounted for just 5% of traffic, but the practical impact of disabled core features appears larger([CryptoBriefing](https://cryptobriefing.com/cursor-openai-5-percent-traffic/)). Day 83 at the bottom.
 
-## Codex CLI: Triple November Release
+## Codex CLI: Four November Releases in a Row
 
-Codex CLI shipped versions 0.165 through 0.167 in November([ChatGPT Changelog](https://learn.chatgpt.com/docs/changelog)). Version 0.165.0 added a built-in Google Cloud Vertex AI provider, and 0.167.0 introduced an agent command center accessible via `codex agents --no-daemon`([WindowsReport](https://windowsreport.com/openai-gives-codex-a-major-upgrade-with-cloud-environments-voice-cli-code-review/)). Integration with the ChatGPT desktop app continues to deepen.
+Codex CLI shipped versions 0.165 through 0.168 in November([ChatGPT Changelog](https://learn.chatgpt.com/docs/changelog)). Version 0.165.0 added a built-in Google Cloud Vertex AI provider, and 0.167.0 introduced an agent command center accessible via `codex agents --no-daemon`([WindowsReport](https://windowsreport.com/openai-gives-codex-a-major-upgrade-with-cloud-environments-voice-cli-code-review/)). Yesterday's 0.168.0 fixes model selection after provider setup and adds local image thumbnails to the TUI composer([havoptic](https://www.havoptic.com/releases/claude-code/2026/11)). Integration with the ChatGPT desktop app continues to deepen.
+
+## Claude AI: Login Outage Hits During IPO Roadshow
+
+Anthropic's platform experienced authentication-related disruptions on November 13, leaving users unable to access claude.ai and Claude Code([BusinessToday](https://businesstoday.in/technology/news/story/claude-ai-outage-anthropic-investigates-login-failures-as-ai-chatbot-and-coding-tools-face-outage-567403-2026-11-13)). The timing was unfortunate — day three of the IPO roadshow — but services were restored the same day.
 
 ## Market Pulse
 
@@ -31,13 +35,13 @@ Codex CLI shipped versions 0.165 through 0.167 in November([ChatGPT Changelog](h
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-6.1 Terra rollout expanding |
 | Claude Code | 99 | — | Fable 5.2 default model, day 5 |
-| Codex CLI | 99 | — | Triple November release, Vertex AI integration |
+| Codex CLI | 99 | — | Four November releases, 0.168.0 shipped |
 | Antigravity | 99 | — | Gemini 4 Carbon added, intro pricing D-16 |
-| Claude AI | 99 | — | IPO multiple-times oversubscribed, pricing D-5 |
+| Claude AI | 99 | — | IPO multiple-times oversubscribed, 11/13 outage recovered |
 | GH Copilot | 97 | ↑2 | 52-day streak, model purge D-2 |
 | Windsurf | 88 | — | Devin Desktop stable operations |
 | Aider | 68 | — | Maintenance mode continues |
 | Cursor | 1 | — | OpenAI cutoff day 3, day 83 at bottom |
 | Gemini CLI | 1 | — | Antigravity transition nearing completion |
 
-The Anthropic IPO demand surge and GitHub's model purge are converging into a peak week for corporate restructuring across the AI coding tool market. Cursor has yet to articulate an alternative strategy three days into its OpenAI blackout.
+The Anthropic IPO demand surge and GitHub's model purge are converging into a peak week for corporate restructuring across the AI coding tool market. Yesterday's Claude outage during the IPO roadshow was a brief scare, while Cursor still hasn't articulated an alternative strategy three days into its OpenAI blackout.

@@ -1,29 +1,29 @@
 ---
-title: "Anthropic IPO Roadshow Sets $70-78 Range — Copilot Model Purge D-2, Cursor's OpenAI Blackout Enters Day 3"
+title: "Anthropic IPO 'Multiple Times Oversubscribed' — Copilot Model Purge D-2, Cursor Adrift on Day 3"
 date: 2026-11-14
 lang: en
 categories: [news]
-tags: [anthropic, ipo, github-copilot, cursor, gemini, claude-code]
-excerpt: "Anthropic launches its IPO roadshow at $70-78 per share as GitHub Copilot's mass model deprecation sits two days out and Cursor endures its third day without OpenAI."
+tags: [anthropic, ipo, github-copilot, cursor, claude-code, codex-cli, gemini]
+excerpt: "Anthropic's IPO order book hits multiple-times oversubscription as investors question the durability of its AI lead. GitHub Copilot's model purge is 48 hours out, and Cursor drifts through day 3 without OpenAI."
 ---
 
-The AI coding tool market is undergoing tectonic shifts at the corporate level. Anthropic has entered a historic IPO roadshow, GitHub is 48 hours from a major model swap, and Cursor is spending its third day without OpenAI.
+The corporate-level tectonic shifts in the AI coding tool market are building toward a crescendo this week. Institutional investors are piling into Anthropic's IPO while voicing doubts about its staying power, GitHub Copilot's mass model deprecation is 48 hours away, and Cursor is spending its third day without OpenAI.
 
-## Anthropic IPO: $70-78 Price Range, $1T+ Valuation in Sight
+## Anthropic IPO: Oversubscribed, But "How Long Can the Lead Last?"
 
-Anthropic launched its IPO roadshow on November 10 ([Anthropic](https://anthropic.com/news/roadshow-launch)). The offering covers 825 million Class A shares on Nasdaq under the ANT ticker, with a proposed price range of $70-78 per share ([RTTNews](https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx)). Valuation estimates range from $916 billion to $1.4 trillion, with pricing expected around November 18-24, before Thanksgiving ([Implicator](https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/)). Morgan Stanley, Goldman Sachs, JPMorgan, and Citi are managing the offering.
+On day four of its roadshow, Anthropic's IPO is tracking ahead of SpaceX's early roadshow pace in institutional demand([Quartz](https://qz.com/anthropic-ipo-oversubscribed-roadshow-demand-111126)). The order book is already multiple times oversubscribed, and bankers expect it to grow substantially as the roadshow continues([BusinessDay](https://www.businessday.co.za/companies/2026-11-14-investors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead/)). Taiwan's Fubon Life has bid up to $700 million for shares([BigGo Finance](https://finance.biggo.com/news/9812aa29-cc85-47d4-a68f-946ab4e6a228)). Yet investors are openly questioning whether Anthropic can maintain its AI leadership beyond coding as competitors like Google rapidly close the gap([Reuters via The Star](https://www.thestar.com.my/tech/tech-news/2026/11/14/exclusive-investors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead)). Pricing is expected next Wednesday, November 19.
 
-## GitHub Copilot: Model Purge D-2, Enterprise Server Integration Added
+## GitHub Copilot: Model Purge D-2
 
-Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Terra will be fully removed from Copilot on November 16 ([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)). The deprecation covers Chat, inline edits, Agent mode, and code completions across all plan tiers ([dev.classmethod.jp](https://dev.classmethod.jp/en/articles/github-copilot-model-deprecation-nov-2026/)). Meanwhile, GitHub Enterprise Server support was added to the Copilot app on November 13 ([GitHub Blog](https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app)). Copilot hits 97 — its 52nd consecutive day of gains.
+Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Terra will be fully removed from Copilot on November 16 across all surfaces — Chat, inline edits, Agent mode, and code completions([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)). Only annual Individual plan subscribers retain Claude Opus 4.8([dev.classmethod.jp](https://dev.classmethod.jp/en/articles/github-copilot-model-deprecation-nov-2026/)). Admins should verify migration targets (Opus 5.5, GPT-6.1 Sol) are enabled in model policy settings. Copilot sits at 97 — its 52nd consecutive day of gains.
 
-## Cursor: Day 3 Post-OpenAI, Core Features Still Down
+## Cursor: Day 3 Post-OpenAI, No Clear Path Forward
 
-Three days after OpenAI's model access cutoff, Tab autocomplete, auto model selection, and Cloud Agents remain non-functional ([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). OpenAI cut access citing a "history of breaking contracts" following SpaceX's acquisition ([The Decoder](https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/)). CEO Michael Truell claims OpenAI models accounted for just 5% of traffic, but the practical impact of disabled core features appears larger ([CryptoBriefing](https://cryptobriefing.com/cursor-openai-5-percent-traffic/)). Day 82 at the bottom.
+Three days after OpenAI's model access cutoff, Tab autocomplete, auto model selection, and Cloud Agents remain non-functional([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). OpenAI cut access citing SpaceX's "history of breaking contracts" following the acquisition([OpenAI](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)). CEO Michael Truell claims OpenAI models accounted for just 5% of traffic, but the practical impact of disabled core features appears larger([CryptoBriefing](https://cryptobriefing.com/cursor-openai-5-percent-traffic/)). Day 83 at the bottom.
 
-## Google Gemini 4 Carbon Joins Antigravity CLI
+## Codex CLI: Triple November Release
 
-Google officially launched Gemini 4 Carbon on November 12 ([NewsBytesApp](https://www.newsbytesapp.com/news/science/google-launches-gemini-4-carbon-exclusively-for-ai-ultra-subscribers/tldr)). It's available through AI Studio, the Gemini API, and the Antigravity CLI, with introductory pricing through November 30. Carbon is the second Gemini 4 model after the cybersecurity-focused Argon, now expanded to all developers ([Axios](https://axios.com/2026/09/30/google-gemini-4)).
+Codex CLI shipped versions 0.165 through 0.167 in November([ChatGPT Changelog](https://learn.chatgpt.com/docs/changelog)). Version 0.165.0 added a built-in Google Cloud Vertex AI provider, and 0.167.0 introduced an agent command center accessible via `codex agents --no-daemon`([WindowsReport](https://windowsreport.com/openai-gives-codex-a-major-upgrade-with-cloud-environments-voice-cli-code-review/)). Integration with the ChatGPT desktop app continues to deepen.
 
 ## Market Pulse
 
@@ -31,13 +31,13 @@ Google officially launched Gemini 4 Carbon on November 12 ([NewsBytesApp](https:
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-6.1 Terra rollout expanding |
 | Claude Code | 99 | — | Fable 5.2 default model, day 5 |
-| Codex CLI | 99 | — | Stable operations |
-| Antigravity | 99 | — | Gemini 4 Carbon added |
-| Claude AI | 99 | — | IPO roadshow $70-78, pricing D-4 to D-10 |
-| GH Copilot | 97 | ↑2 | 52-day streak, model purge D-2, GHES integration |
+| Codex CLI | 99 | — | Triple November release, Vertex AI integration |
+| Antigravity | 99 | — | Gemini 4 Carbon added, intro pricing D-16 |
+| Claude AI | 99 | — | IPO multiple-times oversubscribed, pricing D-5 |
+| GH Copilot | 97 | ↑2 | 52-day streak, model purge D-2 |
 | Windsurf | 88 | — | Devin Desktop stable operations |
 | Aider | 68 | — | Maintenance mode continues |
-| Cursor | 1 | — | OpenAI cutoff day 3, day 82 at bottom |
+| Cursor | 1 | — | OpenAI cutoff day 3, day 83 at bottom |
 | Gemini CLI | 1 | — | Antigravity transition nearing completion |
 
-The Anthropic IPO and GitHub's model purge are happening simultaneously, driving corporate-level restructuring across the AI coding tool market. Cursor's OpenAI blackout enters its third day with no clear alternative strategy in sight.
+The Anthropic IPO demand surge and GitHub's model purge are converging into a peak week for corporate restructuring across the AI coding tool market. Cursor has yet to articulate an alternative strategy three days into its OpenAI blackout.

@@ -1683,6 +1683,17 @@ timeline
          : Cursor OpenAI 차단 D-Day — 모델 접근 공식 종료, 79일째 바닥 (11/12)
          : GH Copilot 93으로 상승 — Cursor에 92점 리드, 49일 연속 회복, Fusion 30% 할인 중 (11/12)
          : Anthropic IPO 가격 결정 11/18 예정 — 로드쇼 진행 중, $70-$78/주 8.25억주 Class A, 나스닥 ANT (11/12)
+         : ChatGPT Business Hub 출시 — 사업자 프레젠스 관리, 상품 피드 연동, 고객 인사이트 (11/10)
+         : Cursor Live Apps(11/5), 에이전트 음성 채팅(11/6), 멀티플레이어 Projects(11/10) — OpenAI 위기 속 기능 출시 지속
+         : OpenAI Chat·Work 탭 통합 — Codex는 데스크톱 앱에서 별도 유지, 공유 토큰 풀 (11/2)
+         : Codex CLI v0.168.0 — 프로바이더 설정 후 모델 선택 수정, TUI 컴포저 로컬 이미지 썸네일 (11/13)
+         : Codex CLI v0.169.0 — 키보드/마우스 사이드 채팅 전환, 저장된 로컬 사이드 채팅 재시작 후 복원 (11/13)
+         : ChatGPT Wallet 출시 — 미국 Pro 구독자, 생체 인증 결제 승인, 대체 결제 자격증명 (11/13)
+         : Claude AI 로그인 장애 — claude.ai·Claude Code 인증 장애, IPO 로드쇼 3일차 (11/13)
+         : GH Copilot 95로 상승 — Cursor에 94점 리드, 50일 연속 회복, 모델 퇴출 D-3 (11/13)
+         : Anthropic IPO 수배 초과 청약 — Fubon Life $7억 입찰, 가격 결정 11/19 예정 (11/14)
+         : GH Copilot 97로 상승 — Cursor에 96점 리드, 52일 연속 회복, 모델 퇴출 D-2 (11/14)
+         : Cursor OpenAI 차단 3일째 — Tab 자동완성·자동 모델 선택·Cloud Agents 미작동, 83일째 바닥 (11/14)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합

@@ -1683,6 +1683,17 @@ timeline
          : Cursor OpenAI cutoff D-Day — model access officially terminated, 79th day at bottom (Nov 12)
          : GH Copilot rises to 93 — 92-point lead over Cursor, 49-day streak, Fusion 30% discount live (Nov 12)
          : Anthropic IPO pricing expected Nov 18 — roadshow continues, $70-$78/share for 825M Class A shares, Nasdaq ANT (Nov 12)
+         : ChatGPT Business Hub launched — businesses claim/manage presence, product feeds, customer insights (Nov 10)
+         : Cursor Live Apps (Nov 5), Voice Chat with agents (Nov 6), Multiplayer Projects (Nov 10) — features shipping despite OpenAI crisis
+         : OpenAI merging Chat and Work tabs — Codex stays separate in desktop app, shared token allowance pool (Nov 2)
+         : Codex CLI v0.168.0 — model selection fix after provider setup, local image thumbnails in TUI composer (Nov 13)
+         : Codex CLI v0.169.0 — keyboard/mouse side chat switching, saved local side chats persist after restart (Nov 13)
+         : ChatGPT Wallet launched — US Pro subscribers, biometric purchase approval, substitute payment credentials (Nov 13)
+         : Claude AI login outage — authentication failures on claude.ai and Claude Code during IPO roadshow day 3 (Nov 13)
+         : GH Copilot rises to 95 — 94-point lead over Cursor, 50-day streak, model purge D-3 (Nov 13)
+         : Anthropic IPO multiple-times oversubscribed — Fubon Life bids $700M, pricing expected Nov 19 (Nov 14)
+         : GH Copilot rises to 97 — 96-point lead over Cursor, 52-day streak, model purge D-2 (Nov 14)
+         : Cursor OpenAI cutoff Day 3 — Tab autocomplete, auto model selection, Cloud Agents non-functional, 83rd day at bottom (Nov 14)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use

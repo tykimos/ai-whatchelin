@@ -25,6 +25,10 @@ Codex CLI 0.169.0이 출시되어 터미널 사이드 채팅 탭, 작업 검색,
 
 11월 10일 GA된 Gemini 4 Carbon의 도입 할인이 11월 30일에 종료된다([DEV Community](https://dev.to/aitecharchive/gemini-4-carbon-in-github-copilot-vs-argon-test-by-dec-1-4fc5)). 12월 1일부터 GitHub Copilot에서의 토큰당 가격이 2배로 오를 예정이므로, 현재 도입 할인 기간에 충분히 테스트해볼 필요가 있다. Argon과 함께 Gemini 4 패밀리의 두 번째 모델로, AI Studio와 Antigravity CLI에서도 사용 가능하다.
 
+## GitHub Copilot: 12월 14일 대규모 모델 퇴출 예고
+
+오늘의 3개 모델 퇴출에 이어, GitHub는 12월 14일에 6개 모델을 추가로 제거할 것을 예고했다([AI TREND LAB](https://note.com/aitrendlab/n/nc27e6861dd15?hl=en)). 대상은 Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, Kimi K3로, Business·Enterprise 사용자에게는 대체 모델이 자동 활성화된다. 일부 모델의 단가는 하락하고 일부는 인상될 예정이어서, 크레딧 예산 관리에 주의가 필요하다.
+
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |

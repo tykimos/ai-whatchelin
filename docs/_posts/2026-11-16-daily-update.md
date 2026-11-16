@@ -25,6 +25,10 @@ Codex CLI 0.169.0 landed with terminal side-chat tabs, task search, custom model
 
 Gemini 4 Carbon, generally available since November 10, has introductory pricing running through November 30([DEV Community](https://dev.to/aitecharchive/gemini-4-carbon-in-github-copilot-vs-argon-test-by-dec-1-4fc5)). Per-token costs in GitHub Copilot are set to double on December 1, so now is the time to evaluate. It's the second Gemini 4 model after Argon, available on AI Studio and Antigravity CLI as well.
 
+## Copilot: Six More Models Retiring December 14
+
+Hot on the heels of today's three-model purge, GitHub has announced another wave on December 14 — Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, and Kimi K3 are all scheduled for removal across every Copilot surface([AI TREND LAB](https://note.com/aitrendlab/n/nc27e6861dd15?hl=en)). Replacement models will be auto-enabled for Business and Enterprise users, though some unit prices will decrease while others increase. Budget-conscious teams should audit their model usage before the cutoff.
+
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |

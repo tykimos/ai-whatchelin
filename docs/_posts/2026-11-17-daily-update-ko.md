@@ -13,9 +13,9 @@ excerpt: "Anthropic IPO 가격 결정이 내일로 다가왔다. Copilot 모델 
 
 어제 Claude Opus 4.8, Claude Opus 5, GPT-5.6 Terra가 모든 Copilot 영역에서 제거되었다([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)). 연간 Individual 구독자만 Opus 4.8을 유지하며, 나머지 사용자는 Opus 5.5 또는 GPT-6.1 Sol로 전환 완료해야 한다([dev.classmethod.jp](https://dev.classmethod.jp/en/articles/github-copilot-model-deprecation-nov-2026/)). 대퇴출에도 불구하고 Copilot은 99점을 유지하며 55일 연속 상승 기록을 이어가고 있다. 12월 14일에는 Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash 등 6개 모델이 추가로 퇴출될 예정이다([AI TREND LAB](https://note.com/aitrendlab/n/nc27e6861dd15?hl=en)).
 
-## Claude Code: v2.1.322 Vertex Fast Mode 추가
+## Claude Code: v2.1.325 — 실험적 Code Mode 추가, 보안 패치 적용
 
-Claude Code v2.1.322가 출시되어 Vertex AI의 global, us, eu 리전에서 Fast Mode를 지원한다([Havoptic](https://www.havoptic.com/r/claude-code-2.1.322)). Vertex가 Fast Mode를 거부하면 자동으로 표준 속도로 폴백된다. Fable 5.2가 기본 모델로 전환된 지 8일째로, $8/$40/MTok 가격과 1M 컨텍스트 윈도우로 안정적인 운영이 계속되고 있다.
+Claude Code가 이번 주 세 번의 릴리스를 쏟아냈다. v2.1.322가 Vertex AI(global·us·eu 리전)에서 Fast Mode를 지원한 데 이어([Havoptic](https://www.havoptic.com/r/claude-code-2.1.322)), v2.1.323(11월 12일)은 실험적 Code Mode를 도입했다 — Claude가 JavaScript를 작성해 자체 도구를 호출하는 방식이다([dev.classmethod.jp](https://dev.classmethod.jp/en/articles/20261113-cc-updates-v2-1-323/)). 플러그인에 `engines["claude-code"]` 버전 범위를 선언할 수 있게 되었고, 미인식 모델 ID의 기본 컨텍스트 윈도우가 200K에서 1M으로 변경되었다. 최신 v2.1.325(11월 13일)는 zstd 압축 디코딩 보안 취약점을 수정하고, 샌드박스 내 Bash 명령 실행 시 권한 확인 절차를 강화했다([Meteora Web](https://meteoraweb.com/en/news/claude-code-2-1-325-fixes-zstd-decoding-permission-mcp-bugs)). Fable 5.2가 기본 모델로 전환된 지 8일째로, $8/$40/MTok 가격과 1M 컨텍스트 윈도우로 안정적인 운영이 계속되고 있다.
 
 ## Cursor: OpenAI 차단 6일째, 86일째 바닥
 
@@ -30,7 +30,7 @@ Gemini 4 Carbon 도입 할인 종료까지 13일 남았다([DEV Community](https
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-6.1 Terra 롤아웃 진행 중 |
-| Claude Code | 99 | — | v2.1.322 Vertex Fast Mode 추가 |
+| Claude Code | 99 | — | v2.1.325: Code Mode + 보안 패치 |
 | Codex CLI | 99 | — | 0.169.0 안정 운영, 11월 릴리스 행진 |
 | Antigravity | 99 | — | Gemini 4 Carbon 도입 할인 D-13 |
 | Claude AI | 99 | — | IPO 가격 결정 D-1, 로드쇼 8일차 |

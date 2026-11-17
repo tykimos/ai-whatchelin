@@ -13,9 +13,9 @@ Tomorrow marks the pricing of the largest AI IPO in history. Anthropic will offe
 
 Yesterday's removal of Claude Opus 4.8, Claude Opus 5, and GPT-5.6 Terra from all Copilot surfaces went ahead as planned([GitHub Blog](https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november)). Only annual Individual subscribers retain Opus 4.8; everyone else must have migrated to Claude Opus 5.5 or GPT-6.1 Sol([dev.classmethod.jp](https://dev.classmethod.jp/en/articles/github-copilot-model-deprecation-nov-2026/)). Despite the purge, Copilot holds at 99, extending its streak to 55 consecutive days. The next wave on December 14 will retire six more models including Claude Fable 5, Claude Haiku 4.5, and Gemini 3.8 Flash([AI TREND LAB](https://note.com/aitrendlab/n/nc27e6861dd15?hl=en)).
 
-## Claude Code: v2.1.322 Adds Vertex Fast Mode
+## Claude Code: v2.1.325 — Experimental Code Mode, Security Patch
 
-Claude Code v2.1.322 shipped with Fast Mode support on Vertex AI across global, us, and eu regions([Havoptic](https://www.havoptic.com/r/claude-code-2.1.322)). If Vertex declines Fast Mode, the client automatically falls back to standard speed. Fable 5.2 continues as the default model on day 8, running steadily at $8/$40 per MTok with a 1M context window.
+Claude Code shipped three releases this week. v2.1.322 added Fast Mode on Vertex AI across global, us, and eu regions([Havoptic](https://www.havoptic.com/r/claude-code-2.1.322)). v2.1.323 (November 12) introduced experimental Code Mode, where Claude writes JavaScript to invoke its own tools([dev.classmethod.jp](https://dev.classmethod.jp/en/articles/20261113-cc-updates-v2-1-323/)). Plugins can now declare supported Claude Code versions via `engines["claude-code"]`, and unrecognized model IDs default to a 1M context window instead of 200K. The latest v2.1.325 (November 13) patched a security vulnerability in zstd-compressed response decoding and tightened permission checks for sandboxed Bash commands([Meteora Web](https://meteoraweb.com/en/news/claude-code-2-1-325-fixes-zstd-decoding-permission-mcp-bugs)). Fable 5.2 continues as the default model on day 8, running steadily at $8/$40 per MTok with a 1M context window.
 
 ## Cursor: OpenAI Cutoff Day 6, Day 86 at Bottom
 
@@ -30,7 +30,7 @@ Gemini 4 Carbon's introductory pricing expires in 13 days([DEV Community](https:
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
 | ChatGPT | 99 | — | GPT-6.1 Terra rollout in progress |
-| Claude Code | 99 | — | v2.1.322 Vertex Fast Mode added |
+| Claude Code | 99 | — | v2.1.325: Code Mode + security patch |
 | Codex CLI | 99 | — | 0.169.0 stable, November release streak |
 | Antigravity | 99 | — | Gemini 4 Carbon intro pricing D-13 |
 | Claude AI | 99 | — | IPO pricing D-1, roadshow day 8 |

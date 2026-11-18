@@ -4,10 +4,10 @@ date: 2026-11-18
 lang: ko
 categories: [news]
 tags: [anthropic, ipo, cursor, codex-cli, github-copilot, gpt-6.2, copilot-fusion]
-excerpt: "Anthropic IPO가 오늘 밤 가격이 확정된다. GPT-6.2 Astra/Sol이 비공식 API 응답에 포착되었고, Cursor는 OpenAI 차단 속에서도 Live Apps·음성 대화·멀티플레이어를 연달아 출시했다."
+excerpt: "Anthropic IPO가 $80 상회 가능성 속에 공모 규모 확대를 검토 중이다. GPT-6.2 Astra/Sol 비공식 포착이 계속되고, Sonnet 4.5 퇴출이 12일 앞으로 다가왔다."
 ---
 
-오늘 밤이 AI 산업의 분수령이다. Anthropic이 Nasdaq 티커 ANT로 역사상 최대 AI IPO의 가격을 결정한다. 825백만 주의 Class A 주식이 $70-78 범위에서 제시되었으나, 주문장이 최대 6배 초과 청약된 상태로 주간사들이 범위 상단을 넘어서는 가격을 검토하고 있다([CNBC](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html)). $78 이상에서 확정되면 풀리 딜루티드 시가총액은 $1.41조를 넘어서며, 리테일 배분이 통상의 2-4배인 약 20%로 설정된 점도 주목할 만하다([Renaissance Capital](https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap)). 11월 19일 거래 개시가 유력하다([Yahoo Finance](https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-set-to-price-stock-between-70-and-78-as-trading-starts-thursday-174130523.html)).
+오늘 밤이 AI 산업의 분수령이다. Anthropic이 Nasdaq 티커 ANT로 역사상 최대 AI IPO의 가격을 결정한다. 825백만 주의 Class A 주식이 $70-78 범위에서 제시되었으나, 주문장이 최대 6배 초과 청약된 상태로 주간사들이 범위 상단을 넘어서는 가격을 검토하고 있다([CNBC](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html)). **속보:** CNBC는 오늘(11월 18일) Anthropic이 공모 규모 확대를 검토하고 있으며, 최종 가격이 $80을 크게 상회할 수 있다고 보도했다([CNBC](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html)). $80 이상 확정 시 풀리 딜루티드 시가총액은 $1.45조를 넘어서며, 리테일 배분이 통상의 2-4배인 약 20%로 설정된 점도 주목할 만하다([Renaissance Capital](https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap)). 11월 19일 거래 개시가 유력하다([Yahoo Finance](https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-set-to-price-stock-between-70-and-78-as-trading-starts-thursday-174130523.html)). 한편, Claude Sonnet 4.5의 API 퇴출이 11월 30일로 12일 앞으로 다가왔으며, 아직 마이그레이션하지 않은 개발자들은 Sonnet 5.5로의 전환이 시급하다([Anthropic Docs](https://platform.claude.com/docs/about-claude/model-deprecations)).
 
 ## GPT-6.2 Astra / Sol: 비공식 포착, 출시 임박 시그널
 

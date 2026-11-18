@@ -1,43 +1,43 @@
 ---
-title: "Anthropic IPO 오늘 밤 가격 결정 — 주당 $78 이상 가능성, AI 역사가 바뀐다"
+title: "Anthropic IPO 오늘 밤 가격 확정 — $1.4조 밸류에이션, GPT-6.2 비공식 포착"
 date: 2026-11-18
 lang: ko
 categories: [news]
-tags: [anthropic, ipo, github-copilot, copilot-fusion, gemini-4-carbon, claude-code, cursor]
-excerpt: "Anthropic IPO가 오늘 밤 가격이 결정된다. 주문장 수배 초과 청약으로 $70-78 범위를 넘어설 수 있다는 보도가 나왔다. 내일 Nasdaq ANT 거래 개시."
+tags: [anthropic, ipo, cursor, codex-cli, github-copilot, gpt-6.2, copilot-fusion]
+excerpt: "Anthropic IPO가 오늘 밤 가격이 확정된다. GPT-6.2 Astra/Sol이 비공식 API 응답에 포착되었고, Cursor는 OpenAI 차단 속에서도 Live Apps·음성 대화·멀티플레이어를 연달아 출시했다."
 ---
 
-오늘 밤이 AI 산업의 분수령이다. Anthropic이 Nasdaq 티커 ANT로 역사상 최대 AI IPO의 가격을 결정한다. 825백만 주의 Class A 주식이 $70-78 범위에서 제시되었으나, 주문장이 첫날부터 수배 초과 청약된 상태로 주간사들이 범위 상단을 넘어서는 가격을 검토하고 있다([Finimize](https://finimize.com/content/anthropics-bankers-weigh-pricing-its-ipo-above-range)). $78 이상에서 가격이 확정되면 시가총액은 $1.5조를 돌파하며, 내일(11월 19일) 거래가 시작된다([CNBC](https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html)).
+오늘 밤이 AI 산업의 분수령이다. Anthropic이 Nasdaq 티커 ANT로 역사상 최대 AI IPO의 가격을 결정한다. 825백만 주의 Class A 주식이 $70-78 범위에서 제시되었으나, 주문장이 최대 6배 초과 청약된 상태로 주간사들이 범위 상단을 넘어서는 가격을 검토하고 있다([CNBC](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html)). $78 이상에서 확정되면 풀리 딜루티드 시가총액은 $1.41조를 넘어서며, 리테일 배분이 통상의 2-4배인 약 20%로 설정된 점도 주목할 만하다([Renaissance Capital](https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap)). 11월 19일 거래 개시가 유력하다([Yahoo Finance](https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-set-to-price-stock-between-70-and-78-as-trading-starts-thursday-174130523.html)).
 
-## Anthropic IPO: 범위 상향 가능성과 리테일 배분
+## GPT-6.2 Astra / Sol: 비공식 포착, 출시 임박 시그널
 
-Renaissance Capital에 따르면 목표 모집 규모는 $610억이며, 리테일 배분 비율이 통상 5-10%인 데 비해 약 20%로 설정된 것이 주목할 만하다([Renaissance Capital](https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap)). Fortune이 보도한 '예상보다 큰 할인율'에도 불구하고, 초과 청약 수요가 가격을 끌어올리는 양상이다([Fortune](https://fortune.com/2026/11/10/anthropic-lower-than-expected-ipo-valuation-smart-strategy-or-red-flag/)). StockTitan은 첫 거래일 실시간 추적을 준비하고 있다([StockTitan](https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026)).
+OpenAI API 응답과 Codex 사용량 로그에서 `gpt-6.2-astra`와 `gpt-6.2-sol` 모델 ID가 비공식적으로 포착되고 있다([CometAPI](https://www.cometapi.com/gpt-6-2-astra-codex-sightings/)). 일부 ChatGPT Work 및 Codex 사용자에게 11월 8일부터 테스트 배포가 진행된 것으로 보이지만([OverChat](https://overchat.ai/models/gpt-6-2-sol)), OpenAI는 아직 공식 발표를 하지 않았다. The Information은 이르면 이번 주 발표가 있을 수 있다고 보도했으나, 공식 릴리스 노트에는 모델 출시 관련 내용이 없다([OpenAI Release Notes](https://openai.com/products/release-notes/?via=bsahala)). 한편, OpenAI는 11월 초 ChatGPT의 Chat과 Work 탭을 통합하고 Codex와 토큰 풀을 공유하겠다고 발표한 바 있다([TechCrunch](https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/)).
 
-## GitHub Copilot: Fusion 30% 할인 11월 말 종료 임박
+## Cursor: 엔진 없는 차에 고급 인테리어 — 혁신의 역설
 
-모델 대퇴출(11월 16일) 이후 안정세를 보이는 Copilot에서 주목할 이벤트는 Copilot Fusion 30% 할인이 11월 말 종료된다는 것이다([InfoWorld](https://www.infoworld.com/article/4242710/github-bets-on-multi-agent-software-development-with-copilot-overhaul.html)). Fusion은 멀티 에이전트 개발을 지원하며, 프로젝트 기능으로 여러 리포지토리 간 에이전트 협업이 가능하다([iTWire](https://itwire.com/business-it-news/enterprise-solutions/github-announces-new-copilot-fusion-and-copilot-projects-giving-you-smart-self-managing-agentic-developers-with-token-cost-control)). 클라우드 샌드박스 과금이 11월부터 Actions 컴퓨트 한도에서 차감된다. Copilot은 56일 연속 상승 체제를 유지하며 99점에 머물고 있다.
+Cursor가 11월 초 세 가지 대형 기능을 연달아 출시했다. 11월 5일 Live Apps는 프롬프트만으로 웹앱을 빌드·배포하고 Postgres DB를 자동 연결하는 클라우드 에이전트 기능이다([TechRepublic](https://www.techrepublic.com/article/news-cursor-build-live-apps-features-pricing-security/)). 11월 6일에는 AI 에이전트와의 음성 대화 기능이 iOS·데스크톱·웹에 출시되었고([SmartScope](https://smartscope.blog/en/blog/cursor-voice-chat-agent-voice-calls-setup-steps-2026/)), 11월 10일에는 팀원과 AI 에이전트가 하나의 워크스페이스를 공유하는 멀티플레이어 Projects 베타가 시작되었다([Cursor Blog](https://cursor.com/blog/projects-multiplayer)). 하지만 OpenAI 차단 7일째, Tab 자동완성과 클라우드 에이전트 같은 핵심 기능이 여전히 비활성 상태로 87일째 바닥(1점)이다([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). 혁신적 기능이 쏟아지지만 엔진 없는 차의 역설이 계속되고 있다.
 
-## Gemini 4 Carbon: 도입 할인 종료 D-12
+## GitHub Copilot: 퇴출 이틀째 안정, Fusion 할인 종료 임박
 
-Gemini 4 Carbon 도입 가격($2/$10/MTok)이 12월 1일 만료되며 $4/$20으로 2배 인상된다([braindetox](https://braindetox.kr/en/posts/gemini_4_carbon_general_availability.html)). 형제 모델 Gemini 4 Argon도 11월 30일 도입 할인이 끝난다. GitHub Copilot에서 Carbon을 테스트 중인 팀이라면 남은 12일이 평가 적기다([DEV Community](https://dev.to/aitecharchive/gemini-4-carbon-in-github-copilot-vs-argon-test-by-dec-1-4fc5)).
+11월 16일 Claude Opus 4.8/5와 GPT-5.6 Terra 퇴출 이틀째로, 56일 연속 상승 체제(99점)가 이어지고 있다([GitHub Blog](https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026)). Copilot Fusion의 30% 할인이 11월 말 종료되며([InfoWorld](https://www.infoworld.com/article/4242710/github-bets-on-multi-agent-software-development-with-copilot-overhaul.html)), 12월 14일에는 Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, Kimi K3 등 6개 모델이 추가 퇴출될 예정이다([VPS Ranking](https://vpsranking.com/news/ai/ai-2026-11-13-github-copilot-december-model-deprecations/)).
 
-## Cursor: OpenAI 차단 7일째, 87일째 바닥
+## Codex CLI: 0.169.0 — 사이드 채팅 탭과 보안 강화
 
-OpenAI 모델 차단 이후 7일째로, Tab 자동완성과 클라우드 에이전트 등 핵심 기능이 여전히 비활성 상태다([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). SpaceXAI 자회사로서 Grok 4.7과 Anthropic 모델에만 의존하는 체제가 87일째 계속되고 있다.
+Codex CLI가 11월 13일 0.168.0과 0.169.0을 연달아 출시했다. 0.169.0은 탭형 사이드 채팅, 작업 검색, 접이식 턴 상세보기를 도입했고, `codex exec`가 비신뢰 디렉토리에서 프로젝트 설정과 MCP 서버를 비활성화하도록 보안이 강화되었다([ai-tldr.dev](https://ai-tldr.dev/releases/openai-codex-cli-0-169/)). 2026년 누적 115번째 릴리스로, 평균 3.9일에 한 번 출시되는 속도를 유지하고 있다([Havoptic](https://www.havoptic.com/r/openai-codex-rust-v0.169.0)).
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 99 | — | GPT-6.1 Terra 안정 운영 |
-| Claude Code | 99 | — | IPO 가격 결정일, Fable 5.2 10일차 |
-| Codex CLI | 99 | — | 0.169.0 안정, 11월 릴리스 행진 |
+| ChatGPT | 99 | — | GPT-6.2 Astra/Sol 비공식 포착 |
+| Claude Code | 99 | — | IPO 가격 결정일, Fable 5.2 9일차 |
+| Codex CLI | 99 | — | 0.169.0: 사이드 채팅 탭 + 보안 강화 |
 | Antigravity | 99 | — | Gemini 4 Carbon 도입 할인 D-12 |
-| Claude AI | 99 | — | IPO 가격 결정 D-Day, 로드쇼 9일차 |
+| Claude AI | 99 | — | IPO D-Day, 오늘 밤 가격 확정 |
 | GH Copilot | 99 | — | 56일 연속 상승, Fusion 할인 종료 임박 |
 | Windsurf | 88 | — | Devin Desktop 안정 운영 |
 | Aider | 68 | — | 메인터넌스 모드 지속 |
-| Cursor | 1 | — | OpenAI 차단 7일째, 87일째 바닥 |
+| Cursor | 1 | — | Live Apps 출시에도 OpenAI 차단 7일째 |
 | Gemini CLI | 1 | — | Antigravity 전환 완료 임박 |
 
-5개 도구의 99점 동시 1위 체제가 3일째 유지되고 있다. 오늘 밤 Anthropic IPO 가격이 확정되면 내일 AI 산업 전체의 판도가 뒤집힐 수 있다.
+5개 도구의 99점 동시 1위 체제가 3일째 유지되고 있다. 오늘 밤 Anthropic IPO 가격이 확정되면 AI 산업 전체의 밸류에이션 지도가 다시 그려진다.

@@ -1,43 +1,43 @@
 ---
-title: "Anthropic IPO Prices Tonight — Could Break Above $78 as AI's Biggest Debut Looms"
+title: "Anthropic IPO Prices Tonight — $1.4T Valuation Looms as GPT-6.2 Surfaces"
 date: 2026-11-18
 lang: en
 categories: [news]
-tags: [anthropic, ipo, github-copilot, copilot-fusion, gemini-4-carbon, claude-code, cursor]
-excerpt: "Anthropic's IPO prices tonight. With the order book multiple times oversubscribed, bankers are weighing pricing above the $70-78 range. Nasdaq ticker ANT begins trading tomorrow."
+tags: [anthropic, ipo, cursor, codex-cli, github-copilot, gpt-6.2, copilot-fusion]
+excerpt: "Anthropic's IPO prices tonight. GPT-6.2 Astra/Sol spotted in unofficial API responses, and Cursor ships Live Apps, voice chat, and multiplayer despite the OpenAI cutoff."
 ---
 
-Tonight is a watershed moment for the AI industry. Anthropic will finalize pricing for the largest AI IPO in history under Nasdaq ticker ANT. While 825 million Class A shares were offered at $70-78, the order book was oversubscribed on day one and bankers are now weighing pricing above the range([Finimize](https://finimize.com/content/anthropics-bankers-weigh-pricing-its-ipo-above-range)). A price above $78 would push the market cap past $1.5 trillion, with trading set to begin tomorrow, November 19([CNBC](https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html)).
+Tonight is a watershed moment for the AI industry. Anthropic will finalize pricing for the largest AI IPO in history under Nasdaq ticker ANT. While 825 million Class A shares were offered at $70–78, the order book is up to 6x oversubscribed and bankers are weighing pricing above the range([CNBC](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html)). A price above $78 would push the fully diluted market cap past $1.41 trillion, with retail allocation set at an unusually high 20%([Renaissance Capital](https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap)). Trading is expected to begin November 19([Yahoo Finance](https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-set-to-price-stock-between-70-and-78-as-trading-starts-thursday-174130523.html)).
 
-## Anthropic IPO: Above-Range Pricing and Unusual Retail Allocation
+## GPT-6.2 Astra / Sol: Unofficial Sightings Signal Imminent Launch
 
-Renaissance Capital reports a target raise of $61 billion, with retail allocation set at roughly 20% — well above the typical 5-10%([Renaissance Capital](https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap)). Despite Fortune's earlier report of a steeper-than-expected discount, oversubscription demand is pulling the price upward([Fortune](https://fortune.com/2026/11/10/anthropic-lower-than-expected-ipo-valuation-smart-strategy-or-red-flag/)). StockTitan has prepared live tracking for the first trading day([StockTitan](https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026)).
+Model IDs `gpt-6.2-astra` and `gpt-6.2-sol` have been spotted in OpenAI API responses and Codex usage logs([CometAPI](https://www.cometapi.com/gpt-6-2-astra-codex-sightings/)). Some ChatGPT Work and Codex users appear to have received test deployments since November 8([OverChat](https://overchat.ai/models/gpt-6-2-sol)), but OpenAI has made no official announcement. The Information reported a possible release this week, though official release notes remain silent on new model launches([OpenAI Release Notes](https://openai.com/products/release-notes/?via=bsahala)). Separately, OpenAI announced in early November that it is merging ChatGPT's Chat and Work tabs, with Codex sharing a unified token pool([TechCrunch](https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/)).
 
-## GitHub Copilot: Fusion 30% Discount Ending This Month
+## Cursor: A Luxury Interior With No Engine — The Innovation Paradox
 
-With Copilot stable after the November 16 model purge, the key upcoming event is the end of Copilot Fusion's 30% discount at month's end([InfoWorld](https://www.infoworld.com/article/4242710/github-bets-on-multi-agent-software-development-with-copilot-overhaul.html)). Fusion supports multi-agent development with Projects enabling cross-repository agent coordination([iTWire](https://itwire.com/business-it-news/enterprise-solutions/github-announces-new-copilot-fusion-and-copilot-projects-giving-you-smart-self-managing-agentic-developers-with-token-cost-control)). Cloud sandbox billing now draws from the shared Actions compute entitlement. Copilot holds at 99 for a 56th consecutive day.
+Cursor shipped three major features in early November. Live Apps (November 5) lets a cloud agent build and deploy a web app from a prompt, complete with auto-provisioned Postgres([TechRepublic](https://www.techrepublic.com/article/news-cursor-build-live-apps-features-pricing-security/)). Voice Chat with Agents (November 6) brought two-way voice calls with AI across iOS, desktop, and web([SmartScope](https://smartscope.blog/en/blog/cursor-voice-chat-agent-voice-calls-setup-steps-2026/)). Multiplayer Projects (November 10) launched in beta, letting teammates and their agents share a single workspace and task board([Cursor Blog](https://cursor.com/blog/projects-multiplayer)). Yet seven days into the OpenAI model cutoff, Tab autocomplete and Cloud Agents remain non-functional — marking day 87 at a score of 1([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). It is the paradox of a car with no engine shipping a luxury interior.
 
-## Gemini 4 Carbon: Intro Pricing D-12
+## GitHub Copilot: Day 2 Post-Purge, Fusion Discount Ending
 
-Gemini 4 Carbon's introductory rate of $2/$10 per MTok expires December 1, doubling to $4/$20([braindetox](https://braindetox.kr/en/posts/gemini_4_carbon_general_availability.html)). Sibling model Gemini 4 Argon's intro pricing also ends November 30. Teams evaluating Carbon in GitHub Copilot have 12 days left at the discounted rate([DEV Community](https://dev.to/aitecharchive/gemini-4-carbon-in-github-copilot-vs-argon-test-by-dec-1-4fc5)).
+Two days after removing Claude Opus 4.8/5 and GPT-5.6 Terra, Copilot holds steady at 99 for the 56th consecutive day([GitHub Blog](https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026)). Copilot Fusion's 30% introductory discount ends this month([InfoWorld](https://www.infoworld.com/article/4242710/github-bets-on-multi-agent-software-development-with-copilot-overhaul.html)). The next deprecation wave on December 14 targets six models: Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, and Kimi K3([VPS Ranking](https://vpsranking.com/news/ai/ai-2026-11-13-github-copilot-december-model-deprecations/)).
 
-## Cursor: OpenAI Cutoff Day 7, Day 87 at Bottom
+## Codex CLI: 0.169.0 — Side-Chat Tabs and Security Hardening
 
-Seven days after OpenAI's model access cutoff, Tab autocomplete and Cloud Agents remain non-functional([Tom's Guide](https://www.tomsguide.com/ai/openai-is-leaving-cursor-in-november-here-are-your-3-options)). As a SpaceXAI subsidiary relying solely on Grok 4.7 and Anthropic models, Cursor marks its 87th consecutive day at a score of 1.
+Codex CLI dropped both 0.168.0 and 0.169.0 on November 13. The highlight in 0.169.0 is tabbed side chats, task search, collapsible turn details, and security hardening where `codex exec` now disables project config and MCP servers in untrusted directories([ai-tldr.dev](https://ai-tldr.dev/releases/openai-codex-cli-0-169/)). This is the 115th release of 2026, maintaining a pace of one release every 3.9 days([Havoptic](https://www.havoptic.com/r/openai-codex-rust-v0.169.0)).
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | GPT-6.1 Terra stable operations |
-| Claude Code | 99 | — | IPO pricing day, Fable 5.2 day 10 |
-| Codex CLI | 99 | — | 0.169.0 stable, November release streak |
+| ChatGPT | 99 | — | GPT-6.2 Astra/Sol spotted unofficially |
+| Claude Code | 99 | — | IPO pricing day, Fable 5.2 day 9 |
+| Codex CLI | 99 | — | 0.169.0: side-chat tabs + security hardening |
 | Antigravity | 99 | — | Gemini 4 Carbon intro pricing D-12 |
-| Claude AI | 99 | — | IPO pricing D-Day, roadshow day 9 |
+| Claude AI | 99 | — | IPO D-Day, pricing tonight |
 | GH Copilot | 99 | — | 56-day streak, Fusion discount ending soon |
 | Windsurf | 88 | — | Devin Desktop stable operations |
 | Aider | 68 | — | Maintenance mode continues |
-| Cursor | 1 | — | OpenAI cutoff day 7, day 87 at bottom |
+| Cursor | 1 | — | Live Apps shipped, but OpenAI cutoff day 7 |
 | Gemini CLI | 1 | — | Antigravity transition nearing completion |
 
 The five-way tie at 99 holds for a third day. Tonight's Anthropic IPO pricing could reshape the AI industry's valuation landscape by morning.

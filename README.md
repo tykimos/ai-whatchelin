@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-11-18</sub>
+  <sub>Last updated: 2026-11-19</sub>
 </p>
 
 <p align="center">
@@ -1699,6 +1699,7 @@ timeline
          : GH Copilot reaches 99 — 54-day streak, historic 5-way tie at top with Claude Code/Codex CLI/Antigravity/ChatGPT (Nov 16)
          : Nov 16 model deprecation executed — Claude Opus 4.8/5, GPT-5.6 Terra removed from all Copilot surfaces (Nov 16)
          : Dec 14 model retirement announced — Claude Fable 5, Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, Kimi K3 scheduled for removal (Nov 16)
+         : Claude Code v2.1.326 — Code Mode joins agent teams, sandbox write-path restrictions, Remote Control streaming; Opus 4.8 fast mode sunsets Nov 30 (Nov 16)
          : Cursor OpenAI cutoff Day 5 — 85th day at bottom, core features still non-functional (Nov 16)
          : Copilot Fusion 30% discount D-14 — paid plan model cost discount ends Nov 30 (Nov 16)
          : GPT-6.2 Astra and Sol released — Astra $8/$40/MTok (20% cut), Sol $2/$10/MTok; ChatGPT Work, Codex, API (Nov 17)
@@ -3530,6 +3531,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/11/18 | **Anthropic IPO priced at $83** — 980M Class A shares at $83/share; order book ~6x oversubscribed; retail allocation set at 20%; trading begins Nov 19 on Nasdaq as ANT | [fortune.com](https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/) |
 | 2026/11/18 | **Codex CLI v0.170.0** — WebRTC negotiation for realtime voice calls in TUI | [developers.openai.com](https://developers.openai.com/codex/changelog) |
 | 2026/11/17 | **GPT-6.2 Astra and Sol released** — Astra $8/$40/MTok (20% cut vs GPT-6 Astra) for professional work; Sol $2/$10/MTok for everyday tasks; available in ChatGPT Work, Codex, and API; tighter cyber safeguards | [community.openai.com](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531) |
+| 2026/11/16 | **Claude Code v2.1.326** — Code Mode joins agent teams; teammate agents run in Code Mode; sandbox write-path restrictions; Remote Control streaming responses; Opus 4.8 fast mode sunsets Nov 30 | [havoptic.com](https://www.havoptic.com/r/claude-code-2.1.326) |
 | 2026/11/16 | **Dec 14 model retirement announced** — Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, Kimi K3 scheduled for removal from all Copilot surfaces | [vpsranking.com](https://vpsranking.com/news/ai/ai-2026-11-13-github-copilot-december-model-deprecations/) |
 | 2026/11/16 | **Nov 16 model deprecation D-Day** — Claude Opus 4.8, Claude Opus 5, GPT-5.6 Terra removed from all Copilot surfaces; annual Individual subscribers retain Opus 4.8 only; migration targets: Claude Opus 5.5, GPT-6.1 Sol | [github.blog](https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026) |
 | 2026/11/14 | **Anthropic IPO multiple-times oversubscribed** — order book tracking ahead of SpaceX's early roadshow pace; Fubon Life bids up to $700M; investors question AI leadership durability; pricing expected Nov 19 | [businessday.co.za](https://www.businessday.co.za/companies/2026-11-14-investors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead/) |

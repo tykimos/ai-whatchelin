@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-11-18</sub>
+  <sub>마지막 업데이트: 2026-11-19</sub>
 </p>
 
 <p align="center">
@@ -1699,6 +1699,7 @@ timeline
          : GH Copilot 99 도달 — 54일 연속 상승, Claude Code·Codex CLI·Antigravity·ChatGPT와 역대 첫 5강 동점 (11/16)
          : 11/16 모델 퇴출 실행 — Claude Opus 4.8/5, GPT-5.6 Terra 모든 Copilot 영역에서 제거 (11/16)
          : 12/14 모델 퇴출 예고 — Claude Fable 5, Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, Kimi K3 제거 예정 (11/16)
+         : Claude Code v2.1.326 — Code Mode 에이전트 팀 합류, 샌드박스 쓰기 경로 제한, Remote Control 스트리밍; Opus 4.8 fast mode 11/30 종료 (11/16)
          : Cursor OpenAI 차단 5일째 — 85일째 바닥, 핵심 기능 여전히 미작동 (11/16)
          : Copilot Fusion 30% 할인 D-14 — 유료 플랜 모델 비용 할인 11/30 종료 (11/16)
          : GPT-6.2 Astra·Sol 출시 — Astra $8/$40/MTok(20% 인하), Sol $2/$10/MTok; ChatGPT Work·Codex·API (11/17)
@@ -3487,6 +3488,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/11/18 | **Anthropic IPO $83 확정** — 980M Class A 주식 $83/주; 주문장 ~6배 초과 청약; 리테일 배분 20%; 11/19 Nasdaq ANT 거래 개시 | [fortune.com](https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/) |
 | 2026/11/18 | **Codex CLI v0.170.0** — TUI 내 WebRTC 실시간 음성 통화 지원 | [developers.openai.com](https://developers.openai.com/codex/changelog) |
 | 2026/11/17 | **GPT-6.2 Astra·Sol 출시** — Astra $8/$40/MTok(GPT-6 Astra 대비 20% 인하) 전문 업무용; Sol $2/$10/MTok 일상 업무용; ChatGPT Work·Codex·API 제공; 사이버 보안 가드레일 강화 | [community.openai.com](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531) |
+| 2026/11/16 | **Claude Code v2.1.326** — Code Mode 에이전트 팀 합류; 팀원 에이전트 Code Mode 실행; 샌드박스 쓰기 경로 제한; Remote Control 스트리밍 응답; Opus 4.8 fast mode 11/30 종료 | [havoptic.com](https://www.havoptic.com/r/claude-code-2.1.326) |
 | 2026/11/16 | **12/14 모델 퇴출 예고** — Claude Fable 5, Claude Haiku 4.5, Gemini 3.8 Flash, Gemini 4 Argon, Grok 4.6, Kimi K3 Copilot 전면 퇴출 예정 | [vpsranking.com](https://vpsranking.com/news/ai/ai-2026-11-13-github-copilot-december-model-deprecations/) |
 | 2026/11/16 | **11/16 모델 퇴출 D-Day** — Claude Opus 4.8, Claude Opus 5, GPT-5.6 Terra Copilot 전면 퇴출; 연간 Individual 구독자만 Opus 4.8 유지; Claude Opus 5.5·GPT-6.1 Sol로 전환 | [github.blog](https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026) |
 | 2026/11/14 | **Anthropic IPO 수배 초과 청약** — 기관 수요 SpaceX 초기 로드쇼 능가; 대만 Fubon Life $7억 입찰; AI 리더십 지속성 의문; 가격 결정 11/19 예상 | [businessday.co.za](https://www.businessday.co.za/companies/2026-11-14-investors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead/) |

@@ -1,47 +1,43 @@
 ---
-title: "ANT 상장 이틀째 — OpenAI, Codex로 ChatGPT 장애 1,700건 자체 수리"
+title: "Gemini 4 Neon, CursorBench 1위로 코딩 모델 전쟁 재점화"
 date: 2026-11-20
 lang: ko
 categories: [news]
-tags: [anthropic, ipo, openai, codex-cli, chatgpt, claude-code, cursor, devin, microsoft, github-copilot]
-excerpt: "Anthropic ANT 상장 둘째 날, Microsoft가 Ignite에서 MAI Code 2를 공개하고 OpenAI는 Codex 자체 수리를 발표했다."
+tags: [google, gemini, antigravity, openai, codex-cli, github-copilot, microsoft, cursor, anthropic]
+excerpt: "Google이 Gemini 4 Neon을 출시하며 코딩 벤치마크 판도를 뒤흔들었다. Codex CLI는 TUI 워크스페이스를 기본 활성화하고, 5개 도구 99점 동률은 5일째 이어지고 있다."
 ---
 
-Anthropic의 나스닥 데뷔 이틀째다. 어제 $111.50에 시가를 연 ANT는 차익 실현 매물에 $95 부근까지 밀렸고, 오늘 시장 개장을 앞두고 프리마켓 호가가 $95–$98 사이에서 형성 중이다([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/anthropic-jumps-17-record-nasdaq-180734709.html)). 완전 희석 시가총액은 약 $1.5조, 주문서는 6배 초과 청약에 소매 투자자 배정 비율이 이례적으로 20%에 달한다([Fortune](https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/)).
+Google이 화요일 발표한 Gemini 4 Neon이 코딩 모델 경쟁 구도를 다시 뒤흔들고 있다. CursorBench에서 1위를 차지하고 Vals Index에서 70.9%로 Anthropic Claude Fable 5.2(71.3%)에 불과 0.4%p 차이로 2위를 기록했다([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)). Artificial Analysis 코딩 에이전트 지수에서도 61점으로 Claude Opus 5.5(59점)와 GPT-6.2 Sol(57점)을 앞섰다. 특히 Terminal-Bench 4.0 치팅률 0.0%는 Gemini 4 모델군 최저치로, Argon 세대에서 지적받았던 벤치마크 신뢰도 문제를 정면으로 돌파한 셈이다.
 
-## OpenAI: Codex 에이전트가 ChatGPT 장애 1,700건 자체 수리
+## Codex CLI: v0.171.0 TUI 워크스페이스 기본 활성화
 
-OpenAI가 Codex 에이전트를 활용해 3개월간 ChatGPT 성능 저하 사례 1,700건 이상을 자동 조사하고, 그중 600건 이상의 근본 원인을 특정했다고 밝혔다([FourWeekMBA](https://fourweekmba.com/ai-openais-codex-agents-ran-1700-chatgpt-slowdown-probes/)). 엔지니어가 여전히 모든 수정 사항을 승인하지만, "AI가 AI를 고친다"는 패러다임이 현실화되고 있다. 다만 최종 사용자 체감 지연 개선 수치는 공개하지 않아, 구체적 성과는 아직 불투명하다.
+OpenAI Codex CLI가 오늘 v0.171.0을 릴리스했다([Releasebot](https://releasebot.io/updates/openai)). TUI 워크스페이스가 기본 활성화되어 리치 미리보기, 실행취소/다시실행 설정, 원격 세션 제어가 추가됐다. 이틀 전 v0.170.0에서 도입된 WebRTC 음성 통화에 이어 Codex CLI의 TUI 환경이 빠르게 진화하고 있다.
 
-## ChatGPT: Live Dictation 전 플랫폼 확대
+## GPT-6.2 Astra & Sol: 출시 3일차 — Fable 5.2에 밀려
 
-11월 18일부터 iOS, Android, 웹, 데스크톱 전체에 실시간 음성 받아쓰기(Live Dictation)가 롤아웃 중이다([OpenAI Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)). 모든 요금제에서 사용 가능하며, 11월 19일에는 모바일 레이아웃이 개편되어 dots 탭이 별도로 분리되고 Codex를 탭바에 고정할 수 있게 됐다.
+GPT-6.2 Astra와 Sol이 11월 17일 출시된 이후 3일째 운영 중이다([openai.com](https://openai.com/index/introducing-gpt-6-2-astra-sol)). Astra는 $8/$40/MTok(GPT-6 Astra 대비 20% 인하), Sol은 $2/$10/MTok으로 가격 경쟁력을 갖췄다. 그러나 독립 테스트에서 Astra는 Fable 5.2에 이어 2위로 평가되고 있으며([Decrypt](https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark)), Gemini 4 Neon의 등장으로 3위 싸움도 시작됐다.
 
-## Cursor: OpenAI 모델 차단 9일째
+## Microsoft MAI Code 2: Ignite 발표 후 Copilot 통합 진행
 
-OpenAI가 Cursor에 대한 모델 공급 종료를 11월 12일자로 제안한 이후 9일째다([OpenAI Help](https://help.openai.com/en/articles/20001506-using-openai-models-in-cursor)). 사용자는 자체 API 키를 넣어 로컬 Chat과 Agent를 계속 쓸 수 있지만, Tab·Auto·CLI·클라우드 에이전트 등 핵심 기능에서는 OpenAI 모델이 작동하지 않는다. Live Apps, Voice Chat, Multiplayer Projects 등 혁신적 기능을 11월 초 연이어 출시했지만, 엔진 없는 혁신이라는 역설적 상황이 이어지고 있다.
+Microsoft가 Ignite에서 발표한 MAI Code 2와 Code 2 Flash가 GitHub Copilot에서 사용 가능하다([InfoWorld](https://www.infoworld.com/article/4250152/microsoft-launches-mai-code-2-models-to-challenge-openai-and-anthropic-in-ai-coding.html)). GPT-6 Luna 대비 65% 비용, Claude Haiku 5.5 대비 20% 비용으로 동급 성능을 주장하고 있다. Microsoft의 첫 본격적 자체 코딩 모델 도전이다.
 
-## Devin: 11월 연속 릴리스 행진
+## Cursor: OpenAI 차단 9일째
 
-Cognition의 Devin이 11월 들어 거의 매일 업데이트를 쏟아내고 있다. 11월 11일에는 에이전트가 스스로 알람을 설정해 깨어나는 "자기 리마인더" 기능이 추가됐고([Havoptic](https://www.havoptic.com/r/devin-2026-11-11)), 11월 13일에는 Agent/Ask 전환이 작성기 내부로 이동하고 Devin Review의 PR 업데이트 상태 표시가 개선됐다([Havoptic](https://www.havoptic.com/r/devin-2026-11-13)). Outposts(자체 환경에서 Devin 워크로드 실행) 기능도 공식 문서에 등장했다([docs.devin.ai](https://docs.devin.ai/de/release-notes/2026)).
-
-## Microsoft: MAI Code 2 / Code 2 Flash — Ignite에서 자체 코딩 모델 공개
-
-Microsoft가 11월 17일 Ignite 행사에서 MAI Code 2와 MAI Code 2 Flash를 발표했다([InfoWorld](https://www.infoworld.com/article/4250152/microsoft-launches-mai-code-2-models-to-challenge-openai-and-anthropic-in-ai-coding.html)). Flash는 고빈도 일상 코딩 작업(빠른 편집, 반복 작업, 서브 에이전트 워크로드)에 초점을 맞춘 경량 모델이고, MAI Code 2는 대형 모델이다([The New Stack](https://thenewstack.io/microsoft-mai-code-2/)). Microsoft는 GPT-6 Luna 대비 65% 비용, Claude Haiku 5.5 대비 20% 비용으로 동급 성능을 달성한다고 주장하며, 두 모델 모두 GitHub Copilot에서 이미 사용 가능하다([CryptoBriefing](https://cryptobriefing.com/microsoft-mai-code-2-flash-github-copilot/)). OpenAI·Anthropic에 대한 Microsoft의 첫 본격적 자체 코딩 모델 도전이다.
+OpenAI 모델 공급 종료 이후 9일째다. Tab 자동완성, 클라우드 에이전트, CLI 등 핵심 기능이 여전히 작동하지 않으며 89일째 바닥(1점)을 기록 중이다. Live Apps, Voice Chat 등 기능 출시는 계속되지만, 엔진 없는 혁신이라는 역설은 해소되지 않고 있다.
 
 ## 마켓 펄스
 
 | 도구 | 점수 | 변동 | 시그널 |
 |---|---|---|---|
-| ChatGPT | 99 | — | Live Dictation 전 플랫폼, Codex 자체 수리 공개 |
-| Claude Code | 99 | — | ANT 상장 2일차, v2.1.326 안정 운영 |
-| Codex CLI | 99 | — | 0.170.0 WebRTC 음성 통화 안착 |
-| Antigravity | 99 | — | Gemini 4 Carbon 출시 D-10 |
+| ChatGPT | 99 | — | GPT-6.2 Astra/Sol 3일차, Codex 0.171.0 TUI 워크스페이스 |
+| Claude Code | 99 | — | ANT 상장 2일차, Fable 5.2 Vals Index 1위 유지 |
+| Codex CLI | 99 | — | v0.171.0 TUI 기본 활성화, 연일 릴리스 |
+| Antigravity | 99 | — | Gemini 4 Neon 롤아웃, CursorBench 1위 |
 | Claude AI | 99 | — | ANT $95 부근 안정화 |
-| GH Copilot | 99 | — | 58일 연속 최고점, Fusion 체제 |
+| GH Copilot | 99 | — | 58일 연속 최고점, MAI Code 2 추가 |
 | Windsurf | 88 | — | Devin Desktop 안정 운영 |
 | Aider | 68 | — | 유지보수 모드 지속 |
 | Cursor | 1 | — | OpenAI 차단 9일째, 89일 연속 바닥 |
 | Gemini CLI | 1 | — | Antigravity 전환 완료 |
 
-5개 도구 99점 동률이 5일째 이어지고 있다. 오늘의 화제는 OpenAI가 "AI로 AI를 수리한다"는 Codex 활용 사례를 공개한 것 — 에이전트 자율성의 새로운 이정표다.
+5개 도구 99점 동률이 5일째 이어지고 있다. 이번 주에만 GPT-6.2 Astra/Sol, Gemini 4 Neon, MAI Code 2가 동시 출시되면서 코딩 모델 전쟁이 역대 가장 치열한 국면에 접어들었다.

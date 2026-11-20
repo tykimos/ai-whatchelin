@@ -1,47 +1,43 @@
 ---
-title: "OpenAI Reveals Codex Agents Self-Repaired 1,700 ChatGPT Slowdowns"
+title: "Gemini 4 Neon Takes CursorBench Crown, Reigniting the Coding Model War"
 date: 2026-11-20
 lang: en
 categories: [news]
-tags: [anthropic, ipo, openai, codex-cli, chatgpt, claude-code, cursor, devin, microsoft, github-copilot]
-excerpt: "Microsoft unveils MAI Code 2 at Ignite, OpenAI reveals Codex agents self-repaired 1,700 ChatGPT incidents, and ANT enters its second trading day."
+tags: [google, gemini, antigravity, openai, codex-cli, github-copilot, microsoft, cursor, anthropic]
+excerpt: "Google's Gemini 4 Neon tops CursorBench and lands #2 on Vals Index. Codex CLI ships TUI workspace by default. The five-way 99 tie stretches to day 5."
 ---
 
-Day two of Anthropic's Nasdaq debut. ANT opened at $111.50 yesterday — a 34% pop above the $83 IPO price — before profit-taking dragged it into the mid-$90s by close([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/anthropic-jumps-17-record-nasdaq-180734709.html)). The fully diluted market cap sits around $1.5 trillion with an unusual 20% retail allocation on a 6x oversubscribed book([Fortune](https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/)).
+Google's Gemini 4 Neon, launched Tuesday, is shaking up the coding model hierarchy. It claimed the #1 spot on CursorBench and debuted at #2 on the Vals Index with 70.9%, just 0.4 points behind Anthropic's Claude Fable 5.2 at 71.3%([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)). On the Artificial Analysis Coding Agent Index it scored 61, ahead of Claude Opus 5.5 (59) and GPT-6.2 Sol (57). Its 0.0% cheating rate on Terminal-Bench 4.0 — the lowest among Gemini 4 models — directly addresses the benchmark credibility concerns that dogged the Argon generation([AlphaSignal](https://alphasignal.ai/news/google-deepmind-s-gemini-4-neon-targets-complex-agent-workflows-at-61)).
 
-## OpenAI: Codex Agents Debug ChatGPT at Scale
+## Codex CLI: v0.171.0 Ships TUI Workspace by Default
 
-OpenAI revealed that Codex agents have been used to auto-investigate more than 1,700 ChatGPT slowdown incidents over the past three months, root-causing over 600 of them([FourWeekMBA](https://fourweekmba.com/ai-openais-codex-agents-ran-1700-chatgpt-slowdown-probes/)). Engineers still approve every fix, but the "AI fixing AI" paradigm is becoming operational reality. Notably, OpenAI did not share end-user latency improvements, leaving the tangible impact unclear.
+OpenAI's Codex CLI released v0.171.0 today([Releasebot](https://releasebot.io/updates/openai)). The TUI workspace is now enabled by default with richer previews, configurable undo/redo, and remote session controls. Coming two days after v0.170.0's WebRTC voice calls, the Codex CLI terminal experience is evolving rapidly.
 
-## ChatGPT: Live Dictation Goes Cross-Platform
+## GPT-6.2 Astra & Sol: Day 3 — Trailing Fable 5.2
 
-Starting November 18, Live Dictation began rolling out to all plans across iOS, Android, web, and desktop([OpenAI Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)). A new mobile layout on November 19 gave dots their own tab and lets users pin Codex to the tab bar — a small but telling sign of how central the agent is becoming to OpenAI's UX.
+GPT-6.2 Astra and Sol are in their third day since the November 17 launch([openai.com](https://openai.com/index/introducing-gpt-6-2-astra-sol)). Astra at $8/$40/MTok (20% below GPT-6 Astra) and Sol at $2/$10/MTok offer competitive pricing. But independent testing ranks Astra second behind Fable 5.2([Decrypt](https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark)), and Gemini 4 Neon's arrival has opened a three-way contest for the top.
 
-## Cursor: OpenAI Model Blackout Day 9
+## Microsoft MAI Code 2: Post-Ignite Copilot Integration
 
-Nine days since OpenAI proposed terminating model access on November 12, Cursor remains at rock bottom([OpenAI Help](https://help.openai.com/en/articles/20001506-using-openai-models-in-cursor)). Users can bring their own API key for local Chat and Agent, but Tab, Auto, CLI, cloud agents, and the SDK are all dark. Cursor shipped Live Apps (Nov 5), Voice Chat (Nov 6), and Multiplayer Projects (Nov 10) this month — innovation without an engine.
+Microsoft's MAI Code 2 and Code 2 Flash, announced at Ignite on November 17, are now available in GitHub Copilot([InfoWorld](https://www.infoworld.com/article/4250152/microsoft-launches-mai-code-2-models-to-challenge-openai-and-anthropic-in-ai-coding.html)). Microsoft claims parity with GPT-6 Luna at 65% of the cost and Claude Haiku 5.5 at 20%. This is Microsoft's first serious in-house challenge to OpenAI and Anthropic in the coding model space.
 
-## Devin: Near-Daily Release Cadence Continues
+## Cursor: OpenAI Blackout Day 9
 
-Cognition's Devin has shipped updates almost every day in November. Highlights include self-reminders that let the agent wake itself up (Nov 11)([Havoptic](https://www.havoptic.com/r/devin-2026-11-11)), merged same-kind request cards (Nov 12)([Havoptic](https://www.havoptic.com/r/devin-2026-11-12)), and an improved Agent/Ask composer toggle with clearer Devin Review PR status (Nov 13)([Havoptic](https://www.havoptic.com/r/devin-2026-11-13)). The Outposts feature for running Devin workloads in your own environment also appeared in official docs([docs.devin.ai](https://docs.devin.ai/de/release-notes/2026)).
-
-## Microsoft: MAI Code 2 / Code 2 Flash Unveiled at Ignite
-
-Microsoft announced MAI Code 2 and MAI Code 2 Flash at Ignite on November 17([InfoWorld](https://www.infoworld.com/article/4250152/microsoft-launches-mai-code-2-models-to-challenge-openai-and-anthropic-in-ai-coding.html)). Flash targets high-volume everyday coding — quick edits, repetitive steps, sub-agent workloads — while MAI Code 2 handles complex tasks([The New Stack](https://thenewstack.io/microsoft-mai-code-2/)). Microsoft claims parity with GPT-6 Luna at 65% of the cost and Claude Haiku 5.5 at 20%, with both models already available in GitHub Copilot([CryptoBriefing](https://cryptobriefing.com/microsoft-mai-code-2-flash-github-copilot/)). This is Microsoft's first serious in-house challenge to OpenAI and Anthropic in the coding model space.
+Nine days since OpenAI terminated model access. Tab autocomplete, cloud agents, CLI, and other core features remain non-functional. Cursor sits at 1 for the 89th consecutive day. The team continues shipping features — Live Apps, Voice Chat, Multiplayer Projects — but the paradox of innovation without an engine persists.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | Live Dictation cross-platform, Codex self-repair disclosed |
-| Claude Code | 99 | — | ANT trading day 2, v2.1.326 stable |
-| Codex CLI | 99 | — | 0.170.0 WebRTC voice calls settling in |
-| Antigravity | 99 | — | Gemini 4 Carbon intro pricing D-10 |
+| ChatGPT | 99 | — | GPT-6.2 Astra/Sol day 3, Codex 0.171.0 TUI workspace |
+| Claude Code | 99 | — | ANT trading day 2, Fable 5.2 holds Vals Index #1 |
+| Codex CLI | 99 | — | v0.171.0 TUI default-on, back-to-back releases |
+| Antigravity | 99 | — | Gemini 4 Neon rollout, CursorBench #1 |
 | Claude AI | 99 | — | ANT stabilizing near $95 |
-| GH Copilot | 99 | — | 58-day streak, Fusion regime |
+| GH Copilot | 99 | — | 58-day streak, MAI Code 2 added |
 | Windsurf | 88 | — | Devin Desktop steady operations |
 | Aider | 68 | — | Maintenance mode continues |
 | Cursor | 1 | — | OpenAI blackout day 9, 89 days at bottom |
 | Gemini CLI | 1 | — | Antigravity transition complete |
 
-The five-way tie at 99 extends to a fifth day. Today's headline: OpenAI's disclosure that "AI is fixing AI" via Codex agents marks a new milestone for agent autonomy.
+The five-way 99 tie extends to day 5. This week alone saw GPT-6.2 Astra/Sol, Gemini 4 Neon, and MAI Code 2 all launch — the coding model war has entered its most intense phase yet.

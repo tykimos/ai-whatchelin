@@ -2870,7 +2870,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-20 Highlight:** OpenAI disclosed Codex agents auto-investigated 1,700+ ChatGPT slowdowns. ANT enters day 2 of trading near $95. ChatGPT Live Dictation now cross-platform.
+> **2026-11-20 Highlight:** Microsoft unveils MAI Code 2 / Code 2 Flash at Ignite — first in-house coding model challenge to OpenAI & Anthropic. Codex agents auto-investigated 1,700+ ChatGPT slowdowns. ANT day 2 near $95.
 
 ---
 

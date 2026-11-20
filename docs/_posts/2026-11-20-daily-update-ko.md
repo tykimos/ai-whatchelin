@@ -3,8 +3,8 @@ title: "ANT 상장 이틀째 — OpenAI, Codex로 ChatGPT 장애 1,700건 자체
 date: 2026-11-20
 lang: ko
 categories: [news]
-tags: [anthropic, ipo, openai, codex-cli, chatgpt, claude-code, cursor, devin]
-excerpt: "Anthropic ANT 상장 둘째 날, OpenAI는 Codex 에이전트가 ChatGPT 장애를 1,700건 넘게 자동 조사했다고 공개했다. ChatGPT에는 음성 받아쓰기가 전 플랫폼 도입됐다."
+tags: [anthropic, ipo, openai, codex-cli, chatgpt, claude-code, cursor, devin, microsoft, github-copilot]
+excerpt: "Anthropic ANT 상장 둘째 날, Microsoft가 Ignite에서 MAI Code 2를 공개하고 OpenAI는 Codex 자체 수리를 발표했다."
 ---
 
 Anthropic의 나스닥 데뷔 이틀째다. 어제 $111.50에 시가를 연 ANT는 차익 실현 매물에 $95 부근까지 밀렸고, 오늘 시장 개장을 앞두고 프리마켓 호가가 $95–$98 사이에서 형성 중이다([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/anthropic-jumps-17-record-nasdaq-180734709.html)). 완전 희석 시가총액은 약 $1.5조, 주문서는 6배 초과 청약에 소매 투자자 배정 비율이 이례적으로 20%에 달한다([Fortune](https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/)).
@@ -24,6 +24,10 @@ OpenAI가 Cursor에 대한 모델 공급 종료를 11월 12일자로 제안한 �
 ## Devin: 11월 연속 릴리스 행진
 
 Cognition의 Devin이 11월 들어 거의 매일 업데이트를 쏟아내고 있다. 11월 11일에는 에이전트가 스스로 알람을 설정해 깨어나는 "자기 리마인더" 기능이 추가됐고([Havoptic](https://www.havoptic.com/r/devin-2026-11-11)), 11월 13일에는 Agent/Ask 전환이 작성기 내부로 이동하고 Devin Review의 PR 업데이트 상태 표시가 개선됐다([Havoptic](https://www.havoptic.com/r/devin-2026-11-13)). Outposts(자체 환경에서 Devin 워크로드 실행) 기능도 공식 문서에 등장했다([docs.devin.ai](https://docs.devin.ai/de/release-notes/2026)).
+
+## Microsoft: MAI Code 2 / Code 2 Flash — Ignite에서 자체 코딩 모델 공개
+
+Microsoft가 11월 17일 Ignite 행사에서 MAI Code 2와 MAI Code 2 Flash를 발표했다([InfoWorld](https://www.infoworld.com/article/4250152/microsoft-launches-mai-code-2-models-to-challenge-openai-and-anthropic-in-ai-coding.html)). Flash는 고빈도 일상 코딩 작업(빠른 편집, 반복 작업, 서브 에이전트 워크로드)에 초점을 맞춘 경량 모델이고, MAI Code 2는 대형 모델이다([The New Stack](https://thenewstack.io/microsoft-mai-code-2/)). Microsoft는 GPT-6 Luna 대비 65% 비용, Claude Haiku 5.5 대비 20% 비용으로 동급 성능을 달성한다고 주장하며, 두 모델 모두 GitHub Copilot에서 이미 사용 가능하다([CryptoBriefing](https://cryptobriefing.com/microsoft-mai-code-2-flash-github-copilot/)). OpenAI·Anthropic에 대한 Microsoft의 첫 본격적 자체 코딩 모델 도전이다.
 
 ## 마켓 펄스
 

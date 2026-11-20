@@ -2840,7 +2840,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-20 하이라이트:** OpenAI, Codex 에이전트가 ChatGPT 장애 1,700건 이상 자동 조사했다고 공개. ANT 상장 2일차 $95 부근 안정화. ChatGPT Live Dictation 전 플랫폼 확대.
+> **2026-11-20 하이라이트:** Microsoft, Ignite에서 MAI Code 2 / Code 2 Flash 공개 — OpenAI·Anthropic에 대한 첫 자체 코딩 모델 도전. Codex 에이전트가 ChatGPT 장애 1,700건 이상 자동 조사. ANT 2일차 $95 부근.
 
 ---
 

@@ -3,8 +3,8 @@ title: "OpenAI Reveals Codex Agents Self-Repaired 1,700 ChatGPT Slowdowns"
 date: 2026-11-20
 lang: en
 categories: [news]
-tags: [anthropic, ipo, openai, codex-cli, chatgpt, claude-code, cursor, devin]
-excerpt: "OpenAI disclosed that Codex agents autonomously investigated over 1,700 ChatGPT performance issues, root-causing 600+. Meanwhile, ANT enters its second trading day and Cursor's OpenAI blackout hits day 9."
+tags: [anthropic, ipo, openai, codex-cli, chatgpt, claude-code, cursor, devin, microsoft, github-copilot]
+excerpt: "Microsoft unveils MAI Code 2 at Ignite, OpenAI reveals Codex agents self-repaired 1,700 ChatGPT incidents, and ANT enters its second trading day."
 ---
 
 Day two of Anthropic's Nasdaq debut. ANT opened at $111.50 yesterday — a 34% pop above the $83 IPO price — before profit-taking dragged it into the mid-$90s by close([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/anthropic-jumps-17-record-nasdaq-180734709.html)). The fully diluted market cap sits around $1.5 trillion with an unusual 20% retail allocation on a 6x oversubscribed book([Fortune](https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/)).
@@ -24,6 +24,10 @@ Nine days since OpenAI proposed terminating model access on November 12, Cursor 
 ## Devin: Near-Daily Release Cadence Continues
 
 Cognition's Devin has shipped updates almost every day in November. Highlights include self-reminders that let the agent wake itself up (Nov 11)([Havoptic](https://www.havoptic.com/r/devin-2026-11-11)), merged same-kind request cards (Nov 12)([Havoptic](https://www.havoptic.com/r/devin-2026-11-12)), and an improved Agent/Ask composer toggle with clearer Devin Review PR status (Nov 13)([Havoptic](https://www.havoptic.com/r/devin-2026-11-13)). The Outposts feature for running Devin workloads in your own environment also appeared in official docs([docs.devin.ai](https://docs.devin.ai/de/release-notes/2026)).
+
+## Microsoft: MAI Code 2 / Code 2 Flash Unveiled at Ignite
+
+Microsoft announced MAI Code 2 and MAI Code 2 Flash at Ignite on November 17([InfoWorld](https://www.infoworld.com/article/4250152/microsoft-launches-mai-code-2-models-to-challenge-openai-and-anthropic-in-ai-coding.html)). Flash targets high-volume everyday coding — quick edits, repetitive steps, sub-agent workloads — while MAI Code 2 handles complex tasks([The New Stack](https://thenewstack.io/microsoft-mai-code-2/)). Microsoft claims parity with GPT-6 Luna at 65% of the cost and Claude Haiku 5.5 at 20%, with both models already available in GitHub Copilot([CryptoBriefing](https://cryptobriefing.com/microsoft-mai-code-2-flash-github-copilot/)). This is Microsoft's first serious in-house challenge to OpenAI and Anthropic in the coding model space.
 
 ## Market Pulse
 

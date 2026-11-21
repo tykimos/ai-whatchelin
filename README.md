@@ -2874,7 +2874,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-21 Highlight:** GPT-5.6 Sol promo extended to Nov 30. Apple developing Mac AI agent. Coding agents hit 46% autonomous completion (up from 23% in March). GPT-6.2 benchmark splits continue. Five-way 99 tie day 6. Cursor blackout day 10.
+> **2026-11-21 Highlight:** Claude Code v2.1.329 ships — auto mode default on Bedrock/Vertex/Foundry. GPT-5.6 Sol promo extended to Nov 30. Apple developing Mac AI agent. Coding agents hit 46% autonomous completion. Five-way 99 tie day 6. Cursor blackout day 10.
 
 ---
 

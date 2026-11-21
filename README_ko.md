@@ -2844,7 +2844,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-21 하이라이트:** GPT-5.6 Sol 프로모 11/30까지 연장. Apple Mac용 AI 에이전트 개발 중. 코딩 에이전트 자율 완료율 46%(3월 23%에서 급증). GPT-6.2 벤치마크 엇갈림 지속. 5개 도구 99점 동률 6일째. Cursor 차단 10일째.
+> **2026-11-21 하이라이트:** Claude Code v2.1.329 출시 — Bedrock/Vertex/Foundry 자동 모드 기본 활성화. GPT-5.6 Sol 프로모 11/30 연장. Apple Mac용 AI 에이전트 개발 중. 코딩 에이전트 자율 완료율 46%. 5개 도구 99점 동률 6일째. Cursor 차단 10일째.
 
 ---
 

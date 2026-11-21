@@ -1,39 +1,43 @@
 ---
-title: "Benchmarks Diverge — Fable 5.2, Astra, and Neon Each Claim a Crown"
+title: "GPT-5.6 Sol Promo Extended to Nov 30 — Apple Enters the AI Agent Race"
 date: 2026-11-21
 lang: en
 categories: [news]
-tags: [openai, anthropic, google, gemini, codex-cli, github-copilot, cursor]
-excerpt: "GPT-6.2 Astra tops Vals Vibe Code Bench but trails Fable 5.2 on FrontierCode 2.0. With Gemini 4 Neon in the mix, the three-way coding model race is wide open."
+tags: [openai, anthropic, google, gemini, codex-cli, github-copilot, cursor, apple]
+excerpt: "OpenAI extends the GPT-5.6 Sol 20% discount to November 30. Apple is building a Mac AI agent. Coding agents now autonomously complete 46% of 2-4 hour tasks."
 ---
 
-Four days after launch, GPT-6.2 Astra and Sol are generating a split verdict from independent benchmarks. On Vals AI's Vibe Code Bench 1-100, Astra leads at 55.16%([Hermes](https://hermes-ai.net/news/openai-s-gpt-6-2-astra-tops-real-world-coding-maintenance-benchmark-at-55/)). But on Cognition's FrontierCode 2.0, Claude Fable 5.2 holds the top spot at 50.2% while Astra lands at 44.2%([vktr.com](https://www.vktr.com/ai-platforms/gpt62-sol-nears-astra-on-mergeready-code-at-a-fifth-of-the-cost/)). Meanwhile, Gemini 4 Neon scores 61 on the Artificial Analysis Coding Agent Index, ahead of both([Artificial Analysis](https://artificialanalysis.ai/models/gemini-4-neon)). The takeaway: who's "best" depends entirely on what you're measuring.
+While GPT-6.2 benchmark splits continue to dominate the model debate, today's most actionable news comes from pricing and platform fronts. OpenAI has extended the GPT-5.6 Sol 20% promotional discount to November 30, per customer emails — pushing it nine days past the original "at least through November 21" window stated in the official docs([RuntimeWire](https://runtimewire.com/article/gpt-5-6-sol-promo-pricing-november-30-customer-email), [developers.openai.com](https://developers.openai.com/api/docs/models/gpt-5.6-sol.md)). Teams still on 5.6 Sol get a bit more migration runway.
 
-## GPT-6.2: Different Benchmarks, Different Winners
+## Apple: Building an AI Agent That Runs Your Mac
 
-Astra shines on real-world maintenance tasks (Vibe Code Bench) but trails Fable 5.2 by 6 points on frontier code generation (FrontierCode 2.0)([vktr.com](https://www.vktr.com/ai-platforms/gpt62-sol-nears-astra-on-mergeready-code-at-a-fifth-of-the-cost/)). The price story is clearer: Sol delivers 43.8% on FrontierCode at $1.29/run versus Astra's $5.97, making it the value pick for teams that don't need maximum capability([vktr.com](https://www.vktr.com/ai-platforms/gpt62-sol-nears-astra-on-mergeready-code-at-a-fifth-of-the-cost/)).
+TechCrunch reported on November 19 that Apple is developing an AI agent capable of operating apps, browsing the web, and writing code on behalf of users([TechCrunch](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac)). It's still in development, but this signals Apple's potential entry into the AI coding tool market. Xcode already has AI features, but a general-purpose agent is a fundamentally different play.
 
-## Gemini 4 Neon: Benchmark Star, Real-World Question Mark
+## OpenAI Research: Coding Agents Hit 46% Autonomous Completion
 
-Neon's day-3 benchmark numbers remain impressive — CursorBench #1, Vals Index #2 at 70.9%([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)). But AI Weekly reports that Google staffers are noting a gap between benchmark performance and real-world coding results([AI Weekly](https://aiweekly.co/alerts/google-staff-say-gemini-4-aces-benchmarks-stumbles-on-coding)). Similar concerns plagued the earlier Argon generation, so independent hands-on evaluations will be critical.
+OpenAI's latest research report finds that coding agents now autonomously complete 46% of tasks estimated to take humans 2-4 hours — up from 23% in March([WireTensors](https://wiretensors.ai/news/ai-tools-roundup-2026-11-21/)). This doubling explains why agent-style tools like Codex CLI and Claude Code maintain their 99-score plateaus: they're genuinely transforming developer workflows.
 
-## GPT-5.6 Sol Promo Ends Today
+## GPT-6.2: Benchmark Divergence Day 2
 
-The 3-month 20% discount on GPT-5.6 Sol expires today (November 21). Starting tomorrow, pricing reverts to $5/$30/MTok from the promotional $4/$20. With GPT-6.2 Sol available at $2/$10/MTok, the practical impact is limited — but teams still running 5.6 Sol workloads should plan their migration.
+The split verdict continues. Astra tops Vals Vibe Code Bench at 55.16%([Hermes](https://hermes-ai.net/news/openai-s-gpt-6-2-astra-tops-real-world-coding-maintenance-benchmark-at-55/)) but trails Fable 5.2 on FrontierCode 2.0 (44.2% vs 50.2%)([vktr.com](https://www.vktr.com/ai-platforms/gpt62-sol-nears-astra-on-mergeready-code-at-a-fifth-of-the-cost/)). This week's lesson is crystallizing: "best coding model" is entirely benchmark-dependent.
+
+## GitHub Copilot: Weekly Release (Nov 16)
+
+The November 16 weekly roundup added enterprise administrator settings([GitHub Blog](https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9)). The November 9 release made Gemini 4 Carbon available to Pro+, Max, Business, and Enterprise users, and VS Code 1.146 introduced agent model comparison features.
 
 ## Market Pulse
 
 | Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 99 | — | GPT-6.2 benchmark splits emerging, Sol promo expires today |
+| ChatGPT | 99 | — | GPT-5.6 Sol promo extended to 11/30, agents at 46% autonomy |
 | Claude Code | 99 | — | ANT IPO day 3, Fable 5.2 holds FrontierCode 2.0 lead |
-| Codex CLI | 99 | — | v0.171.0 stable operations |
-| Antigravity | 99 | — | Gemini 4 Neon internal reactions mixed |
-| Claude AI | 99 | — | ANT day 3 trading |
-| GH Copilot | 99 | — | 59-day streak, MAI Code 2 at $0.50/$2.50/MTok |
+| Codex CLI | 99 | — | v0.171.0 stable, TUI workspace default-on |
+| Antigravity | 99 | — | Gemini 4 Neon day 4, real-world evals underway |
+| Claude AI | 99 | — | ANT trading ~$99 |
+| GH Copilot | 99 | — | 59-day streak, Gemini 4 Carbon added |
 | Windsurf | 88 | — | Devin Desktop steady operations |
 | Aider | 68 | — | Maintenance mode continues |
 | Cursor | 1 | — | OpenAI blackout day 10, 90 days at bottom |
 | Gemini CLI | 1 | — | Antigravity transition complete |
 
-The five-way 99 tie extends to day 6. This week's lesson: "best coding model" depends entirely on which benchmark you trust.
+The five-way 99 tie extends to day 6. Apple's AI agent news is still distant, but it opens the door to yet another competitor in the coding tool space.

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-11-20</sub>
+  <sub>Last updated: 2026-11-21</sub>
 </p>
 
 <p align="center">
@@ -2874,7 +2874,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-21 Highlight:** GPT-6.2 benchmark splits — Astra #1 on Vals Vibe Code, Fable 5.2 leads FrontierCode 2.0. Gemini 4 Neon faces internal doubts on real-world coding. GPT-5.6 Sol promo expires today. Five-way 99 tie day 6. Cursor blackout day 10.
+> **2026-11-21 Highlight:** GPT-5.6 Sol promo extended to Nov 30. Apple developing Mac AI agent. Coding agents hit 46% autonomous completion (up from 23% in March). GPT-6.2 benchmark splits continue. Five-way 99 tie day 6. Cursor blackout day 10.
 
 ---
 

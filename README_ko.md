@@ -1712,6 +1712,12 @@ timeline
          : Codex CLI v0.171.0 — TUI 워크스페이스 기본 활성화, 리치 미리보기, 실행취소/다시실행 설정, 원격 세션 제어 (11/20)
          : Cursor OpenAI 차단 9일째 — 89일째 바닥, 핵심 기능 미작동 지속 (11/20)
          : GH Copilot 99 유지 — 58일 연속 상승, 5개 도구 동시 1위 5일째, GPT-6.2 Astra/Sol 모델 피커 추가 (11/20)
+         : ANT $111.50 개장 — 사상 최대 AI IPO, Anthropic 약 $1.5T 밸류에이션, Amazon+Google 약 28.4% 보유 (11/20)
+         : ANT $99 안착 — 거래 5일차, IPO 데뷔 후 안정세 (11/23)
+         : 나델라 "VS Code가 Claude Code 때문에 밀렸다" — Pragmatic Engineer 인터뷰(11/16 공개), 11/23 대규모 보도; SO 2026 설문: VS Code 70.9%(전년 75.9%↓), Claude Code AI 에이전트 65.5% (11/23)
+         : VS Code 1.147 — 모델 라우터, 예약 에이전트 요청, 브라우저 통합; Claude Code 터미널 전환 대응 (11/18)
+         : Cursor OpenAI 차단 12일째 — 123일 연속 바닥, 반등 기미 없음 (11/23)
+         : 5개 도구 99점 동률 8일째 — Claude Code, ChatGPT, Codex CLI, Antigravity, Claude AI 모두 99 (11/23)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -1776,7 +1782,7 @@ flowchart TD
 
 | 순위 | 도구 | 카테고리 | 근거 |
 |:---:|---|---|---|
-| 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (88.6%), Fable 5, 코드 품질 최강 |
+| 1 | **[Claude Code](https://code.claude.com)** | 코딩 에이전트 | SWE-bench 1위 (88.6%), Fable 5.2, 코드 품질 최강 |
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B 밸류 협상 중, $2B+ ARR, 탭 자동완성 최강 |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE, $10/월 최저가 |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 2월 1위 (현재 3위), Cascade 메모리, 대규모 코드베이스 강점 |
@@ -2844,7 +2850,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-23 하이라이트:** GPT-6.2 Astra, 외부 배포 모델 최초로 "High" 자기개선 임계값 달성. Copilot에서 Opus 4.8·Opus 5·GPT-5.6 Terra 퇴출, Gemini 4 Carbon·MAI Code 2 추가. ANT $99 부근 안착 5일차. 5개 도구 99점 동률 8일째. Cursor 차단 12일째.
+> **2026-11-23 하이라이트:** 나델라 "VS Code가 6개월 만에 밀렸다" 인정 — Claude Code AI 에이전트 점유율 65.5%. Fable 5.2 $8/$40 MTok 출시. GPT-6.2 Astra "High" 자기개선 임계값 최초 달성. Copilot 모델 3종 퇴출·2종 추가. ANT $99 5일차. 5개 도구 99점 동률 8일째.
 
 ---
 
@@ -3169,7 +3175,7 @@ flowchart TD
 |---|---|---|---|---|---|---|
 | **제공사** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
 | **사이트** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
-| **최신 모델** | GPT-5.6 Sol | Claude Fable 5 | Gemini 3.1 Pro | GPT-5.6 + Claude | Grok 4.20 | Sonar Pro |
+| **최신 모델** | GPT-6.2 Sol | Claude Fable 5.2 | Gemini 3.1 Pro | GPT-6.2 + Claude | Grok 4.20 | Sonar Pro |
 | **무료** | O | O | O | O | O | O |
 | **시작가** | $8/월 (Go) | $20/월 (Pro) | $19.99/월 | $18/월 | $30/월 | $20/월 |
 | **최고가** | $200/월 (Pro) | $200/월 (Max) | $249.99/월 (Ultra) | $30/월 | $30/월 | $325/seat/월 |
@@ -3489,6 +3495,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 | 2026/11/06 | **Devin Desktop CLI 에이전트** — 기존 Windsurf 구독자용 새 로컬 CLI 에이전트 출시; 사용자 로컬 머신에서 실행 | [windsurf.com](https://windsurf.com/changelog) |
 | 2026/11/07 | **GH Copilot 83으로 상승** — Cursor에 82점 리드; 43일 연속 회복; 모델 교체 D-9 | [github.com](https://github.com/features/copilot) |
 | 2026/11/07 | **Cursor OpenAI 차단 D-5** — 11월 12일 모델 접근 종료 임박; Cursor 트래픽 ~5% 영향; BYOK 가능하나 제한적 | [openai.com](https://openai.com/blog/our-decision-on-cursor-following-its-acquisition-by-spacex) |
+| 2026/11/23 | **나델라 "VS Code가 Claude Code 때문에 밀렸다"** — Pragmatic Engineer 인터뷰(11/16 공개) 대규모 보도; "우리를 덮친 것(the thing that hit us)"; SO 2026 설문: VS Code 70.9%(전년 75.9%↓), Claude Code AI 에이전트 65.5% 점유율; IDE 역할이 문서화 허브로 전환 가능 | [windowslatest.com](https://www.windowslatest.com/2026/11/23/the-thing-that-hit-us-satya-nadella-admits-vs-code-faded-in-six-months-after-a-decade-on-top-because-of-claude-code-and-some-developers-say-theyve-stopped-opening-it/) |
 | 2026/11/20 | **Codex CLI v0.171.0** — TUI 워크스페이스 기본 활성화, 리치 미리보기, 실행취소/다시실행 설정, 원격 세션 제어 | [developers.openai.com](https://developers.openai.com/codex/changelog) |
 | 2026/11/19 | **Anthropic ANT Nasdaq 거래 개시** — AI 역대 최대 IPO 첫 거래일; $83/주 공모가($70-78 범위 상회); 풀리 딜루티드 ~$1.5조 밸류에이션 | [finance.yahoo.com](https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html) |
 | 2026/11/18 | **Gemini 4 Neon 출시** — CursorBench 1위, Vals Index 2위(70.9%), 복잡한 코딩·분석적 추론 특화; Artificial Analysis 코딩 에이전트 지수 61점; Antigravity·API 롤아웃 | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/) |

@@ -1712,6 +1712,12 @@ timeline
          : Codex CLI v0.171.0 — default-on TUI workspace with richer previews, configurable undo/redo, remote session controls (Nov 20)
          : Cursor OpenAI cutoff Day 9 — 89th day at bottom, core features still non-functional (Nov 20)
          : GH Copilot holds at 99 — 58-day streak, five-way tie day 5, GPT-6.2 Astra/Sol in model picker (Nov 20)
+         : ANT opens at $111.50 — largest AI IPO, Anthropic valued ~$1.5T, Amazon+Google hold ~28.4% (Nov 20)
+         : ANT settles near $99 — day 5 of trading, stabilizing after IPO debut (Nov 23)
+         : Nadella admits VS Code "faded" after Claude Code — Pragmatic Engineer interview published Nov 16, widely cited Nov 23; Stack Overflow 2026 survey: VS Code 70.9% (down from 75.9%), Claude Code 65.5% AI agent share (Nov 23)
+         : VS Code 1.147 — model routers, scheduled agent requests, browser integration; response to Claude Code terminal shift (Nov 18)
+         : Cursor OpenAI cutoff Day 12 — 123 consecutive days at bottom, no recovery signal (Nov 23)
+         : Five-way 99 tie day 8 — Claude Code, ChatGPT, Codex CLI, Antigravity, Claude AI all at 99 (Nov 23)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -1776,7 +1782,7 @@ flowchart TD
 
 | Rank | Tool | Category | Evidence |
 |:---:|---|---|---|
-| 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (88.6%), Fable 5, best code quality |
+| 1 | **[Claude Code](https://code.claude.com)** | Coding Agent | SWE-bench #1 (88.6%), Fable 5.2, best code quality |
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $50B valuation talks, $2B+ ARR, best tab autocomplete |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/Plugin | Most widely adopted AI dev tool, 9+ IDEs, $10/mo lowest price |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 Feb #1 (now #3), Cascade memory, strong on large codebases |
@@ -2874,7 +2880,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-23 Highlight:** GPT-6.2 Astra hits "High" self-improvement threshold — first externally deployed model to do so. Copilot retires Opus 4.8, Opus 5, GPT-5.6 Terra; adds Gemini 4 Carbon and MAI Code 2. ANT settles near $99 on day 5. Five-way 99 tie day 8. Cursor blackout day 12.
+> **2026-11-23 Highlight:** Nadella admits VS Code "faded" in 6 months after Claude Code — Claude Code at 65.5% AI agent share. Fable 5.2 launches at $8/$40 MTok. GPT-6.2 Astra hits "High" self-improvement threshold. Copilot swaps 3 models out, 2 in. ANT at $99 day 5. Five-way 99 tie day 8.
 
 ---
 
@@ -3203,7 +3209,7 @@ General Office
 |---|---|---|---|---|---|---|
 | **Provider** | OpenAI | Anthropic | Google | Microsoft | xAI | Perplexity AI |
 | **Site** | [chatgpt.com](https://chatgpt.com) | [claude.com](https://claude.com) | [gemini.google.com](https://gemini.google.com) | [microsoft.com](https://www.microsoft.com/en-us/microsoft-365-copilot) | [x.ai](https://x.ai) | [perplexity.ai](https://www.perplexity.ai) |
-| **Latest Model** | GPT-5.6 Sol | Claude Fable 5 | Gemini 3.1 Pro | GPT-5.6 + Claude | Grok 4.20 | Sonar Pro |
+| **Latest Model** | GPT-6.2 Sol | Claude Fable 5.2 | Gemini 3.1 Pro | GPT-6.2 + Claude | Grok 4.20 | Sonar Pro |
 | **Free** | O | O | O | O | O | O |
 | **Starting Price** | $8/mo (Go) | $20/mo (Pro) | $19.99/mo | $18/mo | $30/mo | $20/mo |
 | **Max Price** | $200/mo (Pro) | $200/mo (Max) | $249.99/mo (Ultra) | $30/mo | $30/mo | $325/seat/mo |
@@ -3532,6 +3538,7 @@ All pricing information has been directly verified from each service's official 
 | 2026/11/06 | **Devin Desktop CLI agent** — new local CLI agent launched for existing Windsurf subscribers; runs on user's machine | [windsurf.com](https://windsurf.com/changelog) |
 | 2026/11/07 | **GH Copilot rises to 83** — 82-point lead over Cursor; 43-day recovery streak; model swap D-9 | [github.com](https://github.com/features/copilot) |
 | 2026/11/07 | **Cursor OpenAI cutoff D-5** — November 12 model termination approaches; ~5% of Cursor traffic affected; BYOK workaround available but limited | [openai.com](https://openai.com/blog/our-decision-on-cursor-following-its-acquisition-by-spacex) |
+| 2026/11/23 | **Nadella admits VS Code "faded" after Claude Code** — Pragmatic Engineer interview (pub. Nov 16) goes viral; "the thing that hit us"; Stack Overflow 2026: VS Code 70.9% (↓ from 75.9%), Claude Code 65.5% AI agent share; Nadella sees IDE role shifting to documentation hub | [windowslatest.com](https://www.windowslatest.com/2026/11/23/the-thing-that-hit-us-satya-nadella-admits-vs-code-faded-in-six-months-after-a-decade-on-top-because-of-claude-code-and-some-developers-say-theyve-stopped-opening-it/) |
 | 2026/11/20 | **Codex CLI v0.171.0** — default-on TUI workspace with richer previews, configurable undo/redo, remote session controls | [developers.openai.com](https://developers.openai.com/codex/changelog) |
 | 2026/11/19 | **Anthropic ANT begins trading on Nasdaq** — first day of trading for largest AI IPO in history; $83/share offering priced above $70-78 range; ~$1.5T fully diluted valuation | [finance.yahoo.com](https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html) |
 | 2026/11/18 | **Gemini 4 Neon launched** — #1 CursorBench, #2 Vals Index (70.9%), built for complex coding and analytical reasoning; Artificial Analysis Coding Agent Index 61; rolling out to Antigravity and API | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/) |

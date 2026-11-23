@@ -23,7 +23,7 @@ Anthropic(ANT)이 IPO 데뷔 $111.50 개장 이후 점차 안정세를 찾아 $9
 
 ## Cursor: OpenAI 차단 12일째
 
-OpenAI가 11월 12일부터 Cursor(SpaceXAI 자회사)에 모델 공급을 중단한 이후 12일째 차단이 계속되고 있다([ClickUp](https://clickup.com/learn/topic/ai/tools/cursor/news/)). Cursor 3은 자체 Composer 2.5 모델과 xAI 기반으로 운영 중이나, 91일 연속 인기도 최하위를 기록하며 반등 기미가 보이지 않는다.
+OpenAI가 11월 12일부터 Cursor(SpaceXAI 자회사)에 모델 공급을 중단한 이후 12일째 차단이 계속되고 있다([ClickUp](https://clickup.com/learn/topic/ai/tools/cursor/news/)). Cursor 3은 자체 Composer 2.5 모델과 xAI 기반으로 운영 중이나, 123일 연속 인기도 최하위를 기록하며 반등 기미가 보이지 않는다.
 
 ## 마켓 펄스
 
@@ -37,7 +37,7 @@ OpenAI가 11월 12일부터 Cursor(SpaceXAI 자회사)에 모델 공급을 중�
 | GH Copilot | 99 | — | 구모델 퇴출, 신모델 2종 추가 |
 | Windsurf | 88 | — | Devin Desktop 안정 운영 |
 | Aider | 68 | — | 유지보수 모드 지속 |
-| Cursor | 1 | — | OpenAI 차단 12일째, 92일 연속 바닥 |
+| Cursor | 1 | — | OpenAI 차단 12일째, 123일 연속 바닥 |
 | Gemini CLI | 1 | — | Antigravity 전환 완료 |
 
 5개 도구 99점 동률 8일째. Copilot의 대규모 모델 교체가 이번 주의 가장 큰 구조 변화다 — 구세대가 빠지고 Gemini 4 Carbon과 MAI Code 2가 들어오면서 선택지가 완전히 새로워졌다.

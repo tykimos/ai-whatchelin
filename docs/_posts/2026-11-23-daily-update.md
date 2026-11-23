@@ -23,7 +23,7 @@ Anthropic (ANT) has stabilized around $99 after opening at $111.50 on its IPO de
 
 ## Cursor: OpenAI Blackout Day 12
 
-OpenAI cut off model access to Cursor (SpaceXAI subsidiary) on November 12, and the blackout continues into day 12([ClickUp](https://clickup.com/learn/topic/ai/tools/cursor/news/)). Cursor 3 runs on its in-house Composer 2.5 and xAI models, but it has sat at the bottom of the popularity rankings for 92 consecutive days with no sign of recovery.
+OpenAI cut off model access to Cursor (SpaceXAI subsidiary) on November 12, and the blackout continues into day 12([ClickUp](https://clickup.com/learn/topic/ai/tools/cursor/news/)). Cursor 3 runs on its in-house Composer 2.5 and xAI models, but it has sat at the bottom of the popularity rankings for 123 consecutive days with no sign of recovery.
 
 ## Market Pulse
 
@@ -37,7 +37,7 @@ OpenAI cut off model access to Cursor (SpaceXAI subsidiary) on November 12, and 
 | GH Copilot | 99 | — | Old models out, two new models in |
 | Windsurf | 88 | — | Devin Desktop steady operations |
 | Aider | 68 | — | Maintenance mode continues |
-| Cursor | 1 | — | OpenAI blackout day 12, 92 days at bottom |
+| Cursor | 1 | — | OpenAI blackout day 12, 123 days at bottom |
 | Gemini CLI | 1 | — | Antigravity transition complete |
 
 The five-way 99 tie extends to day 8. Copilot's mass model rotation is this week's biggest structural change — out with the old generation, in with Gemini 4 Carbon and MAI Code 2, giving developers a completely refreshed selection.

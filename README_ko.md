@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.11.22-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.11.23-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2822,10 +2822,10 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["11-09", "11-10", "11-11", "11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22"]
+    x-axis ["11-10", "11-11", "11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [87, 89, 91, 93, 95, 97, 98, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [89, 91, 93, 95, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2844,7 +2844,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-22 하이라이트:** Microsoft MAI Code 2 Ignite에서 출시 — GPT-6.1 Sol 대비 98% 성능에 40% 비용 주장. Google Stitch Loop 웨이트리스트 오픈. Gemini 4 Neon 5일째. ANT IPO 데뷔 30%+ 급등. 5개 도구 99점 동률 7일째. Cursor 차단 11일째.
+> **2026-11-23 하이라이트:** GPT-6.2 Astra, 외부 배포 모델 최초로 "High" 자기개선 임계값 달성. Copilot에서 Opus 4.8·Opus 5·GPT-5.6 Terra 퇴출, Gemini 4 Carbon·MAI Code 2 추가. ANT $99 부근 안착 5일차. 5개 도구 99점 동률 8일째. Cursor 차단 12일째.
 
 ---
 

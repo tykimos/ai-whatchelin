@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.11.22-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.11.23-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2852,10 +2852,10 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["11-09", "11-10", "11-11", "11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22"]
+    x-axis ["11-10", "11-11", "11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23"]
     y-axis "Popularity Score" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [87, 89, 91, 93, 95, 97, 98, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [89, 91, 93, 95, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2874,7 +2874,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-22 Highlight:** Microsoft MAI Code 2 launches at Ignite — claims 98% of GPT-6.1 Sol at 40% cost. Google Stitch Loop waitlist opens. Gemini 4 Neon day 5. ANT surges 30%+ in IPO debut. Five-way 99 tie day 7. Cursor blackout day 11.
+> **2026-11-23 Highlight:** GPT-6.2 Astra hits "High" self-improvement threshold — first externally deployed model to do so. Copilot retires Opus 4.8, Opus 5, GPT-5.6 Terra; adds Gemini 4 Carbon and MAI Code 2. ANT settles near $99 on day 5. Five-way 99 tie day 8. Cursor blackout day 12.
 
 ---
 
@@ -3338,7 +3338,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-11-22)
+### Fact Check Log (2026-11-23)
 
 All pricing information has been directly verified from each service's official website.
 

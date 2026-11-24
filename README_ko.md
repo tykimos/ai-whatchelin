@@ -2850,7 +2850,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-24 하이라이트:** Anthropic Claude Ship 베타 출시 — AI 에이전트가 PR 리뷰·수정·승인까지 처리. Cognition Devin Bots·Replit Missions 에이전트 군단 경쟁 가열. ANT IPO 6일차 $95–99 등락. Cursor OpenAI 차단 13일째(124일 연속 바닥). 5개 도구 99점 동률 9일째.
+> **2026-11-24 하이라이트:** Anthropic Claude Ship 베타 출시 — AI 에이전트가 PR 리뷰·수정·승인까지 처리. Terminal-Bench 4.1에서 Copilot이 Claude Code 역전(71.2% vs 65.8%). Sonnet 4.5 11/30 퇴역 예정. Cognition Devin Bots·Replit Missions 에이전트 군단 경쟁 가열. ANT IPO 6일차 $95–99 등락. Cursor OpenAI 차단 13일째(124일 연속 바닥). 6개 도구 99점 동률 9일째.
 
 ---
 

@@ -2880,7 +2880,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-24 Highlight:** Anthropic launches Claude Ship beta — AI agents now review, fix, and approve PRs. Cognition's Devin Bots and Replit Missions join the agent swarm race. ANT IPO day 6, settling $95–99. Cursor OpenAI blackout day 13 (124 days at bottom). Five-way 99 tie day 9.
+> **2026-11-24 Highlight:** Anthropic launches Claude Ship beta — AI agents now review, fix, and approve PRs. Copilot reclaims benchmark crown on Terminal-Bench 4.1 (71.2% vs Claude Code 65.8%). Sonnet 4.5 retiring Nov 30. Cognition's Devin Bots and Replit Missions join the agent swarm race. ANT IPO day 6, settling $95–99. Cursor OpenAI blackout day 13 (124 days at bottom). Six-way 99 tie day 9.
 
 ---
 

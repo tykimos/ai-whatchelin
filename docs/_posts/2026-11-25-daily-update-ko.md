@@ -23,7 +23,7 @@ Anthropic(ANT)이 11/19 Nasdaq 상장 후 첫 주를 마감했다. $83 공모가
 
 ## Claude Code · Codex CLI 근황
 
-Claude Code v2.1.327은 Code Mode 에이전트 팀 활성화와 원격 세션 실시간 스트리밍을 추가했다([Claude World](https://claude-world.com/articles/claude-code-november-2026-whats-new/)). Codex CLI는 v0.169~v0.170으로 멀티 사이드챗 탭, 인터미널 프로바이더 셋업, WebRTC 음성 통화 기능이 추가됐다([Havoptic](https://www.havoptic.com/releases/openai-codex/2026/11)). Cursor는 OpenAI 모델 차단 14일째이며 125일 연속 인기도 최하위다.
+Claude Code v2.1.327은 Code Mode 에이전트 팀 활성화와 원격 세션 실시간 스트리밍을 추가했다([Claude World](https://claude-world.com/articles/claude-code-november-2026-whats-new/)). Codex CLI는 v0.169~v0.170으로 멀티 사이드챗 탭, 인터미널 프로바이더 셋업, WebRTC 음성 통화 기능이 추가됐다([Havoptic](https://www.havoptic.com/releases/openai-codex/2026/11)). Google Jules는 11/11부터 읽기 전용 모드에 진입했으며 12/31 완전 종료 예정이다 — 기존 세션 데이터는 Antigravity로 자동 마이그레이션되지 않으므로 수동 내보내기가 필요하다([TechRadar](https://techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to)). Cursor는 OpenAI 모델 차단 14일째이며 125일 연속 인기도 최하위다.
 
 ## 마켓 펄스
 
@@ -36,7 +36,7 @@ Claude Code v2.1.327은 Code Mode 에이전트 팀 활성화와 원격 세션 �
 | Claude AI | 99 | — | Sonnet 4.5→5.5 전환 D-5 |
 | GH Copilot | 99 | — | Gemini 4 모델 3종 11월 추가 완료 |
 | Windsurf | 88 | — | Devin Desktop 안정 운영 |
-| Aider | 68 | — | 유지보수 모드, 39K+ 스타 |
+| Aider | 68 | — | 유지보수 모드, 44K 스타 |
 | Cursor | 1 | — | OpenAI 차단 14일째, 125일 연속 바닥 |
 | Gemini CLI | 1 | — | 11/1 퇴역, Antigravity로 전환 완료 |
 

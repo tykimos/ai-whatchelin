@@ -23,7 +23,7 @@ Anthropic (ANT) completed its first week of Nasdaq trading after listing on Nove
 
 ## Claude Code and Codex CLI Updates
 
-Claude Code v2.1.327 added Code Mode with agent teams enabled and real-time streaming for remote sessions([Claude World](https://claude-world.com/articles/claude-code-november-2026-whats-new/)). Codex CLI reached v0.169–v0.170, adding multiple side-chat tabs, in-terminal provider setup, and WebRTC voice calls([Havoptic](https://www.havoptic.com/releases/openai-codex/2026/11)). Cursor's OpenAI model blackout is now at day 14, marking 125 consecutive days at the bottom of the rankings.
+Claude Code v2.1.327 added Code Mode with agent teams enabled and real-time streaming for remote sessions([Claude World](https://claude-world.com/articles/claude-code-november-2026-whats-new/)). Codex CLI reached v0.169–v0.170, adding multiple side-chat tabs, in-terminal provider setup, and WebRTC voice calls([Havoptic](https://www.havoptic.com/releases/openai-codex/2026/11)). Google Jules entered read-only mode on November 11 and will shut down completely on December 31 — session data does not auto-migrate to Antigravity, so manual export is required([TechRadar](https://techradar.com/pro/google-kills-off-jules-its-ai-coding-agent-which-promised-to-do-all-the-jobs-you-didnt-want-to)). Cursor's OpenAI model blackout is now at day 14, marking 125 consecutive days at the bottom of the rankings.
 
 ## Market Pulse
 
@@ -36,7 +36,7 @@ Claude Code v2.1.327 added Code Mode with agent teams enabled and real-time stre
 | Claude AI | 99 | — | Sonnet 4.5→5.5 transition D-5 |
 | GH Copilot | 99 | — | 3 Gemini 4 models added in Nov |
 | Windsurf | 88 | — | Devin Desktop stable operations |
-| Aider | 68 | — | Maintenance mode, 39K+ GitHub stars |
+| Aider | 68 | — | Maintenance mode, 44K GitHub stars |
 | Cursor | 1 | — | OpenAI blackout day 14, 125 days at bottom |
 | Gemini CLI | 1 | — | Retired Nov 1, Antigravity transition done |
 

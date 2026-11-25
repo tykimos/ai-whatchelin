@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.11.24-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.11.25-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2828,10 +2828,10 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["11-11", "11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23", "11-24"]
+    x-axis ["11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23", "11-24", "11-25"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [91, 93, 95, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [93, 95, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2850,7 +2850,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-24 하이라이트:** Anthropic Claude Ship 베타 출시 — AI 에이전트가 PR 리뷰·수정·승인까지 처리. Terminal-Bench 4.1에서 Copilot이 Claude Code 역전(71.2% vs 65.8%). Sonnet 4.5 11/30 퇴역 예정. Cognition Devin Bots·Replit Missions 에이전트 군단 경쟁 가열. ANT IPO 6일차 $95–99 등락. Cursor OpenAI 차단 13일째(124일 연속 바닥). 6개 도구 99점 동률 9일째.
+> **2026-11-25 하이라이트:** Sonnet 4.5 퇴역 D-5(11/30) — 토크나이저 변경으로 무점검 전환 위험. Copilot 11월 세 번째 Gemini 4 모델(Neon) 추가, Carbon/Hydrogen/Neon 전부 GA. ANT IPO 1주차 완료, $95–99 등락. Cursor OpenAI 차단 14일째(125일 연속 바닥). 6개 도구 99점 동률 10일째.
 
 ---
 

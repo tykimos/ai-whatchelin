@@ -2833,7 +2833,7 @@ xychart-beta
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [93, 95, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+    line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2844,13 +2844,13 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-1―-E74C3C?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-99―-27AE60?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Windsurf-89↑-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-25 하이라이트:** Sonnet 4.5 퇴역 D-5(11/30) — 토크나이저 변경으로 무점검 전환 위험. Copilot 11월 세 번째 Gemini 4 모델(Neon) 추가, Carbon/Hydrogen/Neon 전부 GA. ANT IPO 1주차 완료, $95–99 등락. Cursor OpenAI 차단 14일째(125일 연속 바닥). 6개 도구 99점 동률 10일째.
+> **2026-11-25 하이라이트:** Sonnet 4.5 퇴역 D-5(11/30) — 토크나이저 변경으로 무점검 전환 위험. Cognition, 멀티에이전트 코딩 오케스트레이션 'Devin Bots' 출시. Copilot, Gemini 4 모델 3종(Carbon/Hydrogen/Neon) GA 완료. ANT IPO 1주차 완료, $95–99 등락. Windsurf ↑89, Devin Bots 모멘텀 반영. Cursor OpenAI 차단 14일째(125일 연속 바닥).
 
 ---
 

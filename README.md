@@ -2863,7 +2863,7 @@ xychart-beta
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "GH Copilot" [93, 95, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88]
+    line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2874,13 +2874,13 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Claude_Code-99―-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-1―-E74C3C?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_GH_Copilot-99―-27AE60?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Windsurf-88―-3498DB?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Windsurf-89↑-3498DB?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-99―-27AE60?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-1―-E74C3C?style=flat-square" alt="Gemini CLI">
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-25 Highlight:** Sonnet 4.5 retirement D-5 (Nov 30) — tokenizer changes make blind model swaps risky. Copilot adds 3rd Gemini 4 model (Neon) in November; Carbon/Hydrogen/Neon now all GA. ANT IPO week 1 complete, $95–99 range. Cursor OpenAI blackout day 14 (125 days at bottom). Six-way 99 tie day 10.
+> **2026-11-25 Highlight:** Sonnet 4.5 retirement D-5 (Nov 30) — tokenizer changes make blind model swaps risky. Cognition launches Devin Bots for persistent multi-agent coding orchestration. Copilot adds 3rd Gemini 4 model (Neon); Carbon/Hydrogen/Neon all GA. ANT IPO week 1 complete, $95–99 range. Windsurf ↑89 on Devin Bots momentum. Cursor OpenAI blackout day 14 (125 days at bottom).
 
 ---
 

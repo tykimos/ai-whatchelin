@@ -2850,7 +2850,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-26 하이라이트:** 11/30 이중 마감 — Sonnet 4.5 퇴역 D-4 + Opus 4.8 Fast Mode 제거 D-4. GPT-6.2 Astra 독립 벤치마크 환각률 59% 논란. Copilot Gemini 4 Carbon 12/1부터 가격 2배($4/$20 MTok). Claude Code v2.1.327 Code Mode 에이전트 팀 추가. Codex CLI v0.170 WebRTC 음성 통화 지원. Cursor OpenAI 차단 15일째(126일 연속 바닥).
+> **2026-11-26 하이라이트:** 11/30 이중 마감 — Sonnet 4.5 퇴역 D-4 + Opus 4.8 Fast Mode 제거 D-4. OpenAI 12월 ChatGPT-Codex 사용량 통합 발표(Plus/Pro/Business). 11/25 OpenAI 장애(4.5시간). GPT-6.2 Astra 환각률 59%. Copilot Gemini 4 Carbon 12/1 가격 2배. Cursor OpenAI 차단 15일째(126일 연속 바닥).
 
 ---
 
@@ -3304,7 +3304,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-11-24)
+### 팩트 체크 로그 (2026-11-26)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 

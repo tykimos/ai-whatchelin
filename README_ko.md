@@ -2850,7 +2850,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-25 하이라이트:** Sonnet 4.5 퇴역 D-5(11/30) — 토크나이저 변경으로 무점검 전환 위험. Cognition, 멀티에이전트 코딩 오케스트레이션 'Devin Bots' 출시. Copilot, Gemini 4 모델 3종(Carbon/Hydrogen/Neon) GA 완료. ANT IPO 1주차 완료, $95–99 등락. Windsurf ↑89, Devin Bots 모멘텀 반영. Cursor OpenAI 차단 14일째(125일 연속 바닥).
+> **2026-11-26 하이라이트:** 11/30 이중 마감 — Sonnet 4.5 퇴역 D-4 + Opus 4.8 Fast Mode 제거 D-4. GPT-6.2 Astra 독립 벤치마크 환각률 59% 논란. Copilot Gemini 4 Carbon 12/1부터 가격 2배($4/$20 MTok). Claude Code v2.1.327 Code Mode 에이전트 팀 추가. Codex CLI v0.170 WebRTC 음성 통화 지원. Cursor OpenAI 차단 15일째(126일 연속 바닥).
 
 ---
 

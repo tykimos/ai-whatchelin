@@ -2880,7 +2880,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-25 Highlight:** Sonnet 4.5 retirement D-5 (Nov 30) — tokenizer changes make blind model swaps risky. Cognition launches Devin Bots for persistent multi-agent coding orchestration. Copilot adds 3rd Gemini 4 model (Neon); Carbon/Hydrogen/Neon all GA. ANT IPO week 1 complete, $95–99 range. Windsurf ↑89 on Devin Bots momentum. Cursor OpenAI blackout day 14 (125 days at bottom).
+> **2026-11-26 Highlight:** Double deadline Nov 30 — Sonnet 4.5 retirement D-4 + Opus 4.8 Fast Mode removal D-4. GPT-6.2 Astra draws scrutiny for 59% hallucination rate in independent benchmarks. Copilot's Gemini 4 Carbon price doubles Dec 1 ($4/$20 MTok). Claude Code v2.1.327 adds Code Mode agent teams. Codex CLI v0.170 brings WebRTC voice calls. Cursor OpenAI blackout day 15 (126 days at bottom).
 
 ---
 

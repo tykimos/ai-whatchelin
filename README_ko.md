@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.11.26-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.11.27-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2828,12 +2828,12 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23", "11-24", "11-25", "11-26"]
+    x-axis ["11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23", "11-24", "11-25", "11-26", "11-27"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [95, 97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89]
+    line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2850,7 +2850,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-26 하이라이트:** 11/30 이중 마감 — Sonnet 4.5 퇴역 D-4 + Opus 4.8 Fast Mode 제거 D-4. OpenAI 12월 ChatGPT-Codex 사용량 통합 발표(Plus/Pro/Business). 11/25 OpenAI 장애(4.5시간). GPT-6.2 Astra 환각률 59%. Copilot Gemini 4 Carbon 12/1 가격 2배. Cursor OpenAI 차단 15일째(126일 연속 바닥).
+> **2026-11-27 하이라이트:** D-3 3사 마감 — Sonnet 4.5 퇴역 + Opus 4.8 Fast Mode 제거(11/30), Copilot Carbon 가격 2배(12/1). OpenAI 12월 사용량 통합 세부 조건 미공개; 반발 후 Pro 한도 2배 약속. CloudBees EU 설문: 71% 개발 속도 향상, 34% AI 코드 리뷰에 동일 시간 소모. Cursor OpenAI 차단 16일째(127일 연속 바닥).
 
 ---
 

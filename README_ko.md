@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-11-21</sub>
+  <sub>마지막 업데이트: 2026-11-28</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.11.27-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.11.28-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -2828,12 +2828,12 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23", "11-24", "11-25", "11-26", "11-27"]
+    x-axis ["11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23", "11-24", "11-25", "11-26", "11-27", "11-28"]
     y-axis "인기 점수" 1 --> 100
     line "Claude Code" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
-    line "GH Copilot" [97, 98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
+    line "GH Copilot" [98, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Cursor" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89]
+    line "Windsurf" [88, 88, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89]
     line "Codex CLI" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
     line "Gemini CLI" [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     line "Antigravity" [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99]
@@ -2850,7 +2850,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/●_Antigravity-99―-27AE60?style=flat-square" alt="Antigravity">
 </p>
 
-> **2026-11-27 하이라이트:** D-3 3사 마감 — Sonnet 4.5 퇴역 + Opus 4.8 Fast Mode 제거(11/30), Copilot Carbon 가격 2배(12/1). OpenAI 12월 사용량 통합 세부 조건 미공개; 반발 후 Pro 한도 2배 약속. CloudBees EU 설문: 71% 개발 속도 향상, 34% AI 코드 리뷰에 동일 시간 소모. Cursor OpenAI 차단 16일째(127일 연속 바닥).
+> **2026-11-28 하이라이트:** D-2 Anthropic 이중 마감 — Sonnet 4.5 퇴역 + Opus 4.8 Fast Mode 제거(11/30), Copilot Carbon 가격 2배 D-3(12/1). GPT-6.2 Astra는 OpenAI 최초 '고등 자기개선' 임계치 모델; Sol은 Astra 대비 1/5 비용으로 근접 성능. Cognition Devin Bots로 지속적 멀티 에이전트 오케스트레이션 도입. 블랙 프라이데이: 주요 AI 도구 할인 없음. Cursor OpenAI 차단 17일째(128일 연속 바닥).
 
 ---
 
@@ -3304,7 +3304,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-11-27)
+### 팩트 체크 로그 (2026-11-28)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 

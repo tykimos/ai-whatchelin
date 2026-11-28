@@ -3,8 +3,8 @@ title: "D-2: Sonnet 4.5 퇴역 임박, GPT-6.2 Astra가 '자기개선' 문턱을
 date: 2026-11-28
 lang: ko
 categories: [news]
-tags: [anthropic, openai, copilot, gpt-6-2, devin, sonnet-4-5, opus-4-8, black-friday]
-excerpt: "Sonnet 4.5 퇴역과 Opus 4.8 Fast Mode 제거까지 48시간. GPT-6.2 Astra는 OpenAI 최초 '고등 자기개선' 임계치 통과 모델로 주목받고, Cognition은 Devin Bots로 멀티 에이전트 오케스트레이션에 본격 진입했다."
+tags: [anthropic, openai, copilot, gpt-6-2, devin, sonnet-4-5, opus-4-8, black-friday, claude-ship, gemini-4-neon]
+excerpt: "Sonnet 4.5 퇴역과 Opus 4.8 Fast Mode 제거까지 48시간. Claude Ship 베타가 PR 자동 리뷰·수정에 나서고, Copilot Fusion 할인과 Gemini 4 Carbon 도입가가 D-2에 함께 만료된다."
 ---
 
 11월 30일 Anthropic 이중 마감까지 48시간, 12월 1일 Copilot Carbon 가격 인상까지 72시간. 추수감사절 연휴와 블랙 프라이데이가 겹치며 북미 개발팀 대부분이 자리를 비운 사이, 프로덕션 감사의 실질적 마지막 기회가 빠르게 닫히고 있다.
@@ -21,9 +21,13 @@ Sonnet 4.5(`claude-sonnet-4-5-20250929`)의 API 퇴역까지 이틀 남았다([A
 
 Cognition이 11월 17일 Devin Bots를 출시했다([Fortune](https://fortune.com/2026/11/17/exclusive-cognition-bets-on-devin-bots-coding-agents-in-challenge-to-anthropics-duet-and-openais-dots/)). Devin Bot은 며칠에서 몇 주에 걸친 프로젝트를 관리하는 상시 에이전트로, iOS 앱 업데이트 시 대응하는 Android 작업을 자동 할당하는 식의 활용이 가능하다([AI Weekly](https://aiweekly.co/alerts/cognition-launches-devin-bots-to-oversee-teams-of-devin-agents)). Fortune은 이를 Anthropic Duet과 OpenAI Dots에 대한 직접적 도전으로 평가했다.
 
-## 블랙 프라이데이: AI 코딩 도구 할인은 없다
+## Claude Ship 베타: AI가 PR을 리뷰하고 직접 고친다
 
-추수감사절 당일이자 블랙 프라이데이 전야, 주요 AI 코딩 도구에서 할인 행사는 확인되지 않았다([zPlatform](https://zplatform.ai/ai-deals/best-black-friday-ai-deals-2026/)). Claude, ChatGPT, Copilot 등 프론티어 도구는 전통적으로 블랙 프라이데이 할인을 하지 않으며, 무료 체험이 사실상 유일한 '딜'이다.
+Anthropic이 11월 23일 Claude Ship 베타를 출시했다. 일상적인 코드 변경사항을 AI 에이전트가 리뷰·수정·승인하는 도구로, 초기 도입 기업들이 프로덕션에서 테스트 중이다. Claude Code의 기존 코드 리뷰 기능이 PR 단위 버그 탐지에 집중했다면, Ship은 반복적 변경의 전체 사이클을 자동화하는 방향으로 진화한 형태다.
+
+## 블랙 프라이데이: 프론티어 도구 할인은 없지만, 마감 임박 프로모션 주의
+
+추수감사절 당일이자 블랙 프라이데이 전야, 주요 AI 코딩 도구에서 신규 할인 행사는 확인되지 않았다([zPlatform](https://zplatform.ai/ai-deals/best-black-friday-ai-deals-2026/)). 다만 기존 프로모션 마감이 임박해 있다: GitHub Copilot Fusion의 30% 모델 비용 할인이 11월 30일 종료되고([GitHub Docs](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing)), Gemini 4 Carbon의 도입 가격($2/$10 per MTok)도 12월 1일부터 $4/$20으로 2배 인상된다([eWeek](https://www.eweek.com/news/google-gemini-4-carbon-api-pricing/)). 한편 Gemini 4 Neon이 11월 18일 Copilot에서 GA 되어, Carbon의 가격 인상 전 저비용 대안으로 주목받고 있다([GitHub Blog](https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot)).
 
 ## 마켓 펄스
 

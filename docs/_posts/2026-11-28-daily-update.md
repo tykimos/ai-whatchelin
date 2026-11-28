@@ -3,8 +3,8 @@ title: "D-2: Sonnet 4.5 Retirement Looms as GPT-6.2 Astra Crosses the Self-Impro
 date: 2026-11-28
 lang: en
 categories: [news]
-tags: [anthropic, openai, copilot, gpt-6-2, devin, sonnet-4-5, opus-4-8, black-friday]
-excerpt: "Forty-eight hours until Sonnet 4.5 retires and Opus 4.8 fast mode disappears. GPT-6.2 Astra is OpenAI's first externally deployed model to meet the 'High' self-improvement threshold, and Cognition's Devin Bots bring persistent multi-agent orchestration."
+tags: [anthropic, openai, copilot, gpt-6-2, devin, sonnet-4-5, opus-4-8, black-friday, claude-ship, gemini-4-neon]
+excerpt: "Forty-eight hours until Sonnet 4.5 retires and Opus 4.8 fast mode disappears. Claude Ship beta automates PR review-fix-approve cycles, while Copilot Fusion's discount and Gemini 4 Carbon's intro pricing both expire on D-2."
 ---
 
 Forty-eight hours remain until Anthropic's double deadline on November 30, and seventy-two hours until Copilot Carbon's price hike on December 1. With Thanksgiving and Black Friday keeping most North American dev teams away from their desks, the practical window for production audits is closing fast.
@@ -21,9 +21,13 @@ Released November 17, GPT-6.2 Astra is the first externally deployed model to me
 
 Cognition released Devin Bots on November 17([Fortune](https://fortune.com/2026/11/17/exclusive-cognition-bets-on-devin-bots-coding-agents-in-challenge-to-anthropics-duet-and-openais-dots/)). These are persistent agents that manage teams of Devin coding agents on projects lasting days or weeks — for example, automatically assigning Android counterpart tasks when an iOS app is updated([AI Weekly](https://aiweekly.co/alerts/cognition-launches-devin-bots-to-oversee-teams-of-devin-agents)). Fortune positioned the launch as a direct challenge to Anthropic's Duet and OpenAI's Dots always-on agent offerings.
 
-## Black Friday: No AI Coding Tool Discounts in Sight
+## Claude Ship Beta: AI Agents That Review, Fix, and Approve PRs
 
-On Thanksgiving Day and Black Friday eve, no major AI coding tool discounts have surfaced([zPlatform](https://zplatform.ai/ai-deals/best-black-friday-ai-deals-2026/)). Frontier tools like Claude, ChatGPT, and Copilot traditionally skip Black Friday — free trials remain the only real "deal."
+Anthropic launched Claude Ship beta on November 23. The tool deploys AI agents that review, fix, and approve routine code changes — early adopters are already testing it in production. Where Claude Code's existing code review focused on per-PR bug detection, Ship automates the full cycle of repetitive changes.
+
+## Black Friday: No New Deals, but Expiring Promos Need Attention
+
+On Thanksgiving Day and Black Friday eve, no new AI coding tool discounts have surfaced([zPlatform](https://zplatform.ai/ai-deals/best-black-friday-ai-deals-2026/)). However, two existing promotions are about to expire: GitHub Copilot Fusion's 30% model-cost discount ends November 30([GitHub Docs](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing)), and Gemini 4 Carbon's introductory pricing ($2/$10 per MTok) doubles to $4/$20 on December 1([eWeek](https://www.eweek.com/news/google-gemini-4-carbon-api-pricing/)). Meanwhile, Gemini 4 Neon went GA in Copilot on November 18, offering a lower-cost alternative as Carbon prices rise([GitHub Blog](https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot)).
 
 ## Market Pulse
 
